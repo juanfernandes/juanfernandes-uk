@@ -15,7 +15,7 @@ module.exports = function(eleventyConfig) {
   // only content in the `posts/` directory
   eleventyConfig.addCollection("posts", function(collection) {
     return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.startsWith('./posts');
+      return item.inputPath.startsWith('./blog');
     });
   });
 
