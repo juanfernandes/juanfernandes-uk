@@ -1,0 +1,34 @@
+/* $_Gallery
+================================================ */
+.gallery {
+  .one:nth-child(16n+1) {
+      margin-left: 0;
+  }
+  .two:nth-child(8n+1) {
+      margin-left: 0;
+  }
+  .three:nth-child(5n+1) {
+      margin-left: 0;
+  }
+  .four:nth-child(4n+1) {
+      margin-left: 0;
+  }
+  .five:nth-child(3n+1) {
+      margin-left: 0;
+  }
+  .six:nth-child(2n+1),
+  .seven:nth-child(2n+1),
+  .eight:nth-child(2n+1) {
+      margin-left: 0;
+  }
+  .nine:nth-child(n+1),
+  .ten:nth-child(n+1),
+  .eleven:nth-child(n+1),
+  .twelve:nth-child(n+1),
+  .thirteen:nth-child(n+1),
+  .fourteen:nth-child(n+1),
+  .fifteen:nth-child(n+1),
+  .sixteen:nth-child(n+1) {
+      margin-left: 0;
+  }
+}

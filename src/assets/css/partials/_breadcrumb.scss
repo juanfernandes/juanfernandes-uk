@@ -1,0 +1,16 @@
+/* $_Breadcrumb
+================================================== */
+.breadcrumb {
+  margin: 0 0 1.125em;
+  list-style: none;
+  padding: 0.4375em 0.875em;
+
+  li {
+    display: inline-block;
+  }
+
+  .divider {
+    color: #999;
+    padding: 0 5px;
+  }
+}

@@ -1,0 +1,41 @@
+/* Fluid media
+================================================== */
+figure {
+  position: relative;
+
+  img,
+  object,
+  embed,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+object,
+embed,
+video,
+iframe,
+picture {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.flexiContainer {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+
+  iframe,
+  object,
+  embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}

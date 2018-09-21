@@ -1,0 +1,1592 @@
+/*
+  Icons
+*/
+$module: 'social-icons';
+.#{$module} {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    border: none;
+    display: block;
+  }
+
+  .#{$module}__icon {
+    display: inline-block;
+
+    svg {
+      height: 48px;
+      width: 48px;
+      fill: #fff;
+      transition: fill 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    }
+
+    a {
+      &:hover use,
+      &:focus use {
+        fill: #f9a339;
+      }
+    }
+  }
+
+  &--footer {
+    margin: 0 auto;
+    padding: 4em 0;
+    text-align: center;
+    width: 286px;
+
+    .#{$module}__icon {
+      margin: 0 10px;
+
+      path {
+        fill: #fff;
+      }
+
+      &:hover path,
+      &:focus path {
+        fill: #f9a339;
+      }
+    }
+  }
+
+  &--profile {
+    .#{$module}__icon {
+      path {
+        fill: #111;
+      }
+
+      &:hover path,
+      &:focus path {
+        fill: #f9a339;
+      }
+    }
+  }
+}//.social-icons
+
+.social-icon {
+  text-align: center;
+  margin: 0 auto;
+  width: 150px;
+
+  a {
+    display: block;
+    border: none;
+    height: 150px;
+    width: 150px;
+
+    svg {
+      transition: fill 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    }
+
+    &:hover svg {
+      fill: #fff;
+    }
+  }
+}
+
+/*
+  Page
+*/
+.page {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+/*
+  Containers
+*/
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+  width: 80%;
+
+  @media only screen and (min-width: 75em) { // 1200
+    width: 60%;
+  }
+
+  &--wide {
+    width: 80%;
+  }
+
+  &__heading {
+    text-align: center;
+  }
+}
+
+.main {
+  background: #fff;
+  padding: 54px 0;
+  position: relative;
+  z-index: 1;
+
+  &--no-pad {
+    padding: 0;
+  }
+}
+
+/*
+    Header
+*/
+.page__header {
+  height: 55px;
+  position: relative;
+  z-index: 2;
+
+  .logo {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    @media only screen and (min-width: 40em) { // 640
+      top: -5px;
+    }
+    @media only screen and (min-width: 60em) { // 960
+      top: -19px;
+    }
+
+    a {
+      background: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/juanfernandes-logo.svg") no-repeat;
+      background-size: 60px 60px;
+      border: none;
+      display: block;
+      height: 60px;
+      margin: 0 auto;
+      outline: none;
+      text-indent: -999em;
+      width: 60px;
+      @media only screen and (min-width: 40em) { // 640
+        background-size: 80px 80px;
+        height: 80px;
+        width: 80px;
+      }
+      @media only screen and (min-width: 60em) { // 960
+        background-size: 100px 100px;
+        height: 100px;
+        width: 100px;
+      }
+    }
+  }
+}
+
+/*
+  Navigation
+*/
+nav {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline;
+    }
+  }
+
+  .nav--main {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+    .nav__item {
+      &:first-child {
+        padding-left: 0
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+      padding: 20px 4px;
+      @media only screen and (min-width: 40em) { // 640
+        padding: 20px 6px;
+      }
+      @media only screen and (min-width: 60em) { // 960
+        padding: 24px 16px 16px;
+      }
+      display: inline-block;
+      margin-bottom: 0;
+      text-transform: uppercase;
+
+      a {
+        border: none;
+        color: $black;
+        font-weight: 700;
+        font-size: 12px;
+        font-size: 1.2rem;
+        @media only screen and (min-width: 60em) { // 960
+          font-size: 14px;
+          font-size: 1.4rem;
+        }
+        letter-spacing: 0.075em;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color .25s cubic-bezier(.25, .46, .45, .94) 0s;
+
+        &:hover,
+        &:focus {
+          color: #666;
+        }
+      }
+
+      &--active a {
+        color: #666;
+      }
+    }
+
+    .nav__logo {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+/*
+    Intro
+*/
+.intro {
+  background-color: $orange;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  box-shadow: inset 0 -40px 24px -38px rgba(0,0,0,.25);
+  color: #F2F2F2;
+  // height: calc(100vh - 55px);
+  padding: 122px 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+
+  @media only screen and (min-width: 60em) { // 960
+    background-attachment: fixed;
+  }
+
+  &__heading {
+    color: $white;
+    font-size: 40px;
+    font-size: 4rem;
+    font-weight: 300;
+    line-height: 1.125;
+    letter-spacing: -0.05em;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .6);
+
+    &--large {
+      display: block;
+      font-size: 80px;
+      font-size: 8rem;
+      font-weight: bold;
+      // margin-bottom: .5em;
+    }
+  }
+
+  &--sml {
+    padding: 20px 0;
+
+    .intro__heading,
+    .intro__heading--large {
+      margin-bottom: 0;
+    }
+  }
+
+  &--home {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://juanfernandes.uk/assets/imgs/photo-david-marcu-n-128.jpg");
+  }
+  &--contact {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://juanfernandes.uk/assets/imgs/3-pawel-kadysz.jpg");
+  }
+  &--work {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://juanfernandes.uk/assets/imgs/jeff-sheldon-photo-2.jpg");
+  }
+  &--about {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://juanfernandes.uk/assets/imgs/about-intro.jpg");
+    background-position: center bottom;
+  }
+  &--mclaren {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/mclaren-intro.jpg");
+  }
+  &--landrover {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/landrover-intro.jpg");
+  }
+  &--tomhartleyjnr {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/tomhartleyjnr-intro.jpg");
+  }
+  &--fourpoints {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/fourpoints-intro.jpg");
+  }
+  &--virginwines {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/virginwines-intro.jpg");
+  }
+  &--now {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/photo-by-luke-pamer-n-330.jpg");
+  }
+  &--blog {
+    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/12f0a18c.jpg");
+  }
+
+  &__content {
+    margin: 0 auto;
+    max-width: 64em;
+    padding: 0 1em;
+
+    // position: absolute;
+    // top: 30%;
+    // left: 0;
+    // width: 100%;
+
+    @media only screen and (min-width: 40em) { // 640
+      padding: 8em 1em;
+    }
+  }
+}
+
+.intro .actions {
+  margin-top: 3em;
+  text-align: center;
+}
+
+/*
+  Homepage
+*/
+.recent-work {
+  padding: 54px 0;
+
+  .content__heading {
+    color: $black;
+    margin-bottom: 40px;
+  }
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  .cols {
+    margin-left: 0;
+
+    @media only screen and (min-width: 60em) { // 960
+      margin-bottom: 0;
+      margin-left: 2%;
+    }
+  }
+
+  .project {
+    height: 200px;
+    margin: 0 auto 56px auto;
+    position: relative;
+    text-align: center;
+    width: 200px;
+
+    @media only screen and (min-width: 60em) {
+      margin: 0 auto 24px auto;
+    }
+
+    a {
+      border: 0;
+      display: block;
+
+      &:hover,
+      &:focus {
+        .project__content-wrapper {
+          box-shadow:
+            inset 0 0 0 100px rgba(249,163,57,.6),
+            0 1px 2px rgba(0,0,0,0.1);
+        }
+      }
+    }
+
+    &__img {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
+
+    &__content-wrapper {
+      border-radius: 50%;
+      box-shadow:
+        inset 0 0 0 16px rgba(249,163,57,.6),
+        0 1px 2px rgba(0,0,0,0.1);
+      cursor: pointer;
+      height: 100%;
+      position: absolute;
+      text-align: center;
+      transition: all .4s ease-in-out;
+      top: 0;
+      width: 100%;
+    }
+
+    &__content {
+      background: rgba(249,163,57, 0.8);
+      border-radius: 50%;
+      display: table;
+      height: inherit;
+      margin-bottom: 1em;
+      opacity: 0;
+      transition: all 0.4s ease-in-out;
+      transform: scale(0);
+      width: inherit;
+      -webkit-backface-visibility: hidden;
+
+      img {
+        position: absolute;
+        left: calc(50% - 75px);
+        top: calc(50% - 40px);
+        width: 150px;
+      }
+    }
+
+    &__heading {
+      display: block;
+      font-size: 20px;
+      font-size: 2rem;
+      margin-top: 210px;
+      margin-bottom: 0;
+      text-transform: uppercase;
+      width: auto;
+    }
+  } // .project
+} // .recent-work
+
+.section {
+  &--intro {
+    padding-bottom: 54px;
+    text-align: center;
+
+    p {
+      font-size: 26px;
+      font-size: 2.6rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* Skills */
+.skills {
+  background: $orange url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/trianglify-2.jpg") bottom center no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  box-shadow: inset 0 -40px 24px -38px rgba(0,0,0,.25);
+  color: $black;
+  padding: 54px 0;
+  @media only screen and (min-width: 60em) { // 960
+    background-attachment: fixed;
+  }
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  .cols {
+    margin-left: 0;
+
+    @media only screen and (min-width: 60em) { // 960
+      margin-bottom: 0;
+    }
+  }
+
+  .content__heading {
+    color: $black;
+  }
+}
+
+.skill {
+  text-align: center;
+
+  &__icon {
+    margin: 0 auto;
+    width: 150px;
+  }
+
+  &__heading {
+    color: $black;
+    line-height: 1.2;
+    margin: -16px 0 0;
+  }
+}
+
+
+/*
+  Testimonials
+*/
+.testimonials {
+  > .content {
+    @media only screen and (min-width: 80em) { // 1280
+      width: 60%;
+    }
+  }
+
+  &--section {
+    background: $off-black url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/wood-planks.jpg") bottom center no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    box-shadow: inset 0 -40px 24px -38px rgba(0,0,0,.25);
+    color: $white;
+    padding: 54px 0;
+
+    @media only screen and (min-width: 60em) { // 960
+      background-attachment: fixed;
+    }
+
+    .content__heading {
+      color: $white;
+    }
+
+    ul,
+    .slick-slider {
+      margin-bottom: 0;
+    }
+
+    blockquote {
+      border-color: $orange;
+    }
+
+    cite {
+      margin-left: 22px;
+    }
+  }
+
+  .testimonial {
+    &:not(:last-child) {
+      margin-bottom: 6em;
+    }
+
+    blockquote {
+      border: 0;
+      position: relative;
+    }
+
+    cite {
+      font-size: 16px;
+      font-size: 1.6rem;
+      margin-left: 20px;
+    }
+
+    .text {
+      border-left: 4px solid $orange;
+      width: 100%;
+
+      @media only screen and (min-width: 40em) { // 640
+        float: left;
+        width: 70%;
+      }
+    }
+
+    .thumb {
+      text-align: center;
+      width: 100%;
+
+      @media only screen and (min-width: 40em) { // 640
+        float: right;
+        width: 30%;
+      }
+
+      img {
+        border-radius: 50%;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        max-width: 160px;
+
+        @media only screen and (min-width: 40em) { // 640
+          margin-top: 0;
+        }
+        @media only screen and (min-width: 60em) { // 960
+          max-width: 200px;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 60em) { // 960
+      &.odd {
+        .text {
+          float: right;
+        }
+        .thumb {
+          float: left;
+        }
+      }
+    }
+
+    cite {
+      display: block;
+    }
+  }
+}
+
+/*
+  Footer
+*/
+footer {
+  background: $orange url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/photo-justin-leibow-n-226.jpg") bottom center no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: $white;
+  min-height: 410px;
+  width: 100%;
+
+  .container {
+    background: linear-gradient(to bottom, transparent 0%, transparent 10%, rgba(0, 0, 0, .5) 100%) repeat scroll 0% 0% transparent;
+    padding: 100px 0;
+  }
+
+  .copyright {
+    display: block;
+    font-size: 12px;
+    font-size: 1.2rem;
+    border-top: 2px solid #F9A339;
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+
+    @media only screen and (min-width: 60em) { // 960
+      max-width: 640px;
+    }
+  }
+}
+
+@media only screen and (min-width: 60em) { // 960
+  footer {
+    background-attachment: fixed;
+  }
+}
+
+footer > .container > .sixteen {
+  margin: 0 auto;
+  bottom: 110px;
+  position: fixed;
+  z-index: 0;
+}
+
+.contact-me {
+  margin: 0 auto;
+  padding: 2em 0 2em 0;
+  text-align: center;
+
+  &__heading {
+    color: $white;
+    font-size: 30px;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
+  }
+}
+
+
+/*
+  WORK
+*/
+.work .row {
+  margin-bottom: 0;
+}
+
+.work .row .cols {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 40em) { // 640
+  .work .row .cols {
+    margin-bottom: 2%;
+  }
+}
+
+.work figure {
+  background: #3085A3;
+  border: 1px solid $orange;
+  cursor: pointer;
+  float: left;
+  height: 180px;
+  margin: 0 0 24px 0;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 28.750em) { // 460
+  .work figure {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 32.500em) { // 520
+  .work figure {
+    height: 320px;
+  }
+}
+
+@media only screen and (min-width: 40em) { // 640
+  .work figure {
+    height: 180px;
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 52.500em) { // 840
+  .work figure {
+    height: 220px;
+  }
+}
+
+@media only screen and (min-width: 64em) { // 1024
+  .work figure {
+    height: 380px;
+  }
+}
+
+.work figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: .8;
+}
+
+.work figure figcaption {
+  padding: 2em;
+  color: $white;
+  text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.work figure figcaption::before,
+.work figure figcaption::after {
+  pointer-events: none;
+}
+
+.work figure figcaption,
+.work figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.work figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.work figure p {
+  margin: 0;
+}
+
+.work figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+figure.effect {
+  background: -webkit-linear-gradient(-45deg, #34495E 0%,$orange 100%);
+  background: linear-gradient(-45deg, #34495E 0%,$orange 100%);
+}
+
+figure.effect img,
+figure.effect p {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+          transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect:hover img {
+  opacity: 0.1;
+  -webkit-transform: scale3d(2,2,1);
+          transform: scale3d(2,2,1);
+}
+
+figure.effect p {
+  border: 2px solid #fff;
+  bottom: 0;
+  font-size: 90%;
+  left: 0;
+  margin: 20px;
+  opacity: 0;
+  padding: 30px;
+  position: absolute;
+  text-transform: none;
+  -webkit-transform: scale3d(0.8,0.8,1);
+          transform: scale3d(0.8,0.8,1);
+  -webkit-transform-origin: 50% -100%;
+          transform-origin: 50% -100%;
+}
+
+figure.effect:hover p {
+  opacity: 1;
+  -webkit-transform: scale3d(1,1,1);
+  transform: scale3d(1,1,1);
+}
+
+.client img {
+  border: 1px solid #CCC;
+  display: block;
+  margin: 0 auto;
+}
+
+.companies {
+  padding-top: 54px;
+
+  .content__heading {
+    margin-bottom: 40px;
+  }
+
+  .row {
+    margin-bottom: 0;
+  }
+  .cols {
+    margin-bottom: 24px;
+
+    @media only screen and (min-width: 40em) { // 640
+      margin-bottom: 2%;
+    }
+  }
+
+  .four {
+    @media only screen and (min-width: 40em) { // 640
+      width: 23.5%;
+    }
+  }
+}
+
+
+/* Projects */
+.project {
+  &__heading {
+    text-align: center;
+    width: 100%;
+  }
+
+  &__sub-heading {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin-top: 0;
+  }
+}
+
+
+.project__meta {
+  color: #666;
+  font-size: 12px;
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+
+  &--client,
+  &--date {
+    display: block;
+  }
+}
+
+
+.nav--portfolio {
+  margin-bottom: 24px;
+
+  ul {
+    height: 32px;
+  }
+
+  a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border: none;
+  }
+
+  &__all {
+    margin: 0px auto;
+    width: 32px;
+  }
+
+  &__controls {
+    margin-top: -32px;
+  }
+
+  &__prev {
+    float: left;
+  }
+
+  &__next {
+    float: right;
+  }
+
+  svg {
+    fill: #4691f6;
+    height: 32px;
+    width: 32px;
+  }
+}
+
+
+.nav--portfolio .nav--portfolio__all:hover svg,
+.nav--portfolio .nav--portfolio__prev:hover svg,
+.nav--portfolio .nav--portfolio__next:hover svg,
+.nav--portfolio .nav--portfolio__all:focus svg,
+.nav--portfolio .nav--portfolio__prev:focus svg,
+.nav--portfolio .nav--portfolio__next:focus svg, {
+  fill: #F9A339;
+  transition: fill .25s cubic-bezier(.25, .46, .45, .94) 0s;
+}
+
+.nav--portfolio .nav--portfolio--disabled:hover svg,
+.nav--portfolio .nav--portfolio--disabled:focus svg,
+.nav--portfolio .nav--portfolio--disabled svg {
+  fill: #CCC;
+}
+
+@media only screen and (min-width: 40em) { // 640
+  .project__heading {
+    margin: 24px auto;
+    position: relative;
+    width: 400px;
+  }
+
+  .nav--portfolio {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  .nav--portfolio .nav--portfolio__all {
+    float: left;
+    margin-top: 7px;
+  }
+
+  .nav--portfolio .nav--portfolio__controls {
+    float: right;
+    margin-top: 7px;
+  }
+}
+
+@media only screen and (min-width: 56.250em) { /* 900  */
+  .project__heading {
+    width: auto;
+  }
+}
+
+/* Slider */
+.slick-loading {
+  .slick-list {
+    background: $white url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/ajax-loader.gif") center center no-repeat;
+  }
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+  background: rgba(0,0,0,.6);
+  border: none;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  height: 32px;
+  line-height: 0;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+  width: 32px;
+
+  .svg-icon {
+    fill: $white;
+  }
+}
+
+.slider:hover .slick-prev,
+.slider:focus .slick-prev,
+.slider:hover .slick-next,
+.slider:focus .slick-next {
+  background: rgba(0,0,0,.8);
+  border: none;
+  opacity: 1;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  .svg-icon {
+    fill: #F9A339;
+    transition: fill .25s cubic-bezier(.25, .46, .45, .94) 0s;
+  }
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+
+
+/* Dots */
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-dots {
+  display: block;
+  list-style: none;
+  margin: 2em 0 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+
+  li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+
+    button {
+      background-color: $black;
+      border: 0;
+      border-radius: 0;
+      cursor: pointer;
+      height: 15px;
+      opacity: 1;
+      outline: none;
+      padding: 0;
+      text-indent: -999999999999px;
+      width: 15px;
+      border-radius: 50%;
+    }
+  }
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li.slick-active button {
+  background-color: $orange;
+}
+
+/*
+  About
+*/
+.about .photo img {
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 40em) { // 640
+  .about .four {
+    width: 23.5%;
+  }
+}
+
+
+/*
+  Blog
+*/
+.blog {
+  .intro {
+    h1 {
+      margin: 0;
+    }
+    .intro__heading--large {
+      margin-bottom: 0;
+    }
+    .intro__content {
+      @media only screen and (min-width: 40em) { // 640
+        padding: 12em 1em;
+      }
+    }
+  }
+  .post-list {
+    margin: 0 3em 0 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      padding-bottom: 24px;
+    }
+
+    li:not(:last-child) {
+      border-bottom: 1px solid $orange;
+      margin-bottom: 24px;
+    }
+
+    .b-title {
+      margin-bottom: 0;
+      margin-top: 16px;
+
+      @media only screen and (min-width: 29.750em) { // 476
+        margin-top: 0;
+      }
+    }
+
+    .meta {
+      color: #666;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+  }
+
+  .post {
+    margin-right: 3em;
+
+    &__heading {
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+    .meta {
+      text-align: center;
+    }
+
+    &__img {
+      margin-bottom: 24px;
+    }
+
+    img {
+      display: block;
+      margin-bottom: 54px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .sidebar {
+    border-top: 2px solid #F89820;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4em;
+
+    &.cols {
+      margin-left: 0;
+    }
+
+    @media only screen and (min-width: 60em) { // 960
+      &.cols {
+        margin-left: 2%;
+      }
+    }
+  }
+
+  .meta {
+    .heading {
+      font-size: 18px;
+      font-size: 1.8rem;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+
+      &:first-of-type {
+        margin-top: .6em;
+      }
+    }
+
+    ul {
+      margin-left: 4px;
+    }
+  }
+
+  .share {
+    margin-bottom: 54px;
+
+    &__text {
+      display: block;
+      font-weight: bold;
+      height: 20px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.share {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.more::after {
+  content: '';
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid #333;
+  border-top: 6px solid transparent;
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.b-inner:hover .more {
+  animation: arrow-bounce 1s cubic-bezier(.4,.04,.4,1);
+}
+
+.b-inner:hover .more::after {
+  border-left: 6px solid $black;
+}
+
+@keyframes arrow-bounce {
+  60% {
+    transform:translateX(8px)
+  }
+  70% {
+    transform:translateX(-3px)
+  }
+  80% {
+    transform:translateX(2px)
+  }
+  90% {
+    transform:translateX(-1px)
+  }
+}
+
+/*
+  Contact
+*/
+.contact-social {
+  background: $orange url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/trianglify-1.jpg") center center no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: $black;
+  margin-bottom: 54px;
+  padding: 4em 0
+}
+
+@media only screen and (min-width: 60em) { // 960
+  .contact-social {
+    background-attachment: fixed;
+  }
+}
+
+.contact-social .row,
+.contact-social .row .cols {
+  margin-bottom: 0;
+}
+
+.contact-social .cols {
+  margin-left: 0;
+}
+
+@media only screen and (min-width: 60em) {// 960
+  .contact-social .cols {
+    margin-left: 2%;
+  }
+}
+
+.form-horizontal {
+  width: 100%;
+}
+
+@media only screen and (min-width: 40em) { // 640
+  .form-horizontal {
+    width: 50%;
+  }
+}
+
+/*
+  Block
+*/
+// <div class="block block--thumb">
+//   <div class="b-inner">
+//     <div class="b-text">
+//       <h3 class="b-title">Heading</h3>
+//       <p>Text</p>
+//     </div><!-- /.b-text -->
+//   </div><!-- /.b-inner -->
+// </div><!-- /.block.block--thumb -->
+
+.block {
+  overflow: hidden;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  &--thumb {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+
+    .b-inner {
+      border: 0;
+      display: table-row;
+      vertical-align: top;
+      overflow: hidden;
+      transition: all .25s cubic-bezier(.25, .46, .45, .94) 0s;
+    }
+  }
+}
+
+@media all and (min-width: 29.75em) {
+  .block--thumb {
+    .b-thumb {
+      display: table-cell;
+      padding-right: 1em;
+      max-width: 10em;
+      vertical-align: top;
+      width: 30%;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 29.75em) {
+  .block--thumb {
+    .b-text {
+      display: table-cell;
+      padding: 0;
+    }
+  }
+}
+
+.no-js {
+  .project {
+    img {
+      margin-bottom: 24px;
+    }
+  }
+}
+
+/* AMP CSS */
+    //   html {
+    //     background: #FFF;
+    //     color: #444;
+    //     font: 1em/1.5 sans-serif;
+    //     margin: 0;
+    //     height: 100%;
+    //     overflow-y: scroll; /* Forces vertical scrollbar */
+    //     padding: 0;
+    //     -webkit-overflow-scrolling: touch;
+    //     -webkit-tap-highlight-color: #f3f5f6;
+    //     -webkit-text-size-adjust: 100%;
+    //     -ms-text-size-adjust: 100%;
+    //   }
+    //   body {
+    //     background-attachment: cover;
+    //     background-color: transparent;
+    //     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    //     height: auto;
+    //     margin: 0;
+    //     padding: 0;
+    //     -webkit-font-smoothing: antialiased;
+    //     -webkit-text-size-adjust: 100%; /* Fix for webkit rendering */
+    //   }
+    //   p {
+    //     hyphenate: auto;
+    //     hyphenate-lines: 3;
+    //     margin: 0 0 24px;
+    //     word-spacing: .125em;
+    //   }
+    //   h1,
+    //   h2,
+    //   h3,
+    //   h4,
+    //   h5,
+    //   h6 {
+    //     color: rgb(51, 51, 51);
+    //     font-weight: bold;
+    //     margin: 0 0 24px;
+    //     text-rendering: optimizelegibility;
+    //   }
+
+    //   h1 a,
+    //   h2 a,
+    //   h3 a,
+    //   h4 a,
+    //   h5 a,
+    //   h6 a {
+    //     font-weight: inherit;
+    //   }
+
+    //   h1,
+    //   .alpha {
+    //     font-size: 36px;
+    //     font-size: 2.25rem;
+    //     line-height: 1.33333;
+    //   }
+
+    //   h2,
+    //   .beta {
+    //     font-size: 30px;
+    //     font-size: 1.875rem;
+    //     line-height: 1.6;
+    //   }
+
+    //   h3,
+    //   .gamma {
+    //     font-size: 24px;
+    //     font-size: 1.5rem;
+    //     line-height: 1.4;
+    //   }
+
+    //   h4,
+    //   .delta {
+    //     font-size: 20px;
+    //     font-size: 1.25rem;
+    //     line-height: 1.2;
+    //   }
+
+    //   h5,
+    //   .epsilon {
+    //     font-size: 16px;
+    //     font-size: 1rem;
+    //     line-height: 1.5;
+    //   }
+    //   .page {
+    //     margin: 0 auto;
+    //     width: 100%;
+    //     min-height: 100%;
+    //     z-index: 1;
+    //   }
+    //   .page__header {
+    //     height: 55px;
+    //     position: relative;
+    //     z-index: 2;
+    //   }
+    //   .page__header .logo {
+    //     position: relative;
+    //     top: 5px;
+    //   }
+    //   .page__header .logo a {
+    //     background: url(/assets/imgs/juanfernandes-logo.svg) no-repeat;
+    //     background-size: 100px 100px;
+    //     border: none;
+    //     display: block;
+    //     height: 100px;
+    //     margin: 0 auto;
+    //     text-indent: -999em;
+    //     width: 100px;
+    //   }
+    //   .intro {
+    //     background-attachment: scroll;
+    //     background-color: $orange;
+    //     background-position: center center;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     color: #F2F2F2;
+    //     margin-bottom: 24px;
+    //     padding: 122px 0;
+    //     position: relative;
+    //     text-align: center;
+    //     width: 100%;
+    //     z-index: 1;
+    //   }
+    //   .intro__content {
+    //     margin: 0 auto;
+    //     max-width: 59em;
+    //     padding: 0 1em;
+    //   }
+    //   .intro h1 {
+    //     line-height: 1.125;
+    //     font-weight: 300;
+    //     font-size: 42px;
+    //     letter-spacing: -0.05em;
+    //   }
+    //   .intro__heading {
+    //     color: $white;
+    //     font-size: 40px;
+    //     font-size: 2rem;
+    //     text-shadow: 0 0 10px rgba(0,0,0,0.6);
+    //   }
+    //   .intro__heading--large {
+    //     display: block;
+    //     font-size: 4rem;
+    //     font-weight: bold;
+    //   }
+    //   main {
+    //     background: #fff;
+    //     position: relative;
+    //     z-index: 1;
+    //   }
+    //   .container {
+    //     margin: 0 auto;
+    //     width: 100%;
+    //   }
+    //   .content {
+    //     margin: 0 auto;
+    //     max-width: 1200px;
+    //     position: relative;
+    //     width: 90%;
+    //   }
+    //   .share {
+    //     margin-bottom: 24px;
+    //     text-align: center;
+    //   }
+    //   .resp-sharing-button__link {
+    //     color: $white;
+    //     display: inline-block;
+    //     font-size: 12px;
+    //     line-height: 1;
+    //     margin-right: .5em;
+    //     text-decoration: none;
+    //     text-transform: uppercase;
+    //   }
+    //   .resp-sharing-button__link .resp-sharing-button {
+    //     border-radius: 2px;
+    //     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    //     padding: .4em .75em;
+    //     transition: 25ms ease-out;
+    //   }
+    //   .resp-sharing-button__link .resp-sharing-button--facebook {
+    //     background-color: #3b5998;
+    //     border-color: #3b5998;
+    //   }
+    //   .resp-sharing-button__link .resp-sharing-button--twitter {
+    //     background-color: #55acee;
+    //     border-color: #55acee;
+    //   }
+    //   .resp-sharing-button__link .resp-sharing-button--google {
+    //     background-color: #dd4b39;
+    //     border-color: #dd4b39;
+    //   }
+    //   .resp-sharing-button__link .resp-sharing-button__icon--solid,
+    //   .resp-sharing-button__link .resp-sharing-button__icon--solidcircle {
+    //     fill: #fff;
+    //     stroke: none;
+    //   }
+    //   .resp-sharing-button__link .resp-sharing-button__icon {
+    //     display: inline-block;
+    //     fill: none;
+    //     stroke: #fff;
+    //   }
+    //   .resp-sharing-button__link .resp-sharing-button svg {
+    //     height: 1em;
+    //     margin-right: 4px;
+    //     vertical-align: text-top;
+    //     width: 1em;
+    //   }
+    //   svg:not(:root) {
+    //     overflow: hidden;
+    //   }
+    //   .blog .post__img {
+    //     margin-bottom: 24px;
+    //   }
+    //  .blog .meta {
+    //    text-align: center;
+    //   }
+    //   @media only screen and (min-width: 40em) {
+    //     .intro__content {
+    //       padding: 8em 1em;
+    //     }
+    //     .intro__heading {
+    //       font-size: 2.5rem;
+    //     }
+    //     .intro__heading--large {
+    //       font-size: 5.5rem;
+    //     }
+    //   }
+    // @media only screen and (min-width: 55.5em) {
+    //     .content {
+    //       width: 60%;
+    //     }
+    // }

@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Juan Fernandes -- Front-end Dev -- @juanfernandes
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, PHP
+    Apache Server Configs, jQuery, Perch CMS

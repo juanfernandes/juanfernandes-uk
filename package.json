@@ -1,0 +1,41 @@
+{
+  "name": "juanfernandes-v2",
+  "version": "2.0.0",
+  "description": "Personal website of Juan Fernandes",
+  "main": ".eleventy.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-shell": "^2.1.0",
+    "html-minifier": "^3.5.20"
+  },
+  "scripts": {
+    "serve": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/juanfernandes/juanfernandes-v2.git"
+  },
+  "keywords": [
+    "portfolio",
+    "static",
+    "site",
+    "generator",
+    "eleventy",
+    "js",
+    "html",
+    "css",
+    "sass",
+    "grunt"
+  ],
+  "author": "Juan Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/juanfernandes/juanfernandes-v2/issues"
+  },
+  "homepage": "https://gitlab.com/juanfernandes/juanfernandes-v2#readme"
+}

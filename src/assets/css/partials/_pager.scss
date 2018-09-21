@@ -1,0 +1,57 @@
+/* $_Pager
+================================================== */
+.pager {
+  list-style: none;
+  margin-bottom: 1.125em;
+  margin-left: 0;
+  text-align: center;
+  padding: 0;
+
+  &:before {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: .9375em;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 14px;
+
+    &:hover {
+      background-color: #f5f5f5;
+    }
+  }
+
+  .next a {
+    float: right;
+  }
+
+  .previous a {
+    float: left;
+  }
+
+  .disabled a {
+    background-color: #fff;
+    color: #999;
+    cursor: default;
+
+    &:hover {
+      background-color: #fff;
+      color: #999;
+      cursor: default;
+    }
+  }
+}

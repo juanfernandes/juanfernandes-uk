@@ -1,0 +1,92 @@
+{% extends 'layouts/base.njk' %}
+
+{% block main %}
+        <section class="section section--intro">
+          <div class="content">
+            <p>I'd love to hear about your project, and see if I'm the right fit to help you grow. Fill out the form below or give me a call on 07549 936695 and we'll make it happen.</p>
+          </div>
+        </section>
+
+        <section class="contact-social">
+          <div class="container">
+            <div class="content">
+              <div class="row">
+                <div class="four cols">
+                  <div class="social-icon">
+                    <a href="http://twitter.com/juanfernandes" target="_blank" rel="me noopener">
+                      <svg class="skill__icon" aria-hidden="true"><use xlink:href="#svg-twitter-lrg" /></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="four cols">
+                  <div class="social-icon">
+                    <a href="http://uk.linkedin.com/in/juanfernandes/en" target="_blank" rel="me noopener">
+                      <svg class="skill__icon" aria-hidden="true"><use xlink:href="#svg-linkedin-lrg" /></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="four cols">
+                  <div class="social-icon">
+                    <a href="http://github.com/juanfernandes" target="_blank" rel="me noopener">
+                      <svg class="skill__icon" aria-hidden="true"><use xlink:href="#svg-github-lrg" /></svg>
+                    </a>
+                  </div>
+                </div>
+                <div class="four cols">
+                  <div class="social-icon">
+                    <a href="//plus.google.com/u/0/+JuanFernandes" target="_blank" rel="me noopener">
+                      <svg class="skill__icon" aria-hidden="true"><use xlink:href="#svg-googleplus-lrg" /></svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="container">
+          <div class="content">
+            <h2 class="content__heading"></h2>
+            <div class="row">
+              <div class="ten cols">
+                <p>If you're looking to start a project or give your existing website a fresh new look, make an enquiry about front-end web development services or find out about availability, please use the form below.</p>
+
+                <form class="form form--horizontal" action="/contact/" method="post" role="form">
+                  <div class="control-group">
+                    <label class="control-label" for="form1_name">Your Name <span class="required">*</span></label>
+                    <div class="controls">
+                      <input name="name" class="input input--xxlarge" type="text" required="required">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="form1_email">Your Email <span class="required">*</span></label>
+                    <div class="controls">
+                      <input id="form1_email" name="email" class="input input--xxlarge" placeholder="hello@juanfernandes.uk" type="email" required="required">
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="form1_message">What's up? <span class="required">*</span></label>
+                    <div class="controls">
+                      <textarea id="form1_message" name="message" cols="30" rows="5" required="required"></textarea>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <input id="form1_coastline" name="coastline" class="hidden" type="text">
+                      <input id="form1_submit" name="submit" class="button button--center button--cta" value="Send Message" type="submit"><input type="hidden" name="cms-form" value="Y29udGFjdDpwZXJjaF9mb3JtczovdGVtcGxhdGVzL2NvbnRlbnQvY29udGFjdF9mb3JtLmh0bWw6MTUzNzM2NjIzNg==">
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="six cols">
+                <ul>
+                  <li><strong>Email:</strong> <a href="/cdn-cgi/l/email-protection#6b030e0707042b011e0a050d0e19050a050f0e18451e00" title="hello@juanfernandes.uk"><span class="__cf_email__" data-cfemail="422a272e2e2d022837232c2427302c232c2627316c3729">[email&#160;protected]</span></a></li>
+                  <li><strong>Call:</strong> <a href="tel:+447549936695" title="+44(0)7549 936695">+44(0)7549 936695</a></li>
+                  <li><strong>Skype:</strong> <a href="skype:fernandes.juan?call" title="fernandes.juan">fernandes.juan</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+{% endblock %}

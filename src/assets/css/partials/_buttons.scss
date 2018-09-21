@@ -1,0 +1,57 @@
+/* $_Buttons
+================================================== */
+input,
+select,
+button {
+  cursor: pointer;
+}
+
+.button {
+  &--cta,
+  &--cta:active {
+    background: none repeat scroll 0% 0% $orange;
+    border: 0;
+    border-radius: .25em;
+    box-shadow: 0 5px 0 #DE7E07;
+    color: #333;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    outline: 0;
+    padding: 0.5em 1em;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, .94) 0s;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+    text-transform: uppercase;
+  }
+
+  &--cta:hover,
+  &--cta:focus {
+    background: none repeat scroll 0% 0% #F9A339;
+    border: 0;
+    box-shadow: 0 5px 0 #C57006;
+    color: #F2F2F2;
+  }
+
+  &--full-width {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+    width: 100%;
+  }
+
+  &--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+/* Fix for odd Mozilla border & padding issues */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
