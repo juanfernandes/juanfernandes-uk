@@ -1,0 +1,3 @@
+- fix OG meta - global is not being passed
+- add testimonial intro image
+- add mastodon social media icon

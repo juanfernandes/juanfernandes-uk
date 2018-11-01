@@ -1,10 +1,9 @@
 module.exports = function(grunt) {
-
   // Project configuration.
   grunt.initConfig({
     shell: {
       eleventy: {
-        command: 'npx eleventy --quiet'
+        command: 'npx eleventy'
       }
     },
     watch: {
@@ -38,7 +37,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browser-sync');
+  grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s).
-  grunt.registerTask('default', ['uglify', 'sass', 'watch']);
+  grunt.registerTask('eleventy', ['shell:eleventy']);
+  grunt.registerTask('default', ['shell:eleventy', 'uglify', 'sass', 'watch']);
 };

@@ -8,6 +8,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/robots.txt");
   eleventyConfig.addPassthroughCopy("src/keybase.txt");
   eleventyConfig.addPassthroughCopy("src/humans.txt");
+  eleventyConfig.addPassthroughCopy("src/site.webmanifest");
   eleventyConfig.addPassthroughCopy("src/browserconfig.xml");
   eleventyConfig.addPassthroughCopy("src/.htaccess");
 
@@ -15,8 +16,6 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "src",
       output: "dist",
-      includes: "_includes",
-      data: "_data"
     },
     passthroughFileCopy: true,
     htmlTemplateEngine : "njk",

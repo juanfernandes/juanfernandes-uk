@@ -1,10 +1,8 @@
 {
   "meta": {
-    "sg-twitter": "@juanfernandes",
-    "sg-url": "https://juanfernandes.uk/",
-    "sg-title": "",
-    "sg-desc": "",
-    "sg-img": "https://juanfernandes.uk/assets/imgs/social-sharing.jpg",
+    "ogTwitter": "@juanfernandes",
+    "ogUrl": "https://juanfernandes.uk/",
+    "ogImg": "https://juanfernandes.uk/assets/imgs/social-sharing.jpg",
     "lang": "https://juanfernandes.uk/"
   },
   "baseurl": "https://juanfernandes.uk",

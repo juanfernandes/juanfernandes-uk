@@ -1,0 +1,21 @@
+{% extends 'layouts/base.njk' %}
+
+{% block main %}
+        <section class="testimonials testimonials--page">
+          <div class="content">
+            {% for item in testimonials %}
+            <div class="cf testimonial">
+              <div class="text">
+                <blockquote>
+                  <p>{{ item.quote }}</p>
+                </blockquote>
+                <cite>{{ item.cite }}, {{ item.company }}</cite>
+              </div>
+              <div class="thumb">
+                <img src="{{ item.img }}" alt="{{ item.img }}">
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </section>
+  {% endblock %}
