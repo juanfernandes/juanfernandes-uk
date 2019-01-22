@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     shell: {
       eleventy: {
-        command: 'npx eleventy'
+        command: 'npx eleventy --serve'
       }
     },
     watch: {
@@ -15,8 +15,7 @@ module.exports = function(grunt) {
     sass: {
       dev: {
         options: {
-          style: 'compressed',
-          sourcemap: 'none'
+          style: 'compressed'
         },
         files: {
           // destination                     // source file
@@ -41,5 +40,6 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('eleventy', ['shell:eleventy']);
-  grunt.registerTask('default', ['shell:eleventy', 'uglify', 'sass', 'watch']);
+  grunt.registerTask('css', ['sass']);
+  grunt.registerTask('default', ['shell:eleventy', 'uglify', 'sass']);
 };

@@ -3,7 +3,7 @@
           <ul class="nav--main">
             {%- for item in site.navigation -%}
             <li class="nav__item">
-              <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+              <a class="{{ item.class }}" href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
             </li>
             {%- endfor -%}
           </ul>

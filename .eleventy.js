@@ -12,6 +12,12 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/browserconfig.xml");
   eleventyConfig.addPassthroughCopy("src/.htaccess");
 
+  // module.exports = function(eleventyConfig) {
+  //   eleventyConfig.setBrowserSyncConfig({
+  //     notify: true
+  //   });
+  // };
+
   return {
     dir: {
       input: "src",

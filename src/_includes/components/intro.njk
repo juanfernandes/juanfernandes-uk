@@ -4,8 +4,10 @@
             <span class="intro__heading--large">{{ intro.heading }}</span>
             {{ intro.subheading }}
           </h1>
+          {% if cta %}
           <div class="actions">
             <a class="button--cta" href="{{ intro.cta.url }}">{{ intro.cta.text }}</a>
           </div>
+          {% endif %}
         </div>
       </div>

@@ -8,11 +8,6 @@
     "ogDesc": "I'm Juan - a freelance web designer based in Woodbridge Suffolk UK but work everywhere remotely. I build responsive/adaptive websites for small UK businesses",
     "lang": "https://juanfernandes.uk/about/"
   },
-  "site": {
-    "meta": {
-      "ogImg": "https://juanfernandes.uk/assets/imgs/social-sharing.jpg2"
-    }
-  },
   "intro": {
     "class": "about",
     "heading": "About me",

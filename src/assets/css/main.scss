@@ -146,34 +146,34 @@ $module: 'social-icons';
   .logo {
     display: inline-block;
     position: relative;
-    top: 4px;
+    top: 2px;
+
     @media only screen and (min-width: 40em) { // 640
-      top: -5px;
+      top: -8px;
     }
     @media only screen and (min-width: 60em) { // 960
-      top: -19px;
+      top: -12px;
     }
 
-    a {
-      background: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/juanfernandes-logo.svg") no-repeat;
-      background-size: 60px 60px;
-      border: none;
-      display: block;
-      height: 60px;
-      margin: 0 auto;
-      outline: none;
-      text-indent: -999em;
-      width: 60px;
-      @media only screen and (min-width: 40em) { // 640
-        background-size: 80px 80px;
-        height: 80px;
-        width: 80px;
-      }
-      @media only screen and (min-width: 60em) { // 960
-        background-size: 100px 100px;
-        height: 100px;
-        width: 100px;
-      }
+    background: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/juanfernandes-logo.svg") no-repeat;
+    background-size: 60px 60px;
+    border: none;
+    display: block;
+    height: 60px;
+    margin: 0 auto;
+    outline: none;
+    text-indent: -999em;
+    width: 60px;
+
+    @media only screen and (min-width: 40em) { // 640
+      background-size: 80px 80px;
+      height: 80px;
+      width: 80px;
+    }
+    @media only screen and (min-width: 60em) { // 960
+      background-size: 100px 100px;
+      height: 100px;
+      width: 100px;
     }
   }
 }
@@ -210,7 +210,7 @@ nav {
         padding: 20px 6px;
       }
       @media only screen and (min-width: 60em) { // 960
-        padding: 24px 16px 16px;
+        padding: 17px;
       }
       display: inline-block;
       margin-bottom: 0;
@@ -240,11 +240,6 @@ nav {
       &--active a {
         color: #666;
       }
-    }
-
-    .nav__logo {
-      margin: 0;
-      padding: 0;
     }
   }
 }
@@ -1356,237 +1351,3 @@ figure.effect:hover p {
     }
   }
 }
-
-/* AMP CSS */
-    //   html {
-    //     background: #FFF;
-    //     color: #444;
-    //     font: 1em/1.5 sans-serif;
-    //     margin: 0;
-    //     height: 100%;
-    //     overflow-y: scroll; /* Forces vertical scrollbar */
-    //     padding: 0;
-    //     -webkit-overflow-scrolling: touch;
-    //     -webkit-tap-highlight-color: #f3f5f6;
-    //     -webkit-text-size-adjust: 100%;
-    //     -ms-text-size-adjust: 100%;
-    //   }
-    //   body {
-    //     background-attachment: cover;
-    //     background-color: transparent;
-    //     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    //     height: auto;
-    //     margin: 0;
-    //     padding: 0;
-    //     -webkit-font-smoothing: antialiased;
-    //     -webkit-text-size-adjust: 100%; /* Fix for webkit rendering */
-    //   }
-    //   p {
-    //     hyphenate: auto;
-    //     hyphenate-lines: 3;
-    //     margin: 0 0 24px;
-    //     word-spacing: .125em;
-    //   }
-    //   h1,
-    //   h2,
-    //   h3,
-    //   h4,
-    //   h5,
-    //   h6 {
-    //     color: rgb(51, 51, 51);
-    //     font-weight: bold;
-    //     margin: 0 0 24px;
-    //     text-rendering: optimizelegibility;
-    //   }
-
-    //   h1 a,
-    //   h2 a,
-    //   h3 a,
-    //   h4 a,
-    //   h5 a,
-    //   h6 a {
-    //     font-weight: inherit;
-    //   }
-
-    //   h1,
-    //   .alpha {
-    //     font-size: 36px;
-    //     font-size: 2.25rem;
-    //     line-height: 1.33333;
-    //   }
-
-    //   h2,
-    //   .beta {
-    //     font-size: 30px;
-    //     font-size: 1.875rem;
-    //     line-height: 1.6;
-    //   }
-
-    //   h3,
-    //   .gamma {
-    //     font-size: 24px;
-    //     font-size: 1.5rem;
-    //     line-height: 1.4;
-    //   }
-
-    //   h4,
-    //   .delta {
-    //     font-size: 20px;
-    //     font-size: 1.25rem;
-    //     line-height: 1.2;
-    //   }
-
-    //   h5,
-    //   .epsilon {
-    //     font-size: 16px;
-    //     font-size: 1rem;
-    //     line-height: 1.5;
-    //   }
-    //   .page {
-    //     margin: 0 auto;
-    //     width: 100%;
-    //     min-height: 100%;
-    //     z-index: 1;
-    //   }
-    //   .page__header {
-    //     height: 55px;
-    //     position: relative;
-    //     z-index: 2;
-    //   }
-    //   .page__header .logo {
-    //     position: relative;
-    //     top: 5px;
-    //   }
-    //   .page__header .logo a {
-    //     background: url(/assets/imgs/juanfernandes-logo.svg) no-repeat;
-    //     background-size: 100px 100px;
-    //     border: none;
-    //     display: block;
-    //     height: 100px;
-    //     margin: 0 auto;
-    //     text-indent: -999em;
-    //     width: 100px;
-    //   }
-    //   .intro {
-    //     background-attachment: scroll;
-    //     background-color: $orange;
-    //     background-position: center center;
-    //     background-repeat: no-repeat;
-    //     background-size: cover;
-    //     color: #F2F2F2;
-    //     margin-bottom: 24px;
-    //     padding: 122px 0;
-    //     position: relative;
-    //     text-align: center;
-    //     width: 100%;
-    //     z-index: 1;
-    //   }
-    //   .intro__content {
-    //     margin: 0 auto;
-    //     max-width: 59em;
-    //     padding: 0 1em;
-    //   }
-    //   .intro h1 {
-    //     line-height: 1.125;
-    //     font-weight: 300;
-    //     font-size: 42px;
-    //     letter-spacing: -0.05em;
-    //   }
-    //   .intro__heading {
-    //     color: $white;
-    //     font-size: 40px;
-    //     font-size: 2rem;
-    //     text-shadow: 0 0 10px rgba(0,0,0,0.6);
-    //   }
-    //   .intro__heading--large {
-    //     display: block;
-    //     font-size: 4rem;
-    //     font-weight: bold;
-    //   }
-    //   main {
-    //     background: #fff;
-    //     position: relative;
-    //     z-index: 1;
-    //   }
-    //   .container {
-    //     margin: 0 auto;
-    //     width: 100%;
-    //   }
-    //   .content {
-    //     margin: 0 auto;
-    //     max-width: 1200px;
-    //     position: relative;
-    //     width: 90%;
-    //   }
-    //   .share {
-    //     margin-bottom: 24px;
-    //     text-align: center;
-    //   }
-    //   .resp-sharing-button__link {
-    //     color: $white;
-    //     display: inline-block;
-    //     font-size: 12px;
-    //     line-height: 1;
-    //     margin-right: .5em;
-    //     text-decoration: none;
-    //     text-transform: uppercase;
-    //   }
-    //   .resp-sharing-button__link .resp-sharing-button {
-    //     border-radius: 2px;
-    //     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    //     padding: .4em .75em;
-    //     transition: 25ms ease-out;
-    //   }
-    //   .resp-sharing-button__link .resp-sharing-button--facebook {
-    //     background-color: #3b5998;
-    //     border-color: #3b5998;
-    //   }
-    //   .resp-sharing-button__link .resp-sharing-button--twitter {
-    //     background-color: #55acee;
-    //     border-color: #55acee;
-    //   }
-    //   .resp-sharing-button__link .resp-sharing-button--google {
-    //     background-color: #dd4b39;
-    //     border-color: #dd4b39;
-    //   }
-    //   .resp-sharing-button__link .resp-sharing-button__icon--solid,
-    //   .resp-sharing-button__link .resp-sharing-button__icon--solidcircle {
-    //     fill: #fff;
-    //     stroke: none;
-    //   }
-    //   .resp-sharing-button__link .resp-sharing-button__icon {
-    //     display: inline-block;
-    //     fill: none;
-    //     stroke: #fff;
-    //   }
-    //   .resp-sharing-button__link .resp-sharing-button svg {
-    //     height: 1em;
-    //     margin-right: 4px;
-    //     vertical-align: text-top;
-    //     width: 1em;
-    //   }
-    //   svg:not(:root) {
-    //     overflow: hidden;
-    //   }
-    //   .blog .post__img {
-    //     margin-bottom: 24px;
-    //   }
-    //  .blog .meta {
-    //    text-align: center;
-    //   }
-    //   @media only screen and (min-width: 40em) {
-    //     .intro__content {
-    //       padding: 8em 1em;
-    //     }
-    //     .intro__heading {
-    //       font-size: 2.5rem;
-    //     }
-    //     .intro__heading--large {
-    //       font-size: 5.5rem;
-    //     }
-    //   }
-    // @media only screen and (min-width: 55.5em) {
-    //     .content {
-    //       width: 60%;
-    //     }
-    // }

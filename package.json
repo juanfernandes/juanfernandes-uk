@@ -5,6 +5,7 @@
   "main": ".eleventy.js",
   "dependencies": {},
   "devDependencies": {
+    "@11ty/eleventy": "^0.7.0",
     "grunt": "^1.0.3",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-sass": "^1.0.0",

@@ -1,7 +1,6 @@
 {
   "meta": {
     "ogTwitter": "@juanfernandes",
-    "ogUrl": "https://juanfernandes.uk/",
     "ogImg": "https://juanfernandes.uk/assets/imgs/social-sharing.jpg",
     "lang": "https://juanfernandes.uk/"
   },
@@ -14,6 +13,11 @@
     {
       "label": "Blog",
       "url": "/blog/"
+    },
+    {
+      "label": "Juan Fernandes - Freelance Website Designer",
+      "class": "logo",
+      "url": "/"
     },
     {
       "label": "Work",
