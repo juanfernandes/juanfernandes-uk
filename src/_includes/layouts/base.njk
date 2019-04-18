@@ -14,8 +14,10 @@
     <meta name="twitter:description" property="og:description" content="{{ meta.ogDesc }}">
     {% if meta.ogImg %}
     <meta name="twitter:image" property="og:image" content="{{ meta.ogImg }}" />
+    <meta name="twitter:image" property="og:image" content="{{ meta.ogImgAlt }}" />
     {% else %}
     <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImg }}" />
+    <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImgAlt }}" />
     {% endif %}
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -60,6 +62,7 @@
         navigator.serviceWorker.register('https://juanfernandes.uk/sw.js');
       }
     </script>
+    {% include 'misc/analytics.njk' %}
   </head>
 
   <body {% if bodyClass %} class="{{bodyClass}}"{% endif %}>
