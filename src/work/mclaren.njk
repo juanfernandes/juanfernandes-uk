@@ -1,0 +1,68 @@
+{% extends 'layouts/base.njk' %}
+
+{% block main %}
+        <section class="project">
+          <div class="container">
+            <div class="content" id="content">
+              <h2 class="project__heading">McLaren Interest Responsive Forms</h2>
+
+              <nav class="nav--portfolio" role="navigation">
+                <ul class="nav--portfolio__all">
+                  <li>
+                    <a href="/work/" title="All Projects">
+                      <svg aria-hidden="true"><use xlink:href="#svg-dash" /></svg>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav--portfolio__controls">
+                  <li class="nav--portfolio__prev">
+                    <a href="/work/virgin-wines/" title="Previous Project">
+                      <svg aria-hidden="true"><use xlink:href="#svg-prev-arrow" /></svg>
+                    </a>
+                  </li>
+                  <li class="nav--portfolio__next">
+                    <a href="/work/landrover/" title="Next Project">
+                      <svg aria-hidden="true"><use xlink:href="#svg-nxt-arrow" /></svg>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="row">
+                <div class="ten cols">
+                  <div class="slider">
+                    <div class="slider__slide"><img src="https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/mclaren-interest.jpg" alt="Responsive views"></div>
+                    <div class="slider__slide"><img src="https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/mclaren-interest-1.jpg" alt="Landing page"></div>
+                    <div class="slider__slide"><img src="https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/mclaren-interest-2.jpg" alt="Form 1 - Insterested in purchasing"></div>
+                    <div class="slider__slide"><img src="https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/mclaren-interest-3.jpg" alt="Form 2 - McLaren enthusiast showing interest"></div>
+                  </div>
+                </div>
+                <div class="six cols">
+                  <h3 class="project__sub-heading">Project Details</h3>
+                  <div class="project__meta">
+                    <span class="project__meta--client"><strong>Client:</strong> McLaren Automotive</span>
+                    <span class="project__meta--date"><strong>Date:</strong> February 2015</span>
+                    <span class="project__meta--skills"><strong>Tech:</strong> HTML PHP CSS jQuery JSON</span>
+                  </div>
+
+                  <h3 class="project__sub-heading">Project Brief</h3>
+                  <p>McLaren required a set of responsive forms used to gather interest from fans and perspective clients when ever they release a new vehicle.</p>
+
+                  <p><b>Requirements:</b></p>
+                  <ul>
+                    <li>Responsive and mobile first</li>
+                    <li>Followed existing style guide</li>
+                    <li>Capture information from fans and perspective clients</li>
+                    <li>Cookie notification, with built in reset when the policy is updated</li>
+                    <li>Show all dealers for the users country of residence, show all dealers if that country does not have any dealers</li>
+                    <li>Allow for the forms to be translated</li>
+                    <li>Allow the user to add/remove up-to three currently owned vehicles</li>
+                    <li>Ability to show all models for a chosen make and all model variants</li>
+                    <li>Browser detection with out of date browser message</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+{% endblock %}
