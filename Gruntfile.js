@@ -1,5 +1,7 @@
 module.exports = function(grunt) {
-  // Project configuration.
+
+const sass = require('node-sass');
+
   grunt.initConfig({
     shell: {
       eleventy: {
@@ -13,12 +15,13 @@ module.exports = function(grunt) {
       }
     },
     sass: {
-      dev: {
-        options: {
-          style: 'compressed'
-        },
+      options: {
+        implementation: sass,
+        sourceMap: true,
+        outputStyle: 'compressed'
+      },
+      dist: {
         files: {
-          // destination                     // source file
           'dist/assets/css/global.min.css':'src/assets/css/global.scss'
         }
       }
@@ -32,15 +35,12 @@ module.exports = function(grunt) {
   });
 
   // Load the plugins
+  grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browser-sync');
   grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s).
-  // grunt.registerTask('eleventy', ['shell:eleventy']);
-  grunt.registerTask('css', ['sass']);
-  grunt.registerTask('deploy', ['uglify', 'sass']);
   grunt.registerTask('default', ['shell:eleventy', 'sass', 'uglify', 'watch']);
 };
