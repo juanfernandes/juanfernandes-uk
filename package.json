@@ -11,11 +11,7 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^4.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-shell": "^2.1.0",
-    "html-minifier": "^3.5.20"
-  },
-  "scripts": {
-    "deploy": "grunt deploy"
+    "grunt-shell": "^2.1.0"
   },
   "repository": {
     "type": "git",
