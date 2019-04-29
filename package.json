@@ -2,7 +2,10 @@
   "name": "juanfernandes-v2",
   "version": "2.0.0",
   "description": "Personal website of Juan Fernandes",
-  "main": ".eleventy.js",
+  "scripts": {
+    "build": "grunt deploy && eleventy",
+    "watch": "grunt && grunt watch && eleventy --watch"
+  },
   "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.7.0",
