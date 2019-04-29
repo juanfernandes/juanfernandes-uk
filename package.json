@@ -15,7 +15,7 @@
     "html-minifier": "^3.5.20"
   },
   "scripts": {
-    "serve": "npx eleventy --serve"
+    "deploy": "grunt deploy"
   },
   "repository": {
     "type": "git",
