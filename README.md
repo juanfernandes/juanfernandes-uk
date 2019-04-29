@@ -1,5 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad9cac69-cad5-4015-9a0e-98ceef6380da/deploy-status)](https://app.netlify.com/sites/juanfernandes/deploys)
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/)
 
 # Juan Fernandes
 
