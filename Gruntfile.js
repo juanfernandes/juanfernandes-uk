@@ -41,6 +41,7 @@ const sass = require('node-sass');
   grunt.loadNpmTasks('grunt-browser-sync');
   grunt.loadNpmTasks('grunt-shell');
 
-  // Default task(s).
-  grunt.registerTask('default', ['shell:eleventy', 'sass', 'uglify', 'watch']);
+  // Default task(s)
+  grunt.registerTask('dev', ['shell:eleventy', 'sass', 'uglify', 'watch']);
+  grunt.registerTask('default', ['shell:eleventy', 'sass', 'uglify']);
 };
