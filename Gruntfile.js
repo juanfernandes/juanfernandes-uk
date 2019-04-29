@@ -39,8 +39,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s).
-  grunt.registerTask('eleventy', ['shell:eleventy']);
+  // grunt.registerTask('eleventy', ['shell:eleventy']);
   grunt.registerTask('css', ['sass']);
   grunt.registerTask('deploy', ['uglify', 'sass']);
-  grunt.registerTask('default', ['shell:eleventy', 'sass', 'uglify', 'watch']);
+  grunt.registerTask('default', ['sass', 'uglify', 'watch']);
 };

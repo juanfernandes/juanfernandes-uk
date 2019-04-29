@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Personal website of Juan Fernandes",
   "scripts": {
-    "build": "grunt deploy && eleventy",
+    "build": "grunt && eleventy",
     "watch": "grunt && grunt watch && eleventy --watch"
   },
   "dependencies": {},
