@@ -1,7 +1,8 @@
-$(document).ready(function(){
+$(document).ready(function () {
   $('.slider').slick({
-    autoplay: true,
-  });
+    autoplay: true
+  })
+
   $('.testimonials__slider').slick({
     dots: true,
     arrows: false,
@@ -11,5 +12,5 @@ $(document).ready(function(){
     slidesToShow: 1,
     autoplay: true,
     adaptiveHeight: true
-  });
-});
+  })
+})
