@@ -1,5 +1,6 @@
 {
   "name": "juanfernandes-v2",
+  "author": "Juan Fernandes",
   "version": "2.0.0",
   "description": "Personal website of Juan Fernandes",
   "scripts": {
@@ -32,7 +33,6 @@
     "sass",
     "grunt"
   ],
-  "author": "Juan Fernandes",
   "license": "ISC",
   "bugs": {
     "url": "https://gitlab.com/juanfernandes/juanfernandes-v2/issues"

@@ -1,6 +1,13 @@
 module.exports = function(grunt) {
+  'use strict';
 
-const sass = require('node-sass');
+  // Initial project configuration.
+  grunt.initConfig({
+    pkg: '<json:package.json>',
+    banner: '/*! juanfernandes.uk - v<%= pkg.version %> - */'
+  });
+
+  const sass = require('node-sass');
 
   grunt.initConfig({
     shell: {
@@ -12,6 +19,10 @@ const sass = require('node-sass');
       sass: {
         files: ['src/assets/css/*.scss','src/assets/css/partials/*.scss'],
         tasks: ['sass']
+      },
+      html: {
+        files: ['src/*.njk','src/*.md','src/*.json'],
+        tasks: ['eleventy']
       }
     },
     sass: {
@@ -42,6 +53,6 @@ const sass = require('node-sass');
   grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s)
-  grunt.registerTask('dev', ['shell:eleventy', 'sass', 'uglify', 'watch']);
+  grunt.registerTask('dev', ['sass', 'uglify', 'watch:sass']);
   grunt.registerTask('default', ['shell:eleventy', 'sass', 'uglify']);
 };
