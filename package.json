@@ -1,11 +1,24 @@
 {
   "name": "juanfernandes-v2",
-  "author": "Juan Fernandes",
   "version": "2.0.0",
   "description": "Personal website of Juan Fernandes",
   "scripts": {
     "build": "grunt"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/juanfernandes/juanfernandes-v2.git"
+  },
+  "author": {
+    "name": "Juan Fernandes",
+    "email": "hello@juanfernandes.uk",
+    "url": "https://juanfernandes.uk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/juanfernandes/juanfernandes-v2/issues"
+  },
+  "homepage": "https://juanfernandes.uk",
   "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.8.2",
@@ -16,26 +29,5 @@
     "grunt-sass": "^3.0.2",
     "grunt-shell": "^2.1.0",
     "node-sass": "^4.12.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@gitlab.com/juanfernandes/juanfernandes-v2.git"
-  },
-  "keywords": [
-    "portfolio",
-    "static",
-    "site",
-    "generator",
-    "eleventy",
-    "js",
-    "html",
-    "css",
-    "sass",
-    "grunt"
-  ],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/juanfernandes/juanfernandes-v2/issues"
-  },
-  "homepage": "https://gitlab.com/juanfernandes/juanfernandes-v2#readme"
+  }
 }
