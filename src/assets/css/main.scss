@@ -231,14 +231,17 @@ nav {
         text-transform: uppercase;
         transition: color .25s cubic-bezier(.25, .46, .45, .94) 0s;
 
-        &:hover,
-        &:focus {
+        &:hover:not(.logo),
+        &:focus:not(.logo) {
           color: #666;
+          border-bottom: 4px solid #F89820;
+          padding-bottom: 2px;
         }
       }
 
       &--active a {
         color: #666;
+        text-transform: none;
       }
     }
   }
