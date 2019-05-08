@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ad9cac69-cad5-4015-9a0e-98ceef6380da/deploy-status)](https://app.netlify.com/sites/juanfernandes/deploys)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/)
-[!https://img.shields.io/badge/powered%20by-11ty.io-%23000.svg](https://11ty.io/)
+[![Powered by 11ty.io](https://img.shields.io/badge/powered%20by-11ty.io-%23000.svg)](https://11ty.io/)
 
 
 # Juan Fernandes
