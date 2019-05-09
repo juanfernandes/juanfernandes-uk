@@ -1,5 +1,9 @@
 [
   {
+    "img": "cmi.jpg",
+    "alt": "Chartered Management Institute"
+  },
+  {
     "img": "intelliflo.jpg",
     "alt": "Intelliflo"
   },
@@ -10,9 +14,5 @@
   {
     "img": "globecast.jpg",
     "alt": "Globecast"
-  },
-  {
-    "img": "virgin-wines.jpg",
-    "alt": "Virgin Wines"
   }
 ]
