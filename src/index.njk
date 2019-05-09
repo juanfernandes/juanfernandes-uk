@@ -109,10 +109,11 @@
           <div class="content">
             <h1 class="content__heading">{{ businesses.title }}</h1>
             <div class="row">
-              {% for item in companies %}
+              {% set length = companies.length if companies.length < 4 else 4 %}
+              {% for i in range(0, length) %}
               <div class="four cols">
                 <div class="client">
-                  <img class="client__logo" src="https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/clients/{{ item.img }}" alt="{{ item.alt }}">
+                  <img class="client__logo" src="https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/clients/{{ companies[i].img }}" alt="{{ companies[i].img.alt }}">
                 </div>
               </div>
               {% endfor %}
