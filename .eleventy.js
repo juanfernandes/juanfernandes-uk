@@ -3,21 +3,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('README.md')
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
   eleventyConfig.addPassthroughCopy('src/assets/js')
-  eleventyConfig.addPassthroughCopy('src/assets/css')
   eleventyConfig.addPassthroughCopy('src/sw.js')
   eleventyConfig.addPassthroughCopy('src/sitemap.xml')
   eleventyConfig.addPassthroughCopy('src/robots.txt')
   eleventyConfig.addPassthroughCopy('src/keybase.txt')
   eleventyConfig.addPassthroughCopy('src/humans.txt')
+  eleventyConfig.addPassthroughCopy('src/assets/css/global.min.css')
+  eleventyConfig.addPassthroughCopy('src/assets/css/global.min.css.map')
   eleventyConfig.addPassthroughCopy('src/site.webmanifest')
   eleventyConfig.addPassthroughCopy('src/browserconfig.xml')
   eleventyConfig.addPassthroughCopy('src/.htaccess')
-
-  // module.exports = function(eleventyConfig) {
-  //   eleventyConfig.setBrowserSyncConfig({
-  //     notify: true
-  //   });
-  // };
 
   return {
     dir: {

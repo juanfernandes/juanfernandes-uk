@@ -72,8 +72,9 @@ permalink: 404.html
 	</head>
 	<body>
     <div class="error">
-      <h1 class="typed"></h1>
+      <h1 id="typed"></h1>
     </div>
+
     <canvas id="matrix"></canvas>
 	</body>
   <script type="text/javascript">
@@ -151,19 +152,13 @@ permalink: 404.html
     initCanvas()
     setInterval(draw, 45)
   </script>
-  <script
-    src="https://code.jquery.com/jquery-3.4.0.min.js"
-    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-    crossorigin="anonymous"></script>
-  <script type="text/html" src="/assets/js/libs/typed.min.js"></script>
+  <!-- <script type="text/html" src="/assets/js/libs/typed.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
   <script>
-    $(function () {
-      $('.typed').typed({
-        strings: ['Error 404 . . . ^1000 <br>Page not found.'],
-        contentType: 'html',
-        typeSpeed: 0,
-        cursorChar: '_'
-      })
+    var typed = new Typed('#typed', {
+      strings: ['Error 404...<br>Page not found.'],
+      contentType: 'html',
+      typeSpeed: 40
     })
   </script>
 </html>
