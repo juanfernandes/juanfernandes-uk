@@ -4,6 +4,26 @@
 
 # Redirects
 [[redirects]]
-  from = "*.php"
-  to = "*.:splat"
+  from = "index.php"
+  to = "index.html"
+  status = 301
+
+  from = "about/index.php"
+  to = "about/index.html"
+  status = 301
+
+  from = "contact/index.php"
+  to = "contact/index.html"
+  status = 301
+
+  from = "now/index.php"
+  to = "now/index.html"
+  status = 301
+
+  from = "testimonials/index.php"
+  to = "testimonials/index.html"
+  status = 301
+
+  from = "work/index.php"
+  to = "work/index.html"
   status = 301
