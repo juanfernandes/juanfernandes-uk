@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Landrover - Approved Used Vehicle Search – Juan Fernandes – Freelance Website Designer Suffolk UK",
+    "description": "Working within a team to designers and developers to build Land Rovers first approved used vehicles website for over 1000 dealers worldwide",
+    "keywords": "land rover, landrover, HTML, PHP, CSS, jQuery, approved, used, vehicles",
+    "ogTitle": "Landrover - Approved Used Vehicle Search – Juan Fernandes – Freelance Website Designer Suffolk UK",
+    "ogDesc": "Working within a team to designers and developers to build Land Rovers first approved used vehicles website for over 1000 dealers worldwide",
+    "lang": "https://juanfernandes.uk/work/landrover"
+  },
+  "intro": {
+    "class": "work",
+    "heading": "Land Rover",
+    "subheading": "Approved Used Vehicle Search"
+  },
+  "slider": [
+    {
+      "img": "landrover-approved-used.jpg",
+      "alt": "Desktop and tablet views"
+    },
+    {
+      "img": "landrover-approved-used-1.jpg",
+      "alt": "Vehicle selection screen"
+    },
+    {
+      "img": "landrover-approved-used-2.jpg",
+      "alt": "Filtering"
+    },
+    {
+      "img": "landrover-approved-used-3.jpg",
+      "alt": "Filtering"
+    },
+    {
+      "img": "landrover-approved-used-4.jpg",
+      "alt": "Model selection page"
+    },
+    {
+      "img": "landrover-approved-used-5.jpg",
+      "alt": "Model information page"
+    },
+    {
+      "img": "landrover-approved-used-6.jpg",
+      "alt": "Approved benefits page"
+    },
+    {
+      "img": "landrover-approved-used-7.jpg",
+      "alt": "Vehicle search results"
+    },
+    {
+      "img": "landrover-approved-used-8.jpg",
+      "alt": "Filtering results"
+    },
+    {
+      "img": "landrover-approved-used-9.jpg",
+      "alt": "Vehicle detail page"
+    }
+  ]
+}
