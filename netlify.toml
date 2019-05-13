@@ -1,3 +1,9 @@
 [build]
   publish = "dist"
   command = "grunt"
+
+# Redirects
+[[redirects]]
+  from = "/index.php"
+  to = "/index.html"
+  status = 301
