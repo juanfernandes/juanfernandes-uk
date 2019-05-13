@@ -4,6 +4,6 @@
 
 # Redirects
 [[redirects]]
-  from = "/index.php"
-  to = "/index.html"
+  from = "*.php"
+  to = "*.html"
   status = 301
