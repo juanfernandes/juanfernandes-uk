@@ -11,5 +11,23 @@
     "class": "work",
     "heading": "McLaren Interest",
     "subheading": "Responsive Forms"
-  }
+  },
+  "slider": [
+    {
+      "img": "mclaren-interest.jpg",
+      "alt": "Responsive views"
+    },
+    {
+      "img": "mclaren-interest-1.jpg",
+      "alt": "Landing page"
+    },
+    {
+      "img": "mclaren-interest-2.jpg",
+      "alt": "Form 1 - Insterested in purchasing"
+    },
+    {
+      "img": "mclaren-interest-3.jpg",
+      "alt": "Form 2 - McLaren enthusiast showing interest"
+    }
+  ]
 }
