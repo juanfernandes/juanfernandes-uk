@@ -109,14 +109,14 @@
           <div class="content">
             <h1 class="content__heading">{{ businesses.title }}</h1>
             <div class="row">
-              {% set length = companies.length if companies.length < 4 else 4 %}
-              {% for i in range(0, length) %}
+              {%- for i in range(0, 4) -%}
+              {% set item = companies[i] %}
               <div class="four cols">
                 <div class="client">
                   <img class="client__logo" src="/assets/imgs/work/clients/{{ companies[i].img }}" alt="{{ companies[i].img.alt }}">
                 </div>
               </div>
-              {% endfor %}
+              {%- endfor -%}
             </div>
           </div>
         </section>
