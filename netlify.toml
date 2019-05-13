@@ -5,5 +5,5 @@
 # Redirects
 [[redirects]]
   from = "*.php"
-  to = "*.html"
+  to = "*.:splat"
   status = 301
