@@ -20,6 +20,10 @@ module.exports = function(grunt) {
         files: ['src/assets/css/*.scss','src/assets/css/partials/*.scss'],
         tasks: ['sass']
       },
+      js: {
+        files: ['src/assets/js/*.js'],
+        tasks: ['js']
+      },
       html: {
         files: ['src/*.njk','src/*.md','src/*.json'],
         tasks: ['eleventy']
@@ -53,6 +57,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
 
   // Default task(s)
-  grunt.registerTask('dev', ['sass', 'uglify', 'watch:sass']);
+  grunt.registerTask('dev', ['sass', 'uglify', 'watch:sass', 'watch:js']);
   grunt.registerTask('default', ['shell:eleventy', 'sass', 'uglify']);
 };

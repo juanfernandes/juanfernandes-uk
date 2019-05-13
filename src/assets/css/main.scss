@@ -1023,9 +1023,10 @@ figure.effect:hover p {
   outline: none;
   padding: 0;
   position: absolute;
-  top: 50%;
+  top: calc(50% - 32px);
   transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
   width: 32px;
+  z-index: 1;
 
   .svg-icon {
     fill: $white;
