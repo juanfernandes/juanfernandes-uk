@@ -1,0 +1,62 @@
+{% extends 'layouts/base.njk' %}
+
+{% block main %}
+        <section class="project">
+          <div class="container">
+            <div class="content" id="content">
+              <h2 class="project__heading">Virgin Wines New Website</h2>
+
+              <nav class="nav--portfolio" role="navigation">
+                <ul class="nav--portfolio__all">
+                  <li>
+                    <a href="/work/" title="All Projects">
+                      <svg aria-hidden="true"><use xlink:href="#svg-dash" /></svg>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav--portfolio__controls">
+                  <li class="nav--portfolio__prev nav--portfolio--disabled">
+                    <svg aria-hidden="true"><use xlink:href="#svg-prev-arrow" /></svg>
+                  </li>
+                  <li class="nav--portfolio__next">
+                    <a href="/work/mclaren/" title="Previous Project">
+                      <svg aria-hidden="true"><use xlink:href="#svg-nxt-arrow" /></svg>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="row">
+                <div class="ten cols">
+                  <div class="slider">
+                  {% for item in slider %}
+                    <div class="slider__slide"><img src="https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/{{ item.img }}" alt="{{ item.alt }}"></div>
+                  {% endfor %}
+                  </div>
+                </div>
+                <div class="six cols">
+                  <h3 class="project__sub-heading">Project Details</h3>
+                  <div class="project__meta">
+                    <span class="project__meta--client"><strong>Client:</strong> Virgin Wines</span>
+                    <span class="project__meta--date"><strong>Date:</strong> June - August 2015</span>
+                    <span class="project__meta--skills"><strong>Tech:</strong> HTML5 PHP CSS3 Responsive Sass Bourbon Neat jQuery JSON Pattern Labs GruntJS Mustache Templates</span>
+                  </div>
+
+                  <h3 class="project__sub-heading">Project Brief</h3>
+                  <p>Virgin Wines hired me to work with the in house designers and developers to rebuild the customer facing part of their website.</p>
+                  <p>My job was to build the header, menu system, checkout and basket pages.</p>
+                  <p>Requirements:</p>
+                  <ul>
+                    <li>Mobile first</li>
+                    <li>Responsive design</li>
+                    <li>New look and feel</li>
+                    <li>Pattern Library</li>
+                    <li>Fully responsive header and menu</li>
+                    <li>Basket and checkout pages</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+{% endblock %}
