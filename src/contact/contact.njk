@@ -51,29 +51,28 @@
               <div class="ten cols">
                 <p>If you're looking to start a project or give your existing website a fresh new look, make an enquiry about front-end web development services or find out about availability, please use the form below.</p>
 
-                <form class="form form--horizontal" action="/contact/" method="post" role="form" data-netlify="true">
+                <form class="form form--horizontal" name="Contact" method="POST" data-netlify="true">
                   <div class="control-group">
-                    <label class="control-label" for="form1_name">Your Name <span class="required">*</span></label>
+                    <label class="control-label" for="name">Your Name <span class="required">*</span></label>
                     <div class="controls">
-                      <input name="name" class="input input--xxlarge" type="text" required="required">
+                      <input id="name" name="name" class="input input--xxlarge" type="text" required="required">
                     </div>
                   </div>
                   <div class="control-group">
-                    <label class="control-label" for="form1_email">Your Email <span class="required">*</span></label>
+                    <label class="control-label" for="email">Your Email <span class="required">*</span></label>
                     <div class="controls">
-                      <input id="form1_email" name="email" class="input input--xxlarge" placeholder="hello@juanfernandes.uk" type="email" required="required">
+                      <input id="email" name="email" class="input input--xxlarge" type="email" required="required">
                     </div>
                   </div>
                   <div class="control-group">
-                    <label class="control-label" for="form1_message">What's up? <span class="required">*</span></label>
+                    <label class="control-label" for="message">What's up? <span class="required">*</span></label>
                     <div class="controls">
-                      <textarea id="form1_message" name="message" cols="30" rows="5" required="required"></textarea>
+                      <textarea id="message" name="message" cols="30" rows="5" required="required"></textarea>
                     </div>
                   </div>
                   <div class="control-group">
                     <div class="controls">
-                      <input id="form1_coastline" name="coastline" class="hidden" type="text">
-                      <input id="form1_submit" name="submit" class="button button--center button--cta" value="Send Message" type="submit"><input type="hidden" name="cms-form" value="Y29udGFjdDpwZXJjaF9mb3JtczovdGVtcGxhdGVzL2NvbnRlbnQvY29udGFjdF9mb3JtLmh0bWw6MTUzNzM2NjIzNg==">
+                      <input id="submit" name="submit" class="button button--center button--cta" value="Send Message" type="submit">
                     </div>
                   </div>
                 </form>
