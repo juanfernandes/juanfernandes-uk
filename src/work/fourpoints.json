@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Fourpoints – Responsive Website refresh – Juan Fernandes – Freelance Website Designer Suffolk UK",
+    "description": "Four Points asked me to make their existing website responsive, as well moving it from Joomla to Perch CMS.",
+    "keywords": "Four Points Consulting, HTML5, PHP, CSS3, jQuery, CMS, responsive, web, website, design, responsive website design suffolk uk, Perch CMS, content management system",
+    "ogTitle": "Fourpoints – Responsive Website refresh – Juan Fernandes – Freelance Website Designer Suffolk UK",
+    "ogDesc": "Four Points asked me to make their existing website responsive, as well moving it from Joomla to Perch CMS.",
+    "lang": "https://juanfernandes.uk/work/fourpoints"
+  },
+  "intro": {
+    "class": "fourpoints",
+    "heading": "Four Points",
+    "subheading": "Website refresh"
+  },
+  "slider": [
+    {
+      "img": "fourpoints-refresh.jpg",
+      "alt": "Responsive devices view"
+    },
+    {
+      "img": "fourpoints-refresh-1.jpg",
+      "alt": "Homepage"
+    },
+    {
+      "img": "fourpoints-refresh-2.jpg",
+      "alt": "About Us page"
+    },
+    {
+      "img": "fourpoints-refresh-3.jpg",
+      "alt": "Profile view"
+    },
+    {
+      "img": "fourpoints-refresh-4.jpg",
+      "alt": "Our clients"
+    },
+    {
+      "img": "fourpoints-refresh-5.jpg",
+      "alt": "Our clients testimonials"
+    },
+    {
+      "img": "fourpoints-refresh-6.jpg",
+      "alt": "Blog"
+    },
+    {
+      "img": "fourpoints-refresh-7.jpg",
+      "alt": "Blog post"
+    },
+    {
+      "img": "fourpoints-refresh-8.jpg",
+      "alt": "Contact page"
+    },
+    {
+      "img": "fourpoints-refresh-9.jpg",
+      "alt": "Resources login page"
+    },
+    {
+      "img": "fourpoints-refresh-10.jpg",
+      "alt": "Register page"
+    },
+    {
+      "img": "fourpoints-refresh-11.jpg",
+      "alt": "Resources logged in"
+    },
+    {
+      "img": "fourpoints-refresh-12.jpg",
+      "alt": "Update profile page"
+    }
+  ]
+}
