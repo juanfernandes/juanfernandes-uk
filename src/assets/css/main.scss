@@ -155,7 +155,7 @@ $module: 'social-icons';
       top: -12px;
     }
 
-    background: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/juanfernandes-logo.svg") no-repeat;
+    background: url("/assets/imgs/juanfernandes-logo.svg") no-repeat;
     background-size: 60px 60px;
     border: none;
     display: block;
@@ -258,7 +258,6 @@ nav {
   background-size: cover;
   box-shadow: inset 0 -40px 24px -38px rgba(0,0,0,.25);
   color: #F2F2F2;
-  // height: calc(100vh - 55px);
   padding: 122px 0;
   position: relative;
   text-align: center;
@@ -297,49 +296,44 @@ nav {
   }
 
   &--home {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://juanfernandes.uk/assets/imgs/photo-david-marcu-n-128.jpg");
+    background-image: url("/assets/imgs/photo-david-marcu-n-128.jpg");
   }
   &--contact {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://juanfernandes.uk/assets/imgs/3-pawel-kadysz.jpg");
+    background-image: url("/assets/imgs/3-pawel-kadysz.jpg");
   }
   &--work {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://juanfernandes.uk/assets/imgs/jeff-sheldon-photo-2.jpg");
+    background-image: url("/assets/imgs/jeff-sheldon-photo-2.jpg");
   }
   &--about {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://juanfernandes.uk/assets/imgs/about-intro.jpg");
+    background-image: url("/assets/imgs/about-intro.jpg");
     background-position: center bottom;
   }
   &--mclaren {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/mclaren-intro.jpg");
+    background-image: url("/assets/imgs/work/projects/mclaren-intro.jpg");
   }
   &--landrover {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/landrover-intro.jpg");
+    background-image: url("/assets/imgs/work/projects/landrover-intro.jpg");
   }
   &--tomhartleyjnr {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/tomhartleyjnr-intro.jpg");
+    background-image: url("/assets/imgs/work/projects/tomhartleyjnr-intro.jpg");
   }
   &--fourpoints {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/fourpoints-intro.jpg");
+    background-image: url("/assets/imgs/work/projects/fourpoints-intro.jpg");
   }
   &--virginwines {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/work/projects/virginwines-intro.jpg");
+    background-image: url("/assets/imgs/work/projects/virginwines-intro.jpg");
   }
   &--now {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/photo-by-luke-pamer-n-330.jpg");
+    background-image: url("/assets/imgs/photo-by-luke-pamer-n-330.jpg");
   }
   &--blog {
-    background-image: url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/12f0a18c.jpg");
+    background-image: url("/assets/imgs/12f0a18c.jpg");
   }
 
   &__content {
     margin: 0 auto;
     max-width: 64em;
     padding: 0 1em;
-
-    // position: absolute;
-    // top: 30%;
-    // left: 0;
-    // width: 100%;
 
     @media only screen and (min-width: 40em) { // 640
       padding: 8em 1em;
@@ -468,7 +462,7 @@ nav {
 
 /* Skills */
 .skills {
-  background: $orange url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/trianglify-2.jpg") bottom center no-repeat;
+  background: $orange url("/assets/imgs/trianglify-2.jpg") bottom center no-repeat;
   background-attachment: scroll;
   background-size: cover;
   box-shadow: inset 0 -40px 24px -38px rgba(0,0,0,.25);
@@ -522,7 +516,7 @@ nav {
   }
 
   &--section {
-    background: $off-black url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/wood-planks.jpg") bottom center no-repeat;
+    background: $off-black url("/assets/imgs/wood-planks.jpg") bottom center no-repeat;
     background-attachment: scroll;
     background-size: cover;
     box-shadow: inset 0 -40px 24px -38px rgba(0,0,0,.25);
@@ -622,7 +616,7 @@ nav {
   Footer
 */
 footer {
-  background: $orange url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/photo-justin-leibow-n-226.jpg") bottom center no-repeat;
+  background: $orange url("/assets/imgs/photo-justin-leibow-n-226.jpg") bottom center no-repeat;
   background-attachment: scroll;
   background-size: cover;
   color: $white;
@@ -1004,7 +998,7 @@ figure.effect:hover p {
 /* Slider */
 .slick-loading {
   .slick-list {
-    background: $white url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/ajax-loader.gif") center center no-repeat;
+    background: $white url("/assets/imgs/ajax-loader.gif") center center no-repeat;
   }
 }
 
@@ -1284,7 +1278,7 @@ figure.effect:hover p {
   Contact
 */
 .contact-social {
-  background: $orange url("//res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/assets/imgs/trianglify-1.jpg") center center no-repeat;
+  background: $orange url("/assets/imgs/trianglify-1.jpg") center center no-repeat;
   background-attachment: scroll;
   background-size: cover;
   color: $black;
