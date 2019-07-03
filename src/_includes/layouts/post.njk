@@ -1,0 +1,86 @@
+{% extends 'layouts/blog.njk' %}
+
+{% block intro %}
+<div class="intro" style="background-image: url( {{ postImage }} )">
+  <div class="intro__content">
+    <h1 class="intro__heading">
+      <span class="intro__heading--large">{{ title }}</span>
+    </h1>
+  </div>
+</div>
+{% endblock %}
+
+{% block main %}
+<div class="container">
+  <div class="content">
+    <div class="row">
+      <div class="cols twelve">
+        <article class="post h-entry">
+
+          {{ content | safe }}
+
+          <p class="meta">
+            <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/blog/authors/juan-fernandes" rel="author">Juan Fernandes</a> in <a href="/blog/category/{{ tagUrl | url }}" class="p-category"> {{ tag }}</a></small>
+          </p>
+
+          <div class="share">
+            <div class="share__text"><span>Share</span></div>
+            <a class="resp-sharing-button__link fbc-has-badge fbc-UID_1" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjuanfernandes.uk/blog/{{ title | slug }}" target="_blank" aria-label="Facebook" rel="noopener">
+              <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
+                <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                  <svg aria-hidden="true"><use xlink:href="#svg-facebook-share"></use></svg>
+                </div>Facebook
+              </div>
+            </a>
+            <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Multiple blogs with Perch CMS.&amp;url=https%3A%2F%2Fjuanfernandes.uk/blog/{{ title | slug }}" target="_blank" aria-label="Twitter" rel="noopener">
+              <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
+                <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+                  <svg aria-hidden="true"><use xlink:href="#svg-twitter-share"></use></svg>
+                </div>Twitter
+              </div>
+            </a>
+          </div>
+        </article>
+
+        <form id="form1_subscribe" class="form form--subscribe" action="/blog/2019-03-13-multiple-blogs-with-perch-cms" method="post">
+          <div class="content">
+            <p><b>Stay up-to-date with my blog posts and receive occasional emails from me.</b></p>
+            <div class="row">
+              <div class="six cols">
+                <label for="form1_firstname">First name</label>
+                <input id="form1_firstname" name="firstname" type="text" required="required">
+              </div>
+              <div class="six cols">
+                <label for="form1_email">Email address</label>
+                <input id="form1_email" name="email" type="email" required="required">
+              </div>
+              <div class="four cols">
+                <input id="form1_btnsubmit" name="btnsubmit" class="button button--cta" value="Subscribe" type="submit"><input type="hidden" name="cms-form" value="c3Vic2NyaWJlOnBlcmNoX21haWxjaGltcDovdGVtcGxhdGVzL21haWxjaGltcC9mb3Jtcy9zdWJzY3JpYmUtYmxvZy5odG1sOjE1NjE2Njg0Mzc=">
+                <input id="form1_confirm" name="confirm" value="1" type="hidden">
+                <input id="form1_list" name="list" value="a6a8aad9ca" type="hidden">
+              </div>
+            </div>
+            <p class="no-margin"><small><em>No spam ever, unsubscribe anytime.</em></small></p>
+          </div>
+        </form>
+      </div>
+
+      <div class="sidebar meta / four cols">
+        <h3 class="heading">Categories</h3>
+        <ol class="tags">
+          <li>
+            <a href="/blog/category/personal"><span class="meta">21</span> personal</a>
+          </li>
+          <li>
+            <a href="/blog/category/development"><span class="meta">5</span> development</a>
+          </li>
+          <li>
+            <a href="/blog/category/business"><span class="meta">1</span> business</a>
+          </li>
+        </ol>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}

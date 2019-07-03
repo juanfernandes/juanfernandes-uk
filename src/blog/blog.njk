@@ -1,0 +1,35 @@
+{% extends 'layouts/base.njk' %}
+
+{% block main %}
+  <div class="container">
+    <div class="content" id="content">
+      <div class="row">
+        <div class="twelve cols">
+          {% set postslist = collections.posts %}
+          {% include "postslist.njk" %}
+
+          <div class="paging">
+            Page 1 of 2
+            <a href="/blog/?page=2">Next</a>
+          </div>
+        </div>
+
+        <div class="sidebar meta / four cols">
+          <h3 class="heading">Bio</h3>
+          <p>Juan Fernandes is a freelance front-end developer living in Suffolk, UK. <a href="/about/">Read more</a> →</p>
+          <p><a href="/notes/">Read my weeknotes</a> →</p>
+
+          <h3 class="heading">Categories</h3>
+          <ol class="tags">
+            {% for tag in post.data.tags %}
+              {%- if tag != "posts" -%}
+              {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+              <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+              {%- endif -%}
+            {% endfor %}
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

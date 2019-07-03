@@ -71,11 +71,15 @@
 
     {% include 'misc/svg.njk' %}
     {% include 'components/header.njk' %}
-    {% include 'components/intro.njk' %}
 
     <a class="skip" href="#content">Skip to content</a>
 
     <div class="page">
+
+      {% block intro %}
+        {{ content | safe }}
+      {% endblock %}
+
       <main role="main" class="main" id="content">
         {% block main %}
           {{ content | safe }}
