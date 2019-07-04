@@ -20,7 +20,7 @@
           {{ content | safe }}
 
           <p class="meta">
-            <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/blog/authors/juan-fernandes" rel="author">Juan Fernandes</a> in <a href="/blog/category/{{ tagUrl | url }}" class="p-category"> {{ tag }}</a></small>
+            <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/blog/authors/juan-fernandes" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/blog/tags/{{ item }}" class="p-category">{{ item }}</a> {% endfor %}</small>
           </p>
 
           <div class="share">
@@ -68,15 +68,10 @@
       <div class="sidebar meta / four cols">
         <h3 class="heading">Categories</h3>
         <ol class="tags">
-          <li>
-            <a href="/blog/category/personal"><span class="meta">21</span> personal</a>
-          </li>
-          <li>
-            <a href="/blog/category/development"><span class="meta">5</span> development</a>
-          </li>
-          <li>
-            <a href="/blog/category/business"><span class="meta">1</span> business</a>
-          </li>
+          {%- for post in collections.all -%}
+          <li>{{ post.data.tag }}</li>
+          {%- endfor -%}
+          </ol>
         </ol>
       </div>
 

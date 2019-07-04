@@ -21,13 +21,18 @@
 
           <h3 class="heading">Categories</h3>
           <ol class="tags">
-            {% for tag in post.data.tags %}
-              {%- if tag != "posts" -%}
-              {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-              <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
-              {%- endif -%}
-            {% endfor %}
+
+{%- for post in collections.all -%}
+  <li>{{ post.data.tag }}</li>
+{%- endfor -%}
+
           </ol>
+
+{# <ul>
+{%- for post in collections.all -%}
+  <li><a href="{{ post.url }}">{{ post.url }}</a></li>
+{%- endfor -%}
+</ul> #}
         </div>
       </div>
     </div>

@@ -3,21 +3,36 @@ pagination:
   data: collections
   size: 1
   alias: tag
-  filter:
-    - all
-    - nav
-    - post
-    - posts
-    - tagList
-  addAllPagesToCollections: true
-layout: layouts/base.njk
-renderData:
-  title: Tagged “{{ tag }}”
-permalink: /tags/{{ tag }}/
+permalink: blog/tags/{{ tag }}/
 ---
-<h1>Tagged “{{ tag }}”</h1>
+{% extends 'layouts/blog.njk' %}
 
-{% set postslist = collections[ tag ] %}
-{% include "postslist.njk" %}
-
-<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
+{% block intro %}
+<div class="intro" style="background-image: url( {{ introImage }} )">
+  <div class="intro__content">
+    <h1 class="intro__heading">
+      {% if tag %}
+      <span class="intro__heading--large">Posts tagged: “{{ tag }}”</span>
+      {% else %}
+      <span class="intro__heading--large">Archive</span>
+      All the blog posts
+      {% endif %}
+    </h1>
+  </div>
+</div>
+{% endblock %}
+{% block main %}
+  <div class="container">
+    <div class="content" id="content">
+      <div class="row">
+        <div class="sixteen cols">
+          {% set postListItems = collections[tag] %}
+          {% include "postslist.njk" %}
+          <nav>
+            <a href="{{ '/blog/' | url }}">← Blog index</a>
+          </nav>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

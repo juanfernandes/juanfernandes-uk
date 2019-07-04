@@ -26,6 +26,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
     "grunt": "^1.0.4",
     "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-uglify": "^4.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.0.2",
