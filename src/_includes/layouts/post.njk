@@ -22,24 +22,6 @@
           <p class="meta">
             <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/blog/authors/juan-fernandes" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/blog/tags/{{ item }}" class="p-category">{{ item }}</a> {% endfor %}</small>
           </p>
-
-          <div class="share">
-            <div class="share__text"><span>Share</span></div>
-            <a class="resp-sharing-button__link fbc-has-badge fbc-UID_1" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjuanfernandes.uk/blog/{{ title | slug }}" target="_blank" aria-label="Facebook" rel="noopener">
-              <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--medium">
-                <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
-                  <svg aria-hidden="true"><use xlink:href="#svg-facebook-share"></use></svg>
-                </div>Facebook
-              </div>
-            </a>
-            <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=Multiple blogs with Perch CMS.&amp;url=https%3A%2F%2Fjuanfernandes.uk/blog/{{ title | slug }}" target="_blank" aria-label="Twitter" rel="noopener">
-              <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--medium">
-                <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
-                  <svg aria-hidden="true"><use xlink:href="#svg-twitter-share"></use></svg>
-                </div>Twitter
-              </div>
-            </a>
-          </div>
         </article>
 
         <form id="form1_subscribe" class="form form--subscribe" action="/blog/2019-03-13-multiple-blogs-with-perch-cms" method="post">
