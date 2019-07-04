@@ -1,0 +1,17 @@
+          <ul class="post-list">
+            {%- for post in collections.posts | reverse -%}
+            <li>
+              <div class="block block--thumb">
+                <a href="{{ post.url }}" class="b-inner">
+                  <div class="b-text">
+                    <h3 class="b-title">{{ post.data.title }}</h3>
+                    <div class="meta">
+                      <small><time class="dt-published" datetime="{{ post.date | w3DateFilter }}">{{ post.date | dateFilter }}</time></small>
+                    </div>
+                    <p>{{ post.data.description }}</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            {%- endfor -%}
+          </ul>

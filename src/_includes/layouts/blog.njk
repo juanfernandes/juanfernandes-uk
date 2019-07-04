@@ -28,6 +28,9 @@
     <link rel="alternate" hreflang="en-GB" href="{{ meta.lang }}" />
     <link rel="alternate" type="application/rss+xml" title="Blog posts from JuanFernandes.uk" href="https://juanfernandes.uk/rss">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="https://juanfernandes.uk/rss/design">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://imgs.juanfernandes.co.uk">
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
     <link rel="prefetch" href="https://imgs.juanfernandes.uk/assets/imgs/juanfernandes-logo.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
@@ -68,11 +71,15 @@
 
     {% include 'misc/svg.njk' %}
     {% include 'components/header.njk' %}
-    {% include 'components/intro.njk' %}
 
     <a class="skip" href="#content">Skip to content</a>
 
     <div class="page">
+
+      {% block intro %}
+        {{ content | safe }}
+      {% endblock %}
+
       <main role="main" class="main" id="content">
         {% block main %}
           {{ content | safe }}

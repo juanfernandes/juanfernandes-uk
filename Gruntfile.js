@@ -10,6 +10,9 @@ module.exports = function(grunt) {
   const sass = require('node-sass');
 
   grunt.initConfig({
+    clean: {
+      folder: ['dist/']
+    },
     shell: {
       eleventy: {
         command: 'eleventy'
@@ -55,8 +58,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browser-sync');
   grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
   // Default task(s)
-  grunt.registerTask('dev', ['sass', 'uglify', 'watch:sass', 'watch:js']);
+  grunt.registerTask('dev', ['clean','sass', 'uglify', 'watch:sass', 'watch:js']);
   grunt.registerTask('default', ['shell:eleventy', 'sass', 'uglify']);
 };
