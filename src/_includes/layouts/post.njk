@@ -14,7 +14,7 @@
 <div class="container">
   <div class="content">
     <div class="row">
-      <div class="cols twelve">
+      <div class="sixteen cols">
         <article class="post h-entry">
 
           {{ content | safe }}
@@ -45,18 +45,8 @@
             <p class="no-margin"><small><em>No spam ever, unsubscribe anytime.</em></small></p>
           </div>
         </form>
-      </div>
 
-      <div class="sidebar meta / four cols">
-        <h3 class="heading">Categories</h3>
-        <ol class="tags">
-          {%- for post in collections.all -%}
-          <li>{{ post.data.tag }}</li>
-          {%- endfor -%}
-          </ol>
-        </ol>
       </div>
-
     </div>
   </div>
 </div>
