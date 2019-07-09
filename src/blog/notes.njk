@@ -1,12 +1,22 @@
-{% extends 'layouts/base.njk' %}
+{% extends 'layouts/blog.njk' %}
+
+{% block intro %}
+<div class="intro" style="background-image: url( {{ introImage }} )">
+  <div class="intro__content">
+    <h1 class="intro__heading">
+      <span class="intro__heading--large">Notes</span>
+    </h1>
+  </div>
+</div>
+{% endblock %}
 
 {% block main %}
   <div class="container">
     <div class="content" id="content">
       <div class="row">
-        <div class="twelve cols">
+        <div class="sixteen cols">
           <ul class="post-list">
-            {%- for post in collections.posts | reverse -%}
+            {%- for post in collections.notes | reverse -%}
             <li>
               <div class="block block--thumb">
                 <a href="{{ post.url }}" class="b-inner">
@@ -23,13 +33,6 @@
             {%- endfor -%}
           </ul>
         </div>
-
-        <div class="sidebar meta / four cols">
-          <h3 class="heading">Bio</h3>
-          <p>Juan Fernandes is a freelance front-end developer living in Suffolk, UK. <a href="/about/">Read more</a> →</p>
-          <p><a href="/blog/notes/">Read my weeknotes</a> →</p>
-        </div>
-
       </div>
     </div>
   </div>
