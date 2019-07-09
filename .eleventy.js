@@ -24,7 +24,10 @@ module.exports = function (eleventyConfig) {
 
   // Filter source file names using a glob
   eleventyConfig.addCollection('posts', function (collection) {
-    return collection.getFilteredByGlob('./src/blog/*.md')
+    return collection.getFilteredByTag('post')
+  })
+  eleventyConfig.addCollection('notes', function (collection) {
+    return collection.getFilteredByTag('note')
   })
 
   // Layout aliases

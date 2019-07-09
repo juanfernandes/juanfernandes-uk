@@ -1,11 +1,10 @@
 ---
-title: Hello World! First blog post
+title: Weeknotes #1
 description: I've decided that 2016 is the year I start writing regular blog posts - and I just about made it, 2017 is just around the corner. I've never properly done it, I've written a few posts for my business websites' blog but they came once in a blue moon - not good, I know.
 keywords: blogging, web developemnt, learning, javascript, css
 postImage: https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/cms/resources/computer-18363301920-1.jpg
 tags:
-  - post
-  - development
+  - note
 layout: post
 date: '2016-10-26'
 ---

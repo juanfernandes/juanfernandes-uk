@@ -4,6 +4,7 @@ description: I've decided that 2016 is the year I start writing regular blog pos
 keywords: blogging, web developemnt, learning, javascript, css
 postImage: https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/cms/resources/computer-18363301920-1.jpg
 tags:
+  - post
   - personal
   - design
 layout: post
