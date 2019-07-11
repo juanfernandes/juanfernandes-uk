@@ -22,7 +22,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/browserconfig.xml')
   eleventyConfig.addPassthroughCopy('src/.htaccess')
 
-  // Filter source file names using a glob
+  // eleventyConfig.addCollection('feed', function (collection) {
+  //   return collection.getFilteredByGlob('./src/posts/*.md')
+  // })
   eleventyConfig.addCollection('posts', function (collection) {
     return collection.getFilteredByTag('post')
   })
