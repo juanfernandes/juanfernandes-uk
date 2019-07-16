@@ -7,6 +7,9 @@
     "ogImgAlt": "Juan Fernandes - Freelance Website Designer",
     "lang": "https://juanfernandes.uk/"
   },
+  "feed": {
+    "title": "Juan Fernandes - Freelance Front-end Developer - RSS Feed"
+  },
   "author": {
     "name": "Juan Fernandes",
     "email": "hello@juanfernandes.uk"

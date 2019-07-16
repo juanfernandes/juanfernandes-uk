@@ -5,13 +5,13 @@
   <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <title>{{ meta.title }}</title>
-    <meta name="description" content="{{ meta.description }}" />
-    <meta name="keywords" content="{{ meta.keywords }}" />
+    <title>{{ title }} | {{ site.meta.title }}</title>
+    <meta name="description" content="{{ description }}" />
+    <meta name="keywords" content="{{ keywords }}" />
     <meta name="twitter:site" content="{{ site.meta.ogTwitter }}" />
     <meta name="twitter:url" property="og:url" content="{{ meta.ogUrl }}">
     <meta name="twitter:title" property="og:title" content="{{ meta.ogTitle }}">
-    <meta name="twitter:description" property="og:description" content="{{ meta.ogDesc }}">
+    <meta name="twitter:description" property="og:description" content="{{ description }}">
     {% if meta.ogImg %}
     <meta name="twitter:image" property="og:image" content="{{ meta.ogImg }}" />
     <meta name="twitter:image" property="og:image" content="{{ meta.ogImgAlt }}" />
