@@ -21,6 +21,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/site.webmanifest')
   eleventyConfig.addPassthroughCopy('src/browserconfig.xml')
   eleventyConfig.addPassthroughCopy('src/.htaccess')
+  eleventyConfig.addPassthroughCopy('src/admin/config.yml')
 
   // eleventyConfig.addCollection('feed', function (collection) {
   //   return collection.getFilteredByGlob('./src/posts/*.md')
