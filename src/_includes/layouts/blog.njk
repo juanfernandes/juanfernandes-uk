@@ -8,16 +8,15 @@
     <title>{{ title }} | {{ site.meta.title }}</title>
     <meta name="description" content="{{ description }}" />
     <meta name="keywords" content="{{ keywords }}" />
-    <meta name="twitter:site" content="{{ site.meta.ogTwitter }}" />
-    <meta name="twitter:url" property="og:url" content="{{ meta.ogUrl }}">
+    <meta name="twitter:site" content="{{ title }}" />
+    <meta name="twitter:url" property="og:url" content="{{ ogUrl }}">
     <meta name="twitter:title" property="og:title" content="{{ meta.ogTitle }}">
     <meta name="twitter:description" property="og:description" content="{{ description }}">
-    {% if meta.ogImg %}
-    <meta name="twitter:image" property="og:image" content="{{ meta.ogImg }}" />
-    <meta name="twitter:image" property="og:image" content="{{ meta.ogImgAlt }}" />
+    {% if postImage %}
+    <meta name="twitter:image" property="og:image" content="{{ postImage }}" />
     {% else %}
     <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImg }}" />
-    <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImgAlt }}" />
+    <meta name="twitter:image:alt" content="{{ site.meta.ogImgAlt }}" />
     {% endif %}
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -28,9 +27,7 @@
     <link rel="alternate" hreflang="en-GB" href="{{ meta.lang }}" />
     <link rel="alternate" type="application/rss+xml" title="Blog posts from JuanFernandes.uk" href="https://juanfernandes.uk/rss">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="https://juanfernandes.uk/rss/design">
-    <link rel="dns-prefetch" href="https://www.google-analytics.com">
-    <link rel="dns-prefetch" href="https://imgs.juanfernandes.co.uk">
-    <link rel="dns-prefetch" href="https://res.cloudinary.com">
+    <link rel="dns-prefetch" href="https://www.multicreativemedia.co.uk">
     <link rel="prefetch" href="https://imgs.juanfernandes.uk/assets/imgs/juanfernandes-logo.svg">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
