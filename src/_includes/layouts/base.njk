@@ -14,10 +14,10 @@
     <meta name="twitter:description" property="og:description" content="{{ meta.ogDesc }}">
     {% if meta.ogImg %}
     <meta name="twitter:image" property="og:image" content="{{ meta.ogImg }}" />
-    <meta name="twitter:image" property="og:image" content="{{ meta.ogImgAlt }}" />
+    <meta name="twitter:image:alt" content="{{ meta.ogImgAlt }}" />
     {% else %}
     <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImg }}" />
-    <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImgAlt }}" />
+    <meta name="twitter:image:alt" content="{{ site.meta.ogImgAlt }}" />
     {% endif %}
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -29,6 +29,7 @@
     <link rel="alternate" type="application/rss+xml" title="Blog posts from JuanFernandes.uk" href="https://juanfernandes.uk/rss">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="https://juanfernandes.uk/rss/design">
     <link rel="prefetch" href="https://imgs.juanfernandes.uk/assets/imgs/juanfernandes-logo.svg">
+    <link rel="dns-prefetch" href="https://www.multicreativemedia.co.uk">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">

@@ -7,16 +7,18 @@ public_folder: "assets/imgs"
 
 collections:
   - name: "posts"
-    label: "Posts"
+    label: "Post"
     folder: "src/blog"
     slug: "{{slug}}"
+    ogUrl: "{{slug}}"
     preview_path: "blog/{{slug}}"
     create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Post Title", name: "title", widget: "string"}
-      - {label: "Post Description", name: "description", widget: "string"}
-      - {label: "Post Image", name: "postImage", widget: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Keywords", name: "keywords", widget: "list", allow_add: true}
+      - {label: "Image", name: "postImage", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true, hint: "Comma separated list"}
       - {label: "Body", name: "body", widget: "markdown"}
