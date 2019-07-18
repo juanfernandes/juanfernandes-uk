@@ -10,7 +10,6 @@ collections:
     label: "Post"
     folder: "src/blog"
     slug: "{{slug}}"
-    ogUrl: "{{slug}}"
     preview_path: "blog/{{slug}}"
     create: true
     fields:
