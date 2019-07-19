@@ -21,3 +21,19 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true, hint: "Comma separated list"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "notes"
+    label: "Note"
+    folder: "src/notes"
+    slug: "{{slug}}"
+    preview_path: "notes/{{slug}}"
+    create: true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Keywords", name: "keywords", widget: "list", allow_add: true}
+      - {label: "Image", name: "postImage", widget: "image"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true, hint: "Comma separated list"}
+      - {label: "Body", name: "body", widget: "markdown"}
