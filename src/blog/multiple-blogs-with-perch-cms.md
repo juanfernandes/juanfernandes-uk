@@ -15,7 +15,6 @@ keywords:
 postImage: /assets/imgs/computer-18363301920-1.jpg
 date: 2019-03-13T13:00:08.995Z
 tags:
-  - post
   - development
 ---
 An existing client asked me to move their blog from /self-help/blog/ to the root of the website - but they wanted to keep the self-help blog, as well as having a blog for general posts and a blog for media related articles, ie press releases etc.
@@ -32,17 +31,17 @@ To get started you need to log into perch and create your new sections. Once you
 3. Add the _Title_ [image is not required]
 4. Click _Save_
 
-For my client, I created the sections based on where they were going to be shown _media_ and _self-help_. 
+For my client, I created the sections based on where they were going to be shown _media_ and _self-help_.
 
 You can leave _Posts_ as the blog's default section.
 
 ## Multiple blogs
-We can now create our multiple blogs. Depending on the website you're working on, you'll either need to create a new page or edit an existing one. 
+We can now create our multiple blogs. Depending on the website you're working on, you'll either need to create a new page or edit an existing one.
 
 For my clients' website, I created a new page using the default template and then added the following code:
 
 ```
-<?php 
+<?php
   perch_blog_custom([
     'section'   =>  'media',
     'sort'       => 'postDateTime',
@@ -58,7 +57,7 @@ If you already use Perch, then the above code will look fairly familiar, but if 
 - *Lines 4-5* - we are sorting the blog posts in the date they were created and showing them in descending order
 - *Line 6* - this specifies the template to use. This one is specific to my clients' website. You can just use your own one or the default ```post_in_list.html``` template.
 
-Using the above code, you can create your multiple blogs in different areas of your website. 
+Using the above code, you can create your multiple blogs in different areas of your website.
 
 ## Creating the content
 Now that you have the code to show posts from different sections on different pages of your website, you can create blogs posts and add them to each section.
@@ -70,7 +69,7 @@ Now that you have the code to show posts from different sections on different pa
 5. Scroll down and select the section from the dropdown
 6. Save
 
-Now, go to the page for that blog section on your website and see your posts for that blog section. 
+Now, go to the page for that blog section on your website and see your posts for that blog section.
 
 ### If you're also moving a blog
 In my case, I first moved the blog folder to the root of the website, changed all the URLs, updated the settings for the blog app in Perch settings and changed rewrites in the ```.htaccess``` file.

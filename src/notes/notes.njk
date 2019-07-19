@@ -1,4 +1,4 @@
-{% extends 'layouts/blog.njk' %}
+{% extends 'layouts/base.njk' %}
 
 {% block intro %}
 <div class="intro" style="background-image: url( {{ introImage }} )">
@@ -14,7 +14,7 @@
   <div class="container">
     <div class="content" id="content">
       <div class="row">
-        <div class="sixteen cols">
+        <div class="twelve cols">
           <ul class="post-list">
             {%- for post in collections.notes | reverse -%}
             <li>
@@ -32,6 +32,11 @@
             </li>
             {%- endfor -%}
           </ul>
+        </div>
+        <div class="sidebar meta / four cols">
+          <h3 class="heading">Bio</h3>
+          <p>Juan Fernandes is a freelance front-end developer living in Suffolk, UK. <a href="/about/">Read more</a> →</p>
+          <p><a href="/blog/">Read my blog posts</a> →</p>
         </div>
       </div>
     </div>

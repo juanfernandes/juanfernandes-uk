@@ -9,9 +9,9 @@
     "lang": "https://juanfernandes.uk/blog/"
   },
   "intro": {
-    "class": "blog",
-    "heading": "Blog",
-    "subheading": " Thoughts, Code and more"
+    "class": "notes",
+    "heading": "Notes",
+    "subheading": "Some notes"
   },
   "bodyClass": "blog"
 }
