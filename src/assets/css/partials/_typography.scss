@@ -170,6 +170,16 @@ samp {
   padding: 10px;
 }
 
+p, li {
+  code {
+    background: #ccc;
+    border-radius: 2px;
+    color: #111;
+    display: inline;
+    padding: 2px 4px;
+  }
+}
+
 pre {
   white-space: pre;
   white-space: pre-wrap;
