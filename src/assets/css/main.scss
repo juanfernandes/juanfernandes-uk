@@ -193,8 +193,12 @@ nav {
   }
 
   .nav--main {
-    display: block;
-    position: relative;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1024px;
+    // position: relative;
     text-align: center;
     width: 100%;
 
@@ -212,9 +216,9 @@ nav {
       @media only screen and (min-width: 60em) { // 960
         padding: 17px;
       }
-      display: inline-block;
-      margin-bottom: 0;
-      text-transform: uppercase;
+      // display: inline-block;
+      // margin-bottom: 0;
+      // text-transform: uppercase;
 
       a {
         border: none;
