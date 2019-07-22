@@ -29,9 +29,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('notes', function (collection) {
     return collection.getFilteredByGlob('./src/notes/*.md')
   })
-  // eleventyConfig.addCollection('posts', function (collection) {
-  //   return collection.getFilteredByTag('post')
-  // })
+  eleventyConfig.addCollection('design', function (collection) {
+    return collection.getFilteredByTag('design')
+  })
   // eleventyConfig.addCollection('notes', function (collection) {
   //   return collection.getFilteredByTag('note')
   // })
