@@ -23,15 +23,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/.htaccess')
   eleventyConfig.addPassthroughCopy('src/admin/config.yml')
 
-  // eleventyConfig.addCollection('feed', function (collection) {
-  //   return collection.getFilteredByGlob('./src/posts/*.md')
-  // })
   eleventyConfig.addCollection('posts', function (collection) {
-    return collection.getFilteredByTag('post')
+    return collection.getFilteredByGlob('./src/blog/*.md')
   })
   eleventyConfig.addCollection('notes', function (collection) {
-    return collection.getFilteredByTag('note')
+    return collection.getFilteredByGlob('./src/notes/*.md')
   })
+  eleventyConfig.addCollection('design', function (collection) {
+    return collection.getFilteredByTag('design')
+  })
+  // eleventyConfig.addCollection('notes', function (collection) {
+  //   return collection.getFilteredByTag('note')
+  // })
 
   // Layout aliases
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
