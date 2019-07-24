@@ -77,6 +77,16 @@ This year I didn't build any web-based side projects - being away from home a 7-
 
 So I finished my kids' treehouse!
 
+![My kids' new treehouse](/assets/imgs/treehouse.jpg "My kids' new treehouse")
+
+This project started as a proper treehouse - we finally had the perfect tree for it - but my neighbour decided to change his mind about allowing me to build it in line with the property line, I did speak to him before I started it - but let's not dwell on this as it's still a sore point.
+
+But I'm glad I have pretty much finished it - just need to cut in 2 porthole windows and add some perplex. I will do write up of this project - essentially a photo progress post.
+
+I also repurposed an old kids playhouse shed that we hadn't even put back together since we moved to Suffolk 4 years ago.
+
+I needed to build a new chicken coop as the old one that came with the house was starting to fall apart so I decided rather than bin the playhouse I'd turn it into a new chicken coop!
+
 ![Chicken coop](/assets/imgs/chickencoop-1.jpg "Chicken coop")
 
 I plan on getting some more chickens soon and now there is plenty of room for them.
@@ -124,11 +134,13 @@ I think if you can, you should treat yourself, especially if it makes getting to
 ## What didn't go so well
 
 ### Blogging
+
 I didn't do much writing on my blog in 2018 - I only managed 2 posts, three if you count the one that I should have published but didn't quite get to it. I was hoping to have posted a lot more as I had a great start in 2017.
 
 But I blame this on being away for a long contract and where I was staying, I didn't have a proper desk, so couldn't do much work. Plus, after a days work, going to the gym and cooking my dinner, I didn't have much time to spend on the computer. 
 
 ### Reading
+
 I wanted to have read ten books this year but I only managed two! I'm still reading Stephen King's The Dark Tower series - which have quite a few big books. 
 
 I managed to finish a book that I struggled to get into - "You're my favourite client" - it's not my usual sort of book. I do need to read a lot more non-fiction books, not just fiction and web design.
@@ -136,6 +148,7 @@ I managed to finish a book that I struggled to get into - "You're my favourite c
 I only managed to read 74 articles in 2018 - which can be seen as a good thing because I feel as though I've done a lot of reading of technical articles but then I don't put anything I read into practice.
 
 ### Side Projects
+
 No personal digital projects this year. I have many ideas on paper - but lacked focus this year. Something I will do better in 2019.
 
 A side project I started in 2018 - I started tinkering around with Home Automation - not sure if this is something will ever be finished. It has been an interesting and frustrating delve into this - I plan on writing about it. But let's just say, if you want to do it properly, it's not yet ready for the mainstream - it's getting there though.
@@ -145,12 +158,15 @@ I started to redo my website to use [Eleventy](https://11ty.io "Eleventy") - a s
 Sometime after designing and building my current website, I added the Perch CMS so that I could use it as a testbed for new plugins and functionality. But since I'm not doing many freelance projects that require a CMS these days and I've been wanting to dive into static site generators for a while now - I decided to give Eleventy a go.
 
 ### Learning
+
 I usually use side projects to learn something new but since I didn't do any, I don't feel as though I've learnt much. I started a few JavaScript courses but didn't get them finished.
 
 ### Video Streaming
+
 Something I wanted to get into was streaming. I've done a few gaming let's play videos and have streamed a few times (to an audience of zero!) but I've been wanting to stream web design content - what I think stopped me was lack of focus on 'what' the streams should be about and lack of confidence.
 
 ### Pets
+
 It wasn't a great year for our pets - we lost a few, but the one that hurt me the most was losing our dog, Zack.
 
 We had him since he was a puppy - before we had our children - he watched our children grow up and they watched him grow old and frail. 
@@ -164,6 +180,7 @@ We also lost loads of our rabbits - we were on holiday when it happened (we had 
 At the beginning of the year I also lost my pet lizard - a bearded dragon named Bernie - she was with us for a good 7 years, but she became ill and the vets didn't know what was wrong with her and we eventually lost her.
 
 ## Looking ahead to Twenty Nineteen
+
 In 2019 I want to focus on monthly goals, instead of resolutions, continuing learning JavaScript and learn Sketch app and Figma.
 
 I am attending the [New Adventures conference](https://newadventuresconf.com/2019/ "New Adventures Conference") in January - its the first conference I've been to in a few years. I've heard so many good things about the past conferences - I'm so glad its back as it's already looking like its going to be a great conference. Fingers crossed I get to meet a few people in real life.
@@ -173,9 +190,11 @@ Last year I went with a theme word for the year which was 'focus' and that didn'
 These are the main things I want to focus on in 2019.
 
 ## Work
+
 I want to get my first fully remote contract job in 2019. I've had contracts that have allowed 1 or 2 days of remote work after I've been there for a month or so. But I really want a contract that will be fully remote, I'm happy to go to the office 1 or 2 days per week for meetings.
 
 ## Learning
+
 Need to stop 'trying' to learn JavaScript and make a conscious effort to actually learn it. I find myself in a strange situation - I've always been a front-end developer - but in all my permanent jobs, someone else was the JavaScript person, it was usually a backend developer that worked with JS and all I needed to do was HTML CSS and jQuery - so all of a sudden JS is really popular and I missed all the boats. 
 
 I'm in the middle - I'm not a JS developer or a UX Designer, but I am somewhere in the middle. I believe I'm more developer than a designer, so this is why I'm going to focus on learning JS. 
@@ -185,6 +204,7 @@ I also want to dive into Vue and Gatsby - there has been so much love for both t
 There's a whole bunch of other stuff I want to learn too - like CSS Grid! 
 
 ## Side Projects
+
 I think the main issue with me learning JS is that I do a lot of reading and video tutorials but I don't do anything with it. Sometimes I will use vanilla JS instead of jQuery, but if I'm busy - then I don't have time to figure out JS, so will just default to what I know.
 
 I need to build stuff and use JS so I can learn it, spend time making mistakes and figuring things out and I believe I can do this with side projects. What will I build I don't know yet, but whatever it is, it will be something for me and it may never see the light of day. 
@@ -192,22 +212,23 @@ I need to build stuff and use JS so I can learn it, spend time making mistakes a
 I also plan on streaming as much as possible and hopefully actually get people to 'tune' in - I want to stream so that I can practice speaking to an audience, learn to speak clearly while showing/doing demos/presentations etc. 
 
 ## Blogging
+
 Gah. I really need to make this a habit. I like doing it and it helps with the learning side of things - if I write about something I've learnt, it helps commit it to long-term memory - so I want to do at least 1 blog post a month - I know it doesn't sound like a lot, but when I only managed 2 in twenty eighteen - 12 will be a milestone! 
 
 ## Health
+
 After many many years of neglecting my health, fitness and well being - I am making a conscious effort to fix this. It won't be easy, but then you can't expect to fix years of damage in one quick HIIT session, can you? 
 
 I'm going to finish The Body Coach's 90-day plan and then create my own plan to keep the exercise and healthy eating going. I'm also going to try very hard not to have any sugar - which won't be easy - it means giving up things like chocolate, cookies and cakes! I have already replaced sugar in my coffee with a plant-based alternative.
-
 
 Well, I think that's all I have to say for this year in review post (sorry it's a long one) - I hope you enjoyed reading it as much as I enjoyed looking back. Let me know if you did and if you also wrote your own - I love reading these. 
 
 Here are the ones I've read so far: 
 
-- Andy Bell - https://andy-bell.design/wrote/2018-a-year-in-review/
-- Ashley Baxter - https://iamashley.co.uk/2018-year-in-review
-- Dave Rupert - https://daverupert.com/2018/12/twenty-eighteen/
-- Ana - https://www.ohhelloana.blog/the-end-of-2018
-- Remy Sharp - https://remysharp.com/2018/12/31/my-2018
-- Charlie Marie - https://charlimarie.com/blog/2018-review/
-- Justin Jackson - https://justinjackson.ca/2018-review/
+* Andy Bell - https://andy-bell.design/wrote/2018-a-year-in-review/
+* Ashley Baxter - https://iamashley.co.uk/2018-year-in-review
+* Dave Rupert - https://daverupert.com/2018/12/twenty-eighteen/
+* Ana - https://www.ohhelloana.blog/the-end-of-2018
+* Remy Sharp - https://remysharp.com/2018/12/31/my-2018
+* Charlie Marie - https://charlimarie.com/blog/2018-review/
+* Justin Jackson - https://justinjackson.ca/2018-review/
