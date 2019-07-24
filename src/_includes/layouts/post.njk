@@ -20,31 +20,11 @@
           {{ content | safe }}
 
           <p class="meta">
-            <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/blog/authors/juan-fernandes" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/blog/tags/{{ item }}" class="p-category">{{ item }}</a> {% endfor %}</small>
+            <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/about" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/blog/tags/{{ item }}" class="p-category">{{ item }}</a> {% endfor %}</small>
           </p>
         </article>
 
-        <form id="form1_subscribe" class="form form--subscribe" action="/blog/2019-03-13-multiple-blogs-with-perch-cms" method="post">
-          <div class="content">
-            <p><b>Stay up-to-date with my blog posts and receive occasional emails from me.</b></p>
-            <div class="row">
-              <div class="six cols">
-                <label for="form1_firstname">First name</label>
-                <input id="form1_firstname" name="firstname" type="text" required="required">
-              </div>
-              <div class="six cols">
-                <label for="form1_email">Email address</label>
-                <input id="form1_email" name="email" type="email" required="required">
-              </div>
-              <div class="four cols">
-                <input id="form1_btnsubmit" name="btnsubmit" class="button button--cta" value="Subscribe" type="submit"><input type="hidden" name="cms-form" value="c3Vic2NyaWJlOnBlcmNoX21haWxjaGltcDovdGVtcGxhdGVzL21haWxjaGltcC9mb3Jtcy9zdWJzY3JpYmUtYmxvZy5odG1sOjE1NjE2Njg0Mzc=">
-                <input id="form1_confirm" name="confirm" value="1" type="hidden">
-                <input id="form1_list" name="list" value="a6a8aad9ca" type="hidden">
-              </div>
-            </div>
-            <p class="no-margin"><small><em>No spam ever, unsubscribe anytime.</em></small></p>
-          </div>
-        </form>
+        {% include 'components/signup-form.njk' %}
 
       </div>
     </div>
