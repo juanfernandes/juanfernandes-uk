@@ -226,9 +226,9 @@ Well, I think that's all I have to say for this year in review post (sorry it's 
 Here are the ones I've read so far: 
 
 - [Andy Bell](https://andy-bell.design/wrote/2018-a-year-in-review/ "Andy Bell")
-- (Ashley Baxter)[https://iamashley.co.uk/2018-year-in-review "Ashley Baxter"]
-- (Dave Rupert)[https://daverupert.com/2018/12/twenty-eighteen/ "Dave Rupert"]
-- (Ana)[https://www.ohhelloana.blog/the-end-of-2018 "Ana"]
-- (Remy Sharp)[https://remysharp.com/2018/12/31/my-2018 "Remy Sharp"]
-- (Charlie Marie)[https://charlimarie.com/blog/2018-review/ "Charlie Marie"]
-- (Justin Jackson)[https://justinjackson.ca/2018-review/ "Justin Jackson"]
+- [Ashley Baxter](https://iamashley.co.uk/2018-year-in-review "Ashley Baxter")
+- [Dave Rupert](https://daverupert.com/2018/12/twenty-eighteen/ "Dave Rupert")
+- [Ana](https://www.ohhelloana.blog/the-end-of-2018 "Ana")
+- [Remy Sharp](https://remysharp.com/2018/12/31/my-2018 "Remy Sharp")
+- [Charlie Marie](https://charlimarie.com/blog/2018-review/ "Charlie Marie")
+- [Justin Jackson](https://justinjackson.ca/2018-review/ "Justin Jackson")
