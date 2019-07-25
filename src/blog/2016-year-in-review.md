@@ -42,52 +42,52 @@ Finally started blogging, even though I only managed a few posts, it's definitel
 ### Numbers
 I read a few year in review posts and some had posted number, I liked this idea - so here are some numbers. I'm going to do a better job of collecting this kind of data for next year's review.
 
-- Books read: 4
-- Blog posts published: 3
-- Coffees: 158
-- Conferences attended: 1
-- Client projects: 4
-- Side projects: 3
-- Games played: 2
-- - Minecraft
-- - Firewatch
+* Books read: 4
+* Blog posts published: 3
+* Coffees: 158
+* Conferences attended: 1
+* Client projects: 4
+* Side projects: 3
+* Games played: 2
+    * Minecraft
+    * Firewatch
 
 
-- TV Shows watched: 24
-- - 11.22.63
-- - Agents of Shield
-- - Banshee
-- - Blindspot
-- - Childhood's End
-- - Colony
-- - Fear the walking dead 
-- - Humans
-- - Mr Robot
-- - Outcast
-- - Peep Show
-- - Plebs
-- - Red Dwarf
-- - Revenge
-- - Slasher
-- - The Man in the high castle
-- - The Strain
-- - The X-Files
-- - Undatable
-- - Walking Dead
-- - Wayward Pines
-- - Westworld
-- - Zoo
-- - ZNation
+* TV Shows watched: 24
+    * 11.22.63
+    * Agents of Shield
+    * Banshee
+    * Blindspot
+    * Childhood's End
+    * Colony
+    * Fear the walking dead 
+    * Humans
+    * Mr Robot
+    * Outcast
+    * Peep Show
+    * Plebs
+    * Red Dwarf
+    * Revenge
+    * Slasher
+    * The Man in the high castle
+    * The Strain
+    * The X-Files
+    * Undatable
+    * Walking Dead
+    * Wayward Pines
+    * Westworld
+    * Zoo
+    * ZNation
 
 
-- Films watched: 6
-- - Deadpool
-- - Westworld
-- - The Secret Life of Pets
-- - Arrival
-- - Finding Dory
-- - The Good Dinosaur
-- - Moana
+* Films watched: 6
+    * Deadpool
+    * Westworld
+    * The Secret Life of Pets
+    * Arrival
+    * Finding Dory
+    * The Good Dinosaur
+    * Moana
 
 ## Looking ahead
 I have quite a list of things I want to achieve this year - I hope it's not too many things, as we all know if we try to achieve too many things at once, it just sets us up for failure. 
