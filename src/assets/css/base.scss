@@ -32,29 +32,31 @@ a {
   color: #333;
   outline: 0;
   text-decoration: none;
+
+  &:visited {
+    color: #333;
+    outline: 0;
+    text-decoration: underline;
+  }
+
+  &:hover,
+  &:focus {
+    color: #000;
+  }
+
+  &.img {
+    border: 0;
+  }
 }
 
-a:visited {
-  color: #333;
-  outline: 0;
-  text-decoration: underline;
-}
+p {
+  a {
+    line-height: inherit;
 
-a:hover,
-a:focus {
-  color: #000;
-}
-
-p a {
-  line-height: inherit;
-}
-
-p a:visited {
-  line-height: inherit;
-}
-
-a img {
-  border: 0;
+     &:visited {
+      line-height: inherit;
+    }
+  }
 }
 
 .nav a:hover,
