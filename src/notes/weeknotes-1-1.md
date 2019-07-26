@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 'Weeknotes #1'
+title: Weeknotes 1
 description: >-
   My first #weeknotes. I really like the idea of these - just like the yearly
   reviews - so why not a weekly review.  I'm hoping this will help me, not only
