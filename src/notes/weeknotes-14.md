@@ -42,6 +42,7 @@ Had to figure out how to achieve this with nunchucks and I did it using the foll
   </div>
   {%- endfor -%}
 ```
+```
 
 I'm really enjoying this side project of converting my PHP CMS based website to a static site as well as working with Netlify - learning quite a few new things along the way. Hopefully next week I will hope on Twitch and do a bit of streaming - just to get used to talking about the code I'm writing.
 
