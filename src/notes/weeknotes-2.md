@@ -1,15 +1,17 @@
 ---
 layout: layouts/post.njk
-title: Weeknotes 2
-description: 'weeknotes, freelance, contract, front-end, developer'
+title: 'Weeknotes #2'
+description: >-
+  This week I'm starting with what didn't go well, as it was a bit of a blow for
+  me. I'm also introducing a personal section because I like writing about my
+  personal life on my blog, so felt it was appropriate - it also explains why I
+  didn't get much work done on my website!
 keywords:
-  - This week I'm starting with what didn't go well
-  - >-
-    as it was a bit of a blow for me. I'm also introducing a personal section
-    because I like writing about my personal life on my blog
-  - >-
-    so felt it was appropriate - it also explains why I didn't get much work
-    done on my website!
+  - weeknotes
+  - freelance
+  - contract
+  - front-end
+  - developer
 postImage: /assets/imgs/trianglify.png
 date: 2019-02-16T17:05:21.815Z
 tags:
