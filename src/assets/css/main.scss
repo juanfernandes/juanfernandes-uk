@@ -233,12 +233,12 @@ nav {
         letter-spacing: 0.075em;
         text-decoration: none;
         text-transform: uppercase;
-        transition: color .25s cubic-bezier(.25, .46, .45, .94) 0s;
+        transition: all .25s cubic-bezier(.25, .46, .45, .94) 0s;
 
         &:hover:not(.logo),
         &:focus:not(.logo) {
           color: #666;
-          border-bottom: 4px solid #F89820;
+          border-bottom: 4px solid $orange;
           padding-bottom: 2px;
         }
       }
