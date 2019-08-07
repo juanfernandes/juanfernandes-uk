@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": "Blog - Thoughts, Code and more by freelance front-end developer Juan Fernandes",
-    "description": "Blog posts by Juan Fernandes featuring post on website management tips and tricks, front-end development, freelance design business and small business website owners",
-    "keywords": "blog, freelance website design, website owners tips tricks, small business website owners, website design tips, website design business",
-    "ogUrl": "https://juanfernandes.uk/blog/",
-    "ogTitle": "Blog - Thoughts, Code and more by freelance front-end developer Juan Fernandes",
-    "ogDesc": "Blog posts by Juan Fernandes featuring post on website management tips and tricks, front-end development, freelance design business and small business website owners",
-    "lang": "https://juanfernandes.uk/blog/"
+    "title": "Notes - Freelance / contract front-end developer Juan Fernandes",
+    "description": "Short posts, photos, thoughts about code, design and personal stuff",
+    "keywords": "notes, freelance, contract, front-end developer,  website design, website owners tips tricks, small business website owners, website design tips, website design business",
+    "ogUrl": "https://juanfernandes.uk/notes/",
+    "ogTitle": "Notes",
+    "ogDesc": "",
+    "lang": "https://juanfernandes.uk/notes/"
   },
   "intro": {
-    "class": "notes",
+    "class": "notes intro--sml",
     "heading": "Notes",
-    "subheading": "Some notes"
+    "subheading": "Short posts, photos, thoughts about code, design and personal stuff"
   },
   "bodyClass": "blog"
 }

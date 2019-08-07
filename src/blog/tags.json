@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Blog Archive - Thoughts, Code and more by freelance front-end developer Juan Fernandes",
-    "description": "Blog posts by Juan Fernandes featuring post on website management tips and tricks, front-end development, freelance design business and small business website owners",
+    "title": "Thoughts, Code and more by freelance front-end developer Juan Fernandes",
+    "description": "Blog posts by Juan Fernandes featuring posts on website management tips and tricks, front-end development, freelance design business and small business website owners",
     "keywords": "blog, freelance website design, website owners tips tricks, small business website owners, website design tips, website design business",
     "ogUrl": "https://juanfernandes.uk/blog/tags",
     "ogTitle": "Blog - Thoughts, Code and more by freelance front-end developer Juan Fernandes",
@@ -14,5 +14,5 @@
     "subheading": " Thoughts, Code and more"
   },
   "bodyClass": "blog",
-  "introImage": "https://res.cloudinary.com/juanfernandes/image/fetch/https://imgs.juanfernandes.uk/cms/resources/trianglify.png"
+  "introImage": "/assets/imgs/trianglify.png"
 }
