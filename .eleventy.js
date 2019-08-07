@@ -14,7 +14,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('README.md')
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
   eleventyConfig.addPassthroughCopy('src/sw.js')
-  eleventyConfig.addPassthroughCopy('src/sitemap.xml')
   eleventyConfig.addPassthroughCopy('src/robots.txt')
   eleventyConfig.addPassthroughCopy('src/keybase.txt')
   eleventyConfig.addPassthroughCopy('src/humans.txt')
