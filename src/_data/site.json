@@ -17,12 +17,12 @@
   "url": "https://juanfernandes.uk",
   "navigation": [
     {
-      "label": "About",
-      "url": "/about/"
+      "label": "Work",
+      "url": "/work/"
     },
     {
-      "label": "Blog",
-      "url": "/blog/"
+      "label": "About",
+      "url": "/about/"
     },
     {
       "label": "Juan Fernandes - Freelance Website Designer",
@@ -30,8 +30,8 @@
       "url": "/"
     },
     {
-      "label": "Work",
-      "url": "/work/"
+      "label": "Blog",
+      "url": "/blog/"
     },
     {
       "label": "Contact",
