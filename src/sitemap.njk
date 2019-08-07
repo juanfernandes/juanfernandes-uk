@@ -1,0 +1,40 @@
+---
+permalink: sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://juanfernandes.uk/</loc>
+  </url>
+  <url>
+    <loc>https://juanfernandes.uk/contact/</loc>
+  </url>
+  <url>
+    <loc>https://juanfernandes.uk/blog/</loc>
+  </url>
+  <url>
+    <loc>https://juanfernandes.uk/work/</loc>
+  </url>
+  <url>
+    <loc>https://juanfernandes.uk/work/mclaren/</loc>
+  </url>
+  <url>
+    <loc>https://juanfernandes.uk/work/tomhartleyjnr/</loc>
+  </url>
+  <url>
+    <loc>https://juanfernandes.uk/work/fourpoints/</loc>
+  </url>
+  <url>
+    <loc>https://juanfernandes.uk/work/landrover/</loc>
+  </url>
+  <url>
+    <loc>https://juanfernandes.uk/about/</loc>
+  </url>
+  {%- for page in collections.all %}
+  {%- if page.data.layout %}
+  <url>
+    <loc>{{ site.url }}{{ page.url }}</loc>
+  </url>
+  {%- endif %}
+  {%- endfor %}
+</urlset>
