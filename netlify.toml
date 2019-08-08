@@ -19,46 +19,41 @@
   status = 301
 
 [[redirects]]
-  from = "now/index.php"
-  to = "now/index.html"
+  from = "/now/index.php"
+  to = "/now/index.html"
   status = 301
 
 [[redirects]]
-  from = "testimonials/index.php"
-  to = "testimonials/index.html"
+  from = "/testimonials/index.php"
+  to = "/testimonials/index.html"
   status = 301
 
 [[redirects]]
-  from = "work/index.php"
-  to = "work/index.html"
+  from = "/work/index.php"
+  to = "/work/index.html"
   status = 301
 
 [[redirects]]
-  from = "archives/"
-  to = "tags/"
+  from = "/blog/category/personal"
+  to = "/blog/tags/personal"
   status = 301
 
 [[redirects]]
-  from = "blog/category/personal"
-  to = "blog/tags/personal"
+  from = "/blog/category/design"
+  to = "/blog/tags/design"
   status = 301
 
 [[redirects]]
-  from = "blog/category/design"
-  to = "blog/tags/design"
+  from = "/blog/category/development"
+  to = "/blog/tags/development"
   status = 301
 
 [[redirects]]
-  from = "blog/category/development"
-  to = "blog/tags/development"
+  from = "/blog/notes.php"
+  to = "/notes/"
   status = 301
 
 [[redirects]]
-  from = "blog/notes.php"
-  to = "notes/"
-  status = 301
-
-[[redirects]]
-  from = "rss/"
-  to = "rss/feed.xml"
+  from = "/rss"
+  to = "/rss/feed.xml"
   status = 301
