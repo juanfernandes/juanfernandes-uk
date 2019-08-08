@@ -32,3 +32,33 @@
   from = "work/index.php"
   to = "work/index.html"
   status = 301
+
+[[redirects]]
+  from = "archives/"
+  to = "tags/"
+  status = 301
+
+[[redirects]]
+  from = "blog/category/personal"
+  to = "blog/tags/personal"
+  status = 301
+
+[[redirects]]
+  from = "blog/category/design"
+  to = "blog/tags/design"
+  status = 301
+
+[[redirects]]
+  from = "blog/category/development"
+  to = "blog/tags/development"
+  status = 301
+
+[[redirects]]
+  from = "blog/notes.php"
+  to = "notes/"
+  status = 301
+
+[[redirects]]
+  from = "rss/"
+  to = "rss/feed.xml"
+  status = 301
