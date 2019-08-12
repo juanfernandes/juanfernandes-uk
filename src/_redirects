@@ -1,1 +1,3 @@
 /blog/:year-:month-:date-:slug /blog/:slug 301
+
+/blog/2019-03-13-multiple-blogs-with-perch-cms /blog/multiple-blogs-with-perch-cms 301
