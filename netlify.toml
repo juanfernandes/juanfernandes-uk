@@ -24,6 +24,16 @@
   status = 301
 
 [[redirects]]
+  from = "/blog/index.php"
+  to = "/blog/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/work/index.php"
+  to = "/work/index.html"
+  status = 301
+
+[[redirects]]
   from = "/testimonials/index.php"
   to = "/testimonials/index.html"
   status = 301

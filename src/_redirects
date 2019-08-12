@@ -1,3 +1,4 @@
 /blog/:year-:month-:date-:slug /blog/:slug 301
 
-/blog/2019-03-13-multiple-blogs-with-perch-cms /blog/multiple-blogs-with-perch-cms 301
+/blog/2019-03-13-multiple-blogs-with-perch-cms  /blog/multiple-blogs-with-perch-cms 301
+/blog/2019-03-08-keeping-track-of-tasks         /blog/keeping-track-of-tasks 301
