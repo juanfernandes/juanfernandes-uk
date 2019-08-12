@@ -4,18 +4,18 @@
 
 # Redirects
 [[redirects]]
-  from = "index.php"
-  to = "index.html"
+  from = "/index.php"
+  to = "/index.html"
   status = 301
 
 [[redirects]]
-  from = "about/index.php"
-  to = "about/index.html"
+  from = "/about/index.php"
+  to = "/about/index.html"
   status = 301
 
 [[redirects]]
-  from = "contact/index.php"
-  to = "contact/index.html"
+  from = "/contact/index.php"
+  to = "/contact/index.html"
   status = 301
 
 [[redirects]]
@@ -35,17 +35,17 @@
 
 [[redirects]]
   from = "/blog/category/personal"
-  to = "/blog/tags/personal"
+  to = "/blog/tags/personal/"
   status = 301
 
 [[redirects]]
   from = "/blog/category/design"
-  to = "/blog/tags/design"
+  to = "/blog/tags/design/"
   status = 301
 
 [[redirects]]
   from = "/blog/category/development"
-  to = "/blog/tags/development"
+  to = "/blog/tags/development/"
   status = 301
 
 [[redirects]]
@@ -56,4 +56,9 @@
 [[redirects]]
   from = "/rss"
   to = "/rss/feed.xml"
+  status = 301
+
+[[redirects]]
+  from = "/blog/:year-:month-:date-:slug"
+  to = "/blog/:slug"
   status = 301

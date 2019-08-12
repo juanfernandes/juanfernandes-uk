@@ -182,25 +182,26 @@ AddDefaultCharset utf-8
 
 </IfModule>
 
-<IfModule mod_rewrite.c>
-    RewriteEngine on
-    RewriteRule ^blog/authors/([a-zA-Z0-9-/]+)$ /blog/authors.php?tag=$1 [L]
-    RewriteRule ^blog/category/([a-zA-Z0-9-/]+)$ /blog/archive.php?cat=$1 [L]
-    RewriteRule ^blog/amp/([a-zA-Z0-9-/]+)$ /blog/amp.php?s=$1 [L]
-    RewriteRule ^blog/([a-zA-Z0-9-/]+)/preview$ /blog/post.php?s=$1&preview=all [L]
-    RewriteRule ^blog/([a-zA-Z0-9-/]+)$ /blog/post.php?s=$1 [L]
-</IfModule>
+# <IfModule mod_rewrite.c>
+#    RewriteEngine on
+#    RewriteRule ^blog/authors/([a-zA-Z0-9-/]+)$ /blog/authors.php?tag=$1 [L]
+#    RewriteRule ^blog/category/([a-zA-Z0-9-/]+)$ /blog/archive.php?cat=$1 [L]
+#    RewriteRule ^blog/amp/([a-zA-Z0-9-/]+)$ /blog/amp.php?s=$1 [L]
+#    RewriteRule ^blog/([a-zA-Z0-9-/]+)/preview$ /blog/post.php?s=$1&preview=all [L]
+#    RewriteRule ^blog/([a-zA-Z0-9-/]+)$ /blog/post.php?s=$1 [L]
+# </IfModule>
 
 
 # ----------------------------------------------------------------------
-# | Suppressing / Forcing the `www.` at the beginning of URLs          |
+# | Forcing the `www.` at the beginning of URLs                        |
 # ----------------------------------------------------------------------
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteCond %{HTTPS} !=on
-    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-    RewriteRule ^ %{ENV:PROTO}://%1%{REQUEST_URI} [R=301,L]
+    RewriteCond %{HTTP_HOST} !^www\. [NC]
+    RewriteCond %{SERVER_ADDR} !=127.0.0.1
+    RewriteCond %{SERVER_ADDR} !=::1
+    RewriteRule ^ %{ENV:PROTO}://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 </IfModule>
 
 # ######################################################################
