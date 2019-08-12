@@ -57,8 +57,3 @@
   from = "/rss"
   to = "/rss/feed.xml"
   status = 301
-
-[[redirects]]
-  from = "/blog/:year-:month-:date-:slug"
-  to = "/blog/:slug"
-  status = 301
