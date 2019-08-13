@@ -31,7 +31,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('mstile-150x150.png')
   eleventyConfig.addPassthroughCopy('mstile-144x144.png')
   eleventyConfig.addPassthroughCopy('safari-pinned-tab.svg')
-  eleventyConfig.addPassthroughCopy('src/.htaccess')
   eleventyConfig.addPassthroughCopy('src/_redirects')
   eleventyConfig.addPassthroughCopy('src/admin/config.yml')
 
