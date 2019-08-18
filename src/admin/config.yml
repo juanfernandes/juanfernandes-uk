@@ -35,5 +35,5 @@ collections:
       - {label: "Keywords", name: "keywords", widget: "list", allow_add: true}
       - {label: "Image", name: "postImage", widget: "image", default: "/assets/imgs/trianglify.png"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true, default: "notes", hint: "Comma separated list"}
+      - {label: "Tags", name: "tags", widget: "list", allow_add: true, hint: "Comma separated list"}
       - {label: "Body", name: "body", widget: "markdown"}
