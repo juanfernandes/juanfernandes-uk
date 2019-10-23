@@ -66,24 +66,37 @@ $module: 'social-icons';
   }
 }//.social-icons
 
-.social-icon {
-  text-align: center;
-  margin: 0 auto;
-  width: 150px;
+
+.social {
+  display: flex;
+  grid-gap: 1em;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  //460
+  @media only screen and (min-width: 44.500em) { // 712
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
   a {
-    display: block;
-    border: none;
+    border-bottom: none;
+  }
+
+  &__link {
+    &:hover,
+    &:focus {
+      .social__icon {
+        fill: $white;
+      }
+    }
+  }
+
+  &__icon {
     height: 150px;
+    transition: fill 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
     width: 150px;
-
-    svg {
-      transition: fill 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-    }
-
-    &:hover svg {
-      fill: #fff;
-    }
   }
 }
 
@@ -198,7 +211,6 @@ nav {
     justify-content: space-evenly;
     margin: 0 auto;
     max-width: 1024px;
-    // position: relative;
     text-align: center;
     width: 100%;
 
@@ -216,9 +228,6 @@ nav {
       @media only screen and (min-width: 60em) { // 960
         padding: 17px;
       }
-      // display: inline-block;
-      // margin-bottom: 0;
-      // text-transform: uppercase;
 
       a {
         border: none;
