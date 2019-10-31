@@ -1,4 +1,4 @@
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/)
+[![Built with Grunt](http://cdn.gruntjs.com/builtwith.svg)](https://gruntjs.com/)
 [![Powered by 11ty.io](https://img.shields.io/badge/powered%20by-11ty.io-%23000.svg)](https://11ty.io/)
 
 ---
