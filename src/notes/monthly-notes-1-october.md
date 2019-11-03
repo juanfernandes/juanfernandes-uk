@@ -16,7 +16,7 @@ keywords:
   - freelance
   - h. samuel
   - ernest jones
-  - signet jewellers
+  - signet jewelers
   - private pension
   - sipp
   - lisa
@@ -34,7 +34,7 @@ Had a meeting with a new client and telephone meeting with another and I will st
 
 
 ## Work
-October 31st was supposed to be my last day at Signet Jewellers but my contract was extended by another week, so I'll be the only contract front end developer left in the team, the other two finished on the 31st. 
+October 31st was supposed to be my last day at Signet Jewelers but my contract was extended by another week, so I'll be the only contract front end developer left in the team, the other two finished on the 31st. 
 
 I had already lined up some client work, so had to push that forward a bit. 
 
