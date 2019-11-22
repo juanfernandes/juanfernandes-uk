@@ -3,13 +3,13 @@
     "title": "Notes - Freelance / contract front-end developer Juan Fernandes",
     "description": "Short posts, photos, thoughts about code, design and personal stuff",
     "keywords": "notes, freelance, contract, front-end developer,  website design, website owners tips tricks, small business website owners, website design tips, website design business",
-    "ogUrl": "https://juanfernandes.uk/notes/",
+    "ogUrl": "https://www.juanfernandes.uk/notes/",
     "ogTitle": "Notes",
-    "ogDesc": "",
-    "lang": "https://juanfernandes.uk/notes/"
+    "ogDesc": "Short posts, photos, thoughts about code, design and personal stuff",
+    "lang": "https://www.juanfernandes.uk/notes/"
   },
   "intro": {
-    "class": "notes intro--sml",
+    "class": "notes intro intro--sml",
     "heading": "Notes",
     "subheading": "Short posts, photos, thoughts about code, design and personal stuff"
   },

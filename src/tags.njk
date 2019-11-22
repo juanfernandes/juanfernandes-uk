@@ -4,7 +4,7 @@ pagination:
   data: collections
   size: 1
   alias: tag
-permalink: blog/tags/{{ tag }}/
+permalink: tags/{{ tag }}/
 ---
 {% extends 'layouts/blog.njk' %}
 
@@ -45,9 +45,6 @@ permalink: blog/tags/{{ tag }}/
             </li>
             {%- endfor -%}
           </ul>
-          <nav>
-            ← <a href="{{ '/blog/' | url }}">Blog index</a>
-          </nav>
       </div>
     </div>
   </div>
