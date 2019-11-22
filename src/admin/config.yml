@@ -6,6 +6,16 @@ media_folder: "src/assets/imgs"
 public_folder: "assets/imgs"
 
 collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Now"
+        name: "now"
+        file: "src/now/now.njk"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Publish Date", name: "date", widget: "datetime"}
+
   - name: "posts"
     label: "Post"
     folder: "src/blog"

@@ -5,6 +5,8 @@
           <div class="content">
             {% if date %}<p><em><small>Updated: {{ date }}</small></em></p>{% endif %}
 
+            {{ content | safe }}
+
             <h3>Work</h3>
             <ul>
               <li>My contract with Signet Jewlers in Borehamwood, North London came to an end in mid-November, it was due to end on October 31<sup>st</sup> but it was extended by another week, which gave an opportunity to do some code refinements and minor bug fixes.</li>
