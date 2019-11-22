@@ -1191,7 +1191,7 @@ figure.effect:hover p {
       .card {
         align-items: center;
         background: $white;
-        // border-radius: 5px;
+        border-radius: 5px;
         box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
         color: $off-black;
         display: flex;
@@ -1200,9 +1200,6 @@ figure.effect:hover p {
         justify-content: center;
         padding: 1em;
         transition: 300ms box-shadow;
-
-        box-shadow: 5px 5px #F89820;
-        border: 1px solid #111;
 
         &:hover {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
