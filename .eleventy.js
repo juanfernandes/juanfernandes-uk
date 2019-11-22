@@ -40,6 +40,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('notes', function (collection) {
     return collection.getFilteredByGlob('./src/notes/*.md')
   })
+  eleventyConfig.addCollection('photos', function (collection) {
+    return collection.getFilteredByGlob('./src/photos/*.md')
+  })
   eleventyConfig.addCollection('design', function (collection) {
     return collection.getFilteredByTag('design')
   })

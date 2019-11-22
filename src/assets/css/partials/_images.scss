@@ -1,44 +1,53 @@
 /* $_Images
 ================================================== */
 img {
+  -ms-interpolation-mode: bicubic;
   height: auto;
   max-width: 100%;
-  -ms-interpolation-mode: bicubic;
+  width: 100%;
 
   &--rounded {
     border-radius: 4px;
   }
+
   &--circle {
     border-radius: 500px;
   }
+
   &--polaroid {
     background-color: white;
     border: 1px solid #c6bfbf;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     padding: 12px;
   }
+
   &--right {
     float: right;
     margin-bottom: 24px;
     margin-left: 24px
   }
+
   &--left {
     float: left;
     margin-right: 24px;
     margin-bottom: 24px
   }
+
   &--center {
     display: block;
     margin-right: auto;
     margin-bottom: 24px;
     margin-left: auto
   }
+
   &--short {
     height: 120px
   }
+
   &--medium {
     height: 240px
   }
+
   &--tall {
     height: 360px
   }
@@ -52,19 +61,24 @@ svg:not(:root) {
 /* $_Figures
 ================================================== */
 figure {
-  margin-bottom: 1.5em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
-  > img {
-    display: block;
-    margin: 0 auto .375em auto;
+  img {
+    margin-bottom: 1em;
   }
 
   figcaption {
-    color: #808080;
-    display: block;
+    color: $off-black;
     font-style: italic;
     font-size: 14px;
     font-size: 1.4rem;
     font-weight: normal;
+    margin-bottom: 2em;
+
+    > * {
+      margin: 0;
+    }
   }
 }

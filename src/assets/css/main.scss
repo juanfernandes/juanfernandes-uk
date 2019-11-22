@@ -292,15 +292,19 @@ nav {
 
     &--large {
       display: block;
-      font-size: 80px;
-      font-size: 8rem;
+      font-size: 40px;
+      font-size: 4rem;
       font-weight: bold;
-      // margin-bottom: .5em;
+
+      @media only screen and (min-width: 60em) {
+        font-size: 80px;
+        font-size: 8rem;
+      }
     }
   }
 
   &--sml {
-    padding: 20px 0;
+    padding: 40px 0;
 
     .intro__heading,
     .intro__heading--large {
@@ -342,7 +346,8 @@ nav {
   &--blog {
     background-image: url("/assets/imgs/12f0a18c.jpg");
   }
-  &--notes {
+  &--notes,
+  &--photos {
     background-image: url("/assets/imgs/trianglify.png");
   }
 
@@ -1175,10 +1180,48 @@ figure.effect:hover p {
       margin-bottom: 16px;
       text-transform: uppercase;
     }
+
+    &--cards {
+      display: grid;
+      grid-gap: 2em;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      margin: 0;
+      padding: 1em;
+
+      .card {
+        align-items: center;
+        background: $white;
+        // border-radius: 5px;
+        box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+        color: $off-black;
+        display: flex;
+        flex-direction: column;
+        font-weight: 500;
+        justify-content: center;
+        padding: 1em;
+        transition: 300ms box-shadow;
+
+        box-shadow: 5px 5px #F89820;
+        border: 1px solid #111;
+
+        &:hover {
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        &__title {
+          font-size: 16px;
+          margin: 0;
+        }
+
+        &__img {
+          margin-bottom: 1em;
+        }
+      }
+    }
   }
 
   .post {
-    margin-right: 3em;
+    margin-bottom: 54px;
 
     &__heading {
       margin-bottom: 0;
@@ -1193,11 +1236,15 @@ figure.effect:hover p {
       margin-bottom: 24px;
     }
 
-    img {
-      display: block;
-      margin-bottom: 54px;
-      margin-left: auto;
-      margin-right: auto;
+    &--img {
+      img {
+        border: 1px solid rgba(0,0,0,.2);
+        margin-bottom: 1em;
+      }
+    }
+
+    figure {
+      margin: 0;
     }
   }
 
