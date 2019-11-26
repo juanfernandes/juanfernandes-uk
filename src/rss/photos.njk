@@ -20,9 +20,13 @@ eleventyExcludeFromCollections: true
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | rssDate }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html"><![CDATA[
-      {{ post.templateContent | safe }}
-    ]]></content>
+    <content type="html">
+      <![CDATA[
+        <a href="{{ absolutePostUrl }}">
+          <img alt="{{ post.data.alt }}" src="{{ post.data.image }}" />
+        </a>
+      ]]>
+    </content>
   </entry>
   {% endfor %}
 </feed>
