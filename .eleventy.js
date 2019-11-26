@@ -46,9 +46,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('design', function (collection) {
     return collection.getFilteredByTag('design')
   })
-  // eleventyConfig.addCollection('notes', function (collection) {
-  //   return collection.getFilteredByTag('note')
-  // })
 
   // Layout aliases
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
