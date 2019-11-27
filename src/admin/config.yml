@@ -1,7 +1,8 @@
 backend:
   name: git-gateway
-  branch: master
+  branch: 63-add-now-page-to-netlifycms
 
+logo_url: https://www.juanfernandes.uk/assets/imgs/juanfernandes-logo.svg
 media_folder: "src/assets/imgs"
 public_folder: "assets/imgs"
 
@@ -11,10 +12,10 @@ collections:
     files:
       - label: "Now"
         name: "now"
-        file: "src/now/now.njk"
+        file: "src/now/now1.md"
         fields:
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Publish Date", name: "date", widget: "datetime"}
+          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Publish Date", name: "date", widget: "datetime" }
 
   - name: "posts"
     label: "Post"
@@ -23,14 +24,25 @@ collections:
     preview_path: "blog/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Keywords", name: "keywords", widget: "list", allow_add: true}
-      - {label: "Image", name: "postImage", widget: "image"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true, hint: "Comma separated list"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "layouts/post.njk",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Keywords", name: "keywords", widget: "list", allow_add: true }
+      - { label: "Image", name: "postImage", widget: "image" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "list",
+          allow_add: true,
+          hint: "Comma separated list",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "notes"
     label: "Note"
@@ -40,14 +52,30 @@ collections:
     preview_path: "notes/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Keywords", name: "keywords", widget: "list", allow_add: true}
-      - {label: "Image", name: "postImage", widget: "image", default: "/assets/imgs/trianglify.png"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true, hint: "Comma separated list"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "layouts/post.njk",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Keywords", name: "keywords", widget: "list", allow_add: true }
+      - {
+          label: "Image",
+          name: "postImage",
+          widget: "image",
+          default: "/assets/imgs/trianglify.png",
+        }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "list",
+          allow_add: true,
+          hint: "Comma separated list",
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "photos"
     label: "Photo"
@@ -57,12 +85,22 @@ collections:
     preview_path: "photos/{{slug}}"
     create: true
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/image.njk"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Photo", name: "image", widget: "image"}
-      - {label: "Alt Text", name: "alt", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Keywords", name: "keywords", widget: "list", allow_add: true}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tags", widget: "list", allow_add: true, hint: "Comma separated list"}
-
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "layouts/image.njk",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Photo", name: "image", widget: "image" }
+      - { label: "Alt Text", name: "alt", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Keywords", name: "keywords", widget: "list", allow_add: true }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Tags",
+          name: "tags",
+          widget: "list",
+          allow_add: true,
+          hint: "Comma separated list",
+        }
