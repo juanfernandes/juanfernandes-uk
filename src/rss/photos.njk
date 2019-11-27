@@ -15,6 +15,7 @@ eleventyExcludeFromCollections: true
   </author>
   {% for post in collections.photos | reverse %}
   {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
+  {% set siteUrl %}{{ site.url }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
@@ -23,7 +24,7 @@ eleventyExcludeFromCollections: true
     <content type="html">
       <![CDATA[
         <a href="{{ absolutePostUrl }}">
-          <img alt="{{ post.data.alt }}" src="{{ post.data.image }}" />
+          <img alt="{{ post.data.alt }}" src="{{ siteUrl }}{{ post.data.image }}" />
         </a>
       ]]>
     </content>
