@@ -1,0 +1,28 @@
+{% extends 'layouts/blog.njk' %}
+
+{% block intro %}
+<div class="intro{% if introClass %} intro--{{ introClass }}{% endif %}"{% if postImage %} style="background-image: url( {{ postImage }} )"{% endif %}>
+  <div class="intro__content">
+    <h1 class="intro__heading">
+      <span class="intro__heading--large">{{ title }}</span>
+      {{ subheading }}
+    </h1>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block main %}
+<div class="container">
+  <article class="content">
+
+    {{ content | safe }}
+
+    {% if date %}<p class="date"><small><em>Last updated on the <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time></em></small></p>{% endif %}
+
+    <hr>
+
+    <p><small>This is <a href="https://nownownow.com/about" target="_blank" rel="noopener">a now page</a>, and it was inspired by <a href="https://sivers.org/nowff/" target="_blank" rel="noopener">Derek Sivers</a></small></p>
+  </article>
+</div>
+{% endblock %}
