@@ -45,17 +45,32 @@
 
 [[redirects]]
   from = "/blog/category/personal"
-  to = "/blog/tags/personal/"
+  to = "/tags/personal/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tags/personal/"
+  to = "/tags/personal/"
   status = 301
 
 [[redirects]]
   from = "/blog/category/design"
-  to = "/blog/tags/design/"
+  to = "/tags/design/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tags/design/"
+  to = "/tags/design/"
   status = 301
 
 [[redirects]]
   from = "/blog/category/development"
-  to = "/blog/tags/development/"
+  to = "/tags/development/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/tags/development/"
+  to = "/tags/development/"
   status = 301
 
 [[redirects]]
@@ -66,4 +81,19 @@
 [[redirects]]
   from = "/rss"
   to = "/rss/feed.xml"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2016-12-09-adding-svg-icons-to-a-sprite-with-perch-cms/"
+  to = "/blog/adding-svg-icons-to-a-sprite-with-perch-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/2018-01-09-twenty-seventeen/"
+  to = "/blog/twenty-seventeen/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2019-04-16-weeknotes-10/"
+  to = "/notes/weeknotes-10/"
   status = 301
