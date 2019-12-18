@@ -2,7 +2,6 @@
 layout: layouts/page.njk
 title: Right Here, Right Now
 subheading: What I'm currently up to
-# postImage: /assets/imgs/trianglify.png
 introClass: now
 permalink: /now/index.html
 date: 2019-11-02T19:53:06.448Z
