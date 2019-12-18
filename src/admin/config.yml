@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: 63-add-now-page-to-netlifycms
+  branch: master
 
 logo_url: https://www.juanfernandes.uk/assets/imgs/juanfernandes-logo.svg
 media_folder: "src/assets/imgs"
