@@ -22,7 +22,8 @@ keywords:
 postImage: /assets/imgs/sun_sea.jpg
 date: 2020-01-05T13:54:38.480Z
 tags:
-  - post
+  - personal
+  - year in review
 ---
 Another year gone but it was a very good year both professionally and personally, but there is room for improvement in twenty twenty.
 
