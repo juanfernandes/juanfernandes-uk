@@ -12,22 +12,17 @@
 
 {% block main %}
 <div class="container">
-  <div class="content">
-    <div class="row">
-      <div class="sixteen cols">
-        <article class="post h-entry">
+  <div class="content content--slim">
+    <article class="post h-entry">
 
-          {{ content | safe }}
+      {{ content | safe }}
 
-          <p class="meta">
-            <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/about" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/blog/tags/{{ item }}" class="p-category">{{ item }}</a> {% endfor %}</small>
-          </p>
-        </article>
+      <p class="meta">
+        <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/about" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/blog/tags/{{ item }}" class="p-category">{{ item }}</a> {% endfor %}</small>
+      </p>
+    </article>
 
-        {% include 'components/signup-form.njk' %}
-
-      </div>
-    </div>
+    {% include 'components/signup-form.njk' %}
   </div>
 </div>
 {% endblock %}

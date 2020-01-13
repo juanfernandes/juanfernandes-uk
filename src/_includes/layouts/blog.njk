@@ -17,7 +17,7 @@
     <meta name="twitter:title" property="og:title" content="{{ title }}">
     <meta name="twitter:description" property="og:description" content="{{ description }}">
     {% if postImage %}
-    <meta name="twitter:image" property="og:image" content="{{ postImage }}" />
+    <meta name="twitter:image" property="og:image" content="{{ site.url }}{{ postImage }}" />
     <meta name="twitter:image:alt" property="og:image:alt" content="Post image for: {{ title }}" />
     {% else %}
     <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImg }}" />

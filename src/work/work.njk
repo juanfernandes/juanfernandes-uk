@@ -3,12 +3,12 @@
 {% block main %}
         <section class="work">
           <div class="container">
-            <div class="content">
+            <div class="content" id="content">
               <h2 class="content__heading">Work I've Done</h2>
               <div class="row">
                 <div class="eight cols">
                   <figure class="effect">
-                    <img src="/assets/imgs/work/projects/mclaren-project.jpg" alt="McLaren">
+                    <img src="/assets/imgs/work/projects/mclaren-project.jpg" alt="McLaren" loading="lazy" width="586" height="387">
                     <figcaption>
                       <p>Interest McLaren Responsive forms</p>
                       <a href="/work/mclaren/">View more</a>
@@ -17,7 +17,7 @@
                 </div>
                 <div class="eight cols">
                   <figure class="effect">
-                    <img src="/assets/imgs/work/projects/landrover-project.jpg" alt="Land Rover">
+                    <img src="/assets/imgs/work/projects/landrover-project.jpg" alt="Land Rover" loading="lazy" width="586" height="341">
                     <figcaption>
                       <p>Land Rover Used Vehicle Search</p>
                       <a href="/work/landrover/">View more</a>
@@ -28,7 +28,7 @@
               <div class="row">
                 <div class="eight cols">
                   <figure class="effect">
-                    <img src="/assets/imgs/work/projects/tomhartleyjnr-project.jpg" alt="Tom Hartley JNR">
+                    <img src="/assets/imgs/work/projects/tomhartleyjnr-project.jpg" alt="Tom Hartley JNR" loading="lazy" width="586" height="387">
                     <figcaption>
                       <p>Tom Hartley JNR Responsive website</p>
                       <a href="/work/tomhartleyjnr/">View more</a>
@@ -37,7 +37,7 @@
                 </div>
                 <div class="eight cols">
                   <figure class="effect">
-                    <img src="/assets/imgs/work/projects/fourpoints-project.jpg" alt="Four Points">
+                    <img src="/assets/imgs/work/projects/fourpoints-project.jpg" alt="Four Points" loading="lazy" width="586" height="178">
                     <figcaption>
                       <p>Fourpoints</p>
                       <a href="/work/fourpoints/">View more</a>
@@ -56,7 +56,7 @@
               <div class="client-list">
               {% for item in companies %}
                 <div class="client">
-                  <img class="client__logo" src="/assets/imgs/work/clients/{{ item.img }}" alt="{{ item.alt }}">
+                  <img class="client__logo" src="/assets/imgs/work/clients/{{ item.img }}" alt="{{ item.alt }}" loading="lazy" width="490" height="340">
                 </div>
               {% endfor %}
               </div><!-- /.clients -->

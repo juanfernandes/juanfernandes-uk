@@ -2,11 +2,11 @@
 
 {% block main %}
   <div class="container">
-    <div class="content" id="content">
+    <div class="content content--wide" id="content">
       <div class="post-list post-list--cards">
         {%- for post in collections.photos | reverse -%}
         <a class="card" href="{{ post.url }}">
-          <img class="card__img" src="{{ site.url }}/{{ post.data.image }}" alt="{{ post.data.alt }}" width="320" loading="lazy">
+          <img class="card__img" src="{{ site.url }}{{ post.data.image }}" alt="{{ post.data.alt }}" width="320" loading="lazy">
           <span class="card__title">{{ post.data.title }}</span>
         </a>
         {%- endfor -%}
