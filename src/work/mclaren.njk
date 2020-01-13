@@ -10,6 +10,7 @@
                 <ul class="nav--portfolio__all">
                   <li>
                     <a href="/work/" title="All Projects">
+                      <span class="visuallyhidden">Go back to all projects list</span>
                       <svg aria-hidden="true"><use xlink:href="#svg-dash" /></svg>
                     </a>
                   </li>
@@ -17,11 +18,13 @@
                 <ul class="nav--portfolio__controls">
                   <li class="nav--portfolio__prev">
                     <a href="/work/virgin-wines/" title="Previous Project">
+                      <span class="visuallyhidden">Go to previous project</span>
                       <svg aria-hidden="true"><use xlink:href="#svg-prev-arrow" /></svg>
                     </a>
                   </li>
                   <li class="nav--portfolio__next">
                     <a href="/work/landrover/" title="Next Project">
+                      <span class="visuallyhidden">Go to next project</span>
                       <svg aria-hidden="true"><use xlink:href="#svg-nxt-arrow" /></svg>
                     </a>
                   </li>
@@ -32,7 +35,9 @@
                 <div class="ten cols">
                   <div class="slider">
                   {% for item in slider %}
-                    <div class="slider__slide"><img src="/assets/imgs/work/projects/{{ item.img }}" alt="{{ item.alt }}"></div>
+                    <div class="slider__slide">
+                      <img src="/assets/imgs/work/projects/{{ item.img }}" loading="lazy" alt="{{ item.alt }}" width="300" height="180">
+                    </div>
                   {% endfor %}
                   </div>
                 </div>

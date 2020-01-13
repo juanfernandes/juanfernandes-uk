@@ -17,7 +17,8 @@ $module: 'social-icons';
   .#{$module}__icon {
     display: inline-block;
 
-    svg {
+    svg,
+    use {
       height: 48px;
       width: 48px;
       fill: #fff;
@@ -126,6 +127,18 @@ $module: 'social-icons';
 
   @media only screen and (min-width: 75em) { // 1200
     width: 60%;
+  }
+
+  @media only screen and (min-width: 81.250em) { // 1300
+    &--slim {
+      width: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 93.750em) { // 1500
+    &--slim {
+      width: 40%;
+    }
   }
 
   &--wide {
@@ -749,7 +762,19 @@ footer > .container > .sixteen {
 
 @media only screen and (min-width: 64em) { // 1024
   .work figure {
-    height: 240px;
+    height: 280px;
+  }
+}
+
+@media only screen and (min-width: 68.750em) { // 1100
+  .work figure {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 87.500em) { // 1400
+  .work figure {
+    height: 360px;
   }
 }
 
@@ -841,31 +866,20 @@ figure.effect:hover p {
   transform: scale3d(1,1,1);
 }
 
-.client-list {
-  --auto-grid-min-size: 16rem;
-}
-
-.client-list > * {
-  max-width: 400px;
-}
-
-.client-list > * + * {
-  margin-top: 1rem;
-}
-
 @supports (display: grid) {
   .client-list {
+    --auto-grid-min-size: 200px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
     grid-gap: 1rem;
-  }
+    grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size), 1fr));
 
-  .client-list > * {
-    max-width: unset;
-  }
+    @media only screen and (min-width: 48.438em) { // 775
+      --auto-grid-min-size: 146px;
+    }
 
-  .client-list > * + * {
-    margin-top: unset;
+    @media only screen and (min-width: 85.625em) { // 1370
+      --auto-grid-min-size: 198px;
+    }
   }
 }
 
@@ -878,31 +892,10 @@ figure.effect:hover p {
   }
 }
 
+/* Companies */
 .companies {
   padding-top: 54px;
-
-  .content__heading {
-    margin-bottom: 40px;
-  }
-
-  .row {
-    margin-bottom: 0;
-  }
-  .cols {
-    margin-bottom: 24px;
-
-    @media only screen and (min-width: 40em) { // 640
-      margin-bottom: 2%;
-    }
-  }
-
-  .four {
-    @media only screen and (min-width: 40em) { // 640
-      width: 23.5%;
-    }
-  }
 }
-
 
 /* Projects */
 .project {
@@ -1211,7 +1204,9 @@ figure.effect:hover p {
         }
 
         &__img {
+          height: 200px;
           margin-bottom: 1em;
+          object-fit: cover;
         }
       }
     }

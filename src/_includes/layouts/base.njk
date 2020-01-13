@@ -13,8 +13,8 @@
     <meta name="twitter:title" property="og:title" content="{{ meta.ogTitle }}">
     <meta name="twitter:description" property="og:description" content="{{ meta.ogDesc }}">
     {% if meta.ogImg %}
-    <meta name="twitter:image" property="og:image" content="{{ meta.ogImg }}" />
-    <meta name="twitter:image:alt" content="{{ meta.ogImgAlt }}" />
+    <meta name="twitter:image" property="og:image" content="{{ site.url }}{{ meta.ogImg }}" />
+    <meta name="twitter:image:alt" content="{{ site.url }}{{ meta.ogImgAlt }}" />
     {% else %}
     <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImg }}" />
     <meta name="twitter:image:alt" content="{{ site.meta.ogImgAlt }}" />
@@ -72,7 +72,7 @@
     <a class="skip" href="#content">Skip to content</a>
 
     <div class="page">
-      <main role="main" class="main" id="content">
+      <main role="main" class="main">
         {% block main %}
           {{ content | safe }}
         {% endblock %}
