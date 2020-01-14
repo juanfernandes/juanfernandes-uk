@@ -1,7 +1,12 @@
 ---
+layout: layouts/page.njk
+title: Right Here, Right Now
+subheading: What I'm currently up to
+introClass: now
+permalink: /now/index.html
 date: 2019-11-02T19:53:06.448+00:00
-
 ---
+
 ### Work
 
 * Continuing my contract at the Chartered Management Institute in Corby. Building components on their new Wordpress based website.
