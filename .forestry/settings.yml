@@ -4,18 +4,18 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: src/blog
+  label: Blog
+- type: document
+  path: src/notes
+  label: Notes
 - type: directory
   path: src/photos
   label: Photos
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
-- type: document
-  path: src/notes
-  label: Notes
-- type: document
-  path: src/blog
-  label: Blog
+  new_doc_ext: md
 upload_dir: src/assets/imgs
 public_path: "/assets/imgs"
 front_matter_path: ''
