@@ -9,6 +9,10 @@ sections:
   label: Blog
   create: all
   match: "**/*"
+- type: document
+  path: src/now
+  label: Now
+  match: "**/*"
 - type: directory
   path: src/notes
   label: Notes
