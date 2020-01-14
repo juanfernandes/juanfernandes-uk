@@ -4,12 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
+- type: directory
   path: src/blog
   label: Blog
-- type: document
-  path: src/notes
-  label: Notes
+  create: all
+  match: "**/*"
 - type: directory
   path: src/photos
   label: Photos
