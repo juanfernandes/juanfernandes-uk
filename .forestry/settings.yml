@@ -9,22 +9,22 @@ sections:
   label: Blog
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: document
-  path: src/now
+  path: src/now/now.md
   label: Now
 - type: directory
   path: src/notes
   label: Notes
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: src/photos
   label: Photos
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: src/assets/imgs
 public_path: "/assets/imgs"
 front_matter_path: ''
