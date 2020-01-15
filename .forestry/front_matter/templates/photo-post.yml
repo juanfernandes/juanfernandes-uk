@@ -22,6 +22,11 @@ fields:
 - type: text
   name: description
   label: Description
+- name: caption
+  type: text
+  config:
+    required: false
+  label: Caption
 - type: list
   name: keywords
   label: Keywords
