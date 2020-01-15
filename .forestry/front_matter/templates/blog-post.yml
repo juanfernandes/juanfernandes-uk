@@ -4,22 +4,27 @@ hide_body: false
 fields:
 - type: text
   name: layout
-  label: layout
+  label: Layout
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: textarea
   name: description
-  label: description
+  label: Description
+  config:
+    required: true
 - type: list
   name: keywords
-  label: keywords
+  label: Keywords
 - type: file
   name: postImage
-  label: postImage
+  label: Image
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: list
   name: tags
-  label: tags
+  label: Tags
