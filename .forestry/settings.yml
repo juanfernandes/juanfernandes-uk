@@ -25,10 +25,10 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
-upload_dir: src/assets/imgs
-public_path: "/assets/imgs"
+upload_dir: ''
+public_path: ''
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_output_directory: dist
