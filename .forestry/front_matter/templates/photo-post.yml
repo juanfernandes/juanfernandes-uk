@@ -4,25 +4,30 @@ hide_body: true
 fields:
 - type: text
   name: layout
-  label: layout
+  label: Layout
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Ttitle
+  config:
+    required: true
 - type: file
-  name: image
-  label: image
+  name: postImage
+  label: Photo
 - type: text
   name: alt
-  label: alt
+  label: Alt Text
+  config:
+    required: true
 - type: text
   name: description
-  label: description
+  label: Description
 - type: list
   name: keywords
-  label: keywords
+  label: Keywords
 - type: datetime
   name: date
-  label: date
+  label: Date
 - type: list
   name: tags
-  label: tags
+  label: Tags
