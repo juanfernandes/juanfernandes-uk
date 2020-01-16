@@ -3,10 +3,7 @@
 {% set currentUrl = site.url + page.url %}
 
 <!doctype html>
-  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-  <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+  <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
     <title>{{ pageTitle }}</title>
@@ -92,7 +89,7 @@
         src="https://code.jquery.com/jquery-3.4.0.min.js"
         integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
         crossorigin="anonymous"></script>
-      <script type="text/javascript" src="/assets/js/global.min.js"></script>
+      <script type="text/javascript" charset="UTF-8" src="/assets/js/global.min.js"></script>
     </div>
   </body>
 </html>

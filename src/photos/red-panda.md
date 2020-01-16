@@ -1,7 +1,7 @@
 ---
 layout: layouts/image.njk
 title: Red Panda
-image: /assets/imgs/red-panda.jpg
+postImage: /assets/imgs/red-panda.jpg
 alt: 'Photo of a red panda in the distance, seen through a gap in green foliage'
 description: >-
   Photo of a red panda in the distance, seen through a gap in green foliage

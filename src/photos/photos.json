@@ -10,8 +10,7 @@
   },
   "intro": {
     "class": "photos intro intro--sml",
-    "heading": "Photos",
-    "subheading": "Short posts, photos, thoughts about code, design and personal stuff"
+    "heading": "Photos"
   },
   "bodyClass": "blog"
 }
