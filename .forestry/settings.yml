@@ -25,8 +25,8 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
-upload_dir: ''
-public_path: https://res.cloudinary.com/juanfernandes
+upload_dir: cms/resources
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
