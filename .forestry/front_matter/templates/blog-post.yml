@@ -28,5 +28,3 @@ fields:
 - type: list
   name: tags
   label: Tags
-pages:
-- src/photos/moon-behind-clouds.md
