@@ -21,7 +21,7 @@ tags:
 November saw the end of my contract at Signet and the start of a new contract at the [Chartered Management Institute (CMI)](https://www.managers.org.uk "Chartered Management Institute (CMI)"). I have worked with them before and they asked to come back to help them with a new project.
 
 ## Work
-- Last week of November saw me starting a new contract with a company I have previously worked with. This is a first for me in the 4 and a bit years I've been contracting - that I've been asked to return to a company. They had been trying to get me back for a few months, but every time they got in touch, my contract at the time had been extended. 
+- Last week of November saw me starting a new contract with a company I have previously worked with. This is a first for me in the 4 and a bit years I've been contracting - that I've been asked to return to a company. They had been trying to get me back for a few months, but every time they got in touch, my contract at the time had been extended.
 
 - I'm helping CMI with their new website. They have a custom Wordpress theme and backend being developed by an agency - myself and the in-house junior front-end developer, Harry, will be building components, or modules as they are known in Beaver Builder. We need to get as many done ASAP so that each department can start adding their content.
 
@@ -54,4 +54,4 @@ November saw the end of my contract at Signet and the start of a new contract at
 [Style Lists with New CSS — Bullets, Numbers, Markers](https://youtu.be/2awepiNoaZI "Style Lists with New CSS — Bullets, Numbers, Markers")
 
 [Freelance tip: Screencasts](https://youtu.be/g3pYvGW-B20 "Freelance tip: Screencasts")
-[A Design System Governance Process](https://youtu.be/5Zc3W4NpiA8 "A Design System Governance Process")	
+[A Design System Governance Process](https://youtu.be/5Zc3W4NpiA8 "A Design System Governance Process")

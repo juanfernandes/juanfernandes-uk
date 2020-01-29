@@ -16,17 +16,17 @@ date: 2019-05-13T17:33:44.747Z
 tags:
   - notes
 ---
-Not much happened this week. The handover process is well underway and there if not much left now to handover. It was my last full week in Manchester. 
+Not much happened this week. The handover process is well underway and there if not much left now to handover. It was my last full week in Manchester.
 
 ## Work
-This week was my last full week in Manchester working in the Department for Education offices with the dxw team. 
+This week was my last full week in Manchester working in the Department for Education offices with the dxw team.
 
 I spent most of the week working with my replacement - Rich - on handing over all the bits and pieces I've worked on, creating some docs with access information. I also learnt how to transfer a heroku app from my own account to another.
 
-Made some changes to the prototype while working with Rich and the service designer. 
+Made some changes to the prototype while working with Rich and the service designer.
 
 ## Personal
-I've managed to get quite a few changes done to my personal website as I convert it to a static site. I converted my 404 page to nunjucks and also removed the jQuery dependency. 
+I've managed to get quite a few changes done to my personal website as I convert it to a static site. I converted my 404 page to nunjucks and also removed the jQuery dependency.
 
 I had a list of companies I've worked for that is shown on the work page, but the last 4  get repeated on the homepage - I moved the list of companies into a JSON file and on the homepage, I only show the first 4 companies, while on the work page, it shows the entire list.
 
