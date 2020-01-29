@@ -24,18 +24,18 @@ Short week at work due to the bank holidays in the UK. First time working from h
 
 Last week was a short week at work due to the Easter bank holidays. I worked from home for the first time in this contract. Working from home is great when you have plenty of work to do, but I had quite a few meetings that week and not being in the office during those is hard.
 
-Now that I have finished converting the alpha prototype from PHP to the GOVUK prototype kit - I can finally start working with the service designer to explore the policy in detail and really think about the questions we need to ask on the prototype, as it seems some of the criteria was not covered in the alpha prototype. 
+Now that I have finished converting the alpha prototype from PHP to the GOVUK prototype kit - I can finally start working with the service designer to explore the policy in detail and really think about the questions we need to ask on the prototype, as it seems some of the criteria was not covered in the alpha prototype.
 
 ## Freelance
-Its that stage in the project where I'm getting all the smaller tasks done. I also created a login/register page for new customers. I was originally going to use tabs on the page to show a login form on one tab and a registration form on another tab - but I decided this wasn't needed - it was a waste to put such a small login form taking up an entire page. I decided to send users to a login page, and then have a button for them to register, which takes them to another page - once they register, it takes them back to the checkout process.  
+Its that stage in the project where I'm getting all the smaller tasks done. I also created a login/register page for new customers. I was originally going to use tabs on the page to show a login form on one tab and a registration form on another tab - but I decided this wasn't needed - it was a waste to put such a small login form taking up an entire page. I decided to send users to a login page, and then have a button for them to register, which takes them to another page - once they register, it takes them back to the checkout process.
 
-Fixed a few bugs and also coded and styled the order successful page. I chose to show some information, like order status, total, order and invoice number, as well as listing the items they ordered. I also included a newsletter subscription module to encourage new customers to signup to the clients' newsletter. 
+Fixed a few bugs and also coded and styled the order successful page. I chose to show some information, like order status, total, order and invoice number, as well as listing the items they ordered. I also included a newsletter subscription module to encourage new customers to signup to the clients' newsletter.
 
 ## Personal
 
 This week I started job hunting for my next contract. My current contract at the DfE is only a short one - six weeks, which is soon coming to an end. They have a full-time UX Designer starting soon, so they can't extend my contract - but I knew this when I took the contract.
 
-I'm hoping my next contract is a remote one or one that is closer to home. I really miss my family and Suffolk when I'm away for work. 
+I'm hoping my next contract is a remote one or one that is closer to home. I really miss my family and Suffolk when I'm away for work.
 
 ## Reading
 

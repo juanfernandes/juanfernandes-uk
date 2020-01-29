@@ -13,7 +13,7 @@ date: 2020-01-06T12:24:44.874Z
 tags:
   - notes
 ---
-Really looking forward to New Adventures 2020 conference in a few weeks. Great way to start the year. 
+Really looking forward to New Adventures 2020 conference in a few weeks. Great way to start the year.
 
 Let me know if you're going.
 

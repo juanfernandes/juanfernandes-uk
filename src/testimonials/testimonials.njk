@@ -1,18 +1,31 @@
+---
+title: Testimonials | Juan Fernandes - Freelance Front-end Developer - Woodbridge Suffolk UK, London and Remote
+
+description: Juan Fernandes is a contract front-end developer specialising in designing and building bespoke responsive websites for small businesses based in Suffolk UK
+
+keywords: responsive website design, website design for small businesses, affordable website design, website design company suffolk uk, website design company woodbridge uk, website designer suffolk uk, freelance website designer suffolk uk, responsive web design, design, web design, cms, perch, wordpress, local website designer, suffolk uk, website design suffolk
+
+intro:
+  class: testimonials
+  heading: Testimonials
+  subheading: What they say about me
+---
+
 {% extends 'layouts/base.njk' %}
 
 {% block main %}
         <section class="testimonials testimonials--page">
           <div class="content">
             {% for item in testimonials %}
-            <div class="cf testimonial">
-              <div class="text">
+            <div class="testimonial">
+              <div class="testimonial__quote">
                 <blockquote>
                   <p>{{ item.quote }}</p>
                 </blockquote>
                 <cite>{{ item.cite }}, {{ item.company }}</cite>
               </div>
-              <div class="thumb">
-                <img src="{{ item.img }}" alt="{{ item.img }}">
+              <div class="testimonial__thumb">
+                <img src="{{ item.img }}" alt="{{ item.img }}" loading="lazy" width="200" height="200">
               </div>
             </div>
             {% endfor %}

@@ -30,31 +30,31 @@ Since returning my phone for repair and being reset to factory settings (I knew 
 
 
 ## Work
-This week was the first full week in Manchester and on the project - which means I took part in a long user mapping session and my first retrospective and show & tell of this project. 
+This week was the first full week in Manchester and on the project - which means I took part in a long user mapping session and my first retrospective and show & tell of this project.
 
 I spent most of my time that week, when not in meetings, rebuilding a prototype that was made in the Alpha stage of this project using the GOVUK Prototype kit - it was originally done in PHP.
 
-The developers on the team have been helping me a lot with things like 'git rebase' and also learning to be a good collaborator - so I've been learning about how to do better commit messages. 
+The developers on the team have been helping me a lot with things like 'git rebase' and also learning to be a good collaborator - so I've been learning about how to do better commit messages.
 
 
 ## Freelance
-This week I spent some more time on my current freelance project, getting near the end of this e-commerce website. So there are some tidy up changes I've been working on. 
+This week I spent some more time on my current freelance project, getting near the end of this e-commerce website. So there are some tidy up changes I've been working on.
 
 Things like showing a 'no-product-image' when the product doesn't have an image, styling the Pay with card (stripe) button and form, re-coded the static 'basket' page, so it uses the same code as the non-static version of the basket page.
 
 
-## Personal 
-Got to spend some time working on the garden this weekend, spent time with my children and I put together a new trampoline, also had to cut down a tree - its been almost horizontal since we moved here five years ago and we were told, its a splitting willow, so it needed to be cut down or it will fall. 
+## Personal
+Got to spend some time working on the garden this weekend, spent time with my children and I put together a new trampoline, also had to cut down a tree - its been almost horizontal since we moved here five years ago and we were told, its a splitting willow, so it needed to be cut down or it will fall.
 
 It's been fine all these years, but because the trampoline was going under it, I couldn't risk it. But my chainsaw is still out of action, so I had to use a hand saw and cut it down about half way up - my son loved shouting timer as we pulled the tree down!
 
 ## Watching
-Finished re-watching The Office (US) this week - loved re-watching this again. I was a bit lost with what to replace it with, but have gone back to watching Straight Off the Boat - started watching it a long while ago, I just realised it is now on the 5th season. 
+Finished re-watching The Office (US) this week - loved re-watching this again. I was a bit lost with what to replace it with, but have gone back to watching Straight Off the Boat - started watching it a long while ago, I just realised it is now on the 5th season.
 
 ## Listening
 Continued listening to [Syntax](https://syntax.fm/ "Syntax Podcast"), [Build Your SaaS](https://saas.transistor.fm/ "Build Your SaaS Podcast") and [Being Freelance](https://www.beingfreelance.com/ "Being Freelance") - also started listening to [Doing It For The Kids](http://www.doingitforthekids.net/ "Doing It For The Kids Podcast") and [Shop Talk](https://shoptalkshow.com/ "Shop Talk").
 
-I never know whether to start listening to an existing podcast from the beginning or just start with the latest podcast - with Shop Talk, theirs currently 356 podcasts to catch up on! 
+I never know whether to start listening to an existing podcast from the beginning or just start with the latest podcast - with Shop Talk, theirs currently 356 podcasts to catch up on!
 
 ## Reading
 - [Weeknotes #5 - Vincent Pickering](https://vincentp.me/articles/2019/04/07/16-00/ "Weeknotes #5 - Vincent Pickering")
