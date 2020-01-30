@@ -11,7 +11,7 @@ keywords:
 - laura kalbag
 - lineage os
 - privacy
-postImage: ''
+postImage: '/assets/imgs/trianglify.png'
 date: 2020-01-30T00:00:00Z
 tags:
 - notes
