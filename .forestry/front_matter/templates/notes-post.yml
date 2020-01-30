@@ -19,6 +19,7 @@ fields:
 - type: file
   name: postImage
   label: Image
+  default: "/v1579162295/cms/imgs/trianglify.png"
 - type: datetime
   name: date
   label: Date
