@@ -2,7 +2,7 @@
 layout: ''
 title: Replacing my phone's OS
 description: 'It''s been a week since #naconf and Laura Kalbag''s talk on privacy
-  - I''ve been reviewing my own privacy since then. '
+  - I''ve been reviewing my own privacy since then.'
 keywords:
 - privacycontrol
 - de-google
