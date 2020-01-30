@@ -27,8 +27,8 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
-upload_dir: cms/imgs
-public_path: ''
+upload_dir: ''
+public_path: "/images/upload"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
