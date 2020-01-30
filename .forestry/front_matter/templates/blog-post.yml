@@ -6,6 +6,7 @@ fields:
   name: layout
   label: Layout
   hidden: true
+  default: layouts/post.njk
 - type: text
   name: title
   label: Title
