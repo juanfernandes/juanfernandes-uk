@@ -6,6 +6,7 @@ fields:
   name: layout
   label: Layout
   hidden: true
+  default: layouts/image.njk
 - type: text
   name: title
   label: Ttitle
