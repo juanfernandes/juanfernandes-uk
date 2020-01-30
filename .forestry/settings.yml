@@ -16,9 +16,11 @@ sections:
 - type: directory
   path: src/notes
   label: Notes
-  create: all
+  create: documents
   match: "**/*"
   new_doc_ext: md
+  templates:
+  - notes-post
 - type: directory
   path: src/photos
   label: Photos
