@@ -27,6 +27,8 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: md
+  templates:
+  - photo-post
 upload_dir: ''
 public_path: "/images/upload"
 front_matter_path: ''
