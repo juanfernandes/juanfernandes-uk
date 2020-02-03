@@ -8,7 +8,7 @@ bodyClass: blog
 {% extends 'layouts/blog.njk' %}
 
 {% block intro %}
-<div class="intro intro--sml" style="background-image: url('{{ site.url }}/assets/imgs/trianglify.png')">
+<div class="intro intro--sml" style="background-image: url('{{ site.cloudinary_url }}/trianglify.png')">
   <div class="intro__content">
     <h1 class="intro__heading">
       <span class="intro__heading--large">{{ title }}</span>
@@ -23,7 +23,7 @@ bodyClass: blog
     <article class="post post--img | h-entry" role="article">
 
       <figure>
-        <img src="{{ site.url }}{{ postImage }}" alt="{{ alt }}" width="720" loading="lazy">
+        <img src="{{ site.cloudinary_url }}{{ postImage }}" alt="{{ alt }}" width="720" loading="lazy">
         {% if caption %}
         <figcaption>
           <h2>{{ caption }}</h2>
@@ -35,8 +35,6 @@ bodyClass: blog
         <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/about" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/tags/{{ item }}" class="p-category">{{ item }}</a> {% endfor %}</small>
       </p>
     </article>
-
-    {% include 'components/signup-form.njk' %}
   </div>
 </div>
 {% endblock %}

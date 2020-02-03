@@ -33,7 +33,7 @@
                   <div class="slider">
                   {% for item in slider %}
                     <div class="slider__slide">
-                      <img src="/assets/imgs/work/projects/{{ item.img }}" loading="lazy" alt="{{ item.alt }}" width="300" height="180">
+                      <img src="{{ site.cloudinary_url }}work/projects/{{ item.img }}" loading="lazy" alt="{{ item.alt }}" width="300" height="180">
                     </div>
                   {% endfor %}
                   </div>

@@ -3,7 +3,7 @@
     "title": "Juan Fernandes - Freelance Front-end Developer - Woodbridge Suffolk UK, London and Remote",
     "description": "Juan Fernandes is a freelance front-end developer specialising in building bespoke responsive websites for small businesses based in Suffolk UK",
     "ogTwitter": "@juanfernandes",
-    "ogImg": "https://juanfernandes.uk/assets/imgs/social-sharing.jpg",
+    "ogImg": "https://res.cloudinary.com/juanfernandes/social-sharing.jpg",
     "ogImgAlt": "Juan Fernandes - Freelance Website Designer",
     "lang": "https://www.juanfernandes.uk/"
   },
@@ -14,6 +14,7 @@
     "name": "Juan Fernandes",
     "email": "hello@juanfernandes.uk"
   },
+  "cloudinary_url": "https://res.cloudinary.com/juanfernandes/",
   "url": "https://www.juanfernandes.uk",
   "navigation": [
     {
