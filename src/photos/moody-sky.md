@@ -1,7 +1,7 @@
 ---
 layout: layouts/image.njk
 title: Moody Sky
-postImage: /assets/imgs/moody-sky.jpg
+postImage: moody-sky.jpg
 alt: >-
   Photograph of the sea with dark clouds in the sky and ferry seen in the
   distance
