@@ -14,6 +14,7 @@ keywords:
 - coffee
 - sage
 date: 2020-02-03T00:00:00Z
-tags: []
+tags:
+  - photos
 
 ---
