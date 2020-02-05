@@ -26,7 +26,7 @@ bodyClass: blog
         <img src="{{ site.cloudinary_url }}{{ postImage }}" alt="{{ alt }}" width="720" loading="lazy">
         {% if caption %}
         <figcaption>
-          <h2>{{ caption }}</h2>
+          {{ caption }}
         </figcaption>
         {% endif %}
       </figure>

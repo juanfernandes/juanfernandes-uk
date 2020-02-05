@@ -1216,9 +1216,25 @@ figure.effect:hover p {
     }
 
     &--img {
+      margin-bottom: 0;
+
+      figure {
+        border: 1px solid rgba(0,0,0,.2);
+      }
+
+      figcaption {
+        font-weight: bold;
+        margin: 0;
+        padding: 1em;
+      }
+
       img {
         border: 1px solid rgba(0,0,0,.2);
-        margin-bottom: 1em;
+        margin: 0;
+      }
+
+      .meta {
+        margin: 2em 0 0;
       }
     }
 
