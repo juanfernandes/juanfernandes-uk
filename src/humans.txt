@@ -5,11 +5,6 @@
 
     Juan Fernandes -- Front-end Dev -- @juanfernandes
 
-# THANKS
-
-    <name>
-
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5, PHP
-    Apache Server Configs, jQuery, Perch CMS
+    CSS3, HTML5, Sass, Eleventy, Netlify, Forestry.io
