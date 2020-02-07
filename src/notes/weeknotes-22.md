@@ -15,7 +15,7 @@ keywords:
   - php
   - perch cms
   - site rebuild
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-08-29T06:12:57.905Z
 tags:
   - notes
@@ -28,7 +28,7 @@ The new version of this website is live, it has been rebuilt using a static site
 
 I had to manually copy over all my blog posts and notes as I couldn't figure out a way to export them from Perch. It wasn't too bad as I didn't have that many blog posts. The plan was to convert the RSS feed to static HTML and then use that as the start for the new static site pages - that's when I realised my RSS feed wasn't showing full page content, just the excerpt but I couldn't get the PHP template to output the full content in the end.
 
-The last few weeks leading up to the release of the website I was doing a lot of minor fixes to get the site ready to go live - this meant I didn't have any spare time to write on my blog. 
+The last few weeks leading up to the release of the website I was doing a lot of minor fixes to get the site ready to go live - this meant I didn't have any spare time to write on my blog.
 
 I had to figure out a few issues:
 
@@ -39,14 +39,14 @@ I had to figure out a few issues:
 * Had some fun figuring out how to move my site to Netlify but keep email hosting with my host, Guru - got there in the end with some help from [Guru](https://my.guru.co.uk/aff.php?aff=6526
 ) support.
 
-While I've been working on the rebuild of my website I have been following a proper git workflow, as in having issues in [Gitlab](https://gitlab.com), creating a branch for that issue, working on it and then merging that to master - instead of working directly on master, as I have done in the past with personal projects. 
+While I've been working on the rebuild of my website I have been following a proper git workflow, as in having issues in [Gitlab](https://gitlab.com), creating a branch for that issue, working on it and then merging that to master - instead of working directly on master, as I have done in the past with personal projects.
 
-Now that my site gets published automatically via GIT and Netlify, and the site is live, I'm changing my git workflow a bit to include a develop branch. I will take new feature branches from develop, then merge them back to develop. 
+Now that my site gets published automatically via GIT and Netlify, and the site is live, I'm changing my git workflow a bit to include a develop branch. I will take new feature branches from develop, then merge them back to develop.
 
 Posting via NetlifyCMS builds my site from master which means it automatically deploys it, anything else, like code changes, will get merged into develop first, create a preview and then will get merged into master for the weekly releases.
 
 ## What's next?
-I have a bunch of design issues in Gitlab that I will working my way through. Again, the design won't change much, but I want to remove my custom grid and start using CSS Grid Layout and also Flexbox to improve my layouts. 
+I have a bunch of design issues in Gitlab that I will working my way through. Again, the design won't change much, but I want to remove my custom grid and start using CSS Grid Layout and also Flexbox to improve my layouts.
 
 I really need to nail down a routine for creating more content on here, especially blog posts as I haven't published any for a while. I also want to get back to posting weekly notes.
 

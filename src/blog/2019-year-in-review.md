@@ -21,7 +21,7 @@ keywords:
   - contract
   - front-end developer
   - freelance
-postImage: /assets/imgs/sun_sea.jpg
+postImage: sun_sea.jpg
 date: 2020-01-05T13:54:38.480Z
 tags:
   - personal
@@ -47,9 +47,9 @@ This on-top of how miserable the place was - the town, the people at the company
 
 I noticed that people were starting work early, have a short lunch break at their desk so they could leave work early. I didn't expect it to be a party over there every day, but this wasn't a nice working environment. I soon started doing the same, having my lunch in my car - I did start having lunch in the staff area, but everyone was always on their phones and no one ever said anything, so I may as well sit in my car and listen to music.
 
-There was nothing to see in this town - no green spaces. It was a seaside town; but you couldn't even get to the beach! 
+There was nothing to see in this town - no green spaces. It was a seaside town; but you couldn't even get to the beach!
 
-I was not happy there and it was having an impact on my work, my mental health and also my family. I didn't like the idea of ending my contract early as I felt id be letting people down but after speaking to them several times about the lack of work and nothing changing, I decided it couldn't stay any longer. 
+I was not happy there and it was having an impact on my work, my mental health and also my family. I didn't like the idea of ending my contract early as I felt id be letting people down but after speaking to them several times about the lack of work and nothing changing, I decided it couldn't stay any longer.
 
 ### Moving on
 I took a short term contract, six weeks, in Manchester - which was a lot further than I normally travel for work. But having left my contract early this had left me in a bit of a financial situation - I was still waiting to be paid from the contract I'd just left and I had also made that mistake of not saving enough money to pay my corporation tax, so there was that pressure too - which meant I had to take what ever contract came my way.
@@ -85,7 +85,7 @@ One of those new clients is a Day Nursery with three nurseries - they hired me t
 
 As part of the initial meeting with the client, we discussed the bigger piece of work they need - a redesign of their current website and a new CMS.
 
-The other new client is an industrial design blog - they needed a front end developer to work with their backend developer to help implement new changes on the front-end - mainly helping out with HTML and CSS. 
+The other new client is an industrial design blog - they needed a front end developer to work with their backend developer to help implement new changes on the front-end - mainly helping out with HTML and CSS.
 
 ### Losing a client
 But the year ended with me losing a client - I suspected this was going to happen, but its never a great feeling when you lose a client. I have now heard back from them - I decided to email them and find out why they decided to abandon a perfectly good website and to get a new one.
@@ -124,7 +124,7 @@ I finally finished a non-tech side project - it was close to not getting it fini
 
 When we had our kitchen done in 2018 - we had this wall, that other than having a small breakfast bar was very empty. I came up with an idea - lets cover the wall in pallets!
 
-No one could visualise this - nobody liked the idea but I persuaded my wife to let me put a few pieces of wood on the wall and she was convinced. 
+No one could visualise this - nobody liked the idea but I persuaded my wife to let me put a few pieces of wood on the wall and she was convinced.
 
 ![Pallet Wood Wall](/assets/imgs/kitchen_pallet_wall.jpg "Wall covered in wood from pallets")
 
@@ -142,11 +142,11 @@ I don't do New Year's resolutions because I believe you don't need to wait for a
 
 - I want to start a tech side project where I can dive into JavaScript and put into practice what I have learnt so far.
 
-- I still haven't had a fully remote contract and I want 2020 to be the year this happens - I think once I've had that first fully remote contract it will be easier to get more. 
+- I still haven't had a fully remote contract and I want 2020 to be the year this happens - I think once I've had that first fully remote contract it will be easier to get more.
 
 - Finish setting up my pension - the next stage of my pension plan is to set up a SIPP (Self Invested Pension Plan) which I will after April. I just need to learn more about investing money!
 
-- I want to read more this year, I only *just* managed to finish 1 book out of the 10 I wanted to read. I also want to read more non-fiction books, but necessarily tech ones. 
+- I want to read more this year, I only *just* managed to finish 1 book out of the 10 I wanted to read. I also want to read more non-fiction books, but necessarily tech ones.
 
 - And continue working on this website and continue learning more about the JAMstack ways, including adding some more IndieWeb features like webventions now that I have removed analytics.
 

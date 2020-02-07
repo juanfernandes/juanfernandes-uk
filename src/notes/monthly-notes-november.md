@@ -12,7 +12,7 @@ keywords:
   - javascript
   - wordpress
   - beaver builder
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-12-09T10:25:49.932Z
 tags:
   - notes

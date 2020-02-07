@@ -12,7 +12,7 @@ keywords:
   - contract
   - front-end
   - developer
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-02-16T17:05:21.815Z
 tags:
   - notes
@@ -22,12 +22,12 @@ This week I'm starting with what didn't go well, as it was a bit of a blow for m
 ## What didn't go well
 
 ### Work
-Last week this was in the 'what went well' section because I'd gotten a new contract, fully remote and working for an agency, which is something that I've been wanting for a while. 
+Last week this was in the 'what went well' section because I'd gotten a new contract, fully remote and working for an agency, which is something that I've been wanting for a while.
 
-But it wasn't meant to be. 
+But it wasn't meant to be.
 
 ### Reading
-I read a few articles - but I want to read at least 2 a day and I didn't manage read any more of Eloquent JavaScript or Stephen Kings The Dark Tower - I'm on book number five. 
+I read a few articles - but I want to read at least 2 a day and I didn't manage read any more of Eloquent JavaScript or Stephen Kings The Dark Tower - I'm on book number five.
 
 ### This website
 Once again I didn't get any spare time to work on my website. As I mentioned before I converting it from PHP to using a static site generator. I did manage to create a whole bunch of issues on my gitlab repo - this means I will be able to work an issue at a time, rather than looking at "Personal Website" on my to-do list.

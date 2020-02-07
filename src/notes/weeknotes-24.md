@@ -16,7 +16,7 @@ keywords:
   - contract work
   - freelance
   - freelancer
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-09-25T20:29:22.229Z
 tags:
   - notes
@@ -26,15 +26,15 @@ Not a lot to write about this week. Still really busy with my current contract -
 ## Work
 After the header work for H. Samuel (HS) I moved onto working on the new Product Detail Page (PDP) for the same brand and I have made great progress.
 
-The most annoying thing about the current project is the time we don't have to work on it, due to dev cut off at the end of October and redesigning and rebuilding two PDP is a big task. So it's only natural that some things got missed for one reason or another. 
+The most annoying thing about the current project is the time we don't have to work on it, due to dev cut off at the end of October and redesigning and rebuilding two PDP is a big task. So it's only natural that some things got missed for one reason or another.
 
-I've mainly been restyling and in some instances rewriting the HTML for the components that my colleagues have built for the Ernest Jones PDP. The great thing about the brands having to look different is that the designers changed the layouts of some of the HS components and I've had great fun working with CSS grid layout and Flexbox to achieve these layout changes. 
+I've mainly been restyling and in some instances rewriting the HTML for the components that my colleagues have built for the Ernest Jones PDP. The great thing about the brands having to look different is that the designers changed the layouts of some of the HS components and I've had great fun working with CSS grid layout and Flexbox to achieve these layout changes.
 
 ## Freelance
 Potentially secured some freelance work from a new client and I have a meeting scheduled with them coming up soon. I haven't been actively searching for freelance work, but this client was referred to me.
 
 ## Thinking
-I've been thinking recently about whether I want to carry on doing contract work or freelance - why? Mainly due to wanting to work remotely and also being my own boss. 
+I've been thinking recently about whether I want to carry on doing contract work or freelance - why? Mainly due to wanting to work remotely and also being my own boss.
 
 But speaking with a friend and fellow contractor has popped that bubble. He says freelance work is harder to find than contract work, harder as a solo person and can be more stressful. Maybe not popped the bubble yet, but sort of deflated it a bit.
 

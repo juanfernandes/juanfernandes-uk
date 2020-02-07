@@ -14,7 +14,7 @@ keywords:
   - web design
   - freelance website designer
   - freelance web designer
-postImage: /assets/imgs/lnlimzqrqm3emnrrnv1wimg7726.jpg
+postImage: lnlimzqrqm3emnrrnv1wimg7726.jpg
 date: 2017-06-08T08:00:29.329Z
 tags:
   - personal
@@ -35,7 +35,7 @@ I decided to find out what courses taught web design, but back then there wasnâ€
 
 This course allowed me to get really creative and I knew I had found what I wanted to do for a living!
 
-Part of the course was to work with a local business owner to design and develop a website for their business. 
+Part of the course was to work with a local business owner to design and develop a website for their business.
 
 This is what we did as a group:
 

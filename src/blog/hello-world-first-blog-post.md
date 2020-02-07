@@ -12,7 +12,7 @@ keywords:
   - learning
   - javascript
   - css
-postImage: /assets/imgs/photo-1415045550139-59b6fafc832f.jpg
+postImage: photo-1415045550139-59b6fafc832f.jpg
 date: 2016-10-26T13:50:05.869Z
 tags:
   - personal
@@ -23,7 +23,7 @@ I’ve decided that 2016 is the year I start writing regular blog posts - and I 
 
 Some say that blogging is no longer relevant, but for me, I want to use it to improve my writing and also to document what I learn as a front-end developer, maybe rant and ramble now and again. That’s it, I’m not hoping for hundreds or thousands of readers, I’d be happy with two. :)
 
-### What's the plan? 
+### What's the plan?
 
 So over the years I have read a lot! A lot of it goes in and doesn’t stick. So my plan is to take something I want to learn about, for example, Flexbox, read about it, play around with it, create some demos and write about what I have learned.
 

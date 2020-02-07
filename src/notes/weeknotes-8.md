@@ -14,14 +14,14 @@ keywords:
   - interaction designer
   - dxw
   - department for education
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-04-03T07:49:30.880Z
 tags:
   - notes
 ---
 This week started with me handing in my notice. I felt very guilty about ending my contract early, I managed 5 out of 12 weeks - it's the first time I have ever had to end a contract early.
 
-Booked hotel and train ticket for Manchester for my next contract and part of me was feeling anxious. What if this doesn't work out, I'll be out of pocket and jobless - my mind kept repeating. 
+Booked hotel and train ticket for Manchester for my next contract and part of me was feeling anxious. What if this doesn't work out, I'll be out of pocket and jobless - my mind kept repeating.
 
 Oh I don't think I've mentioned - I'll be working as an Interaction Designer with DXW for the Department for Education.
 
@@ -30,7 +30,7 @@ My last week at work was spent finishing off one of the two work orders that I w
 
 This work item ended up having loads of bugs because it was a real mess when it was given to me. Three developers before me had been involved with it and they have all left the company before I joined. Documentation was at least three months out of date. No one knew anything about what needed doing. My job was to move it from DEV to QA - oh and by the way, there's no version control!
 
-Anyway, I managed to get the work done and all the bugs fixed and had time left to write up some handover documentation. 
+Anyway, I managed to get the work done and all the bugs fixed and had time left to write up some handover documentation.
 
 ## Freelance
 I didn't get as much work done on my freelance project as I would like to have, but I've almost finished styling the basket and the product detail pages. Also started work on the register/login page - been working out whether its best to have both the register and log in on the same page, using tabs or to send users to a register page, with a link to log in for existing members.

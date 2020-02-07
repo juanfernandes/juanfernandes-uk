@@ -19,7 +19,7 @@ keywords:
   - weeknotes
   - the office
   - Straight Off the Boat
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-04-16T07:50:46.847Z
 tags:
   - notes

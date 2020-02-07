@@ -12,7 +12,7 @@ keywords:
   - numjucks
   - netlify
   - netlifycms
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-08-23T13:24:47.715Z
 tags:
   - notes

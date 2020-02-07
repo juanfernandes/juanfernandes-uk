@@ -8,7 +8,7 @@ keywords:
   - new adventures 2020
   - conference
   - nottingham
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2020-01-06T12:24:44.874Z
 tags:
   - notes

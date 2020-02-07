@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: https://res.cloudinary.com/juanfernandes/v1579162295/trianglify.png
+postImage: trianglify.png
 title: Native disclosure element works in Instapaper app
 description: Reading an article about the native HTML disclosure element (details
   + summary) and was pleased to see that it works in the Instapaper app
@@ -18,6 +18,6 @@ tags:
 ---
 Reading an article by Scott O'Hara, I was surprised to see the summary and details working perfectly in the Instapaper app on Android. Yay for native disclosure widgets.
 
-![Screenshot showing details and summary working in Instapaper](https://res.cloudinary.com/juanfernandes/v1581064001/Screenshot_20200207-081200__01_td2ebv.jpg "Details and Summary working in Instapaper")
+![Screenshot showing details and summary working in Instapaper](https://res.cloudinary.com/juanfernandes/f_auto/v1581064001/Screenshot_20200207-081200__01_td2ebv.jpg "Details and Summary working in Instapaper")
 
 [https://www.scottohara.me/blog/2018/09/03/details-and-summary.html]()

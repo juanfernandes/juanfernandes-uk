@@ -9,7 +9,7 @@ keywords:
   - interaction designer
   - GOVUK prototype kit
   - ''
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-04-24T13:59:20.649Z
 tags:
   - notes
