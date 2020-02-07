@@ -28,7 +28,7 @@ keywords:
   - UX Booth
   - Web Tools Weekly
   - WebAIM
-postImage: /assets/imgs/computer-18363301920-1.jpg
+postImage: computer-18363301920-1.jpg
 date: 2016-11-29T17:30:47.013Z
 tags:
   - development
@@ -39,7 +39,7 @@ You don’t have to read every single article in every single newsletter, but wh
 
 Bellow is a list of all the newsletters that I am currently subscribed to. Hopefully, you will find some that you aren't subscribed to yet.
 
-Let me know if there are other great newsletters that I should subscribe to and add to the list - send me a tweet or message. 
+Let me know if there are other great newsletters that I should subscribe to and add to the list - send me a tweet or message.
 
 Newsletters
 ------------------

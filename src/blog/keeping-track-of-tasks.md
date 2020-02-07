@@ -13,13 +13,13 @@ keywords:
   - trello
   - task management
   - clients
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-03-08T16:15:33.391Z
 tags:
   - business
   - freelance
 ---
-I've been thinking about how I keep track of changes requested by clients, outside of project work. Since I maintain websites I've built as well as websites I inherited and host, I often get requests for minor changes, fixes or updates. 
+I've been thinking about how I keep track of changes requested by clients, outside of project work. Since I maintain websites I've built as well as websites I inherited and host, I often get requests for minor changes, fixes or updates.
 
 The problem I have with these is that they tend to arrive either via email, phone call or even via Messenger and then I lose track of these requests - because these tools were not designed for tracking changes.
 
@@ -28,9 +28,9 @@ When I'm working on a project, I will have a Trello board set up for that projec
 I use a to-do app on my phone for personal tasks, i.e. pay car tax. But should I also use this for freelance tasks? I don't like the idea of mixing my personal and business tasks.
 
 ## What should I do?
-Should I get into the habit of logging those requests into a Trello board for non-project based work or should I introduce some sort of bug/task management application that will allow my clients to log any issues that require my attention themselves? 
+Should I get into the habit of logging those requests into a Trello board for non-project based work or should I introduce some sort of bug/task management application that will allow my clients to log any issues that require my attention themselves?
 
-Would my clients actually use it - we're talking about small business owners, who are busy running their business and it's easier for them to just email or call. 
+Would my clients actually use it - we're talking about small business owners, who are busy running their business and it's easier for them to just email or call.
 
 I wondered whether Trello is the right tool for my clients, web developers and designers get how to use Trello - but do other people? I'm going to do a trial run with one of my clients - he is one of those clients that aren't afraid to try new technologies.
 

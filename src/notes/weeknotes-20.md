@@ -16,28 +16,28 @@ keywords:
   - web design
   - cloudinary
   - Netlify
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-07-15T20:45:28.098Z
 tags:
   - notes
 ---
-After a bit of an unscheduled break, my weeknotes are back. You may notice that weeknotes are no longer showing on the blog index - after some feedback, I decided it didn't make sense to clutter the blog with notes. They have taken over because I've not been writing much of anything else. 
+After a bit of an unscheduled break, my weeknotes are back. You may notice that weeknotes are no longer showing on the blog index - after some feedback, I decided it didn't make sense to clutter the blog with notes. They have taken over because I've not been writing much of anything else.
 
-## Work 
+## Work
 I've been busy building components for the new header for one of the brands. I've been creating the new search component. Just working on the HTML, SCSS and some JavaScript - but I'm going to need some help from the team to improve my JS.
 
-I'm not writing the code for the actual searching and returning results, we'll be using the existing code for that. 
+I'm not writing the code for the actual searching and returning results, we'll be using the existing code for that.
 
-The trickiest thing - for me at least, with building the search component is how it behaves on mobile when a user scrolls the page. The expected behaviour will be that when the site first loads, the search component will be visible, but then hides when the user scrolls the page up and shows again when the user scrolls down. 
+The trickiest thing - for me at least, with building the search component is how it behaves on mobile when a user scrolls the page. The expected behaviour will be that when the site first loads, the search component will be visible, but then hides when the user scrolls the page up and shows again when the user scrolls down.
 
-I've added this now, but the main concern is how it will affect the site performance, as I have to watch for a scroll action, currently without any delay - so I need to add some kind of delay or X amount of pixels to scroll before it shows the search component again. 
+I've added this now, but the main concern is how it will affect the site performance, as I have to watch for a scroll action, currently without any delay - so I need to add some kind of delay or X amount of pixels to scroll before it shows the search component again.
 
 I've now moved onto creating the new header - including a new menu button, search icon, user login/logout, store locator link and basket with item count. There are some unique things with the design, that makes it a little bit more complicated to build - there are some changes between mobile and desktop but it will retain the burger menu - the main difference the search component - on desktop it will be hidden and shown with a search icon, revealing it under the header - it looks nice and clean.
 
 ## Freelance
-I've been quite productive on the rebuild of this website. As I have mentioned before, my current side project is rebuilding this website using a static site generator, 11ty and moving away from PHP and Perch - purely for wanting to learn new technologies and further my skills. 
+I've been quite productive on the rebuild of this website. As I have mentioned before, my current side project is rebuilding this website using a static site generator, 11ty and moving away from PHP and Perch - purely for wanting to learn new technologies and further my skills.
 
-A few highlights include: 
+A few highlights include:
 - removed all links to cloudinary, since Netlify provides all the same features that I currently use, there is no need to use both
 - finished converting the blog index, post and archive templates into Nunjucks and now am able to turn markdown blog posts into HTML pages
 - removed the social media sharing component from the blog posts template - this was a basic HTML component that allowed users to click on a social network icon and share the post to network - but I'm pretty sure no one uses these things and I've read a few articles in the past that say the same - so out with the clutter

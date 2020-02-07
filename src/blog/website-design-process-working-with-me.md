@@ -10,17 +10,17 @@ keywords:
   - process
   - hiring a website design
   - working with a web designer
-postImage: /assets/imgs/webdesign-work-in-progresspicjumbo.comhnck7775.jpg
+postImage: webdesign-work-in-progresspicjumbo.comhnck7775.jpg
 date: 2017-05-02T14:00:43.729Z
 tags:
   - business
   - freelance
 ---
-In this blog post, I'm going to break down my process from initial client query to project completion. 
+In this blog post, I'm going to break down my process from initial client query to project completion.
 
-Have you ever wondered what it is like to work with a website designer? Does it stop you hiring one because you don't know how they work - what if your ways of working don't align with theirs? 
+Have you ever wondered what it is like to work with a website designer? Does it stop you hiring one because you don't know how they work - what if your ways of working don't align with theirs?
 
-I hope that by sharing my process, you might find we would work well together. 
+I hope that by sharing my process, you might find we would work well together.
 
 ## Let's get started
 
@@ -34,7 +34,7 @@ We'll talk about colours, typography and images - the look and feel you are afte
 
 After our meeting, there are a few things that I will need you to do. I will need you to create a pinterest board or a word document and fill it with visual inspiration for your website, complete the design questionnaire and have upload all your website content (text and photos) to the Google Drive folder I share with you.
 
-I will then work on your project proposal - this will detail how I intend on solving your problem in detail, the cost and the contract - don't worry, the contract is written in plain English and it's designed to help both of us in case we change our minds during the project. It will also explain what happens next. 
+I will then work on your project proposal - this will detail how I intend on solving your problem in detail, the cost and the contract - don't worry, the contract is written in plain English and it's designed to help both of us in case we change our minds during the project. It will also explain what happens next.
 
 ## What happens next
 Providing you are happy with the proposal, contract and there are no amends needed - but you are free to suggest amends.
@@ -46,8 +46,8 @@ We will be in constant contact throughout all of the stages and you will have ac
 ## Finishing up
 We will catch up once more before the site goes live. If you have chosen a CMS, I will show you how to update your website, we will go over the documentation to make sure it all makes sense and you are able to edit your site.
 
-After I receive the final payment, the website goes live, and you can start sharing your new website. But this isn't the end, I will always be on hand to help you with your website, if you get stuck or have any issues or decided to add more to it. 
+After I receive the final payment, the website goes live, and you can start sharing your new website. But this isn't the end, I will always be on hand to help you with your website, if you get stuck or have any issues or decided to add more to it.
 
-My process is not set in stone, and neither should yours - it should be constantly reviewed and changed to suit your needs. 
+My process is not set in stone, and neither should yours - it should be constantly reviewed and changed to suit your needs.
 
 Have you found this post useful? Did I miss anything out that you would like to know more about? Please leave a comment and I will be more than happy to get back to you or even add to this post.

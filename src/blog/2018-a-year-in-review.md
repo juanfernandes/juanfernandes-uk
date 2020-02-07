@@ -22,20 +22,20 @@ keywords:
   - vue js
   - eleventy
   - static site generator
-postImage: /assets/imgs/bawdsey-2018.jpg
+postImage: bawdsey-2018.jpg
 date: 2019-01-03T17:30:47.682Z
 tags:
   - personal
 ---
-Twenty Eighteen was a good year for me, but not so good for the UK, USA or politics, but we won't talk too much about that here! 
+Twenty Eighteen was a good year for me, but not so good for the UK, USA or politics, but we won't talk too much about that here!
 
 I made it point of avoiding politics in 2018 and will continue to do so in 2019 - be it on social media or in real life. I can't change what politicians want to do and I don't know enough about it, so it just infuriates me.
 
 Social media, in general, had an interesting year - most people now know how much data Facebook has on them and what they can do (and did) with it. Lots of people have left Facebook and even Twitter - there's even a hashtag - [\#DeleteFacebook](https://twitter.com/search?q=%23DeleteFacebook "Delete Facebook hashtag on Twitter").
 
-I've been wanting to leave Facebook way before all of this happened - but the one thing that stopped me is that my mum is on there and she calls/messages me on Messenger (Turns out you can use Messenger even if you have deactivated your Facebook account). I've also recently joined a couple of very good groups - I had left the majority of groups I was in and also unliked/unfollowed a LOT of pages. Update: I finally deactivated my Facebook and Instagram accounts on New Year's Eve! 
+I've been wanting to leave Facebook way before all of this happened - but the one thing that stopped me is that my mum is on there and she calls/messages me on Messenger (Turns out you can use Messenger even if you have deactivated your Facebook account). I've also recently joined a couple of very good groups - I had left the majority of groups I was in and also unliked/unfollowed a LOT of pages. Update: I finally deactivated my Facebook and Instagram accounts on New Year's Eve!
 
-[Mastodon](https://mastodon.social/about "Mastodon") came along and loads of people left Twitter for it but for a social network to work - it needs people and people didn't stick around long enough - oh well. In an attempt to make Twitter better for me I have unfollowed a lot of people and companies and have also started using the mute words to clean up my timeline. It has improved a lot. 
+[Mastodon](https://mastodon.social/about "Mastodon") came along and loads of people left Twitter for it but for a social network to work - it needs people and people didn't stick around long enough - oh well. In an attempt to make Twitter better for me I have unfollowed a lot of people and companies and have also started using the mute words to clean up my timeline. It has improved a lot.
 
 The year had a great start with me getting a contract to start in February - which ended up being my longest contract to date (7 months).
 
@@ -51,9 +51,9 @@ I had to learn how to use a CMS I'd never used before - Sitecore - and unfortuna
 
 My contract was extended twice - first to six months, then to nine, but it was cut 7 months due to a company restructure.
 
-I really enjoyed this contract - it was different to my previous contracts as I'm normally hired to work on a specific project. But at CMI - it was 'day to day' to start off with - but then it progressed into working on smaller projects on the CMI website. 
+I really enjoyed this contract - it was different to my previous contracts as I'm normally hired to work on a specific project. But at CMI - it was 'day to day' to start off with - but then it progressed into working on smaller projects on the CMI website.
 
-I don't usually do long contracts and I still feel the same about them - I don't like them, they start to feel a lot like a permanent role. But I stayed because I made really good friends there and its good to have a long contract under your belt, so I'm told. 
+I don't usually do long contracts and I still feel the same about them - I don't like them, they start to feel a lot like a permanent role. But I stayed because I made really good friends there and its good to have a long contract under your belt, so I'm told.
 
 Thanks go out to Lee (my manager) and Harry (Junior Dev) for a great few months and for putting up with my nagging about code standards and design systems.
 
@@ -73,7 +73,7 @@ Anyway, I finished the project on time, the client is happy and now I am still w
 
 ### Side projects
 
-This year I didn't build any web-based side projects - being away from home a 7-month contract (away Mon-Fri, back for weekends) meant I just wanted to do non-screen based projects. 
+This year I didn't build any web-based side projects - being away from home a 7-month contract (away Mon-Fri, back for weekends) meant I just wanted to do non-screen based projects.
 
 So I finished my kids' treehouse!
 
@@ -99,21 +99,21 @@ I've been doing a basic version of bullet journaling for a few years now. But to
 
 My health and fitness have continued to improve throughout the year. During most of my 7-month contract, I was going to the gym two to three times a week and eating healthy food prepared from scratch, rather than living off microwave meals, staying away from sweets and cake also helped (this wasn't easy in an open office).
 
-At the of the year I signed up to do [The Body Coach's 90-day plan](https://www.thebodycoach.com/ "The Body Coach") (I'm now on month 2 of 3). This is a High-Intensity Interval Training (HIIT) program and a healthy eating regime - but it's not a diet - the portions are huge! What I want to get from this is to be fitter - which I am now starting to see a change. 
+At the of the year I signed up to do [The Body Coach's 90-day plan](https://www.thebodycoach.com/ "The Body Coach") (I'm now on month 2 of 3). This is a High-Intensity Interval Training (HIIT) program and a healthy eating regime - but it's not a diet - the portions are huge! What I want to get from this is to be fitter - which I am now starting to see a change.
 
-I plan on continuing with the gym while I'm away on contract - this is easier when I'm away from home - but not sure how easy it will be if my next contract is in London - as its a 2hr commute each way - which will mean I'll be very tired. So we'll see what how that goes. 
+I plan on continuing with the gym while I'm away on contract - this is easier when I'm away from home - but not sure how easy it will be if my next contract is in London - as its a 2hr commute each way - which will mean I'll be very tired. So we'll see what how that goes.
 
 ### Family
 
-In 2018 we had a family holiday of a lifetime - the five of us went to Orlando, Florida and spent three weeks going to all the Disneyland and Universal parks. That's three weeks of walking - a LOT of walking - some days I did over 25k steps. 
+In 2018 we had a family holiday of a lifetime - the five of us went to Orlando, Florida and spent three weeks going to all the Disneyland and Universal parks. That's three weeks of walking - a LOT of walking - some days I did over 25k steps.
 
 But we loved this holiday - my wife and I preferred Universal  - but the kids loved all of it. We've been planning for this holiday for a while - we had to time it right so that our youngest (6) would remember it but also our eldest (10) would still find it magical.
 
-This holiday was also the first time I have ever been on a rollercoaster! My eldest (also her first time) was the only one that was tall enough to ride but, of course, she needed to go with an adult and I was happy to step up! 
+This holiday was also the first time I have ever been on a rollercoaster! My eldest (also her first time) was the only one that was tall enough to ride but, of course, she needed to go with an adult and I was happy to step up!
 
 ### Personal
 
-I wasn't sure whether I should mention some of these personal things for fear of it coming across as a bit of a show-off - that's not what I want. 
+I wasn't sure whether I should mention some of these personal things for fear of it coming across as a bit of a show-off - that's not what I want.
 
 This year I treated myself to a few nice things - I've worked hard and I believe I deserve these things.
 
@@ -121,15 +121,15 @@ Firstly, I got my self a new laptop, a MacBook Pro - the last laptop I had was a
 
 Secondly, since I do a lot of driving when I am on contract - I got myself a newish car - a Mercedes A-Class 2017 plate - this is the nicest, most expensive car I have ever owned - my previous car was a 10-year-old Ford Fiesta - which rattled a lot on the motorways and almost killed me in this year when it spun out and I ended up off road - luckily it stopped just before a massive 20ft drop.
 
-**Update**: When I say I bought, I don't mean outright - it's a lease, I'll have it for 4 years and then I can choose to keep it or give it back, or trade it for another. 
+**Update**: When I say I bought, I don't mean outright - it's a lease, I'll have it for 4 years and then I can choose to keep it or give it back, or trade it for another.
 
-Lastly, I got myself a motorbike - it is a 125cc custom cruiser - I don't have my CBT yet, that's happening in 2019 - but for my birthday I got a jacket and helmet, just need boots, gloves and trousers and I'll be set. 
+Lastly, I got myself a motorbike - it is a 125cc custom cruiser - I don't have my CBT yet, that's happening in 2019 - but for my birthday I got a jacket and helmet, just need boots, gloves and trousers and I'll be set.
 
 My wife says I'm having a mid-life crisis!
 
 ![My new car and motorbike](/assets/imgs/car-and-motorbike.jpg "My new car and motorbike")
 
-I think if you can, you should treat yourself, especially if it makes getting to your job that little bit nicer! 
+I think if you can, you should treat yourself, especially if it makes getting to your job that little bit nicer!
 
 ## What didn't go so well
 
@@ -137,11 +137,11 @@ I think if you can, you should treat yourself, especially if it makes getting to
 
 I didn't do much writing on my blog in 2018 - I only managed 2 posts, three if you count the one that I should have published but didn't quite get to it. I was hoping to have posted a lot more as I had a great start in 2017.
 
-But I blame this on being away for a long contract and where I was staying, I didn't have a proper desk, so couldn't do much work. Plus, after a days work, going to the gym and cooking my dinner, I didn't have much time to spend on the computer. 
+But I blame this on being away for a long contract and where I was staying, I didn't have a proper desk, so couldn't do much work. Plus, after a days work, going to the gym and cooking my dinner, I didn't have much time to spend on the computer.
 
 ### Reading
 
-I wanted to have read ten books this year but I only managed two! I'm still reading Stephen King's The Dark Tower series - which have quite a few big books. 
+I wanted to have read ten books this year but I only managed two! I'm still reading Stephen King's The Dark Tower series - which have quite a few big books.
 
 I managed to finish a book that I struggled to get into - "You're my favourite client" - it's not my usual sort of book. I do need to read a lot more non-fiction books, not just fiction and web design.
 
@@ -153,7 +153,7 @@ No personal digital projects this year. I have many ideas on paper - but lacked 
 
 A side project I started in 2018 - I started tinkering around with Home Automation - not sure if this is something will ever be finished. It has been an interesting and frustrating delve into this - I plan on writing about it. But let's just say, if you want to do it properly, it's not yet ready for the mainstream - it's getting there though.
 
-I started to redo my website to use [Eleventy](https://11ty.io "Eleventy") - a static site generator but I didn't get it finished! 
+I started to redo my website to use [Eleventy](https://11ty.io "Eleventy") - a static site generator but I didn't get it finished!
 
 Sometime after designing and building my current website, I added the Perch CMS so that I could use it as a testbed for new plugins and functionality. But since I'm not doing many freelance projects that require a CMS these days and I've been wanting to dive into static site generators for a while now - I decided to give Eleventy a go.
 
@@ -169,7 +169,7 @@ Something I wanted to get into was streaming. I've done a few gaming let's play 
 
 It wasn't a great year for our pets - we lost a few, but the one that hurt me the most was losing our dog, Zack.
 
-We had him since he was a puppy - before we had our children - he watched our children grow up and they watched him grow old and frail. 
+We had him since he was a puppy - before we had our children - he watched our children grow up and they watched him grow old and frail.
 
 We said goodbye to him in the summer and he now rests peacefully in our garden.
 
@@ -195,35 +195,35 @@ I want to get my first fully remote contract job in 2019. I've had contracts tha
 
 ## Learning
 
-Need to stop 'trying' to learn JavaScript and make a conscious effort to actually learn it. I find myself in a strange situation - I've always been a front-end developer - but in all my permanent jobs, someone else was the JavaScript person, it was usually a backend developer that worked with JS and all I needed to do was HTML CSS and jQuery - so all of a sudden JS is really popular and I missed all the boats. 
+Need to stop 'trying' to learn JavaScript and make a conscious effort to actually learn it. I find myself in a strange situation - I've always been a front-end developer - but in all my permanent jobs, someone else was the JavaScript person, it was usually a backend developer that worked with JS and all I needed to do was HTML CSS and jQuery - so all of a sudden JS is really popular and I missed all the boats.
 
-I'm in the middle - I'm not a JS developer or a UX Designer, but I am somewhere in the middle. I believe I'm more developer than a designer, so this is why I'm going to focus on learning JS. 
+I'm in the middle - I'm not a JS developer or a UX Designer, but I am somewhere in the middle. I believe I'm more developer than a designer, so this is why I'm going to focus on learning JS.
 
 I also want to dive into Vue and Gatsby - there has been so much love for both that you can't help wanting to get stuck in. Plus I also read that learning Gatsby will help with learning React, which I've tried but found too difficult because I don't know vanilla JS.
 
-There's a whole bunch of other stuff I want to learn too - like CSS Grid! 
+There's a whole bunch of other stuff I want to learn too - like CSS Grid!
 
 ## Side Projects
 
 I think the main issue with me learning JS is that I do a lot of reading and video tutorials but I don't do anything with it. Sometimes I will use vanilla JS instead of jQuery, but if I'm busy - then I don't have time to figure out JS, so will just default to what I know.
 
-I need to build stuff and use JS so I can learn it, spend time making mistakes and figuring things out and I believe I can do this with side projects. What will I build I don't know yet, but whatever it is, it will be something for me and it may never see the light of day. 
+I need to build stuff and use JS so I can learn it, spend time making mistakes and figuring things out and I believe I can do this with side projects. What will I build I don't know yet, but whatever it is, it will be something for me and it may never see the light of day.
 
-I also plan on streaming as much as possible and hopefully actually get people to 'tune' in - I want to stream so that I can practice speaking to an audience, learn to speak clearly while showing/doing demos/presentations etc. 
+I also plan on streaming as much as possible and hopefully actually get people to 'tune' in - I want to stream so that I can practice speaking to an audience, learn to speak clearly while showing/doing demos/presentations etc.
 
 ## Blogging
 
-Gah. I really need to make this a habit. I like doing it and it helps with the learning side of things - if I write about something I've learnt, it helps commit it to long-term memory - so I want to do at least 1 blog post a month - I know it doesn't sound like a lot, but when I only managed 2 in twenty eighteen - 12 will be a milestone! 
+Gah. I really need to make this a habit. I like doing it and it helps with the learning side of things - if I write about something I've learnt, it helps commit it to long-term memory - so I want to do at least 1 blog post a month - I know it doesn't sound like a lot, but when I only managed 2 in twenty eighteen - 12 will be a milestone!
 
 ## Health
 
-After many many years of neglecting my health, fitness and well being - I am making a conscious effort to fix this. It won't be easy, but then you can't expect to fix years of damage in one quick HIIT session, can you? 
+After many many years of neglecting my health, fitness and well being - I am making a conscious effort to fix this. It won't be easy, but then you can't expect to fix years of damage in one quick HIIT session, can you?
 
 I'm going to finish The Body Coach's 90-day plan and then create my own plan to keep the exercise and healthy eating going. I'm also going to try very hard not to have any sugar - which won't be easy - it means giving up things like chocolate, cookies and cakes! I have already replaced sugar in my coffee with a plant-based alternative.
 
-Well, I think that's all I have to say for this year in review post (sorry it's a long one) - I hope you enjoyed reading it as much as I enjoyed looking back. Let me know if you did and if you also wrote your own - I love reading these. 
+Well, I think that's all I have to say for this year in review post (sorry it's a long one) - I hope you enjoyed reading it as much as I enjoyed looking back. Let me know if you did and if you also wrote your own - I love reading these.
 
-Here are the ones I've read so far: 
+Here are the ones I've read so far:
 
 - [Andy Bell](https://andy-bell.design/wrote/2018-a-year-in-review/ "Andy Bell")
 - [Ashley Baxter](https://iamashley.co.uk/2018-year-in-review "Ashley Baxter")

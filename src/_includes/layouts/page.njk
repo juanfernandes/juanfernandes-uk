@@ -1,7 +1,7 @@
 {% extends 'layouts/blog.njk' %}
 
 {% block intro %}
-<div class="intro{% if introClass %} intro--{{ introClass }}{% endif %}"{% if postImage %} style="background-image: url( {{ postImage }} )"{% endif %}>
+<div class="intro{% if introClass %} intro--{{ introClass }}{% endif %}"{% if postImage %} style="background-image: url('{{ site.cloudinary_url }}f_auto/{{ postImage }}'')"{% endif %}>
   <div class="intro__content">
     <h1 class="intro__heading">
       <span class="intro__heading--large">{{ title }}</span>
