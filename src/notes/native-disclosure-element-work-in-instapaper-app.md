@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1581064001/Screenshot_20200207-081200__01_td2ebv.jpg"
+postImage: https://res.cloudinary.com/juanfernandes/v1579162295/trianglify.png
 title: Native disclosure element works in Instapaper app
 description: Reading an article about the native HTML disclosure element (details
   + summary) and was pleased to see that it works in the Instapaper app
