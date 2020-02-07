@@ -14,7 +14,7 @@ keywords:
   - freelance
   - week notes
   - ''
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-03-24T09:00:49.135Z
 tags:
   - notes
@@ -22,7 +22,7 @@ tags:
 Well, it was another uneventful and unproductive week - I've been distracted all week.
 
 ## Decisions
-I've decided to finish my current contract early. I've never done this and I have mixed feelings about it, but I know that I am not happy here and I don't see it getting better. 
+I've decided to finish my current contract early. I've never done this and I have mixed feelings about it, but I know that I am not happy here and I don't see it getting better.
 
 I had brief chat with the web development manager - I wasn't prepared for it, he just popped over to my desk and said can we have a chat. If I had been prepared I may have been more open about how I was feeling, I did explain how it's been difficult to get any work done because of how the DEV and QA environments are set up. He was understanding about it and knows its a problem, but it's not an overnight fix. He also said that the project I was supposed to be on was likely to be put on hold.
 
@@ -43,6 +43,6 @@ I've wanted to get back into an interaction designer role for a while now and ha
 - [Week notes #2 - nocturnalmonkey](https://blog.nocturnalmonkey.com/week-notes-2/ "Week notes #2 - nocturnalmonkey")
 
 ### Until next week
-So this week note is shorter than usual, but that ok, my mind has been busy thinking about the future and what sort of work I want to do and don't even mention politics! What a week. Great to see so many people sign the #RevokeArticle50 petition - let's hope it makes a difference. 
+So this week note is shorter than usual, but that ok, my mind has been busy thinking about the future and what sort of work I want to do and don't even mention politics! What a week. Great to see so many people sign the #RevokeArticle50 petition - let's hope it makes a difference.
 
 Until next week - have a great one.

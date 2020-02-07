@@ -13,7 +13,7 @@ keywords:
   - boreamwood
   - north london
   - ''
-postImage: /assets/imgs/trianglify.png
+postImage: trianglify.png
 date: 2019-05-30T06:32:37.499Z
 tags:
   - notes
@@ -31,14 +31,14 @@ It's going to take a while for me to get used to all this traffic - London reall
 
 I'm also back to using VS Code, not my choice, but because it integrates better with their Dev environment and the Azure infrastructure - I'll be using it for this contract. This may be something that will likely happen again, so I have saved my custom settings, plugins and themes.
 
-I'll be using Gulp, Sass, Fractal and Handlebars for this contract. I'm glad I finally get to use Fractal - I've been wanting to try it for a while. 
+I'll be using Gulp, Sass, Fractal and Handlebars for this contract. I'm glad I finally get to use Fractal - I've been wanting to try it for a while.
 
 ## Personal
 I've not had any time to work on my own website or my freelance project - this is mostly done and I'm just waiting for the client to do their first round of testing.
 
 Bank holiday next week, which means a short week and also my villages yearly Fete, which I help with setting up!
 
-Over the last couple of weeks, I have been thinking about my work and how I'm not really happy with how things have been going - I'm not talking about code things, more the life of a travelling ~~salesperson~~ contract front-end developer! 
+Over the last couple of weeks, I have been thinking about my work and how I'm not really happy with how things have been going - I'm not talking about code things, more the life of a travelling ~~salesperson~~ contract front-end developer!
 
 ## Reading
 - [The Co-opetition of Team Web—zachleat.com](https://www.zachleat.com/web/team-web/ "The Co-opetition of Team Web—zachleat.com")
