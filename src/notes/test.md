@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: https://res.cloudinary.com/juanfernandes/v1580720938/moody-sky.jpg
 title: test
 description: test
 keywords: []
