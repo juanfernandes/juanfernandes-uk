@@ -4,7 +4,7 @@ title: Right Here, Right Now
 subheading: What I'm currently up to
 introClass: now
 permalink: "/now/index.html"
-date: 2019-11-02T19:53:06.448+00:00
+date: 2020-02-08T10:00:06Z
 
 ---
 ### Work
@@ -14,6 +14,7 @@ date: 2019-11-02T19:53:06.448+00:00
 * Continuing the work to migrate this website away from NetlifyCMS to Forestry
 
 ### Personal
+
 * After attenting NA Conf 2020 and listening to Laura Kalbag's talk about privacy, I've been reviewing my own privacy and removing Google from my life
 
 ### Play
@@ -26,3 +27,8 @@ date: 2019-11-02T19:53:06.448+00:00
 * Finished reading [Atomic Design by Brad Frost](https://www.goodreads.com/book/show/35496817-atomic-design "Atomic Design by Brad Frost")
 * Started reading [Every Layout: Relearn CSS layout](https://www.goodreads.com/book/show/48932917-every-layout "Every Layout: Relearn CSS layout") by  Heydon Pickering amd Andy Bell
 * Always reading web design and business articles via my Instapaper
+
+### Watching
+
+* Recently finished watching **Lost**; I decided to watch it from the beginning as I'd only got as far as season 3. 
+* Now I've started watching **Mr.** **Robot** and I'm already on season 3. Really enjoying it, but it can be a hard to follow story. 
