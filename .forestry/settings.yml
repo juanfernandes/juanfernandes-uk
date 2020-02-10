@@ -33,7 +33,7 @@ sections:
   - photo-post
 upload_dir: ''
 public_path: ''
-front_matter_path: https://res.cloudinary.com/juanfernandes/f_auto
+front_matter_path: https://res.cloudinary.com/juanfernandes
 use_front_matter_path: true
 file_template: ":filename:"
 build:
