@@ -47,6 +47,12 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByTag('design')
   })
 
+  // Universal Shortcodes
+  eleventyConfig.cloudinaryCloudName = 'juanfernandes'
+  eleventyConfig.addShortcode('cloudinaryImage', function (path, transforms, alt) {
+    return `<img src="https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/${transforms}/${path}" alt="${alt}">`
+  })
+
   // Layout aliases
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
 
