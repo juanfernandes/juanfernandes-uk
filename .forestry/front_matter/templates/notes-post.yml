@@ -27,6 +27,7 @@ fields:
   name: tags
   label: Tags
 pages:
+- src/notes/created-my-first-npm-package.md
 - src/notes/eleventy-cloudinary-shortcode.md
 - src/notes/firefox-focus.md
 - src/notes/google-hangouts.md
