@@ -18,4 +18,4 @@ tags:
 ---
 My estimote LTE beacons developer kit has finally arrived (made to order) - so looks like I'll be tinkering with this at this weekend 🤓
 
-{% cloudinaryImage "IMG_20200214_104831__01_axk42z.jpg", "q_auto,f_auto", "Photo of the estimote LTE beacons Developer Kit box" %}
+{% cloudinaryImage "IMG_20200214_104831__01_axk42z.jpg", "q_auto,f_auto,w_762", "Photo of the estimote LTE beacons Developer Kit box" %}
