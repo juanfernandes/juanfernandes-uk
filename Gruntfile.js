@@ -20,12 +20,8 @@ module.exports = function (grunt) {
     },
     watch: {
       sass: {
-        files: ['src/assets/css/*.scss', 'src/assets/css/partials/*.scss'],
+        files: ['src/assets/css/*.scss', 'src/assets/css/components/*.scss', 'src/assets/css/partials/*.scss'],
         tasks: ['sass']
-      },
-      js: {
-        files: ['src/assets/js/*.js'],
-        tasks: ['js']
       },
       html: {
         files: ['src/*.njk', 'src/*.md', 'src/*.json'],
@@ -40,14 +36,9 @@ module.exports = function (grunt) {
       },
       dist: {
         files: {
-          'dist/assets/css/global.min.css': 'src/assets/css/global.scss'
+          'dist/assets/css/global.min.css': 'src/assets/css/global.scss',
+          'dist/assets/css/components/slider.css': 'src/assets/css/components/slider.scss'
         }
-      }
-    },
-    uglify: {
-      build: {
-        src: ['src/assets/js/global.js', 'src/assets/js/plugins.js'],
-        dest: 'dist/assets/js/global.min.js'
       }
     }
   })
@@ -61,6 +52,6 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean')
 
   // Default task(s)
-  grunt.registerTask('dev', ['clean', 'sass', 'uglify', 'watch:sass', 'watch:js'])
-  grunt.registerTask('default', ['shell:eleventy', 'sass', 'uglify'])
+  grunt.registerTask('dev', ['clean', 'sass', 'watch:sass'])
+  grunt.registerTask('default', ['shell:eleventy', 'sass'])
 }

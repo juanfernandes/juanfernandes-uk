@@ -94,15 +94,16 @@
             <h1 class="content__heading">Testimonials</h1>
             <div class="testimonials__slider">
               {% for item in testimonials %}
-              <section>
+              <article>
                 <blockquote>
                   <p class="testimonials__quote">{{ item.quote }}</p>
                 </blockquote>
                 <cite class="testimonials__cite">{{ item.cite }}, {{ item.company }}</cite>
-              </section>
+              </article>
               {% endfor %}
             </div>
           </div>
+          {% include 'components/tertimonials-slider.njk' %}
         </section>
 
         <section class="companies">
