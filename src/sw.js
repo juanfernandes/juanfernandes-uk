@@ -1,4 +1,4 @@
-const cacheName = 'v1.6::static'
+const cacheName = 'v1.7::static'
 
 self.addEventListener('install', e => {
   // once the SW is installed, go ahead and fetch the resources
@@ -8,11 +8,15 @@ self.addEventListener('install', e => {
       return cache.addAll([
         '/',
         'assets/css/global.min.css',
-        'assets/js/global.min.js',
+        'assets/css/components/slider.scss',
+        'assets/css/plugins/_tiny-slider.scss',
+        'assets/js/tiny-slider.js',
         'about/',
         'work/',
         'contact/',
-        'now/'
+        'now/',
+        'notes/',
+        'photos/'
       ]).then(() => self.skipWaiting())
     })
   )

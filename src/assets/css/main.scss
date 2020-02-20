@@ -1003,57 +1003,7 @@ figure.effect:hover p {
   }
 }
 
-/* Slider */
-.slick-prev,
-.slick-next {
-  background: rgba(0,0,0,.6);
-  border: none;
-  color: transparent;
-  cursor: pointer;
-  display: block;
-  font-size: 0;
-  height: 32px;
-  line-height: 0;
-  margin: 0;
-  outline: none;
-  padding: 0;
-  position: absolute;
-  top: calc(50% - 32px);
-  transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
-  width: 32px;
-  z-index: 1;
 
-  .svg-icon {
-    fill: $white;
-  }
-}
-
-.slider:hover .slick-prev,
-.slider:focus .slick-prev,
-.slider:hover .slick-next,
-.slider:focus .slick-next {
-  background: rgba(0,0,0,.8);
-  border: none;
-  opacity: 1;
-}
-
-.slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus {
-  .svg-icon {
-    fill: #F9A339;
-    transition: fill .25s cubic-bezier(.25, .46, .45, .94) 0s;
-  }
-}
-
-.slick-prev {
-  left: 0;
-}
-
-.slick-next {
-  right: 0;
-}
 
 
 /* Dots */

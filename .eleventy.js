@@ -13,6 +13,8 @@ module.exports = function (eleventyConfig) {
   // Pass through
   eleventyConfig.addPassthroughCopy('README.md')
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
+  eleventyConfig.addPassthroughCopy('src/assets/js')
+  eleventyConfig.addPassthroughCopy('src/assets/css/revenge.css')
   eleventyConfig.addPassthroughCopy('src/sw.js')
   eleventyConfig.addPassthroughCopy('src/robots.txt')
   eleventyConfig.addPassthroughCopy('src/keybase.txt')
@@ -32,7 +34,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/mstile-144x144.png')
   eleventyConfig.addPassthroughCopy('src/safari-pinned-tab.svg')
   eleventyConfig.addPassthroughCopy('src/_redirects')
-  eleventyConfig.addPassthroughCopy('src/assets/css/revenge.css')
 
   eleventyConfig.addCollection('posts', function (collection) {
     return collection.getFilteredByGlob('./src/blog/*.md')
