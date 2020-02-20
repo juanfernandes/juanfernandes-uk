@@ -9,7 +9,6 @@ self.addEventListener('install', e => {
         '/',
         'assets/css/global.min.css',
         'assets/css/components/slider.css',
-        'assets/css/plugins/_tiny-slider.css',
         'assets/js/tiny-slider.js',
         'about/',
         'work/',
