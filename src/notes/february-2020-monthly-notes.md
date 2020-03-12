@@ -43,3 +43,31 @@ Been quite a busy month for freelance work, but it's also my last freelance proj
 - Continuing my deep dive into reviewing my privacy and what data I share, I have now deployed a pi-hole (a DNS sinkhole) at home and also set NextDNS as upstream servers for extra protection!
 
 - There are ways around being able to use Pi-hole with the BT hubs, but I didn't like it, so it was an opportunity to also remove the BT hub from my network, which I've replaced with a Draytek Vigor router
+
+## Articles Read
+- [When should you add the defer attribute to the script element?](https://gomakethings.com/when-should-you-add-the-defer-attribute-to-the-script-element/ "When should you add the defer attribute to the script element?")
+- [Quick and Easy Dark Mode with CSS Custom Properties](https://css-irl.info/quick-and-easy-dark-mode-with-css-custom-properties/ "Quick and Easy Dark Mode with CSS Custom Properties")
+- [Tiny Web Stacks](https://cloudfour.com/thinks/tiny-web-stacks/ "Tiny Web Stacks")
+- [Playing with CSS Grid](https://snook.ca/archives/html_and_css/playing-with-css-grid "Playing with CSS Grid")
+- [The details and summary elements | scottohara.me](https://www.scottohara.me/blog/2018/09/03/details-and-summary.html "The details and summary elements | scottohara.me")
+- [But I have nothing to hide](https://pjrvs.com/hide "But I have nothing to hide")
+- [Extending Atomic Design](http://bradfrost.com/blog/post/extending-atomic-design/ "Extending Atomic Design")
+- [Fluid scale and tokens: a match made in heaven - Andy Bell](https://hankchizljaw.com/wrote/fluid-scale-and-tokens:-a-match-made-in-heaven/ "Fluid scale and tokens: a match made in heaven - Andy Bell")
+- [What I Like About Vue](https://daverupert.com/2019/07/what-i-like-about-vue/ "What I Like About Vue")
+- [The Simplest Way to Load CSS Asynchronously | Filament Group, Inc., Boston, MA](https://www.filamentgroup.com/lab/load-css-simpler/ "The Simplest Way to Load CSS Asynchronously | Filament Group, Inc., Boston, MA")
+- [Designing in t’browser | Website and blog of Flintshire, North Wales based Front-end developer and web designer, Dan Davies](https://www.dan-davies.co.uk/designing-in-tbrowser "Designing in t’browser | Website and blog of Flintshire, North Wales based Front-end developer and web designer, Dan Davies")
+- [Saving HTML to localStorage with vanilla JS | Go Make Things](https://gomakethings.com/saving-html-to-localstorage-with-vanilla-js/ "Saving HTML to localStorage with vanilla JS | Go Make Things")
+- [Deep Work Update #3](https://bradfrost.com/blog/post/deep-work-update-3/ "Deep Work Update #3")
+- [Jamstack, IFTTT and Netlify: a power trio - Andy Bell](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/ "Jamstack, IFTTT and Netlify: a power trio - Andy Bell")
+- [RSS favorites ･ Robin Rendle](https://www.robinrendle.com/notes/rss-favorites.html "RSS favorites ･ Robin Rendle")
+- [HTTP/2 For Web Developers](https://blog.cloudflare.com/http-2-for-web-developers/ "HTTP/2 For Web Developers")
+- [CSS Variables](https://dev.to/samanthaming/css-variables-8di "CSS Variables")
+- [Minimum viable analytics](https://david.darn.es/article/2020/02/23/minimum-viable-analytics/ "Minimum viable analytics")
+- [A Two Settings Problem](https://daverupert.com/2020/02/a-two-settings-problem/ "A Two Settings Problem")
+- [Security and performance issues with target=”_blank” on links](https://kbarker.dev/2020/02/24/security-and-performance-issues-with-target-blank-on-links.html "Security and performance issues with target=”_blank” on links")
+- [Creating Utility Classes with Design Tokens using Sass](https://alwaystwisted.com/articles/creating-utility-classes-with-design-tokens-using-sass "Creating Utility Classes with Design Tokens using Sass")
+- [Multi-column manipulation](https://every-layout.dev/blog/multi-column-manipulation/ "Multi-column manipulation")
+- [How do I find customers?](https://justinjackson.ca/find "How do I find customers?")
+- [Part 3: Auto-flow, Order and Item Placement](https://css-irl.info/debugging-css-grid-part-3-auto-flow-order-and-item-placement/ "Part 3: Auto-flow, Order and Item Placement")
+- [Every Layout - how it works - Andy Bell](https://andy-bell.design/wrote/every-layout-how-it-works/ "Every Layout - how it works - Andy Bell")
+- [LocalStorage in JavaScript - LogRocket Blog](https://blog.logrocket.com/the-complete-guide-to-using-localstorage-in-javascript-apps-ba44edb53a36/ "LocalStorage in JavaScript - LogRocket Blog")
