@@ -15,7 +15,7 @@ img {
   }
 
   &--polaroid {
-    background-color: white;
+    background-color: var(--white);
     border: 1px solid #c6bfbf;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     padding: 12px;
@@ -70,7 +70,7 @@ figure {
   }
 
   figcaption {
-    color: $off-black;
+    color: var(--off-black);
     font-style: italic;
     font-size: 14px;
     font-size: 1.4rem;

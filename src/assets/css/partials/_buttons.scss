@@ -9,11 +9,11 @@ button {
 .button {
   &--cta,
   &--cta:active {
-    background: none repeat scroll 0% 0% $orange;
+    background: none repeat scroll 0% 0% var(--orange);
     border: 0;
     border-radius: .25em;
-    box-shadow: 0 5px 0 #DE7E07;
-    color: #333;
+    box-shadow: 0 5px 0 var(--dark-orange);
+    color: var(--darker-grey);
     font-size: 16px;
     font-size: 1.6rem;
     font-weight: 700;
@@ -28,10 +28,9 @@ button {
 
   &--cta:hover,
   &--cta:focus {
-    background: none repeat scroll 0% 0% #F9A339;
+    background: none repeat scroll 0% 0% var(--light-orange);
     border: 0;
-    box-shadow: 0 5px 0 #C57006;
-    color: #F2F2F2;
+    color: var(--off-white);
   }
 
   &--full-width {

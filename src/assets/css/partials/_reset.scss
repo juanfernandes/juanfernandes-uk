@@ -2,13 +2,13 @@
  * Remove text-shadow in selection highlight
  */
 ::-moz-selection {
-  background: $orange;
-  color: $black;
+  background: var(--orange);
+  color: var(--black);
   text-shadow: none;
 }
 ::selection {
-  background: $orange;
-  color: $black;
+  background: var(--orange);
+  color: var(--black);
   text-shadow: none;
 }
 *,
@@ -29,7 +29,7 @@ canvas {
  */
 hr {
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--light-grey);
   display: block;
   height: 1px;
   margin: 0 0 54px 0;

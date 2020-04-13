@@ -11,9 +11,9 @@
   width: 100%;
 
   button {
-    background-color: black;
+    background-color: var(--black);
     border-radius: 50%;
-    border: 1px solid #F89820;
+    border: 1px solid var(--orange);
     height: 15px;
     padding: 0;
     width: 15px;
@@ -23,7 +23,7 @@
     }
 
     &.tns-nav-active {
-      background-color: #F89820;
+      background-color: var(--orange);
     }
   }
 }

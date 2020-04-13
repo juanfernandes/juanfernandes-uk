@@ -21,14 +21,14 @@ $module: 'social-icons';
     use {
       height: 48px;
       width: 48px;
-      fill: #fff;
+      fill: var(--white);
       transition: fill 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
     }
 
     a {
       &:hover use,
       &:focus use {
-        fill: #f9a339;
+        fill: var(--orange);
       }
     }
   }
@@ -43,12 +43,12 @@ $module: 'social-icons';
       margin: 0 10px;
 
       path {
-        fill: #fff;
+        fill: var(--white);
       }
 
       &:hover path,
       &:focus path {
-        fill: #f9a339;
+        fill: var(--orange);
       }
     }
   }
@@ -56,12 +56,12 @@ $module: 'social-icons';
   &--profile {
     .#{$module}__icon {
       path {
-        fill: #111;
+        fill: var(--off-black);
       }
 
       &:hover path,
       &:focus path {
-        fill: #f9a339;
+        fill: var(--orange);
       }
     }
   }
@@ -89,7 +89,7 @@ $module: 'social-icons';
     &:hover,
     &:focus {
       .social__icon {
-        fill: $white;
+        fill: var(--white);
       }
     }
   }
@@ -151,7 +151,7 @@ $module: 'social-icons';
 }
 
 .main {
-  background: #fff;
+  background: var(--white);
   padding: 54px 0;
   position: relative;
   z-index: 1;
@@ -244,14 +244,16 @@ nav {
 
       a {
         border: none;
-        color: $black;
+        color: var(--black);
         font-weight: 700;
         font-size: 12px;
         font-size: 1.2rem;
+
         @media only screen and (min-width: 60em) { // 960
           font-size: 14px;
           font-size: 1.4rem;
         }
+
         letter-spacing: 0.075em;
         text-decoration: none;
         text-transform: uppercase;
@@ -259,14 +261,14 @@ nav {
 
         &:hover:not(.logo),
         &:focus:not(.logo) {
-          color: #666;
-          border-bottom: 4px solid $orange;
+          color: var(--dark-grey);
+          border-bottom: 4px solid var(--orange);
           padding-bottom: 2px;
         }
       }
 
       &--active a {
-        color: #666;
+        color: var(--dark-grey);
         text-transform: none;
       }
     }
@@ -277,7 +279,7 @@ nav {
     Intro
 */
 .intro {
-  background-color: $orange;
+  background-color: var(--orange);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -295,7 +297,7 @@ nav {
   }
 
   &__heading {
-    color: $white;
+    color: var(--white);
     font-size: 40px;
     font-size: 4rem;
     font-weight: 300;
@@ -391,7 +393,7 @@ nav {
   padding: 54px 0;
 
   .content__heading {
-    color: $black;
+    color: var(--black);
     margin-bottom: 40px;
   }
 
@@ -500,11 +502,11 @@ nav {
 
 /* Skills */
 .skills {
-  background: $orange url("https://res.cloudinary.com/juanfernandes/f_auto/trianglify-2.jpg") bottom center no-repeat;
+  background: var(--orange) url("https://res.cloudinary.com/juanfernandes/f_auto/trianglify-2.jpg") bottom center no-repeat;
   background-attachment: scroll;
   background-size: cover;
   box-shadow: inset 0 -40px 24px -38px rgba(0,0,0,.25);
-  color: $black;
+  color: var(--black);
   padding: 54px 0;
   @media only screen and (min-width: 60em) { // 960
     background-attachment: fixed;
@@ -523,7 +525,7 @@ nav {
   }
 
   .content__heading {
-    color: $black;
+    color: var(--black);
   }
 }
 
@@ -536,7 +538,7 @@ nav {
   }
 
   &__heading {
-    color: $black;
+    color: var(--black);
     line-height: 1.2;
     margin: -16px 0 0;
   }
@@ -547,18 +549,12 @@ nav {
   Testimonials
 */
 .testimonials {
-  // > .content {
-  //   @media only screen and (min-width: 80em) { // 1280
-  //     width: 60%;
-  //   }
-  // }
-
   &--section {
-    background: $off-black url("https://res.cloudinary.com/juanfernandes/f_auto/wood-planks.jpg") bottom center no-repeat;
+    background: var(--off-black) url("https://res.cloudinary.com/juanfernandes/f_auto/wood-planks.jpg") bottom center no-repeat;
     background-attachment: scroll;
     background-size: cover;
     box-shadow: inset 0 -40px 24px -38px rgba(0,0,0,.25);
-    color: $white;
+    color: var(--white);
     padding: 54px 0;
 
     @media only screen and (min-width: 60em) { // 960
@@ -566,7 +562,7 @@ nav {
     }
 
     .content__heading {
-      color: $white;
+      color: var(--white);
     }
 
     ul,
@@ -575,7 +571,7 @@ nav {
     }
 
     blockquote {
-      border-color: $orange;
+      border-color: var(--orange);
     }
 
     cite {
@@ -608,7 +604,7 @@ nav {
     }
 
     &__quote {
-      border-left: 4px solid $orange;
+      border-left: 4px solid var(--orange);
 
       blockquote {
         border: 0;
@@ -644,10 +640,10 @@ nav {
   Footer
 */
 footer {
-  background: $orange url("https://res.cloudinary.com/juanfernandes/f_auto/photo-justin-leibow-n-226.jpg") bottom center no-repeat;
+  background: var(--orange) url("https://res.cloudinary.com/juanfernandes/f_auto/photo-justin-leibow-n-226.jpg") bottom center no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  color: $white;
+  color: var(--white);
   min-height: 410px;
   width: 100%;
 
@@ -660,7 +656,7 @@ footer {
     display: block;
     font-size: 12px;
     font-size: 1.2rem;
-    border-top: 2px solid #F9A339;
+    border-top: 2px solid var(--orange);
     padding-top: 50px;
     text-align: center;
     margin: 0 auto;
@@ -691,7 +687,7 @@ footer > .container > .sixteen {
   text-align: center;
 
   &__heading {
-    color: $white;
+    color: var(--white);
     font-size: 30px;
     font-size: 3rem;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.6)
@@ -718,7 +714,7 @@ footer > .container > .sixteen {
 
 .work figure {
   background: #3085A3;
-  border: 1px solid $orange;
+  border: 1px solid var(--orange);
   cursor: pointer;
   float: left;
   height: 180px;
@@ -782,7 +778,7 @@ footer > .container > .sixteen {
 
 .work figure figcaption {
   padding: 2em;
-  color: $white;
+  color: var(--white);
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -822,8 +818,8 @@ footer > .container > .sixteen {
 }
 
 figure.effect {
-  background: -webkit-linear-gradient(-45deg, #34495E 0%,$orange 100%);
-  background: linear-gradient(-45deg, #34495E 0%,$orange 100%);
+  background: -webkit-linear-gradient(-45deg, #34495E 0%,var(--orange) 100%);
+  background: linear-gradient(-45deg, #34495E 0%,var(--orange) 100%);
 }
 
 figure.effect img,
@@ -839,7 +835,7 @@ figure.effect:hover img {
 }
 
 figure.effect p {
-  border: 2px solid #fff;
+  border: 2px solid var(--white);
   bottom: 0;
   font-size: 90%;
   left: 0;
@@ -879,7 +875,7 @@ figure.effect:hover p {
 
 .client {
   img {
-    border: 1px solid #CCC;
+    border: 1px solid var(--light-grey);
     display: block;
     margin: 0 auto;
     width: 245px;
@@ -906,7 +902,7 @@ figure.effect:hover p {
 
 
 .project__meta {
-  color: #666;
+  color: var(--dark-grey);
   font-size: 12px;
   font-size: 1.2rem;
   margin-bottom: 24px;
@@ -933,7 +929,7 @@ figure.effect:hover p {
   }
 
   &__all {
-    margin: 0px auto;
+    margin: 0 auto;
     width: 32px;
   }
 
@@ -956,21 +952,20 @@ figure.effect:hover p {
   }
 }
 
-
 .nav--portfolio .nav--portfolio__all:hover svg,
 .nav--portfolio .nav--portfolio__prev:hover svg,
 .nav--portfolio .nav--portfolio__next:hover svg,
 .nav--portfolio .nav--portfolio__all:focus svg,
 .nav--portfolio .nav--portfolio__prev:focus svg,
 .nav--portfolio .nav--portfolio__next:focus svg, {
-  fill: #F9A339;
+  fill: var(--orange);
   transition: fill .25s cubic-bezier(.25, .46, .45, .94) 0s;
 }
 
 .nav--portfolio .nav--portfolio--disabled:hover svg,
 .nav--portfolio .nav--portfolio--disabled:focus svg,
 .nav--portfolio .nav--portfolio--disabled svg {
-  fill: #CCC;
+  fill: var(--light-grey);
 }
 
 @media only screen and (min-width: 40em) { // 640
@@ -1003,54 +998,6 @@ figure.effect:hover p {
   }
 }
 
-
-
-
-/* Dots */
-.slick-dotted.slick-slider {
-  margin-bottom: 0;
-}
-
-.slick-dots {
-  display: block;
-  list-style: none;
-  margin: 2em 0 0;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-
-  li {
-    position: relative;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin: 0 5px;
-    padding: 0;
-    cursor: pointer;
-
-    button {
-      background-color: $black;
-      border: 0;
-      border-radius: 0;
-      cursor: pointer;
-      height: 15px;
-      opacity: 1;
-      outline: none;
-      padding: 0;
-      text-indent: -999999999999px;
-      width: 15px;
-      border-radius: 50%;
-    }
-  }
-}
-.slick-dots li button:hover,
-.slick-dots li button:focus {
-  outline: none;
-}
-.slick-dots li.slick-active button {
-  background-color: $orange;
-}
-
 /*
   About
 */
@@ -1073,15 +1020,18 @@ figure.effect:hover p {
     h1 {
       margin: 0;
     }
+
     .intro__heading--large {
       margin-bottom: 0;
     }
+
     .intro__content {
       @media only screen and (min-width: 40em) { // 640
         padding: 12em 1em;
       }
     }
   }
+
   .post-list {
     margin: 0 3em 0 0;
     padding: 0;
@@ -1092,7 +1042,7 @@ figure.effect:hover p {
     }
 
     li:not(:last-child) {
-      border-bottom: 1px solid $orange;
+      border-bottom: 1px solid var(--orange);
       margin-bottom: 24px;
     }
 
@@ -1106,7 +1056,7 @@ figure.effect:hover p {
     }
 
     .meta {
-      color: #666;
+      color: var(--dark-grey);
       margin-bottom: 16px;
       text-transform: uppercase;
     }
@@ -1120,10 +1070,10 @@ figure.effect:hover p {
 
       .card {
         align-items: center;
-        background: $white;
+        background: var(--white);
         border-radius: 5px;
         box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
-        color: $off-black;
+        color: var(--off-black);
         display: flex;
         flex-direction: column;
         font-weight: 500;
@@ -1199,7 +1149,7 @@ figure.effect:hover p {
   }
 
   .sidebar {
-    border-top: 2px solid #F89820;
+    border-top: 2px solid var(--orange);
     position: -webkit-sticky;
     position: sticky;
     top: 4em;
@@ -1247,7 +1197,7 @@ figure.effect:hover p {
 }
 
 .b-inner:hover .more::after {
-  border-left: 6px solid $black;
+  border-left: 6px solid var(--black);
 }
 
 @keyframes arrow-bounce {
@@ -1269,10 +1219,10 @@ figure.effect:hover p {
   Contact
 */
 .contact-social {
-  background: $orange url("https://res.cloudinary.com/juanfernandes/f_auto/trianglify-1.jpg") center center no-repeat;
+  background: var(--orange) url("https://res.cloudinary.com/juanfernandes/f_auto/trianglify-1.jpg") center center no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  color: $black;
+  color: var(--black);
   margin-bottom: 54px;
   padding: 4em 0
 }
@@ -1328,9 +1278,9 @@ figure.effect:hover p {
   }
 
   &--thumb {
+    border-collapse: collapse;
     display: table;
     width: 100%;
-    border-collapse: collapse;
 
     .b-inner {
       border: 0;

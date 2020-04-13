@@ -2,15 +2,15 @@
    Base styles
    ========================================================================== */
 html {
-  background: $white;
-  color: $off-black;
+  background: var(--white);
+  color: var(--off-black);
   font: 62.5%/1.5 sans-serif;
   margin: 0;
   height: 100%;
   overflow-y: scroll; /* Forces vertical scrollbar */
   padding: 0;
   -webkit-overflow-scrolling: touch;
-  -webkit-tap-highlight-color: #F89820;
+  -webkit-tap-highlight-color: var(--orange);
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -28,7 +28,7 @@ body {
 /* $_Navigation
 ================================================== */
 a {
-  border-bottom: 1px solid $orange;
+  border-bottom: 1px solid var(--orange);
   color: #333;
   outline: 0;
   text-decoration: none;
@@ -103,8 +103,8 @@ p {
  */
 @media only screen and (min-width: 45em) { /* 720 */
   a[href^="tel:"] {
-    pointer-events: none;
     cursor: default;
+    pointer-events: none;
   }
 }
 
@@ -143,8 +143,8 @@ p {
  * Skip to content
  */
 .skip {
-  background-color: #000;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
   left: -50%;
   padding: 0.5em 1em;
   position: fixed;
@@ -154,8 +154,8 @@ p {
   z-index: 2;
 
   &:focus {
-    color: #fff;
-    border: 1px solid #F8981F;
+    color: var(--white);
+    border: 1px solid var(--orange);
     left: 10px;
   }
 }
@@ -268,17 +268,3 @@ p {
 .u-mt-3 {
   margin-top: 3em;
 }
-
-
-/* ==========================================================================
-   Media Queries
-   ========================================================================== */
-
-@media only screen and (min-width: 30em) { /* 480 */ }
-@media only screen and (min-width: 40em) { /* 640  */ }
-@media only screen and (min-width: 45em) { /* 720 */ }
-@media only screen and (min-width: 55.5em) { /* 888 */ }
-@media only screen and (min-width: 61.5em) { /* 984 */ }
-@media only screen and (min-width: 75em) { /* 1200 */ }
-@media only screen and (min-width: 87em) { /* 1392 */ }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) { /* 2x */ }
