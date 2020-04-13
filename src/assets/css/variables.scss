@@ -1,7 +1,20 @@
 // Colours
 
-$white: #fff;
-$off-white: #eee;
-$black: #000;
-$off-black: #111;
-$orange: #F89820;
+:root {
+  --white: #fff;
+  --off-white: #eee;
+  --black: #000;
+  --off-black: #111;
+  --dark-grey: #666;
+  --darker-grey: #333;
+  --blue-grey: #393f4c;
+  --light-grey: #ccc;
+  --orange: #f89820;
+  --light-orange: #F9A339;
+  --dark-orange: #DE7E07;
+  --green: #46a546;
+  --light-green: #a9dba9;
+  --red: #e9322d;
+  --light-red: #ee5f5b;
+  --dark-red: #ce1a16;
+}

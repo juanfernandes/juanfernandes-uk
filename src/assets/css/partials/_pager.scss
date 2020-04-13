@@ -23,15 +23,15 @@
   }
 
   a {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: var(--white);
+    border: 1px solid var(--light-grey);
     border-radius: .9375em;
     display: inline-block;
     text-decoration: none;
     padding: 5px 14px;
 
     &:hover {
-      background-color: #f5f5f5;
+      background-color: var(--off-white);
     }
   }
 
@@ -44,13 +44,13 @@
   }
 
   .disabled a {
-    background-color: #fff;
-    color: #999;
+    background-color: var(--white);
+    color: var(--light-grey);
     cursor: default;
 
     &:hover {
-      background-color: #fff;
-      color: #999;
+      background-color: var(--white);
+      color: var(--light-grey);
       cursor: default;
     }
   }

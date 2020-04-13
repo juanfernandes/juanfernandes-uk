@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $off-black;
+  color: var(--off-black);
   font-weight: bold;
   margin: 0 0 .4em;
   text-rendering: optimizelegibility;
@@ -138,18 +138,18 @@ dt {
 }
 
 abbr[title] {
-  border-color: #c7ced6;
+  border-color: var(--light-grey);
 }
 
 ins {
-  background-color: #f3f5f6;
-  color: #000;
+  background-color: var(--off-white);
+  color: var(--black);
   text-decoration: none;
 }
 
 mark {
-  background-color: #f3f5f6;
-  color: #000;
+  background-color: var(--off-white);
+  color: var(--black);
   font-style: italic;
   font-weight: bold;
   padding: 0 0.25em;
@@ -159,8 +159,8 @@ pre,
 code,
 kbd,
 samp {
-  background: #393f4c;
-  color: #ccc;
+  background: var(--blue-grey);
+  color: var(--light-grey);
   display: block;
   font-family: "Inconsolata", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   font-size: 14px;
@@ -172,9 +172,9 @@ samp {
 
 p, li {
   code {
-    background: #ccc;
+    background: var(--light-grey);
     border-radius: 2px;
-    color: #111;
+    color: var(--off-black);
     display: inline;
     padding: 2px 4px;
   }
@@ -202,7 +202,7 @@ p {
   word-spacing: .125em;
 
   &.lead {
-    color: #777;
+    color: var(--dark-grey);
     font-size: 21px;
     font-size: 2.1rem;
     line-height: 1.6875;
@@ -235,7 +235,7 @@ del {
   Blockquotes
 */
 blockquote {
-  border-left: 1px solid #DDD;
+  border-left: 1px solid var(--off-white);
   font-size: 17px;
   font-size: 1.7em;
   font-size: 1.7rem;
@@ -279,7 +279,7 @@ blockquote {
   }
 
   cite {
-    color: #555;
+    color: var(--dark-grey);
     display: block;
     font-size: 12px;
     font-size: 1.2rem;
@@ -291,22 +291,22 @@ blockquote {
 
     a,
     a:visited {
-      color: #555;
+      color: var(--dark-grey);
     }
   }
 }
 
 .pull-quote {
-  position: relative;
   padding: 1em;
+  position: relative;
 
   &:before,
   &:after {
+    color: var(--dark-grey);
+    font-size: 4em;
     height: 1em;
     opacity: 0.5;
     position: absolute;
-    font-size: 4em;
-    color: gray;
   }
 
   &:before {

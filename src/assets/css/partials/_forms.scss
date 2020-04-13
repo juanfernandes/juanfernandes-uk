@@ -4,8 +4,8 @@
   margin: 0 0 4em;
 
   &--subscribe {
-    background-color: #fafafa;
-    border-left: 8px solid $orange;
+    background-color: var(--off-white);
+    border-left: 8px solid var(--orange);
     margin-bottom: 54px;
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +48,7 @@
       @media only screen and (min-width: 40em) {
         width: auto;
       }
+
       @media only screen and (min-width: 48em) {
         width: 100%;
       }
@@ -136,8 +137,8 @@ fieldset {
 
 legend {
   border: 0;
-  border-bottom: 1px solid #e5e5e5;
-  color: #333;
+  border-bottom: 1px solid var(--off-white);
+  color: var(--darker-grey);
   display: block;
   font-size: 21px;
   font-size: 2.1rem;
@@ -149,7 +150,7 @@ legend {
 
 legend {
   small {
-    color: #999;
+    color: var(--dark-grey);
     font-size: 15px;
     font-size: 1.5rem;
   }
@@ -179,7 +180,7 @@ label {
 select,
 textarea {
   border-radius: .1875em;
-  color: #555;
+  color: var(--dark-grey);
   display: inline-block;
   height: auto;
   line-height: 1.25;
@@ -202,7 +203,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"] {
   border-radius: .1875em;
-  color: #555;
+  color: var(--dark-grey);
   display: inline-block;
   font-size: 14px;
   font-size: 1.4rem;
@@ -214,7 +215,7 @@ input[type="color"] {
 
 .uneditable-input {
   border-radius: .1875em;
-  color: #555;
+  color: var(--dark-grey);
   display: inline-block;
   height: auto;
   font-size: 14px;
@@ -225,8 +226,8 @@ input[type="color"] {
 }
 
 textarea {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: var(--white);
+  border: 1px solid var(--light-grey);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   height: auto;
   transition: border linear 0.2s, box-shadow linear 0.2s;
@@ -253,15 +254,15 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: var(--white);
+  border: 1px solid var(--light-grey);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   transition: border linear 0.2s, box-shadow linear 0.2s;
 }
 
 .uneditable-input {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: var(--white);
+  border: 1px solid var(--light-grey);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   transition: border linear 0.2s, box-shadow linear 0.2s;
 }
@@ -314,12 +315,12 @@ input[type="file"] {
 }
 
 select {
-  background-color: #fff;
-  border: 1px solid #ccc;
+  background-color: var(--white);
+  border: 1px solid var(--light-grey);
   width: 13.75em;
 
   &:focus {
-    outline: thin dotted #333;
+    outline: thin dotted var(--darker-grey);
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
   }
@@ -333,17 +334,17 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  outline: thin dotted #333;
+  outline: thin dotted var(--darker-grey);
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
 .uneditable-input,
 .uneditable-textarea {
-  background-color: #fcfcfc;
-  border-color: #ccc;
+  background-color: var(--off-white);
+  border-color: var(--light-grey);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.025);
-  color: #999;
+  color: var(--darker-grey);
   cursor: not-allowed;
 }
 
@@ -362,7 +363,7 @@ input:-ms-input-placeholder,
 textarea:-ms-input-placeholder,
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #999;
+  color: var(--darker-grey);
 }
 
 .radio,
@@ -465,7 +466,7 @@ textarea[disabled],
 input[readonly],
 select[readonly],
 textarea[readonly] {
-  background-color: #eee;
+  background-color: var(--off-white);
   cursor: not-allowed;
 }
 
@@ -484,13 +485,13 @@ input[type="checkbox"][readonly] {
 .control-group.warning input,
 .control-group.warning select,
 .control-group.warning textarea {
-  color: #c09853;
+  color: var(--light-orange);
 }
 
 .control-group.warning input,
 .control-group.warning select,
 .control-group.warning textarea {
-  border-color: #c09853;
+  border-color: var(--light-orange);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
@@ -504,8 +505,8 @@ input[type="checkbox"][readonly] {
 .control-group.warning .input-prepend .add-on,
 .control-group.warning .input-append .add-on {
   background-color: #fcf8e3;
-  border-color: #c09853;
-  color: #c09853;
+  border-color: var(--light-orange);
+  color: var(--light-orange);
 }
 
 .control-group.error > label,
@@ -611,20 +612,20 @@ input[type="checkbox"][readonly] {
 input:focus:required:invalid,
 textarea:focus:required:invalid,
 select:focus:required:invalid {
-  border-color: #ee5f5b;
-  color: #b94a48;
+  border-color: var(--light-red);
+  color: var(--dark-red);
 }
 
 input:focus:required:invalid:focus,
 textarea:focus:required:invalid:focus,
 select:focus:required:invalid:focus {
-  border-color: #e9322d;
-  box-shadow: 0 0 6px #f8b9b7;
+  border-color: var(--red);
+  box-shadow: 0 0 6px var(--light-red);
 }
 
 .form-actions {
-  background-color: #f5f5f5;
-  border-top: 1px solid #e5e5e5;
+  background-color: var(--off-white);
+  border-top: 1px solid var(--off-white);
   margin: 1.125em 0;
   padding: 1.1875em 1.25em 1.25em;
 }
@@ -644,7 +645,7 @@ select:focus:required:invalid:focus {
 
 .help-block,
 .help-inline {
-  color: #595959;
+  color: var(--darker-grey);
 }
 
 .help-block {
@@ -691,8 +692,8 @@ select:focus:required:invalid:focus {
 
 .input-append .add-on,
 .input-prepend .add-on {
-  background-color: #eee;
-  border: 1px solid #ccc;
+  background-color: var(--off-white);
+  border: 1px solid var(--light-grey);
   display: inline-block;
   font-size: 14px;
   font-size: 1.4rem;
@@ -702,7 +703,7 @@ select:focus:required:invalid:focus {
   min-width: 1em;
   padding: 0.5em 0.3125em;
   text-align: center;
-  text-shadow: 0 1px 0 white;
+  text-shadow: 0 1px 0 var(--white);
   width: auto;
 }
 
@@ -720,13 +721,13 @@ select:focus:required:invalid:focus {
 }
 
 .input-append .active {
-  background-color: #a9dba9;
-  border-color: #46a546;
+  background-color: var(--light-green);
+  border-color: var(--green);
 }
 
 .input-prepend .active {
-  background-color: #a9dba9;
-  border-color: #46a546;
+  background-color: var(--light-green);
+  border-color: var(--green);
 }
 
 .input-prepend .add-on,
