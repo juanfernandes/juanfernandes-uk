@@ -11,7 +11,8 @@ keywords:
 - 'upcycling '
 - pallet project
 date: 2020-04-19T00:00:00+01:00
-tags: []
+tags:
+- notes
 
 ---
 Started on a non tech project today. My office is a mini loft above our garage, and it has these gaps for storage but we don't need it. Currently it has these rubbish wooden sliding covers. So I'm taking pallets apart and using the planks to cover it up.
