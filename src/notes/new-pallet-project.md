@@ -2,7 +2,9 @@
 layout: layouts/post.njk
 postImage: "/v1579162295/trianglify.png"
 title: New Pallet Project
-description: ''
+description: 'Started on a non tech project today. My office is a mini loft above
+  our garage, and it has these gaps for storage that I don''t need, so I''m covering
+  them up with pallet wood planks. '
 keywords:
 - pallet wood
 - recycling
