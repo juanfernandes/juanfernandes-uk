@@ -97,3 +97,8 @@
   from = "/blog/2019-04-16-weeknotes-10/"
   to = "/notes/weeknotes-10/"
   status = 301
+
+[[redirects]]
+  from = "/blog/exploring-the-benefits-if-http-2/"
+  to = "/blog/exploring-the-benefits-of-http-2/"
+  status = 301
