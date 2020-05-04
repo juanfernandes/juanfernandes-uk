@@ -1,7 +1,7 @@
 {% extends 'layouts/blog.njk' %}
 
 {% block intro %}
-<div class="intro" style="background-image: url('{{ site.cloudinary_url }}f_auto/{{ postImage }}')">
+<div class="intro" style="background-image: url('{{ site.cloudinary_url }}f_auto{{ postImage }}')">
   <div class="intro__content">
     <h1 class="intro__heading">
       <span class="intro__heading--large">{{ title }}</span>
