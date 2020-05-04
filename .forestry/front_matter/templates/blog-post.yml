@@ -29,3 +29,5 @@ fields:
 - type: list
   name: tags
   label: Tags
+pages:
+- src/blog/exploring-the-benefits-if-http-2.md
