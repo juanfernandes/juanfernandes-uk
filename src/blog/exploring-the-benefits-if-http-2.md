@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Exploring the benefits if HTTP/2
+title: Exploring the benefits of HTTP/2
 description: 'Now that this website is hosted on Netlify and they serve websites using
   the HTTP/2 protocol I''ve started exploring the benefits of it and what I need to
   change to take advantage of those benefits. '
