@@ -30,4 +30,4 @@ fields:
   name: tags
   label: Tags
 pages:
-- src/blog/exploring-the-benefits-if-http-2.md
+- src/blog/exploring-the-benefits-of-http-2.md
