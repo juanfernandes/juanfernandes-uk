@@ -23,7 +23,7 @@ tags: []
 ---
 Now that this website is hosted on [Netlify](https://www.netlify.com) and they serve websites using the [HTTP/2 protocol](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_2) I've started exploring the benefits of it and what I need to change to take advantage of those benefits.
 
-"HTTP/2 is a major revision of the HTTP network protocol. The primary goals for HTTP/2 are to reduce latency by enabling full request and response multiplexing, minimize protocol overhead via efficient compression of HTTP header fields, and add support for request prioritization and server push." - MDN Web Docs
+> HTTP/2 is a major revision of the HTTP network protocol. The primary goals for HTTP/2 are to reduce latency by enabling full request and response multiplexing, minimize protocol overhead via efficient compression of HTTP header fields, and add support for request prioritization and server push.  - MDN Web Docs
 
 After some research, I found out that when a website is being served via HTTP/2, you no longer need to rely on the following techniques to improve the performance of your website:
 
