@@ -16,8 +16,8 @@ keywords:
 - nunjucks
 - eleventy
 - jamstack
-postImage: https://res.cloudinary.com/juanfernandes/v1579162296/computer-18363301920-1.jpg
-date: 2020-05-04T00:00:00+01:00
+postImage: "/v1579162296/computer-18363301920-1.jpg"
+date: 2020-05-03T23:00:00.000+00:00
 tags: []
 
 ---
