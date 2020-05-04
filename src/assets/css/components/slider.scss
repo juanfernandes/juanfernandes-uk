@@ -16,14 +16,18 @@
     border: 1px solid var(--orange);
     height: 15px;
     padding: 0;
+    transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
     width: 15px;
 
     &:not(:last-child) {
       margin-right: 10px;
     }
 
-    &.tns-nav-active {
+    &.tns-nav-active,
+    &:hover,
+    &:focus {
       background-color: var(--orange);
+      outline: none;
     }
   }
 }
