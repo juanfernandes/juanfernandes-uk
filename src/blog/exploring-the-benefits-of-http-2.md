@@ -18,7 +18,8 @@ keywords:
 - jamstack
 postImage: "/v1579162296/computer-18363301920-1.jpg"
 date: 2020-05-03T23:00:00.000+00:00
-tags: []
+tags:
+- development
 
 ---
 Now that this website is hosted on [Netlify](https://www.netlify.com) and they serve websites using the [HTTP/2 protocol](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_2) I've started exploring the benefits of it and what I need to change to take advantage of those benefits.
