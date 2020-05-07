@@ -14,7 +14,7 @@ keywords:
   - bash
   - fish
   - bashrc
-postImage: trianglify.png
+postImage: /v1579162296/trianglify.png
 date: 2019-01-31T16:05:36.740Z
 tags:
   - development

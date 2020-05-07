@@ -16,7 +16,7 @@ keywords:
   - e-commerce
   - contract
   - contracting
-postImage: trianglify.png
+postImage: /v1579162295/trianglify.png
 date: 2019-03-03T15:30:01.236Z
 tags:
   - notes

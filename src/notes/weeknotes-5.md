@@ -14,7 +14,7 @@ keywords:
   - sublime text
   - cs code
   - javascript
-postImage: trianglify.png
+postImage: /v1579162295/trianglify.png
 date: 2019-03-10T19:10:11.160Z
 tags:
   - notes

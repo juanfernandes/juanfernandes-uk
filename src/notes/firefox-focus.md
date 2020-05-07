@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
-postImage: "trianglify.png"
+postImage: "/v1579162295/trianglify.png"
+introClass: intro--sml
 title: Firefox Focus
 description: "For a privacy focused browser, I was surprised to see Google as the
   default search engine. \U0001F9D0"
@@ -14,6 +15,6 @@ tags:
 - notes
 
 ---
-For a privacy focused browser, like Firefox Focus - I was surprised to see Google as the default search engine. 🧐
+For a privacy focused browser, like Firefox Focus - I was surprised to see Google as the default search engine.
 
 \#privacycontrol

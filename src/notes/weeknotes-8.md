@@ -14,7 +14,7 @@ keywords:
   - interaction designer
   - dxw
   - department for education
-postImage: trianglify.png
+postImage: /v1579162295/trianglify.png
 date: 2019-04-03T07:49:30.880Z
 tags:
   - notes

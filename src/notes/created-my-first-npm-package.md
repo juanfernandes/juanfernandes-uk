@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 postImage: "/v1579162295/trianglify.png"
+introClass: intro--sml
 title: Created my first NPM package
 description: I just created my first NPM package and it was surprisingly easy to do
   it.

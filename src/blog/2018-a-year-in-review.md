@@ -22,7 +22,7 @@ keywords:
   - vue js
   - eleventy
   - static site generator
-postImage: bawdsey-2018.jpg
+postImage: /v1579162296/bawdsey-2018.jpg
 date: 2019-01-03T17:30:47.682Z
 tags:
   - personal

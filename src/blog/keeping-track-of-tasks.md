@@ -13,7 +13,7 @@ keywords:
   - trello
   - task management
   - clients
-postImage: trianglify.png
+postImage: /v1579162296/trianglify.png
 date: 2019-03-08T16:15:33.391Z
 tags:
   - business

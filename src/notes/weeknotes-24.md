@@ -16,7 +16,7 @@ keywords:
   - contract work
   - freelance
   - freelancer
-postImage: trianglify.png
+postImage: /v1579162295/trianglify.png
 date: 2019-09-25T20:29:22.229Z
 tags:
   - notes

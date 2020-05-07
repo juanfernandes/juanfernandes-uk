@@ -13,7 +13,7 @@ keywords:
 - signet
 - front-end contractor
 - monthly notes
-- 'notes '
+- notes
 - march monthly notes
 date: 2020-04-13T00:00:00+01:00
 tags:
@@ -24,16 +24,16 @@ Better late than never I guess? So March has been the longest Monday ever! I was
 
 
 ## Work
-My contract at CMI was due to end on the 27th March and my new contract, going back to Signet, was due to start on the Monday, but unfortunately due to coronavirus, all contractors at Signet were cancelled and most of their tech team was furloughed as Signet had to close their high street stores. 
+My contract at CMI was due to end on the 27th March and my new contract, going back to Signet, was due to start on the Monday, but unfortunately due to coronavirus, all contractors at Signet were cancelled and most of their tech team was furloughed as Signet had to close their high street stores.
 
 I was lucky enough to get a further three-week extension at CMI, so I have another week left there and then I will be jobless - like a lot of other contractors and freelancers.
 
 
 ## Freelance
-- Not much happening on the freelance side of things, which was the plan. I do have a small amount of work to do for LeManoosh - working on the front end for a new section of the website. 
+- Not much happening on the freelance side of things, which was the plan. I do have a small amount of work to do for LeManoosh - working on the front end for a new section of the website.
 
 
-## Personal 
+## Personal
 It has been an interesting few weeks for sure. There has been a lot of adjustment with all of us (6) being home all the time. Schedules have gone awry. I need to create a new schedule for me to keep me sane for however long this pandemic lasts. I'm going to need to include exercise in that schedule because all I've been doing is eating and drinking, a lot.
 
 I hope you and your family are all well and keeping safe. See you on the other side.

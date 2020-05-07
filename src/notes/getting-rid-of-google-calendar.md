@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 postImage: "/v1579162295/trianglify.png"
+introClass: intro--sml
 title: Getting rid of Google calendar
 description: Replacing Google calendar has been one of the hardest apps/services to
   replace.
@@ -14,7 +15,7 @@ tags:
 - notes
 
 ---
-Replacing Google calendar has been one of the hardest apps/services to replace. 
+Replacing Google calendar has been one of the hardest apps/services to replace.
 
 We use a shared Google calendar at home and I couldn't finding an app & service combo that is affordable.
 

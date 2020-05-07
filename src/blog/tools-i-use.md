@@ -24,7 +24,7 @@ keywords:
   - franz
   - simplenote
   - oneplus 5t
-postImage: trianglify.png
+postImage: /v1579162296/trianglify.png
 date: 2018-11-12T18:00:16.113Z
 tags:
   - personal

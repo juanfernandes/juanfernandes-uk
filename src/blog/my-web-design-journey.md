@@ -14,7 +14,7 @@ keywords:
   - web design
   - freelance website designer
   - freelance web designer
-postImage: lnlimzqrqm3emnrrnv1wimg7726.jpg
+postImage: /v1579162296/lnlimzqrqm3emnrrnv1wimg7726.jpg
 date: 2017-06-08T08:00:29.329Z
 tags:
   - personal
