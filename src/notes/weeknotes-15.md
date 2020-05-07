@@ -18,7 +18,7 @@ keywords:
   - dxw
   - dfe
   - department for education
-postImage: trianglify.png
+postImage: /v1579162295/trianglify.png
 date: 2019-05-22T07:19:15.478Z
 tags:
   - notes

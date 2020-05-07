@@ -12,7 +12,7 @@ keywords:
   - learning
   - javascript
   - css
-postImage: photo-1415045550139-59b6fafc832f.jpg
+postImage: /v1579162296/photo-1415045550139-59b6fafc832f.jpg
 date: 2016-10-26T13:50:05.869Z
 tags:
   - personal

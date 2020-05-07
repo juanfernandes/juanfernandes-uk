@@ -17,7 +17,7 @@ keywords:
   - gpg
   - gnu privacy guard
   - fish shell
-postImage: trianglify.png
+postImage: /v1579162295/trianglify.png
 date: 2019-06-18T19:49:39.610Z
 tags:
   - notes

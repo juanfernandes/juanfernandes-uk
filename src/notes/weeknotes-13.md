@@ -15,7 +15,7 @@ keywords:
   - contract front-end developer
   - GOVUK prototype kit
   - department for education
-postImage: trianglify.png
+postImage: /v1579162295/trianglify.png
 date: 2019-05-06T08:34:06.816Z
 tags:
   - notes

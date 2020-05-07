@@ -16,7 +16,7 @@ keywords:
   - vera
   - fibaro
   - aeotec
-postImage: trianglify.png
+postImage: /v1579162296/trianglify.png
 date: 2019-02-28T20:34:55.519Z
 tags:
   - personal

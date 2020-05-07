@@ -10,7 +10,7 @@ keywords:
   - process
   - hiring a website design
   - working with a web designer
-postImage: webdesign-work-in-progresspicjumbo.comhnck7775.jpg
+postImage: /v1579162296/webdesign-work-in-progresspicjumbo.comhnck7775.jpg
 date: 2017-05-02T14:00:43.729Z
 tags:
   - business

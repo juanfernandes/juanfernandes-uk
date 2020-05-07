@@ -1,6 +1,7 @@
 ---
 layout: layouts/post.njk
 postImage: "/v1579162295/trianglify.png"
+introClass: intro--sml
 title: Off Facebook
 description: My Facebook account has been deactivated for over a year and now I've
   now asked for it to be deleted.

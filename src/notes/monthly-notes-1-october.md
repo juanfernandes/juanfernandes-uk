@@ -23,7 +23,7 @@ keywords:
   - aj bell
   - youinvest
   - pensions
-postImage: trianglify.png
+postImage: /v1579162295/trianglify.png
 date: 2019-11-02T19:53:06.448Z
 tags:
   - notes

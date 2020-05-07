@@ -28,7 +28,7 @@ keywords:
   - UX Booth
   - Web Tools Weekly
   - WebAIM
-postImage: computer-18363301920-1.jpg
+postImage: /v1579162296/computer-18363301920-1.jpg
 date: 2016-11-29T17:30:47.013Z
 tags:
   - development
