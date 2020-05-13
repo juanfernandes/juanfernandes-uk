@@ -5,10 +5,16 @@
 }
 
 .tns-nav {
-  display: flex;
-  margin-top: 1em;
-  justify-content: center;
+  display: inline-block;
+  margin-top: 2em;
+  text-align: center;
   width: 100%;
+
+  @media only screen and (min-width: 30em) { // 480
+    display: flex;
+    justify-content: center;
+    text-align: initial;
+  }
 
   button {
     background-color: var(--black);
