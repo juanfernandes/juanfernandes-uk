@@ -15,7 +15,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
   eleventyConfig.addPassthroughCopy('src/assets/js')
   eleventyConfig.addPassthroughCopy('src/assets/css/revenge.css')
-  eleventyConfig.addPassthroughCopy('src/service-worker.js')
   eleventyConfig.addPassthroughCopy('src/robots.txt')
   eleventyConfig.addPassthroughCopy('src/keybase.txt')
   eleventyConfig.addPassthroughCopy('src/humans.txt')
