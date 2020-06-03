@@ -27,6 +27,7 @@ fields:
   name: tags
   label: Tags
 pages:
+- src/notes/april-may-2020-monthly-notes.md
 - src/notes/created-my-first-npm-package.md
 - src/notes/eleventy-cloudinary-shortcode.md
 - src/notes/estimote-lte-beacons-developer-kit.md
