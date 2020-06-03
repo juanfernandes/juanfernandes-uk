@@ -61,7 +61,7 @@ _Another thing that has been on the todo list for a while. These tiles are so th
 
 {% cloudinaryImage "/v1591198094/network-cabinet_gkbkxu.jpg", "q_auto,f_auto", "Network cabinet attached to wall" %}
 
-_Network cabinet installed on the wall. _That's the first stage of tidying up my home network_
+_Network cabinet installed on the wall. That's the first stage of tidying up my home network_
 
 I haven't had to do much homeschooling as my wife, who is a primary school teacher, has been helping our kids with all their school work, but looks like I will be in charge from June once my wife goes back to teaching in school again. Up until now, she has been working from home three out of four weeks, and then in school the fourth week.
 
