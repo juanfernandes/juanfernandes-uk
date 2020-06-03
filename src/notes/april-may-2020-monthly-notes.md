@@ -44,18 +44,23 @@ Life has been a bit different the last few months, as I am sure it has been for 
 Here are some highlights from those DIY fixes:
 
 {% cloudinaryImage "/v1591197682/hose-wall_huuf7z.jpg", "q_auto,f_auto", "Hose mounted on wall" %}
+
 _Its only taken 5 years, but the hose is now attached to the wall_
 
 {% cloudinaryImage "/v1591197828/thule-roof-bars-bike-carrier_qvkcif.jpg", "q_auto,f_auto", "Roof bars and bike carrier on the roof of a car" %}
+
 _Got the roof bars and bike carrier on the car_
 
 {% cloudinaryImage "/v1591197972/office-door-glass_rcxrhz.jpg", "q_auto,f_auto", "Door with glass window" %}
+
 _Fixed glass window on my office door_
 
 {% cloudinaryImage "/v1591198023/towel-rails_edj4sk.jpg", "q_auto,f_auto", "Two towel rails with towels" %}
+
 _Another thing that has been on the todo list for a while. These tiles are so thick I didn't want to even attempt to drill into them_
 
 {% cloudinaryImage "/v1591198094/network-cabinet_gkbkxu.jpg", "q_auto,f_auto", "Network cabinet attached to wall" %}
+
 _Network cabinet installed on the wall. _That's the first stage of tidying up my home network_
 
 I haven't had to do much homeschooling as my wife, who is a primary school teacher, has been helping our kids with all their school work, but looks like I will be in charge from June once my wife goes back to teaching in school again. Up until now, she has been working from home three out of four weeks, and then in school the fourth week.
