@@ -24,7 +24,7 @@ eleventyExcludeFromCollections: true
     <content type="html">
       <![CDATA[
         <a href="{{ absolutePostUrl }}">
-          <img alt="{{ post.data.alt }}" src="{{ siteUrl }}{{ post.data.image }}" />
+          <img alt="{{ post.data.alt }}" src="{{ site.cloudinary_url }}w_1141,f_auto{{ post.data.postImage }}" />
         </a>
       ]]>
     </content>

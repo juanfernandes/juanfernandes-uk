@@ -23,7 +23,7 @@ bodyClass: blog
     <article class="post post--img | h-entry" role="article">
 
       <figure>
-        <img src="{{ site.cloudinary_url }}w_1141,f_auto/{{ postImage }}" alt="{{ alt }}" width="720" loading="lazy">
+        <img src="{{ site.cloudinary_url }}w_1141,f_auto{{ postImage }}" alt="{{ alt }}" width="720" loading="lazy">
         {% if caption %}
         <figcaption>
           {{ caption }}
