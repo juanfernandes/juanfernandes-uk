@@ -1,7 +1,7 @@
 ---
 layout: layouts/image.njk
 title: Battery Observation Post
-postImage: battery_observation_post.jpg
+postImage: /battery_observation_post.jpg
 alt: Photo showing a World War 2 battery observation post
 description: The moody weather made this feel like a post apocalyptic scene.
 keywords:
