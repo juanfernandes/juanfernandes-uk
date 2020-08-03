@@ -26,6 +26,7 @@ eleventyExcludeFromCollections: true
         <a href="{{ absolutePostUrl }}">
           <img alt="{{ post.data.alt }}" src="{{ site.cloudinary_url }}w_1141,f_auto{{ post.data.postImage }}" />
         </a>
+        <hr><p><a href="mailto:{{ site.author.email }}?subject=Re: {{ post.data.title }}">Reply via email</a></p>
       ]]>
     </content>
   </entry>
