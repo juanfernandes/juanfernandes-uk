@@ -31,3 +31,4 @@ fields:
   label: Tags
 pages:
 - src/blog/exploring-the-benefits-of-http-2.md
+- src/blog/using-defer-to-improve-performance.md
