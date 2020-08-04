@@ -12,7 +12,7 @@ keywords:
   - freelance
   - contract
   - perch cms
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-03-17T21:02:17.540Z
 tags:
   - notes

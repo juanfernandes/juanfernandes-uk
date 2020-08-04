@@ -18,7 +18,7 @@ keywords:
   - Heart Internet
   - the website of doom
   - website hosting
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-06-12T20:05:02.488Z
 tags:
   - notes

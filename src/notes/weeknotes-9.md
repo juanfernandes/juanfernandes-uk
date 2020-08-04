@@ -16,7 +16,7 @@ keywords:
   - interaction designer
   - ruby on rails
   - front-end
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-04-07T14:57:04.628Z
 tags:
   - notes

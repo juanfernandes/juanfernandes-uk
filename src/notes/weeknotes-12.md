@@ -13,7 +13,7 @@ keywords:
   - department for education
   - interaction designer
   - freelance web designer
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-04-29T05:54:31.902Z
 tags:
   - notes

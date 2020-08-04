@@ -14,7 +14,7 @@ keywords:
   - freelance
   - week notes
   - ''
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-03-24T09:00:49.135Z
 tags:
   - notes

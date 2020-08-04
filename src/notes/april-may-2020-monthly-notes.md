@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 title: 'April & May 2020: Monthly Notes'
 description: I've now been in lockdown for about sixty days and I'm struggling with
   lack of routine and schedule. As much as I try to stick to a schedule, it's hard,

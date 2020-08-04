@@ -10,7 +10,7 @@ keywords:
   - freelance
   - front-end
   - developer
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-02-24T21:26:04.610Z
 tags:
   - notes

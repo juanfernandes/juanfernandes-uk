@@ -15,7 +15,7 @@ keywords:
   - permanent work
   - GIT
   - git rebase
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-06-04T07:01:26.370Z
 tags:
   - notes

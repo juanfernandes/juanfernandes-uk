@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Exploring the benefits of HTTP/2
+title: Exploring the benefits of HTTP2
 description: 'Now that this website is hosted on Netlify and they serve websites using
   the HTTP/2 protocol I''ve started exploring the benefits of it and what I need to
   change to take advantage of those benefits. '
@@ -34,7 +34,7 @@ After some research, I found out that when a website is being served via HTTP/2,
 
 This website is fairly simple and does not rely on a lot of JavaScript but does use it for a couple of sliders, one on the homepage for testimonials and another on each of the work pages.
 
-I used this [tool from KeyCDN](https://tools.keycdn.com/http2-test "HTTP/2 Protocol Test") to find out if my website was being served via the HTTP/2 protocol. 
+I used this [tool from KeyCDN](https://tools.keycdn.com/http2-test "HTTP/2 Protocol Test") to find out if my website was being served via the HTTP/2 protocol.
 
 ## The Old Way
 

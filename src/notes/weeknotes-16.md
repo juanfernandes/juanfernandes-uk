@@ -13,7 +13,7 @@ keywords:
   - boreamwood
   - north london
   - ''
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-05-30T06:32:37.499Z
 tags:
   - notes

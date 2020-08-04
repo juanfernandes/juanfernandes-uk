@@ -12,8 +12,8 @@
     <meta name="twitter:title" property="og:title" content="{{ title }}">
     <meta name="twitter:description" property="og:description" content="{{ description }}">
     {% if postImage %}
-    <meta name="twitter:image" property="og:image" content="{{ site.cloudinary_url }}w_1141,f_auto{{ postImage }}" />
-    <meta name="twitter:image:alt" property="og:image:alt" content="{{ alt }}" />
+    <meta name="twitter:image" property="og:image" content="{{ site.cloudinary_url }}w_1141,f_auto/l_text:Georgia_80_bold_center:{{ title }},co_rgb:eee,c_fit,w_600{{ postImage }}" />
+    <meta name="twitter:image:alt" property="og:image:alt" content="{{ title }}" />
     {% else %}
     <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImg }}" />
     <meta name="twitter:image:alt" property="og:image:alt" content="{{ site.meta.ogImgAlt }}" />

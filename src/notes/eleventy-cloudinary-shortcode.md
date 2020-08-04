@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 introClass: intro--sml
 title: Eleventy Cloudinary Shortcode
 description: Created a shortcode for @eleven_ty so I can use Cloudinary images within

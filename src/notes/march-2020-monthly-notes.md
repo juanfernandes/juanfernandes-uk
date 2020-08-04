@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 title: 'March 2020: Monthly Notes'
 description: 'Better late than never I guess? So March has been the longest Monday
   ever! I was in lockdown two weeks before the government told us to do so, just because

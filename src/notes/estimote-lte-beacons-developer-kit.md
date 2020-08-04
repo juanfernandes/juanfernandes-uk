@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 introClass: intro--sml
 title: Estimote LTE Beacons Developer Kit
 description: "My estimote LTE beacons developer kit has finally arrived (made to order)

@@ -16,7 +16,7 @@ keywords:
   - web design
   - cloudinary
   - Netlify
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-07-15T20:45:28.098Z
 tags:
   - notes
