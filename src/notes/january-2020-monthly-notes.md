@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 title: 'January 2020: Monthly Notes'
 description: January has been a surprisingly busy month - it's normally a bit quieter
   than this. My contract was extended until the end of March - it was supposed to

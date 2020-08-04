@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 introClass: intro--sml
 title: Google Pay
 description: Removing your Google account from your phone means Google Pay will stop

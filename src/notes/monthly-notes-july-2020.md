@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 title: 'Monthly Notes: July 2020'
 description: July has been a bit slow going as I slowly get back into web development,
   now that the homeschooling has ended and I'm cooking a lot less as my wife has now

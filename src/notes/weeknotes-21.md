@@ -14,7 +14,7 @@ keywords:
   - dash cam
   - discord
   - minecraft
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-07-24T05:00:56.146Z
 tags:
   - notes

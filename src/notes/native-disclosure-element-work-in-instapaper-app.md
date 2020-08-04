@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: /v1579162295/trianglify.png
+postImage: /v1579162295/og.jpg
 introClass: intro--sml
 title: Native disclosure element works in Instapaper app
 description: Reading an article about the native HTML disclosure element (details

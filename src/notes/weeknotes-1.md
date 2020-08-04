@@ -12,7 +12,7 @@ keywords:
   - contract
   - front-end
   - developer
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-02-09T17:00:21.815Z
 tags:
   - notes

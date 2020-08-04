@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 introClass: intro--sml
 title: Google Hangouts
 description: Almost ready to uninstall Google Hangouts from my phone.

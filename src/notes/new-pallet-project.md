@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 introClass: intro--sml
 title: New Pallet Project
 description: 'Started on a non tech project today. My office is a mini loft above

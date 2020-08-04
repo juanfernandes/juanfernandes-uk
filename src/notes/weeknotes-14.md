@@ -11,7 +11,7 @@ keywords:
   - developer
   - interaction
   - designer
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-05-13T17:33:44.747Z
 tags:
   - notes

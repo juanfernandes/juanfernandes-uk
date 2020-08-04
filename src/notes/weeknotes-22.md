@@ -15,7 +15,7 @@ keywords:
   - php
   - perch cms
   - site rebuild
-postImage: /v1579162295/trianglify.png
+postImage: "/v1579162295/og.jpg"
 date: 2019-08-29T06:12:57.905Z
 tags:
   - notes

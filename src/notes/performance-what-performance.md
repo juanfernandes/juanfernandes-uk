@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 introClass: intro--sml
 title: Performance? What performance?
 description: "Just found an image on my clients' website (added by a third party)

@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/v1579162295/trianglify.png"
+postImage: "/v1579162295/og.jpg"
 introClass: intro--sml
 title: Pi-hole and New Router
 description: 'The next stage in my privacy control adventures is to setup Pi-hole
