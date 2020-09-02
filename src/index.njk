@@ -1,7 +1,7 @@
 {% extends 'layouts/base.njk' %}
 
 {% block main %}
-        <section class="section section--intro">
+        <section class="section section--intro" id="content">
           <div class="content">
             <p>Hey, I'm Juan — a freelance front-end developer with over 12 years of experience. I design &amp; develop responsive websites using industry best practices and standards.</p>
           </div>
@@ -10,30 +10,30 @@
         <section class="skills">
           <div class="container">
             <div class="cf / content">
-              <h1 class="content__heading">Skills</h1>
+              <h2 class="alpha / content__heading">Skills</h2>
               <div class="row">
                 <div class="four cols">
                   <div class="skill">
                     <svg class="skill__icon" aria-hidden="true"><use xlink:href="#svg-html5" /></svg>
-                    <h2 class="skill__heading">HTML5</h2>
+                    <h3 class="beta / skill__heading">HTML5</h3>
                   </div>
                 </div>
                 <div class="four cols">
                   <div class="skill">
                     <svg class="skill__icon" aria-hidden="true"><use xlink:href="#svg-css3" /></svg>
-                    <h2 class="skill__heading">CSS3</h2>
+                    <h3 class="beta / skill__heading">CSS3</h3>
                   </div>
                 </div>
                 <div class="four cols">
                   <div class="skill">
                     <svg class="skill__icon" aria-hidden="true"><use xlink:href="#svg-responsive" /></svg>
-                    <h2 class="skill__heading">Responsive</h2>
+                    <h3 class=" beta / skill__heading">Responsive</h3>
                   </div>
                 </div>
                 <div class="four cols">
                   <div class="skill">
                     <svg class="skill__icon" aria-hidden="true"><use xlink:href="#svg-jquery" /></svg>
-                    <h2 class="skill__heading">jQuery</h2>
+                    <h3 class=" beta / skill__heading">jQuery</h3>
                   </div>
                 </div>
               </div>
@@ -43,7 +43,7 @@
 
         <section class="recent-work">
           <div class="content">
-            <h1 class="content__heading">Recent Work</h1>
+            <h2 class="alpha / content__heading">Recent Work</h2>
             <div class="row">
               <div class="cols four">
                 <div class="project">
@@ -91,7 +91,7 @@
 
         <section class="testimonials testimonials--section">
           <div class="content">
-            <h1 class="content__heading">Testimonials</h1>
+            <h2 class="alpha / content__heading">Testimonials</h2>
             <div class="testimonials__slider">
               {% for item in testimonials %}
               <article>
@@ -108,7 +108,7 @@
 
         <section class="companies">
           <div class="content">
-            <h1 class="content__heading">{{ businesses.title }}</h1>
+            <h2 class="alpha / content__heading">{{ businesses.title }}</h2>
             <div class="client-list">
               {%- for i in range(0, 4) -%}
               {% set item = companies[i] %}
