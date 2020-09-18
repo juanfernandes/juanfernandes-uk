@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: cms
 webhook_url: 
 sections:
+- type: document
+  path: src/index.njk
+  label: Home
+  match: "**/*"
 - type: directory
   path: src/blog
   label: Blog
