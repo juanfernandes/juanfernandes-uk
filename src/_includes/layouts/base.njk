@@ -71,9 +71,9 @@
     <nav><a class="skip" href="#content">Skip to content</a></nav>
 
     <div class="page">
-      {% include 'components/intro.njk' %}
-
       <main role="main" class="main">
+        {% include 'components/intro.njk' %}
+
         {% block main %}
           {{ content | safe }}
         {% endblock %}
