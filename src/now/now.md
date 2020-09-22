@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Right Here, Right Now
+title: Now
 subheading: What I'm currently up to
 introClass: now
 permalink: "/now/index.html"
@@ -35,7 +35,7 @@ I've had a lot of time in the last few months to watch a lot of TV
 
 #### Finished
 
-* [Narcos](https://www.netflix.com/gb/title/80025172 "Narcos") - 
+* [Narcos](https://www.netflix.com/gb/title/80025172 "Narcos") -
 "The true story of Colombia's infamously violent and powerful drug cartels fuels this gritty gangster drama series."
 
 * [Brooklyn Nine-Nine - Season 6](https://www.imdb.com/title/tt2467372/ "Brooklyn Nine-Nine")
