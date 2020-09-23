@@ -51,8 +51,8 @@ First you will need to make sure you have the OpenGraph tags for images added to
   <meta name="twitter:image:alt" property="og:image:alt" content="{{ site.meta.ogImgAlt }}" />
 {% endif %}
 ```
-  
-Here I am checking to see if the post has specified a post image, if not, then use the default one (which I need to amend to use what I am writing about here). You'll notice that I have merged the OpenGraph tags (```name="twitter:image" property="og:image"```) that Facebook and Twitter use instead of having multiple lines of code for the same thing. Note that you can specify ALT text for the image.
+
+Here I am checking to see if the post has specified a post image, if not, then use the default one (which I need to amend to use what I am writing about here). You'll notice that I have merged the OpenGraph tags (`name="twitter:image" property="og:image"`) that Facebook and Twitter use instead of having multiple lines of code for the same thing. Note that you can specify ALT text for the image.
 
 Since I already use Cloudinary, I was happy to discover that their API has [text and image overlays](https://cloudinary.com/documentation/image_transformations#image_and_text_overlays "Cloudinary API - Image and Text Overlays Documentation") that you can add to your images when you request them.
 
@@ -64,13 +64,11 @@ This works by passing variables in the cloudinary image request URL, these varia
 
 Here is the complete URL for requesting an image with some custom overlays - in this case, the blog post title and my website logo.
 
-```
-https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_80_bold_center:Using Defer to improve performance,co_rgb:eee,c_fit,w_600//v1579162296/computer-18363301920-1.jpg
-```
+    https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_80_bold_center:Using Defer to improve performance,co_rgb:eee,c_fit,w_600//v1579162296/computer-18363301920-1.jpg
 
 The great thing about this is that you can design your image right in the browser by adding a few variables to the URL.
 
-Now, this is how my OPenGraph images code in my ```blog.njk``` layout template looks like using the Cloudinary variables and my blog post variables in Eleventy.
+Now, this is how my OpenGraph images code in my `blog.njk` layout template looks like using the Cloudinary variables and my blog post variables in Eleventy.
 
 ``` html
 <meta name="twitter:image" property="og:image" content="{{ site.cloudinary_url }}w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_80_bold_center:{{ title }},co_rgb:eee,c_fit,w_600/{{ postImage }}" />
@@ -81,14 +79,14 @@ Now, this is how my OPenGraph images code in my ```blog.njk``` layout template l
 
 Essentially I am passing the post title text and image using Nunjucks variables, then I'm telling Cloudinary how to display that text and image overlay on top of the post image. Here is a breakdown of what all those variables mean:
 
-- ```{{ site.cloudinary_url }}``` this is a variable I use to pass the  cloudinary URL which my account name
-- ```w_1200,f_auto/``` here I am requesting the images at 1200px wide and automated image format
-- ```l_juanfernandes-logo``` this is the name of the image I want to use in the overlay, my logo, its appended with ```l_``` and this is what tells cloudinary to use it as an overlay
-- ```w_100,g_south_east,x_60,y_40/``` this specifies the size of the image, 100px wide and the position, bottom right and its exact placement using X and Y values
-- ```l_text:Georgia_80_bold_center``` this tells cloudinary that the overlay text should be in Georgia font and the font size should be 80px, bold and centred
-- ```{{ title }}``` this is nunjucks variable for the blog post title
-- ```co_rgb:eee,c_fit,w_600``` this tells cloudinary the colour we want the overlay text to be, places it centred vertically and horizontally and sets a max-width for the text
-- ```{{ postImage }}``` this variable passes the name of the post image already uploaded to cloudinary
+* `{{ site.cloudinary_url }}` this is a variable I use to pass the  cloudinary URL which my account name
+* `w_1200,f_auto/` here I am requesting the images at 1200px wide and automated image format
+* `l_juanfernandes-logo` this is the name of the image I want to use in the overlay, my logo, its appended with `l_` and this is what tells cloudinary to use it as an overlay
+* `w_100,g_south_east,x_60,y_40/` this specifies the size of the image, 100px wide and the position, bottom right and its exact placement using X and Y values
+* `l_text:Georgia_80_bold_center` this tells cloudinary that the overlay text should be in Georgia font and the font size should be 80px, bold and centred
+* `{{ title }}` this is nunjucks variable for the blog post title
+* `co_rgb:eee,c_fit,w_600` this tells cloudinary the colour we want the overlay text to be, places it centred vertically and horizontally and sets a max-width for the text
+* `{{ postImage }}` this variable passes the name of the post image already uploaded to cloudinary
 
 For general posts, like [Notes](/notes), I created a generic image using my brand colour and the text is added in the centre of the image and my logo at the bottom right.
 
@@ -97,12 +95,13 @@ For posts where I have used a custom image, I make sure that it's a dark image t
 This was a quick solution and an easy win that will make my posts stand out a bit more on social media. I got to delve into and learn more about the Cloudinary API overlays in general.
 
 ### Tip: Testing your social sharing images
+
 Twitter and Facebook provide tools for you to test your social media 'cards' and here is what mine now looks like on Twitter.
 
 {% cloudinaryImage "card_preview_twitter-dev.png", "q_auto,f_auto", "Image showing the twitter card preview tool" %}
 
-- [Twitter Card Validator](https://cards-dev.twitter.com/validator "Twitter Card Validator")
-- [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/ "Facebook Sharing Debugger tool")
+* [Twitter Card Validator](https://cards-dev.twitter.com/validator "Twitter Card Validator")
+* [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/ "Facebook Sharing Debugger tool")
 
 ## Taking this further
 
