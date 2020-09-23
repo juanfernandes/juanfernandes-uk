@@ -30,5 +30,6 @@ fields:
   name: tags
   label: Tags
 pages:
+- src/blog/automated-open-graph-images-with-11ty-and-cloudinary.md
 - src/blog/exploring-the-benefits-of-http-2.md
 - src/blog/using-defer-to-improve-performance.md
