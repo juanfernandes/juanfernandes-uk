@@ -81,7 +81,7 @@ Essentially I am passing the post title text and image using Nunjucks variables,
 
 * `{{ site.cloudinary_url }}` this is a variable I use to pass the  cloudinary URL which my account name
 * `w_1200,f_auto/` here I am requesting the images at 1200px wide and automated image format
-* `l_juanfernandes-logo` this is the name of the image I want to use in the overlay, my logo, its appended with `l_` and this is what tells cloudinary to use it as an overlay
+* `l_juanfernandes-logo` this is the name of the image I want to use in the overlay, my logo, it's prepended with `l_` and this is what tells cloudinary to use it as an overlay
 * `w_100,g_south_east,x_60,y_40/` this specifies the size of the image, 100px wide and the position, bottom right and its exact placement using X and Y values
 * `l_text:Georgia_80_bold_center` this tells cloudinary that the overlay text should be in Georgia font and the font size should be 80px, bold and centred
 * `{{ title }}` this is nunjucks variable for the blog post title
