@@ -22,8 +22,8 @@ tags:
 - eleventy
 - 11ty
 - post
-
 ---
+
 I wanted to find a way to dynamically generate a unique Open Graph (OG) image for each blog post or note automatically using post data, the Cloudinary API and Eleventy (11ty) for social sharing.
 
 The purpose of this solution is to save time by not having to manually create a blog post image for each post and make blog posts stand out more when shared on social media websites like Twitter for example.
@@ -43,13 +43,17 @@ What I wanted to achieve was to have an OpenGraph image that shows the post titl
 First you will need to make sure you have the OpenGraph tags for images added to the `<head>` of your page template, in my case I have this in my `blog.njk` layout in eleventy. Here is the code I currently use:
 
 ``` html
-{% if postImage %}
+{% raw %}{% if postImage %}
+
   <meta name="twitter:image" property="og:image" content="{{ site.cloudinary_url }}{{ postImage }}" />
   <meta name="twitter:image:alt" property="og:image:alt" content="{{ title }}" />
+
 {% else %}
+
   <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImg }}" />
   <meta name="twitter:image:alt" property="og:image:alt" content="{{ site.meta.ogImgAlt }}" />
-{% endif %}
+
+{% endif %}{% endraw %}
 ```
 
 Here I am checking to see if the post has specified a post image, if not, then use the default one (which I need to amend to use what I am writing about here). You'll notice that I have merged the OpenGraph tags (`name="twitter:image" property="og:image"`) that Facebook and Twitter use instead of having multiple lines of code for the same thing. Note that you can specify ALT text for the image.
@@ -64,15 +68,18 @@ This works by passing variables in the cloudinary image request URL, these varia
 
 Here is the complete URL for requesting an image with some custom overlays - in this case, the blog post title and my website logo.
 
-    https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_80_bold_center:Using Defer to improve performance,co_rgb:eee,c_fit,w_600//v1579162296/computer-18363301920-1.jpg
+```
+https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_80_bold_center:Using Defer to improve performance,co_rgb:eee,c_fit,w_600//v1579162296/computer-18363301920-1.jpg
+```
 
 The great thing about this is that you can design your image right in the browser by adding a few variables to the URL.
 
 Now, this is how my OpenGraph images code in my `blog.njk` layout template looks like using the Cloudinary variables and my blog post variables in Eleventy.
 
 ``` html
-<meta name="twitter:image" property="og:image" content="{{ site.cloudinary_url }}w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_80_bold_center:{{ title }},co_rgb:eee,c_fit,w_600/{{ postImage }}" />
-<meta name="twitter:image:alt" property="og:image:alt" content="{{ title }}" />
+{% raw %}<meta name="twitter:image" property="og:image" content="{{ site.cloudinary_url }}w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_80_bold_center:{{ title }},co_rgb:eee,c_fit,w_600/{{ postImage }}" />
+
+<meta name="twitter:image:alt" property="og:image:alt" content="{{ title }}" />{% endraw %}
 ```
 
 ## Let's break it down
