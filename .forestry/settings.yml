@@ -5,13 +5,6 @@ admin_path: cms
 webhook_url: 
 sections:
 - type: directory
-  path: src/testimonials
-  label: Testimonials
-  create: documents
-  match: "**/*"
-  templates:
-  - testimonials
-- type: directory
   path: src/blog
   label: Blog
   create: all
@@ -38,6 +31,13 @@ sections:
   new_doc_ext: md
   templates:
   - photo-post
+- type: directory
+  path: src/testimonials
+  label: Testimonials
+  create: documents
+  match: "**/*"
+  templates:
+  - testimonials
 upload_dir: ''
 public_path: ''
 front_matter_path: https://res.cloudinary.com/juanfernandes
