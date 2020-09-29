@@ -624,6 +624,7 @@ nav {
       }
 
       cite {
+        display: inline-block;
         font-size: 16px;
         font-size: 1.6rem;
         margin-left: 20px;
@@ -642,7 +643,8 @@ nav {
 
       img {
         border-radius: 50%;
-        max-width: 160px;
+        align-self: flex-start;
+        max-width: 200px;
       }
     }
   }
