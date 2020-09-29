@@ -4,10 +4,6 @@ auto_deploy: false
 admin_path: cms
 webhook_url: 
 sections:
-- type: document
-  path: src/testimonials/testimonials.njk
-  label: Testimonials
-  match: "**/*"
 - type: directory
   path: src/blog
   label: Blog
