@@ -5,6 +5,13 @@ admin_path: cms
 webhook_url: 
 sections:
 - type: directory
+  path: src/testimonials
+  label: Testimonials
+  create: documents
+  match: "**/*"
+  templates:
+  - testimonials
+- type: directory
   path: src/blog
   label: Blog
   create: all
