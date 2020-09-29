@@ -1,0 +1,20 @@
+---
+label: Testimonials
+hide_body: true
+fields:
+- type: field_group_list
+  name: Testimonials
+  label: Testimonials
+  fields:
+  - type: textarea
+    name: quote
+    label: quote
+  - type: text
+    name: cite
+    label: cite
+  - type: file
+    name: img
+    label: img
+  - type: text
+    name: company
+    label: company
