@@ -20,3 +20,5 @@ fields:
     label: Company
   config:
     labelField: cite
+pages:
+- src/_data/testimonials.json
