@@ -8,13 +8,13 @@ fields:
   fields:
   - type: textarea
     name: quote
-    label: quote
+    label: Quote
   - type: text
     name: cite
-    label: cite
+    label: Person
   - type: file
     name: img
-    label: img
+    label: Photo
   - type: text
     name: company
-    label: company
+    label: Company
