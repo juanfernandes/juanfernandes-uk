@@ -12,13 +12,13 @@
 {% endblock %}
 
 {% block main %}
-<div class="now">
+<div class="{{ introClass }}">
   <article class="content">
 
     {{ content | safe }}
 
-    {% if page.url == now %}
-      {% include "now-footer.njk" %}
+    {% if page.url == "/now/" %}
+      {% include "components/now-footer.njk" %}
     {% endif %}
   </article>
 </div>
