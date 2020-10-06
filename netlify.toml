@@ -2,6 +2,14 @@
   publish = "dist"
   command = "grunt"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = "frame-ancestors 'none';"
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+
 # Redirects
 [[redirects]]
   from = "/index.php"
