@@ -10,7 +10,6 @@ h6 {
   font-weight: bold;
   margin: 0 0 .4em;
   text-rendering: optimizelegibility;
-  text-transform: capitalize;
 }
 
 h1 a,
@@ -182,6 +181,7 @@ p, li {
 }
 
 pre {
+  margin-bottom: 3em;
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
