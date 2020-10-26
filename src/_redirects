@@ -1,4 +1,5 @@
 # Redirects Blog posts
+/blog/creating-a-sitemap-sml-file-with-11ty                     /blog/creating-a-sitemap-file-with-11ty             301
 /blog/2019-03-13-multiple-blogs-with-perch-cms                  /blog/multiple-blogs-with-perch-cms                 301
 /blog/2019-03-08-keeping-track-of-tasks                         /blog/keeping-track-of-tasks                        301
 /blog/2019-02-28-home-automation                                /blog/home-automation                               301
