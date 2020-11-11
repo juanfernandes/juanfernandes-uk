@@ -63,7 +63,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight)
 
   // Watch
-  // eleventyConfig.addWatchTarget('./src/assets/css/')
+  eleventyConfig.addWatchTarget('./src/assets/css/')
 
   return {
     dir: {
