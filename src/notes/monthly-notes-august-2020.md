@@ -15,7 +15,7 @@ keywords:
 date: 2020-09-04T00:00:00+01:00
 tags:
 - notes
-
+- monthly-notes
 ---
 Augusts' monthly notes are mostly personal and shorter than usual as I didn't get up to much - and that's a good thing - we all need to know how to chill once in a while. 👍
 

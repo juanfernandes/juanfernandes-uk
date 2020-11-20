@@ -18,23 +18,23 @@ keywords:
 - monthly notes
 date: 2020-11-11T00:00:00Z
 tags:
-- Monthly Notes
+- monthly-notes
 - notes
 
 ---
 October was a surprisingly busy month which is a good thing after months without any work. It's good to be back in work mode but must not forget to continue working on my business, website and side projects.
 
 ## Personal
-Had an idea for a new side project, something that involves 11ty and naturally I bought a domain name for it, so now it needs to happen because it's real once you buy the domain name, right? 
+Had an idea for a new side project, something that involves 11ty and naturally I bought a domain name for it, so now it needs to happen because it's real once you buy the domain name, right?
 
-It's nothing grand and I don't want to make a big deal about it, just something for me to continue learning 11ty and Nunjucks. 
+It's nothing grand and I don't want to make a big deal about it, just something for me to continue learning 11ty and Nunjucks.
 
 ### Updates
 - I created a [/uses](https://www.juanfernandes.uk/uses/ "Juan Fernandes 'Uses' page") page and got a pull request approved to have it added to [uses.tech](https://uses.tech "Uses.tech")
 - Wrote a blog post about [Creating a Sitemap file with 11ty](https://www.juanfernandes.uk/blog/creating-a-sitemap-file-with-11ty/ "Creating a Sitemap file with Eleventy")
 - I worked on improving the security of my website by researching and adding security headers on Netlify - I have a blog post to finish on this.
 - Added a [maskable icon](https://web.dev/maskable-icon/ "About Maskable Icons") - this is something new that Google has added to the list of requirements, which means that phones can mask your icon to make it fit with the users' theme - i.e. can it become a circle if it needs to.
-- Started looking into web monetisation - just basics to start off with, I signed up with Brave browser and verified my website so it can collect donations and also signed up with [Coil](https://coil.com/ "Coil") to be able to collect these donations - not that I'm expecting any. The plan is to also start giving donations to a website I use on a lot, like CSS Tricks etc - I have some digital currency that is just sitting in places and I have no idea what to do with it, so why not distribute it to content authors who I learn from. 
+- Started looking into web monetisation - just basics to start off with, I signed up with Brave browser and verified my website so it can collect donations and also signed up with [Coil](https://coil.com/ "Coil") to be able to collect these donations - not that I'm expecting any. The plan is to also start giving donations to a website I use on a lot, like CSS Tricks etc - I have some digital currency that is just sitting in places and I have no idea what to do with it, so why not distribute it to content authors who I learn from.
 
 ## Work
 - Created and sent out three project proposals, two of which were accepted
@@ -42,13 +42,13 @@ It's nothing grand and I don't want to make a big deal about it, just something 
 - Out of those 2 proposals, one is for a new client
 - Continuing with freelance work as well as looking for contract work - looking at getting to a stage where I can start scheduling work in advance
 - Had one interview for an interaction designer contract with the ONS, but have not had any feedback for it, I know they said things are slowing in government, but I'm assuming they went with someone else.
-- Since I'm a one-person business I am always looking at how I can streamline my processes as well as looking at ways of minimising running costs - not that I have a lot of expenses. 
+- Since I'm a one-person business I am always looking at how I can streamline my processes as well as looking at ways of minimising running costs - not that I have a lot of expenses.
 
 Not long ago, I switched my business bank account to RBS from Santander - I was happy with Santander and the monthly bank charges were a fixed £7.50. But I moved to RBS so that I could get FreeAgent for free, which is available to companies with business accounts with RBS and NatWest - because FreeAgent is owned by them now.
 
-But after the first year with RBS, they have turned out to be a lot more expensive than I had thought. On average, since lockdown, I've been paying at least £10 a month on charges - this was a lot more when I was working on-site with clients. 
+But after the first year with RBS, they have turned out to be a lot more expensive than I had thought. On average, since lockdown, I've been paying at least £10 a month on charges - this was a lot more when I was working on-site with clients.
 
-My plan now is to get a Monzo Business Account which is a fixed £5 a month, then use a self-hosted app solution for invoices and use Stripe for recurring invoices for my hosting customers. 
+My plan now is to get a Monzo Business Account which is a fixed £5 a month, then use a self-hosted app solution for invoices and use Stripe for recurring invoices for my hosting customers.
 
 
 ## Articles Read

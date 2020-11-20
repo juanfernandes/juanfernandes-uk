@@ -27,6 +27,7 @@ postImage: /v1579162295/og.jpg
 date: 2019-11-02T19:53:06.448Z
 tags:
   - notes
+  - monthly-notes
 ---
 I struggled to keep up with writing weekly notes since I cut my days at the office down to just three, this meant I had less time to write and they also started to feel a bit repetitive every week and I didn't have much to write - so I am now trying monthly notes. We'll see how I get on with this schedule.
 

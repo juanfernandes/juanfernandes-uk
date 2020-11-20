@@ -13,7 +13,7 @@ date: 2020-10-05T00:00:00+01:00
 tags:
 - notes
 - monthly-notes
-
+- monthly-notes
 ---
 September flew by. Not much to report as it was a quiet month on the work and personal fronts. Launched a new client website and a got personal achievement too.
 
@@ -25,7 +25,7 @@ September flew by. Not much to report as it was a quiet month on the work and pe
 
 ## Personal
 - 🎉 I completed the Couch to 5k program - YAY
-- Tried to continue running (Mon, Wed & Fri) and then do a HiiT in between runs, but my body still dislikes the intensity of a HiiT. 
+- Tried to continue running (Mon, Wed & Fri) and then do a HiiT in between runs, but my body still dislikes the intensity of a HiiT.
 - Now the weather is colder and wet, I'm struggling with getting out for a run
 
 ## Writing

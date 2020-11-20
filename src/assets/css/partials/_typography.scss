@@ -155,8 +155,6 @@ mark {
   padding: 0 0.25em;
 }
 
-pre,
-code,
 kbd,
 samp {
   background: var(--blue-grey);
@@ -170,6 +168,19 @@ samp {
   padding: 10px;
 }
 
+pre {
+  box-shadow: 10px 10px 0 var(--orange);
+  margin: 0 0 38px 0;
+
+  code {
+    background-color: var(--code-grey);
+    color: var(--off-white);
+    display: block;
+    font-family: "Inconsolata", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    padding: 2em;
+  }
+}
+
 p, li {
   code {
     background: var(--light-grey);
@@ -181,7 +192,6 @@ p, li {
 }
 
 pre {
-  margin-bottom: 3em;
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
@@ -236,13 +246,13 @@ del {
   Blockquotes
 */
 blockquote {
-  border-left: 1px solid var(--off-white);
+  border-left: 4px solid var(--orange);
   font-size: 17px;
   font-size: 1.7em;
   font-size: 1.7rem;
   font-style: italic;
   line-height: 1.5;
-  margin: 0 0 1.25em;
+  margin: 0 0 1.25em 1.25em;
   padding: 0 1.25em 0 1.1875em;
   quotes: "“" "”";
   text-indent: -0.4em;

@@ -18,7 +18,7 @@ keywords:
 date: 2020-04-13T00:00:00+01:00
 tags:
 - notes
-
+- monthly-notes
 ---
 Better late than never I guess? So March has been the longest Monday ever! I was in lockdown two weeks before the government told us to do so, just because I could work from home, so I did because I didn't want to risk going into a large open office. It's not how I thought working from home full time would be like.
 

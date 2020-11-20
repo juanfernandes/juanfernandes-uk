@@ -1039,6 +1039,26 @@ figure.effect:hover p {
   padding: 54px 0;
 }
 
+.fyi {
+  background-color: var(--off-white);
+  border-left: 4px solid var(--orange);
+  font-style: italic;
+  margin-bottom: 24px;
+  padding: 1em;
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &::before {
+    content: "FYI";
+    display: block;
+    margin-bottom: .4em;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-style: normal;
+  }
+}
 
 /*
   Blog

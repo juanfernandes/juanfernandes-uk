@@ -17,7 +17,7 @@ keywords:
 date: 2020-08-03T00:00:00+01:00
 tags:
 - notes
-
+- monthly-notes
 ---
 July has been a bit slow going as I slowly get back into web development, now that the homeschooling has ended and I'm cooking a lot less as my wife has now finished work.
 

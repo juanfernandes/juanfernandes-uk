@@ -55,9 +55,11 @@
     }
 
     input[type="submit"] {
-      height: 29px;
+      height: 28px;
       margin-bottom: 10px;
-      margin-top: 24px;
+      margin-top: 26px;
+      padding: .5em 1em .4em 1em;
+      font-size: 14px;
 
       @media only screen and (min-width: 40em) {
         margin-bottom: 0;

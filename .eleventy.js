@@ -55,6 +55,10 @@ module.exports = function (eleventyConfig) {
     return `<img src="https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/${transforms}/${path}" alt="${alt}">`
   })
 
+  eleventyConfig.addShortcode('fyi', function (content) {
+    return `<aside class="fyi"><p>${content}</p></aside>`
+  })
+
   // Layout aliases
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
 

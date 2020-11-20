@@ -22,7 +22,7 @@ date: 2020-07-17T00:00:00+01:00
 tags:
 - personal
 - notes
-
+- monthly-notes
 ---
 Wowsers, we are already halfway through the year and what a terrible year it has been. Hopefully, it will get better soon.
 

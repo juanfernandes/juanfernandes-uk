@@ -16,6 +16,7 @@ postImage: /v1579162295/og.jpg
 date: 2019-12-09T10:25:49.932Z
 tags:
   - notes
+  - monthly-notes
 ---
 
 November saw the end of my contract at Signet and the start of a new contract at the [Chartered Management Institute (CMI)](https://www.managers.org.uk "Chartered Management Institute (CMI)"). I have worked with them before and they asked to come back to help them with a new project.

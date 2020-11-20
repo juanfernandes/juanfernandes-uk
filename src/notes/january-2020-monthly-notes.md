@@ -19,7 +19,7 @@ keywords:
 date: 2020-02-10T00:00:00Z
 tags:
 - notes
-
+- monthly-notes
 ---
 January has been a surprisingly busy month - it's normally a bit quieter than this. My contract was extended until the end of March - it was supposed to be just a 6-week contract until mid-January, so I had lined up some freelance work to tide me over before starting a new contract.
 
