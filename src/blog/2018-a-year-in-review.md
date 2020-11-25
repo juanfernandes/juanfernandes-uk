@@ -1,31 +1,31 @@
 ---
 layout: layouts/post.njk
 title: '2018: A year in review'
-description: >-
-  Twenty eighteen year in review post where I talk about what went well and what
-  didn't go so well. Covering some work and personal stuff.
+description: Twenty eighteen year in review post where I talk about what went well
+  and what didn't go so well. Covering some work and personal stuff.
 keywords:
-  - '2018'
-  - twenty
-  - eighteen
-  - year in review
-  - year
-  - review
-  - front-end developer
-  - front-end
-  - developer
-  - designer
-  - UX
-  - UI
-  - react
-  - gatsby js
-  - vue js
-  - eleventy
-  - static site generator
-postImage: /v1579162296/bawdsey-2018.jpg
-date: 2019-01-03T17:30:47.682Z
+- '2018'
+- twenty
+- eighteen
+- year in review
+- year
+- review
+- front-end developer
+- front-end
+- developer
+- designer
+- UX
+- UI
+- react
+- gatsby js
+- vue js
+- eleventy
+- static site generator
+postImage: "/v1579162296/bawdsey-2018.jpg"
+date: 2019-01-03T17:30:47.682+00:00
 tags:
-  - personal
+- personal
+
 ---
 Twenty Eighteen was a good year for me, but not so good for the UK, USA or politics, but we won't talk too much about that here!
 
@@ -59,7 +59,7 @@ Thanks go out to Lee (my manager) and Harry (Junior Dev) for a great few months 
 
 **Update**: I finished this contract mid way throuch October as I had four weeks off during the contract, it was already booked before I started the initial 3 month contract. After being away for 7 months, I decided to take the rest of the year off to spend it with my family, recharge my batteries (they're old and don't charge as quickly as they used to!) and did some DIY work around the house and garden.
 
-On the freelance side of things - I finished one project. At the end of 2017, I was approached by the [Graham Hughes International Charity (GHIC)](https://www.ghic.world "Graham Hughes International Charity") to build them a website.
+On the freelance side of things - I finished one project. At the end of 2017, I was approached by the Graham Hughes International Charity (GHIC) to build them a website.
 
 This was an interesting project for sure and a first for me. The charity had originally hired a London based design agency to design and build them a Wordpress website but they had some issues working together - the agency only delivered a static website, at which point the charity decided to stop working with them.
 
