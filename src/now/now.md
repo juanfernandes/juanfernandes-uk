@@ -22,7 +22,7 @@ date: 2020-11-23T09:00:00Z
 
 * [The Wind through the Keyhole: A Dark Tower Novel](https://uk.bookshop.org/books/the-wind-through-the-keyhole-a-dark-tower-novel/9781444731729) - Another Stephen King book, this one is technically book 4.5 but I didn't have it when I finished the fourth book, but its nice to be back in Midworld.
 
-* [Start Freelancing Today](https://www.goodreads.com/book/show/53717533-start-freelancing-today "Start Freelancing Today") by [Kelly Vaugn](https://www.goodreads.com/author/show/20363515.Kelly_Vaughn "Kelly Vaugh on Goodreads")
+* [Start Freelancing Today](https://www.goodreads.com/book/show/53717533-start-freelancing-today "Start Freelancing Today") by [Kelly Vaughn](https://www.goodreads.com/author/show/20363515.Kelly_Vaughn "Kelly Vaughn on Goodreads")
 
 * Always reading web design and business articles via my Instapaper
 
