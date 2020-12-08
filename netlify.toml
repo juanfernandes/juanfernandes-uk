@@ -6,7 +6,7 @@
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self' https://res.cloudinary.com; frame-ancestors 'none'; style-src 'self' 'unsafe-inline';"
+    Content-Security-Policy = "default-src 'self' https://res.cloudinary.com https://app.forestry.io; frame-ancestors 'none'; style-src 'self' 'unsafe-inline';"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
