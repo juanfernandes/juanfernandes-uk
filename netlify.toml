@@ -6,11 +6,18 @@
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self' https://res.cloudinary.com https://local.forestry.io; frame-ancestors 'none'; style-src 'self' 'unsafe-inline';"
+    Content-Security-Policy = "default-src 'self' https://res.cloudinary.com; frame-ancestors 'none'; style-src 'self' 'unsafe-inline';"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
 # Redirects
+
+[[redirects]]
+  from = "/cms"
+  to = "https://app.forestry.io/dashboard/"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "/index.php"
   to = "/index.html"
