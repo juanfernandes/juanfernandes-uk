@@ -204,10 +204,12 @@ sup {
 }
 
 p {
-  font-size: 16px;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
   font-size: 1.6rem;
-  hyphenate: auto;
-  hyphenate-lines: 3;
+  font-size: 16px;
+  hyphens: auto;
   line-height: 1.5;
   margin: 0 0 24px;
   word-spacing: .125em;
