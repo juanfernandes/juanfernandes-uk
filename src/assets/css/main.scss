@@ -1235,6 +1235,10 @@ figure.effect:hover p {
   }
 }
 
+.post img {
+  border: 1px solid #c6bfbf;
+}
+
 .more::after {
   content: '';
   border-bottom: 6px solid transparent;
