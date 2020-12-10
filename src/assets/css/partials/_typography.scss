@@ -85,7 +85,7 @@ h6,
 .lead {
   font-size: 18px;
   font-size: 1.8rem;
-  line-height: 1.33333;
+  line-height: 1.5;
 }
 
 .smallprint,
@@ -99,16 +99,6 @@ h6,
   font-size: 10px;
   font-size: 1rem;
   line-height: 2.4;
-}
-
-ol,
-ul,
-dl,
-address {
-  font-size: 14px;
-  font-size: 1.4rem;
-  line-height: 1.5;
-  margin-bottom: 24px;
 }
 
 dl {
@@ -177,6 +167,8 @@ pre {
     color: var(--off-white);
     display: block;
     font-family: "Inconsolata", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size: 14px;
+    font-size: 1.4rem;
     padding: 2em;
   }
 }
@@ -215,10 +207,9 @@ p {
   word-spacing: .125em;
 
   &.lead {
-    color: var(--dark-grey);
-    font-size: 21px;
-    font-size: 2.1rem;
-    line-height: 1.6875;
+    color: var(--off-black);
+    font-size: 20px;
+    font-size: 2rem;
   }
 
   &.no-margin {
@@ -370,4 +361,9 @@ q q:after {
   &--right {
     text-align: right;
   }
+}
+
+hr {
+  border-color: var(--orange);
+  margin-bottom: 24px;
 }
