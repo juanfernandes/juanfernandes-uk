@@ -6,7 +6,7 @@
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self' https://res.cloudinary.com; style-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';"
+    Content-Security-Policy = "default-src 'none'; manifest-src 'self'; prefetch-src https://res.cloudinary.com; script-src 'self' nonce-P59ZujC; connect-src 'self'; img-src 'self' https://res.cloudinary.com; style-src 'self' 'nonce-P59ZujC'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
 
