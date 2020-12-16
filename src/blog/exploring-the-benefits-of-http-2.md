@@ -16,7 +16,7 @@ keywords:
 - nunjucks
 - eleventy
 - jamstack
-postImage: "/v1579162296/computer-18363301920-1.jpg"
+customPostImg: 'intro--code-img'
 date: 2020-05-03T23:00:00.000+00:00
 tags:
 - development

@@ -92,18 +92,15 @@
         <section class="testimonials testimonials--section">
           <div class="content">
             <h2 class="alpha / content__heading">Testimonials</h2>
-            <div class="testimonials__slider">
-              {% for item in testimonials %}
-              <article>
-                <blockquote>
-                  <p class="testimonials__quote">{{ item.quote }}</p>
-                </blockquote>
-                <cite class="testimonials__cite">{{ item.cite }}, {{ item.company }}</cite>
-              </article>
-              {% endfor %}
-            </div>
+            {% for item in testimonials | randomItem %}
+            <article>
+              <blockquote>
+                <p class="testimonials__quote">{{ item.quote | safe }}</p>
+              </blockquote>
+              <cite class="testimonials__cite">{{ item.cite }}, {{ item.company }}</cite>
+            </article>
+            {% endfor %}
           </div>
-          {% include 'components/tertimonials-slider.njk' %}
         </section>
 
         <section class="companies">

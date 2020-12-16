@@ -331,7 +331,7 @@ nav {
     background-color: var(--orange);
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
 
     .intro__heading {
@@ -339,48 +339,9 @@ nav {
     }
   }
 
-  // &--home {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/trianglify.png");
-  // }
-  // &--contact {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/3-pawel-kadysz.jpg");
-  // }
-  // &--work {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/jeff-sheldon-photo-2.jpg");
-  // }
-  // &--about {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/about-intro.jpg");
-  //   background-position: center bottom;
-  // }
-  // &--mclaren {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/work/projects/mclaren-intro.jpg");
-  // }
-  // &--landrover {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/work/projects/landrover-intro.jpg");
-  // }
-  // &--tomhartleyjnr {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/work/projects/tomhartleyjnr-intro.jpg");
-  // }
-  // &--fourpoints {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/work/projects/fourpoints-intro.jpg");
-  // }
-  // &--virginwines {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/work/projects/virginwines-intro.jpg");
-  // }
-  // &--now {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/photo-by-luke-pamer-n-330.jpg");
-  // }
-  // &--blog {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/12f0a18c.jpg");
-  // }
-  // &--notes,
-  // &--photos {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/trianglify.png");
-  // }
-
-  // &--testimonials {
-  //   background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/f_auto/wood-planks.jpg");
-  // }
+  &--code-img {
+    background-image: url("https://res.cloudinary.com/juanfernandes/f_auto/computer-18363301920-1.jpg");
+  }
 
   &__content {
     margin: 0 auto;
@@ -573,6 +534,10 @@ nav {
       color: var(--white);
     }
 
+    b {
+      color: var(--orange);
+    }
+
     ul,
     .slick-slider {
       margin-bottom: 0;
@@ -599,7 +564,7 @@ nav {
     @media only screen and (min-width: 60em) { // 960
       display: grid;
       grid-template-columns: 3fr 1fr;
-
+      grid-gap: 2em;
 
       &:nth-child(2n) {
         grid-template-columns: 1fr 3fr;
@@ -608,6 +573,7 @@ nav {
           grid-column-start: 2;
           grid-row-start: 1;
         }
+
         .testimonial__thumb {
           grid-column-start: 1;
           grid-row-start: 1;
@@ -917,6 +883,17 @@ figure.effect:hover p {
   &__sub-heading {
     border-bottom: 1px solid rgb(204, 204, 204);
     margin-top: 0;
+  }
+
+  &__images img {
+    border: 1px solid var(--orange);
+  }
+
+  @media only screen and (min-width: 40em) { // 640
+    .aside {
+      position: sticky;
+      top: 4em;
+    }
   }
 }
 
