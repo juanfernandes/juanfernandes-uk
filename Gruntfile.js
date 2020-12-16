@@ -37,7 +37,7 @@ module.exports = function (grunt) {
       dist: {
         files: {
           'dist/assets/css/global.min.css': 'src/assets/css/global.scss',
-          'dist/assets/css/components/slider.css': 'src/assets/css/components/slider.scss'
+          'dist/assets/css/error.css': 'src/assets/css/error.scss'
         }
       }
     }

@@ -11,7 +11,7 @@ keywords:
 - security headers
 - web security
 - netlify
-postImage: "/v1579162296/computer-18363301920-1.jpg"
+customPostImg: 'intro--code-img'
 date: 2020-11-20T16:00:00.000+00:00
 tags:
 - eleventy

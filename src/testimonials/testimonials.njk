@@ -20,7 +20,7 @@ intro:
             <div class="testimonial">
               <div class="testimonial__quote">
                 <blockquote>
-                  <p>{{ item.quote }}</p>
+                  <p>{{ item.quote | safe }}</p>
                 </blockquote>
                 <cite>{{ item.cite }}, {{ item.company }}</cite>
               </div>

@@ -10,11 +10,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('dateFilter', dateFilter)
   eleventyConfig.addFilter('w3DateFilter', w3DateFilter)
 
+  eleventyConfig.addFilter('randomItem', (arr) => {
+    arr.sort(() => {
+      return 0.5 - Math.random()
+    })
+    return arr.slice(0, 1)
+  })
+
   // Pass through
   eleventyConfig.addPassthroughCopy('README.md')
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
   eleventyConfig.addPassthroughCopy('src/assets/js')
-  eleventyConfig.addPassthroughCopy('src/assets/css/revenge.css')
   eleventyConfig.addPassthroughCopy('src/robots.txt')
   eleventyConfig.addPassthroughCopy('src/keybase.txt')
   eleventyConfig.addPassthroughCopy('src/humans.txt')

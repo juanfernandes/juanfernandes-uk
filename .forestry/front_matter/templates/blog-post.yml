@@ -20,9 +20,9 @@ fields:
 - type: list
   name: keywords
   label: Keywords
-- type: file
-  name: postImage
-  label: Image
+- type: text
+  name: customPostImg
+  label: Image Class
 - type: datetime
   name: date
   label: Date

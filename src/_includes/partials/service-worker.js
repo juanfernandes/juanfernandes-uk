@@ -6,8 +6,6 @@ self.addEventListener('install', e => {
       return cache.addAll([
         '/',
         'assets/css/global.min.css',
-        'assets/css/components/slider.css',
-        'assets/js/tiny-slider.js',
         'about/',
         'work/',
         'contact/',
