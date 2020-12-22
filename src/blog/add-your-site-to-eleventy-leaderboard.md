@@ -1,7 +1,8 @@
 ---
-layout: 'post'
-title: 'Add your site to the Eleventy Leaderboards'
-description: 'This is a quick tip showing you how to add your eleventy built website to the Eleventy leaderboards'
+layout: post
+title: Add your site to the Eleventy Leaderboards
+description: This is a quick tip showing you how to add your eleventy built website
+  to the Eleventy leaderboards
 keywords:
 - performance
 - leaderboard
@@ -10,23 +11,23 @@ keywords:
 - performance benchmarks
 - eleventy
 - 11ty
-customPostImg: 'intro--code-img'
-date: 2020-12-10T00:00:00+01:00
+customPostImg: intro--code-img
+date: 2020-12-09T23:00:00Z
 tags:
 - eleventy
 - ssg
----
 
+---
 <p class="lead">The Eleventy (11ty) leaderboard benchmarks websites built with Eleventy over time.</p>
 
-TL;DR - You need to add your site to the via GitHub to the eleventy site repository and create a pull request for it to be included in the leaderboards.
+TL;DR - You need to add your site via GitHub to the eleventy website repository and create a pull request for it to be included in the leaderboards.
 
 {% cloudinaryImage "/eleventy-leaderboards.jpg", "q_auto,f_auto", "Screenshot of the Eleventy Leaderboards top 5" %}
 
 <hr>
 
 ## Let's get started
-1. Go to the eleventy GitHub repository - [https://github.com/11ty/11ty-website](https://github.com/11ty/11ty-website)
+1. Go to the eleventy website GitHub repository - [https://github.com/11ty/11ty-website](https://github.com/11ty/11ty-website)
 2. Navigate to `/_data/sites` - here you will find `JSON` files - each one represents a website built with Eleventy and ones shown on the leaderboard
 3. Now you need to create your own `JSON` file for your website, so click on the **_Add file_** button and then on the dropdown click on **_Create new file_**
 
@@ -38,8 +39,8 @@ TL;DR - You need to add your site to the via GitHub to the eleventy site reposit
 
 ```
 {
-    "url": " ",
-    "name": " ",
+    "url": "",
+    "name": "",
     "description": "",
     "twitter": "",
     "authoredBy": [""],
@@ -65,7 +66,7 @@ Now that you're done creating the new file, you need to save it and also create 
 
 9. You don't need to add a comment, but you can thank [Zach](https://twitter.com/zachleat "Zack Leatherman on Twitter") for creating Eleventy. Then click on the  **_Create pull request_** button again
 
-10. Next, GitHub will do a bunch of checks on your changes and it will tell you if there are any conflicts. Hopefully, there aren't, but you followed this exactly you shouldn't have any conflicts.
+10. Next, GitHub will do a bunch of checks on your changes and it will tell you if there are any conflicts. Hopefully, there aren't, but if you followed this exactly you shouldn't have any conflicts.
 
 <figure>
   {% cloudinaryImage "/3-final-step.jpg", "q_auto,f_auto", "Shows a sucessfull pull request screen in GitHub" %}
