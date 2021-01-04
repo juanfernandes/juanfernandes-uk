@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: ''
+postImage: "/src/assets/imgs/og.jpg"
 title: 'Monthly Notes: December 2020'
 description: Not a very busy month as the year comes to an end and things slow down
   ready for the Christmas break. Spent quite a bit of time working on improving my
