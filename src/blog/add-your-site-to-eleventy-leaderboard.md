@@ -16,8 +16,8 @@ date: 2020-12-09T23:00:00Z
 tags:
 - eleventy
 - ssg
-
 ---
+
 <p class="lead">The Eleventy (11ty) leaderboard benchmarks websites built with Eleventy over time.</p>
 
 TL;DR - You need to add your site via GitHub to the eleventy website repository and create a pull request for it to be included in the leaderboards.
