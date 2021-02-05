@@ -5,7 +5,6 @@ subheading: What I'm currently up to
 introClass: now
 permalink: "/now/index.html"
 date: 2020-12-02T00:00:00.000+00:00
-
 ---
 ### Work
 
@@ -20,11 +19,11 @@ date: 2020-12-02T00:00:00.000+00:00
 
 ### Watching
 
-* [Suits](https://www.netflix.com/gb/title/70195800 "Suits on Netflix")  
+* [Suits](https://www.netflix.com/gb/title/70195800 "Suits on Netflix")
   When he impresses a big lawyer with his razor-sharp mind, a college dropout scores a coveted associate job, even though he has no legal credentials.
-* [Big Mouth](https://www.netflix.com/gb/title/80117038 "Big Mouth on Netflix")  
+* [Big Mouth](https://www.netflix.com/gb/title/80117038 "Big Mouth on Netflix")
   Teenage friends find their lives upended by the wonders and horrors of puberty in this edgy comedy from real-life pals Nick Kroll and Andrew Goldberg.
-* [Lost in Space](https://www.netflix.com/gb/title/80104198 "Lost in Space on Netflix")  
+* [Lost in Space](https://www.netflix.com/gb/title/80104198 "Lost in Space on Netflix")
   After crash-landing on an alien planet, the Robinson family fights against all odds to survive and escape. But they're surrounded by hidden dangers.
 * [Gotham](https://www.netflix.com/gb/title/80020542 "Gotham on Netflix")
   Long before he was commissioner, rookie cop James Gordon takes on Gotham City crime and corruption to avenge the murder of Bruce Wayne's parents.
