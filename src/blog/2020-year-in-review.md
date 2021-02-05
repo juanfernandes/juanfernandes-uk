@@ -1,5 +1,6 @@
 ---
 layout: layouts/post.njk
+postImage: "farm-field.jpg"
 title: '2020: Year in review'
 description: 'The year of the worldwide pandemic, bullshit politics, white supremacists,
   racists, Brexit and a whole bunch of rubbish I won''t get into - it''s fair to say
@@ -9,7 +10,7 @@ keywords:
 - pandemic
 - year in review
 - '2020'
-customPostImg: 'farm-field.jpg'
+customPostImg: ''
 date: 2021-02-05T00:00:00Z
 tags:
 - year-in-review
