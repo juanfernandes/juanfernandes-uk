@@ -8,16 +8,19 @@ date: 2020-12-02T00:00:00.000+00:00
 ---
 ### Work
 
-* Continuing work on the redesign of the property listings website. I still have some design elements to revisit but I have started coding the homepage template as the client is keen to get started developing the backend changes needed.
+* Continuing work on the redesign of the property listings website. The design is now all finished, unless any amends are needed. I have built the homepage template and will be starting work on the search results template this week.
 * Continuing my contract at Defra. It's a 3-month contract working on an internal project as an Interaction Designer.
 
 ### Reading
 
 * [The Fireman by Joe Hill](https://beta.readng.co/book/the-fireman-by-joe-hill-WPOnt "The Fireman by Joe Hill")
-* [Start Freelancing Today](https://www.goodreads.com/book/show/53717533-start-freelancing-today "Start Freelancing Today") by [Kelly Vaughn](https://www.goodreads.com/author/show/20363515.Kelly_Vaughn "Kelly Vaughn on Goodreads")
 * Always reading web design and business articles via my Instapaper
 
 ### Watching
+
+* [The Office](https://www.imdb.com/title/tt0386676/ "The Office on IMDB")
+
+  I can't remember exactly how many times I've watched The Office, but I think its the fourth time. When I heard it was being removed from Netflix, I couldn't resist watching it one more time.
 
 * [Suits](https://www.netflix.com/gb/title/70195800 "Suits on Netflix")
   When he impresses a big lawyer with his razor-sharp mind, a college dropout scores a coveted associate job, even though he has no legal credentials.
