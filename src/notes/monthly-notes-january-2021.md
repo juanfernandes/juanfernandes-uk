@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-postImage: "/src/assets/imgs/trianglify.png"
+postImage: https://res.cloudinary.com/juanfernandes/src/assets/imgs/trianglify.png
 title: 'Monthly Notes: January 2021'
 description: January has been a good month with a steady flow of work and spending
   plenty of time with the family whilst making the most of being in lockdown.
