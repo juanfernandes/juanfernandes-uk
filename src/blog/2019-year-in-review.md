@@ -1,30 +1,31 @@
 ---
 layout: layouts/post.njk
 title: '2019: Year in review'
-description: >-
-  Another year gone but it was a very good year both professionally and
+description: Another year gone but it was a very good year both professionally and
   personally, but there is room for improvement in twenty twenty.
 keywords:
-  - '2019'
-  - year in review
-  - javascript
-  - static site generator
-  - ssg
-  - netlify
-  - eleventy
-  - netlifycms
-  - nunjucks
-  - ernest jones
-  - h. samuelt
-  - cmi
-  - chartered management institute
-  - contract
-  - front-end developer
-  - freelance
-postImage: /v1579162296/sun_sea.jpg
-date: 2020-01-05T13:54:38.480Z
+- '2019'
+- year in review
+- javascript
+- static site generator
+- ssg
+- netlify
+- eleventy
+- netlifycms
+- nunjucks
+- ernest jones
+- h. samuelt
+- cmi
+- chartered management institute
+- contract
+- front-end developer
+- freelance
+postImage: "/v1579162296/sun_sea.jpg"
+date: 2020-01-05T13:54:38.480+00:00
 tags:
-  - personal
+- year-in-review
+- personal
+
 ---
 Another year gone but it was a very good year both professionally and personally, but there is room for improvement in twenty twenty.
 
