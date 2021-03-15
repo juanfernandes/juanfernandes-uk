@@ -4,13 +4,14 @@ title: Now
 subheading: What I'm currently up to
 introClass: now
 permalink: "/now/index.html"
-date: 2021-03-03T00:00:00Z
+date: 2021-03-15T00:00:00Z
 
 ---
 ### Work
 
-* Continuing work on the redesign of the property listings website. The design is now all finished, unless any amends are needed. I have built the homepage template and will be starting work on the search results template this week.
-* Continuing my contract at Defra. It's a 3-month contract working on an internal project as an Interaction Designer.
+* Finished my contract at Defra.
+* Started my new permanent role as a Frontend UI Developer at Intelliflo, It's a fully remote position, great company and some pretty good benefits.
+* Finished work on the redesign of the property listings website. The searvh results and property details templates were finished and handed over to the client for integration.
 
 ### Reading
 
@@ -18,6 +19,8 @@ date: 2021-03-03T00:00:00Z
 * Always reading web design and business articles via my Instapaper
 
 ### Watching
+* [Paradise PD](https://www.netflix.com/gb/title/80191522)
+  An eager young rookie joins the ragtag small-town police force led by his dad as they bumble, squabble and snort their way through a big drug case. - When I started watching this, something about it sounded very familiar - turns out its by the same people that created [Brickleberry](https://www.imdb.com/title/tt2022713/) and then you really start seeing the very deliberate similarities between the two. 
 * [Ash vs. Evil Dead](https://www.netflix.com/gb/title/80049277)
   Thirty years later, Ash Williams -- demon hunter par excellence -- is back to battle a new Deadite plague. He may have lost a hand, but not his touch.
 * [Superstore](https://www.netflix.com/gb/title/80061132 "Superstore on Netflix")
