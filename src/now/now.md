@@ -4,14 +4,13 @@ title: Now
 subheading: What I'm currently up to
 introClass: now
 permalink: "/now/index.html"
-date: 2021-03-15T00:00:00Z
+date: 2021-03-15T00:00:00.000+00:00
 
 ---
 ### Work
 
-* Finished my contract at Defra.
-* Started my new permanent role as a Frontend UI Developer at Intelliflo, It's a fully remote position, great company and some pretty good benefits.
-* Finished work on the redesign of the property listings website. The searvh results and property details templates were finished and handed over to the client for integration.
+* Finished my third week of my new job. Also, finished my first peice of work and started on the next project
+* About half way though building a new website for Surbiton Tyre & Wheel using 11ty and TailwindCSS
 
 ### Reading
 
@@ -19,19 +18,18 @@ date: 2021-03-15T00:00:00Z
 * Always reading web design and business articles via my Instapaper
 
 ### Watching
-* [Paradise PD](https://www.netflix.com/gb/title/80191522)
-  An eager young rookie joins the ragtag small-town police force led by his dad as they bumble, squabble and snort their way through a big drug case. - When I started watching this, something about it sounded very familiar - turns out its by the same people that created [Brickleberry](https://www.imdb.com/title/tt2022713/) and then you really start seeing the very deliberate similarities between the two. 
-* [Ash vs. Evil Dead](https://www.netflix.com/gb/title/80049277)
-  Thirty years later, Ash Williams -- demon hunter par excellence -- is back to battle a new Deadite plague. He may have lost a hand, but not his touch.
-* [Superstore](https://www.netflix.com/gb/title/80061132 "Superstore on Netflix")
-  At a big-box megastore in St. Louis, a group of employees with larger-than-life personalities put up with customers, day-to-day duties and each other.
-* [Suits](https://www.netflix.com/gb/title/70195800 "Suits on Netflix")
-  When he impresses a big lawyer with his razor-sharp mind, a college dropout scores a coveted associate job, even though he has no legal credentials.
 
-  #### Finished
+* [Unsolved](https://www.netflix.com/gb/title/80177416)
+  Ride along for a dramatized version of the real-life investigations into the murders of rap icons Tupac Shakur and Biggie Smalls.
+* [Brooklyn Nine Nine S7](https://www.netflix.com/gb/title/70281562)
+  Brilliant but immature Brooklyn detective Jake Peralta must learn to follow the rules and be a team player when his squad gets an exacting new captain.
+* [Ash vs. Evil Dead S3](https://www.netflix.com/gb/title/80049277)
+  Thirty years later, Ash Williams -- demon hunter par excellence -- is back to battle a new Deadite plague. He may have lost a hand, but not his touch.
+
+#### Finished
+
+  * [Ozark](https://www.netflix.com/gb/title/80117552 "Ozark on Netflix")
+  * [Suits](https://www.netflix.com/gb/title/70195800 "Suits on Netflix")
+  * [Superstore](https://www.netflix.com/gb/title/80061132 "Superstore on Netflix")
+  * [Paradise PD](https://www.netflix.com/gb/title/80191522 "Paradise PD on Netflix")
   * [The OA](https://www.netflix.com/gb/title/80044950 "The OA on Netflix")
-  * [Rust Valley Restorers](https://www.netflix.com/gb/title/80203254)
-  * [Big Mouth](https://www.netflix.com/gb/title/80117038 "Big Mouth on Netflix")
-  * [The Office US](https://www.imdb.com/title/tt0386676/ "The Office US on IMDB")
-  * [The Office](https://www.imdb.com/title/tt0290978/ "The Office on IMDB")
-  * [Lost in Space](https://www.netflix.com/gb/title/80104198 "Lost in Space on Netflix")
