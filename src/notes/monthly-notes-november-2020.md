@@ -13,7 +13,7 @@ keywords:
 - contract
 - freelance web designer
 - monthly notes
-date: 2020-12-04T00:00:00Z
+date: 2020-12-04T00:00:00.000+00:00
 tags:
 - notes
 - monthly-notes
@@ -29,7 +29,7 @@ I also started doing design research for my next freelance project for a tyre an
 
 Normally I have enough money saved up to pay off the corporation tax at the end my accounting year - but due to covid and having no work since April, I had to use the tax reserve to pay my salary. So I did quite a scary thing - I applied for a business bounce back loan to help pay off corporation tax. 😬
 
-The load is interest-free for the first 12 months - this is a government-funded scheme - so I will aim to get it paid within that year to avoid any interest.
+The loan is interest-free for the first 12 months - this is a government-funded scheme - so I will aim to get it paid within that year to avoid any interest.
 
 ### New Contract
 
