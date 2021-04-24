@@ -9,6 +9,7 @@
     Content-Security-Policy = "default-src 'self' https://res.cloudinary.com; manifest-src 'self'; script-src 'self' 'sha256-FTeJwfs/oKoQ8Y0jaWpkYtJZMy453pCuLlhQ+SGmx7Q='; connect-src 'self' https://res.cloudinary.com; img-src 'self' https://res.cloudinary.com; style-src 'self'; form-action 'self' https://juanfernandes.us14.list-manage.com; frame-ancestors 'none';"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
+    Permissions-Policy = "interest-cohort=()"
 
 # Redirects
 
