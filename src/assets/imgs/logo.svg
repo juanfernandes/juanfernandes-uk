@@ -1,25 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100.3 100.2" enable-background="new 0 0 100.3 100.2" xml:space="preserve">
-<polyline opacity="0.25" fill="#666" stroke="#666" stroke-width="0.2311" stroke-miterlimit="10" points="50.2,100.2
-	0.2,50.2 50.2,0.2 100.2,50.2 50.2,100.2 "/>
-<rect x="20.1" y="20.1" transform="matrix(0.7071 0.7071 -0.7071 0.7071 50.1634 -20.7784)" fill="#FFFFFF" stroke="#F1F2F2" stroke-width="0.2311" stroke-miterlimit="10" width="60.2" height="60.2"/>
-<g opacity="0.4">
-	<defs>
-
-			<rect id="SVGID_1_" x="20.1" y="20.1" transform="matrix(0.7071 0.7071 -0.7071 0.7071 50.1634 -20.7784)" opacity="0.4" width="60.2" height="60.2"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
-	</clipPath>
-	<g clip-path="url(#SVGID_2_)">
-
-			<image overflow="visible" width="1920" height="1080" xlink:href="503CB897.jpg"  transform="matrix(9.550378e-002 0 0 9.550378e-002 -37.8229 -1.2931)">
-		</image>
-	</g>
-</g>
-<path d="M50.6,11v78.7l7.3-8.1V52.1l9,6.2v-7.7l-9.1-7.7v-11L72.7,44V33.8C72.7,33.8,50.6,10.2,50.6,11z"/>
-<polygon points="27.3,33.4 27.3,43.4 28.9,42 28.8,42 42.3,29.8 42.3,70.3 21.6,50.2 11,50.2 50.3,89.7 50.3,10.9 "/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100.3 100.2">
+  <style>
+    .bg {
+      fill: #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg {
+        fill: #535d6c;
+      }
+    }
+  </style>
+  <path fill="#666" stroke="#666" stroke-miterlimit="10" stroke-width=".231" d="M50.2 100.2l-50-50 50-50 50 50-50 50" opacity=".25"/>
+  <path class="bg" fill="#FFF" stroke="#F1F2F2" stroke-miterlimit="10" stroke-width=".23099769000000003" d="M50.163 7.647l42.568 42.567-42.568 42.568L7.596 50.214z"/><g opacity=".4"><defs><path id="a" d="M20.1 20.1h60.2v60.2H20.1z" opacity=".4" transform="rotate(45.001 50.164 50.163)"/></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"/></clipPath></g><path d="M50.6 11v78.7l7.3-8.1V52.1l9 6.2v-7.7l-9.1-7.7v-11L72.7 44V33.8S50.6 10.2 50.6 11zM27.3 33.4v10l1.6-1.4h-.1l13.5-12.2v40.5L21.6 50.2H11l39.3 39.5V10.9z"/>
 </svg>
