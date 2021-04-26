@@ -4,7 +4,7 @@ title: Now
 subheading: What I'm currently up to
 introClass: now
 permalink: "/now/index.html"
-date: 2021-04-25T23:00:00Z
+date: 2021-04-26T07:00:00Z
 
 ---
 ### Work
