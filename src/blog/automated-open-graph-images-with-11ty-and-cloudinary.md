@@ -117,4 +117,4 @@ I could take this a step further and pass the colour of the text or be able to c
 
 I could even turn this into an 11ty Plugin.
 
-Hope you find this useful and if you want to discuss anything about it, reach out to be on [Twitter](https://twitter.com/juanfernandes "Juan Fernandes on Twitter").
+Hope you find this useful and if you want to discuss anything about it, reach out to me on [Twitter](https://twitter.com/juanfernandes "Juan Fernandes on Twitter").
