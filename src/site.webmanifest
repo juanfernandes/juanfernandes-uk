@@ -3,8 +3,8 @@
   "name": "Juan Fernandes",
   "description": "Freelance Front-end Developer",
   "icons": [
-    { "src": "/icon-192.png", "type": "image/png", "sizes": "192x192" },
-    { "src": "/icon-512.png", "type": "image/png", "sizes": "512x512" }
+    { "src": "/192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/512.png", "type": "image/png", "sizes": "512x512" }
   ],
   "shortcuts": [
     {
@@ -12,14 +12,14 @@
       "short_name": "Blog",
       "description": "Read blog posts",
       "url": "/blog",
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/192.png", "sizes": "192x192" }]
     },
     {
       "name": "View Work",
       "short_name": "Work",
       "description": "See my past work",
       "url": "/work",
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+      "icons": [{ "src": "/192.png", "sizes": "192x192" }]
     }
   ],
   "theme_color": "#F89820",
