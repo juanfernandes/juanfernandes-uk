@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "grunt"
+  command = "npm run build"
 
 [[headers]]
   for = "/*"

@@ -36,7 +36,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/apple-touch-icon.png')
   eleventyConfig.addPassthroughCopy('src/favicon.ico')
   eleventyConfig.addPassthroughCopy('src/icon.svg')
-  eleventyConfig.addPassthroughCopy('src/_redirects')
   eleventyConfig.addPassthroughCopy('.well-known/')
 
   eleventyConfig.addCollection('posts', function (collection) {
