@@ -23,6 +23,6 @@ Having recently got a DeGoogled mobile phone from /e/ OS and installing all the 
 
 "DeGoogling would indeed involve jailbreaking methods, so I'm afraid it is incompatible with the Freetrade app" - Freetrade Support
 
-Just a small prices top pay for wanting more control over your data and it's usage.
+Just a small prices to pay for wanting more control over your data and its usage.
 
 \#PrivacyControl
