@@ -22,6 +22,9 @@
       </p>
     </article>
 
+    {% set webmentionUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+    {% include "webmentionlist.njk" %}
+
     {% include 'components/signup-form.njk' %}
   </div>
 </div>
