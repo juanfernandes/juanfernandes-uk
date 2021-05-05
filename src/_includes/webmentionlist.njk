@@ -1,4 +1,4 @@
-<div class="webmentions hidden" id="webmentions">
+<div class="webmentions" id="webmentions">
 
   {% set mentions = webmentions | getWebmentionsForUrl(site.url + webmentionUrl) %}
   {% set reposts = mentions | webmentionsByType('repost-of') %}
