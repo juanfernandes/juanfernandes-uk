@@ -1,25 +1,25 @@
 ---
 layout: layouts/post.njk
 title: 'Weeknotes #4'
-description: >-
-  It's been another tiring week, but I felt it went by fairly quickly. Tiring
-  because I did about ten hours of driving this week to my new contract. But I
-  made some progress on my freelance project.
+description: It's been another tiring week, but I felt it went by fairly quickly.
+  Tiring because I did about ten hours of driving this week to my new contract. But
+  I made some progress on my freelance project.
 keywords:
-  - week notes
-  - weeknotes
-  - notes
-  - contract
-  - work
-  - freelance
-  - online shop
-  - e-commerce
-  - contract
-  - contracting
+- week notes
+- weeknotes
+- notes
+- contract
+- work
+- freelance
+- online shop
+- e-commerce
+- contract
+- contracting
 postImage: "/v1579162295/og.jpg"
-date: 2019-03-03T15:30:01.236Z
+date: 2019-03-03T15:30:01.236+00:00
 tags:
-  - notes
+- notes
+
 ---
 It's been another tiring week, but I felt it went by fairly quickly.
 
@@ -40,7 +40,7 @@ All the new carpet has been laid upstairs now. My wife also took this opportunit
 Had to rush around the day before the carpet was being laid down on the upstairs hallway to get some network cable under the floorboards from the airing cupboard for me to wire in a Ubiquiti wifi access point, that will be mounted on the ceiling. Bit of a challenge - most of the rectangular floorboards had already been cut by electricians, but I needed to get the network cable to go under a floorboard that wasn't cut. I cut a hole in the airing cupboard floor, used a metal wire, looped over a water pipe to slide along until the gap where the floorboard had been lifted and then I could pull the network cable through!
 
 ### Writting
-I also managed to get a blog post out but it wasn't web design related, I wrote about my ventures into [home automation](https://juanfernandes.uk/blog/2019-02-28-home-automation "Home Automation") - but I don't think this was well received. I need to get  back into writting more about web design stuff and less personal.
+I also managed to get a blog post out but it wasn't web design related, I wrote about my ventures into [home automation](https://www.juanfernandes.uk/blog/home-automation "Home Automation") - but I don't think this was well received. I need to get  back into writting more about web design stuff and less personal.
 
 ## What didn't go well
 
