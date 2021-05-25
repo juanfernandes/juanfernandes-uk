@@ -4,22 +4,19 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 // Import filters
 const dateFilter = require('./src/_filters/date-filter')
 const w3DateFilter = require('./src/_filters/w3-date-filter')
-const filters = require('./src/_filters/filters')
+const getWebmentionsForUrl = require('./src/_filters/getWebmentionsForUrl')
 
 module.exports = function (eleventyConfig) {
   // Filters
   eleventyConfig.addFilter('dateFilter', dateFilter)
   eleventyConfig.addFilter('w3DateFilter', w3DateFilter)
+  eleventyConfig.addFilter('getWebmentionsForUrl', getWebmentionsForUrl)
 
   eleventyConfig.addFilter('randomItem', (arr) => {
     arr.sort(() => {
       return 0.5 - Math.random()
     })
     return arr.slice(0, 1)
-  })
-
-  Object.keys(filters).forEach(filterName => {
-    eleventyConfig.addFilter(filterName, filters[filterName])
   })
 
   // Pass through
@@ -62,6 +59,7 @@ module.exports = function (eleventyConfig) {
   })
 
   // Layout aliases
+  eleventyConfig.addLayoutAlias('base', 'layouts/base.njk')
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
 
   // Plugins

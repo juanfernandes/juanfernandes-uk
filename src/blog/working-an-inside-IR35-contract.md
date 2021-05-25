@@ -10,10 +10,11 @@ keywords:
 - contracts
 - inside ir35 contract
 - outside ir35 contract
-date: 2021-04-26T23:00:00.000+00:00
+date: 2021-04-26T23:00:00Z
+tweetId: '1386963102256832513'
 tags:
 - post
-postImage: "/v1596537388/og.jpg"
+
 ---
 ## What is IR35?
 >IR35 is the name given to a tax legislation that is aimed at identifying individuals who are avoiding paying the tax that they should be. The IR35 legislation specifically challenges those people who supply their services to clients via their own company, often known as a ‘personal service company’, be it a limited company or a limited liability partnership, who, in the ever-watchful eyes of HMRC, should be classed as ‘disguised employees’. This means that HMRC do not recognise the contractor in question as ‘self-employed’ from a taxation perspective and therefore they should be taxed the same way that a permanent employee should be, thus falling insider what is called IR35.

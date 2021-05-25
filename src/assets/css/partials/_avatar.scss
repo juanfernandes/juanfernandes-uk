@@ -1,0 +1,22 @@
+.avatar {
+  &__link {
+    border: none;
+    display: block;
+  }
+  &__img {
+    border-radius: 50%;
+    border: 2px solid var(--off-black);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15), 0 2px 4px rgba(0,0,0,0.12);
+    height: 48px;
+    margin-bottom: 0;
+    object-fit: cover;
+    transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    width: 48px;
+
+    &:hover,
+    &:focus {
+      border-color: var(--orange);
+      box-shadow: none;
+    }
+  }
+}

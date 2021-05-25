@@ -1,6 +1,28 @@
 {
-  "lastFetched": "2021-05-05T10:41:21.379Z",
+  "lastFetched": "2021-05-06T06:32:39.541Z",
   "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "GAM3RJUAN",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/682f41775b17b15cf7e433aa20bd2a85e6ed6406e9a9c0f554c4d43f7da07b8e.jpg",
+        "url": "https://twitter.com/gam3r_juan"
+      },
+      "url": "https://twitter.com/gam3r_juan/status/1389967503745601544",
+      "published": "2021-05-05T15:37:31+00:00",
+      "wm-received": "2021-05-05T16:21:19Z",
+      "wm-id": 1145673,
+      "wm-source": "https://brid.gy/comment/twitter/juanfernandes/1389603164303863809/1389967503745601544",
+      "wm-target": "https://www.juanfernandes.uk/notes/degoogling-is-the-same-as-jailbreaking-apparently/",
+      "content": {
+        "html": "test\n<a class=\"u-mention\" href=\"https://linkkle.com/juanfernandes\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/juanfernandes\"></a>\n<a class=\"u-mention\" href=\"https://www.juanfernandes.uk/\"></a>",
+        "text": "test"
+      },
+      "in-reply-to": "https://www.juanfernandes.uk/notes/degoogling-is-the-same-as-jailbreaking-apparently/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
     {
       "type": "entry",
       "author": {
@@ -74,6 +96,60 @@
       "wm-source": "https://brid.gy/like/twitter/juanfernandes/1389603164303863809/1698969272",
       "wm-target": "https://www.juanfernandes.uk/notes/degoogling-is-the-same-as-jailbreaking-apparently/",
       "like-of": "https://www.juanfernandes.uk/notes/degoogling-is-the-same-as-jailbreaking-apparently/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Spitfire",
+        "photo": "https://webmention.io/avatar/files.mastodon.social/0926e240d218c6264fa496f7cd376b522b6c82491bcb66fbee3898d4312ce49f.png",
+        "url": "https://mastodon.social/@gcspitfire"
+      },
+      "url": "https://mastodon.social/@juanfernandes/106136467861678178#reblogged-by-471840",
+      "published": null,
+      "wm-received": "2021-05-06T06:30:54Z",
+      "wm-id": 1146465,
+      "wm-source": "https://brid.gy/repost/mastodon/@juanfernandes@mastodon.social/106136467861678178/471840",
+      "wm-target": "https://www.juanfernandes.uk/notes/google-floc/",
+      "repost-of": "https://www.juanfernandes.uk/notes/google-floc/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ru",
+        "photo": "https://webmention.io/avatar/files.mastodon.social/fbc4f165e36b8e3855bb08bd1c3e322f511950b1c52900d526ce7530edad00f1.jpg",
+        "url": "https://fosstodon.org/@celia"
+      },
+      "url": "https://mastodon.social/@juanfernandes/105838054287449176#favorited-by-996770",
+      "published": null,
+      "wm-received": "2021-05-06T06:30:51Z",
+      "wm-id": 1146464,
+      "wm-source": "https://brid.gy/like/mastodon/@juanfernandes@mastodon.social/105838054287449176/996770",
+      "wm-target": "https://www.juanfernandes.uk/notes/monthly-notes-february-2021/",
+      "like-of": "https://www.juanfernandes.uk/notes/monthly-notes-february-2021/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ru",
+        "photo": "https://webmention.io/avatar/files.mastodon.social/fbc4f165e36b8e3855bb08bd1c3e322f511950b1c52900d526ce7530edad00f1.jpg",
+        "url": "https://fosstodon.org/@celia"
+      },
+      "url": "https://mastodon.social/@juanfernandes/105836993141710717#favorited-by-996770",
+      "published": null,
+      "wm-received": "2021-05-06T06:30:50Z",
+      "wm-id": 1146463,
+      "wm-source": "https://brid.gy/like/mastodon/@juanfernandes@mastodon.social/105836993141710717/996770",
+      "wm-target": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "like-of": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
       "wm-property": "like-of",
       "wm-private": false
     }

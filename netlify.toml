@@ -2,11 +2,14 @@
   publish = "dist"
   command = "npm run build"
 
+[[plugins]]
+  package = "netlify-plugin-cache-folder"
+
 [[headers]]
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self' https://res.cloudinary.com; manifest-src 'self'; script-src 'self' 'sha256-FTeJwfs/oKoQ8Y0jaWpkYtJZMy453pCuLlhQ+SGmx7Q='; connect-src 'self' https://res.cloudinary.com; img-src 'self' https://res.cloudinary.com; style-src 'self'; form-action 'self' https://juanfernandes.us14.list-manage.com; frame-ancestors 'none';"
+    Content-Security-Policy = "default-src 'self' https://res.cloudinary.com https://webmention.io; manifest-src 'self'; script-src 'self' 'sha256-FTeJwfs/oKoQ8Y0jaWpkYtJZMy453pCuLlhQ+SGmx7Q='; connect-src 'self' https://res.cloudinary.com; img-src 'self' https://res.cloudinary.com https://webmention.io; style-src 'self'; form-action 'self' https://juanfernandes.us14.list-manage.com; frame-ancestors 'none';"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Permissions-Policy = "interest-cohort=()"
@@ -18,6 +21,11 @@
   to = "https://app.forestry.io/dashboard/"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/blog/working-an-inside-IR35-contract"
+  to = "/blog/working-an-inside-ir35-contract"
+  status = 301
 
 [[redirects]]
   from = "/index.php"
