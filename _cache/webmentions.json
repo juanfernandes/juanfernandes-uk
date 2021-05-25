@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-05-06T06:32:39.541Z",
+  "lastFetched": "2021-05-25T14:51:20.520Z",
   "children": [
     {
       "type": "entry",
@@ -150,6 +150,64 @@
       "wm-source": "https://brid.gy/like/mastodon/@juanfernandes@mastodon.social/105836993141710717/996770",
       "wm-target": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
       "like-of": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dana Byerly",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ae11da462767995f7225b0a4162a2f6e767ab8f6d21dc9435b22a76aa40568fc.jpg",
+        "url": "https://twitter.com/superterrific"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1390203310943219713#favorited-by-4094721",
+      "published": null,
+      "wm-received": "2021-05-06T19:23:00Z",
+      "wm-id": 1147401,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1390203310943219713/4094721",
+      "wm-target": "https://www.juanfernandes.uk/notes/til-webmention-and-urls/",
+      "like-of": "https://www.juanfernandes.uk/notes/til-webmention-and-urls/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Chris Burnell",
+        "photo": "https://webmention.io/avatar/chrisburnell.com/433faf60e9553c7a386ada09c26623110215180b0b0061a272f01efc334c82a6.jpg",
+        "url": "https://chrisburnell.com/"
+      },
+      "url": "https://chrisburnell.com/like/1620297626/",
+      "published": "2021-05-06T11:40:26+01:00",
+      "wm-received": "2021-05-06T10:44:20Z",
+      "wm-id": 1146734,
+      "wm-source": "https://chrisburnell.com/like/1620297626",
+      "wm-target": "https://www.juanfernandes.uk/notes/til-webmention-and-urls/",
+      "name": "TIL - Webmention and URLs | Blog - Thoughts, Code and …",
+      "like-of": "https://www.juanfernandes.uk/notes/til-webmention-and-urls/",
+      "wm-property": "like-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://chrisburnell.com/like/1620297626/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ramón Huidobro",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f94a8762df2e0a0f2bbac31d1e244fe337d26c10a16e504735cd5d6c992864bc.jpg",
+        "url": "https://twitter.com/hola_soy_milk"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1390214671525949441#favorited-by-17062069",
+      "published": null,
+      "wm-received": "2021-05-06T08:13:37Z",
+      "wm-id": 1146521,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1390214671525949441/17062069",
+      "wm-target": "https://www.juanfernandes.uk/notes/monthly-notes-april-2021/",
+      "like-of": "https://www.juanfernandes.uk/notes/monthly-notes-april-2021/",
       "wm-property": "like-of",
       "wm-private": false
     }
