@@ -1,0 +1,9 @@
+<div class="avatar">
+  <a {% if webmention.url %}href="{{ webmention.url }}"{% endif %} target="_blank" rel="noopener noreferrer" title="{{ webmention.author.name }}" class="avatar__link">
+    {% if webmention.author.photo %}
+      <img class="avatar__img" src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" loading="lazy" width="48" height="48">
+    {% else %}
+      <img class="avatar__img" src="/assets/img/avatar-default.jpg" alt="{{ webmention.author.name }}" loading="lazy" width="48" height="48">
+    {% endif %}
+  </a>
+</div>

@@ -9,6 +9,7 @@ html {
   height: 100%;
   overflow-y: scroll; /* Forces vertical scrollbar */
   padding: 0;
+  scrollbar-color: var(--orange) var(--off-black);
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: var(--orange);
   -webkit-text-size-adjust: 100%;
@@ -138,6 +139,18 @@ p {
   top: 50%;
   transform: translateY(-50%);
 }
+.uppercase {
+  text-transform: uppercase;
+}
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.align-center {
+  align-items: center;
+}
 
 /*
  * Skip to content
@@ -262,7 +275,12 @@ p {
 .u-auto-width {
   width: auto;
 }
-
+.u-mb-0 {
+  margin-bottom: 0;
+}
+.u-mb-2 {
+  margin-bottom: 2rem;
+}
 .u-mt-1 {
   margin-top: 1em;
 }
