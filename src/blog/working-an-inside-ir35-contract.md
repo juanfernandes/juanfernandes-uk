@@ -10,10 +10,11 @@ keywords:
 - contracts
 - inside ir35 contract
 - outside ir35 contract
-date: 2021-04-26T23:00:00Z
+date: 2021-04-26T23:00:00.000+00:00
 tweetId: '1386963102256832513'
 tags:
 - post
+postImage: "/v1579162295/trianglify.png"
 
 ---
 ## What is IR35?
