@@ -33,6 +33,9 @@ fields:
 - type: list
   name: tags
   label: Tags
+- type: text
+  name: tweetId
+  label: Tweet ID
 pages:
 - src/blog/2020-year-in-review.md
 - src/blog/automated-open-graph-images-with-11ty-and-cloudinary.md

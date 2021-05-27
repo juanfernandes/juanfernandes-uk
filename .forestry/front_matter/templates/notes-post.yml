@@ -26,6 +26,9 @@ fields:
 - type: list
   name: tags
   label: Tags
+- type: text
+  name: tweetId
+  label: Tweet ID
 pages:
 - src/notes/april-may-2020-monthly-notes.md
 - src/notes/bye-bye-gmail.md
