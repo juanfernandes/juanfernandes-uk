@@ -14,7 +14,7 @@ date: 2021-05-27T23:00:00Z
 tags:
 - til
 - notes
-tweetId: ''
+tweetId: "1398265102407802881"
 
 ---
 Since adding Content Security Policies to my website, I need to add a sha for any inline scripts I use - I only use one, which initiates my ServiceWorker.
