@@ -28,6 +28,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/humans.txt')
   eleventyConfig.addPassthroughCopy('src/site.webmanifest')
   eleventyConfig.addPassthroughCopy('src/browserconfig.xml')
+  eleventyConfig.addPassthroughCopy('src/service-worker.js')
   eleventyConfig.addPassthroughCopy('src/192.png')
   eleventyConfig.addPassthroughCopy('src/512.png')
   eleventyConfig.addPassthroughCopy('src/apple-touch-icon.png')

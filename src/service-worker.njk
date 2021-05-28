@@ -1,5 +1,7 @@
 ---
   permalink: '/service-worker.js'
 ---
-const cacheName = 'v{{ global.random() }}';
+'use strict'
+const version = 'v{{ global.random() }}';
+
 {% include "partials/service-worker.js" %}
