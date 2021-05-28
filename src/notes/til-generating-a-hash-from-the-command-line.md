@@ -10,7 +10,7 @@ keywords:
 - sha256
 - sha
 - TIL
-date: 2021-05-27T23:00:00Z
+date: 2021-05-27T23:00:00.000+00:00
 tags:
 - til
 - notes
@@ -23,4 +23,6 @@ I keep forgetting how to genetate shas. Making a note for future reference.
 
 You can generate a hash using openssl:
 
-`echo -n 'doSomething();' | openssl sha256 -binary | openssl base64`
+```
+echo -n 'doSomething();' | openssl sha256 -binary | openssl base64
+```
