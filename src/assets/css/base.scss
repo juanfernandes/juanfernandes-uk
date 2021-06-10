@@ -12,7 +12,6 @@ html {
   scrollbar-color: var(--orange) var(--off-black);
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: var(--orange);
-  -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
@@ -23,7 +22,6 @@ body {
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; /* Fix for webkit rendering */
 }
 
 /* $_Navigation
@@ -180,7 +178,7 @@ p {
   background-color: transparent;
   border: 0;
   overflow: hidden;
-  *text-indent: -9999px;  /* IE 6/7 fallback */
+  text-indent: -9999px;  /* IE 6/7 fallback */
 
   &:before {
     content: "";

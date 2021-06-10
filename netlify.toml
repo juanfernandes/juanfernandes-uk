@@ -9,7 +9,7 @@
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self' https://res.cloudinary.com webmention.io *.webmention.io amazonaws.com *.amazonaws.com; manifest-src 'self'; script-src 'self' 'sha256-yD1nAOXqYWiLd2Z44lvcafXp5Idqo1OtxMnR8xTCWdc='; connect-src 'self' https://res.cloudinary.com; img-src 'self' https://res.cloudinary.com webmention.io *.webmention.io amazonaws.com *.amazonaws.com; style-src 'self'; form-action 'self' https://juanfernandes.us14.list-manage.com; frame-ancestors 'none';"
+    Content-Security-Policy = "default-src 'self' https://res.cloudinary.com webmention.io *.webmention.io amazonaws.com *.amazonaws.com; manifest-src 'self'; script-src 'self' 'sha256-yD1nAOXqYWiLd2Z44lvcafXp5Idqo1OtxMnR8xTCWdc=' 'sha256-tx+gCi7EMKKMysRMCzM3Pdde7nPTxmMPWFq0F0Ij8Wg='; connect-src 'self' https://res.cloudinary.com; img-src 'self' https://res.cloudinary.com webmention.io *.webmention.io amazonaws.com *.amazonaws.com; style-src 'self'; form-action 'self' https://juanfernandes.us14.list-manage.com; frame-ancestors 'none';"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Permissions-Policy = "interest-cohort=()"
