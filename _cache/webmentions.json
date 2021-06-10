@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-05-25T14:51:20.520Z",
+  "lastFetched": "2021-06-10T13:01:58.000Z",
   "children": [
     {
       "type": "entry",
@@ -208,6 +208,261 @@
       "wm-source": "https://brid.gy/like/twitter/juanfernandes/1390214671525949441/17062069",
       "wm-target": "https://www.juanfernandes.uk/notes/monthly-notes-april-2021/",
       "like-of": "https://www.juanfernandes.uk/notes/monthly-notes-april-2021/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ru",
+        "photo": "https://webmention.io/avatar/files.mastodon.social/fbc4f165e36b8e3855bb08bd1c3e322f511950b1c52900d526ce7530edad00f1.jpg",
+        "url": "https://fosstodon.org/@celia"
+      },
+      "url": "https://mastodon.social/@juanfernandes/106385431068302787#favorited-by-996770",
+      "published": null,
+      "wm-received": "2021-06-10T13:00:02Z",
+      "wm-id": 1186113,
+      "wm-source": "https://brid.gy/like/mastodon/@juanfernandes@mastodon.social/106385431068302787/996770",
+      "wm-target": "https://www.juanfernandes.uk/notes/monthly-notes-may-2021/",
+      "like-of": "https://www.juanfernandes.uk/notes/monthly-notes-may-2021/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dwayne Harris",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/db963fd48161b26afc3bc49413852c2b5646eb730a76beb1544c01b961977464.jpg",
+        "url": "https://twitter.com/arcatech"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1367801845318553603#favorited-by-37301176",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:16Z",
+      "wm-id": 1172470,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1367801845318553603/37301176",
+      "wm-target": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "like-of": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Clive Walker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/98e1bb5d17f8080671447cb1df7bfd196a73fe2800f444fd503831e7ef219935.jpeg",
+        "url": "https://twitter.com/clivewalker"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1379032243230928898#favorited-by-18674711",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:15Z",
+      "wm-id": 1172468,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1379032243230928898/18674711",
+      "wm-target": "https://www.juanfernandes.uk/notes/monthly-notes-march-2021/",
+      "like-of": "https://www.juanfernandes.uk/notes/monthly-notes-march-2021/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tony Ball",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e42384dcfee3bfb89c0ca466ee8122d57fac827ef0b898e7a0dd7af56e92fbbc.jpg",
+        "url": "https://twitter.com/TonyJamesBall"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1367801845318553603#favorited-by-1066381414009049089",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:15Z",
+      "wm-id": 1172469,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1367801845318553603/1066381414009049089",
+      "wm-target": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "like-of": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Tony Ball",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e42384dcfee3bfb89c0ca466ee8122d57fac827ef0b898e7a0dd7af56e92fbbc.jpg",
+        "url": "https://twitter.com/TonyJamesBall"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1379032243230928898#favorited-by-1066381414009049089",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:14Z",
+      "wm-id": 1172467,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1379032243230928898/1066381414009049089",
+      "wm-target": "https://www.juanfernandes.uk/notes/monthly-notes-march-2021/",
+      "like-of": "https://www.juanfernandes.uk/notes/monthly-notes-march-2021/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Andrew McCombe",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/3bf4f751d39d25091adba616b8efbe321a816bafde0c9f83f7caff62dd5cc32b.png",
+        "url": "https://twitter.com/euperia"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1367801845318553603#favorited-by-16334371",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:13Z",
+      "wm-id": 1172466,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1367801845318553603/16334371",
+      "wm-target": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "like-of": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Clive Walker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/98e1bb5d17f8080671447cb1df7bfd196a73fe2800f444fd503831e7ef219935.jpeg",
+        "url": "https://twitter.com/clivewalker"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1367801845318553603#favorited-by-18674711",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:12Z",
+      "wm-id": 1172464,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1367801845318553603/18674711",
+      "wm-target": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "like-of": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dylan Jones🏴󠁧󠁢󠁷󠁬󠁳󠁿🖥🏉🐗",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/322ff03a2670aa5387141233b5d15e9091301760ac9211f22a062288fb93ce87.jpg",
+        "url": "https://twitter.com/D13Creative"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1367801845318553603#favorited-by-61433405",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:12Z",
+      "wm-id": 1172465,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1367801845318553603/61433405",
+      "wm-target": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "like-of": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Joel",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f5965efbf65561e721bc1eb08b045bb070de903d84830b254c03be4bb8726bd0.jpg",
+        "url": "https://twitter.com/joelcarr"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1367801845318553603#favorited-by-80005264",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:11Z",
+      "wm-id": 1172463,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1367801845318553603/80005264",
+      "wm-target": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "like-of": "https://www.juanfernandes.uk/notes/bye-bye-gmail/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Si Jobling (he/him)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f60bd11d52e7ba5df628f9506d44952c6d7d2e68dbae79e6eb92094792c0cdfb.jpg",
+        "url": "https://twitter.com/Si"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1379032243230928898#favorited-by-11818",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:10Z",
+      "wm-id": 1172462,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1379032243230928898/11818",
+      "wm-target": "https://www.juanfernandes.uk/notes/monthly-notes-march-2021/",
+      "like-of": "https://www.juanfernandes.uk/notes/monthly-notes-march-2021/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Alistair Shepherd",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/44101c7f849b84b7a7294dbaef02f9666bfb8a0137e9cfb152b729acf2e27c34.jpg",
+        "url": "https://twitter.com/Accudio"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1389603164303863809#favorited-by-392656709",
+      "published": null,
+      "wm-received": "2021-05-27T15:45:07Z",
+      "wm-id": 1172461,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1389603164303863809/392656709",
+      "wm-target": "https://www.juanfernandes.uk/notes/degoogling-is-the-same-as-jailbreaking-apparently/",
+      "like-of": "https://www.juanfernandes.uk/notes/degoogling-is-the-same-as-jailbreaking-apparently/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ramón Huidobro",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f94a8762df2e0a0f2bbac31d1e244fe337d26c10a16e504735cd5d6c992864bc.jpg",
+        "url": "https://twitter.com/hola_soy_milk"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1386963102256832513#favorited-by-17062069",
+      "published": null,
+      "wm-received": "2021-05-27T11:22:01Z",
+      "wm-id": 1172207,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1386963102256832513/17062069",
+      "wm-target": "https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract/",
+      "like-of": "https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pete",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d1403068bac40776cc57818cfb4a2446c5041fac70c130564e2e93ce22335224.jpg",
+        "url": "https://twitter.com/petermeech"
+      },
+      "url": "https://twitter.com/petermeech/status/1386974859264147456",
+      "published": "2021-04-27T09:25:49+00:00",
+      "wm-received": "2021-05-25T20:27:59Z",
+      "wm-id": 1170249,
+      "wm-source": "https://brid.gy/repost/twitter/juanfernandes/1386963102256832513/1386974859264147456",
+      "wm-target": "https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract/",
+      "content": {
+        "text": "📝 Working an inside IR35 contract juanfernandes.uk/blog/working-a…"
+      },
+      "repost-of": "https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jay George",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e28c5137801042f9839e768baabe434d501ac23f2a428aa8fd61e414e55c17f4.jpg",
+        "url": "https://twitter.com/_JayGeorge"
+      },
+      "url": "https://twitter.com/juanfernandes/status/1386963102256832513#favorited-by-20842963",
+      "published": null,
+      "wm-received": "2021-05-25T20:27:42Z",
+      "wm-id": 1170248,
+      "wm-source": "https://brid.gy/like/twitter/juanfernandes/1386963102256832513/20842963",
+      "wm-target": "https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract/",
+      "like-of": "https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract/",
       "wm-property": "like-of",
       "wm-private": false
     }
