@@ -17,7 +17,7 @@ date: 2021-06-09T23:00:00Z
 tags:
 - notes
 - monthly-notes
-tweetId: ''
+tweetId: "1402900693565022212"
 
 ---
 Another short notes post for this month. Been busy at my new permanent job at intelliflo - learning the ropes and how to be a permanent employee again. Plus freelance work. I've had my google free phone now for over a month and I finally got round to adding some new features to my website.
