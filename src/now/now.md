@@ -4,13 +4,12 @@ title: Now
 subheading: What I'm currently up to
 introClass: now
 permalink: "/now/index.html"
-date: 2021-06-07T07:00:00Z
+date: 2021-06-07T07:00:00.000+00:00
 
 ---
 ### Work
 
-* Finished the website design and build for [Gratuu.com](http://www.gratuu.com "Gratuu.com") and it went live last week. Once the App is live in the app stores, the webiste will show download call to actions
-* Continued working on the Surbiton Tyre & Wheel webiste. I am still waiting for the content from the client - but I have been templating everything ready for the CMS
+* Continuing work on the Surbiton Tyre & Wheel website. I am still waiting for the content from the client - but I have been templating everything ready for the CMS
 
 ### Reading
 
@@ -19,8 +18,8 @@ date: 2021-06-07T07:00:00Z
 
 ### Watching
 
-* [Colony S3](https://www.netflix.com/gb/title/80077417)
-  When LA is invaded by outside forces and becomes a walled-in settlement, a former FBI agent and his wife risk everything to find their lost son.
+* [Orphan Black](https://www.netflix.com/gb/title/70276033)
+  When Sarah witnesses the suicide of a woman who looks just like her, she assumes the deceased's identity -- and unlocks a world of secrets.
 * [Sisyphus](https://www.netflix.com/gb/title/81397558)
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
 * [MINDHUNTER](https://www.netflix.com/gb/Title/80114855)
@@ -32,8 +31,8 @@ date: 2021-06-07T07:00:00Z
 
 #### Finished
 
+* [Colony S3](https://www.netflix.com/gb/title/80077417)
 * [The Fall](https://www.netflix.com/gb/title/70272726)
 * [Snowpiercer S1](https://www.netflix.com/gb/Title/80177458)
 * [Ash vs. Evil Dead S3](https://www.netflix.com/gb/title/80049277)
 * [The One](https://www.netflix.com/gb/title/80199029 "The One on Netflix")
-* [The Flight Attendant](https://www.imdb.com/title/tt7569576/ "The Flight Attendant on IMDB")
