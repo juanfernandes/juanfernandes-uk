@@ -4,12 +4,12 @@ title: Now
 subheading: What I'm currently up to
 introClass: now
 permalink: "/now/index.html"
-date: 2021-06-14T07:00:00Z
+date: 2021-06-21T07:00:00Z
 
 ---
 ### Work
 
-* Continuing work on the Surbiton Tyre & Wheel website. I am still waiting for the content from the client - but I have been templating everything ready for the CMS
+* Continuing work on the Surbiton Tyre & Wheel website
 
 ### Reading
 
@@ -20,6 +20,10 @@ date: 2021-06-14T07:00:00Z
 
 * [Orphan Black](https://www.netflix.com/gb/title/70276033)
   When Sarah witnesses the suicide of a woman who looks just like her, she assumes the deceased's identity -- and unlocks a world of secrets.
+* [The Mist](https://www.netflix.com/gb/Title/80135414)
+  Trapped by a mysterious fog, residents of a Maine village discover that it hides nightmarish creatures. A new series based on Stephen King's novella.
+* [Black Summer S2](https://www.netflix.com/gb/title/80198988)
+  In the dark, early days of a zombie apocalypse, complete strangers band together to find the strength they need to survive and get back to loved ones.
 * [Sisyphus](https://www.netflix.com/gb/title/81397558)
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
 * [MINDHUNTER](https://www.netflix.com/gb/Title/80114855)
