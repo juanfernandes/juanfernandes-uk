@@ -4,7 +4,7 @@ title: Now
 subheading: What I'm currently up to
 introClass: now
 permalink: "/now/index.html"
-date: 2021-06-21T07:00:00Z
+date: 2021-06-29T07:00:00Z
 
 ---
 ### Work
@@ -13,12 +13,14 @@ date: 2021-06-21T07:00:00Z
 
 ### Reading
 
-* Still reading [The Midnight Library by Matt Haig](https://beta.readng.co/book/the-midnight-library-by-matt-haig-QXPMG "The Midnight Library by Matt Haig")
+* Started reading [Later by Stephen King](https://beta.readng.co/book/later-by-stephen-king-yVvaN "Later by Stephen King")
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
 
-* [Orphan Black](https://www.netflix.com/gb/title/70276033)
+* [3%](https://www.netflix.com/gb/title/80074220 "3%")
+  In a future where the elite inhabit an island paradise far from the crowded slums, you get one chance to join the 3% saved from squalor.
+* [Orphan Black](https://www.netflix.com/gb/title/70276033 "Orphan Black")
   When Sarah witnesses the suicide of a woman who looks just like her, she assumes the deceased's identity -- and unlocks a world of secrets.
 * [The Mist](https://www.netflix.com/gb/Title/80135414)
   Trapped by a mysterious fog, residents of a Maine village discover that it hides nightmarish creatures. A new series based on Stephen King's novella.
@@ -39,4 +41,3 @@ date: 2021-06-21T07:00:00Z
 * [The Fall](https://www.netflix.com/gb/title/70272726)
 * [Snowpiercer S1](https://www.netflix.com/gb/Title/80177458)
 * [Ash vs. Evil Dead S3](https://www.netflix.com/gb/title/80049277)
-* [The One](https://www.netflix.com/gb/title/80199029 "The One on Netflix")
