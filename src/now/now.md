@@ -1,12 +1,15 @@
 ---
-layout: layouts/page.njk
+layout: page
 title: Now
-subheading: What I'm currently up to
-introClass: now
 permalink: "/now/index.html"
 date: 2021-07-08T07:00:00Z
+class: now
 
+intro:
+  heading: Now
+  subheading: "What I'm currently up to"
 ---
+
 ### Work
 
 * Continuing work on the Surbiton Tyre & Wheel website

@@ -1,10 +1,11 @@
 {% set currentUrl = site.url + page.url %}
+{% set pageTitle = title + ' - ' + ' Blog - ' + site.meta.title %}
 
 <!doctype html>
   <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ title }} | Blog - Thoughts, Code and more by freelance front-end developer Juan Fernandes</title>
+    <title>{{ pageTitle }}</title>
     <meta name="description" content="{{ description }}" />
     <meta name="keywords" content="{{ keywords }}" />
     <meta name="twitter:site" content="{{ site.meta.ogTwitter }}" />
@@ -27,8 +28,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="{{ currentUrl }}" />
     <link rel="alternate" hreflang="en-GB" href="{{ currentUrl }}" />
-    <link rel="alternate" type="application/rss+xml" title="Blog posts from JuanFernandes.uk" href="https://www.juanfernandes.uk/rss">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.juanfernandes.uk/rss/design">
+    <link rel="alternate" type="application/rss+xml" title="Blog posts from JuanFernandes.uk" href="https://www.juanfernandes.uk/rss/feed.xml">
     <link rel="dns-prefetch" href="https://res.cloudinary.com">
 
     {# Webmentions #}
@@ -36,9 +36,10 @@
     <link rel="webmention" href="https://webmention.io/www.juanfernandes.uk/webmention" />
     <link rel="pingback" href="https://webmention.io/www.juanfernandes.uk/xmlrpc" />
 
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.ico"><!-- 32×32 -->
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+    <meta name="theme-color" content="#F89820">
 
     <link rel="manifest" href="/site.webmanifest" crossorigin="use-credentials">
 
@@ -67,14 +68,14 @@
     </script>
     <script>
     if (navigator.serviceWorker) {
-      window.addEventListener('load', function() {
-        navigator.serviceWorker.register('/service-worker.js', {
-          scope: '/'
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/service-worker.js', {
+                scope: '/'
+            });
+            if (navigator.serviceWorker.controller) {
+                navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
+            }
         });
-        if (navigator.serviceWorker.controller) {
-          navigator.serviceWorker.controller.postMessage({'command': 'trimCaches'});
-        }
-      });
     }
     </script>
   </head>
