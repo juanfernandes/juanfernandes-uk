@@ -7,12 +7,16 @@ sections:
 - type: heading
   label: Pages
 - type: document
-  path: src/about/about.json
+  path: src/about/about.md
   label: About
-  match: "**/*"
 - type: document
   path: src/now/now.md
   label: Now
+- type: document
+  path: src/uses/uses.md
+  label: Uses
+- type: heading
+  label: Sections
 - type: directory
   path: src/blog
   label: Blog
