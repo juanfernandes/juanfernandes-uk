@@ -15,6 +15,18 @@ sections:
 - type: document
   path: src/uses/uses.md
   label: Uses
+- type: document
+  path: src/notes/notes.json
+  label: Notes
+  match: "**/*"
+- type: document
+  path: src/photos/photos.json
+  label: Photos
+  match: "**/*"
+- type: document
+  path: src/testimonials/testimonials.json
+  label: Testimonials
+  match: "**/*"
 - type: heading
   label: Sections
 - type: directory
@@ -26,14 +38,6 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: src/photos
-  label: Photos
-  create: documents
-  match: "**/*"
-  new_doc_ext: md
-  templates:
-  - photo-post
-- type: directory
   path: src/notes
   label: Notes
   create: documents
@@ -41,6 +45,14 @@ sections:
   new_doc_ext: md
   templates:
   - notes-post
+- type: directory
+  path: src/photos
+  label: Photos
+  create: documents
+  match: "**/*"
+  new_doc_ext: md
+  templates:
+  - photo-post
 - type: heading
   label: Data
 - type: document
