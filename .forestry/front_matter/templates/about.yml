@@ -48,3 +48,5 @@ fields:
     - type: text
       name: text
       label: Text
+pages:
+- src/about/about.md
