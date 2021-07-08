@@ -3,11 +3,10 @@ layout: page
 title: Uses
 class: uses
 permalink: "/uses/index.html"
-
 intro:
   heading: Uses
----
 
+---
 I love seeing what designers and developers use to do their job - so I thought I'd create my own /uses page.
 
 These are the tools I like to use, it's ones I use when I can, but as a contractor I am used to adapting and using what ever tools the client needs me to use. So don't feel that just because I like a MacBook doesn't mean I can't use Windows. 😊

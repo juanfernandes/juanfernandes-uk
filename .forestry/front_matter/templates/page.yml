@@ -51,3 +51,4 @@ fields:
 pages:
 - src/about/about.md
 - src/now/now.md
+- src/uses/uses.md
