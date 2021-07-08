@@ -4,59 +4,63 @@ hide_body: true
 fields:
 - type: field_group
   name: meta
-  label: meta
+  label: Meta
   fields:
   - type: text
     name: title
     label: title
   - type: textarea
     name: description
-    label: description
+    label: Meta Description
+    config:
+      max: 160
   - type: text
     name: ogTwitter
-    label: ogTwitter
+    label: Twitter Username
+    description: "@username"
   - type: file
     name: ogImg
-    label: ogImg
+    label: OpenGraph Image
   - type: text
     name: ogImgAlt
-    label: ogImgAlt
+    label: OpenGraph Image Description
   - type: text
     name: lang
-    label: lang
+    label: Language
+    hidden: true
 - type: field_group
   name: feed
-  label: feed
+  label: Feed
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
 - type: field_group
   name: author
-  label: author
+  label: Author
   fields:
   - type: text
     name: name
-    label: name
+    label: Name
   - type: text
     name: email
-    label: email
-- type: text
-  name: cloudinary_url
-  label: cloudinary_url
-- type: text
-  name: domain
-  label: domain
-- type: text
-  name: url
-  label: url
+    label: Email
 - type: field_group_list
   name: navigation
-  label: navigation
+  label: Navigation
   fields:
   - type: text
     name: label
-    label: label
+    label: Label
   - type: text
     name: url
-    label: url
+    label: Link
+- type: text
+  name: cloudinary_url
+  label: Cloudinary URL
+- type: text
+  name: domain
+  label: Domain
+- type: text
+  name: url
+  label: URL
