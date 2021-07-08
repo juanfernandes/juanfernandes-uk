@@ -1,0 +1,62 @@
+---
+label: Site Data
+hide_body: true
+fields:
+- type: field_group
+  name: meta
+  label: meta
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: textarea
+    name: description
+    label: description
+  - type: text
+    name: ogTwitter
+    label: ogTwitter
+  - type: file
+    name: ogImg
+    label: ogImg
+  - type: text
+    name: ogImgAlt
+    label: ogImgAlt
+  - type: text
+    name: lang
+    label: lang
+- type: field_group
+  name: feed
+  label: feed
+  fields:
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: author
+  label: author
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: email
+    label: email
+- type: text
+  name: cloudinary_url
+  label: cloudinary_url
+- type: text
+  name: domain
+  label: domain
+- type: text
+  name: url
+  label: url
+- type: field_group_list
+  name: navigation
+  label: navigation
+  fields:
+  - type: text
+    name: label
+    label: label
+  - type: text
+    name: url
+    label: url
