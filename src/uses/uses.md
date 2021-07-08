@@ -8,7 +8,7 @@ intro:
 description: These are the tools I like to use, it's ones I use when I can, but as
   a contractor I am used to adapting and using what ever tools the client needs me
   to use.
-keywords: uses/ tools, software, hardware, office setup, freelance web designer, frontend
+keywords: uses, tools, software, hardware, office setup, freelance web designer, frontend
   developer
 
 ---
