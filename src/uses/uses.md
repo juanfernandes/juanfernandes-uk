@@ -5,6 +5,11 @@ class: uses
 permalink: "/uses/index.html"
 intro:
   heading: Uses
+description: These are the tools I like to use, it's ones I use when I can, but as
+  a contractor I am used to adapting and using what ever tools the client needs me
+  to use.
+keywords: uses/ tools, software, hardware, office setup, freelance web designer, frontend
+  developer
 
 ---
 I love seeing what designers and developers use to do their job - so I thought I'd create my own /uses page.
