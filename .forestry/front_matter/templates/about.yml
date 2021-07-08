@@ -1,0 +1,42 @@
+---
+label: About
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: textarea
+  name: keywords
+  label: keywords
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: class
+  label: class
+- type: field_group
+  name: intro
+  label: intro
+  fields:
+  - type: text
+    name: heading
+    label: heading
+  - type: text
+    name: subheading
+    label: subheading
+  - type: field_group
+    name: cta
+    label: cta
+    fields:
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: text
+      label: text
