@@ -1,9 +1,11 @@
 ---
-layout: layouts/page.njk
+layout: page
 title: Uses
-subheading: My setup
-introClass: uses
+class: uses
 permalink: "/uses/index.html"
+
+intro:
+  heading: Uses
 ---
 
 I love seeing what designers and developers use to do their job - so I thought I'd create my own /uses page.
@@ -44,13 +46,13 @@ These are the tools I like to use, it's ones I use when I can, but as a contract
 
 For testing responsive websites I build, I use the following mobiles and tablets:
 
-    - iPhone 4s
-    - iPhone 5s
-    - LG Nexus 4
-    - LG G3
-    - Google Pixel 3
-    - Kindle Fire 10
-    - iPad Mini
+- iPhone 4s
+- iPhone 5s
+- LG Nexus 4
+- LG G3
+- Google Pixel 3
+- Kindle Fire 10
+- iPad Mini
 
 Not forgetting notepads, pens and pencils! I have probably forgotten many things, but I will update this if I have.
 
