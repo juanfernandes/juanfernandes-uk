@@ -7,6 +7,10 @@ sections:
 - type: heading
   label: Pages
 - type: document
+  path: src/about/about.json
+  label: About
+  match: "**/*"
+- type: document
   path: src/now/now.md
   label: Now
 - type: directory
@@ -38,7 +42,6 @@ sections:
 - type: document
   path: src/_data/companies.json
   label: Companies
-  match: "**/*"
 - type: document
   path: src/_data/testimonials.json
   label: Testimonials
