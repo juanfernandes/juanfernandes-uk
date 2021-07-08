@@ -7,7 +7,6 @@ sections:
 - type: document
   path: src/uses/uses.md
   label: Uses
-  match: "**/*"
 - type: heading
   label: Pages
 - type: document
