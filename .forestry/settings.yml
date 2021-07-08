@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: cms
 webhook_url: 
 sections:
-- type: document
-  path: src/uses/uses.md
-  label: Uses
 - type: heading
   label: Pages
 - type: document
@@ -15,6 +12,11 @@ sections:
 - type: document
   path: src/now/now.md
   label: Now
+- type: document
+  path: src/uses/uses.md
+  label: Uses
+- type: heading
+  label: Sections
 - type: directory
   path: src/blog
   label: Blog
