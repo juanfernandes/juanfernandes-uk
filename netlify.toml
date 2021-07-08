@@ -1,4 +1,4 @@
-  [build]
+[build]
   publish = "dist"
   command = "npm run build"
 
@@ -125,4 +125,14 @@
 [[redirects]]
   from = "/blog/exploring-the-benefits-if-http-2/"
   to = "/blog/exploring-the-benefits-of-http-2/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2017-02-06-automatic-copyright-year-in-perch-cms"
+  to = "/blog/automatic-copyright-year-in-perch-cms/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/2019-03-13-multiple-blogs-with-perch-cms"
+  to = "/blog/multiple-blogs-with-perch-cms/"
   status = 301
