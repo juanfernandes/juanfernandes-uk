@@ -50,3 +50,4 @@ fields:
       label: Text
 pages:
 - src/about/about.md
+- src/now/now.md

@@ -2,14 +2,19 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2021-07-08T07:00:00Z
+date: '2021-07-08T07:00:00.000+00:00'
 class: now
-
 intro:
   heading: Now
-  subheading: "What I'm currently up to"
----
+  subheading: What I'm currently up to
+  cta:
+    url: ''
+    text: ''
+description: Read about what I'm currently up to
+keywords: now, freelance website designer, frontend developer, reading, watching,
+  work
 
+---
 ### Work
 
 * Continuing work on the Surbiton Tyre & Wheel website
