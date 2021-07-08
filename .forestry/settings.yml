@@ -18,15 +18,12 @@ sections:
 - type: document
   path: src/notes/notes.json
   label: Notes
-  match: "**/*"
 - type: document
   path: src/photos/photos.json
   label: Photos
-  match: "**/*"
 - type: document
   path: src/testimonials/testimonials.json
   label: Testimonials
-  match: "**/*"
 - type: heading
   label: Sections
 - type: directory
@@ -75,4 +72,4 @@ build:
   preview_docker_image: node:10
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: grunt
+  instant_preview_command: npm run build
