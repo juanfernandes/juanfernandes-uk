@@ -4,12 +4,15 @@ auto_deploy: false
 admin_path: cms
 webhook_url: 
 sections:
+- type: document
+  path: src/uses/uses.md
+  label: Uses
+  match: "**/*"
 - type: heading
   label: Pages
 - type: document
-  path: src/about/about.json
+  path: src/about/about.md
   label: About
-  match: "**/*"
 - type: document
   path: src/now/now.md
   label: Now
