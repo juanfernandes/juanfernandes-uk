@@ -4,39 +4,47 @@ hide_body: false
 fields:
 - type: text
   name: layout
-  label: layout
+  label: Layout
+  default: page
 - type: text
   name: title
-  label: title
+  label: Meta Title
+  config:
+    required: true
+    max: 70
 - type: text
   name: description
-  label: description
+  label: Meta Description
+  config:
+    max: 160
 - type: textarea
   name: keywords
-  label: keywords
+  label: Meta Keywords
+  default: ''
 - type: text
   name: permalink
-  label: permalink
+  label: Permalink
+  hidden: true
 - type: text
   name: class
-  label: class
+  label: Class
 - type: field_group
   name: intro
-  label: intro
+  label: Intro Section
   fields:
   - type: text
     name: heading
-    label: heading
+    label: Heading
   - type: text
     name: subheading
-    label: subheading
+    label: Sub Heading
   - type: field_group
     name: cta
-    label: cta
+    label: Call to action
     fields:
     - type: text
       name: url
-      label: url
+      label: Link
     - type: text
       name: text
-      label: text
+      label: Text
