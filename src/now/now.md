@@ -28,12 +28,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 * [The Big Bang Theory](https://www.netflix.com/gb/title/70143830)
   Physicists Leonard and Sheldon find their nerd-centric social circle with pals Howard and Raj expanding when aspiring actress Penny moves in next door.
-* [Orphan Black](https://www.netflix.com/gb/title/70276033 "Orphan Black")
-  When Sarah witnesses the suicide of a woman who looks just like her, she assumes the deceased's identity -- and unlocks a world of secrets.
 * [3%](https://www.netflix.com/gb/title/80074220 "3%")
   In a future where the elite inhabit an island paradise far from the crowded slums, you get one chance to join the 3% saved from squalor.
-* [Black Summer S2](https://www.netflix.com/gb/title/80198988)
-  In the dark, early days of a zombie apocalypse, complete strangers band together to find the strength they need to survive and get back to loved ones.
 * [Sisyphus](https://www.netflix.com/gb/title/81397558)
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
 * [MINDHUNTER](https://www.netflix.com/gb/Title/80114855)
@@ -43,7 +39,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 #### Finished
 
+* [Black Summer S2](https://www.netflix.com/gb/title/80198988)
+* [Orphan Black](https://www.netflix.com/gb/title/70276033 "Orphan Black")
 * [The Mist](https://www.netflix.com/gb/Title/80135414)
 * [Colony S3](https://www.netflix.com/gb/title/80077417)
 * [The Fall](https://www.netflix.com/gb/title/70272726)
-* [Snowpiercer S1](https://www.netflix.com/gb/Title/80177458)
