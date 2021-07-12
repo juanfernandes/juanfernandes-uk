@@ -28,6 +28,15 @@ fields:
 - type: text
   name: class
   label: Class
+- name: date
+  type: datetime
+  label: Updated Date
+  description: ''
+  config:
+    required: false
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
 - type: field_group
   name: intro
   label: Intro Section
