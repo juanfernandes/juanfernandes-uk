@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2021-07-12T07:00:00Z
+date: 2021-07-20T07:00:00Z
 class: now
 intro:
   heading: Now
@@ -25,7 +25,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
-
+* [The Sinner](https://www.netflix.com/gb/title/80175802)
+  In a small New York town, a haunted detective hunts for answers about perplexing crimes while wrestling with his own demons.
 * [The Big Bang Theory](https://www.netflix.com/gb/title/70143830)
   Physicists Leonard and Sheldon find their nerd-centric social circle with pals Howard and Raj expanding when aspiring actress Penny moves in next door.
 * [3%](https://www.netflix.com/gb/title/80074220 "3%")
