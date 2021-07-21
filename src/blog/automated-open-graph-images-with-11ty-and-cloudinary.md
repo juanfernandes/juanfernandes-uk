@@ -96,7 +96,7 @@ Essentially I am passing the post title text and image using Nunjucks variables,
 * `co_rgb:eee,c_fit,w_600` this tells cloudinary the colour we want the overlay text to be, places it centred vertically and horizontally and sets a max-width for the text
 * `{{ postImage }}` this variable passes the name of the post image already uploaded to cloudinary
 
-For general posts, like [Notes](/notes), I created a generic image using my brand colour and the text is added in the centre of the image and my logo at the bottom right.
+For general posts, like [Notes](/notes/), I created a generic image using my brand colour and the text is added in the centre of the image and my logo at the bottom right.
 
 For posts where I have used a custom image, I make sure that it's a dark image to make the white text is legible.
 

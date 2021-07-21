@@ -42,7 +42,6 @@ I'm hoping my next contract is a remote one or one that is closer to home. I rea
 - [Netlify Functions for Sending Emails](https://css-tricks.com/netlify-functions-for-sending-emails/ "Netlify Functions for Sending Emails")
 - [A new (and easy) way to hide content accessibly - Zell Liew](https://zellwk.com/blog/hide-content-accessibly/ "A new (and easy) way to hide content accessibly | Zell Liew")
 - [Weeknotes 6 - Mark Boulton](https://markboulton.co.uk/ "Weeknotes 6")
-- [Weeknotes – series 03 episode 01 - Benjy Stanton](https://www.benjystanton.co.uk/blog/weeknotes-series-03-episode-01/ "Weeknotes – series 03 episode 01 – Benjy Stanton")
 - [#014 - Ali Spittel - Developurrs](https://developur.rs/posts/ali-spittel/ "#014 - Ali Spittel - Developurrs")
 - [Week Notes 13 - Andy Bell](https://andy-bell.design/wrote/week-notes-13/ "Week Notes 13 - Andy Bell")
 - [Money, then everything else](https://mailchi.mp/pjrvs/money-then-everything-else?e=d323ecd773 "Money, then everything else")

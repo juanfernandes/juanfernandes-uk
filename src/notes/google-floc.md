@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Opting out of Google's FLoC Network
-description:
+description: This website is now opted out of Google's FLoC Network
 keywords:
 - floc
 - floc network

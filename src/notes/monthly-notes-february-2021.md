@@ -50,7 +50,7 @@ The client is really happy with the new design and we got the go-ahead to start 
 * Blocked Gmail on business domain name emails  
 
   Finally got fed up with all the spam coming from @gmail.com addresses that I decided to block my email server from receiving emails from Gmail accounts. Drastic measures I know but it was needed.
-* Listed my [car for sale](https://www.ebay.co.uk/itm/224357943141 "Mercedes Benz A Class for sale")  
+* Listed my car for sale
 
   Haven't used my car for about a year now since I've been working from home and also not leaving the house, I decided it was time to sell it. It's a great car but we have a family car and I don't need one right now. It has had 84 views but no interest so far
 * Using my new keyboard ([ZSA Moonlander](https://www.zsa.io/moonlander/)) all the time now  

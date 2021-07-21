@@ -29,13 +29,15 @@ date: 2018-11-12T18:00:16.113Z
 tags:
   - personal
 ---
+Update: I now have a [/uses](/uses/) page which will be kept upto date.
+
 I love these posts that show what designers and developers use to do their job - so I thought I'd post my own. It's been a long while since I last wrote anything, so thought this would be an easy one to get me back into writing.
 
 _Update: These are the tools I like to use, it's ones I use when I can, but as a contractor I am used to adapting and using what ever tools the client needs me to use. So don't feel that just because I like a MacBook doesn't mean I can't use Windows._ 😊
 
 ## Web Design
 ### Editor
-My editor of choice is  [Sublime Text 3](https://www.sublimetext.com/ "Sublime Text 3") using the [Seti theme & colour scheme](https://github.com/ctf0/Seti_ST3 "Seti Theme & Colour Scheme") with whole bunch of add-ons and [custom settings](https://gist.github.com/juanfernandes/ba413678c7686f0c96b0#file-03_user_preferences-txt "Sublime Text Preferences"). I'm happy with ST3 and I know there are other editors, like the new VS Code, but ST3 is not broken for me, so I don't need to change it.
+My editor of choice is [Sublime Text 3](https://www.sublimetext.com/ "Sublime Text 3") using the [Seti theme & colour scheme](https://github.com/ctf0/Seti_ST3 "Seti Theme & Colour Scheme") with whole bunch of add-ons and [custom settings](https://gist.github.com/juanfernandes/ba413678c7686f0c96b0#file-03_user_preferences-txt "Sublime Text Preferences"). I'm happy with ST3 and I know there are other editors, like the new VS Code, but ST3 is not broken for me, so I don't need to change it.
 
 ### Terminal
 For terminal emulation I have just started using [iTerm 2](http://iterm2.com/ "iTerm 2") - previously when using Ubuntu, I just used the default terminal - I tried [Hyper](https://hyper.is/ "Hyper") but I didn't get on with it.
@@ -49,7 +51,7 @@ I still have to use FTP for some clients, [FileZilla](https://filezilla-project.
 
 My development browser is Chrome - it has great developer tools and it's faster than Firefox. I have Firefox and Opera for testing. Firefox is my main browser.
 
-For notes and writing, I use [Simplenote](https://simplenote.com "Simplenote"). It's cross-platform, which means all my notes are available on my phone, on the internet and my laptop.
+For notes and writing, I use [Simplenote](https://simplenote.com/ "Simplenote"). It's cross-platform, which means all my notes are available on my phone, on the internet and my laptop.
 
 Slack and Skype for communication. Currently trying out [Franz](https://meetfranz.com/ "Franz") - an app that houses other apps, like Hangouts, Facebook Messenger, Skype and more, all under one app.
 

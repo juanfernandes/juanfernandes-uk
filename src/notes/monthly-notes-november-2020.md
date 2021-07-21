@@ -81,4 +81,3 @@ Due to being quite busy with work, I have paused the courses that I have in prog
 * [Easily Use Design Tokens In Eleventy: HeydonWorks](https://heydonworks.com/article/design-tokens-in-eleventy/ "Easily Use Design Tokens In Eleventy: HeydonWorks")
 * [Avoiding tab styles for navigation by Adam Silver](https://adamsilver.io/articles/avoiding-tab-styles-for-navigation/ "Avoiding tab styles for navigation by Adam Silver")
 * [Accessible, Smooth Scroll-to-top Buttons with Little Code](https://ashleemboyer.com/accessible-smooth-scroll-to-top-buttons-with-little-code "Accessible, Smooth Scroll-to-top Buttons with Little Code")
-* [Netlify Function for Twitch Stream Status](https://dev.to/vonagedev/netlify-function-for-twitch-stream-status-poh "Netlify Function for Twitch Stream Status")

@@ -46,9 +46,7 @@ Have started working on converting existing projects pages into nunjucks templat
 - [Sarah Drasner's bomb site](https://sarah.dev/blog/why-netlify/ "Sarah Drasner's bomb site")
 - [Create a responsive grid layout with no media queries, using CSS Grid - Andy Bell](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ "Create a responsive grid layout with no media queries, using CSS Grid - Andy Bell")
 - [Welcome to JAM stack](https://gomakethings.com/welcome-to-jam-stack/ "Welcome to JAM stack")
-- [Static Site Problems](https://cloudsh.com/jamstack/static_site_problems.html "Static Site Problems")
 
 ### Weeknotes
 - [Weeknotes #7 - Vincent Pickering](https://vincentp.me/articles/2019/05/05/16-20/ "Weeknotes #7")
-- [Weeknotes – series 03 episode 02 – Benjy Stanton](https://www.benjystanton.co.uk/blog/weeknotes-series-03-episode-02/ "Weeknotes – series 03 episode 02 – Benjy Stanton")
 - [Week Notes 14 - Andy Bell](https://andy-bell.design/wrote/week-notes-14/ "Week Notes 14 - Andy Bell")

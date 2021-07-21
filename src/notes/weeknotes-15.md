@@ -64,4 +64,3 @@ So I decided to use add a links section above the header. If a member is already
 
 ### Weeknotes
 - [Weeknotes #9 - Vincent Pickering](https://vincentp.me/articles/2019/05/20/22-00/ "Weeknotes #9 - Vincent Pickering")
-- [Weeknotes – series 03 episode 05 – Benjy Stanton](https://www.benjystanton.co.uk/blog/weeknotes-series-03-episode-05/ "Weeknotes – series 03 episode 05 – Benjy Stanton")
