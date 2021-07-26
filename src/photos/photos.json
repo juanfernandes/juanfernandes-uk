@@ -1,16 +1,16 @@
 {
-  "title": "Ninja Line",
-  "description": "My wife bought a Ninja line for the kids  ",
+  "title": "Photos",
+  "description": "Random photos",
   "keywords": "photos, freelance, contract, front-end developer,  website design, website owners tips tricks, small business website owners, website design tips, website design business",
   "intro": {
     "class": "sml",
     "heading": "Photos"
   },
   "bodyClass": "blog",
-  "postImage": "/v1627229064/IMG_20210725_164307_gewyar.jpg",
-  "alt": "Two slack ropes between two trees with various items to hang off",
-  "caption": "My wife bought a Ninja line for the kids to climb",
+  "postImage": "/v1579162431/trianglify-1.jpg",
+  "alt": "Triangulify pattern",
+  "caption": "",
   "tags": [
-    "photos"
+
   ]
 }
