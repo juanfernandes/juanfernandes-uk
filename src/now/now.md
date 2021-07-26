@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2021-07-20T07:00:00Z
+date: 2021-07-26T07:00:00Z
 class: now
 intro:
   heading: Now
@@ -20,9 +20,11 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Continuing work on the Surbiton Tyre & Wheel website
 
 ### Reading
-
-* Started reading [Later by Stephen King](https://beta.readng.co/book/later-by-stephen-king-yVvaN "Later by Stephen King")
+* Started reading [If It Bleeds by Stephen King](https://oku.club/book/if-it-bleeds-by-stephen-king-glmli "If It Bleeds by Stephen King")
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
+
+#### Finished
+* [Later by Stephen King](https://beta.readng.co/book/later-by-stephen-king-yVvaN "Later by Stephen King")
 
 ### Watching
 * [The Sinner](https://www.netflix.com/gb/title/80175802)
