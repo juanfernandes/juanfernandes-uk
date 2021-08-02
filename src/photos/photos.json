@@ -6,5 +6,11 @@
     "class": "sml",
     "heading": "Photos"
   },
-  "bodyClass": "blog"
+  "bodyClass": "blog",
+  "postImage": "/v1579162431/trianglify-1.jpg",
+  "alt": "Triangulify pattern",
+  "caption": "",
+  "tags": [
+
+  ]
 }
