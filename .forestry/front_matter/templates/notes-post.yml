@@ -32,6 +32,7 @@ fields:
 pages:
 - src/notes/april-may-2020-monthly-notes.md
 - src/notes/bye-bye-gmail.md
+- src/notes/changelog-add-other-links-to-the-footer.md
 - src/notes/changelog-added-webmentions.md
 - src/notes/created-my-first-npm-package.md
 - src/notes/degoogling-is-the-same-as-jailbreaking-apparently.md
