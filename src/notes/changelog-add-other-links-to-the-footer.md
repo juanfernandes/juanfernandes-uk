@@ -21,4 +21,4 @@ Saw a tweet about how websites with RSS should have a link to it in the header t
 
 Well I had a task to add these other links to my site and was going to wait until the redesign, but decided to redesign the footer slightly to include them.
 
-![Shows new footer design to include other links](/v1627985692/footer-links_kkldx4.png)
+![Shows new footer design to include other links](https://res.cloudinary.com/juanfernandes/image/upload/v1627985692/footer-links.png)
