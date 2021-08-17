@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2021-08-02T07:00:00Z
+date: 2021-08-17T07:00:00Z
 class: now
 intro:
   heading: Now
@@ -15,14 +15,20 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   work
 
 ---
+### Personal
+* Spent last week glamping with my wife and children in the beautiful east of Yorkshire
+
 ### Work
 * Continuing work on the Surbiton Tyre & Wheel website
 * Planning the redesign and rebuild of my website
 
 ### Reading
-* Started reading [If It Bleeds by Stephen King](https://oku.club/book/if-it-bleeds-by-stephen-king-glmli "If It Bleeds by Stephen King")
+* Blood, Sweat, and Pixels by Jason Schreier (https://bookwyrm.social/book/106882 "Blood, Sweat, and Pixels")
 * Re-reading [Every Layout](https://bookwyrm.social/book/151462 "Every Layout")
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
+
+#### Finished
+* [If It Bleeds by Stephen King](https://bookwyrm.social/book/151453 "If It Bleeds by Stephen King")
 
 ### Watching
 * [Iron Fist](https://www.netflix.com/gb/title/80002612)
