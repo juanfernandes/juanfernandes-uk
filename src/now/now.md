@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2021-08-17T07:00:00Z
+date: 2021-09-09T07:00:00Z
 class: now
 intro:
   heading: Now
@@ -16,21 +16,28 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Spent last week glamping with my wife and children in the beautiful east of Yorkshire
+
+* Back into work mode now summer is over and kids are back to school
+* I've spent all of August deep diving into the world of [NFTs](https://ethereum.org/en/nft/ "Non-fungible tokens (NFT)")
 
 ### Work
+
 * Continuing work on the Surbiton Tyre & Wheel website
 * Planning the redesign and rebuild of my website
 
 ### Reading
-* Blood, Sweat, and Pixels by Jason Schreier (https://bookwyrm.social/book/106882 "Blood, Sweat, and Pixels")
+
+* [Mr. Mercedes by Stephen King](https://bookwyrm.social/book/36342 "Mr. Mercedes by Stephen King")
+* [Blood, Sweat, and Pixels by Jason Schreier](https://bookwyrm.social/book/106882 "Blood, Sweat, and Pixels")
 * Re-reading [Every Layout](https://bookwyrm.social/book/151462 "Every Layout")
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 #### Finished
+
 * [If It Bleeds by Stephen King](https://bookwyrm.social/book/151453 "If It Bleeds by Stephen King")
 
 ### Watching
+
 * [Iron Fist](https://www.netflix.com/gb/title/80002612)
   Danny Rand resurfaces 15 years after being presumed dead. Now, with the power of the Iron Fist, he seeks to reclaim his past and fulfill his destiny.
 * [Van Helsing](https://www.netflix.com/gb/title/80121349)
@@ -39,12 +46,10 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   In a future where the elite inhabit an island paradise far from the crowded slums, you get one chance to join the 3% saved from squalor.
 * [Sisyphus](https://www.netflix.com/gb/title/81397558)
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
-* [MINDHUNTER](https://www.netflix.com/gb/Title/80114855)
-  In the late 1970s two FBI agents expand criminal science by delving into the psychology of murder and getting uneasily close to all-too-real monsters.
-* [Unsolved](https://www.netflix.com/gb/title/80177416)
-  Ride along for a dramatized version of the real-life investigations into the murders of rap icons Tupac Shakur and Biggie Smalls.
 
 #### Finished
+
+* [The Rap Game UK (S2 and S3)[(https://www.bbc.co.uk/programmes/p07jwq62 "The Rap Game UK ")
 * [The Sinner](https://www.netflix.com/gb/title/80175802)
 * [The Big Bang Theory](https://www.netflix.com/gb/title/70143830)
 * [Black Summer S2](https://www.netflix.com/gb/title/80198988)
