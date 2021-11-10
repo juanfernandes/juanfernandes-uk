@@ -12,9 +12,10 @@ keywords:
 - personal
 - notes
 - monthly notes
-date: 2020-03-06T17:00:00Z
+date: 2020-03-06T17:00:00.000+00:00
 tags:
 - notes
+tweetId: ''
 
 ---
 February was a good month for me as I released my first open-source project - a tiny thing I made - an eleventy shortcode for using cloudinary images in your markdown files.
@@ -55,7 +56,6 @@ Been quite a busy month for freelance work, but it's also my last freelance proj
 * [Saving HTML to localStorage with vanilla JS | Go Make Things](https://gomakethings.com/saving-html-to-localstorage-with-vanilla-js/ "Saving HTML to localStorage with vanilla JS | Go Make Things")
 * [Deep Work Update #3](https://bradfrost.com/blog/post/deep-work-update-3/ "Deep Work Update #3")
 * [Jamstack, IFTTT and Netlify: a power trio - Andy Bell](https://hankchizljaw.com/wrote/jamstack-ifttt-and-netlify:-a-power-trio/ "Jamstack, IFTTT and Netlify: a power trio - Andy Bell")
-* [RSS favorites ･ Robin Rendle](https://www.robinrendle.com/notes/rss-favorites.html "RSS favorites ･ Robin Rendle")
 * [HTTP/2 For Web Developers](https://blog.cloudflare.com/http-2-for-web-developers/ "HTTP/2 For Web Developers")
 * [CSS Variables](https://dev.to/samanthaming/css-variables-8di "CSS Variables")
 * [Minimum viable analytics](https://david.darn.es/article/2020/02/23/minimum-viable-analytics/ "Minimum viable analytics")
