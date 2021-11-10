@@ -15,7 +15,7 @@ keywords:
 - personal
 - freelance
 - work
-date: 2021-08-04T23:00:00Z
+date: 2021-08-04T23:00:00.000+00:00
 tags:
 - notes
 tweetId: "1423228658941050880"
@@ -100,7 +100,6 @@ July was a bit of a mixed bag of events and feelings, including having my second
 * [Naming layout components](https://stuffandnonsense.co.uk/blog/naming-layout-components "Naming layout components")
 * [Design Tokens beyond colors, typography, and spacing.](http://www.didoo.net/2020/01/design-tokens-beyond-colors-typography-and-spacing/ "Design Tokens beyond colors, typography, and spacing.")
 * [Attribute selectors in CSS](https://gomakethings.com/attribute-selectors-in-css/ "Attribute selectors in CSS")
-* [Robin Rendle ･ Oh! What a Joyous Thing](https://www.robinrendle.com/notes/oh!-what-a-joyous-thing.html "Robin Rendle ･ Oh! What a Joyous Thing")
 * [5 most annoying website features I face as a blind person every single day | The Big Hack](https://bighack.org/5-most-annoying-website-features-i-face-as-a-blind-screen-reader-user-accessibility/ "5 most annoying website features I face as a blind person every single day | The Big Hack")
 * [How to load CSS asynchronously](https://gomakethings.com/how-to-load-css-asynchronously/ "How to load CSS asynchronously")
 * [Fleek Makes Deploying and Maintaining an ENS+IPFS Website Easier than Ever](https://medium.com/the-ethereum-name-service/cloudflare-and-fleek-make-ens-ipfs-site-deployment-as-easy-as-ever-262c990a7514 "Fleek Makes Deploying and Maintaining an ENS+IPFS Website Easier than Ever")
