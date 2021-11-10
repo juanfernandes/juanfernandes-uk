@@ -16,10 +16,11 @@ keywords:
 - freelance
 - notes
 - monthly notes
-date: 2020-11-11T00:00:00Z
+date: 2020-11-11T00:00:00.000+00:00
 tags:
 - monthly-notes
 - notes
+tweetId: ''
 
 ---
 October was a surprisingly busy month which is a good thing after months without any work. It's good to be back in work mode but must not forget to continue working on my business, website and side projects.
@@ -55,7 +56,6 @@ My plan now is to get a Monzo Business Account which is a fixed £5 a month, the
 - [Designing With Reduced Motion For Motion Sensitivities — Smashing Magazine](https://www.smashingmagazine.com/2020/09/design-reduced-motion-sensitivities/ "Designing With Reduced Motion For Motion Sensitivities — Smashing Magazine")
 - [Making Accessible Icon Buttons - Stuart Ashworth - Developer, Consultant & Trainer](https://www.stuartashworth.com/blog/making-accessible-icon-buttons/ "Making Accessible Icon Buttons - Stuart Ashworth - Developer, Consultant & Trainer")
 - [Stop using Open Sans – Why your font choice matters](https://www.zeichenschatz.net/typografie/stop-using-open-sans-why-your-font-choice-matters.html "Stop using Open Sans – Why your font choice matters")
-- [The importance of colours in your brand — Hello Im Nik Brand & Marketing Design](https://www.helloimnik.co.uk/coloursimportant/ "The importance of colours in your brand — Hello Im Nik Brand & Marketing Design")
 - [IndieWeb-ifying my personal website - James Mead](https://jamesmead.org/blog/2020-06-27-indieweb-ifying-my-personal-website "IndieWeb-ifying my personal website - James Mead")
 - [A quintessential blogging mistake.](https://daverupert.com/2020/10/a-quintessential-blogging-mistake/ "A quintessential blogging mistake.")
 - [The :focus-visible Trick | CSS-Tricks](https://css-tricks.com/the-focus-visible-trick/ "The :focus-visible Trick | CSS-Tricks")
