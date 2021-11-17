@@ -78,7 +78,7 @@ You need to include this code on all the pages that you want to be able to use t
 
 Let's go back to the SVGs page - Pages > svgs and let's add an icon.
 
-![Adding an SVG icon](/v1579162293/svgs-1.png "Adding an SVG icon")
+{% cloudinaryImage "/v1579162293/svgs-1.png", "q_auto,f_auto", "Adding an SVG icon" %}
 
 The SVG_icons.html template gives you the following fields:
 
@@ -108,7 +108,7 @@ Include the following code on any template where you want the user to be able to
 
 By adding the above code in a template, in Perch, you can use an SVG icon from the svgs.php file.
 
-![Adding an SVG icon to your content](/v1579162293/svgs-2.png "Adding an SVG icon to your content")
+{% cloudinaryImage "/v1579162293/svgs-2.png", "q_auto,f_auto", "Adding an SVG icon to your content" %}
 
 You should now be able to add your own SVG icons to your SVG sprite via Perch CMS.
 
