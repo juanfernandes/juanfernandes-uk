@@ -67,4 +67,4 @@ I'm hoping next week I will be able to get more work done on the online shop pro
 - [Mirrorworld](https://adactio.com/journal/14844 "Mirrorworld")
 - [Setting up my new Mac (Part 2—the migration process)](https://zellwk.com/blog/mac-setup-2/ "Setting up my new Mac (Part 2—the migration process)")
 - [Week Notes 6 - Andy Bell](https://andy-bell.design/wrote/week-notes-6/ "Week Notes 6 - Andy Bell")
-- [Getting help from your worst enemy](https://benbrignell.com/journal/2019/27/02/getting-help-from-your-worst-enemy "Getting help from your worst enemy")
+- [Getting help from your worst enemy](https://benbrignell.com/blogs/journal/getting-help-from-your-worst-enemy "Getting help from your worst enemy")
