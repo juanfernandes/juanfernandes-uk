@@ -13,10 +13,11 @@ keywords:
 - personal notes
 - work
 - monthly notes
-date: 2021-01-04T00:00:00Z
+date: 2021-01-04T00:00:00.000+00:00
 tags:
 - monthly-notes
 - notes
+tweetId: ''
 
 ---
 **Not a very busy month as the year comes to an end and things slow down ready for the Christmas break. Spent quite a bit of time working on improving my website by forcing myself to adhere to my strict Content Security Policies.**
@@ -41,7 +42,7 @@ tags:
 * [The process and reasons behind With Jack's rebrand - Bootstrapped Digest](https://ashleybaxter.transistor.fm/episodes/the-process-and-reasons-behind-with-jacks-rebrand)
 * [Hasty Treat - User Role Systems - Syntax FM ](https://syntax.fm/show/055/hasty-treat-user-role-systems)
 * [Career Paths in Tech - Ladybug Podcast](https://www.ladybug.dev/episodes/career-paths-in-tech?rq=Career%20Paths)
-* [Brian Rinaldi - That's my JAMstack](https://thatsmyjamstack.com/posts/brian-rinaldi/)
+* [Brian Rinaldi - That's my JAMstack](https://thatsmyjamstack.com/episodes/brian-rinaldi/)
 * [Episode 4: Dinner at the Afterglow - Lore](https://www.lorepodcast.com/episodes/4)
 * [Hasty Treat - Domain Management - Syntax FM](https://syntax.fm/show/053/hasty-treat-domain-management)
 * [Post-launch problems revisited - Bootstrapped Digest](https://ashleybaxter.transistor.fm/episodes/post-launch-problems-revisited)
