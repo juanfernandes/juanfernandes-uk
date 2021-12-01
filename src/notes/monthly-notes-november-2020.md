@@ -17,6 +17,7 @@ date: 2020-12-04T00:00:00.000+00:00
 tags:
 - notes
 - monthly-notes
+tweetId: ''
 
 ---
 **Don't you hate when you go from having no work to then having way too much work and it starts pilling up on you? That was November for me.**
@@ -47,7 +48,7 @@ Due to being quite busy with work, I have paused the courses that I have in prog
 
 ## Listening
 
-* [That's my JAMstack - James Quick on ejecting from Wordpress, Gatsby, Netlify and more](https://thatsmyjamstack.com/posts/james-quick/)
+* [That's my JAMstack - James Quick on ejecting from Wordpress, Gatsby, Netlify and more](https://thatsmyjamstack.com/episodes/james-quick/)
 * [Build Your SaaS – bootstrap in 2020 - Your revenue forecast is wrong](https://saas.transistor.fm/episodes/your-revenue-forecast-is-wrong)
 * [The Kingcast - The Running Man with Kumail Nanjiani](https://radiopublic.com/the-kingcast-G2p2kv/s1!aef36)
 
