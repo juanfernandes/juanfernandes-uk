@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: '2018: A year in review'
+title: '2018: Year in review'
 description: Twenty eighteen year in review post where I talk about what went well
   and what didn't go so well. Covering some work and personal stuff.
 keywords:
