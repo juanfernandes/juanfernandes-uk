@@ -1,20 +1,21 @@
 ---
 layout: layouts/post.njk
 title: Twenty Seventeen
-description: >-
-  My 2017 year in review post - what went well, what didn't go so well. I look
-  into work, health, personal and look ahead for 2018.
+description: My 2017 year in review post - what went well, what didn't go so well.
+  I look into work, health, personal and look ahead for 2018.
 keywords:
-  - year in review
-  - '2017'
-  - twenty seventeen
-  - work
-  - contracts
-  - health
-postImage: /v1579162296/suffolk-coast-2017.jpg
-date: 2018-01-09T13:21:53.341Z
+- year in review
+- '2017'
+- twenty seventeen
+- work
+- contracts
+- health
+postImage: "/v1579162296/suffolk-coast-2017.jpg"
+date: 2018-01-09T13:21:53.341+00:00
 tags:
-  - personal
+- year-in-review
+- personal
+
 ---
 Last year was the first time I wrote a year in review post and I've been looking forward to reviewing twenty-seventeen.
 
