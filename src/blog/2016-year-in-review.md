@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: 2016 Year in review
+title: '2016: Year in review'
 description: This is my first ever year in review post, let's see how it went! 2016
   was not a great year, in general for a lot of reasons, but it hasn't been the best
   of years for me either. In this first ever 'year review' post, I'm going to look
