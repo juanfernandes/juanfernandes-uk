@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Twenty Seventeen
+title: '2017: Year in review'
 description: My 2017 year in review post - what went well, what didn't go so well.
   I look into work, health, personal and look ahead for 2018.
 keywords:
