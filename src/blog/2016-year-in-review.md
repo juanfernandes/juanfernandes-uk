@@ -1,18 +1,19 @@
 ---
 layout: layouts/post.njk
 title: 2016 Year in review
-description: >-
-  This is my first ever year in review post, let's see how it went! 2016 was not
-  a great year, in general for a lot of reasons, but it hasn't been the best of
-  years for me either. In this first ever 'year review' post, I'm going to look
-  back at my year, review what was good, what wasn't and what I want to achieve
-  in 2017.
+description: This is my first ever year in review post, let's see how it went! 2016
+  was not a great year, in general for a lot of reasons, but it hasn't been the best
+  of years for me either. In this first ever 'year review' post, I'm going to look
+  back at my year, review what was good, what wasn't and what I want to achieve in
+  2017.
 keywords:
-  - personal
-postImage: /v1579162296/nduplkyrxqu-elena-prokofyeva-min.jpg
-date: 2017-01-09T15:30:18.863Z
+- personal
+postImage: "/v1579162296/nduplkyrxqu-elena-prokofyeva-min.jpg"
+date: 2017-01-09T15:30:18.863+00:00
 tags:
-  - personal
+- year-in-review
+- personal
+
 ---
 They must have liked me at G2G3 Digital, because they offered me a permanent role, which I gladly accepted, but working out of their London office, instead of Sheffield. But shortly after this, Capita, who owned G2G3, bought another agency and G2G3 was no more, we became OrangeBus. Ninety percent of the Sheffield staff were made redundant. :(
 
