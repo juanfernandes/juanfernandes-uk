@@ -24,6 +24,7 @@ keywords:
 postImage: "/v1579162296/bawdsey-2018.jpg"
 date: 2019-01-03T17:30:47.682+00:00
 tags:
+- year-in-review
 - personal
 
 ---
