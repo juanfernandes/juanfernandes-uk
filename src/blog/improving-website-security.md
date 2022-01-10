@@ -11,8 +11,8 @@ keywords:
 - security headers
 - web security
 - netlify
-customPostImg: 'intro--code-img'
-postImage: 'v1579162296/computer-18363301920-1.jpg'
+customPostImg: intro--code-img
+postImage: v1579162296/computer-18363301920-1.jpg
 date: 2020-11-20T16:00:00.000+00:00
 tags:
 - eleventy
@@ -101,7 +101,7 @@ I hope you found this post useful. I have listed the resources I used bellow to 
 * [Web Security - Mozilla guide](https://infosec.mozilla.org/guidelines/web_security)
 
 ### Tools
-
+* [**NEW** - Bulk Page Speed Test](https://www.experte.com/pagespeed)
 * [Mozilla Observatory](https://observatory.mozilla.org/)
 * [Security Headers](https://securityheaders.com/)
 * [SSL Labs](https://www.ssllabs.com/ssltest/)
