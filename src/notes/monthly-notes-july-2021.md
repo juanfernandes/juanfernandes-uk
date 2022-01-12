@@ -72,7 +72,7 @@ July was a bit of a mixed bag of events and feelings, including having my second
 * [Principles - Piccalilli](https://piccalil.li/cube-css/principles/ "Principles - Piccalilli")
 * [Displaying the Current Step with CSS Counters | CSS-Tricks](https://css-tricks.com/displaying-the-current-step-with-css-counters/ "Displaying the Current Step with CSS Counters | CSS-Tricks")
 * [Monetizing Your Blog With Coil](https://chenhuijing.com/blog/monetizing-your-blog-with-coil/ "Monetizing Your Blog With Coil")
-* [Meta Element: theme-color › Martin Schneider — Frontend Developer](https://martinschneider.me/articles/meta-tag-theme-color/ "Meta Element: theme-color › Martin Schneider — Frontend Developer")
+* [Meta Element: theme-color › Martin Schneider — Frontend Developer](https://martinschneider.me/articles/meta-element-theme-color/ "Meta Element: theme-color")
 * [Leaner feature branches](https://sebastiandedeyne.com/leaner-feature-branches/ "Leaner feature branches")
 * [The Large, Small, and Dynamic Viewports](https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/ "The Large, Small, and Dynamic Viewports")
 * [Downloading a website as HTML files](https://www.tempertemper.net/blog/downloading-a-website-as-html-files "Downloading a website as HTML files")
