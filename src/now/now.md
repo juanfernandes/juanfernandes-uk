@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2022-01-10T08:00:00Z
+date: 2022-01-19T08:00:00Z
 class: now
 intro:
   heading: Now
@@ -16,8 +16,9 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Been over seeing our garden remake project - new driveway, patio and outdide entertainment area
-* I've been deep diving into the world of [NFTs](https://ethereum.org/en/nft/ "Non-fungible tokens (NFT)") since August now and it's been an interesting journey so far
+
+* Part two of the garden project, the entertainment area, has began
+* Researching NFT projects that I may buy into
 
 ### Work
 
@@ -32,8 +33,10 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ### Watching
 
-* [iZombie](https://www.netflix.com/gb/title/80027159 "iZombie")
+* [The Serpent](https://www.netflix.com/gb/title/80206099 "The Serpent")
   A medical student-turned-zombie tries to retain her humanity by eating brains at the morgue and finds she has an uncanny new gift for solving crimes.
+* [It's Always Sunny in Philadelphia](https://www3.stage.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
+  A group of narcissistic friends runs a Philadelphia bar where their juvenile behavior is hysterically horrible.
 * [3%](https://www.netflix.com/gb/title/80074220 "3%")
   In a future where the elite inhabit an island paradise far from the crowded slums, you get one chance to join the 3% saved from squalor.
 * [Sisyphus](https://www.netflix.com/gb/title/81397558)
@@ -41,10 +44,10 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 #### Finished
 
+* [iZombie](https://www.netflix.com/gb/title/80027159 "iZombie")
 * [The I-Land](https://www.netflix.com/gb/title/80993062)
 * [Dark Tourist](https://www.netflix.com/gb/title/80189791)
 * [Young Sheldon](https://www.netflix.com/gb/title/80192612)
 * [The Office US](https://www.netflix.com/gb/title/70136120)
 * [Hemlock Grove](https://www.netflix.com/gb/title/70242310)
 * [Midnight Mass](https://www.netflix.com/gb/title/81083626)
-* [Brand New Cherry Flavor](https://www.netflix.com/gb/title/80233374)
