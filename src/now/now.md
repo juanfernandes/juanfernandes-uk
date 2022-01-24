@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2022-01-19T08:00:00Z
+date: 2022-01-24T08:00:00Z
 class: now
 intro:
   heading: Now
@@ -17,13 +17,13 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 ---
 ### Personal
 
-* Part two of the garden project, the entertainment area, has began
-* Researching NFT projects that I may buy into
+* The decking for the entertainment area has been done, but not much progress last week as the carpenter had a week off. This week the sides and roof work should start
+* Still no progress on the planning application for our loft conversion
+* Bough into a new NFT project - [Moon Ape Labs](https://moonapelabs.io/ "Moon Ape Labs NFT")
 
 ### Work
 
-* Finished work on a one page website for an existing client
-* Started working on redesign of a clients small website
+* Made some progress on the website redesign build for my clients lifts business 
 
 ### Reading
 
@@ -33,6 +33,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ### Watching
 
+* [Homeland](https://www.netflix.com/gb/title/70180387 "Homeland")
+  CIA analyst Carrie Mathison struggles with mental health and family issues while leading the war against terrorism in this political thriller series.
 * [The Serpent](https://www.netflix.com/gb/title/80206099 "The Serpent")
   A medical student-turned-zombie tries to retain her humanity by eating brains at the morgue and finds she has an uncanny new gift for solving crimes.
 * [It's Always Sunny in Philadelphia](https://www3.stage.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
@@ -50,4 +52,3 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * [Young Sheldon](https://www.netflix.com/gb/title/80192612)
 * [The Office US](https://www.netflix.com/gb/title/70136120)
 * [Hemlock Grove](https://www.netflix.com/gb/title/70242310)
-* [Midnight Mass](https://www.netflix.com/gb/title/81083626)
