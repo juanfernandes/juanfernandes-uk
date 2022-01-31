@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2022-01-24T08:00:00Z
+date: 2022-01-31T08:00:00Z
 class: now
 intro:
   heading: Now
@@ -17,13 +17,13 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 ---
 ### Personal
 
-* The decking for the entertainment area has been done, but not much progress last week as the carpenter had a week off. This week the sides and roof work should start
+* The roof for the entertainment area is almost done. This week the carpenter will finish the roof, treat the floor and do the walls (back and sides) 
 * Still no progress on the planning application for our loft conversion
-* Bough into a new NFT project - [Moon Ape Labs](https://moonapelabs.io/ "Moon Ape Labs NFT")
+* Bough into a 2 new NFT projects - [Wolf of Crypto](https://wolfofcrypto.co/ "Wolf of Crypto") & [Primate 69 Club](https://www.primate69club.com/ "Primate 69 Club") - check them out
 
 ### Work
 
-* Made some progress on the website redesign build for my clients lifts business 
+* Continuing to work on the website redesign build for my clients lifts business
 
 ### Reading
 
@@ -33,10 +33,10 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ### Watching
 
+* [The Sinner S4](https://www.netflix.com/gb/title/80175802 "The Sinner")
+  In a small New York town, a haunted detective hunts for answers about perplexing crimes while wrestling with his own demons.
 * [Homeland](https://www.netflix.com/gb/title/70180387 "Homeland")
   CIA analyst Carrie Mathison struggles with mental health and family issues while leading the war against terrorism in this political thriller series.
-* [The Serpent](https://www.netflix.com/gb/title/80206099 "The Serpent")
-  A medical student-turned-zombie tries to retain her humanity by eating brains at the morgue and finds she has an uncanny new gift for solving crimes.
 * [It's Always Sunny in Philadelphia](https://www3.stage.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
   A group of narcissistic friends runs a Philadelphia bar where their juvenile behavior is hysterically horrible.
 * [3%](https://www.netflix.com/gb/title/80074220 "3%")
@@ -46,6 +46,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 #### Finished
 
+* [The Serpent](https://www.netflix.com/gb/title/80206099 "The Serpent")
 * [iZombie](https://www.netflix.com/gb/title/80027159 "iZombie")
 * [The I-Land](https://www.netflix.com/gb/title/80993062)
 * [Dark Tourist](https://www.netflix.com/gb/title/80189791)
