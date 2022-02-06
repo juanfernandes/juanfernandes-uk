@@ -38,6 +38,7 @@ fields:
   label: Tweet ID
 pages:
 - src/blog/2020-year-in-review.md
+- src/blog/2021-year-in-review.md
 - src/blog/automated-open-graph-images-with-11ty-and-cloudinary.md
 - src/blog/exploring-the-benefits-of-http-2.md
 - src/blog/using-defer-to-improve-performance.md
