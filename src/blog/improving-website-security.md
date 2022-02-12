@@ -97,7 +97,7 @@ I hope you found this post useful. I have listed the resources I used bellow to 
 * [X Content Type Options documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options)
 * [Netlify Headers](https://notes.elmiko.dev/2019/06/27/netlify-headers.html)
 * [X Content Type Options on KeyCDN](https://www.keycdn.com/support/x-content-type-options)
-* [Improve your Mozilla observatory score](https://tomodwyer.com/posts/2017-08-20-improve-your-mozilla-observatory-score)
+* [Improve your Mozilla observatory score](https://www.tomodwyer.com/posts/2017-08-20-improve-your-mozilla-observatory-score/)
 * [Web Security - Mozilla guide](https://infosec.mozilla.org/guidelines/web_security)
 
 ### Tools

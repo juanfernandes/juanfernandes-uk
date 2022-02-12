@@ -38,7 +38,7 @@ But I knew this was only a short (6 weeks) contact as they had already hired a f
 ## Personal
 Worked on my [personal website](https://juanfernandes.uk "Personal website of Juan Fernandes") and setup on [Netlify](https://netlify.com "Netlify") while I'm developing, had some issues with ```ruby sass``` and ```grunt``` and ```package.json``` build commands, fixed by upgrading to ```node sass``` - because ruby sass is quite old and has been deprecated on Netlify. I was having issues with getting Netlify to run grunt and eleventy to build my website,
 
-Spent some time trying to get [11ty](https://11ty.io "Eleventy Static Site Generator"), _grunt_ and watching changes to work and without installing another _npm_ module - I don't believe it's possible. I've just settled for running iTerm split into 3 panes one running ```eleventy --serve```, ```grunt dev``` (watch etc) and another for _git_ etc.
+Spent some time trying to get [11ty](https://www.11ty.dev/ "Eleventy Static Site Generator"), _grunt_ and watching changes to work and without installing another _npm_ module - I don't believe it's possible. I've just settled for running iTerm split into 3 panes one running ```eleventy --serve```, ```grunt dev``` (watch etc) and another for _git_ etc.
 
 Have started working on converting existing projects pages into nunjucks templates.
 

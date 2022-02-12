@@ -70,7 +70,7 @@ Finally, to get into the more advanced side of home automation, it appears you n
 ## What's next?
 My plan, when I started this venture, was to be able to switch on/off the main lights in some of the rooms and the hallways. This proved to be more difficult than I was hoping for because it involves electricity and I'm not an electrician and looking at the wiring made no sense at all to me, especially when you have a 3 way light switch on one side of the room and a 2 way on the other.
 
-I bought some of these [Z-Wave Fibaro Single Switch](https://www.vesternet.com/z-wave-fibaro-single-switch-2-gen5 "Z-Wave Fibaro Single Switch"), but they won't fit in a standard box behind the light switches. I also bought some of these [Z-Wave TKB Double Relay Wall](https://www.vesternet.com/z-wave-tkb-double-relay-wall-switch-tz57-gen5 "Z-Wave TKB Double Relay Wall") light switches but again, too complex for me to figure out.
+I bought some of these [Z-Wave Fibaro Single Switch](https://www.vesternet.com/products/z-wave-fibaro-single-switch-2-gen5 "Z-Wave Fibaro Single Switch"), but they won't fit in a standard box behind the light switches. I also bought some of these [Z-Wave TKB Double Relay Wall](https://www.vesternet.com/products/z-wave-tkb-double-relay-wall-switch-tz57-gen5 "Z-Wave TKB Double Relay Wall") light switches but again, too complex for me to figure out.
 
 I'd like to get some of the main lights automated - especially the outside lights, but I'm going to wait for the next time I have an electrician coming round and will get them to wire some of the Fibaro modules in for me.
 

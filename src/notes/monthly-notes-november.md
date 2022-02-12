@@ -30,7 +30,7 @@ November saw the end of my contract at Signet and the start of a new contract at
 
 
 ## Freelance
-- Started doing some freelance work for the [LeManoosh](https://www.lemanoosh.com "LeManoosh") website - they needed a helping hand with some front-end fixes and we'll be working on updates as well soon.
+- Started doing some freelance work for the [LeManoosh](https://lemanoosh.com/ "LeManoosh") website - they needed a helping hand with some front-end fixes and we'll be working on updates as well soon.
 
 - I also did some work for a day nursery - a new client - they have an existing website that uses Joomla as their CMS. They needed help adding a new page and updating content to reflect their third nursery that opened in September.  We ended up having to move the website because it was still being hosted by the original web designer on their personal server and we couldn't get access to the backend.
 
@@ -45,11 +45,11 @@ November saw the end of my contract at Signet and the start of a new contract at
 - [Principles for professional front end development](https://gomakethings.com/principles-for-professional-front-end-development/ "Principles for professional front end development")
 - [Understanding Homebrew by Zell](https://zellwk.com/blog/homebrew/ "Understanding Homebrew by Zell")
 - [Show your leadership skills, even if you're not leading a team](https://dev.to/yashints/show-your-leadership-skills-even-if-you-re-not-leading-a-team-4d0n "Show your leadership skills, even if you're not leading a team")
-- [Every Layout - how it works by Andy Bell](https://hankchizljaw.com/wrote/every-layout-how-it-works/ "Every Layout - how it works by Andy Bell")
-- [Every Layout Is Released: Some Facts - HeydonWorks](http://www.heydonworks.com/article/every-layout-is-released-some-facts "Every Layout Is Released: Some Facts - HeydonWorks")
+- [Every Layout - how it works by Andy Bell](https://archive.hankchizljaw.com/wrote/every-layout-how-it-works/ "Every Layout - how it works by Andy Bell")
+- [Every Layout Is Released: Some Facts - HeydonWorks](https://heydonworks.com/article/every-layout-is-released:-some-facts/ "Every Layout Is Released: Some Facts - HeydonWorks")
 - [5 Rules for Choosing the Right Words on Button Labels](https://uxmovement.com/buttons/5-rules-for-choosing-the-right-words-on-button-labels/ "5 Rules for Choosing the Right Words on Button Labels")
 - [Fitness, Freelancing & Motivation by Mike Hince](https://mikehince.com/thoughts/fitness-and-motivation/ "Fitness, Freelancing & Motivation by Mike Hince")
-- [My workflow for government design projects by Chris Armstrong](http://chrisarmstrong.io/government-design-workflow.html "My workflow for government design projects by Chris Armstrong")
+- [My workflow for government design projects by Chris Armstrong](https://chrisarmstrong.io/Government-Design-Workflow/ "My workflow for government design projects by Chris Armstrong")
 
 ## Videos Watched
 [Style Lists with New CSS — Bullets, Numbers, Markers](https://youtu.be/2awepiNoaZI "Style Lists with New CSS — Bullets, Numbers, Markers")

@@ -17,7 +17,7 @@ tags:
 ---
 They must have liked me at G2G3 Digital, because they offered me a permanent role, which I gladly accepted, but working out of their London office, instead of Sheffield. But shortly after this, Capita, who owned G2G3, bought another agency and G2G3 was no more, we became OrangeBus. Ninety percent of the Sheffield staff were made redundant. :(
 
-In September, a colleague and I got to work on an awesome project - a hi-fidelity prototype proof of concept app for [GlobeCast](http://www.globecast.com/ "GlobeCast"). This was a really quick turnaround project, but I got a chance to implement a basic ServiceWorker script so that the app would work offline. I plan on doing a case study for the GlobeCast work.
+In September, a colleague and I got to work on an awesome project - a hi-fidelity prototype proof of concept app for [GlobeCast](https://www.globecast.com/ "GlobeCast"). This was a really quick turnaround project, but I got a chance to implement a basic ServiceWorker script so that the app would work offline. I plan on doing a case study for the GlobeCast work.
 
 Sadly, myself and a few others from the London office were made redundant just before Christmas and now I'm back to working freelance full-time.
 

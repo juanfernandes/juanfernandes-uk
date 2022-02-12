@@ -41,7 +41,7 @@ I hope you and your family are all well and keeping safe. See you on the other s
 
 ## Articles Read
 - [The Real Dark Web](https://www.sonniesedge.net/posts/real-dark-web/ "The Real Dark Web")
-- [Shipping - Andy Bell](https://hankchizljaw.com/wrote/shipping/ "Shipping - Andy Bell")
+- [Shipping - Andy Bell](https://archive.hankchizljaw.com/wrote/shipping/ "Shipping - Andy Bell")
 - [Create custom keyboard accessible radio buttons | a11y with Lindsey](https://www.a11ywithlindsey.com/blog/create-custom-keyboard-accessible-radio-buttons/ "Create custom keyboard accessible radio buttons | a11y with Lindsey")
 - [IR35 and it’s possible effect](https://cgcsoftware.co.uk/2019/11/ir35-and-its-possible-effect/ "IR35 and it’s possible effect")
 - [Using Sass to Control Scope With BEM Naming | CSS-Tricks](https://css-tricks.com/using-sass-control-scope-bem-naming/ "Using Sass to Control Scope With BEM Naming | CSS-Tricks")

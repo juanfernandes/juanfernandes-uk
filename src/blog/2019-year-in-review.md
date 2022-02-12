@@ -156,7 +156,7 @@ I don't do New Year's resolutions because I believe you don't need to wait for a
 ### Year in review posts I've read
 - [Twenty Nineteen - Dave Rupert](https://daverupert.com/2019/12/twenty-nineteen/ "Twenty Nineteen - Dave Rupert")
 - [2010-2019 - Dan Davies](https://www.dan-davies.co.uk/2010-2019 "2010-2019 - Dan Davies")
-- [2019: A year in review - Andy Bell](https://hankchizljaw.com/wrote/2019:-a-year-in-review/ "2019: A year in review - Andy Bell")
+- [2019: A year in review - Andy Bell](https://archive.hankchizljaw.com/wrote/2019:-a-year-in-review/ "2019: A year in review - Andy Bell")
 - [A year in review: 2019 - Max Böck](https://mxb.dev/blog/year-in-review-2019/ "A year in review: 2019 - Max Böck")
 - [Yearnotes 2019 - Alice Bartlett](https://alicebartlett.co.uk/blog/yearnotes-2019 "Yearnotes 2019 - Alice Bartlett")
 - [2019 in review - Simon Collison](https://colly.com/journal/twenty-nineteen-in-review "2019 in review - Simon Collison")

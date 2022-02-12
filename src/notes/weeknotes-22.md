@@ -24,7 +24,7 @@ This weeknotes has been in my drafts for a few weeks now. It only takes getting 
 
 ## Updates
 
-The new version of this website is live, it has been rebuilt using a static site generator, [Eleventy](https://www.11ty.io/). It's the same design with minor tweaks, but this update was mainly about the underlying structure - moving away from PHP and PerchCMS to Nunjucks and [NetlifyCMS](https://netlifycms.org), as well as hosting it on [Netlify](https://www.netlify.com).
+The new version of this website is live, it has been rebuilt using a static site generator, [Eleventy](https://www.11ty.dev/). It's the same design with minor tweaks, but this update was mainly about the underlying structure - moving away from PHP and PerchCMS to Nunjucks and [NetlifyCMS](https://netlifycms.org), as well as hosting it on [Netlify](https://www.netlify.com).
 
 I had to manually copy over all my blog posts and notes as I couldn't figure out a way to export them from Perch. It wasn't too bad as I didn't have that many blog posts. The plan was to convert the RSS feed to static HTML and then use that as the start for the new static site pages - that's when I realised my RSS feed wasn't showing full page content, just the excerpt but I couldn't get the PHP template to output the full content in the end.
 
@@ -54,7 +54,7 @@ I really need to nail down a routine for creating more content on here, especial
 - [Reflecting on London’s first JAMstack conference](https://dev.to/philhawksworth/reflecting-on-london-s-first-jamstack-conference-13e9 "Reflecting on London’s first JAMstack conference")
 - [The Encryption Debate Is Over - Dead At The Hands Of Facebook](https://www.forbes.com/sites/kalevleetaru/2019/07/26/the-encryption-debate-is-over-dead-at-the-hands-of-facebook/ "The Encryption Debate Is Over - Dead At The Hands Of Facebook")
 - [Accessible Icon Buttons](https://sarasoueidan.com/blog/accessible-icon-buttons/ "Accessible Icon Buttons")
-- [My old clothes don’t fit - Derek Sivers](https://sivers.org/clothes "My old clothes don’t fit | Derek Sivers")
+- [My old clothes don’t fit - Derek Sivers](https://sive.rs/clothes "My old clothes don’t fit | Derek Sivers")
 - [How to Use Sass Mixins](http://scotch.io/tutorials/how-to-use-sass-mixins "How to Use Sass Mixins")
 - [Communication is everything - Dan Davies](https://www.dan-davies.co.uk/communication-is-everything "Communication is everything - Dan Davies")
 - [Designing a portfolio with intent](https://medium.com/@andrewcouldwell/designing-a-portfolio-with-intent-e5a74de9722 "Designing a portfolio with intent")

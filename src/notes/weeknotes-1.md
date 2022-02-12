@@ -34,7 +34,7 @@ This week I finished reading [JavaScript for Web Designers by Mat Marquis](https
 ## What didn't go well
 
 ### This website
-This week I didn’t manage to do any work on my website. I’m currently converting it from PHP and CMS to a static site, using [Eleventy](https://www.11ty.io/ "Eleventy") as my static site generator. I originally built my site in PHP and used Perch CMS - this was done so I could use my site to test new Perch features that I could use on client websites, but I find I’m not doing any small freelance jobs at the moment and most likely won't - so I decided to learn something new and deep dive into Eleventy.
+This week I didn’t manage to do any work on my website. I’m currently converting it from PHP and CMS to a static site, using [Eleventy](https://www.11ty.dev/ "Eleventy") as my static site generator. I originally built my site in PHP and used Perch CMS - this was done so I could use my site to test new Perch features that I could use on client websites, but I find I’m not doing any small freelance jobs at the moment and most likely won't - so I decided to learn something new and deep dive into Eleventy.
 
 I’ve waiting to finish my site so I can start writing these weeknotes and blogging more, but I think its just been an excuse!
 
@@ -43,7 +43,7 @@ I’ve waiting to finish my site so I can start writing these weeknotes and blog
 - [Redesign Diary: Conundrum](https://paulrobertlloyd.com/2018/10/conundrum "Redesign Diary: Conundrum")
 - [Should I stay or should I go?](https://blog.honest.work/should-i-stay-or-should-i-go/ "Should I stay or should I go?")
 - [Bye, Bye, Google](https://defn.io/2019/02/04/bye-bye-google/ "Bye, Bye, Google")
-- [Quick Tip #008—Trigger a Netlify Build Every Day with IFTTT](https://www.11ty.io/docs/quicktips/netlify-ifttt/ "Trigger a Netlify Build Every Day with IFTTT")
+- [Quick Tip #008—Trigger a Netlify Build Every Day with IFTTT](https://www.11ty.dev/docs/quicktips/netlify-ifttt/ "Trigger a Netlify Build Every Day with IFTTT")
 - [Revisiting the abbr element](https://bitsofco.de/revisiting-the-abbr-element/ "Revisiting the abbr element")
 - [Reflecting on My Failure to Build a Billion-Dollar Company](https://medium.com/@shl/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7 "Reflecting on My Failure to Build a Billion-Dollar Company")
 - [The Dark Side of the Grid (Part 1)](https://www.matuzo.at/blog/the-dark-side-of-the-grid/ "The Dark Side of the Grid (Part 1)")

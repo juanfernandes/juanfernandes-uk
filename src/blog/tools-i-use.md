@@ -40,7 +40,7 @@ _Update: These are the tools I like to use, it's ones I use when I can, but as a
 My editor of choice is [Sublime Text 3](https://www.sublimetext.com/ "Sublime Text 3") using the [Seti theme & colour scheme](https://github.com/ctf0/Seti_ST3 "Seti Theme & Colour Scheme") with whole bunch of add-ons and [custom settings](https://gist.github.com/juanfernandes/ba413678c7686f0c96b0#file-03_user_preferences-txt "Sublime Text Preferences"). I'm happy with ST3 and I know there are other editors, like the new VS Code, but ST3 is not broken for me, so I don't need to change it.
 
 ### Terminal
-For terminal emulation I have just started using [iTerm 2](http://iterm2.com/ "iTerm 2") - previously when using Ubuntu, I just used the default terminal - I tried [Hyper](https://hyper.is/ "Hyper") but I didn't get on with it.
+For terminal emulation I have just started using [iTerm 2](https://iterm2.com/ "iTerm 2") - previously when using Ubuntu, I just used the default terminal - I tried [Hyper](https://hyper.is/ "Hyper") but I didn't get on with it.
 
 I have always used Bash but now on the MBP, I'm trying out [Fish shell](https://fishshell.com/ "Fish shell") and [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish "Oh My Fish").
 

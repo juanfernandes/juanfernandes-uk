@@ -56,7 +56,7 @@ A few highlights include:
 - [Create a user controlled dark or light mode by Andy Bell](https://andy-bell.design/wrote/create-a-user-controlled-dark-or-light-mode/ "Create a user controlled dark or light mode by Andy Bell")
 - [Weeknotes #7 by Dave Rupert](https://daverupert.com/2019/06/weeknotes-7/ "Weeknotes #7 by Dave Rupert")
 - [Eating my own dog food by Andy Bell](https://andy-bell.design/wrote/eating-my-own-dog-food/ "Eating my own dog food by Andy Bell")
-- [doors and windows and what’s real by Derek Sivers](https://sivers.org/dw "doors and windows and what’s real by Derek Sivers")
+- [doors and windows and what’s real by Derek Sivers](https://sive.rs/dw "doors and windows and what’s real by Derek Sivers")
 - [Keeping it simple with image alt text for accessibility by Andy Bell](https://andy-bell.design/wrote/keeping-it-simple-with-image-alt-text-for-accessibility/ "Keeping it simple with image alt text for accessibility by Andy Bell")
 - [Why Did I Have Difficulty Learning React?](https://snook.ca/archives/javascript/difficulty-with-react "Why Did I Have Difficulty Learning React?")
 - [Leggo My Pattern Library Analogy](https://snook.ca/archives/html_and_css/leggo-my-analogy "Leggo My Pattern Library Analogy")

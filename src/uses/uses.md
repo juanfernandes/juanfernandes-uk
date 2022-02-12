@@ -36,7 +36,7 @@ These are the tools I like to use, it's ones I use when I can, but as a contract
 - My mouse is an MX Master 1 - its the most expensive mouse I have ever bought, but has been worth every penny
 - My monitor is a 21" Samsung monitor - this is the next thing I will be replacing
 - For sitting I use an [Autonomous Ergo Chair 2](https://www.autonomous.ai?rid=b98811)
-- My desk is an Ikea [Skarsta](https://www.ikea.com/gb/en/p/skarsta-desk-sit-stand-white-s59324818/) sit / stand desk - I wish I had paid more and gone for the electronic version instead of the manual crank
+- My desk is an Ikea [Trotten](https://www.ikea.com/gb/en/p/trotten-desk-sit-stand-white-s79429602/) sit / stand desk - I wish I had paid more and gone for the electronic version instead of the manual crank
 
 ## Other Gear
 

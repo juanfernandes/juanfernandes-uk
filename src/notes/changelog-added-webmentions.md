@@ -19,7 +19,7 @@ For those who don't know what web mentions are; its a way to show social media c
 
 ### Example
 
-[Working an inside IR35 contract](https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract "Working an inside IR35 contract")
+[Working an inside IR35 contract](https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract/ "Working an inside IR35 contract")
 
 ### Sources
 

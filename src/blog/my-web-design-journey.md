@@ -87,7 +87,7 @@ I got a 3-month contract working in Norwich with Virgin Wines - they were re-bui
 
 The setup was quite different, there were 3 contractors and 3 perm staff, we got given a room and for the duration of the project, each developer was paired with a designer and we worked closely on the section we were designing and building.
 
-This was a great way of working. We were also using [Pattern Lab](http://patternlab.io/ "Pattern Lab") and building out a style guide - this was amazing, I had read so much about it, to actually work this way and seeing how it was being used by other people in the company was great.
+This was a great way of working. We were also using [Pattern Lab](https://patternlab.io/ "Pattern Lab") and building out a style guide - this was amazing, I had read so much about it, to actually work this way and seeing how it was being used by other people in the company was great.
 
 I’ve had a few more contracts since then but now I am trying to focus more on freelance work.
 

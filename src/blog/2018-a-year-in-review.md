@@ -154,7 +154,7 @@ No personal digital projects this year. I have many ideas on paper - but lacked 
 
 A side project I started in 2018 - I started tinkering around with Home Automation - not sure if this is something will ever be finished. It has been an interesting and frustrating delve into this - I plan on writing about it. But let's just say, if you want to do it properly, it's not yet ready for the mainstream - it's getting there though.
 
-I started to redo my website to use [Eleventy](https://11ty.io "Eleventy") - a static site generator but I didn't get it finished!
+I started to redo my website to use [Eleventy](https://www.11ty.dev/ "Eleventy") - a static site generator but I didn't get it finished!
 
 Sometime after designing and building my current website, I added the Perch CMS so that I could use it as a testbed for new plugins and functionality. But since I'm not doing many freelance projects that require a CMS these days and I've been wanting to dive into static site generators for a while now - I decided to give Eleventy a go.
 
@@ -226,10 +226,9 @@ Well, I think that's all I have to say for this year in review post (sorry it's 
 
 Here are the ones I've read so far:
 
-- [Andy Bell](https://andy-bell.design/wrote/2018-a-year-in-review/ "Andy Bell")
-- [Ashley Baxter](https://iamashley.co.uk/2018-year-in-review "Ashley Baxter")
+- [Ashley Baxter](https://iamashley.co.uk/2018-year-in-review/ "Ashley Baxter")
 - [Dave Rupert](https://daverupert.com/2018/12/twenty-eighteen/ "Dave Rupert")
-- [Ana](https://www.ohhelloana.blog/the-end-of-2018 "Ana")
+- [Ana](https://ohhelloana.blog/the-end-of-2018/ "Ana")
 - [Remy Sharp](https://remysharp.com/2018/12/31/my-2018 "Remy Sharp")
-- [Charlie Marie](https://charlimarie.com/blog/2018-review/ "Charlie Marie")
+- [Charlie Marie](https://charlimarie.com/blog/2018-review "Charlie Marie")
 - [Justin Jackson](https://justinjackson.ca/2018-review/ "Justin Jackson")

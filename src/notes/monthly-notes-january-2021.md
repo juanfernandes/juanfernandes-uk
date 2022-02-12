@@ -24,7 +24,7 @@ January has been a good month with a steady flow of work and spending plenty of 
 
 Started 2021 with an existing contract - this is the third year in a row this has happened.
 
-This month I continue my work on [Defra](https://defra.gov.uk) Internal Services applications working with a team of IBM developers. I've been building a few prototypes using the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs).
+This month I continue my work on [Defra](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs) Internal Services applications working with a team of IBM developers. I've been building a few prototypes using the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs).
 
 One of the prototypes was a typical Gov web service project for DWI, whilst other work was still using the prototype kit but required me to heavily customise its appearance so that we could use it as a dashboard application for internal applications.
 
@@ -40,7 +40,7 @@ I did try and create the dropdown menus using vanilla JavaScript but I wasn't ab
 
 ### New client
 
-Took on the hosting of a new website for an existing client as they launched a podcast and a new website for it - check it the [Good Business Talking podcast](https://goodbusinesstalking.com/).
+Took on the hosting of a new website for an existing client as they launched a podcast and a new website for it - check it the [Good Business Talking podcast](https://www.goodbusinesstalking.com/).
 
 ### New client web design project
 
@@ -79,8 +79,8 @@ I published a new blog post, [How I improved my website because of Content Secur
 * [Making Persistent Build Folders in Netlify](https://mxb.dev/blog/persistent-build-folders-netlify/ "Making Persistent Build Folders in Netlify")
 * [Dynamic heading levels in Eleventy - Dana Byerly](https://danabyerly.com/articles/dynamic-heading-levels-in-eleventy/ "Dynamic heading levels in Eleventy - Dana Byerly")
 * [Design Tokens and Component Based Design](https://24ways.org/2019/design-tokens-and-component-based-design/ "Design Tokens and Component Based Design")
-* [2020 In Review - Mike Street - CSS, JavaScript, Front end developer & CTO](https://www.mikestreety.co.uk/blog/2020-in-review "2020 In Review - Mike Street - CSS, JavaScript, Front end developer & CTO")
-* [New year, new website - Post - Piccalilli](https://piccalil.li/blog/new-year-new-website "New year, new website - Post - Piccalilli")
+* [2020 In Review - Mike Street - CSS, JavaScript, Front end developer & CTO](https://www.mikestreety.co.uk/blog/2020-in-review/ "2020 In Review - Mike Street - CSS, JavaScript, Front end developer & CTO")
+* [New year, new website - Post - Piccalilli](https://piccalil.li/blog/new-year-new-website/ "New year, new website - Post - Piccalilli")
 * [It's tech hiring season! These are red flags to watch out for as you apply for jobs](https://catherinekiiru.hashnode.dev/its-tech-hiring-season-these-are-red-flags-to-watch-out-for-as-you-apply-for-jobs "It's tech hiring season! These are red flags to watch out for as you apply for jobs")
 * [2020 in Review – David Bushell – Freelance Web Design (UK)](https://dbushell.com/2021/01/05/2020-in-review/ "2020 in Review – David Bushell – Freelance Web Design (UK)")
 * [How Musti—a formula used by libraries—could be useful for maintaining design systems](https://alstevens.co.uk/musti-a-formula-for-maintaining-design-systems/ "How Musti—a formula used by libraries—could be useful for maintaining design systems")
@@ -91,9 +91,9 @@ I published a new blog post, [How I improved my website because of Content Secur
 * [The Accidental Side Project](https://24ways.org/2019/the-accidental-side-project/ "The Accidental Side Project")
 * [The importance of prototyping | Website and blog of Front-end developer and web designer, Dan Davies](https://www.dan-davies.co.uk/the-importance-of-prototyping "The importance of prototyping | Website and blog of Front-end developer and web designer, Dan Davies")
 * [Accessing Eleventy Data on the Client Side](https://www.raymondcamden.com/2021/01/18/accessing-eleventy-data-on-the-client-side "Accessing Eleventy Data on the Client Side")
-* [CSS Frameworks, hype and dogmatism - Post - Piccalilli](https://piccalil.li/blog/css-frameworks-hype-and-dogmatism "CSS Frameworks, hype and dogmatism - Post - Piccalilli")
-* [Tips for Focus Styles - Nic Chan](https://nicchan.me/blog/tips-for-focus-styles/ "Tips for Focus Styles - Nic Chan")
-* [The Minimum Content Size In CSS Grid - Ahmad Shadeed](http://ishadeed.com/article/min-content-size-css-grid/ "The Minimum Content Size In CSS Grid - Ahmad Shadeed")
+* [CSS Frameworks, hype and dogmatism - Post - Piccalilli](https://piccalil.li/blog/css-frameworks-hype-and-dogmatism/ "CSS Frameworks, hype and dogmatism - Post - Piccalilli")
+* [Tips for Focus Styles - Nic Chan](https://www.nicchan.me/blog/tips-for-focus-styles/ "Tips for Focus Styles - Nic Chan")
+* [The Minimum Content Size In CSS Grid - Ahmad Shadeed](https://ishadeed.com/article/min-content-size-css-grid/ "The Minimum Content Size In CSS Grid - Ahmad Shadeed")
 * [Creating a custom Eleventy filter](https://dev.to/dailydevtips1/creating-a-custom-eleventy-filter-58db "Creating a custom Eleventy filter")
 * [The Complete Guide to Centering in CSS | Modern CSS Solutions](https://moderncss.dev/complete-guide-to-centering-in-css/ "The Complete Guide to Centering in CSS | Modern CSS Solutions")
 * [Grow the IndieWeb with Webmentions](https://amberwilson.co.uk/blog/grow-the-indieweb-with-webmentions/ "Grow the IndieWeb with Webmentions")
