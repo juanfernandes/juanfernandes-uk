@@ -85,10 +85,46 @@ Another behind the scenes change was that I finally fixed my Service Worker scri
 
 ## Stats
 
-| Trees Planted | Podcasts Listened | Books Read | Freelance Projects | Series Watched | Blog Posts |
-| --- | --- | --- | --- | --- | --- |
-| 388 | 20 | 4 | 4 | 38 | 14 |
+<table>
+  <thead>
+    <tr>
+      <th>Trees Planted</th>
+      <th>Podcasts Listened</th>
+      <th>Books Read</th>
+      <th>Freelance Projects</th>
+      <th>Series Watched</th>
+      <th>Blog Posts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Trees Planted">388</td>
+      <td data-label="Podcasts Listened">20</td>
+      <td data-label="Books Read">4</td>
+      <td data-label="Freelance Projects">4</td>
+      <td data-label="Series Watched">38</td>
+      <td data-label="Blog Posts">14</td>
+    </tr>
+  </tbody>
+</table>
 
-| Articles Read | Movies Watched | Completed Tasks | Pomodoro Minutes | Music Listened |
-| --- | --- | --- | --- | --- |
-| 226 | 8 | 109 | 11,037 | 118hrs / 1446 scrobbles |
+<table>
+  <thead>
+    <tr>
+      <th>Articles Read</th>
+      <th>Movies Watched</th>
+      <th>Completed Tasks</th>
+      <th>Pomodoro Minutes</th>
+      <th>Music Listened</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Articles Read">226</td>
+      <td data-label="Movies Watched">8</td>
+      <td data-label="Completed Tasks">109</td>
+      <td data-label="Pomodoro Minutes">11,037</td>
+      <td data-label="Music Listened">118hrs / 1446 scrobbles</td>
+    </tr>
+  </tbody>
+</table>
