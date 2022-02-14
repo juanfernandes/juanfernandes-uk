@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2022-02-07T08:00:00Z
+date: 2022-02-14T08:00:00Z
 class: now
 intro:
   heading: Now
@@ -17,12 +17,12 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 ---
 ### Personal
 
-* Our new outside entertainment area is finished - well the structure is done - but I now need to build the outside kitchen, buy a BBQ and a pizza oven
 * Still no progress on the planning application for our loft conversion, but we are going ahead with the structural engineer visit
+* Went to a BBQ shop at the weekend - doing some research into what BBQ to get - current fav is a Traeger Wood Pellet BBQ
 
 ### Work
 
-* Continuing to work on the website redesign build for my clients lifts business
+* Didn't get much done on my clients' lifts website last week as they didn't get back to me with the remaining content needed
 
 ### Reading
 
