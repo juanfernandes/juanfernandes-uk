@@ -17,54 +17,8 @@
 # Redirects
 
 [[redirects]]
-  from = "/cms"
-  to = "https://app.forestry.io/dashboard/"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/blog/working-an-inside-IR35-contract"
-  to = "/blog/working-an-inside-ir35-contract"
-  status = 301
-
-[[redirects]]
-  from = "/index.php"
-  to = "/index.html"
-  status = 301
-
-[[redirects]]
-  from = "/about/index.php"
-  to = "/about/index.html"
-  status = 301
-
-[[redirects]]
-  from = "/contact/index.php"
-  to = "/contact/index.html"
-  status = 301
-
-[[redirects]]
-  from = "/now/index.php"
-  to = "/now/index.html"
-  status = 301
-
-[[redirects]]
-  from = "/blog/index.php"
-  to = "/blog/index.html"
-  status = 301
-
-[[redirects]]
-  from = "/work/index.php"
-  to = "/work/index.html"
-  status = 301
-
-[[redirects]]
-  from = "/testimonials/index.php"
-  to = "/testimonials/index.html"
-  status = 301
-
-[[redirects]]
-  from = "/work/index.php"
-  to = "/work/index.html"
+  to = "/blog/working-an-inside-ir35-contract/"
   status = 301
 
 [[redirects]]
