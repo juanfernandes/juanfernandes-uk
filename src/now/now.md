@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2022-02-14T08:00:00Z
+date: 2022-02-28T08:00:00Z
 class: now
 intro:
   heading: Now
@@ -17,12 +17,13 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 ---
 ### Personal
 
-* Still no progress on the planning application for our loft conversion, but we are going ahead with the structural engineer visit
-* Went to a BBQ shop at the weekend - doing some research into what BBQ to get - current fav is a Traeger Wood Pellet BBQ
+* We finally have some progress on our loft conversion application. We should hear this week.
+* Bought and set up my new BBQ last week and tested it over the weekend with 3 BBQs
+* Setup the lights in the new outside entertainment area, temporarily until we get the electricians into wire it all properly
 
 ### Work
 
-* Didn't get much done on my clients' lifts website last week as they didn't get back to me with the remaining content needed
+* Progressed with the build of my clients lift services website, as well as providing further support to my client whose new website I launched a few months ago
 
 ### Reading
 
@@ -36,8 +37,6 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   Inspired by true events, this sprawling crime drama follows the Rizzuto family and its successors, as they preside over organized crime in Montreal.
 * [Homeland](https://www.netflix.com/gb/title/70180387 "Homeland")
   CIA analyst Carrie Mathison struggles with mental health and family issues while leading the war against terrorism in this political thriller series.
-* [It's Always Sunny in Philadelphia](https://www3.stage.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
-  A group of narcissistic friends runs a Philadelphia bar where their juvenile behavior is hysterically horrible.
 * [3%](https://www.netflix.com/gb/title/80074220 "3%")
   In a future where the elite inhabit an island paradise far from the crowded slums, you get one chance to join the 3% saved from squalor.
 * [Sisyphus](https://www.netflix.com/gb/title/81397558)
@@ -45,10 +44,10 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 #### Finished
 
+* [It's Always Sunny in Philadelphia](https://www3.stage.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
 * [The Sinner S4](https://www.netflix.com/gb/title/80175802 "The Sinner")
 * [The Serpent](https://www.netflix.com/gb/title/80206099 "The Serpent")
 * [iZombie](https://www.netflix.com/gb/title/80027159 "iZombie")
 * [The I-Land](https://www.netflix.com/gb/title/80993062)
 * [Dark Tourist](https://www.netflix.com/gb/title/80189791)
 * [Young Sheldon](https://www.netflix.com/gb/title/80192612)
-* [The Office US](https://www.netflix.com/gb/title/70136120)

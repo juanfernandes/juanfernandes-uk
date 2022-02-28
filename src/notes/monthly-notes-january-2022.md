@@ -12,7 +12,7 @@ keywords:
 date: 2022-02-12T00:00:00Z
 tags:
 - notes
-tweetId: ""
+tweetId: "1492565442153615368"
 
 ---
 Wowsers January flew by. I started the year with a detox. Set a reading goal of ten books - I only managed four last year. I am planning on reading at least two articles a day and auto-tweet links to them.
