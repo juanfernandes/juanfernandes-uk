@@ -78,7 +78,7 @@ This year I didn't build any web-based side projects - being away from home a 7-
 
 So I finished my kids' treehouse!
 
-![My kids' new treehouse](/assets/imgs/treehouse.jpg "My kids' new treehouse")
+![My kids' new treehouse](https://res.cloudinary.com/juanfernandes/treehouse.jpg "My kids' new treehouse")
 
 This project started as a proper treehouse - we finally had the perfect tree for it - but my neighbour decided to change his mind about allowing me to build it in line with the property line, I did speak to him before I started it - but let's not dwell on this as it's still a sore point.
 
@@ -88,7 +88,7 @@ I also repurposed an old kids playhouse shed that we hadn't even put back togeth
 
 I needed to build a new chicken coop as the old one that came with the house was starting to fall apart so I decided rather than bin the playhouse I'd turn it into a new chicken coop!
 
-![Chicken coop](/assets/imgs/chickencoop-1.jpg "Chicken coop")
+![Chicken coop](https://res.cloudinary.com/juanfernandes/chickencoop-1.jpg "Chicken coop")
 
 I plan on getting some more chickens soon and now there is plenty of room for them.
 
@@ -128,7 +128,7 @@ Lastly, I got myself a motorbike - it is a 125cc custom cruiser - I don't have m
 
 My wife says I'm having a mid-life crisis!
 
-![My new car and motorbike](/assets/imgs/car-and-motorbike.jpg "My new car and motorbike")
+![My new car and motorbike](https://res.cloudinary.com/juanfernandes/car-and-motorbike.jpg "My new car and motorbike")
 
 I think if you can, you should treat yourself, especially if it makes getting to your job that little bit nicer!
 
