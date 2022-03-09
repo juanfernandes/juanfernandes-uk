@@ -37,7 +37,7 @@ Not much to note for the month of June. Been busy with my permanent job and work
 ## 📖 Reading
 
 * [KonMari for your Git repositories](https://tekin.co.uk/2020/01/clean-up-your-git-branches-and-repositories "KonMari for your Git repositories")
-* [Cutting down: say hello to ES modules on this site!](https://rusingh.com/articles/2021/02/06/cutting-down/ "Cutting down: say hello to ES modules on this site!")
+* [Cutting down: say hello to ES modules on this site!](https://rusingh.com/cutting-down/ "Cutting down: say hello to ES modules on this site!")
 * [How scope works in JavaScript](https://gomakethings.com/how-scope-works-in-javascript/ "How scope works in JavaScript")
 * [Let's Learn About Aspect Ratio In CSS - Ahmad Shadeed](http://ishadeed.com/article/css-aspect-ratio/ "Let's Learn About Aspect Ratio In CSS - Ahmad Shadeed")
 * [Detect Unused Classes in... HTML - CSS-Tricks](https://css-tricks.com/detect-unused-classes-in-html/ "Detect Unused Classes in... HTML | CSS-Tricks")
