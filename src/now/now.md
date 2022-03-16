@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2022-03-16sT08:00:00Z
+date: 2022-03-16T08:00:00Z
 class: now
 intro:
   heading: Now
