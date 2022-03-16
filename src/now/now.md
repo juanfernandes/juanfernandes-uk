@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/index.html"
-date: 2022-03-09T08:00:00Z
+date: 2022-03-16sT08:00:00Z
 class: now
 intro:
   heading: Now
@@ -16,8 +16,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* More progress on our loft conversion project - application has been approved and we've had a structural engineer visit
-* Oh and we got a puppy who join our almost 3 year old Vizsla. Our new addition is a Doberman!
+* Holes in ceilings have been made to investigate the size of support steels and the strucutral engineer has done their calculations, so the loft conversion will be starting shortly
+* Had an appointment with a Naturopath who will hopefully help find out the cause of my skin rash
 
 ### Work
 * Progressed with the build of my clients lift services website
