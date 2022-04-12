@@ -1,26 +1,22 @@
 ---
 layout: page
 title: Now
-permalink: "/now/index.html"
-date: 2022-03-16T08:00:00Z
+permalink: "/now"
+date: 2022-04-12T08:00:00Z
 class: now
 intro:
   heading: Now
   subheading: What I'm currently up to
-  cta:
-    url: ''
-    text: ''
 description: Read about what I'm currently up to
 keywords: now, freelance website designer, frontend developer, reading, watching,
   work
 
 ---
 ### Personal
-* Holes in ceilings have been made to investigate the size of support steels and the strucutral engineer has done their calculations, so the loft conversion will be starting shortly
-* Had an appointment with a Naturopath who will hopefully help find out the cause of my skin rash
+* Started working on the frame for the outside kitchen in our outdoor entertainment area
 
 ### Work
-* Progressed with the build of my clients lift services website
+* Progressed with the build of my clients lift services website slowed down a bit due waiting for client to provide more content
 
 ### Reading
 * [Company of One](https://bookwyrm.social/book/184714 "Company of One")
@@ -28,8 +24,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
-* [All of Us Are Dead](https://www.netflix.com/gb/title/81237994 "All of Us Are Dead")
-  A high school becomes ground zero for a zombie virus outbreak. Trapped students must fight their way out — or turn into one of the rabid infected.
+* [Seinfeld](https://www.netflix.com/gb/title/70153373 "Seinfeld")
+  The "show about nothing" is a sitcom landmark, with comic Jerry and his three sardonic friends finding laughs in both the mundane and the ridiculous.
 * [Homeland](https://www.netflix.com/gb/title/70180387 "Homeland")
   CIA analyst Carrie Mathison struggles with mental health and family issues while leading the war against terrorism in this political thriller series.
 * [3%](https://www.netflix.com/gb/title/80074220 "3%")
@@ -38,6 +34,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
 
 #### Finished
+* [All of Us Are Dead](https://www.netflix.com/gb/title/81237994 "All of Us Are Dead")
 * [Bad Blood](https://www.netflix.com/gb/TITLE/80221787 "Bad Blood")
 * [It's Always Sunny in Philadelphia](https://www3.stage.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
 * [The Sinner S4](https://www.netflix.com/gb/title/80175802 "The Sinner")
