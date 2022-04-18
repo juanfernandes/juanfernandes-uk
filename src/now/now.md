@@ -2,21 +2,20 @@
 layout: page
 title: Now
 permalink: "/now"
-date: 2022-04-12T08:00:00Z
+date: 2022-04-18T08:00:00Z
 class: now
 intro:
   heading: Now
   subheading: What I'm currently up to
 description: Read about what I'm currently up to
-keywords: now, freelance website designer, frontend developer, reading, watching,
-  work
+keywords: now, freelance website designer, frontend developer, reading, watching, work
 
 ---
 ### Personal
-* Started working on the frame for the outside kitchen in our outdoor entertainment area
+* Long Easter weekend in the UK and I've had flu all weekend!
 
 ### Work
-* Progressed with the build of my clients lift services website slowed down a bit due waiting for client to provide more content
+* Finish projects page and why choose us section for the Arrival Lift Servides website. Next I need to add a testimonials section and review the website in various screen sizes to fix any responsive issues.
 
 ### Reading
 * [Company of One](https://bookwyrm.social/book/184714 "Company of One")
