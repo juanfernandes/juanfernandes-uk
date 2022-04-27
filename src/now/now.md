@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now"
-date: 2022-04-18T08:00:00Z
+date: 2022-04-27T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,10 +12,11 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Long Easter weekend in the UK and I've had flu all weekend!
+* Finally some visual progress with the loft conversion project - the scaffold has gone up, work will start next week
+* Finally managed to cancel all extra Sky TV services and we're now down to the most basic package
 
 ### Work
-* Finish projects page and why choose us section for the Arrival Lift Servides website. Next I need to add a testimonials section and review the website in various screen sizes to fix any responsive issues.
+* Lots of minor changes to the Arrival Lift Services website after feedback from client
 
 ### Reading
 * [Company of One](https://bookwyrm.social/book/184714 "Company of One")
@@ -23,6 +24,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
+* [Russian Doll S2](https://www.netflix.com/gb/title/80211627 "Russian Doll")
+  Nadia keeps dying and reliving her 36th birthday party. She's trapped in a surreal time loop -- and staring down the barrel of her own mortality.
 * [Seinfeld](https://www.netflix.com/gb/title/70153373 "Seinfeld")
   The "show about nothing" is a sitcom landmark, with comic Jerry and his three sardonic friends finding laughs in both the mundane and the ridiculous.
 * [Homeland](https://www.netflix.com/gb/title/70180387 "Homeland")
