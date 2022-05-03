@@ -58,8 +58,8 @@ Lastly, I added a login/register link to the header on all pages. One of the web
 So I decided to use add a links section above the header. If a member is already signed in, they will see a link to the members' area - where they have access to their digital purchases and other files.
 
 ## Reading
-- [Create a responsive grid layout with no media queries, using CSS Grid](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ "Create a responsive grid layout with no media queries, using CSS Grid")
-- [Structured data and Google](https://www.brucelawson.co.uk/2019/structured-data-and-google/ "Structured data and Google")
+- [Create a responsive grid layout with no media queries, using CSS Grid](https://archive.hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ "Create a responsive grid layout with no media queries, using CSS Grid")
+- [Structured data and Google](https://brucelawson.co.uk/2019/structured-data-and-google/ "Structured data and Google")
 - [004: CMS, content and contexts - Piccalilli Redesign Journal](https://redesign-journal.piccalil.li//journal/004-cms-content-and-contexts/ "004: CMS, content and contexts - Piccalilli Redesign Journal")
 
 ### Weeknotes

@@ -35,12 +35,12 @@ Very short update for this month. Mostly personal updates, a lot of articles rea
 - [It's Always Sunny in Philadelphia](https://www.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
 
 ## 📖 Reading
-- [Use Cases For CSS fit-content - Ahmad Shadeed](http://ishadeed.com/snippet/fit-content/ "Use Cases For CSS fit-content - Ahmad Shadeed")
+- [Use Cases For CSS fit-content - Ahmad Shadeed](https://ishadeed.com/snippet/fit-content/ "Use Cases For CSS fit-content - Ahmad Shadeed")
 - [Trailing Slashes on URLs: Contentious or Settled?—zachleat.com](https://www.zachleat.com/web/trailing-slash/ "Trailing Slashes on URLs: Contentious or Settled?—zachleat.com")
 - [A more easy way to write if...or checks with vanilla JavaScript](https://gomakethings.com/a-more-easy-way-to-write-if...or-checks-with-vanilla-javascript/ "A more easy way to write if...or checks with vanilla JavaScript")
 - [January 2022 in review. - Ru Singh](https://rusingh.com/january-2022-in-review/ "January 2022 in review. - Ru Singh")
 - [How to progressively enhance a nav menu](https://gomakethings.com/how-to-progressively-enhance-a-nav-menu/ "How to progressively enhance a nav menu")
-- [Web3: Explain like I'm five](https://abhirajb.hashnode.dev/web3-explain-like-im-five "Web3: Explain like I'm five")
+- [Web3: Explain like I'm five](https://blog.abhiraj.co/web3-explain-like-im-five "Web3: Explain like I'm five")
 - [My white whale: A use case for will-change - Nic Chan](https://www.nicchan.me/blog/a-use-case-for-will-change/ "My white whale: A use case for will-change - Nic Chan")
 - [That’s How It Works When You’re a Woman on the Internet](https://lyz.substack.com/p/thats-how-it-works-when-youre-a-woman "That’s How It Works When You’re a Woman on the Internet")
 - [Islands Architecture - JASON Format](https://jasonformat.com/islands-architecture/ "Islands Architecture - JASON Format")

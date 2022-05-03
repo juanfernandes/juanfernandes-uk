@@ -44,4 +44,4 @@ Over the last couple of weeks, I have been thinking about my work and how I'm no
 - [The Co-opetition of Team Web—zachleat.com](https://www.zachleat.com/web/team-web/ "The Co-opetition of Team Web—zachleat.com")
 - [How Git Stash Can Help You Juggle Multiple Branches](https://css-irl.info/how-git-stash-can-help-you-juggle-multiple-branches/ "How Git Stash Can Help You Juggle Multiple Branches")
 - [Modular Scale Typography with CSS Variables and Sass](https://www.rawkblog.com/2018/05/modular-scale-typography-with-css-variables-and-sass/ "Modular Scale Typography with CSS Variables and Sass")
-- [A Developer's Guide to Professional Development - Benjamin Read](https://deliciousreverie.co.uk/post/developers-guide-professional-development/ "A Developer's Guide to Professional Development - Benjamin Read")
+- [A Developer's Guide to Professional Development - Benjamin Read](https://deliciousreverie.co.uk/posts/developers-guide-professional-development/ "A Developer's Guide to Professional Development - Benjamin Read")

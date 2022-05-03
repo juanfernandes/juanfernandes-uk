@@ -55,13 +55,13 @@ We got a new addition to our family - another pet - a snake. My eldest is going 
 ## Articles I read
 - [15 Git Commands You May Not Know](https://dev.to/zaiste/15-git-commands-you-may-not-know-4a8j "15 Git Commands You May Not Know")
 - [#013 - Ana Rodrigues - Developurrs](https://developur.rs/posts/ana-rodrigues/ "#013 - Ana Rodrigues - Developurrs")
-- [Creating a full bleed CSS utility](https://andy-bell.design/wrote/creating-a-full-bleed-css-utility/ "Creating a full bleed CSS utility - Andy Bell")
+- [Creating a full bleed CSS utility](https://archive.hankchizljaw.com/wrote/creating-a-full-bleed-css-utility/ "Creating a full bleed CSS utility - Andy Bell")
 - [Know your ARIA: 'Hidden' vs 'None'](https://www.scottohara.me/blog/2018/05/05/hidden-vs-none.html "Know your ARIA: 'Hidden' vs 'None'")
 - [My aha moment as a UX designer](https://uxdesign.cc/my-aha-moment-as-a-ux-designer-2a0812785d56 "My aha moment as a UX designer")
 - [Blurred lines and job titles](https://cathydutton.co.uk/posts/blurred-lines-and-job-titles/ "Blurred lines and job titles")
 - [Trainers](https://ethanmarcotte.com/wrote/trainers/ "Trainers")
-- [Week Notes 11 - Andy Bell](https://andy-bell.design/wrote/week-notes-11/ "Week Notes 11 - Andy Bell")
-- [Revisiting the rendering tier](http://www.theguardian.com/info/2019/apr/04/revisiting-the-rendering-tier "Revisiting the rendering tier")
+- [Week Notes 11 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-11/ "Week Notes 11 - Andy Bell")
+- [Revisiting the rendering tier](https://www.theguardian.com/info/2019/apr/04/revisiting-the-rendering-tier "Revisiting the rendering tier")
 - [Week notes #4 - Sam Hardacre](https://blog.nocturnalmonkey.com/week-notes-4/ "Week notes #4")
 
 ## Until next week

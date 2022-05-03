@@ -60,11 +60,11 @@ I'm hoping next week I will be able to get more work done on the online shop pro
 
 ## Articles I read this week
 
-- [On Simplicity](https://mxb.at/blog/on-simplicity/ "On Simplicity")
+- [On Simplicity](https://mxb.dev/blog/on-simplicity/ "On Simplicity")
 - [Weeknotes #3 - Dave Rupert](https://daverupert.com/2019/02/weeknotes-3/ "Weeknotes #3 - Dave Rupert")
 - [CSS Grid: More flexibility with minmax()](https://codepen.io/michellebarker/post/css-grid-more-flexibility-with-minmax "CSS Grid: More flexibility with minmax()")
-- [We Need Chrome No More](https://redalemeden.com/blog/2019/we-need-chrome-no-more "We Need Chrome No More")
+- [We Need Chrome No More](https://redalemeden.com/writing/chrome-no-more "We Need Chrome No More")
 - [Mirrorworld](https://adactio.com/journal/14844 "Mirrorworld")
 - [Setting up my new Mac (Part 2—the migration process)](https://zellwk.com/blog/mac-setup-2/ "Setting up my new Mac (Part 2—the migration process)")
-- [Week Notes 6 - Andy Bell](https://andy-bell.design/wrote/week-notes-6/ "Week Notes 6 - Andy Bell")
+- [Week Notes 6 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-6/ "Week Notes 6 - Andy Bell")
 - [Getting help from your worst enemy](https://benbrignell.com/blogs/journal/getting-help-from-your-worst-enemy "Getting help from your worst enemy")

@@ -43,6 +43,6 @@ I'm hoping my next contract is a remote one or one that is closer to home. I rea
 - [A new (and easy) way to hide content accessibly - Zell Liew](https://zellwk.com/blog/hide-content-accessibly/ "A new (and easy) way to hide content accessibly | Zell Liew")
 - [Weeknotes 6 - Mark Boulton](https://markboulton.co.uk/ "Weeknotes 6")
 - [#014 - Ali Spittel - Developurrs](https://developur.rs/posts/ali-spittel/ "#014 - Ali Spittel - Developurrs")
-- [Week Notes 13 - Andy Bell](https://andy-bell.design/wrote/week-notes-13/ "Week Notes 13 - Andy Bell")
+- [Week Notes 13 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-13/ "Week Notes 13 - Andy Bell")
 - [Money, then everything else](https://mailchi.mp/pjrvs/money-then-everything-else?e=d323ecd773 "Money, then everything else")
-- [Weeknotes #16 - Paul Robert Lloyd](https://paulrobertlloyd.com/2019/04/weeknotes_16 "Weeknotes #16")
+- [Weeknotes #16 - Paul Robert Lloyd](https://paulrobertlloyd.com/articles/2019/04/weeknotes_16/ "Weeknotes #16")

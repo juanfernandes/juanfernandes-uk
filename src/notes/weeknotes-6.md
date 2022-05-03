@@ -51,9 +51,9 @@ Fell off the exercise wagon again this week. I exercised on Monday, but On Wedne
 ## Articles I read this week
 - [How @supports Works](https://css-tricks.com/how-supports-works/ "How @supports Works")
 - [The web we broke](https://ethanmarcotte.com/wrote/the-web-we-broke/ "The web we broke")
-- [Weeknotes #9 - Paul Robert Lloyd](https://paulrobertlloyd.com/2019/03/weeknotes_9 "Weeknotes #9 - Paul Robert Lloyd")
+- [Weeknotes #9 - Paul Robert Lloyd](https://paulrobertlloyd.com/articles/2019/03/weeknotes_9/ "Weeknotes #9 - Paul Robert Lloyd")
 - [Weeknotes 9 - Paul Silver](https://www.paulsilver.co.uk/blog/2019/03/weeknotes-9/ "Weeknotes 9 - Paul Silver")
 - [Should I Use Source Maps in Production?](https://css-tricks.com/should-i-use-source-maps-in-production/ "Should I Use Source Maps in Production?")
 - [Freelance Tip: Follow your Gut](https://mikehince.com/thoughts/freelance-tip-follow-your-gut/ "Freelance Tip: Follow your Gut")
-- [How I added Dark Mode to my website](https://medium.freecodecamp.org/how-i-added-dark-mode-to-my-website-33611d246425 "How I added Dark Mode to my website")
-- [Week Notes 8 - Andy Bell](https://andy-bell.design/wrote/week-notes-8/ "Week Notes 8 - Andy Bell")
+- [How I added Dark Mode to my website](https://www.freecodecamp.org/news/how-i-added-dark-mode-to-my-website-33611d246425 "How I added Dark Mode to my website")
+- [Week Notes 8 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-8/ "Week Notes 8 - Andy Bell")

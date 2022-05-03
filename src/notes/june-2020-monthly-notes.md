@@ -68,7 +68,7 @@ We also have network switches in other rooms to extend the network to other part
 
 So I bought and installed a small network cabinet in our cloakroom and have been installing network cables from different areas of the house (externally) - two cables from the living room - to move the BT broadband socket to the network cabinet and another for a network port for the switch to provide connectivity for the TV and the other equipment in the living room. Installed a new network cable to the office (loft above double garage) to replace the old one that had been chewed by mice and finally, I needed a new network cable to go into the kitchen, via the loft, from the network cabinet - this is so I can connect a switch to it, above the kitchen cupboards so I can connect my Sonos speakers to it. This was needed because the WiFi signal to the speakers gets interrupted a lot, especially when we use the microwave, which cuts off the music.
 
-To fix the WiFi throughout the house, I also installed a new WiFi access point and removed all the old ones. I installed a [Ubiquiti UniFi AP AC-PRO](https://www.ui.com/unifi/unifi-ap-ac-pro/ "Ubiquiti UniFi AP AC-PRO"), this covers the downstairs but I may need one to improve the WiFi signal upstairs.
+To fix the WiFi throughout the house, I also installed a new WiFi access point and removed all the old ones. I installed a [Ubiquiti UniFi AP AC-PRO](https://store.ui.com/collections/unifi-network-wireless/products/unifi-ap6-professional "Ubiquiti UniFi AP AC-PRO"), this covers the downstairs but I may need one to improve the WiFi signal upstairs.
 
 ## Selling stuff on eBay
 

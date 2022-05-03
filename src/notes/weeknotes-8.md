@@ -39,6 +39,6 @@ This week notes is going to be a short one and it's late as well - it has been a
 
 ## Articles I read
 - [Automatically creating an accessible color palette from any color? Sure!](https://medium.com/confrere/automatically-creating-an-accessible-color-palette-from-any-color-sure-e735c3f2f45e "Automatically creating an accessible color palette from any color? Sure")
-- [Custom Property controlled fluid type sizing - Andy Bell](https://andy-bell.design/wrote/custom-property-controlled-fluid-type-sizing/ "Custom Property controlled fluid type sizing - Andy Bell")
+- [Custom Property controlled fluid type sizing - Andy Bell](https://archive.hankchizljaw.com/wrote/custom-property-controlled-fluid-type-sizing/ "Custom Property controlled fluid type sizing - Andy Bell")
 - [Aegir.org | Weeknotes 13](http://aegir.org/words/weeknotes-13 "Aegir.org | Weeknotes 13")
 - [Eleventy Essentials | Andeers.com](https://andeers.com/2019/03/eleventy-essentials/ "Eleventy Essentials | Andeers.com")

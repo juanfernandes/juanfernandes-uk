@@ -36,7 +36,7 @@ Really sucks to leave the project and team at a stage where we've now figured th
 But I knew this was only a short (6 weeks) contact as they had already hired a full-time Interaction designer that would be starting in May.
 
 ## Personal
-Worked on my [personal website](https://juanfernandes.uk "Personal website of Juan Fernandes") and setup on [Netlify](https://netlify.com "Netlify") while I'm developing, had some issues with ```ruby sass``` and ```grunt``` and ```package.json``` build commands, fixed by upgrading to ```node sass``` - because ruby sass is quite old and has been deprecated on Netlify. I was having issues with getting Netlify to run grunt and eleventy to build my website,
+Worked on my [personal website](https://www.juanfernandes.uk "Personal website of Juan Fernandes") and setup on [Netlify](https://www.netlify.com/ "Netlify") while I'm developing, had some issues with ```ruby sass``` and ```grunt``` and ```package.json``` build commands, fixed by upgrading to ```node sass``` - because ruby sass is quite old and has been deprecated on Netlify. I was having issues with getting Netlify to run grunt and eleventy to build my website,
 
 Spent some time trying to get [11ty](https://www.11ty.dev/ "Eleventy Static Site Generator"), _grunt_ and watching changes to work and without installing another _npm_ module - I don't believe it's possible. I've just settled for running iTerm split into 3 panes one running ```eleventy --serve```, ```grunt dev``` (watch etc) and another for _git_ etc.
 
@@ -44,9 +44,9 @@ Have started working on converting existing projects pages into nunjucks templat
 
 ## Reading
 - [Sarah Drasner's bomb site](https://sarah.dev/blog/why-netlify/ "Sarah Drasner's bomb site")
-- [Create a responsive grid layout with no media queries, using CSS Grid - Andy Bell](https://andy-bell.design/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ "Create a responsive grid layout with no media queries, using CSS Grid - Andy Bell")
+- [Create a responsive grid layout with no media queries, using CSS Grid - Andy Bell](https://archive.hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ "Create a responsive grid layout with no media queries, using CSS Grid - Andy Bell")
 - [Welcome to JAM stack](https://gomakethings.com/welcome-to-jam-stack/ "Welcome to JAM stack")
 
 ### Weeknotes
 - [Weeknotes #7 - Vincent Pickering](https://vincentp.me/articles/2019/05/05/16-20/ "Weeknotes #7")
-- [Week Notes 14 - Andy Bell](https://andy-bell.design/wrote/week-notes-14/ "Week Notes 14 - Andy Bell")
+- [Week Notes 14 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-14/ "Week Notes 14 - Andy Bell")

@@ -20,7 +20,7 @@ Not much to note for the month of June. Been busy with my permanent job and work
 
 ## Work
 
-* I've now been at my permanent job with [intelliflo](https://www.intelliflo.com) for four months 🎉 - which is a bit longer than my preferred contract length of 3 months.
+* I've now been at my permanent job with [intelliflo](https://www.intelliflo.com/uk) for four months 🎉 - which is a bit longer than my preferred contract length of 3 months.
 * I've spent most of this month working on making a third-party in-app support tool look as if it's part of our application. Unfortunately, there has been a lot of `!important` use to override their CSS with ours. I'm don't like the idea of using a third-party tool but it's a complex and huge application - for us to do this internally would take a while. I even managed to get the interactive tooltips to inherit our customers custom themes!
 
 ## Freelance
@@ -39,11 +39,11 @@ Not much to note for the month of June. Been busy with my permanent job and work
 * [KonMari for your Git repositories](https://tekin.co.uk/2020/01/clean-up-your-git-branches-and-repositories "KonMari for your Git repositories")
 * [Cutting down: say hello to ES modules on this site!](https://rusingh.com/cutting-down/ "Cutting down: say hello to ES modules on this site!")
 * [How scope works in JavaScript](https://gomakethings.com/how-scope-works-in-javascript/ "How scope works in JavaScript")
-* [Let's Learn About Aspect Ratio In CSS - Ahmad Shadeed](http://ishadeed.com/article/css-aspect-ratio/ "Let's Learn About Aspect Ratio In CSS - Ahmad Shadeed")
+* [Let's Learn About Aspect Ratio In CSS - Ahmad Shadeed](https://ishadeed.com/article/css-aspect-ratio/ "Let's Learn About Aspect Ratio In CSS - Ahmad Shadeed")
 * [Detect Unused Classes in... HTML - CSS-Tricks](https://css-tricks.com/detect-unused-classes-in-html/ "Detect Unused Classes in... HTML | CSS-Tricks")
-* [Global and Component Style Settings with CSS Variables](https://sarasoueidan.com/blog/style-settings-with-css-variables/ "Global and Component Style Settings with CSS Variables")
+* [Global and Component Style Settings with CSS Variables](https://www.sarasoueidan.com/blog/style-settings-with-css-variables/ "Global and Component Style Settings with CSS Variables")
 * [inherit, initial, unset, revert](https://css-tricks.com/inherit-initial-unset-revert/ "inherit, initial, unset, revert")
-* [monorepos.](https://deliciousreverie.co.uk/post/monorepos/ "monorepos.")
+* [monorepos.](https://deliciousreverie.co.uk/posts/monorepos/ "monorepos.")
 * [Dynamic Short URLs with Eleventy](https://www.raymondcamden.com/2021/06/22/dynamic-short-urls-with-eleventy "Dynamic Short URLs with Eleventy")
 * [Images and screen reader users](https://gomakethings.com/images-and-screen-reader-users/ "Images and screen reader users")
 * [OMG, SVG Favicons FTW!](https://austingil.com/svg-favicons/ "OMG, SVG Favicons FTW!")

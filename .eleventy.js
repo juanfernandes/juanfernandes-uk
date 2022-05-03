@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/favicon.ico')
   eleventyConfig.addPassthroughCopy('src/icon.svg')
   eleventyConfig.addPassthroughCopy('.well-known/')
-  eleventyConfig.addPassthroughCopy('src/Juan_Fernandes-CV-2022.pdf')
+  eleventyConfig.addPassthroughCopy('src/zJuan_Fernandes-CV-2022.pdf')
 
   eleventyConfig.addCollection('posts', function (collection) {
     return collection.getFilteredByGlob('./src/blog/*.md')

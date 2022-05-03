@@ -70,7 +70,7 @@ Due to being quite busy with work, I have paused the courses that I have in prog
 * [What is package.json?](https://mrqwest.co.uk/blog/what-is-package-json-11ty/ "What is package.json?")
 * [CSS Variables](https://mrqwest.co.uk/blog/css-variables/ "CSS Variables")
 * [My Social Dilemma - Paul Jardine Web Design](https://pauljardine.co.uk/blog/my-social-dilemma/ "My Social Dilemma - Paul Jardine Web Design")
-* [Get Started with Tailwind CSS in 15 Minutes](https://www.better.dev/quick-tailwind-introduction "Get Started with Tailwind CSS in 15 Minutes")
+* [Introduction to Tailwind CSS](https://www.digitalocean.com/community/tutorials/css-tailwind-css "Introduction to Tailwind CSS")
 * [Building The Perfect Testimonial | Jonathan Stark](https://jonathanstark.com/building-the-perfect-testimonial "Building The Perfect Testimonial | Jonathan Stark")
 * [Preload late-discovered Hero images faster](https://addyosmani.com/blog/preload-hero-images/ "Preload late-discovered Hero images faster")
 * [What are design tokens? - Piccalilli](https://piccalil.li/tutorial/what-are-design-tokens/ "What are design tokens? - Piccalilli")

@@ -44,7 +44,7 @@ I've fixed some of the metadata issues and its working, but I do need to look at
 I also decided to move my notes out of the blog and into its own section. So on the new site, weeknotes and other notes will live in ```/notes``` and not in ```/blog```. I did this because, to separate posts from notes, I tagged posts with a ```post``` tag but this meant that when I show the post tags at the end of each blog post, it was showing ```post``` which was pointless.
 
 Here is a list of the issues I'm working through:
-- [https://gitlab.com/juanfernandes/juanfernandes-v2/issues](https://gitlab.com/juanfernandes/juanfernandes-v2/issues  "GitLab Issues")
+- [https://gitlab.com/juanfernandes/juanfernandes-v2/-/issues](https://gitlab.com/juanfernandes/juanfernandes-v2/-/issues  "GitLab Issues")
 
 
 ## Personal

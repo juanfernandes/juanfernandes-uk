@@ -52,7 +52,7 @@ Also, my son managed to break his bedroom door through slamming it open (and shu
 - [My new CSS framework: SUCSS!](https://rosswintle.uk/2019/01/my-new-css-framework-sucss/ "My new CSS framework: SUCSS!")
 - [Useful CSS Media Query Features](https://dev.to/ananyaneogi/useful-css-media-query-features-o7f "Useful CSS Media Query Features")
 - [A Site for Front-End Development Conferences](https://css-tricks.com/a-site-for-front-end-development-conferences-built-with-11ty-on-netlify/ "A Site for Front-End Development Conferences")
-- [Weeknotes 4 - Andy Bell](https://andy-bell.design/wrote/week-notes-4/ "Weeknotes 4 - Andy Bell")
+- [Weeknotes 4 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-4/ "Weeknotes 4 - Andy Bell")
 - [My first weeknote - Amy Hupe](https://amyhupe.co.uk/weeknotes/weeknote-1/ "My first weeknote - Amy Hupe")
 - [Weeknotes #2 - Dave Rupert](https://daverupert.com/2019/02/weeknotes-2/ "Weeknotes #2 - Dave Rupert")
 - [Developurrs - Mat Marquis](https://developur.rs/posts/mat-marquis/ "Developurrs - Mat Marquis")

@@ -30,6 +30,6 @@ Met up with [Benjy Stanton](https://twitter.com/benjystanton "Benjy Stanton on T
 We had friends staying with us for the entire Easter weekend which was great. Lots of eating and drinking, kids playing in the garden and the dog running around after them. Had our first BBQ of the year (like a lot of people I'm guessing because the weather was great).
 
 ## Reading
-- [Weeknotes #14 - Paul Robert-Lloyd](https://paulrobertlloyd.com/2019/04/weeknotes_14 "Weeknotes #14 - Paul Robert-Lloyd")
+- [Weeknotes #14 - Paul Robert-Lloyd](https://paulrobertlloyd.com/articles/2019/04/weeknotes_14/ "Weeknotes #14 - Paul Robert-Lloyd")
 - [Inlining SVG background images in CSS with custom properties](https://adactio.com/journal/15075 "Inlining SVG background images in CSS with custom properties")
 - [Adding a little dark magic to the web](https://medium.com/@dizzyup/adding-a-little-dark-magic-to-the-web-8eb82ce5fd91 "Adding a little dark magic to the web")

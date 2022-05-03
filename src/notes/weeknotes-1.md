@@ -40,12 +40,12 @@ I’ve waiting to finish my site so I can start writing these weeknotes and blog
 
 ## Articles I read this week
 
-- [Redesign Diary: Conundrum](https://paulrobertlloyd.com/2018/10/conundrum "Redesign Diary: Conundrum")
+- [Redesign Diary: Conundrum](https://paulrobertlloyd.com/articles/2018/10/conundrum/ "Redesign Diary: Conundrum")
 - [Should I stay or should I go?](https://blog.honest.work/should-i-stay-or-should-i-go/ "Should I stay or should I go?")
 - [Bye, Bye, Google](https://defn.io/2019/02/04/bye-bye-google/ "Bye, Bye, Google")
 - [Quick Tip #008—Trigger a Netlify Build Every Day with IFTTT](https://www.11ty.dev/docs/quicktips/netlify-ifttt/ "Trigger a Netlify Build Every Day with IFTTT")
 - [Revisiting the abbr element](https://bitsofco.de/revisiting-the-abbr-element/ "Revisiting the abbr element")
-- [Reflecting on My Failure to Build a Billion-Dollar Company](https://medium.com/@shl/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7 "Reflecting on My Failure to Build a Billion-Dollar Company")
+- [Reflecting on My Failure to Build a Billion-Dollar Company](https://marker.medium.com/reflecting-on-my-failure-to-build-a-billion-dollar-company-b0c31d7db0e7 "Reflecting on My Failure to Build a Billion-Dollar Company")
 - [The Dark Side of the Grid (Part 1)](https://www.matuzo.at/blog/the-dark-side-of-the-grid/ "The Dark Side of the Grid (Part 1)")
 - [10 Netlify features to surprise and delight](https://medium.com/netlify/10-netlify-features-to-surprise-and-delight-225e846b7b21 "10 Netlify features to surprise and delight")
 - [Using Dotfiles for Managing Development and Many Other Magical Things](https://css-tricks.com/using-dotfiles-for-managing-development-and-many-other-magical-things/ "Using Dotfiles for Managing Development and Many Other Magical Things")

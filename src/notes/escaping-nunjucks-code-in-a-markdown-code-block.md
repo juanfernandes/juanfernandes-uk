@@ -17,7 +17,7 @@ tags:
 ---
 I noticed that my latest blog post wasn't showing the Nunjucks code within markdown code blocks. Turns out you need to escape Nunjucks code if you are using nunjucks templates. 😁
 
-Found a solution by [Mark Llobrera](https://twitter.com/dirtystylus "Mark on Twitter") - [Eleventy: Escaping Nunjucks Statements in Markdown Code Blocks](http://dirtystylus.com/2020/09/08/eleventy-escaping-nunjucks-statements-in-markdown-code-blocks/ "Eleventy: Escaping Nunjucks Statements in Markdown Code Blocks")
+Found a solution by [Mark Llobrera](https://twitter.com/dirtystylus "Mark on Twitter") - [Eleventy: Escaping Nunjucks Statements in Markdown Code Blocks](https://www.markllobrera.com/posts/eleventy-escaping-nunjucks-statements-in-markdown-code-blocks/ "Eleventy: Escaping Nunjucks Statements in Markdown Code Blocks")
 
 ``` html
 {% raw %}{% raw %}{% if postImage %}

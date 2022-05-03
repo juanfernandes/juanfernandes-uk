@@ -49,13 +49,12 @@ Saturday I decided to get back to my exercise again and just at the end while ru
 
 ### Articles I read this week
 - [You only win once, Rodney Mullen](https://justinjackson.ca/rodney-mullen "You only win once, Rodney Mullen")
-- [Reflections on building an MVP design system in 3 months](https://uxdesign.cc/reflections-on-building-an-mvp-design-system-in-3-months-dd1b7660537c "Reflections on building an MVP design system in 3 months")
+- [Building an MVP design system in 3 months](https://uxdesign.cc/reflections-on-building-an-mvp-design-system-in-3-months-dd1b7660537c "Building an MVP design system in 3 months")
 - [Adding a little dark magic to the web](https://medium.com/@dizzyup/adding-a-little-dark-magic-to-the-web-8eb82ce5fd91 "Adding a little dark magic to the web")
-- [Don't Get Clever with Login Forms](http://bradfrost.com/blog/post/dont-get-clever-with-login-forms/ "Don't Get Clever with Login Forms")
+- [Don't Get Clever with Login Forms](https://bradfrost.com/blog/post/dont-get-clever-with-login-forms/ "Don't Get Clever with Login Forms")
 - [Designing Web Content for watchOS](https://erikrunyon.com/2018/06/designing-web-content-for-watchos/ "Designing Web Content for watchOS")
 - [Design sprint?](https://adactio.com/journal/14841 "Design sprint?")
-- [A Journey to a Waste-Free Lifestyle](https://sarasoueidan.com/desk/waste-free/ "A Journey to a Waste-Free Lifestyle")
+- [A Journey to a Waste-Free Lifestyle](https://www.sarasoueidan.com/desk/waste-free/ "A Journey to a Waste-Free Lifestyle")
 - [How to theme with CSS variables](https://www.browserlondon.com/blog/2019/01/15/css-variables-theming/ "How to theme with CSS variables")
-
 
 Until next week - I'll let you know how my first week at my new contract has gone.

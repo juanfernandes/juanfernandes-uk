@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now"
-date: 2022-04-27T00:00:00Z
+date: 2022-05-03T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,11 +12,12 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Finally some visual progress with the loft conversion project - the scaffold has gone up, work will start next week
-* Finally managed to cancel all extra Sky TV services and we're now down to the most basic package
+* Work on the loft conversion project has started. The workers brought all their tools and removed some roof tiles to make an entry from the scaffold into the loft
+* We no longer have SkyTV in our lounge but my mother in law still has, as we have to wait until September before we can cancel the contract
 
 ### Work
-* Lots of minor changes to the Arrival Lift Services website after feedback from client
+* I'm in the final stages of the Arrival Lift Services website - some minor changes and proof reading before it goes live
+* Heard back from a client whose project was on hold due to them being too busy - but have been given the go ahead to put the site live
 
 ### Reading
 * [Company of One](https://bookwyrm.social/book/184714 "Company of One")
@@ -24,6 +25,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
+* [Bordertown](https://www.netflix.com/gb/title/80145143 "Bordertown")
+  A gifted detective takes a job in a small town so he can spend more time with his family. But he's soon drawn into a web of disturbing murder cases.
 * [Russian Doll S2](https://www.netflix.com/gb/title/80211627 "Russian Doll")
   Nadia keeps dying and reliving her 36th birthday party. She's trapped in a surreal time loop -- and staring down the barrel of her own mortality.
 * [Seinfeld](https://www.netflix.com/gb/title/70153373 "Seinfeld")
@@ -41,4 +44,3 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * [It's Always Sunny in Philadelphia](https://www3.stage.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
 * [The Sinner S4](https://www.netflix.com/gb/title/80175802 "The Sinner")
 * [The Serpent](https://www.netflix.com/gb/title/80206099 "The Serpent")
-* [iZombie](https://www.netflix.com/gb/title/80027159 "iZombie")

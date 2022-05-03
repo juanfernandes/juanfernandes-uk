@@ -63,7 +63,7 @@ Most of the custom components are built now, so we've started creating pages and
 * [2019: year in review | Marc Jenkins](https://marcjenkins.co.uk/2019-year-in-review/ "2019: year in review | Marc Jenkins")
 * [Shortcuts to Style — Kaleigh Moore: Freelance Writer for SaaS & eCommerce](https://www.kaleighmoore.com/blog/2020/01/06/shortcuts-to-style "Shortcuts to Style — Kaleigh Moore: Freelance Writer for SaaS & eCommerce")
 * [Yearnotes 2019](https://tekin.co.uk/2020/01/yearnotes-2019 "Yearnotes 2019")
-* [Delicious Reverie](https://deliciousreverie.co.uk/post/2019-review-2020-aims/ "Delicious Reverie")
+* [2019 Review / 2020 Aims](https://deliciousreverie.co.uk/posts/2019-review-2020-aims/ "2019 Review / 2020 Aims")
 * [Git tip of the week: create a Git upstream alias](https://tekin.co.uk/2020/01/git-alias-to-push-and-set-upstream-trackng-on-a-branch "Git tip of the week: create a Git upstream alias")
 * [Git Tips you (Possibly) Didn't Know You Needed](https://tekin.co.uk/2017/03/git-tips-you-possibly-did-not-know-you-needed "Git Tips you (Possibly) Didn't Know You Needed")
 * [Understand the SVG Viewbox](https://www.digitalocean.com/community/tutorials/svg-svg-viewbox "Understand the SVG Viewbox")

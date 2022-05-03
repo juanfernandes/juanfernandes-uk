@@ -52,14 +52,17 @@ It's been fine all these years, but because the trampoline was going under it, I
 Finished re-watching The Office (US) this week - loved re-watching this again. I was a bit lost with what to replace it with, but have gone back to watching Straight Off the Boat - started watching it a long while ago, I just realised it is now on the 5th season.
 
 ## Listening
-Continued listening to [Syntax](https://syntax.fm/ "Syntax Podcast"), [Build Your SaaS](https://saas.transistor.fm/ "Build Your SaaS Podcast") and [Being Freelance](https://www.beingfreelance.com/ "Being Freelance") - also started listening to [Doing It For The Kids](http://www.doingitforthekids.net/ "Doing It For The Kids Podcast") and [Shop Talk](https://shoptalkshow.com/ "Shop Talk").
+* [Syntax](https://syntax.fm/ "Syntax Podcast")
+* [Build Your SaaS](https://saas.transistor.fm/ "Build Your SaaS Podcast")
+* [Being Freelance](https://www.beingfreelance.com/ "Being Freelance")
+* [Doing It For The Kids](https://www.doingitforthekids.net/ "Doing It For The Kids Podcast")
+* [Shop Talk](https://shoptalkshow.com/ "Shop Talk")
 
 I never know whether to start listening to an existing podcast from the beginning or just start with the latest podcast - with Shop Talk, theirs currently 356 podcasts to catch up on!
 
 ## Reading
 - [Weeknotes #5 - Vincent Pickering](https://vincentp.me/articles/2019/04/07/16-00/ "Weeknotes #5 - Vincent Pickering")
 - [Shopping cart, bag or basket?](https://uxdesign.cc/shopping-cart-bag-or-basket-fd7360c9413a "Shopping cart, bag or basket?")
-- [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/ "How to Write a Git Commit Message")
+- [How to Write a Git Commit Message](https://cbea.ms/git-commit/ "How to Write a Git Commit Message")
 - [Week notes #5 - Sam Hardacre](https://blog.nocturnalmonkey.com/week-notes-5/ "Week notes #5 - Sam Hardacre")
-- [Week Notes 12 - Andy Bell](https://andy-bell.design/wrote/week-notes-12/ "Week Notes 12 - Andy Bell")
-- [Keeping up with the Insta-Joneses](https://pjrvs.com/insta/ "Keeping up with the Insta-Joneses")
+- [Week Notes 12 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-12/ "Week Notes 12 - Andy Bell")
