@@ -46,7 +46,7 @@ I'm trying to get into the habit of posting tweets via my website, so that I own
 ## Reading
 It's apparent that when I get busy at work, I don't read as much.
 
-- [Moving to a static site with Gatsby + Netlify + Contentful](https://flexport.engineering/moving-to-a-static-site-with-gatsby-netlify-contentful-51125d443231 "Moving to a static site with Gatsby + Netlify + Contentful")
+- [Moving to a static site with Gatsby + Netlify + Contentful](https://medium.com/@erkkapynnonen/making-a-static-website-with-gatsby-contentful-and-netlify-c7372798fda "Moving to a static site with Gatsby + Netlify + Contentful")
 - [Anniversaries | Website and blog of Flintshire, North Wales based Front-end developer and web designer, Dan Davies](https://www.dan-davies.co.uk/anniversaries "Anniversaries | Website and blog of Flintshire, North Wales based Front-end developer and web designer, Dan Davies")
 - [Weeknotes #9](https://daverupert.com/2019/09/weeknotes-9/ "Weeknotes #9")
 - [Offline listings](https://remysharp.com/2019/09/05/offline-listings "Offline listings")

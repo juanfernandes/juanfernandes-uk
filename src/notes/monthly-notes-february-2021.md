@@ -95,7 +95,6 @@ The client is really happy with the new design and we got the go-ahead to start 
 * [How much should I invest?](https://freetrade.io/learn/how-much-money-should-i-invest "How much should I invest?")
 * [OneSheep](https://onesheep.org/insights/working-from-home "OneSheep")
 * [How to rename the ‘master’ branch on GitHub](https://www.tempertemper.net/blog/how-to-rename-the-master-branch-on-github "How to rename the ‘master’ branch on GitHub")
-* [Recreating jQuery’s basic “effects” in vanilla JS](https://kbarker.dev/2020/03/22/recreating-jquerys-basic-effects-in-vanilla-js.html "Recreating jQuery’s basic “effects” in vanilla JS")
 * [Trying to Work From Home](https://meyerweb.com/eric/thoughts/2020/03/18/trying-to-work-from-home/ "Trying to Work From Home")
 * [4 CSS Grid Properties (and One Value) for Most of Your Layout Needs | CSS-Tricks](https://css-tricks.com/4-css-grid-properties-and-one-value-for-most-of-your-layout-needs/ "4 CSS Grid Properties (and One Value) for Most of Your Layout Needs | CSS-Tricks")
 * [A Grid of Logos in Squares | CSS-Tricks](https://css-tricks.com/a-grid-of-logos-in-squares/ "A Grid of Logos in Squares | CSS-Tricks")

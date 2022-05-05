@@ -17,7 +17,7 @@ date: 2019-02-09T17:00:21.815Z
 tags:
   - notes
 ---
-My first [#weeknotes](https://weeknot.es/about "About Weeknotes"). I really like the idea of these - just like the yearly reviews - so why not a weekly review.
+My first [#weeknotes](https://weeknot.es/ "Weeknotes"). I really like the idea of these - just like the yearly reviews - so why not a weekly review.
 
 I’m hoping this will help me, not only with getting into the habit of writing but also make my weeks more productive as I look back and see what did and didn’t work well.
 

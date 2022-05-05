@@ -67,8 +67,6 @@ Due to being quite busy with work, I have paused the courses that I have in prog
 * [Developer health - taking care of yourself as you code](https://dev.to/christopherkade/developer-health-taking-care-of-yourself-as-you-code-1hh1 "Developer health - taking care of yourself as you code")
 * [How To Have Clients Find You (Rather Than You Chasing Them)](https://www.wisecashhq.com/blog/how-to-have-clients-find-you-rather-than-you-chasing-them "How To Have Clients Find You (Rather Than You Chasing Them)")
 * [I sold Baremetrics - Baremetrics](https://baremetrics.com/blog/i-sold-baremetrics "I sold Baremetrics - Baremetrics")
-* [What is package.json?](https://mrqwest.co.uk/blog/what-is-package-json-11ty/ "What is package.json?")
-* [CSS Variables](https://mrqwest.co.uk/blog/css-variables/ "CSS Variables")
 * [My Social Dilemma - Paul Jardine Web Design](https://pauljardine.co.uk/blog/my-social-dilemma/ "My Social Dilemma - Paul Jardine Web Design")
 * [Introduction to Tailwind CSS](https://www.digitalocean.com/community/tutorials/css-tailwind-css "Introduction to Tailwind CSS")
 * [Building The Perfect Testimonial | Jonathan Stark](https://jonathanstark.com/building-the-perfect-testimonial "Building The Perfect Testimonial | Jonathan Stark")

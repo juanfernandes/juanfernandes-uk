@@ -40,7 +40,7 @@ All the new carpet has been laid upstairs now. My wife also took this opportunit
 Had to rush around the day before the carpet was being laid down on the upstairs hallway to get some network cable under the floorboards from the airing cupboard for me to wire in a Ubiquiti wifi access point, that will be mounted on the ceiling. Bit of a challenge - most of the rectangular floorboards had already been cut by electricians, but I needed to get the network cable to go under a floorboard that wasn't cut. I cut a hole in the airing cupboard floor, used a metal wire, looped over a water pipe to slide along until the gap where the floorboard had been lifted and then I could pull the network cable through!
 
 ### Writting
-I also managed to get a blog post out but it wasn't web design related, I wrote about my ventures into [home automation](https://www.juanfernandes.uk/blog/home-automation "Home Automation") - but I don't think this was well received. I need to get  back into writting more about web design stuff and less personal.
+I also managed to get a blog post out but it wasn't web design related, I wrote about my ventures into [home automation](https://www.juanfernandes.uk/blog/home-automation/ "Home Automation") - but I don't think this was well received. I need to get  back into writting more about web design stuff and less personal.
 
 ## What didn't go well
 

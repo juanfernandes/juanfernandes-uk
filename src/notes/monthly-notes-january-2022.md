@@ -45,7 +45,7 @@ I'm aiming to keep up with my monthly notes, as I only managed about six months 
 - [2021 into 2022 - Tania Rascia](https://www.taniarascia.com/2021-into-2022/ "2021 into 2022")
 - [My 2021 - Remy Sharp](https://remysharp.com/2021/12/31/my-2021 "My 2021")
 - [Twenty Twentyone - Dave Rupert](https://daverupert.com/2021/12/twenty-twentyone/ "Twenty Twentyone")
-- [2021 Review / 2022 Aims - Benjamin Read](https://deliciousreverie.co.uk/post/2021-review-2022-aims/ "2021 Review / 2022 Aims")
+- [2021 Review / 2022 Aims - Benjamin Read](https://deliciousreverie.co.uk/posts/2021-review-2022-aims/ "2021 Review / 2022 Aims")
 - [Eleventy v1.0.0, the stable release.—zachleat.com](https://www.zachleat.com/web/eleventy-one-point-oh/ "Eleventy v1.0.0, the stable release.—zachleat.com")
 - [The Future of CSS: Detect at-rule support with @supports at-rule(@keyword)](https://www.bram.us/2022/01/20/detect-at-rule-support-with-the-at-rule-function/ "The Future of CSS: Detect at-rule support with @supports at-rule(@keyword)")
 - [How to get, set, and remove attributes and properties with vanilla JavaScript](https://gomakethings.com/how-to-get-set-and-remove-attributes-and-properties-with-vanilla-javascript/ "How to get, set, and remove attributes and properties with vanilla JavaScript")

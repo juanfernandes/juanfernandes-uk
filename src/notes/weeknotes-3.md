@@ -49,7 +49,6 @@ Saturday I decided to get back to my exercise again and just at the end while ru
 
 ### Articles I read this week
 - [You only win once, Rodney Mullen](https://justinjackson.ca/rodney-mullen "You only win once, Rodney Mullen")
-- [Building an MVP design system in 3 months](https://uxdesign.cc/reflections-on-building-an-mvp-design-system-in-3-months-dd1b7660537c "Building an MVP design system in 3 months")
 - [Adding a little dark magic to the web](https://medium.com/@dizzyup/adding-a-little-dark-magic-to-the-web-8eb82ce5fd91 "Adding a little dark magic to the web")
 - [Don't Get Clever with Login Forms](https://bradfrost.com/blog/post/dont-get-clever-with-login-forms/ "Don't Get Clever with Login Forms")
 - [Designing Web Content for watchOS](https://erikrunyon.com/2018/06/designing-web-content-for-watchos/ "Designing Web Content for watchOS")

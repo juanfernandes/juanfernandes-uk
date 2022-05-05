@@ -51,5 +51,5 @@ Haven't done any exercise since I twisted my foot and ankle. It's felt weird not
 ## Articles I read this week
 - [Weeknotes 8 - Paul Silver](https://www.paulsilver.co.uk/blog/2019/03/weeknotes-8/ "Weeknotes 8 - Paul Silver")
 - [Using CSS Grid the right way](https://vgpena.github.io/using-css-grid-the-right-way/ "Using CSS Grid the right way")
-- [Week Notes 7 - Andy Bell](https://andy-bell.design/wrote/week-notes-7/ "Week Notes 7 - Andy Bell")
+- [Week Notes 7 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-7/ "Week Notes 7 - Andy Bell")
 - [The hidden reasons why people are using your software](https://justinjackson.ca/hidden "The hidden reasons why people are using your software")

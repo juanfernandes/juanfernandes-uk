@@ -45,7 +45,7 @@ July was a bit of a mixed bag of events and feelings, including having my second
 ## Sides
 
 * Started learning about generative NFT art - buying and also creating
-* Bought a [trezor](https://www.trezor.io "Trezor") cold storage wallet for my crypto
+* Bought a [trezor](https://trezor.io/ "Trezor") cold storage wallet for my crypto
 * Also bought my first piece of NFT art 🎉
 
 ## 📺 Watching
@@ -69,7 +69,7 @@ July was a bit of a mixed bag of events and feelings, including having my second
 * [ReCoil](https://adactio.com/journal/18248 "ReCoil")
 * [A New Component Library for Parts Giant – David Bushell – Freelance Web Design (UK)](https://dbushell.com/2021/07/01/new-component-library-for-parts-giant/ "A New Component Library for Parts Giant – David Bushell – Freelance Web Design (UK)")
 * [overscroll-behavior - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior "overscroll-behavior - CSS: Cascading Style Sheets | MDN")
-* [Principles - Piccalilli](https://piccalil.li/cube-css/principles/ "Principles - Piccalilli")
+* [Principles - Piccalilli](https://cube.fyi/principles.html "Principles - Piccalilli")
 * [Displaying the Current Step with CSS Counters | CSS-Tricks](https://css-tricks.com/displaying-the-current-step-with-css-counters/ "Displaying the Current Step with CSS Counters | CSS-Tricks")
 * [Monetizing Your Blog With Coil](https://chenhuijing.com/blog/monetizing-your-blog-with-coil/ "Monetizing Your Blog With Coil")
 * [Meta Element: theme-color › Martin Schneider — Frontend Developer](https://martinschneider.me/articles/meta-element-theme-color/ "Meta Element: theme-color")
@@ -80,7 +80,7 @@ July was a bit of a mixed bag of events and feelings, including having my second
 * [Seven best practice tips to design low-carbon websites](https://medium.com/@joanna.esther.peel/how-to-design-low-carbon-websites-e188737b0b44 "Seven best practice tips to design low-carbon websites")
 * [What is tree shaking?](https://gomakethings.com/what-is-tree-shaking/ "What is tree shaking?")
 * [The 3-Second Frontend Developer Test · Jens Oliver Meiert](https://meiert.com/en/blog/the-frontend-developer-test/ "The 3-Second Frontend Developer Test · Jens Oliver Meiert")
-* [Client side data in 11ty](https://cassie.codes/posts/client-side-data-in-11ty/ "Client side data in 11ty")
+* [Client side data in 11ty](https://www.cassie.codes/posts/client-side-data-in-11ty/ "Client side data in 11ty")
 * [Load file contents in Eleventy](https://bnijenhuis.nl/notes/2021-07-11-load-file-contents-in-eleventy/ "Load file contents in Eleventy")
 * [HTML for Subheadings and Headings | CSS-Tricks](https://css-tricks.com/html-for-subheadings-and-headings/ "HTML for Subheadings and Headings | CSS-Tricks")
 * [Progressive enhancement, graceful degradation, and asynchronously loading CSS](https://gomakethings.com/progressive-enhancement-graceful-degradation-and-asynchronously-loading-css/ "Progressive enhancement, graceful degradation, and asynchronously loading CSS")
@@ -90,14 +90,14 @@ July was a bit of a mixed bag of events and feelings, including having my second
 * [5 most annoying website features I face as a blind person every single day | The Big Hack](https://bighack.org/5-most-annoying-website-features-i-face-as-a-blind-screen-reader-user-accessibility/ "5 most annoying website features I face as a blind person every single day | The Big Hack")
 * [How to load CSS asynchronously](https://gomakethings.com/how-to-load-css-asynchronously/ "How to load CSS asynchronously")
 * [Fleek Makes Deploying and Maintaining an ENS+IPFS Website Easier than Ever](https://medium.com/the-ethereum-name-service/cloudflare-and-fleek-make-ens-ipfs-site-deployment-as-easy-as-ever-262c990a7514 "Fleek Makes Deploying and Maintaining an ENS+IPFS Website Easier than Ever")
-* [Sucks to be him! How Henry the vacuum cleaner became an accidental design icon](http://www.theguardian.com/lifeandstyle/2021/jul/24/how-henry-vacuum-cleaner-became-accidental-design-icon "Sucks to be him! How Henry the vacuum cleaner became an accidental design icon")
+* [Sucks to be him! How Henry the vacuum cleaner became an accidental design icon](https://www.theguardian.com/lifeandstyle/2021/jul/24/how-henry-vacuum-cleaner-became-accidental-design-icon "Sucks to be him! How Henry the vacuum cleaner became an accidental design icon")
 * [Organize your CSS declarations alphabetically](https://ericwbailey.design/writing/organize-your-css-declarations-alphabetically/ "Organize your CSS declarations alphabetically")
 * [Deleting a stash in Git](https://www.tempertemper.net/blog/deleting-a-stash-in-git "Deleting a stash in Git")
 * [Accordion Rows in CSS Grid](https://meyerweb.com/eric/thoughts/2020/07/01/accordion-rows-in-css-grid/ "Accordion Rows in CSS Grid")
-* [Responsive Suffixes in CSS Class Names](https://seesparkbox.com/foundry/responsive_class_suffixes_automating_classes_with_sass_mixins_and_sass_maps "Responsive Suffixes in CSS Class Names")
+* [Responsive Suffixes in CSS Class Names](https://sparkbox.com/foundry/responsive_class_suffixes_automating_classes_with_sass_mixins_and_sass_maps "Responsive Suffixes in CSS Class Names")
 * [Structuring Eleventy projects](https://www.webstoemp.com/blog/eleventy-projects-structure/ "Structuring Eleventy projects")
 * [A Complete Guide to Netlify Forms | Stackbit](https://www.stackbit.com/blog/complete-guide-netlify-forms/ "A Complete Guide to Netlify Forms | Stackbit")
 * [Website Accessibility Checklist (15 Things You Can Improve) | websitesetup.org](https://websitesetup.org/web-accessibility-checklist/ "Website Accessibility Checklist (15 Things You Can Improve) | websitesetup.org")
 * [Icon accessibility and aria label](https://gomakethings.com/icon-accessibility-and-aria-label/ "Icon accessibility and aria label")
-* [How to Build a Consistent Content Creation Habit](https://lengstorf.com/build-consistent-content-creation-habit/ "How to Build a Consistent Content Creation Habit")
+* [How to Build a Consistent Content Creation Habit](https://www.jason.af/build-consistent-content-creation-habit/ "How to Build a Consistent Content Creation Habit")
 * [Supporting Multiple Authors in an Eleventy Blog](https://www.raymondcamden.com/2020/08/24/supporting-multiple-authors-in-an-eleventy-blog "Supporting Multiple Authors in an Eleventy Blog")

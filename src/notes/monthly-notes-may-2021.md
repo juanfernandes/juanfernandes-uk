@@ -60,7 +60,7 @@ Now that I have a permanent job again, my website is my new side project.
 - [A Guide to the Responsive Images Syntax in HTML | CSS-Tricks](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/ "A Guide to the Responsive Images Syntax in HTML | CSS-Tricks")
 - [CSS Animation Timelines: Building a Rube Goldberg Machine](https://cloudfour.com/thinks/css-animation-timelines-building-a-rube-goldberg-machine/ "CSS Animation Timelines: Building a Rube Goldberg Machine")
 - [Quick Tip: How to Hide Whitespace Changes in Git Diffs](https://cloudfour.com/thinks/quick-tip-how-to-hide-whitespace-changes-in-git-diffs/ "Quick Tip: How to Hide Whitespace Changes in Git Diffs")
-- [9 tips to quickly improve your UI designs](https://uxdesign.cc/9-simple-tips-to-improve-your-ui-designs-fast-377c5113ac82 "9 tips to quickly improve your UI designs")
+- [9 tips to quickly improve your UI designs](https://medium.com/user-experience-design-1/9-simple-tips-to-improve-your-ui-designs-fast-377c5113ac82 "9 tips to quickly improve your UI designs")
 - [Accessing 11ty filters within data files to keep your code DRY - Mike Street - Lead Developer and CTO](https://www.mikestreety.co.uk/blog/accessing-11ty-filters-within-data-files/ "Accessing 11ty filters within data files to keep your code DRY - Mike Street - Lead Developer and CTO")
 - [Implementing clientside webmentions | bnijenhuis](https://bnijenhuis.nl/notes/2021-05-03-implementing-clientside-webmentions/ "Implementing clientside webmentions | bnijenhuis")
 - [Light and dark themed SVG favicon using the CSS prefers-color-scheme media feature](https://catalin.red/svg-favicon-light-dark-theme/ "Light and dark themed SVG favicon using the CSS prefers-color-scheme media feature")

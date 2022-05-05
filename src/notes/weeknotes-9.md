@@ -57,7 +57,6 @@ We got a new addition to our family - another pet - a snake. My eldest is going 
 - [#013 - Ana Rodrigues - Developurrs](https://developur.rs/posts/ana-rodrigues/ "#013 - Ana Rodrigues - Developurrs")
 - [Creating a full bleed CSS utility](https://archive.hankchizljaw.com/wrote/creating-a-full-bleed-css-utility/ "Creating a full bleed CSS utility - Andy Bell")
 - [Know your ARIA: 'Hidden' vs 'None'](https://www.scottohara.me/blog/2018/05/05/hidden-vs-none.html "Know your ARIA: 'Hidden' vs 'None'")
-- [My aha moment as a UX designer](https://uxdesign.cc/my-aha-moment-as-a-ux-designer-2a0812785d56 "My aha moment as a UX designer")
 - [Blurred lines and job titles](https://cathydutton.co.uk/posts/blurred-lines-and-job-titles/ "Blurred lines and job titles")
 - [Trainers](https://ethanmarcotte.com/wrote/trainers/ "Trainers")
 - [Week Notes 11 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-11/ "Week Notes 11 - Andy Bell")

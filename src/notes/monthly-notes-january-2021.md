@@ -74,7 +74,6 @@ I published a new blog post, [How I improved my website because of Content Secur
 
 ## Articles Read
 
-* [11ty is pretty slick!](https://mrqwest.co.uk/blog/11ty/ "11ty is pretty slick!")
 * [Custom collection list markup in Eleventy](https://www.dandenney.com/posts/front-end-dev/custom-collection-list-markup-in-eleventy/ "Custom collection list markup in Eleventy")
 * [Making Persistent Build Folders in Netlify](https://mxb.dev/blog/persistent-build-folders-netlify/ "Making Persistent Build Folders in Netlify")
 * [Dynamic heading levels in Eleventy - Dana Byerly](https://danabyerly.com/articles/dynamic-heading-levels-in-eleventy/ "Dynamic heading levels in Eleventy - Dana Byerly")

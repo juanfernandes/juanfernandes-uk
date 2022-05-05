@@ -62,7 +62,6 @@ I never know whether to start listening to an existing podcast from the beginnin
 
 ## Reading
 - [Weeknotes #5 - Vincent Pickering](https://vincentp.me/articles/2019/04/07/16-00/ "Weeknotes #5 - Vincent Pickering")
-- [Shopping cart, bag or basket?](https://uxdesign.cc/shopping-cart-bag-or-basket-fd7360c9413a "Shopping cart, bag or basket?")
 - [How to Write a Git Commit Message](https://cbea.ms/git-commit/ "How to Write a Git Commit Message")
 - [Week notes #5 - Sam Hardacre](https://blog.nocturnalmonkey.com/week-notes-5/ "Week notes #5 - Sam Hardacre")
 - [Week Notes 12 - Andy Bell](https://archive.hankchizljaw.com/wrote/week-notes-12/ "Week Notes 12 - Andy Bell")

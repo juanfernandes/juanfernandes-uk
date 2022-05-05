@@ -59,7 +59,6 @@ Been quite a busy month for freelance work, but it's also my last freelance proj
 * [CSS Variables](https://dev.to/samanthaming/css-variables-8di "CSS Variables")
 * [Minimum viable analytics](https://darn.es/minimum-viable-analytics/ "Minimum viable analytics")
 * [A Two Settings Problem](https://daverupert.com/2020/02/a-two-settings-problem/ "A Two Settings Problem")
-* [Security and performance issues with target=”_blank” on links](https://kbarker.dev/2020/02/24/security-and-performance-issues-with-target-blank-on-links.html "Security and performance issues with target=”_blank” on links")
 * [Creating Utility Classes with Design Tokens using Sass](https://alwaystwisted.com/articles/creating-utility-classes-with-design-tokens-using-sass "Creating Utility Classes with Design Tokens using Sass")
 * [Multi-column manipulation](https://every-layout.dev/blog/multi-column-manipulation/ "Multi-column manipulation")
 * [How do I find customers?](https://justinjackson.ca/find "How do I find customers?")
