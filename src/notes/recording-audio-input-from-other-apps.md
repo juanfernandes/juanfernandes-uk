@@ -21,6 +21,6 @@ I've been wanting to get back into recording gameplay, going to restart my Minec
 
 So I've been reconfiguring OBS and working out the best screen size and testing sound... and for some reason, OBS was not recording the game sounds, it said Desktop Audio is disabled.
 
-After a few searches, I came across an article that explained how to solve this issue - turns out you need another piece of software, to be able to capture the sounds from one app to another!
+After a few searches, I came across an article that explained how to solve this issue - turns out you need another piece of software, iShowU, to be able to capture the sounds from one app to another!
 
-Here is the guide I followed - [_How to capture Mac desktop audio with OBS_](https://lofi-gaming.org.uk/blog/2016/09/17/capture-mac-desktop-audio-obs/ " How to capture Mac desktop audio with OBS")
+Here is the guide I followed - _How to capture Mac desktop audio with OBS_ - but this has been deleted. Here is a similar article you can follow - [How to Record Desktop Audio with OBS](https://echoshare.co/record-desktop-audio-with-obs-windows-mac/ "How to Record Desktop Audio with OBS")

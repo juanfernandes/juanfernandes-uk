@@ -90,7 +90,7 @@ I'm still cooking all the dinners during the week - it has taken some effort get
 * [Form design: multiple inputs versus one input by Adam Silver](https://adamsilver.io/blog/form-design-multiple-inputs-versus-one-input/ "Form design: multiple inputs versus one input by Adam Silver")
 * [Easily Use Design Tokens In Eleventy: HeydonWorks](https://heydonworks.com/article/design-tokens-in-eleventy/ "Easily Use Design Tokens In Eleventy: HeydonWorks")
 * [Overlapping Header with CSS Grid](https://snook.ca/archives/html_and_css/overlapping-header-with-css-grid "Overlapping Header with CSS Grid")
-* [WordPress As A Headless CMS](https://blog.daftcode.pl/wordpress-as-a-headless-cms-b4144c626695 "WordPress As A Headless CMS")
+* [WordPress As A Headless CMS](https://medium.com/@jasuca/headless-cms-or-head-cms-50a8d9ce45d7 "WordPress As A Headless CMS")
 * [CSS Logical Properties - Piccalilli](https://piccalil.li/tutorial/css-logical-properties/ "CSS Logical Properties - Piccalilli")
 * [Micro-interactions to incorporate for powerful emotional design](https://cloudfour.com/thinks/micro-interactions-to-incorporate-for-powerful-emotional-design/ "Micro-interactions to incorporate for powerful emotional design")
 * [Styling Links with Real Underlines | CSS-Tricks](https://css-tricks.com/styling-links-with-real-underlines/ "Styling Links with Real Underlines | CSS-Tricks")
