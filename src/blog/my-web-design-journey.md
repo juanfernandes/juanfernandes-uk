@@ -39,7 +39,7 @@ Part of the course was to work with a local business owner to design and develop
 
 This is what we did as a group:
 
-![Benchrover](/assets/imgs/benchrover.jpg "Benchrover")
+![Benchrover](https://res.cloudinary.com/juanfernandes/benchrover.jpg "Benchrover")
 
 I ended up working privately with that client and he has been my client ever since.
 
@@ -59,7 +59,7 @@ I teamed up with a colleague from my multimedia course, who was also not having 
 
 This was our first website - my business partner was the creative genius!
 
-![First Multi Creative Media website](/assets/imgs/multi-creative-media.jpg "First Multi Creative Media website")
+![First Multi Creative Media website](https://res.cloudinary.com/juanfernandes/multi-creative-media.jpg "First Multi Creative Media website")
 
 We carried on working together for a few years, I then landed my first ever website designer job working at Tesco Compare - one of the first insurance comparison websites - yeah I know, Tesco again :D
 
