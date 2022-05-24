@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now"
-date: 2022-05-11T00:00:00Z
+date: 2022-05-24T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,11 +12,12 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* The loft conversion project is in full swing. First week we had lots of deliveries of wood and insulation
+* The loft conversion project is still in full swing. New support joists and floor joists are in, new support structure in place and old support structure removed.
 
 ### Work
-* FInal amends on the Arrival Lift Servides website still to do
-* The Surbiton Tyre and Wheel website has finally gone live. Just a few more sections to finish and some tidying up to do left
+* Final checks on the Arrival Lift Servides website done, waiting for client to go through it one final time
+* Working with FirstStop to add a tyre booking service section to the Surbiton Tyres and Wheels website
+* Started a new freelance project working with an agency
 
 ### Reading
 * [Company of One](https://bookwyrm.social/book/184714 "Company of One")
