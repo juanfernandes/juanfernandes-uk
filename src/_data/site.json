@@ -18,6 +18,29 @@
   "cloudinary_url": "https://res.cloudinary.com/juanfernandes/",
   "domain": "www.juanfernandes.uk",
   "url": "https://www.juanfernandes.uk",
+  "socials": [
+    {
+      "url": "https://micro.blog/juanfernandes"
+    },
+    {
+      "url": "https://twitter.com/juanfernandes"
+    },
+    {
+      "url": "https://mastodon.social/@juanfernandes"
+    },
+    {
+      "url": "https://www.linkedin.com/in/juanfernandes"
+    },
+    {
+      "url": "https://github.com/juanfernandes"
+    },
+    {
+      "url": "https://www.polywork.com/juanfernandes"
+    },
+    {
+      "url": "https://gitlab.com/juanfernandes"
+    }
+  ],
   "navigation": [
     {
       "label": "Work",

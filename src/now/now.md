@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now"
-date: 2022-05-24T00:00:00Z
+date: 2022-06-08T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,12 +12,11 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* The loft conversion project is still in full swing. New support joists and floor joists are in, new support structure in place and old support structure removed.
+* The loft conversion project is almost finished. They have more plaster boards to add and then they cut the hole in the ceiling and build the new staircase
+* Last weekend we were at a Kuk Sool Won martial arts tournament - I didn't take part, but my wife and kids all did and they kids won some medals
 
 ### Work
-* Final checks on the Arrival Lift Servides website done, waiting for client to go through it one final time
-* Working with FirstStop to add a tyre booking service section to the Surbiton Tyres and Wheels website
-* Started a new freelance project working with an agency
+* [Arrival Lift Servides](https://www.arrival-lifts.co.uk) website is now live
 
 ### Reading
 * [Company of One](https://bookwyrm.social/book/184714 "Company of One")
@@ -25,10 +24,12 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
+* [Somewhere Between](https://www.netflix.com/gb/title/80173623 "Somewhere Between")
+  A local news producer is given one chance to relive a deadly week and stop a serial killer. If she fails, she'll lose her daughter forever.
+* [Locke & Key](https://www.netflix.com/gb/Title/80241239 "Locke & Key")
+  After their dad's murder, three siblings move with their mom to his ancestral estate, where they discover magical keys that unlock powers — and secrets.
 * [Bordertown](https://www.netflix.com/gb/title/80145143 "Bordertown")
   A gifted detective takes a job in a small town so he can spend more time with his family. But he's soon drawn into a web of disturbing murder cases.
-* [Russian Doll S2](https://www.netflix.com/gb/title/80211627 "Russian Doll")
-  Nadia keeps dying and reliving her 36th birthday party. She's trapped in a surreal time loop -- and staring down the barrel of her own mortality.
 * [Homeland](https://www.netflix.com/gb/title/70180387 "Homeland")
   CIA analyst Carrie Mathison struggles with mental health and family issues while leading the war against terrorism in this political thriller series.
 * [3%](https://www.netflix.com/gb/title/80074220 "3%")
@@ -37,9 +38,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
 
 #### Finished
+* [Russian Doll S2](https://www.netflix.com/gb/title/80211627 "Russian Doll")
 * [Seinfeld](https://www.netflix.com/gb/title/70153373 "Seinfeld")
 * [All of Us Are Dead](https://www.netflix.com/gb/title/81237994 "All of Us Are Dead")
 * [Bad Blood](https://www.netflix.com/gb/TITLE/80221787 "Bad Blood")
 * [It's Always Sunny in Philadelphia](https://www3.stage.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
-* [The Sinner S4](https://www.netflix.com/gb/title/80175802 "The Sinner")
-* [The Serpent](https://www.netflix.com/gb/title/80206099 "The Serpent")

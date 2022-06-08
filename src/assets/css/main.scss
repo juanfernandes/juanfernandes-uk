@@ -19,8 +19,8 @@ $module: 'social-icons';
 
     svg,
     use {
-      height: 48px;
-      width: 48px;
+      height: 38px;
+      width: 38px;
       fill: var(--white);
       transition: fill 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
     }
@@ -35,12 +35,13 @@ $module: 'social-icons';
 
   &--footer {
     ul {
+      align-items: center;
       display: flex;
-      flex-direction: column;
       justify-content: center;
+      margin-top: 1rem;
 
       @media only screen and (min-width: 40em) {
-        flex-direction: row;
+        margin-top: 0;
         max-height: 48px;
       }
     }
@@ -678,9 +679,14 @@ footer > .container > .sixteen {
   align-items: center;
   border-top: 2px solid var(--orange);
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   margin: 24px auto 0 auto;
   padding: 25px 0;
+
+  @media only screen and (min-width: 40em) {
+    flex-direction: row;
+  }
 
   &__other {
     display: flex;

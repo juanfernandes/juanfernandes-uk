@@ -6,7 +6,6 @@
     "eleventy": "npx eleventy",
     "sass": "sass --style=compressed src/assets/css/global.scss:dist/assets/css/global.min.css",
     "watch:eleventy": "eleventy --quiet --serve",
-    "watch:sass": "sass -w",
     "start": "npm-run-all eleventy sass --parallel watch:*",
     "build": "npm run sass && npx eleventy"
   },
