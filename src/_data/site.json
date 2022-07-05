@@ -63,5 +63,6 @@
       "label": "Contact",
       "url": "/contact/"
     }
-  ]
+  ],
+  "generator": "Eleventy"
 }
