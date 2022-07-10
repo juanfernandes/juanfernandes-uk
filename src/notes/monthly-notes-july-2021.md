@@ -17,6 +17,7 @@ keywords:
 - work
 date: 2021-08-04T23:00:00.000+00:00
 tags:
+- monthly-notes
 - notes
 tweetId: "1423228658941050880"
 

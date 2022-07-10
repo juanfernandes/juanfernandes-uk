@@ -11,6 +11,7 @@ keywords:
 - work
 date: 2022-04-12T00:00:00Z
 tags:
+- monthly-notes
 - notes
 tweetId: "1514222066970599426"
 

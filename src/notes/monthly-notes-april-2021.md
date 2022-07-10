@@ -20,6 +20,7 @@ keywords:
 - fairphone 3+
 date: 2021-05-05T23:00:00Z
 tags:
+- monthly-notes
 - notes
 
 ---

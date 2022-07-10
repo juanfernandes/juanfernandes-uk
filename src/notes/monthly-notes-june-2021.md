@@ -12,6 +12,7 @@ keywords:
 - frontend UI developer
 date: 2021-07-02T23:00:00Z
 tags:
+- monthly-notes
 - notes
 tweetId: "1411294679174369284"
 
