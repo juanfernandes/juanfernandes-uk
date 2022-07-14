@@ -17,7 +17,7 @@ date: 2022-07-10T00:00:00Z
 tags:
   - monthly-notes
   - notes
-tweetId: ''
+tweetId: '1546052879412240384'
 
 ---
 I'm way behind on these monthly blog posts that I've decided to forget about the last few months. There hasn't been much to write about these last few months, plus I've just been too busy with life and house stuff. Anyway, June was a good month; I'm glad the contractors have finished the loft conversion project - we now need to decorate and furnish. How was your month?
