@@ -15,7 +15,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Continuing work on that cool project which I can't say much about
 
 ### Personal
-* Decided rather than spend lots of money on speakers for the outside entertainenment area, a new echo dot with a battery base for it was enough for out there at least for now
+* Decided rather than spend lots of money on speakers for the outside entertainment area, a new echo dot with a battery base for it was enough for out there at least for now
 * Been buying networking bits of kit, including a new data cabinet to house a switch in the loft. Getting ready to finish the networking up in the loft extension
 
 ### Reading
