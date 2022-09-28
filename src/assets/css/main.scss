@@ -1045,26 +1045,13 @@ figure.effect:hover p {
   }
 }
 
-/*
-  About
-*/
-.about {
+.about,
+.uses,
+.now,
+.books {
   padding: 54px 0;
 }
 
-/*
-  Now
-*/
-.now {
-  padding: 54px 0;
-}
-
-/*
-  Uses
-*/
-.uses {
-  padding: 54px 0;
-}
 
 .fyi {
   background-color: var(--off-white);
