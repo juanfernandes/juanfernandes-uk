@@ -1,11 +1,10 @@
 /* $_Images
 ================================================== */
 img {
-  -ms-interpolation-mode: bicubic;
+  display: block;
   height: auto;
   margin-bottom: 24px;
   max-width: 100%;
-  width: 100%;
 
   &--rounded {
     border-radius: 4px;

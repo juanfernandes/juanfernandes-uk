@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2022-10-03T00:00:00Z
+date: 2022-10-12T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,10 +12,11 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* My attempt at cutting out a shape, my first name in a stencil font, failed! But it was a fun experiment. I successfully, but 100% perfectly managed to cut out my name with a blade knife, but when I was holding the grip tape over the board, it started to stretch the letters. So I guessed the centre and placed the grip tape down, unfortunately, it wasn't in the centre. Tried to peel it off and it ripped because of where the letters were cut out, it was weakened. I have resolved this by buying a seethrough grip tape to allow the colour of my board to be visible.
+* I've successfully applied the seethrough grip tape to my new skateboard and it looks great. Not a perfect job, but not bad for a first attempt. Trucks back on and ready for some skateboarding!
+* Went to a golf range for the first time with a friend and their family. Was a great day out and lots of fun. My son loved it and we will be going back.
+* Got back into NFTs by buying a new one. Nice little project and cool artwork. Had lost interest in NFTs for a bit due to lots of projects disapearing.
 
-### Work
-* Nothing much has changed with work. I feel stuck as things do not appear to be getting better, and the current economic state of the UK makes my options limited.
+{% cloudinaryImage "v1665594775/long-lost-926_avatar.png", "q_auto,f_auto,w_300,h_300", "Long Lost #926 - zombie character with hat" %}
 
 ### Reading
 * [End of watch by Stephen King](https://bookwyrm.social/book/169335/s/end-of-watch "End of watch by Stephen King")
@@ -26,9 +27,6 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 ### Watching
 * [Orange Is the New Black](https://www.netflix.com/gb/title/70242311 "Orange Is the New Black")
   When a past crime catches up with her, a privileged New Yorker ends up in a women's prison, where she quickly makes friends and foes.
-
-* [War Of The Worlds](https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9 "War Of The Worlds")
-  When astronomers detect a transmission from another galaxy, it is definitive proof of intelligent extra-terrestrial life. Within days, mankind is all but wiped out, and as alien ships appear in the sky, the survivors ask a burning question – who are these attackers and why are they hell-bent on our destruction?
 
 * [Wu Assassins](https://www.netflix.com/gb/title/80230293 "Wu Assassins")
   An unassuming San Francisco chef becomes the latest in a long line of assassins chosen to keep the mystical Wu powers out of the wrong hands.
@@ -49,7 +47,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
 
 #### Finished
+* [War Of The Worlds](https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9 "War Of The Worlds")
 * [Stranger Things S4](https://www.netflix.com/gb/title/80057281 "Stranger Things S4")
 * [Friends](https://www.netflix.com/gb/title/70153404 "Friends")
 * [Archive 81](https://www.themoviedb.org/tv/112314-archive-81 "Archive 81")
-* [Cowboy Bebop](https://www.netflix.com/gb/title/80207033 "Cowboy Bebop")

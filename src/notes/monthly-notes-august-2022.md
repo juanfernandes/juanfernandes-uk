@@ -54,7 +54,7 @@ Unfortunately, I didn't take a before photo of the garage - so you will just hav
 
 This photo shows most of the contents of our garage, spread out on our patio in different categories ready to be sorted.
 
-{% cloudinaryImage "/v1663008009/garage-contents.jpg", "q_auto,f_auto", "Most of the contents of our garage spreadout on the patio" %}
+{% cloudinaryImage "v1663008009/garage-contents.jpg", "q_auto,f_auto", "Most of the contents of our garage spreadout on the patio" %}
 
 And this photo shows what our garage currently looks like. Great progress so far - still have a few more boxes to sort out and I need to install hooks for things like ladders etc.
 
