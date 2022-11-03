@@ -8,7 +8,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/12920926-M.jpg",
                 "url": "https://bookwyrm.social/book/285585/s/finders-keepers-bill-hodges-trilogy-2",
-                "rating": "(In Progress)",
+                "status": "(In Progress)",
                 "notes": ""
             },
             {
@@ -17,7 +17,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/11288451-M.jpg",
                 "url": "https://openlibrary.org/works/OL24618057W/If_It_Bleeds",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -26,7 +26,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/12920967-M.jpg",
                 "url": "https://openlibrary.org/books/OL28294245M/Mr._Mercedes",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             }
         ]
@@ -40,7 +40,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/10354506-M.jpg",
                 "url": "https://openlibrary.org/works/OL21229708W/Later",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -49,7 +49,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/10712309-M.jpg",
                 "url": "https://openlibrary.org/books/OL32046635M/The_Wind_Through_the_Keyhole",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -58,7 +58,7 @@
                 "author": "Matt Haig",
                 "img": "https://covers.openlibrary.org/b/id/10479372-M.jpg",
                 "url": "https://openlibrary.org/works/OL21522194W/The_Midnight_Library",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -67,7 +67,7 @@
                 "author": "Joe Hill",
                 "img": "https://covers.openlibrary.org/b/id/12920965-M.jpg",
                 "url": "https://openlibrary.org/works/OL21282686W/Fireman",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             }
         ]
@@ -81,7 +81,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/11413276-M.jpg",
                 "url": "https://openlibrary.org/books/OL10676802M/The_Dark_Tower_VI",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -90,7 +90,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/11412749-M.jpg",
                 "url": "https://openlibrary.org/books/OL9664793M/The_Dark_Tower_IV",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             }
         ]
@@ -104,7 +104,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/10326676-M.jpg",
                 "url": "https://openlibrary.org/books/OL15576556M/The_Dark_Tower_V",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             }
         ]
@@ -118,7 +118,7 @@
                 "author": "Rachel Andrew",
                 "img": "https://covers.openlibrary.org/b/id/10482619-M.jpg",
                 "url": "https://openlibrary.org/works/OL22655805W/The_New_CSS_Layout",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -127,7 +127,7 @@
                 "author": "Mat Marquis",
                 "img": "https://covers.openlibrary.org/b/id/12920952-M.jpg",
                 "url": "https://openlibrary.org/books/OL39805068M/JavaScript_for_Web_Designers",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             }
         ]
@@ -141,7 +141,7 @@
                 "author": "Brad Frost",
                 "img": "https://covers.openlibrary.org/b/id/12920949-M.jpg",
                 "url": "https://openlibrary.org/works/OL22297494W/Atomic_Design",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -150,7 +150,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/12920954-M.jpg",
                 "url": "https://openlibrary.org/works/OL26150393W/Lisey%27s_Story",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             }
         ]
@@ -164,7 +164,7 @@
                 "author": "Mike Monteiro",
                 "img": "https://covers.openlibrary.org/b/id/12587850-M.jpg",
                 "url": "https://openlibrary.org/works/OL27094427W/Youre_My_Favorite_Client",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             }
         ]
@@ -178,7 +178,7 @@
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/9255967-M.jpg",
                 "url": "https://openlibrary.org/books/OL18388150M/Rose_Madder",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -187,7 +187,7 @@
                 "author": "Aaron Gustafson",
                 "img": "https://covers.openlibrary.org/b/id/6771310-M.jpg",
                 "url": "https://openlibrary.org/works/OL15745606W/Adaptive_Web_Design",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -196,7 +196,7 @@
                 "author": "Jeremy Keith",
                 "img": "https://covers.openlibrary.org/b/id/6666412-M.jpg",
                 "url": "https://openlibrary.org/works/OL15437498W/HTML5_For_Web_Designers",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
@@ -205,16 +205,161 @@
                 "author": "Bruce Lawson",
                 "img": "https://covers.openlibrary.org/b/id/6726610-M.jpg",
                 "url": "https://openlibrary.org/works/OL15710580W/Introducing_HTML_5",
-                "rating": "Read",
+                "status": "Read",
                 "notes": ""
             },
             {
                 "title": "The Waste Lands",
-                "subtitle": "The Dark Tower, #3",
+                "subtitle": "The Dark Tower #3",
                 "author": "Stephen King",
                 "img": "https://covers.openlibrary.org/b/id/10515631-M.jpg",
                 "url": "https://openlibrary.org/books/OL9624437M/The_Dark_Tower_III",
-                "rating": "Read",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "The Drawing of the Three",
+                "subtitle": "The Dark Tower #2",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/12983438-M.jpg",
+                "url": "https://openlibrary.org/books/OL10628188M/The_Dark_Tower_II",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "The Gunslinger",
+                "subtitle": "The Dark Tower #1",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/12983417-M.jpg",
+                "url": "https://openlibrary.org/books/OL9542909M/The_Dark_Tower_I",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "Desperation",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/10520959-M.jpg",
+                "url": "https://openlibrary.org/books/OL28368041M/Desperation",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "Cell",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/12983441-M.jpg",
+                "url": "https://openlibrary.org/works/OL26150521W/Cell",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "Dreamcatcher",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/11412877-M.jpg",
+                "url": "https://openlibrary.org/books/OL10630713M/Dreamcatcher",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "The CSS Anthology",
+                "subtitle": "",
+                "author": "Rachel Andrew",
+                "img": "https://covers.openlibrary.org/b/id/12983674-M.jpg",
+                "url": "https://openlibrary.org/works/OL16932146W/The_CSS_anthology",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "Doctor Sleep",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/12685616-M.jpg",
+                "url": "https://openlibrary.org/books/OL28507073M/Doctor_Sleep",
+                "status": "Read",
+                "notes": ""
+            }
+        ]
+    },
+    {
+        "year": 2013,
+        "books": [
+            {
+                "title": "11.22.63",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/7267516-M.jpg",
+                "url": "https://openlibrary.org/books/OL25434880M/11_22_63",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "The Stand",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/9255989-M.jpg",
+                "url": "https://openlibrary.org/books/OL20402389M/The_Stand",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "The Girl Who Loved Tom Gordon",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/8666518-M.jpg",
+                "url": "https://openlibrary.org/books/OL27047553M/The_Girl_Who_Loved_Tom_Gordon",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "The Green Mile",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/11456735-M.jpg",
+                "url": "https://openlibrary.org/works/OL24726026W/The_Green_Mile",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "Thinner",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/10936333-M.jpg",
+                "url": "https://openlibrary.org/books/OL32312068M/Thinner",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "Salem's Lot",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/10193444-M.jpg",
+                "url": "https://openlibrary.org/books/OL28265158M/Salem's_Lot",
+                "status": "Read",
+                "notes": ""
+            }
+        ]
+    },
+    {
+        "year": 2012,
+        "books": [
+            {
+                "title": "Carrie",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/8588037-M.jpg",
+                "url": "https://openlibrary.org/works/OL14916810W/Novels_%28Carrie_Tommyknockers%29",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "The Shining",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "https://covers.openlibrary.org/b/id/12983683-M.jpg",
+                "url": "https://openlibrary.org/books/OL30104053M/The_Shining",
+                "status": "Read",
                 "notes": ""
             }
         ]
