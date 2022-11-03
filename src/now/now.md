@@ -17,7 +17,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ### Reading
 * [End of watch by Stephen King](https://bookwyrm.social/book/169335/s/end-of-watch "End of watch by Stephen King")
-* [Company of One](https://bookwyrm.social/book/184714 "Company of One")
+* [Company of One](https://bookwyrm.social/book/184714/s/company-of-one "Company of One")
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 

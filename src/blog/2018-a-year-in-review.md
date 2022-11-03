@@ -36,7 +36,7 @@ Social media, in general, had an interesting year - most people now know how muc
 
 I've been wanting to leave Facebook way before all of this happened - but the one thing that stopped me is that my mum is on there and she calls/messages me on Messenger (Turns out you can use Messenger even if you have deactivated your Facebook account). I've also recently joined a couple of very good groups - I had left the majority of groups I was in and also unliked/unfollowed a LOT of pages. Update: I finally deactivated my Facebook and Instagram accounts on New Year's Eve!
 
-[Mastodon](https://mastodon.social/about/more "Mastodon") came along and loads of people left Twitter for it but for a social network to work - it needs people and people didn't stick around long enough - oh well. In an attempt to make Twitter better for me I have unfollowed a lot of people and companies and have also started using the mute words to clean up my timeline. It has improved a lot.
+[Mastodon](https://mastodon.social/about "Mastodon") came along and loads of people left Twitter for it but for a social network to work - it needs people and people didn't stick around long enough - oh well. In an attempt to make Twitter better for me I have unfollowed a lot of people and companies and have also started using the mute words to clean up my timeline. It has improved a lot.
 
 The year had a great start with me getting a contract to start in February - which ended up being my longest contract to date (7 months).
 

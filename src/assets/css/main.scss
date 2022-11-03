@@ -1395,3 +1395,73 @@ figure.effect:hover p {
     }
   }
 }
+
+.book {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 3fr;
+
+  img {
+    border: 1px solid rgb(0 0 0 / 0.1);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    margin-bottom: 0;
+    transition: all .3s ease-in-out;
+  }
+
+  &:hover img,
+  &:focus img {
+    box-shadow: none;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+
+  a:link {
+    margin-bottom: 1rem;
+    border: 0;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .subtitle,
+  .author {
+      margin-bottom: 1rem;
+  }
+
+  .author {
+      font-size: 2rem;
+  }
+
+  .subtitle {
+      font-size: 1.4rem;
+  }
+
+  .status {
+      font-size: 1.4rem;
+  }
+}
+
+.bookshelf {
+  display: grid;
+  grid-gap: calc(1em + 2vw);
+
+  + .year {
+      margin-top: 4rem;
+  }
+}
+
+@media (min-width: 40em) {
+  .bookshelf {
+    grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
+
+  }
+}

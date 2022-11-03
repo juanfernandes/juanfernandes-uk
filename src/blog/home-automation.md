@@ -35,7 +35,7 @@ With this approach, you may end up with different controllers for different tech
 The cheapest way is to get WiFi lightbulbs and use their own apps to set them up, then add them to Alexa. But this way you will end up with various different apps on your phone for all the different tech you automate.
 
 ## My current setup
-I opted to go down a different route, I bought a controller that can use various different protocols - a [VeraPlus](https://getvera.com/ "Vera") controller and also opted to use the [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave "Read about Z-Wave protocol") protocol.
+I opted to go down a different route, I bought a controller that can use various different protocols - a [VeraPlus](https://shop.ezlo.com/ "Vera") controller and also opted to use the [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave "Read about Z-Wave protocol") protocol.
 
 I have two amazon echo dots, one in the kitchen and another in my office (this one used to be in the living room until we upgraded it to an echo) and an echo in the living room.
 
@@ -45,7 +45,7 @@ The new living room TV is also connected to Alexa via an Alexa skill - this is a
 
 Recently I got five smart plugs that control a lamp in the hallway, our tortoises' vivarium, an outside tree light, my office heater and one for the Christmas tree and outside lights (_which is now in the loft until December!_). These have all been added to Alexa and can be controlled via the app or a voice command. I have also created routines for those devices - for example, the hallway lamp comes on in the evening - saves us turning on the hallway lights (_about 10 spotlights!_).
 
-In the living room, we have a lamp with a [ Z-Wave Plus Aeotec LED](https://www.vesternet.com/products/z-wave-plus-aeotec-led-bulb-6-multi-color-e27 " Z-Wave Plus Aeotec LED") WiFi bulb - I tried a cheaper alternative before, a TP-Link, but every time we wanted to use it, it couldn't be 'seen' on the network.
+In the living room, we have a lamp with a [ Z-Wave Plus Aeotec LED](https://www.vesternet.com/collections/brands-aeotec " Z-Wave Plus Aeotec LED") WiFi bulb - I tried a cheaper alternative before, a TP-Link, but every time we wanted to use it, it couldn't be 'seen' on the network.
 
 The echo dot in the kitchen is mainly used to tell Alexa what music to play on the two Sonos play 1 speakers, which are set up in stereo mode.
 
@@ -70,7 +70,7 @@ Finally, to get into the more advanced side of home automation, it appears you n
 ## What's next?
 My plan, when I started this venture, was to be able to switch on/off the main lights in some of the rooms and the hallways. This proved to be more difficult than I was hoping for because it involves electricity and I'm not an electrician and looking at the wiring made no sense at all to me, especially when you have a 3 way light switch on one side of the room and a 2 way on the other.
 
-I bought some of these [Z-Wave Fibaro Single Switch](https://www.vesternet.com/products/z-wave-fibaro-single-switch-2-gen5 "Z-Wave Fibaro Single Switch"), but they won't fit in a standard box behind the light switches. I also bought some of these [Z-Wave TKB Double Relay Wall](https://www.vesternet.com/products/z-wave-tkb-dual-paddle-wall-dimmer-tz35d-gen5 "Z-Wave TKB Double Relay Wall") light switches but again, too complex for me to figure out.
+I bought some of these [Z-Wave Fibaro Single Switch](https://www.vesternet.com/products/z-wave-fibaro-single-switch-2-gen5 "Z-Wave Fibaro Single Switch"), but they won't fit in a standard box behind the light switches. I also bought some of these Z-Wave TKB Double Relay Wall light switches but again, too complex for me to figure out.
 
 I'd like to get some of the main lights automated - especially the outside lights, but I'm going to wait for the next time I have an electrician coming round and will get them to wire some of the Fibaro modules in for me.
 
