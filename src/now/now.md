@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2022-10-12T00:00:00Z
+date: 2022-11-08T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -11,9 +11,12 @@ description: Read about what I'm currently up to
 keywords: now, freelance website designer, frontend developer, reading, watching, work
 
 ---
+### Work
+* Still setting up my new work laptop for development
+* Got a replacement monitor as my old broke - nothing special, just a Dell screen
+
 ### Personal
-* Started installing laminate flooring in one of the new loft rooms - first time doing this, so far its not gone too bad, a couple of mistakes but overall not bad. Need to borrow a couple of tools from a friend to make the job at bit easier.
-* Now that Twitter has a new overlord lots of people are fleeing the platform and joining Mastodon aka the fediverse and I'm making that my main social network now.
+* Added a [books](/books) section to this website and working on a links page to use on social profiles
 
 ### Reading
 * [End of watch by Stephen King](https://bookwyrm.social/book/169335/s/end-of-watch "End of watch by Stephen King")
@@ -22,11 +25,6 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 
 ### Watching
-* [The Walking Dead - S11](https://www.themoviedb.org/tv/1402-the-walking-dead "The Walking Dead")
-  Sheriff's deputy Rick Grimes awakens from a coma to find a post-apocalyptic world dominated by flesh-eating zombies. He sets out to find his family and encounters many other survivors along the way.
-
-* [The Watcher](https://www.themoviedb.org/tv/210232-the-watcher "The Watcher")
-  A family moves into their suburban dream home, only to discover they've inherited a nightmare.
 
 * [She-Hulk: Attorney at Law](https://www.themoviedb.org/tv/92783-she-hulk-attorney-at-law "She-Hulk: Attorney at Law")
   Jennifer Walters navigates the complicated life of a single, 30-something attorney who also happens to be a green 6-foot-7-inch superpowered hulk.
@@ -50,7 +48,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
 
 #### Finished
+* [The Watcher](https://www.themoviedb.org/tv/210232-the-watcher "The Watcher")
+* [The Walking Dead - S11](https://www.themoviedb.org/tv/1402-the-walking-dead "The Walking Dead")
 * [Orange Is the New Black](https://www.netflix.com/gb/title/70242311 "Orange Is the New Black")
 * [War Of The Worlds](https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9 "War Of The Worlds")
-* [Stranger Things S4](https://www.netflix.com/gb/title/80057281 "Stranger Things S4")
-* [Friends](https://www.netflix.com/gb/title/70153404 "Friends")
