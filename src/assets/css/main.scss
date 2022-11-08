@@ -1048,7 +1048,8 @@ figure.effect:hover p {
 .about,
 .uses,
 .now,
-.books {
+.books,
+.links {
   padding: 54px 0;
 }
 
@@ -1463,5 +1464,28 @@ figure.effect:hover p {
   .bookshelf {
     grid-template-columns: repeat(auto-fill, minmax(30em, 1fr));
 
+  }
+}
+
+.links {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    font-size: 2rem;
+
+    &:hover,
+    &:focus {
+      border-color: var(--off-black);
+    }
   }
 }

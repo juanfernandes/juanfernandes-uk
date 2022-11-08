@@ -10,6 +10,7 @@ keywords: responsive website design, website design for small businesses, afford
 permalink: "/about/index.html"
 class: about
 intro:
+  class: sml
   heading: About me
   subheading: Freelance Frontend Developer
   cta:

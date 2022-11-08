@@ -1,23 +1,23 @@
 --- 
 title: Books
 layout: page
+class: books
+intro:
+  class: sml
 ---
-
-<div class="books">
-  {% for year in books %}
-  <h2 class="year">{{ year.year }}</h2>
-  <div class="bookshelf">
-    {% for book in year.books %}
-    <div class="book">
-      <a href="{{ book.url }}" aria-label="{{ book.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ book.img }}" alt="" width="180" height="276"></a>
-      <div class="details">
-        <h3>{{ book.title }}</h3>
-        {% if book.subtitle %}<span class="subtitle">{{ book.subtitle }}</span>{% endif %}
-        <span class="author">{{ book.author }}</span>
-        {% if book.status %}<span class="status">{{ book.status }}</span>{% endif %}
-      </div>
+{% for year in books %}
+<h2 class="year">{{ year.year }}</h2>
+<div class="bookshelf">
+  {% for book in year.books %}
+  <div class="book">
+    <a href="{{ book.url }}" aria-label="{{ book.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ book.img }}" alt="" width="180" height="276"></a>
+    <div class="details">
+      <h3>{{ book.title }}</h3>
+      {% if book.subtitle %}<span class="subtitle">{{ book.subtitle }}</span>{% endif %}
+      <span class="author">{{ book.author }}</span>
+      {% if book.status %}<span class="status">{{ book.status }}</span>{% endif %}
     </div>
-    {% endfor %}
   </div>
   {% endfor %}
 </div>
+{% endfor %}
