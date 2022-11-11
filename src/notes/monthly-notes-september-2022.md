@@ -25,7 +25,7 @@ tweetId: ''
 ## Projects
 - I've renamed this section to projects, was freelance, but makes more sense to talk about side projects now that I'm not actively taking on new freelance work.
 
-- Since I took a deep dive into being more privacy-aware and wanting to own more of my content, I deleted my Goodreads a few years ago, ended up trying a few alternatives (better privacy) but then ended up using two services and sort of stopped logging books I'd read. So I've started adding a 'read' books section to my website.
+- Since I took a deep dive into being more privacy-aware and wanting to own more of my content, I deleted my Goodreads a few years ago, ended up trying a few alternatives (better privacy) but then ended up using two services and sort of stopped logging books I'd read. So I've started adding a 'read' [books](/books "Books") section to my website.
 
 ## Personal
 - One of my favourite hip hop/gangsta rap artists, Coolio, sadly passed away. I spent the day listening to his music.
