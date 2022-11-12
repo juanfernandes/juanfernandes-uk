@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "stream"
+    label: "Stream"
+    folder: "stream"
+    create: true
+    slug: "{{slug}}.md"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Hero Image", name: "postImage", widget: "hidden", default: "v1579162295/trianglify.png"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Keywords", name: "keywords", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
