@@ -1,0 +1,34 @@
+{% extends 'layouts/base.njk' %}
+
+{% block main %}
+  <div class="container">
+    <div class="content" id="content">
+      <div class="row">
+        <div class="twelve cols">
+          <ul class="post-list">
+            {%- for post in collections.stream | reverse -%}
+            <li>
+              <div class="block block--thumb">
+                <a href="{{ post.url }}" class="b-inner">
+                  <div class="b-text">
+                    <h3 class="b-title">{{ post.data.title }}</h3>
+                    <div class="meta">
+                      <small><time class="dt-published" datetime="{{ post.date | w3DateFilter }}">{{ post.date | dateFilter }}</time></small>
+                    </div>
+                    <p>{{ post.data.description }}</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+        <div class="sidebar meta / four cols">
+          <h3 class="heading">Bio</h3>
+          <p>Juan Fernandes is a freelance front-end developer living in Suffolk, UK. <a href="/about/">Read more</a> →</p>
+          <p><a href="/blog/">Read my blog posts</a> →</p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
