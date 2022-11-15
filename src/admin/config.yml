@@ -4,6 +4,10 @@ backend:
 
 publish_mode: editorial_workflow
 
+media_folder: "src/assets/imgs"
+
+site_url: https://www.juanfernandes.uk
+
 collections:
   - name: "stream"
     label: "Stream"
