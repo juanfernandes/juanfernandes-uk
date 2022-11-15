@@ -14,10 +14,6 @@
     X-XSS-Protection = "1; mode=block"
     Permissions-Policy = "interest-cohort=()"
 
-  for = "/admin*"
-  [headers.values]
-    Content-Security-Policy = "script-src 'self' 'unsafe-eval';"
-
 # Redirects
 
 [[redirects]]
