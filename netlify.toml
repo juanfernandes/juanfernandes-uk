@@ -6,9 +6,6 @@
   package = "netlify-plugin-cache-folder"
 
 [[headers]]
-  for = "/admin*"
-  [headers.values]
-    Content-Security-Policy = script-src 'self' 'unsafe-eval';"
   for = "/*"
   [headers.values]
     X-Content-Type-Options = "nosniff"
@@ -16,6 +13,10 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     Permissions-Policy = "interest-cohort=()"
+
+  for = "/admin*"
+  [headers.values]
+    Content-Security-Policy = script-src 'self' 'unsafe-eval';"
 
 # Redirects
 
