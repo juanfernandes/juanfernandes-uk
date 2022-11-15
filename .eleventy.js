@@ -44,6 +44,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('notes', function (collection) {
     return collection.getFilteredByGlob('./src/notes/*.md')
   })
+  eleventyConfig.addCollection('stream', function (collection) {
+    return collection.getFilteredByGlob('./src/stream/*.md')
+  })
   eleventyConfig.addCollection('photos', function (collection) {
     return collection.getFilteredByGlob('./src/photos/*.md')
   })
