@@ -16,7 +16,7 @@
 
   for = "/admin*"
   [headers.values]
-    Content-Security-Policy = script-src 'self' 'unsafe-eval';"
+    Content-Security-Policy = "script-src 'self' 'unsafe-eval';"
 
 # Redirects
 
