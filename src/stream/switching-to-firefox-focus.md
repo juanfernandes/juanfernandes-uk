@@ -17,4 +17,4 @@ tags:
 ---
 I've now switched my default browser to Firefox Focus - a privacy focused browser. No cookies, ads, tracking or history. I still use Firefox for browsing websites I trust.
 
-#privacycontrol
+\#privacycontrol

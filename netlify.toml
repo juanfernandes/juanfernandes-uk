@@ -17,6 +17,91 @@
 # Redirects
 
 [[redirects]]
+  from = "/notes/bye-bye-gmail/"
+  to = "/stream/bye-bye-gmail/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/changelog-add-other-links-to-the-footer/"
+  to = "/stream/changelog-add-other-links-to-the-footer/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/created-my-first-npm-package/"
+  to = ""
+  status = 301
+
+[[redirects]]
+  from = "/notes/degoogling-is-the-same-as-jailbreaking-apparently/"
+  to = "/stream/degoogling-is-the-same-as-jailbreaking-apparently/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/estimote-lte-beacons-developer-kit/"
+  to = "/stream/estimote-lte-beacons-developer-kit/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/firefox-focus/"
+  to = "/stream/firefox-focus/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/google-hangouts/"
+  to = "/stream/google-hangouts/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/google-pay/"
+  to = "/stream/google-pay/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/indieweb-tweets/"
+  to = "/stream/indieweb-tweets/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/native-disclosure-element-work-in-instapaper-app/"
+  to = "/stream/native-disclosure-element-work-in-instapaper-app/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/new-adventures-2020/"
+  to = "/stream/new-adventures-2020/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/new-pallet-project/"
+  to = "/stream/new-pallet-project/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/off-facebook/"
+  to = "/stream/off-facebook/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/performance-what-performance/"
+  to = "/stream/performance-what-performance/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/replacing-my-phone-s-os/"
+  to = "/stream/replacing-my-phone-s-os/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/switching-to-firefox-focus/"
+  to = "/stream/switching-to-firefox-focus/"
+  status = 301
+
+[[redirects]]
+  from = "/notes/version-2-of-my-website-went-live-last-week/"
+  to = "/stream/version-2-of-my-website-went-live-last-week/"
+  status = 301
+
+[[redirects]]
   from = "/blog/working-an-inside-IR35-contract"
   to = "/blog/working-an-inside-ir35-contract/"
   status = 301
