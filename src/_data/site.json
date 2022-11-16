@@ -9,7 +9,18 @@
   },
   "announcement": "Availability: I'm not currently taking on any freelance work",
   "feed": {
-    "title": "Juan Fernandes - Freelance Frontend Developer"
+    "notes": {
+      "title": "Notes",
+      "description": "Short posts, photos, thoughts about code, design and personal stuff"
+    },
+    "photos": {
+      "title": "Photos",
+      "description": "Occasional random photos, most likely nature themed"
+    },
+    "stream": {
+       "title": "Stream",
+       "description": "Social media posts about web design, development and personal stuff"
+    }
   },
   "author": {
     "name": "Juan Fernandes",
