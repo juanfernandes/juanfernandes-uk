@@ -1,20 +1,20 @@
 ---
-permalink: '/rss/notes.xml'
+permalink: '/rss/stream.xml'
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ site.feed.notes.title }}</title>
-  <subtitle>{{ site.feed.notes.description }}</subtitle>
+  <title>{{ site.feed.stream.title }}</title>
+  <subtitle>{{ site.feed.stream.description }}</subtitle>
   <link href="{{ site.url }}{{ permalink }}" rel="self"/>
   <link href="{{ site.url }}"/>
-  <updated>{{ collections.notes | rssLastUpdatedDate }}</updated>
+  <updated>{{ collections.stream | rssLastUpdatedDate }}</updated>
   <id>{{ site.url }}</id>
   <author>
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
   </author>
-  {% for post in collections.notes | reverse %}
+  {% for post in collections.stream | reverse %}
   {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
