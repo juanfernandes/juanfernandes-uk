@@ -23,7 +23,6 @@ eleventyExcludeFromCollections: true
     <id>{{ absolutePostUrl }}</id>
     <content type="html"><![CDATA[
       {{ post.templateContent | safe }}
-      <hr><p><a href="mailto:{{ site.author.email }}?subject=Re: {{ post.data.title }}">Reply via email</a></p>
     ]]></content>
   </entry>
   {% endfor %}
