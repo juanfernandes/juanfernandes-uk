@@ -37,11 +37,11 @@ $module: 'social-icons';
     ul {
       align-items: center;
       display: flex;
+      gap: 1rem;
       justify-content: center;
-      margin-top: 1rem;
+      margin-top: 2rem;
 
       @media only screen and (min-width: 40em) {
-        margin-top: 0;
         max-height: 48px;
       }
     }
@@ -684,10 +684,6 @@ footer > .container > .sixteen {
   margin: 24px auto 0 auto;
   padding: 25px 0;
 
-  @media only screen and (min-width: 40em) {
-    flex-direction: row;
-  }
-
   &__other {
     display: flex;
     flex-direction: column;
@@ -1099,8 +1095,12 @@ figure.effect:hover p {
   }
 
   .post-list {
-    margin: 0 3em 0 0;
+    margin: 0;
     padding: 0;
+
+    @media only screen and (min-width: 40em) { // 640
+      margin: 0 3em 0 0;
+    }
 
     li {
       list-style: none;
@@ -1167,6 +1167,18 @@ figure.effect:hover p {
 
   .post {
     margin-bottom: 54px;
+
+    &--stream {
+      margin-bottom: 0;
+
+      p {
+        font-size: 2rem;
+      }
+
+      .meta {
+        margin-bottom: 0;
+      }
+    }
 
     &__heading {
       margin-bottom: 0;

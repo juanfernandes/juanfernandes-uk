@@ -68,6 +68,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('base', 'layouts/base.njk')
   eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
+  eleventyConfig.addLayoutAlias('stream', 'layouts/stream.njk')
 
   // Plugins
   eleventyConfig.addPlugin(rssPlugin)

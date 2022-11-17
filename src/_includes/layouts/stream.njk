@@ -1,0 +1,28 @@
+{% extends 'layouts/blog.njk' %}
+
+{% block intro %}
+<div class="intro intro--sml{% if customPostImg %} {{ customPostImg }}{% endif %}">
+  <div class="intro__content">
+    <h1 class="intro__heading">
+      <span class="intro__heading--large">{{ title }}</span>
+    </h1>
+  </div>
+</div>
+{% endblock %}
+
+{% block main %}
+<div class="container">
+  <div class="content content--slim">
+    <article class="post post--stream h-entry">
+
+      {{ content | safe }}
+
+      <p class="meta">
+        <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/about/" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/tags/{{ item }}/" class="p-category">{{ item }}</a> {% endfor %}</small>
+      </p>
+    </article>
+
+    {% include 'webmentions.njk' %}
+  </div>
+</div>
+{% endblock %}
