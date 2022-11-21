@@ -3,11 +3,20 @@
         "year": 2022,
         "books": [
             {
+                "title": "End of Watch",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "end-of-watch.jpg",
+                "url": "https://openlibrary.org/books/OL28180331M/End_of_watch",
+                "status": "Read",
+                "notes": ""
+            },
+            {
                 "title": "Finders Keepers",
                 "subtitle": "",
                 "author": "Stephen King",
-                "img": "12920926-M.jpg",
-                "url": "https://bookwyrm.social/book/285585/s/finders-keepers-bill-hodges-trilogy-2",
+                "img": "finders-keepers.jpg",
+                "url": "https://openlibrary.org/books/OL32936255M/Finders_Keepers",
                 "status": "Read",
                 "notes": ""
             },
@@ -15,7 +24,7 @@
                 "title": "If It Bleeds",
                 "subtitle": "",
                 "author": "Stephen King",
-                "img": "11288451-M.jpg",
+                "img": "if-it-bleeds.jpg",
                 "url": "https://openlibrary.org/works/OL24618057W/If_It_Bleeds",
                 "status": "Read",
                 "notes": ""
@@ -44,15 +53,6 @@
                 "notes": ""
             },
             {
-                "title": "The Wind Through the Keyhole",
-                "subtitle": "The Dark Tower #4.5",
-                "author": "Stephen King",
-                "img": "10712309-M.jpg",
-                "url": "https://openlibrary.org/books/OL32046635M/The_Wind_Through_the_Keyhole",
-                "status": "Read",
-                "notes": ""
-            },
-            {
                 "title": "The Midnight Library",
                 "subtitle": "",
                 "author": "Matt Haig",
@@ -67,6 +67,24 @@
                 "author": "Joe Hill",
                 "img": "12920965-M.jpg",
                 "url": "https://openlibrary.org/works/OL21282686W/Fireman",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "The Wind Through the Keyhole",
+                "subtitle": "The Dark Tower #4.5",
+                "author": "Stephen King",
+                "img": "10712309-M.jpg",
+                "url": "https://openlibrary.org/books/OL32046635M/The_Wind_Through_the_Keyhole",
+                "status": "Read",
+                "notes": ""
+            },
+            {
+                "title": "The Dark Tower",
+                "subtitle": "The Dark Tower #7",
+                "author": "Stephen King",
+                "img": "the-dark-tower.jpg",
+                "url": "https://openlibrary.org/works/OL149195W/The_Dark_Tower_VII",
                 "status": "Read",
                 "notes": ""
             }
