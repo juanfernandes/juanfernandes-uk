@@ -1,0 +1,25 @@
+---
+label: stream
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: file
+  name: postImage
+  label: postImage
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: list
+  name: keywords
+  label: keywords
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: tags
+  label: tags
