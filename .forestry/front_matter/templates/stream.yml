@@ -19,7 +19,7 @@ fields:
     required: true
 - type: text
   name: description
-  label: description
+  label: Description
   config:
     required: true
 - type: list
@@ -35,7 +35,7 @@ fields:
   name: tags
   label: Tags
   config:
-    use_select: true
+    use_select: false
     source:
       type: pages
       section: stream
