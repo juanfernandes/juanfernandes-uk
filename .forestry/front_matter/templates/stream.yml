@@ -39,3 +39,5 @@ fields:
     source:
       type: pages
       section: stream
+pages:
+- src/stream/tried-a-few-headless-cmss.md
