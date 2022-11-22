@@ -4,22 +4,47 @@ hide_body: false
 fields:
 - type: text
   name: layout
-  label: layout
+  label: Layout
+  default: stream
+  hidden: true
 - type: file
   name: postImage
-  label: postImage
+  label: Hero Image
+  default: "/src/assets/imgs/v1579162295/trianglify.png"
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
 - type: text
   name: description
   label: description
+  config:
+    required: true
 - type: list
   name: keywords
-  label: keywords
+  label: Keywords
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    date_format: DD/MM/YYYY
+    required: true
 - type: list
   name: tags
-  label: tags
+  label: Tags
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: stream
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
