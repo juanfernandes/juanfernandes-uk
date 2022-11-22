@@ -39,12 +39,3 @@ fields:
     source:
       type: pages
       section: stream
-- name: content
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Content
