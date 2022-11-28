@@ -3,6 +3,15 @@
         "year": 2022,
         "books": [
             {
+                "title": "The Outsider",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "the-outsider.jpg",
+                "url": "https://openlibrary.org/books/OL27831341M/The_Outsider",
+                "status": "Reading",
+                "notes": ""
+            },
+            {
                 "title": "End of Watch",
                 "subtitle": "",
                 "author": "Stephen King",

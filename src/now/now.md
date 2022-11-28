@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2022-11-08T00:00:00Z
+date: 2022-11-28T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -13,18 +13,28 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 ---
 ### Work
 * Still setting up my new work laptop for development
-* Got a replacement monitor as my old broke - nothing special, just a Dell screen
 
 ### Personal
-* Added a [books](/books) section to this website and working on a links page to use on social profiles
+* Spent the weekend in St. Helen's Liverpool at the Kuk Sool Won tournament; watched one of my children get 2 gold and 1 silver medal and also saw my wife get her black belt
+* Finished working on my streams section - any post in stream is auto syndicated to mastodon, I also stopped posting to the bird site. All my tweets have been deleted (after I downloaded the archive)
 
 ### Reading
-* [End of watch by Stephen King](https://bookwyrm.social/book/169335/s/end-of-watch "End of watch by Stephen King")
+* [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
 * [Company of One](https://bookwyrm.social/book/184714/s/company-of-one "Company of One")
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 
 ### Watching
+* [Big Sky](Big Sky "https://www.disneyplus.com/en-gb/series/big-sky/6bajHhuGyt7W")
+  Private detectives Cassie Dewell and Cody Hoyt join forces with his estranged wife and ex-cop, Jenny Hoyt, to search for two sisters who were kidnapped by a trucker on a remote highway in Montana. When they discover that these are not the only girls to have disappeared in the area, they must race to stop the killer before another woman is taken.
+
+* [War Of The Worlds S3](War Of The Worlds S3 "https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9")
+  When astronomers detect a transmission from another galaxy, it is definitive proof of intelligent extra-terrestrial life. Within days, mankind is all but wiped out, and as alien ships appear in the sky, the survivors ask a burning question – who are these attackers and why are they hell-bent on our destruction?
+
+* [The Great North](https://www.themoviedb.org/tv/93221-the-great-north "The Great North")
+  Follow the Alaskan adventures of the Tobin family as a single dad does his best to keep his weird bunch of kids close, especially as the artistic dreams of his only daughter lead her away from the family fishing boat and into the glamorous world of the local mall.
+
+#### Paused
 * [She-Hulk: Attorney at Law](https://www.themoviedb.org/tv/92783-she-hulk-attorney-at-law "She-Hulk: Attorney at Law")
   Jennifer Walters navigates the complicated life of a single, 30-something attorney who also happens to be a green 6-foot-7-inch superpowered hulk.
 
@@ -34,10 +44,6 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * [Wu Assassins](https://www.themoviedb.org/tv/86752-wu-assassins "Wu Assassins")
   An unassuming San Francisco chef becomes the latest in a long line of assassins chosen to keep the mystical Wu powers out of the wrong hands.
 
-* [The Great North](https://www.themoviedb.org/tv/93221-the-great-north "The Great North")
-  Follow the Alaskan adventures of the Tobin family as a single dad does his best to keep his weird bunch of kids close, especially as the artistic dreams of his only daughter lead her away from the family fishing boat and into the glamorous world of the local mall.
-
-#### Paused
 * [Bloodline](https://www.themoviedb.org/tv/61986-bloodline "Bloodline")
   When the black sheep son of a respected family threatens to expose dark secrets from their past, sibling loyalties are put to the test.
 
