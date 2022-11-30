@@ -41,3 +41,4 @@ fields:
       section: stream
 pages:
 - src/stream/tried-a-few-headless-cmss.md
+- src/stream/updating-ifttt-webhooks.md
