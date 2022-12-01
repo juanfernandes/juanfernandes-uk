@@ -4,8 +4,8 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ site.feed.title }}</title>
-  <subtitle>{{ site.meta.description }}</subtitle>
+  <title>{{ site.feed.main.title }}</title>
+  <subtitle>{{ site.feed.main.description }}</subtitle>
   <link href="{{ site.url }}{{ permalink }}" rel="self"/>
   <link href="{{ site.url }}"/>
   <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>

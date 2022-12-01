@@ -9,6 +9,10 @@
   },
   "announcement": "Availability: I'm not currently taking on any freelance work",
   "feed": {
+    "main": {
+      "title": "Blog - Thoughts, Code and more - Juan Fernandes - Frontend Developer",
+      "description": "Juan Fernandes is a freelance front-end developer specialising in building bespoke responsive websites for small businesses based in Suffolk UK"
+    },
     "notes": {
       "title": "Notes",
       "description": "Short posts, photos, thoughts about code, design and personal stuff"
