@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2022-11-28T00:00:00Z
+date: 2022-12-06T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -11,30 +11,26 @@ description: Read about what I'm currently up to
 keywords: now, freelance website designer, frontend developer, reading, watching, work
 
 ---
-### Work
-* Still setting up my new work laptop for development
-
 ### Personal
-* Spent the weekend in St. Helen's Liverpool at the Kuk Sool Won tournament; watched one of my children get 2 gold and 1 silver medal and also saw my wife get her black belt
-* Finished working on my streams section - any post in stream is auto syndicated to mastodon, I also stopped posting to the bird site. All my tweets have been deleted (after I downloaded the archive)
+* Continued working on installing the laminate flooring in one of the new rooms in the recent loft conversion. After a slow start and a few busy weekends not working on this, I have finally got over half way done. Will hopefully get it finished this coming weekend.
+* Since joining mastodon a few years ago I was on the mastodon.social instance - this is one of the more common ones most people join and with the recent influx of ex-twitter users, a lot of other instances have started blocking mastodon.social which would me people wouldn't see any of my posts etc. So All this to say I have moved to [hachyderm.io](https://www.hachyderm.io "hachyderm.io") and with that I had to redo my IFTTT.com webhooks and recipes for auto posting to the Fediverse from my website.
 
 ### Reading
 * [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
 * [Company of One](https://bookwyrm.social/book/184714/s/company-of-one "Company of One")
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
-
 ### Watching
-* [Big Sky](Big Sky "https://www.disneyplus.com/en-gb/series/big-sky/6bajHhuGyt7W")
-  Private detectives Cassie Dewell and Cody Hoyt join forces with his estranged wife and ex-cop, Jenny Hoyt, to search for two sisters who were kidnapped by a trucker on a remote highway in Montana. When they discover that these are not the only girls to have disappeared in the area, they must race to stop the killer before another woman is taken.
+* [Guillermo del Toro's Cabinet of Curiosities](https://www.themoviedb.org/tv/83659-guillermo-del-toro-s-cabinet-of-curiosities "Guillermo del Toro's Cabinet of Curiosities")
+  Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.
 
-* [War Of The Worlds S3](War Of The Worlds S3 "https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9")
-  When astronomers detect a transmission from another galaxy, it is definitive proof of intelligent extra-terrestrial life. Within days, mankind is all but wiped out, and as alien ships appear in the sky, the survivors ask a burning question – who are these attackers and why are they hell-bent on our destruction?
+* [Manifest](https://www.themoviedb.org/tv/79696-manifest "Manifest")
+  After landing from a turbulent but routine flight, the crew and passengers of Montego Air Flight 828 discover five years have passed in what seemed like a few hours. As their new realities become clear, a deeper mystery unfolds and some of the returned passengers soon realize they may be meant for something greater than they ever thought possible.
 
+#### Paused
 * [The Great North](https://www.themoviedb.org/tv/93221-the-great-north "The Great North")
   Follow the Alaskan adventures of the Tobin family as a single dad does his best to keep his weird bunch of kids close, especially as the artistic dreams of his only daughter lead her away from the family fishing boat and into the glamorous world of the local mall.
 
-#### Paused
 * [She-Hulk: Attorney at Law](https://www.themoviedb.org/tv/92783-she-hulk-attorney-at-law "She-Hulk: Attorney at Law")
   Jennifer Walters navigates the complicated life of a single, 30-something attorney who also happens to be a green 6-foot-7-inch superpowered hulk.
 
@@ -57,7 +53,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
 
 #### Finished
+* [War Of The Worlds](https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9 "War Of The Worlds")
 * [The Watcher](https://www.themoviedb.org/tv/210232-the-watcher "The Watcher")
 * [The Walking Dead - S11](https://www.themoviedb.org/tv/1402-the-walking-dead "The Walking Dead")
 * [Orange Is the New Black](https://www.netflix.com/gb/title/70242311 "Orange Is the New Black")
-* [War Of The Worlds](https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9 "War Of The Worlds")
