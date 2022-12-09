@@ -2,9 +2,7 @@
 layout: layouts/post.njk
 postImage: ''
 title: " 2021: Year in review"
-description: Twenty Twenty One was a year of firsts for the family and I after a few
-  years of covid. Including our first restaurant outing and also our first UK break
-  since before covid started
+description: 2021 was a year of firsts for the family & I after a few years of covid, including our first restaurant outing & also our first UK break since before covid
 keywords:
 - covid
 - '2021'

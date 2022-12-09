@@ -1,10 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Tools I Use
-description: >-
-  I love these posts that show what designers and developers use to do their job
-  - so I thought I’d post my own. It’s been a long while since I last wrote
-  anything, so thought this would be an easy one to get me back into writing.
+description: 'Love posts that show what designers & developers use to do their job – so I thought I’d post my own'
 keywords:
   - sublime text 3
   - iterm 2

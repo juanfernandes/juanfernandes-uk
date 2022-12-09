@@ -1,10 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Home Automation
-description: >-
-  In this post, I'm going to talk about my adventures with home automation.
-  Basic stuff - I'm talking about using Alexa to do simple things - like
-  switching on a lamp or lights in a room.
+description: 'In this post, I talk about my adventures with home automation. Basic stuff as simple as using Alexa to switch on a lamp or lights in a room'
 keywords:
   - home automation
   - alexa

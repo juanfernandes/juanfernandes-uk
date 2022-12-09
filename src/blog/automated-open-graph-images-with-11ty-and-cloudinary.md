@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
 title: Automated Open Graph images with 11ty and Cloudinary
-description: I wanted to find a way to dynamically generate a unique Open Graph (OG)
-  image for each blog post or note automatically using post data, the Cloudinary API
-  and Eleventy (11ty) for social sharing.
+description: I wanted to find a way to dynamically generate a unique Opengraph
+  images for each blog post automatically using post data, Cloudinary API
+  & Eleventy
 keywords:
 - facebook
 - twitter

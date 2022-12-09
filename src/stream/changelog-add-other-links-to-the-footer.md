@@ -2,10 +2,7 @@
 layout: layouts/post.njk
 postImage: v1579162295/trianglify.png
 title: 'Changelog: Add other links to the footer'
-description: Saw a tweet about how websites with RSS - should have a link to it in
-  the header to save digging into code to find it. Well I had a task to add these
-  other links to my site and was going to wait until the redesign, but decided to
-  redesign the footer slightly to include them.
+description: Saw a tweet about how websites with RSS should have a link to it in the header to save digging into code to find it, after a tiny footer redesign I added mine
 keywords:
 - website update
 - changelog

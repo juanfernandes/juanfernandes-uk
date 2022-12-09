@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Working an inside IR35 contract
-description: I've only had one contract inside IR35 and that was enough to put me
-  off. The first and last contract inside IR35 that I will take on. It was also the
-  final push that sent me back to permanent employment.
+description: I've only had one contract inside IR35 & that was enough to put me off. First & last contract inside IR35 that I will take on
 keywords:
 - ir35
 - inside ir35

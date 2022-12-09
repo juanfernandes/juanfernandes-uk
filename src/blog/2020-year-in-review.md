@@ -2,9 +2,7 @@
 layout: layouts/post.njk
 postImage: "farm-field.jpg"
 title: '2020: Year in review'
-description: 'The year of the worldwide pandemic, bullshit politics, white supremacists,
-  racists, Brexit and a whole bunch of rubbish I won''t get into - it''s fair to say
-  we won''t be forgetting 2020 in a hurry. '
+description: 'Worldwide pandemic, bullshit politics, white supremacists, racists, Brexit & a whole bunch of rubbish I won't get into'
 keywords:
 - covid-19
 - pandemic
