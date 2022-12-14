@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 postImage: "farm-field.jpg"
 title: '2020: Year in review'
-description: 'Worldwide pandemic, bullshit politics, white supremacists, racists, Brexit & a whole bunch of rubbish I won't get into'
+description: Worldwide pandemic, bullshit politics, white supremacists, racists, Brexit & a whole bunch of rubbish I won't get into
 keywords:
 - covid-19
 - pandemic

@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Exploring the benefits of HTTP2
-description: 'Since this website is hosted on Netlify & they serve websites using the HTTP/2 protocol I've started exploring the benefits of it'
+description: Since this website is hosted on Netlify & they serve websites using the HTTP/2 protocol I've started exploring the benefits of it
 keywords:
 - "#MayThe4thBeWithYou"
 - vanilla javascript

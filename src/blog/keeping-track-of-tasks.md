@@ -1,8 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Keeping track of tasks
-description: >-
-Been thinking about how I keep track of changes requested by clients outside of project work. I maintain websites I've built as well as websites I host
+description: Been thinking about how I keep track of changes requested by clients outside of project work. I maintain websites I've built as well as websites I host
 keywords:
   - freelance
   - business
