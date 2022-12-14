@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: November 2022'
-description: "Very slow month which is normal as we approach Christmas. I turned 41 this month. Also, some personal stuff has happened and I'm not ready to talk about yet, but its why this post is so late."
+description: A very slow month, which is normal as we approach Christmas. I turned 41 this month. Also, some personal stuff has happened, and I'm not ready to talk about yet, but It's why this post is so late.
 keywords:
   - listening
   - watching
@@ -16,14 +16,14 @@ tags:
 tweetId: ''
 
 ---
-<p class="lead">Very slow month which is normal as we approach Christmas. I turned 41 this month. Also, some personal stuff has happened and I'm not ready to talk about yet, but its why this post is so late.</p>
+<p class="lead">A very slow month, which is normal as we approach Christmas. I turned 41 this month. Also, some personal stuff has happened, and I'm not ready to talk about yet, but It's why this post is so late.</p>
 
 ## Personal
-- We had a weekend trip to Liverpool for a martial arts tournament - Kuk Sool Won where my wife did her final testing and promoted to a black belt.
+- We had a weekend trip to Liverpool for a martial arts tournament - Kuk Sool Won, where my wife did her final testing and promoted to a black belt.
 
-- Daughter number 2 won 2 gold and 1 silver medals at the tournament for doing techniques, sparring and staff skills. The other two of my children entered but both were recovering from the flu so didn't do too well.
+- Daughter number 2 won 2 gold and 1 silver medals at the tournament for doing techniques, sparring and staff skills. The other two of my children entered, but both were recovering from the flu so didn't do too well.
 
-- It was my birthday and I turned 41. Just a number, it's no big deal for me and I don't feel like I am that age. Didn't do anything to celebrate this - but did treat myself to 3 pairs of trainers (skateboarding, basketball and general daily trainers) and new walking boots.  My wife got me a Minnesota Timberwolves hoodie.
+- It was my birthday and I turned 41. Just a number, it's no big deal for me, and I don't feel like I am that age. Didn't do anything to celebrate this - but did treat myself to 3 pairs of trainers (skateboarding, basketball and general daily trainers) and new walking boots. My wife got me a Minnesota Timberwolves hoodie.
 
 ## 📖 Reading
 - [Zooming Images in a Grid Layout - CSS-Tricks](https://css-tricks.com/zooming-images-in-a-grid-layout/ "Zooming Images in a Grid Layout | CSS-Tricks")
