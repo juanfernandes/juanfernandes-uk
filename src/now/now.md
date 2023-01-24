@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2022-12-06T00:00:00Z
+date: 2023-01-24T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,8 +12,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Continued working on installing the laminate flooring in one of the new rooms in the recent loft conversion. After a slow start and a few busy weekends not working on this, I have finally got over half way done. Will hopefully get it finished this coming weekend.
-* Since joining mastodon a few years ago I was on the mastodon.social instance - this is one of the more common ones most people join and with the recent influx of ex-twitter users, a lot of other instances have started blocking mastodon.social which would me people wouldn't see any of my posts etc. So All this to say I have moved to [hachyderm.io](https://www.hachyderm.io "hachyderm.io") and with that I had to redo my IFTTT.com webhooks and recipes for auto posting to the Fediverse from my website.
+* Currently trying to get a decorator arranged to finish the decoration of the loft conversion, so we can get the house listed for sale. Been looking at whether to buy or rent my next place.
+* Been off work for two weeks due to depression and just trying to get by until the house has sold so my ex and I can go our separate ways.
 
 ### Reading
 * [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
@@ -21,11 +21,14 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
-* [Guillermo del Toro's Cabinet of Curiosities](https://www.themoviedb.org/tv/83659-guillermo-del-toro-s-cabinet-of-curiosities "Guillermo del Toro's Cabinet of Curiosities")
-  Bizarre nightmares unfold in eight tales of terror in this visually stunning, spine-tingling horror collection curated by Guillermo del Toro.
+* [Better Call Saul](https://www.themoviedb.org/tv/60059-better-call-saul "Better Call Saul")
+  Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer".
 
-* [Manifest](https://www.themoviedb.org/tv/79696-manifest "Manifest")
-  After landing from a turbulent but routine flight, the crew and passengers of Montego Air Flight 828 discover five years have passed in what seemed like a few hours. As their new realities become clear, a deeper mystery unfolds and some of the returned passengers soon realize they may be meant for something greater than they ever thought possible.
+* [Alice in Borderland](https://www.themoviedb.org/tv/110316 "Alice in Borderland")
+  With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to win.
+
+* [Wednesday](https://www.themoviedb.org/tv/119051-wednesday "Wednesday")
+  Wednesday Addams is sent to Nevermore Academy, a bizarre boarding school where she attempts to master her psychic powers, stop a monstrous killing spree of the town citizens, and solve the supernatural mystery that affected her family 25 years ago — all while navigating her new relationships.
 
 #### Paused
 * [The Great North](https://www.themoviedb.org/tv/93221-the-great-north "The Great North")
@@ -53,7 +56,9 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   An unfathomable incident introduces a genius engineer to dangerous secrets of the world — and to a woman from the future who's come looking for him.
 
 #### Finished
+* [Guillermo del Toro's Cabinet of Curiosities](https://www.themoviedb.org/tv/83659-guillermo-del-toro-s-cabinet-of-curiosities "Guillermo del Toro's Cabinet of Curiosities")
+* [Manifest](https://www.themoviedb.org/tv/79696-manifest "Manifest")
 * [War Of The Worlds](https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9 "War Of The Worlds")
 * [The Watcher](https://www.themoviedb.org/tv/210232-the-watcher "The Watcher")
 * [The Walking Dead - S11](https://www.themoviedb.org/tv/1402-the-walking-dead "The Walking Dead")
-* [Orange Is the New Black](https://www.netflix.com/gb/title/70242311 "Orange Is the New Black")
+
