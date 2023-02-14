@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-02-07T00:00:00Z
+date: 2023-02-14T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,8 +12,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Decorator has been in doing the decoration of the loft conversion, which should be done sometime this week and then we can get the house listed for sale.
-* Likely going to be buying a house instead of renting as my ex is going to rent instead
+* House is now decorated - as mich as we're willing to do to get it sellable anyway. Estate agest will be coming round this week to take photos and get the process started.
 
 ### Reading
 * [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
