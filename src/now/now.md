@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-02-14T00:00:00Z
+date: 2023-02-22T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,7 +12,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* House is now decorated - as mich as we're willing to do to get it sellable anyway. Estate agest will be coming round this week to take photos and get the process started.
+* Now our house is listed for sale, I have started seeing houses that I may be able to buy and checking out possible towns to relocate to
+* I'm slowly getting back into work and being able to focus a bit better
 
 ### Reading
 * [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
@@ -26,16 +27,13 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * [Family Guy](https://www.themoviedb.org/tv/1434-family-guy "Family Guy")
   Sick, twisted, politically incorrect and Freakin' Sweet animated series featuring the adventures of the dysfunctional Griffin family. Bumbling Peter and long-suffering Lois have three kids. Stewie (a brilliant but sadistic baby bent on killing his mother and taking over the world), Meg (the oldest, and is the most unpopular girl in town) and Chris (the middle kid, he's not very bright but has a passion for movies). The final member of the family is Brian - a talking dog and much more than a pet, he keeps Stewie in check whilst sipping Martinis and sorting through his own life issues.
 
-* [Superstore (Rewatch)](https://www.themoviedb.org/tv/62649-superstore "Superstore")
-  A hilarious workplace comedy about a unique family of employees at a super-sized mega store. From the bright-eyed newbies and the seen-it-all veterans to the clueless summer hires and the in-it-for-life managers, together they hilariously tackle the day-to-day grind of rabid bargain hunters, riot-causing sales and nap-worthy training sessions.
-
 #### Paused
 * [The Great North](https://www.themoviedb.org/tv/93221-the-great-north "The Great North")
   Follow the Alaskan adventures of the Tobin family as a single dad does his best to keep his weird bunch of kids close, especially as the artistic dreams of his only daughter lead her away from the family fishing boat and into the glamorous world of the local mall.
 
 #### Finished
+* [Superstore (Rewatch)](https://www.themoviedb.org/tv/62649-superstore "Superstore")
 * [Alice in Borderland](https://www.themoviedb.org/tv/110316 "Alice in Borderland")
 * [Wednesday](https://www.themoviedb.org/tv/119051-wednesday "Wednesday")
 * [Guillermo del Toro's Cabinet of Curiosities](https://www.themoviedb.org/tv/83659-guillermo-del-toro-s-cabinet-of-curiosities "Guillermo del Toro's Cabinet of Curiosities")
 * [Manifest](https://www.themoviedb.org/tv/79696-manifest "Manifest")
-* [War Of The Worlds](https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9 "War Of The Worlds")
