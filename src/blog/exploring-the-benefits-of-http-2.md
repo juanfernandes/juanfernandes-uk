@@ -56,7 +56,7 @@ But I didn't stop there. One of the advantages of HTTP/2 is that you don't have 
 Instead of including the JavaScript code for the slider on every single page. I decided to only include the slider JS code in the slider partial - I'm using Nunjucks for this, but you can do this with other templating languages.
 
 This is the code for the testimonials slider on my homepage:
-
+```
               <link rel="stylesheet" href="/assets/css/components/slider.css">
               <script src='/assets/js/tiny-slider.js' defer></script>
               <script>
@@ -76,7 +76,7 @@ This is the code for the testimonials slider on my homepage:
                   });
                 });
               </script>
-
+```
 At the same time, I also included the CSS or the slider - just on the slider partial.
 
 The JS and CSS files, as well as the slider JS code, are included the at the end of the slider partial so that when the JS runs, the HTML for the slider has already been loaded by the DOM.
