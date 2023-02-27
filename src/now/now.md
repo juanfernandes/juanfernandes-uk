@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-02-22T00:00:00Z
+date: 2023-02-27T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,8 +12,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Now our house is listed for sale, I have started seeing houses that I may be able to buy and checking out possible towns to relocate to
-* I'm slowly getting back into work and being able to focus a bit better
+* Finished laying the laminate flooring in the second of the new loft rooms - the workout room - now just need to mount the TV on the wall and that room will be done.
+* Been having fun designing a secure messaging UI for our SaaS application - nothing ground breaking, but its been fun.
 
 ### Reading
 * [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
@@ -21,8 +21,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
-* [Better Call Saul](https://www.themoviedb.org/tv/60059-better-call-saul "Better Call Saul")
-  Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer".
+* [Buffy the Vampire Slayer ](https://www.themoviedb.org/tv/95-buffy-the-vampire-slayer "Buffy the Vampire Slayer ")
+  Into every generation a slayer is born: one girl in all the world, a chosen one. She alone will wield the strength and skill to fight the vampires, demons, and the forces of darkness; to stop the spread of their evil and the swell of their number. She is the Slayer.
 
 * [Family Guy](https://www.themoviedb.org/tv/1434-family-guy "Family Guy")
   Sick, twisted, politically incorrect and Freakin' Sweet animated series featuring the adventures of the dysfunctional Griffin family. Bumbling Peter and long-suffering Lois have three kids. Stewie (a brilliant but sadistic baby bent on killing his mother and taking over the world), Meg (the oldest, and is the most unpopular girl in town) and Chris (the middle kid, he's not very bright but has a passion for movies). The final member of the family is Brian - a talking dog and much more than a pet, he keeps Stewie in check whilst sipping Martinis and sorting through his own life issues.
@@ -32,6 +32,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   Follow the Alaskan adventures of the Tobin family as a single dad does his best to keep his weird bunch of kids close, especially as the artistic dreams of his only daughter lead her away from the family fishing boat and into the glamorous world of the local mall.
 
 #### Finished
+* [Better Call Saul](https://www.themoviedb.org/tv/60059-better-call-saul "Better Call Saul")
 * [Superstore (Rewatch)](https://www.themoviedb.org/tv/62649-superstore "Superstore")
 * [Alice in Borderland](https://www.themoviedb.org/tv/110316 "Alice in Borderland")
 * [Wednesday](https://www.themoviedb.org/tv/119051-wednesday "Wednesday")
