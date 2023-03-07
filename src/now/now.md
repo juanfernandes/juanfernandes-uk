@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-02-27T00:00:00Z
+date: 2023-03-07T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,8 +12,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Finished laying the laminate flooring in the second of the new loft rooms - the workout room - now just need to mount the TV on the wall and that room will be done.
-* Been having fun designing a secure messaging UI for our SaaS application - nothing ground breaking, but its been fun.
+* We've not had any viewings on our house since its been up for sale. I suspect its the current market plus the price and size of our house will be limiting the number of potential buyers.
 
 ### Reading
 * [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
