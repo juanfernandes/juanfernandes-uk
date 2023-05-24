@@ -26,4 +26,4 @@ With a bit of help from [@FrankTldr](https://mobile.twitter.com/FrankTldr "Frank
 
 [https://github.com/juanfernandes/eleventy-plugin-cloudinary](https://github.com/juanfernandes/eleventy-plugin-cloudinary "Eleventy Cloudinary Shortcode")
 
-    {% cloudinaryImage "imagename.jpg", "q_auto,f_auto", "Image alt text" %}
+    {% cloudinaryImage "imagename.jpg", "q_auto,f_auto", "alt text" %}
