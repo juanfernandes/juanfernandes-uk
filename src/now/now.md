@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-05-22T00:00:00Z
+date: 2023-06-05T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,7 +12,8 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Still no house viewings - we're working on making the garden look nicer in the mean time and now the weather is getting better, we'll start getting some viewings.
+* Still no house viewings - waiting for contracts to end with current estate agents so we try a different one
+* Situation at home is no longer amicable and I have moved out of the house. Looking for a place to rent
 
 ### Reading
 * [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
@@ -20,12 +21,6 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
-* [Welcome to Eden](https://www.themoviedb.org/tv/128010-bienvenidos-a-eden "Welcome to Eden")
-  Are you happy? With this question, Zoa and four other attractive young people, very active on social networks, are invited to the most exclusive party in history on a secret island, organized by the brand of a new drink. What begins as an exciting journey will soon become the journey of a lifetime. But paradise is not really what it seems - Welcome to Eden.
-
-* [Unstable](https://www.themoviedb.org/tv/219788-unstable "Unstable")
-  A biotech genius tries to bounce back from the depths of grief with help from his son, who works to escape his dad’s shadow and save the family business.
-
 * [Seinfeld (Rewatch)](https://www.themoviedb.org/tv/1400-seinfeld "Seinfeld")
   A stand-up comedian and his three offbeat friends weather the pitfalls and payoffs of life in New York City in the '90s. It's a show about nothing.
 
@@ -40,4 +35,6 @@ keywords: now, freelance website designer, frontend developer, reading, watching
   Follow the Alaskan adventures of the Tobin family as a single dad does his best to keep his weird bunch of kids close, especially as the artistic dreams of his only daughter lead her away from the family fishing boat and into the glamorous world of the local mall.
 
 #### Finished
+* [Unstable](https://www.themoviedb.org/tv/219788-unstable "Unstable")
+* [Welcome to Eden](https://www.themoviedb.org/tv/128010-bienvenidos-a-eden "Welcome to Eden")
 * [Brooklyn Nine-Nine S8](https://www.themoviedb.org/tv/48891-brooklyn-nine-nine "Brooklyn Nine-Nine")
