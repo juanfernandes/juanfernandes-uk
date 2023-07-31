@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-06-05T00:00:00Z
+date: 2023-07-31T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,8 +12,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Still no house viewings - waiting for contracts to end with current estate agents so we try a different one
-* Situation at home is no longer amicable and I have moved out of the house. Looking for a place to rent
+* I have now been living in my rented flat for a little over a month, and I pretty much have bought everything I needed so far. I feel pretty settled in the new place and town.
 
 ### Reading
 * [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
@@ -21,20 +20,10 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
 
 ### Watching
-* [Seinfeld (Rewatch)](https://www.themoviedb.org/tv/1400-seinfeld "Seinfeld")
-  A stand-up comedian and his three offbeat friends weather the pitfalls and payoffs of life in New York City in the '90s. It's a show about nothing.
-
-#### Paused
-* [Buffy the Vampire Slayer](https://www.themoviedb.org/tv/95-buffy-the-vampire-slayer "Buffy the Vampire Slayer ")
-  Into every generation a slayer is born: one girl in all the world, a chosen one. She alone will wield the strength and skill to fight the vampires, demons, and the forces of darkness; to stop the spread of their evil and the swell of their number. She is the Slayer.
-
-* [Family Guy](https://www.themoviedb.org/tv/1434-family-guy "Family Guy")
-  Sick, twisted, politically incorrect and Freakin' Sweet animated series featuring the adventures of the dysfunctional Griffin family. Bumbling Peter and long-suffering Lois have three kids. Stewie (a brilliant but sadistic baby bent on killing his mother and taking over the world), Meg (the oldest, and is the most unpopular girl in town) and Chris (the middle kid, he's not very bright but has a passion for movies). The final member of the family is Brian - a talking dog and much more than a pet, he keeps Stewie in check whilst sipping Martinis and sorting through his own life issues.
-
-* [The Great North](https://www.themoviedb.org/tv/93221-the-great-north "The Great North")
-  Follow the Alaskan adventures of the Tobin family as a single dad does his best to keep his weird bunch of kids close, especially as the artistic dreams of his only daughter lead her away from the family fishing boat and into the glamorous world of the local mall.
+* [Black Knight](https://www.themoviedb.org/tv/137040 "Black Knight")
+  In a dystopian 2071 devastated by air pollution, the survival of humanity depends on the Black Knights — and they’re far from your average delivery men.
 
 #### Finished
+* [Seinfeld (Rewatch)](https://www.themoviedb.org/tv/1400-seinfeld "Seinfeld")
 * [Unstable](https://www.themoviedb.org/tv/219788-unstable "Unstable")
 * [Welcome to Eden](https://www.themoviedb.org/tv/128010-bienvenidos-a-eden "Welcome to Eden")
-* [Brooklyn Nine-Nine S8](https://www.themoviedb.org/tv/48891-brooklyn-nine-nine "Brooklyn Nine-Nine")
