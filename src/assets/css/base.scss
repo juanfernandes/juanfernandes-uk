@@ -49,6 +49,7 @@ body {
 a {
   border-bottom: 1px solid var(--orange);
   color: #333;
+  font-size: 1.6rem;
   outline: 0;
   text-decoration: none;
   transition: all .3s ease-in-out;
@@ -62,6 +63,7 @@ a {
   &:hover,
   &:focus {
     color: #000;
+    border-color: var(--off-black);
   }
 
   &.img {
@@ -166,6 +168,12 @@ p {
 }
 .flex-row {
   flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.gap-10 {
+  gap: 10px;
 }
 .align-center {
   align-items: center;
@@ -297,6 +305,9 @@ p {
 .u-mb-0 {
   margin-bottom: 0;
 }
+.u-mb-1 {
+  margin-bottom: 2rem;
+}
 .u-mb-2 {
   margin-bottom: 2rem;
 }
@@ -308,6 +319,10 @@ p {
 }
 .u-mt-3 {
   margin-top: 3em;
+}
+
+.u-mr-1 {
+  margin-right: 1rem;
 }
 
 .u-p-6 {
