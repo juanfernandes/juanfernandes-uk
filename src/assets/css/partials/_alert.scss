@@ -1,0 +1,15 @@
+.alert {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+    P {
+      margin-bottom: 0;
+    }
+
+  &--info {
+    background-color: var(--off-white);
+    border-left: 8px solid var(--orange);
+    color: var(--off-black);
+  }
+}

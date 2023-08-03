@@ -76,6 +76,15 @@ li p {
   }
 }
 
+.list-style-none {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
 
 .tags {
   margin-left: 0;

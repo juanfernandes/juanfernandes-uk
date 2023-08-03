@@ -1,0 +1,50 @@
+---
+permalink: '/rss/feed-style.xsl'
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"
+                xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
+  <xsl:template match="/">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+      <head>
+        <title><xsl:value-of select="/rss/channel/title"/>{{ site.feed.main.title }}</title>
+        <link rel="stylesheet" href="/assets/css/global.min.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+      </head>
+      <body>
+        <main class="container">
+          <div class="content content--slim">
+            <header>
+              <h1>
+                <svg class="u-mr-1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#f89820" viewBox="0 0 16 16">
+                  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                </svg>
+                <span>RSS Feed Preview - <small>juanfernandes.uk</small></span>
+              </h1>
+              <p class="lead">{{ site.feed.main.description }}</p>
+              <a class="u-inline-block u-mb-2" href="https://www.juanfernandes.uk">Visit Website →</a>
+            </header>
+            <div class="alert alert--info u-mb-2">
+              <p><strong>This is an RSS feed</strong>. Subscribe by copying the URL from the address bar into your newsreader. Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more and get started. It’s free.</p>
+            </div>
+
+            <h2>Recent blog posts</h2>
+            <ul class="list-style-none">
+            {% for post in collections.posts | reverse %}
+            {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
+            <li>
+              <a href="{{ absolutePostUrl }}">{{ post.data.title }}</a>
+            </li>
+            {% endfor %}
+            </ul>
+          </div>
+        </main>
+
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
