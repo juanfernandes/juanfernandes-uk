@@ -66,13 +66,13 @@ li p {
 
 .list-bordered {
   list-style-type: none;
-  margin: 0 0 1.5em 0;
+  margin: 0;
   padding: 0;
 
   li:not(:last-child) {
-    border-bottom: 1px dashed var(--light-grey);
-    margin-bottom: 0.375em;
-    padding-bottom: 0.375em;
+    border-bottom: 1px dashed var(--off-black);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
   }
 }
 

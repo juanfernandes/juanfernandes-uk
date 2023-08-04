@@ -33,11 +33,12 @@ eleventyExcludeFromCollections: true
             </div>
 
             <h2>Recent blog posts</h2>
-            <ul class="list-style-none">
+            <ul class="list-bordered">
             {% for post in collections.posts | reverse %}
             {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
             <li>
-              <a href="{{ absolutePostUrl }}">{{ post.data.title }}</a>
+              <a class="delta" href="{{ absolutePostUrl }}">{{ post.data.title }}</a>
+              <span class="u-block"><small>Published: {{ post.data.date | dateFilter }}</small></span>
             </li>
             {% endfor %}
             </ul>
