@@ -1,6 +1,7 @@
 # www.robotstxt.org/
-# http://code.google.com/web/controlcrawlindex/
 
-User-agent: *
-Disallow: /uh-oh/
-Disallow: /cms/
+User-agent: GPTBot
+Disallow: /
+
+User-agent: googlebot
+Disallow: /
