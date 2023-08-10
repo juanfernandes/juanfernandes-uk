@@ -1,7 +1,16 @@
-# www.robotstxt.org/
+# www.robotstxt.org
 
 User-agent: GPTBot
 Disallow: /
 
 User-agent: googlebot
+Disallow: /
+
+User-agent: yandex
+Disallow: /
+
+User-agent: redditbot
+Disallow: /
+
+User-agent: bingbot
 Disallow: /
