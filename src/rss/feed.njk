@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="feed-style.xsl" type="text/xsl"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <title>{{ site.feed.main.title }}</title>
   <subtitle>{{ site.feed.main.description }}</subtitle>
   <link href="{{ site.url }}{{ permalink }}" rel="self"/>
@@ -20,9 +20,11 @@ eleventyExcludeFromCollections: true
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
+    <published>{{ post.date | rssDate }}</published>
     <updated>{{ post.date | rssDate }}</updated>
-    <summary><![CDATA[{{ post.data.description | safe }}]]></summary>
     <id>{{ absolutePostUrl }}</id>
+    <summary><![CDATA[{{ post.data.description | safe }}]]></summary>
+    {% if post.data.postImage %}<media:thumbnail url="{{ site.cloudinary_url }}w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:{{ post.data.title }},co_rgb:eee,c_fit,w_600/{{ post.data.postImage }}" />{% else %}<media:thumbnail url="{{ site.meta.ogImg }}" />{% endif %}
     <content type="html"><![CDATA[
       {{ post.templateContent | safe }}
       <hr><p><a href="mailto:{{ site.author.email }}?subject=Re: {{ post.data.title }}">Reply via email</a></p>
