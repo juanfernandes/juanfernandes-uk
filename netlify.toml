@@ -17,6 +17,11 @@
 # Redirects
 
 [[redirects]]
+  from = "/blog/2018-a-year-in-review/"
+  to = "/blog/2018-year-in-review/"
+  status = 301
+
+[[redirects]]
   from = "/notes/bye-bye-gmail/"
   to = "/stream/bye-bye-gmail/"
   status = 301
