@@ -1,16 +1,16 @@
 {
   "title": "Home",
-  "description": "Juan Fernandes is a freelance front-end developer specialising in building bespoke responsive websites for small businesses based in Suffolk UK",
-  "keywords": "freelance contract front-end developer, responsive website design, website design for small businesses, affordable website design, website design company suffolk uk, website design company woodbridge uk, website designer suffolk uk, freelance website designer suffolk uk, responsive web design, design, web design, cms, perch, wordpress, local website designer, suffolk uk, website design suffolk",
+  "description": "Juan Fernandes is a freelance website designer specialising in building bespoke responsive websites for small businesses in the UK",
+  "keywords": "freelance website designer, responsive website design, website design for small businesses, affordable website design, website design company suffolk uk, website design company woodbridge uk, website designer suffolk uk, freelance website designer suffolk uk, responsive web design, design, web design, cms, perch, wordpress, local website designer, suffolk uk, website design suffolk",
   "meta": {
-    "ogTitle": "Juan Fernandes - Freelance Front-end Developer - Woodbridge Suffolk UK, London &amp; Remote",
-    "ogDesc": "Juan Fernandes is a freelance front-end developer specialising in building bespoke responsive websites for small businesses based in Suffolk UK",
+    "ogTitle": "Juan Fernandes - Freelance Website Designer - Suffolk UK, London &amp; Remote",
+    "ogDesc": "Juan Fernandes is a freelance website designer specialising in building bespoke responsive websites for small businesses in the UK",
     "lang": "https://www.juanfernandes.uk/"
   },
 	"intro": {
 		"class": "home",
 		"heading": "Juan Fernandes",
-		"subheading": "Freelance Front-end Developer",
+		"subheading": "Freelance Website Designer",
 		"cta": {
       "url": "/work/",
       "text": "View my work"
