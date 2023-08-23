@@ -17,7 +17,7 @@ intro:
     text: Work with me
 
 ---
-I'm an enthusiastic and experienced front-end developer who enjoys using HTML, CSS and vanilla JavaScript to develop and implement stylish, responsive and user friendly websites that incorporate the latest technology and trends. I have a keen eye for detail and work closely with customers to achieve their vision.
+I'm an enthusiastic and experienced website designer who enjoys using HTML, CSS and vanilla JavaScript to develop and implement stylish, responsive and user friendly websites that incorporate the latest technology and trends. I have a keen eye for detail and work closely with customers to achieve their vision.
 
 ### A brief Career background
 
