@@ -1,21 +1,21 @@
 {
   "meta": {
-    "title": "Juan Fernandes - Frontend Developer",
-    "description": "Juan Fernandes is a freelance front-end developer specialising in building bespoke responsive websites for small businesses based in Suffolk UK",
+    "title": "Juan Fernandes - Freelance Website Designer",
+    "description": "Juan Fernandes is a freelance website designer specialising in building bespoke responsive websites for small businesses in the UK",
     "ogTwitter": "@juanfernandes",
     "ogImg": "https://res.cloudinary.com/juanfernandes/social-sharing.jpg",
     "ogImgAlt": "Juan Fernandes - Freelance Website Designer",
     "lang": "https://www.juanfernandes.uk/"
   },
-  "announcement": "Availability: I'm avaialble for freelance / contract work starting in July",
+  "announcement": "Availability: I'm only taking on small freelance projects at the moment",
   "feed": {
     "main": {
-      "title": "Blog - Thoughts, Code and more - Juan Fernandes - Frontend Developer",
-      "description": "Juan Fernandes is a freelance front-end developer specialising in building bespoke responsive websites for small businesses based in Suffolk UK"
+      "title": "Blog - Thoughts, Code and more - Juan Fernandes - Freelance Website Designer",
+      "description": "Juan Fernandes is a freelance website designer specialising in building bespoke responsive websites for small businesses in the UK"
     },
     "notes": {
       "title": "Notes",
-      "description": "Short posts, photos, thoughts about code, design and personal stuff"
+      "description": "Short posts, thoughts about code, design and personal stuff"
     },
     "photos": {
       "title": "Photos",
@@ -58,12 +58,12 @@
   ],
   "navigation": [
     {
-      "label": "Work",
-      "url": "/work/"
-    },
-    {
       "label": "About",
       "url": "/about/"
+    },
+    {
+      "label": "Blog",
+      "url": "/blog/"
     },
     {
       "label": "Juan Fernandes - Freelance Website Designer",
@@ -71,8 +71,8 @@
       "url": "/"
     },
     {
-      "label": "Blog",
-      "url": "/blog/"
+      "label": "Notes",
+      "url": "/notes/"
     },
     {
       "label": "Contact",
