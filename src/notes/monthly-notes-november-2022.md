@@ -35,7 +35,7 @@ tweetId: ''
 - [Minimal Dark Mode · Jens Oliver Meiert](https://meiert.com/en/blog/minimal-dark-mode/ "Minimal Dark Mode · Jens Oliver Meiert")
 - [Working with git worktrees - pawelgrzybek.com](https://pawelgrzybek.com/working-with-git-worktrees/ "Working with git worktrees | pawelgrzybek.com")
 - [Beginning to Style Your RSS Feed - Jon Christopher](https://jonchristopher.us/blog/beginning-to-style-your-rss-feed/ "Beginning to Style Your RSS Feed - Jon Christopher")
-- [Week Notes - Week 44](https://declanbyrd.co.uk/week-notes/2022/week44/ "Week Notes - Week 44")
+- [Week Notes - Week 44](https://declanbyrd.co.uk/journal/2022/week44/ "Week Notes - Week 44")
 - [You can be friends with my blog—lewisdale.dev](https://lewisdale.dev/post/you-can-be-friends-with-my-blog/ "You can be friends with my blog—lewisdale.dev")
 - [Home invasion - Mastodon's Eternal September begins](https://www.hughrundle.net/home-invasion/ "Home invasion - Mastodon's Eternal September begins")
 - [5 heading accessibility issues and how to fix them - Pope Tech Blog](https://blog.pope.tech/2022/08/04/5-heading-accessibility-issues-and-how-to-fix-them/ "5 heading accessibility issues and how to fix them - Pope Tech Blog")

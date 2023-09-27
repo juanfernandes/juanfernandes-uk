@@ -84,7 +84,7 @@ I published a new blog post, [How I improved my website because of Content Secur
 * [2020 in Review – David Bushell – Freelance Web Design (UK)](https://dbushell.com/2021/01/05/2020-in-review/ "2020 in Review – David Bushell – Freelance Web Design (UK)")
 * [How Musti—a formula used by libraries—could be useful for maintaining design systems](https://alstevens.co.uk/musti-a-formula-for-maintaining-design-systems/ "How Musti—a formula used by libraries—could be useful for maintaining design systems")
 * [I Built A Successful Blog In One Year, And You Can Too; 7 Tips For Enhancing Readership](https://dev.to/emmabostian/i-built-a-successful-blog-in-one-year-and-you-can-too-7-tips-for-enhancing-readership-5f8b "I Built A Successful Blog In One Year, And You Can Too; 7 Tips For Enhancing Readership")
-* [Dealing with mental illness | Steve Rydz](https://steverydz.com/2019/12/30/dealing-with-mental-illness/ "Dealing with mental illness | Steve Rydz")
+* [Dealing with mental illness - Steve Rydz](https://web.archive.org/web/20210227220305/https://steverydz.com/2019/12/30/dealing-with-mental-illness/ "Dealing with mental illness - Steve Rydz")
 * [Build a serverless Telegram chatbot deployed using Vercel](https://www.marclittlemore.com/serverless-telegram-chatbot-vercel/ "Build a serverless Telegram chatbot deployed using Vercel")
 * [James Doc - Lessons from Netlify CMS](https://jamesdoc.com/blog/2021/netlify-cms/ "James Doc - Lessons from Netlify CMS")
 * [The Accidental Side Project](https://24ways.org/2019/the-accidental-side-project/ "The Accidental Side Project")

@@ -102,7 +102,7 @@ After years of imprisonment, Morpheus — the King of Dreams — embarks on a jo
 - [Picture perfect images with the modern `<img>` element](https://stackoverflow.blog/2022/03/28/picture-perfect-images-with-the-modern-element/ "Picture perfect images with the modern `<img>` element")
 - [Better scrolling through modern CSS](https://blog.mayank.co/better-scrolling-through-modern-css "Better scrolling through modern CSS")
 - [Dark Mode Toggles Should be a Browser Feature](https://www.bram.us/2022/05/25/dark-mode-toggles-should-be-a-browser-feature/ "Dark Mode Toggles Should be a Browser Feature")
-- [Matt DeCamp : Connect Notion to Eleventy](https://mattdecamp.com/articles/using-eleventy-fetch-with-notion-api/ "Matt DeCamp : Connect Notion to Eleventy")
+- [Matt DeCamp Connect Notion to Eleventy](https://mattdecamp.com/blog/connect-notion-to-eleventy/ "Matt DeCamp Connect Notion to Eleventy")
 - [Love Film & Cinema - Mike Street - Lead Developer and CTO](https://www.mikestreety.co.uk/blog/love-film-and-cinema/ "Love Film & Cinema - Mike Street - Lead Developer and CTO")
 - [CSS border animations](https://web.dev/css-border-animations/ "CSS border animations")
 - [How to stay motivated as a developer, build a habit system and stop procrastinating](https://shrutikapoor.hashnode.dev/how-to-stay-motivated-as-a-developer-build-a-habit-system-and-stop-procrastinating "How to stay motivated as a developer, build a habit system and stop procrastinating")

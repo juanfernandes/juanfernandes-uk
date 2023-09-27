@@ -65,7 +65,7 @@ Now that I have a permanent job again, my website is my new side project.
 - [Implementing clientside webmentions | bnijenhuis](https://bnijenhuis.nl/notes/2021-05-03-implementing-clientside-webmentions/ "Implementing clientside webmentions | bnijenhuis")
 - [Light and dark themed SVG favicon using the CSS prefers-color-scheme media feature](https://catalin.red/svg-favicon-light-dark-theme/ "Light and dark themed SVG favicon using the CSS prefers-color-scheme media feature")
 - [My current HTML boilerplate](https://www.matuzo.at/blog/html-boilerplate/ "My current HTML boilerplate")
-- [How I Made My Badass ‘Listening To’ Section - Timothy B. Smith](https://smithtimmytim.com/2020/07/how-i-made-my-badass-listening-to-section/ "How I Made My Badass ‘Listening To’ Section - Timothy B. Smith")
+- [How I Made My Badass ‘Listening To’ Section - Timothy B. Smith](https://web.archive.org/web/20220818012616/https://smithtimmytim.com/2020/07/how-i-made-my-badass-listening-to-section/ "How I Made My Badass ‘Listening To’ Section - Timothy B. Smith")
 - [How Nomad List dominates longer tail keywords](https://marketingexamples.com/seo/long-tail-keywords "How Nomad List dominates longer tail keywords")
 - [Responsive Images the Simple Way](https://cloudfour.com/thinks/responsive-images-the-simple-way/ "Responsive Images the Simple Way")
 - [Intersection Observer API Makes Lazy Loading a Snap](https://www.telerik.com/blogs/intersection-observer-api-makes-lazy-loading-a-snap "Intersection Observer API Makes Lazy Loading a Snap")

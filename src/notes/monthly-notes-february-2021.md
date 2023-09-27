@@ -93,7 +93,7 @@ The client is really happy with the new design and we got the go-ahead to start 
 * [The Beauty Of Tiny Enhancements In CSS - Ahmad Shadeed](https://ishadeed.com/article/tiny-enhancements-in-css/ "The Beauty Of Tiny Enhancements In CSS - Ahmad Shadeed")
 * [Ways to care for the environment while WFH](https://whereby.com/blog/ways-to-care-for-the-environment-while-wfh/ "Ways to care for the environment while WFH")
 * [How much should I invest?](https://freetrade.io/learn/how-much-money-should-i-invest "How much should I invest?")
-* [OneSheep](https://onesheep.org/insights/working-from-home "OneSheep")
+* [Working from Home: Tips from 7 years running a remote team](https://web.archive.org/web/20221129164658/https://onesheep.org/insights/working-from-home "Working from Home: Tips from 7 years running a remote team")
 * [How to rename the ‘master’ branch on GitHub](https://www.tempertemper.net/blog/how-to-rename-the-master-branch-on-github "How to rename the ‘master’ branch on GitHub")
 * [Trying to Work From Home](https://meyerweb.com/eric/thoughts/2020/03/18/trying-to-work-from-home/ "Trying to Work From Home")
 * [4 CSS Grid Properties (and One Value) for Most of Your Layout Needs | CSS-Tricks](https://css-tricks.com/4-css-grid-properties-and-one-value-for-most-of-your-layout-needs/ "4 CSS Grid Properties (and One Value) for Most of Your Layout Needs | CSS-Tricks")

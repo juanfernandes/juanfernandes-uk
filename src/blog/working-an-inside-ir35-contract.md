@@ -64,7 +64,7 @@ Some recruitment agencies will need proof that a contract is in fact outside the
 ## IR35 Insurance
 There is tax investigation insurance for IR35. It also covers your compliance with regulations relating to national insurance contributions or VAT amongst other things. However, the spotlight right now is on IR35. This is not a sponsored link - but I have Professional indemnity insurance from WithJack and I found they now do tax investigation insurance as well.
 
-[Checkout WithJack insurance](https://withjack.co.uk/insurance/2020/01/27/lowdown-on-ir35-insurance/)
+[Checkout WithJack insurance](https://web.archive.org/web/20220901110629/https://withjack.co.uk/insurance/2020/01/27/lowdown-on-ir35-insurance/)
 
 ## That's it
 I hope you found this post useful if you are currently considering a contract inside IR35. Do let me know if you have had a different experience.
