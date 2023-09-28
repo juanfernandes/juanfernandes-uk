@@ -1,0 +1,13 @@
+--- 
+title: Links
+layout: page
+class: links
+intro:
+  class: sml
+---
+
+<ul class="urls">
+{% for item in links %}
+  <li><a href="{{ item.url }}" target="_blank" rel="me noopener noreferrer">{{ item.name }}</a></li>
+{% endfor %}
+</ul>
