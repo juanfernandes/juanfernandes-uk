@@ -3,3 +3,5 @@
 .env
 .swp
 /dist
+
+node_modules
