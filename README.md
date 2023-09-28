@@ -1,4 +1,4 @@
-[![Built with 11ty.io](https://img.shields.io/badge/powered%20by-11ty.io-%23000.svg)](https://11ty.io/)
+[![Built with 11ty.io](https://img.shields.io/badge/powered%20by-11ty.io-%23000.svg)](https://11ty.dev/)
 
 ---
 
