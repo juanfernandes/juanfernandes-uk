@@ -3,7 +3,13 @@
 User-agent: GPTBot
 Disallow: /
 
+User-agent: ChatGPT-User
+Disallow: /
+
 User-agent: googlebot
+Disallow: /
+
+User-agent: Google-Extended
 Disallow: /
 
 User-agent: yandex
@@ -13,4 +19,10 @@ User-agent: redditbot
 Disallow: /
 
 User-agent: bingbot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Omgilibot
 Disallow: /
