@@ -9,6 +9,7 @@ keywords:
 - googlebot
 - chatgpt
 date: 2023-08-09T20:00:00Z
+edited: 2023-09-29T20:00:00Z
 tags:
 - notes
 - changelog
@@ -16,7 +17,8 @@ tags:
 ---
 ## Changelog: Blocking GoogleBot and ChatGPT bot
 
-Update: Added more bots, my robots.txt file content and another source post
+- Update 29-09-23: Added a few more bots to block and another source
+- Update: Added more bots, my robots.txt file content and another source post
 
 With the rise of AI and companies profiting from free content online, I, like many others, have decided to just block access to those bots. I will add to my robots.txt file as I find more bots to block. 
 
@@ -29,7 +31,13 @@ Here's my robots.txt file:
     User-agent: GPTBot
     Disallow: /
 
+    User-agent: ChatGPT-User
+    Disallow: /
+
     User-agent: googlebot
+    Disallow: /
+
+    User-agent: Google-Extended
     Disallow: /
 
     User-agent: yandex
@@ -41,6 +49,14 @@ Here's my robots.txt file:
     User-agent: bingbot
     Disallow: /
 
+    User-agent: CCBot
+    Disallow: /
+
+    User-agent: Omgilibot
+    Disallow: /
+
+
 ### Sources
 - [Permission - Jeremy Keith](https://adactio.com/journal/20315 "Permission - Jeremy Keith")
 - [Twitter/X thread by Gergely Orosz](https://twitter.com/gergelyorosz/status/1688829094249615360 "Twitter/X thread by Gergely Orosz")
+- [Block the Bots that Feed “AI” Models by Scraping Your Website](https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/ "Block the Bots that Feed “AI” Models by Scraping Your Website")
