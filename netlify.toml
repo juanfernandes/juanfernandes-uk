@@ -5,21 +5,6 @@
 [[plugins]]
   package = "netlify-plugin-cache-folder"
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self' https://res.cloudinary.com webmention.io *.webmention.io amazonaws.com *.amazonaws.com; manifest-src 'self'; script-src 'self' 'sha256-2kPU9gPr5y+y06UozTqYaYf/qmAXw35qeeo5oedlLAQ=' 'sha256-tx+gCi7EMKKMysRMCzM3Pdde7nPTxmMPWFq0F0Ij8Wg=' netlify.com *.netlify.com unpkg.com *.unpkg.com; connect-src 'self' https://res.cloudinary.com webmention.io *.webmention.io amazonaws.com *.amazonaws.com; img-src 'self' https://res.cloudinary.com webmention.io *.webmention.io amazonaws.com *.amazonaws.com; style-src 'self'; form-action 'self' https://juanfernandes.us14.list-manage.com; frame-ancestors 'none';"
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
-    Permissions-Policy = "interest-cohort=()"
-
-
-[functions]
-  node_bundler = 'esbuild'
-
-# Redirects
-
 [[redirects]]
   from = '/api/*'
   to = '/.netlify/functions/api/:splat'
@@ -42,7 +27,7 @@
 
 [[redirects]]
   from = "/notes/created-my-first-npm-package/"
-  to = ""
+  to = "/stream/created-my-first-npm-package/"
   status = 301
 
 [[redirects]]
@@ -166,7 +151,7 @@
   status = 301
 
 [[redirects]]
-  from = "/2018-01-09-twenty-seventeen/"
+  from = "/blog/2018-01-09-twenty-seventeen/"
   to = "/blog/twenty-seventeen/"
   status = 301
 
@@ -189,3 +174,6 @@
   from = "/blog/2019-03-13-multiple-blogs-with-perch-cms"
   to = "/blog/multiple-blogs-with-perch-cms/"
   status = 301
+
+[functions]
+  node_bundler = 'esbuild'
