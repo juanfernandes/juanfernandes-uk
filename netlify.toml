@@ -14,7 +14,16 @@
     X-XSS-Protection = "1; mode=block"
     Permissions-Policy = "interest-cohort=()"
 
+
+[functions]
+  node_bundler = 'esbuild'
+
 # Redirects
+
+[[redirects]]
+  from = '/api/*'
+  to = '/.netlify/functions/api/:splat'
+  status = 200
 
 [[redirects]]
   from = "/blog/2018-a-year-in-review/"

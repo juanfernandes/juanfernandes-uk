@@ -14,9 +14,13 @@ export default defineConfig({
     publicFolder: 'src'
   },
   media: {
-    tina: {
-      mediaRoot: '',
-      publicFolder: 'src'
+    // tina: {
+    //   mediaRoot: 'src/assets/imgs',
+    //   publicFolder: 'src'
+    // },
+    loadCustomStore: async () => {
+      const pack = await import("next-tinacms-cloudinary");
+      return pack.TinaCloudCloudinaryMediaStore;
     }
   },
   schema: {
