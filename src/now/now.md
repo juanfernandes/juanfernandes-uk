@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-09-20T00:00:00Z
+date: 2023-09-29T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,10 +12,11 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Still no luck in buying a house - so may as well give up for a while as it can only happen if my old house sells.
+* I am now officially divorced
+* Finally, there are 2 viewings booked for my house - fingers crossed one of them buys it
 
 ### Projects
-* I've rebuilt my ecommerce shop website and am nearly ready to properly launch it. Need to work out how to do marketing for it.
+* Newly rebuilt ecommerce drop shipping website has been pushed live, now need to work on a marketing plan
 
 ### Reading
 * [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
@@ -25,12 +26,3 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 ### Watching
 * [Community](https://www.themoviedb.org/tv/18347-community "Community")
   Follow the lives of a group of students at what is possibly the world’s worst community college in the fictional locale of Greendale, Colorado.
-
-#### Paused
-* [Black Knight](https://www.themoviedb.org/tv/137040 "Black Knight")
-  In a dystopian 2071 devastated by air pollution, the survival of humanity depends on the Black Knights — and they’re far from your average delivery men.
-
-#### Finished
-* [Seinfeld (Rewatch)](https://www.themoviedb.org/tv/1400-seinfeld "Seinfeld")
-* [Unstable](https://www.themoviedb.org/tv/219788-unstable "Unstable")
-* [Welcome to Eden](https://www.themoviedb.org/tv/128010-bienvenidos-a-eden "Welcome to Eden")
