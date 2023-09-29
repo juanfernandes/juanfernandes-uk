@@ -1,34 +1,25 @@
-[![Built with 11ty.io](https://img.shields.io/badge/powered%20by-11ty.io-%23000.svg)](https://11ty.dev/)
+[![Built with 11ty.dev](https://img.shields.io/badge/powered%20by-11ty.io-%23000.svg)](https://11ty.dev/)
 
 ---
 
 # juanfernandes.uk
 
-> Source files for my [personal website](https://juanfernandes.uk) built with Eleventy and hosted with Netlify.
+> Source files for my [personal website](https://www.juanfernandes.uk) built with Eleventy and hosted with Netlify.
 
 ## Getting Started
 
 ```bash
 # Clone this repository:
-git clone git@gitlab.com:juanfernandes/juanfernandes-v2.git
+git clone git@github.com:juanfernandes/juanfernandes.uk.git
 
 # Navigate to the directory
-cd juanfernandes-v2
+cd juanfernandes.uk
 
 # Install dependencies
 npm install
 
 # Start local dev server
-npx eleventy --serve
-
-# Or build automatically when a template changes:
-npx eleventy --watch
-
-# Run Grunt
-grunt dev
-
-# Or build automatically when CSS changes:
-grunt watch
+npm run start
 ```
 
 ## Deployments

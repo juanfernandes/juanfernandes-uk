@@ -6,22 +6,18 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || 'main'
 
 export default defineConfig({
   branch,
-  clientId: null, // Get this from tina.io
-  token: null, // Get this from tina.io
+  clientId: 'c39a17df-455f-4401-a510-2e2008a262b6',
+  token: '26cab59bb9bd54e3e4074c5c472ef5737e66ace2',
   client: { skip: true },
   build: {
     outputFolder: 'admin',
     publicFolder: 'src'
   },
   media: {
-    // tina: {
-    //   mediaRoot: 'src/assets/imgs',
-    //   publicFolder: 'src'
-    // },
     loadCustomStore: async () => {
       const pack = await import("next-tinacms-cloudinary");
       return pack.TinaCloudCloudinaryMediaStore;
-    }
+    },
   },
   schema: {
     collections: [
