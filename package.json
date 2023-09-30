@@ -9,7 +9,7 @@
     "watch:eleventy": "eleventy --quiet --serve",
     "watch:netlify": "netlify functions:serve",
     "start": "npm-run-all sass --parallel watch:* dev:*",
-    "build": "npm run sass && npx eleventy"
+    "build": "npm run sass && npx eleventy && npx tinacms build"
   },
   "repository": {
     "type": "git",
