@@ -5,6 +5,6 @@
 /dist
 
 node_modules
-/src/admin
+/src/admin/*
 # Local Netlify folder
 .netlify
