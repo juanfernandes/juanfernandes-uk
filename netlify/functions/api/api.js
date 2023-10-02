@@ -6,7 +6,7 @@ import { createMediaHandler } from 'next-tinacms-cloudinary/dist/handlers'
 const app = express()
 
 const router = Router()
-
+console.log('here', process.env.CLOUDINARY_CLOUD_NAME)
 const mediaHandler = createMediaHandler({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
   api_key: process.env.CLOUDINARY_API_KEY,
