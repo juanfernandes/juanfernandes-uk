@@ -176,4 +176,5 @@
   status = 301
 
 [functions]
+  external_node_modules = ["express", "vm2"]
   node_bundler = 'esbuild'
