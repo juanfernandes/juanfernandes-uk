@@ -43,7 +43,8 @@
     "@tinacms/auth": "^1.0.3",
     "@tinacms/cli": "^1.5.29",
     "express": "^4.18.2",
-    "next-tinacms-cloudinary": "^4.3.5",
+    "next-tinacms-cloudinary": "^4.3.1",
+    "rss-parser": "^3.13.0",
     "serverless-http": "^3.2.0",
     "tinacms": "^1.5.20"
   }

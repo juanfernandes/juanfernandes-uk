@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-10-03T00:00:00Z
+date: 2023-10-10T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,16 +12,20 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Rented a storage unit to store all the things I still have at the house as I can store them at my flat.
+* More changes with home/family life - now all three of my children are living with me, which is great, but we are having to live in a tiny two-bed flat!
 
 ### Projects
-* Finally migrated this websites' CMS from Forestry to Tina. Wasn't a straight forward migration as its built to work with NextJS frameworks but they're working on SSG frameworks as well.
-
-### Reading
-* [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
-* [Company of One](https://bookwyrm.social/book/184714/s/company-of-one "Company of One")
-* Always reading web design and business articles via my [Instapaper](https://www.instapaper.com/p/juanfernandes "Juan Fernandes on Instapaper")
+* Been doing a lot of work on my ecommerce side project. Have done a soft launch and will be working on getting the word out about it soon.
+* Added a script that fetches the last 10 articles I've read, which you can now see in the new Articles section bellow.
 
 ### Watching
 * [Community](https://www.themoviedb.org/tv/18347-community "Community")
   Follow the lives of a group of students at what is possibly the world’s worst community college in the fictional locale of Greendale, Colorado.
+
+### Reading
+
+#### Books
+* [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
+* [Company of One](https://bookwyrm.social/book/184714/s/company-of-one "Company of One")
+
+#### Articles

@@ -1,0 +1,5 @@
+    <ul>
+      {% for article in read %}
+      <li><a href="{{ article.link }}" target="_blank" rel="noopener">{{ article.title }}</a></li>
+      {% endfor %}
+    </ul>
