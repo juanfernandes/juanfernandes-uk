@@ -1,0 +1,19 @@
+---
+title: Blogroll
+layout: page
+class: blogroll
+intro:
+  class: sml
+---
+<div class="container">
+  <div class="blogroll-grid">
+    {% for blog in blogroll %}
+    <a href="{{ blog.url }}" class="blogroll-card">
+      {% if blog.icon %}
+      <img src="{{ blog.icon }}" alt="{{ blog.name }}" width="32" height="32" />
+      {% endif %}
+      <b>{{ blog.name }}</b>
+    </a>
+    {% endfor %}
+  </div>
+</div>

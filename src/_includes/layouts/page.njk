@@ -2,7 +2,7 @@
 
 {% block main %}
 <div class="{{ class }}">
-  <article class="content">
+  <div class="content">
 
     {{ content | safe }}
 
@@ -10,6 +10,6 @@
       {% include "components/read-articles.njk" %}
       {% include "components/now-footer.njk" %}
     {% endif %}
-  </article>
+  </div>
 </div>
 {% endblock %}

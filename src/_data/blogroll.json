@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Adactio",
+    "url": "https://adactio.com/",
+    "feed": "https://adactio.com/articles/rss",
+    "icon": "https://adactio.com/favicon-32x32.png"
+  },
+  {
+    "name": "Adam Silver",
+    "url": "https://adamsilver.io/",
+    "feed": "https://adamsilver.io/atom.xml",
+    "icon": "https://adamsilver.io/assets/images/favicon/apple-touch-icon.png"
+  },
+  {
+    "name": "Adrian Roselli",
+    "url": "https://adrianroselli.com/",
+    "feed": "https://adrianroselli.com/feed",
+    "icon": "https://adrianroselli.com/wp-content/themes/AAR/favicon.png"
+  },
+  {
+    "name": "Ahmad Shadeed",
+    "url": "http://ishadeed.com/",
+    "feed": "http://ishadeed.com/feed.xml",
+    "icon": "https://ishadeed.com/assets/favicon-32x32.png"
+  },
+  {
+    "name": "Alistair Shepherd",
+    "url": "https://www.alistairshepherd.uk/",
+    "feed": "https://alistairshepherd.uk/feed.xml",
+    "icon": "https://alistairshepherd.uk/meta/apple-touch-icon.png"
+  },
+  {
+    "name": "Amber Wilson",
+    "url": "https://amberwilson.co.uk/",
+    "feed": "https://amberwilson.co.uk/rss.xml",
+    "icon": "https://amberwilson.co.uk/img/favicon/favicon-32x32.png"
+  },
+  {
+    "name": "Ana Rodrigues",
+    "url": "https://ohhelloana.blog/",
+    "feed": "https://ohhelloana.blog/feed.xml",
+    "icon": "https://ohhelloana.blog/assets/icons/favicon-32x32.png"
+  },
+  {
+    "name": "Ashlee M. Boyer",
+    "url": "https://ashleemboyer.com/",
+    "feed": "https://ashleemboyer.com/rss.xml",
+    "icon": "https://ashleemboyer.com/favicon.ico"
+  },
+  {
+    "name": "Baldur Bjarnason",
+    "url": "https://www.baldurbjarnason.com/",
+    "feed": "https://www.baldurbjarnason.com/index.xml",
+    "icon": "https://www.baldurbjarnason.com/dark-bird.svg"
+  },
+  {
+    "name": "Ben Myers",
+    "url": "https://benmyers.dev/",
+    "feed": "https://benmyers.dev/feed.xml",
+    "icon": "https://benmyers.dev/favicon-32x32.png"
+  },
+  {
+    "name": "Benjamin Read",
+    "url": "https://deliciousreverie.co.uk/",
+    "feed": "https://deliciousreverie.co.uk/feed.xml",
+    "icon": "https://deliciousreverie.co.uk/favicon.png"
+  },
+  {
+    "name": "Benjy Stanton",
+    "url": "https://www.benjystanton.co.uk/",
+    "feed": "https://www.benjystanton.co.uk/feed.xml",
+    "icon": "https://www.benjystanton.co.uk/apple-touch-icon.png"
+  },
+  {
+    "name": "Bram.us",
+    "url": "https://www.bram.us/",
+    "feed": "https://www.bram.us/category/original-content/feed/",
+    "icon": "https://cdn.masto.host/frontendsocial/accounts/avatars/109/330/142/125/669/429/original/ed705eb13e1c2313.jpg"
+  },
+  {
+    "name": "Chen Hui Jing",
+    "url": "https://chenhuijing.com/",
+    "feed": "https://chenhuijing.com/feed.xml",
+    "icon": "https://chenhuijing.com/assets/favicons/apple-touch-icon.png"
+  },
+  {
+    "name": "Chris Burnell",
+    "url": "https://chrisburnell.com/",
+    "feed": "https://chrisburnell.com/feed.xml",
+    "icon": "https://chrisburnell.com/images/favicon-180.png"
+  },
+  {
+    "name": "Chris Coyier",
+    "url": "https://chriscoyier.net/",
+    "feed": "https://chriscoyier.net/feed/",
+    "icon": "https://i0.wp.com/chriscoyier.net/wp-content/uploads/2021/07/IsUISvAq_400x400.jpg"
+  },
+  {
+    "name": "Chris Ferdinandi",
+    "url": "https://gomakethings.com/",
+    "feed": "https://gomakethings.com/feed/index.xml",
+    "icon": "https://gomakethings.com/img/favicon.ico"
+  },
+  {
+    "name": "Dan Davies",
+    "url": "https://www.dan-davies.co.uk/",
+    "feed": "https://www.dan-davies.co.uk/feed",
+    "icon": "https://www.dan-davies.co.uk/apple-icon-57x57.png"
+  },
+  {
+    "name": "Dana Byerly",
+    "url": "https://danabyerly.com/",
+    "feed": "https://danabyerly.com/feed.xml",
+    "icon": "https://danabyerly.com/img/icons/icon-192x192.png"
+  },
+  {
+    "name": "Dave Rupert",
+    "url": "http://daverupert.com/",
+    "feed": "https://daverupert.com/atom.xml",
+    "icon": "https://daverupert.com/favicon.ico"
+  },
+  {
+    "name": "David Darnes",
+    "url": "https://david.darn.es/",
+    "feed": "https://david.darn.es/feed.xml",
+    "icon": "https://david.darn.es/favicon.ico"
+  },
+  {
+    "name": "David Bushell",
+    "url": "https://dbushell.com/",
+    "feed": "https://dbushell.com/rss.xml",
+    "icon": "https://dbushell.com/assets/icons/favicon.svg"
+  },
+  {
+    "name": "Eric Bailey",
+    "url": "https://ericwbailey.website/",
+    "feed": "https://ericwbailey.website/feed/feed.xml",
+    "icon": "https://ericwbailey.website/static/favicons/apple/apple-touch-icon.png"
+  },
+  {
+    "name": "Ethan Marcotte",
+    "url": "https://ethanmarcotte.com/",
+    "feed": "https://ethanmarcotte.com/wrote/feed.xml",
+    "icon": "https://ethanmarcotte.com/ico/apple-touch-icon.png"
+  },
+  {
+    "name": "Hidde de Vries",
+    "url": "https://hidde.blog/",
+    "feed": "https://hidde.blog/feed.xml",
+    "icon": "https://hidde.blog/favicon.png"
+  },
+  {
+    "name": "Heydon Pickering",
+    "url": "https://heydonworks.com/",
+    "feed": "https://heydonworks.com/feed.xml",
+    "icon": "https://heydonworks.com/apple-icon-180x180.png"
+  },
+  {
+    "name": "Jeremy Wagner",
+    "url": "https://jeremy.codes/",
+    "feed": "https://jeremy.codes/rss.xml",
+    "icon": "https://jlwagner.net/img/icons/apple-touch-icon-57x57.png"
+  },
+  {
+    "name": "Jérôme Coupé",
+    "url": "https://www.webstoemp.com/",
+    "feed": "https://www.webstoemp.com/feed.xml",
+    "icon": "https://www.webstoemp.com/apple-touch-icon.png"
+  },
+  {
+    "name": "Jim Nielsen",
+    "url": "https://blog.jim-nielsen.com/",
+    "feed": "https://blog.jim-nielsen.com/feed.xml",
+    "icon": "https://blog.jim-nielsen.com/favicon.ico"
+  },
+  {
+    "name": "Jonathan Snook",
+    "url": "https://snook.ca/",
+    "feed": "https://snook.ca/posts/index.rss",
+    "icon": "https://snook.ca/favicon.ico"
+  },
+  {
+    "name": "Josh Collinsworth",
+    "url": "https://joshcollinsworth.com/",
+    "feed": "https://joshcollinsworth.com/rss.xml",
+    "icon": "https://joshcollinsworth.com/2020-icon.svg"
+  },
+  {
+    "name": "Manuel Matuzović",
+    "url": "https://www.matuzo.at/",
+    "feed": "https://www.matuzo.at/feed.xml",
+    "icon": "https://www.matuzo.at/apple-touch-icon.png"
+  },
+  {
+    "name": "Matt Hobbs",
+    "url": "https://nooshu.github.io/",
+    "feed": "https://nooshu.github.io/feed.xml",
+    "icon": "https://web.archive.org/web/20230524070911if_/https://nooshu.com/images/icons/apple-touch-icon.png"
+  },
+  {
+    "name": "Max Böck",
+    "url": "https://mxb.dev/",
+    "feed": "https://mxb.dev/feed.xml",
+    "icon": "https://mxb.dev/assets/images/favicon/apple-touch-icon.png"
+  },
+  {
+    "name": "Mike Street",
+    "url": "https://www.mikestreety.co.uk/",
+    "feed": "https://www.mikestreety.co.uk/rss",
+    "icon": "https://web.archive.org/web/20230227035031if_/https://www.mikestreety.co.uk/assets/img/favicon-180.png"
+  },
+  {
+    "name": "Modern CSS",
+    "url": "https://moderncss.dev/",
+    "feed": "https://moderncss.dev/feed/",
+    "icon": "https://moderncss.dev/favicon.png"
+  },
+  {
+    "name": "Nic Chan",
+    "url": "https://www.nicchan.me/",
+    "feed": "https://www.nicchan.me/feed.xml",
+    "icon": "https://www.nicchan.me/static/favicon.png"
+  },
+  {
+    "name": "Remy Sharp",
+    "url": "https://remysharp.com/",
+    "feed": "https://remysharp.com/blog.xml",
+    "icon": "https://remysharp.com/images/avatar-favicon.png"
+  },
+  {
+    "name": "Ru Singh",
+    "url": "https://rusingh.com/",
+    "feed": "https://rusingh.com/articles.xml",
+    "icon": "https://rusinghcom.b-cdn.net/wp-content/uploads/2022/11/cropped-Fosstodon-BW-94x94-100q-32x32.jpg"
+  },
+  {
+    "name": "Ryan Gittings",
+    "url": "https://www.ryangittings.co.uk/",
+    "feed": "https://www.ryangittings.co.uk/feed.xml",
+    "icon": "https://www.ryangittings.co.uk/favicon.ico"
+  },
+  {
+    "name": "Sarah L. Fossheim",
+    "url": "https://fossheim.io/",
+    "feed": "https://fossheim.io/feed.xml",
+    "icon": "https://fossheim.io/styles/img/logo.ico"
+  },
+  {
+    "name": "Sarah Higley",
+    "url": "https://sarahmhigley.com/",
+    "feed": "https://sarahmhigley.com/feed.xml",
+    "icon": "https://sarahmhigley.com/assets/avatar-round.png"
+  },
+  {
+    "name": "Sara Soueidan",
+    "url": "https://www.sarasoueidan.com/",
+    "feed": "https://www.sarasoueidan.com/blog/index.xml",
+    "icon": "https://www.sarasoueidan.com/apple-touch-icon.png"
+  },
+  {
+    "name": "Scott O'Hara",
+    "url": "https://www.scottohara.me/",
+    "feed": "https://www.scottohara.me/feed.xml",
+    "icon": "https://www.scottohara.me/assets/img/apple-icon-144.png"
+  },
+  {
+    "name": "Sebastian De Deyne",
+    "url": "https://sebastiandedeyne.com/",
+    "feed": "https://sebastiandedeyne.com/index.xml",
+    "icon": "https://sebastiandedeyne.com/favicon-32x32.png"
+  },
+  {
+    "name": "Set Studio",
+    "url": "https://set.studio/",
+    "feed": "https://set.studio/feed.xml",
+    "icon": "https://set.studio/wp-content/themes/set-studio-v1/images/favicons/apple-touch-icon.png"
+  },
+  {
+    "name": "Simone Silvestroni",
+    "url": "https://minutestomidnight.co.uk/",
+    "feed": "https://minutestomidnight.co.uk/feed.xml",
+    "icon": "https://minutestomidnight.co.uk/assets/images/favicons/favicon.svg"
+  },
+  {
+    "name": "Sophie Koonin",
+    "url": "https://localghost.dev/",
+    "feed": "https://localghost.dev/feed.xml",
+    "icon": "https://localghost.dev/favicon.ico"
+  },
+  {
+    "name": "Stefan Judis",
+    "url": "https://www.stefanjudis.com/",
+    "feed": "https://www.stefanjudis.com/rss.xml",
+    "icon": "https://www.stefanjudis.com/favicon.svg"
+  },
+  {
+    "name": "Stuart Ashworth",
+    "url": "https://www.stuartashworth.com/",
+    "feed": "https://www.stuartashworth.com/feed.xml",
+    "icon": "https://www.stuartashworth.com/images/apple-touch-icon.png"
+  },
+  {
+    "name": "Tania Rascia",
+    "url": "https://www.taniarascia.com/",
+    "feed": "https://www.taniarascia.com/rss.xml",
+    "icon": "https://www.taniarascia.com/icons/icon-72x72.png"
+  },
+  {
+    "name": "Tekin Süleyman",
+    "url": "https://tekin.co.uk/",
+    "feed": "https://tekin.co.uk/atom.xml",
+    "icon": "https://tekin.co.uk/favicon.ico"
+  },
+  {
+    "name": "Tyler Gaw",
+    "url": "https://tylergaw.com/",
+    "feed": "https://tylergaw.com/rss.xml",
+    "icon": "https://tylergaw.com/images/favicon.svg"
+  },
+  {
+    "name": "Zach Leatherman",
+    "url": "https://www.zachleat.com/web/",
+    "feed": "https://www.zachleat.com/web/feed/",
+    "icon": "https://www.zachleat.com/img/rel-icon-192.png"
+  }
+]
