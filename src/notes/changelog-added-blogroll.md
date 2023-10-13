@@ -20,7 +20,7 @@ tags:
 
 I decided to be like the cool kids in the web design industry and added a blogroll - a list of the web design blogs that I follow.
 
-I was originally going to folllow Ben's Eleventy Blogroll tutorial but it didn't work for me - I put it down to some of the dependencies not being the same version, but other stuff broke when I changed versions.
+I was originally going to follow Ben's Eleventy Blogroll tutorial, but it didn't work for me - I put it down to some of the dependencies not being the same version, but other stuff broke when I changed versions.
 
 So I manually created a JSON file with all the links, links to favicons and links to RSS feeds.
 
