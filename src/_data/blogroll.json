@@ -228,6 +228,12 @@
     "icon": "https://remysharp.com/images/avatar-favicon.png"
   },
   {
+    "name": "Robin Rendle",
+    "url": "https://robinrendle.com/",
+    "feed": "https://robinrendle.com/feed.xml",
+    "icon": "https://robinrendle.com/images/favicons/safari-pinned-tab.svg"
+  },
+  {
     "name": "Ru Singh",
     "url": "https://rusingh.com/",
     "feed": "https://rusingh.com/articles.xml",
