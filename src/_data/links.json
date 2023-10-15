@@ -1,11 +1,7 @@
 [
   {
     "name": "Mastodon",
-    "url": "https://mastodon.social/@juanfernandes"
-  },
-  {
-    "name": "Micro.blog",
-    "url": "https://micro.blog/juanfernandes"
+    "url": "https://hachyderm.io/@juanfernandes"
   },
   {
     "name": "Twitter",
@@ -26,5 +22,41 @@
   {
     "name": "GitLab",
     "url": "https://gitlab.com/juanfernandes"
+  },
+  {
+    "name": "Pixelfed",
+    "url": "https://pixelfed.social/juanfernandes"
+  },
+  {
+    "name": "Youtube",
+    "url": "https://www.youtube.com/@juanfernandes"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/juanfernand.es"
+  },
+  {
+    "name": "Discord",
+    "url": "https://discordapp.com/users/529361550310637568"
+  },
+  {
+    "name": "Last.fm",
+    "url": "https://www.last.fm/user/juanfernandes"
+  },
+  {
+    "name": "Letterboxd",
+    "url": "https://letterboxd.com/juanfernandes"
+  },
+  {
+    "name": "Trakt.tv",
+    "url": "https://trakt.tv/users/_juanfernandes"
+  },
+  {
+    "name": "Spotify",
+    "url": "https://open.spotify.com/user/juan.fernandes"
+  },
+  {
+    "name": "Strava",
+    "url": "https://www.strava.com/athletes/juanfernandes"
   }
 ]
