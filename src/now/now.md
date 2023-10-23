@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-10-10T00:00:00Z
+date: 2023-10-23T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,11 +12,11 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* More changes with home/family life - now all three of my children are living with me, which is great, but we are having to live in a tiny two-bed flat!
+* Still no change in living situation - all three of my children are living with me in my tiny 2-bed flat. We've beem told my ex and her partner are moving out of the family house early next month - but no date given. It's now all in the hands of my solicitors.
 
 ### Projects
-* Been doing a lot of work on my ecommerce side project. Have done a soft launch and will be working on getting the word out about it soon.
-* Added a script that fetches the last 10 articles I've read, which you can now see in the new Articles section bellow.
+- I've added a [blogroll](/blogroll/ "Blogroll") to this website - essentially its a list of all the blogs that I subscirbe to via RSS
+- Added more social media [links](/links/ "Links") where you can find me
 
 ### Watching
 * [Community](https://www.themoviedb.org/tv/18347-community "Community")

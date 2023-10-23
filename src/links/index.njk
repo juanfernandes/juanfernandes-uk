@@ -6,8 +6,15 @@ intro:
   class: sml
 ---
 
-<ul class="urls">
-{% for item in links %}
-  <li><a href="{{ item.url }}" target="_blank" rel="me noopener noreferrer">{{ item.name }}</a></li>
-{% endfor %}
-</ul>
+<div class="container">
+  <div class="links-grid">
+  {% for item in links %}
+    <a href="{{ item.url }}" target="_blank" rel="me noopener noreferrer" title="{{ item.name }}" class="link-card">
+      <svg aria-hidden="true" focusable="false" width="32" height="32" stroke="#000">
+        <use xlink:href="#svg-{{ item.icon }}" />
+      </svg>
+      <b>{{ item.name }}</b>
+    </a>
+  {% endfor %}
+  </div>
+</div>

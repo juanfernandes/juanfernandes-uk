@@ -10,7 +10,7 @@ button {
   &--cta,
   &--cta:active {
     background: none repeat scroll 0% 0% var(--orange);
-    border: 1px dashed transparent;
+    border: 1px solid transparent;
     border-radius: .25em;
     box-shadow: 0 5px 0 var(--dark-orange);
     color: var(--off-black);
