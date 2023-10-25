@@ -1,11 +1,5 @@
 [
   {
-    "name": "Adactio",
-    "url": "https://adactio.com/",
-    "feed": "https://adactio.com/articles/rss",
-    "icon": "https://adactio.com/favicon-32x32.png"
-  },
-  {
     "name": "Adam Silver",
     "url": "https://adamsilver.io/",
     "feed": "https://adamsilver.io/atom.xml",
@@ -78,6 +72,24 @@
     "icon": "https://cdn.masto.host/frontendsocial/accounts/avatars/109/330/142/125/669/429/original/ed705eb13e1c2313.jpg"
   },
   {
+    "name": "Bryan Robinson",
+    "url": "https://bryanlrobinson.com/",
+    "feed": "https://bryanlrobinson.com/feed.xml",
+    "icon": "https://bryanlrobinson.com/images/favicon.png"
+  },
+  {
+    "name": "Cassie Evans",
+    "url": "https://www.cassie.codes/",
+    "feed": "https://cassie.codes/feed.xml",
+    "icon": "https://www.cassie.codes/images/favicon-32x32.png"
+  },
+  {
+    "name": "Cathy Dutton",
+    "url": "https://cathydutton.co.uk/",
+    "feed": "https://cathydutton.co.uk/feed.xml",
+    "icon": "https://cathydutton.co.uk/images/favicon-96x96.png"
+  },
+  {
     "name": "Chen Hui Jing",
     "url": "https://chenhuijing.com/",
     "feed": "https://chenhuijing.com/feed.xml",
@@ -144,16 +156,28 @@
     "icon": "https://ethanmarcotte.com/ico/apple-touch-icon.png"
   },
   {
-    "name": "Hidde de Vries",
-    "url": "https://hidde.blog/",
-    "feed": "https://hidde.blog/feed.xml",
-    "icon": "https://hidde.blog/favicon.png"
+    "name": "Heather Buchel",
+    "url": "https://heather-buchel.com/",
+    "feed": "https://heather-buchel.com/feed/feed.xml",
+    "icon": "https://heather-buchel.com/icon.svg"
   },
   {
     "name": "Heydon Pickering",
     "url": "https://heydonworks.com/",
     "feed": "https://heydonworks.com/feed.xml",
     "icon": "https://heydonworks.com/apple-icon-180x180.png"
+  },
+  {
+    "name": "Hidde de Vries",
+    "url": "https://hidde.blog/",
+    "feed": "https://hidde.blog/feed.xml",
+    "icon": "https://hidde.blog/favicon.png"
+  },
+  {
+    "name": "Jeremy Keith",
+    "url": "https://adactio.com/",
+    "feed": "https://adactio.com/articles/rss",
+    "icon": "https://adactio.com/favicon-32x32.png"
   },
   {
     "name": "Jeremy Wagner",
@@ -186,10 +210,22 @@
     "icon": "https://joshcollinsworth.com/2020-icon.svg"
   },
   {
+    "name": "Lisi Linhart",
+    "url": "https://lisilinhart.info/",
+    "feed": "https://lisilinhart.info/feed.xml",
+    "icon": "https://lisilinhart.info/favicon-32x32.png"
+  },
+  {
     "name": "Manuel Matuzović",
     "url": "https://www.matuzo.at/",
     "feed": "https://www.matuzo.at/feed.xml",
     "icon": "https://www.matuzo.at/apple-touch-icon.png"
+  },
+  {
+    "name": "Marcus Herrmann",
+    "url": "https://marcus.io/",
+    "feed": "https://marcus.io/feed",
+    "icon": "https://marcus.io/assets/images/favicon.ico"
   },
   {
     "name": "Matt Hobbs",
@@ -198,10 +234,22 @@
     "icon": "https://web.archive.org/web/20230524070911if_/https://nooshu.com/images/icons/apple-touch-icon.png"
   },
   {
+    "name": "Matthias Ott",
+    "url": "https://matthiasott.com/",
+    "feed": "https://matthiasott.com/articles/rss",
+    "icon": "https://matthiasott.com/favicon-32x32.png"
+  },
+  {
     "name": "Max Böck",
     "url": "https://mxb.dev/",
     "feed": "https://mxb.dev/feed.xml",
     "icon": "https://mxb.dev/assets/images/favicon/apple-touch-icon.png"
+  },
+  {
+    "name": "Michelle Barker",
+    "url": "https://css-irl.info/",
+    "feed": "https://css-irl.info/rss.xml",
+    "icon": "https://css-irl.info/favicon/favicon-32x32.png"
   },
   {
     "name": "Mike Street",
@@ -246,6 +294,12 @@
     "icon": "https://www.ryangittings.co.uk/favicon.ico"
   },
   {
+    "name": "Sara Soueidan",
+    "url": "https://www.sarasoueidan.com/",
+    "feed": "https://www.sarasoueidan.com/blog/index.xml",
+    "icon": "https://www.sarasoueidan.com/apple-touch-icon.png"
+  },
+  {
     "name": "Sarah L. Fossheim",
     "url": "https://fossheim.io/",
     "feed": "https://fossheim.io/feed.xml",
@@ -258,12 +312,6 @@
     "icon": "https://sarahmhigley.com/assets/avatar-round.png"
   },
   {
-    "name": "Sara Soueidan",
-    "url": "https://www.sarasoueidan.com/",
-    "feed": "https://www.sarasoueidan.com/blog/index.xml",
-    "icon": "https://www.sarasoueidan.com/apple-touch-icon.png"
-  },
-  {
     "name": "Scott O'Hara",
     "url": "https://www.scottohara.me/",
     "feed": "https://www.scottohara.me/feed.xml",
@@ -274,6 +322,12 @@
     "url": "https://sebastiandedeyne.com/",
     "feed": "https://sebastiandedeyne.com/index.xml",
     "icon": "https://sebastiandedeyne.com/favicon-32x32.png"
+  },
+  {
+    "name": "Sia Karamalegos",
+    "url": "https://sia.codes/",
+    "feed": "https://sia.codes/feed/feed.xml",
+    "icon": "https://sia.codes/img/favicons/favicon-32x32.png"
   },
   {
     "name": "Set Studio",
@@ -328,6 +382,12 @@
     "url": "https://tylergaw.com/",
     "feed": "https://tylergaw.com/rss.xml",
     "icon": "https://tylergaw.com/images/favicon.svg"
+  },
+  {
+    "name": "Una Kravets",
+    "url": "https://una.im/",
+    "feed": "https://una.im/feed.xml",
+    "icon": "https://una.im/favicon.svg"
   },
   {
     "name": "Zach Leatherman",
