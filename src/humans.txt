@@ -7,4 +7,4 @@
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5, Sass, Eleventy, Netlify, Forestry.io
+    CSS3, HTML5, Sass, Eleventy, Netlify, TinaCMS
