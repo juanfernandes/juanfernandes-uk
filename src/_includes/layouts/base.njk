@@ -28,25 +28,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="{{ currentUrl }}" />
     <link rel="alternate" hreflang="en-GB" href="{{ currentUrl }}" />
-    <link rel="alternate" type="application/rss+xml" title="Blog posts from JuanFernandes.uk" href="https://www.juanfernandes.uk/rss/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="Blog posts from JuanFernandes.uk" href="{{ site.url }}/rss/feed.xml">
     <link rel="dns-prefetch" href="https://res.cloudinary.com">
     <meta name="generator" content="{{ site.generator }}">
 
-    {# Webmentions #}
-    <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-    <link rel="webmention" href="https://webmention.io/www.juanfernandes.uk/webmention" />
-    <link rel="pingback" href="https://webmention.io/www.juanfernandes.uk/xmlrpc" />
-
-    <link rel="icon" href="/favicon.ico"><!-- 32×32 -->
+    <link rel="icon" href="/favicon.ico">
     <link rel="icon" href="/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <meta name="theme-color" content="#F89820">
 
     <link rel="manifest" href="/site.webmanifest" crossorigin="use-credentials">
     {% for item in site.socials %}
     <link href="{{ item.url }}" rel="me" />
     {% endfor %}
-    <link rel="stylesheet" href="/assets/css/global.min.css">
+    {# <link rel="stylesheet" href="/assets/css/global.min.css"> #}
   </head>
 
   <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
