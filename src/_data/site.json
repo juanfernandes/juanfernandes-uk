@@ -1,28 +1,28 @@
 {
   "meta": {
-    "title": "Juan Fernandes - Freelance Website Designer",
-    "description": "Juan Fernandes is a freelance website designer specialising in building bespoke responsive websites for small businesses in the UK",
+    "title": "Juan Fernandes - Freelance Web Designer",
+    "description": "Juan Fernandes is a freelance web designer specialising in building bespoke responsive websites for small businesses in the UK",
     "ogTwitter": "@juanfernandes",
     "ogImg": "https://res.cloudinary.com/juanfernandes/social-sharing.jpg",
-    "ogImgAlt": "Juan Fernandes - Freelance Website Designer",
+    "ogImgAlt": "Juan Fernandes - Freelance Web Designer",
     "lang": "https://www.juanfernandes.uk/"
   },
   "announcement": "Availability: I'm only taking on small freelance projects at the moment",
   "feed": {
     "main": {
-      "title": "Blog - Thoughts, Code and more - Juan Fernandes - Freelance Website Designer",
-      "description": "Juan Fernandes is a freelance website designer specialising in building bespoke responsive websites for small businesses in the UK"
+      "title": "Blog - Juan Fernandes - Freelance Web Designer",
+      "description": "Juan Fernandes is a freelance web designer specialising in building bespoke responsive websites for small businesses in the UK"
     },
     "notes": {
-      "title": "Notes",
+      "title": "Notes - Juan Fernandes - Freelance Web Designer",
       "description": "Short posts, thoughts about code, design and personal stuff"
     },
     "photos": {
-      "title": "Photos",
+      "title": "Photos - Juan Fernandes - Freelance Web Designer",
       "description": "Occasional random photos, most likely nature themed"
     },
     "stream": {
-       "title": "Stream",
+       "title": "Stream - Juan Fernandes - Freelance Web Designer",
        "description": "Social media posts about web design, development and personal stuff"
     }
   },
