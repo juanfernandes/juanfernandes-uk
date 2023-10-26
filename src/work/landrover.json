@@ -1,17 +1,4 @@
 {
-  "title": "Landrover - Approved Used Vehicle Search",
-  "description": "Working within a team to designers and developers to build Land Rovers first approved used vehicles website for over 1000 dealers worldwide",
-  "keywords": "land rover, landrover, HTML, PHP, CSS, jQuery, approved, used, vehicles",
-  "meta": {
-    "ogTitle": "Landrover - Approved Used Vehicle Search – Juan Fernandes – Freelance Website Designer Suffolk UK",
-    "ogDesc": "Working within a team to designers and developers to build Land Rovers first approved used vehicles website for over 1000 dealers worldwide",
-    "lang": "https://www.juanfernandes.uk/work/landrover"
-  },
-  "intro": {
-    "class": "landrover",
-    "heading": "Land Rover",
-    "subheading": "Approved Used Vehicle Search"
-  },
   "images": [
     {
       "img": "landrover-approved-used.jpg",
