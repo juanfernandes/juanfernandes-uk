@@ -15,6 +15,11 @@
   to = "/blog/2018-year-in-review/"
   status = 301
 
+[[redirects]]
+  from = "/tags/*"
+  to = "/blog/tags/:splat"
+  status = 301
+
 [functions]
   external_node_modules = ["express", "vm2"]
   node_bundler = 'esbuild'
