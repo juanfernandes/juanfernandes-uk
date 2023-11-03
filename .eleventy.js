@@ -1,5 +1,4 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss')
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 
 // Import filters
 const dateFilter = require('./src/_filters/date-filter')
@@ -66,7 +65,6 @@ module.exports = function (eleventyConfig) {
 
   // Plugins
   eleventyConfig.addPlugin(rssPlugin)
-  eleventyConfig.addPlugin(syntaxHighlight)
 
   // Watch
   eleventyConfig.addWatchTarget('./src/assets/css/')
