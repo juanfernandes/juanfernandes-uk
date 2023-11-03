@@ -2,9 +2,10 @@
 {% set pageTitle = title + ' - ' + site.meta.title %}
 
 <!doctype html>
-  <html class="no-js" lang="en">
+  <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if title == 'Home' %}{{ site.meta.title }}{% else %}{{ pageTitle }}{% endif %}</title>
     <meta name="description" content="{{ description }}" />
     <meta name="keywords" content="{{ keywords }}" />
@@ -19,18 +20,17 @@
     <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImg }}" />
     <meta name="twitter:image:alt" property="og:image:alt" content="{{ site.meta.ogImgAlt }}" />
     {% endif %}
-    <meta name="monetization" content="$ilp.uphold.com/JgXZWm3wZ6KM">
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta http-equiv="cleartype" content="on">
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="{{ site.generator }}">
+    <meta name="monetization" content="$ilp.uphold.com/JgXZWm3wZ6KM">
     <link rel="canonical" href="{{ currentUrl }}" />
     <link rel="alternate" hreflang="en-GB" href="{{ currentUrl }}" />
     <link rel="alternate" type="application/rss+xml" title="Blog posts from JuanFernandes.uk" href="{{ site.url }}/rss/feed.xml">
     <link rel="dns-prefetch" href="https://res.cloudinary.com">
-    <meta name="generator" content="{{ site.generator }}">
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="webmention" href="https://webmention.io/www.juanfernandes.uk/webmention" />
     <link rel="pingback" href="https://webmention.io/www.juanfernandes.uk/xmlrpc" />
@@ -44,7 +44,7 @@
     {% for item in site.socials %}
     <link href="{{ item.url }}" rel="me" />
     {% endfor %}
-    {# <link rel="stylesheet" href="/assets/css/global.min.css"> #}
+    <link rel="stylesheet" href="/assets/css/global.css">
   </head>
 
   <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
