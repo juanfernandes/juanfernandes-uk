@@ -31,6 +31,37 @@ export default defineConfig({
         },
         fields: [
           {
+            component: 'select',
+            name: 'layout',
+            label: 'Layout',
+            options: [
+              {
+                value: 'base',
+                label: 'Base',
+              },
+              {
+                value: 'stream',
+                label: 'Stream',
+              },
+              {
+                value: 'page',
+                label: 'Page',
+              },
+              {
+                value: 'post',
+                label: 'Post',
+              }
+            ],
+          },
+          {
+            type: 'string',
+            name: 'title',
+            label: 'Document title',
+            description: 'Main document title',
+            isTitle: true,
+            required: true
+          },
+          {
             type: 'rich-text',
             name: 'body',
             label: 'Body of Document',
