@@ -31,27 +31,9 @@ export default defineConfig({
         },
         fields: [
           {
-            component: 'select',
+            type: 'string',
             name: 'layout',
-            label: 'Layout',
-            options: [
-              {
-                value: 'base',
-                label: 'Base',
-              },
-              {
-                value: 'stream',
-                label: 'Stream',
-              },
-              {
-                value: 'page',
-                label: 'Page',
-              },
-              {
-                value: 'post',
-                label: 'Post',
-              }
-            ],
+            label: 'Layout'
           },
           {
             type: 'string',
