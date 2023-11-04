@@ -26,6 +26,12 @@ export default defineConfig({
         label: 'Stream',
         name: 'stream',
         path: 'src/stream',
+        defaultItem: () => {
+          return {
+            layout: 'stream',
+            image: 'v1579162295/trianglify.png'
+          }
+        },
         match: {
           include: '**/*'
         },
@@ -33,22 +39,76 @@ export default defineConfig({
           {
             type: 'string',
             name: 'layout',
-            label: 'Layout'
+            label: 'Layout',
+            options: [
+              {
+                value: 'base',
+                label: 'Base',
+              },
+              {
+                value: 'page',
+                label: 'Page',
+              },
+              {
+                value: 'image',
+                label: 'Image',
+              },
+              {
+                value: 'stream',
+                label: 'Stream',
+              },
+              {
+                value: 'post',
+                label: 'Post',
+              },
+            ],
+          },
+          {
+            label: "Date",
+            name: "date",
+            type: "datetime",
+            ui: {
+              dateFormat: 'YYYY-MM-DD',
+              timeFormat: "HH:mm"
+            },
+          },
+          {
+            name: 'keywords',
+            label: 'Keywords',
+            type: 'string',
+            list: true
           },
           {
             type: 'string',
             name: 'title',
-            label: 'Document title',
-            description: 'Main document title',
+            label: 'Title',
             isTitle: true,
             required: true
           },
           {
+            name: 'description',
+            label: 'Description',
+            type: 'string',
+            ui: {
+              component: 'textarea',
+            }
+          },
+          {
+            type: 'image',
+            label: 'Image',
+            name: 'postImage'
+          },
+          {
             type: 'rich-text',
             name: 'body',
-            label: 'Body of Document',
-            description: 'This is the markdown body',
+            label: 'Body',
             isBody: true
+          },
+          {
+            name: 'tags',
+            label: 'Tags',
+            type: 'string',
+            list: true
           }
         ]
       },
@@ -57,24 +117,83 @@ export default defineConfig({
         label: 'Blog',
         name: 'blog',
         path: 'src/blog',
+        defaultItem: () => {
+          return {
+            layout: 'post'
+          }
+        },
         match: {
           include: '**/*'
         },
         fields: [
           {
             type: 'string',
+            name: 'layout',
+            label: 'Layout',
+            options: [
+              {
+                value: 'base',
+                label: 'Base',
+              },
+              {
+                value: 'page',
+                label: 'Page',
+              },
+              {
+                value: 'image',
+                label: 'Image',
+              },
+              {
+                value: 'stream',
+                label: 'Stream',
+              },
+              {
+                value: 'post',
+                label: 'Post',
+              },
+            ],
+          },
+          {
+            label: "Date",
+            name: "date",
+            type: "datetime",
+            ui: {
+              dateFormat: 'YYYY-MM-DD',
+              timeFormat: "HH:mm"
+            },
+          },
+          {
+            type: 'string',
             name: 'title',
-            label: 'Document title',
-            description: 'Main document title',
+            label: 'Title',
             isTitle: true,
             required: true
           },
           {
+            name: 'description',
+            label: 'Description',
+            type: 'string',
+            ui: {
+              component: 'textarea',
+            }
+          },
+          {
+            name: 'keywords',
+            label: 'Keywords',
+            type: 'string',
+            list: true
+          },
+          {
             type: 'rich-text',
             name: 'body',
-            label: 'Body of Document',
-            description: 'This is the markdown body',
+            label: 'Body',
             isBody: true
+          },
+          {
+            name: 'tags',
+            label: 'Tags',
+            type: 'string',
+            list: true
           }
         ]
       }
