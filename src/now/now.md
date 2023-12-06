@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2023-10-23T00:00:00Z
+date: 2023-12-06T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,11 +12,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Personal
-* Still no change in living situation - all three of my children are living with me in my tiny 2-bed flat. We've beem told my ex and her partner are moving out of the family house early next month - but no date given. It's now all in the hands of my solicitors.
-
-### Projects
-- I've added a [blogroll](/blogroll/ "Blogroll") to this website - essentially its a list of all the blogs that I subscirbe to via RSS
-- Added more social media [links](/links/ "Links") where you can find me
+* There has been a lot of change - my eldest decided to go live with her mum. My ex-wife and her partner have moved out of the family home (my solicitor told them to move out) and now myself and my youngest two are back to living in the family home. My ex-wife kindly left the dog and her mum in the house but took about 90% of the furniture.
 
 ### Watching
 * [Community](https://www.themoviedb.org/tv/18347-community "Community")
