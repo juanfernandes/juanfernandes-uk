@@ -11,17 +11,23 @@ description: Read about what I'm currently up to
 keywords: now, freelance website designer, frontend developer, reading, watching, work
 
 ---
+### Work
+* New year, new boss and they are the Head of UX. This is a new role created at the company I work at and it is a much needed role. Chris is great and I can't wait for them to get properly stuck in and finally get the company to do things properly.
+
 ### Personal
-* There has been a lot of change - my eldest decided to go live with her mum. My ex-wife and her partner have moved out of the family home (my solicitor told them to move out) and now myself and my youngest two are back to living in the family home. My ex-wife kindly left the dog and her mum in the house but took about 90% of the furniture.
+* I'm now back to living in the family home until it sells. My ex-wife and her partner got told to move out. All three of my children are living with me again. Making small changes and fixes to make the house look better for potential buyers.
 
 ### Watching
-* [Community](https://www.themoviedb.org/tv/18347-community "Community")
-  Follow the lives of a group of students at what is possibly the world’s worst community college in the fictional locale of Greendale, Colorado.
+* [Loudermilk](https://www.themoviedb.org/tv/73200-loudermilk "Loudermilk")
+  Sam Loudermilk is a recovering alcoholic and substance abuse counselor with an extremely bad attitude about, well, everything. He is unapologetically uncensored, and manages to piss off everyone in his life. Although he has his drinking under control, Loudermilk discovers that when your life is a complete mess, getting clean is the easy part.
+
+* [Inside Man](https://www.themoviedb.org/tv/121710-inside-man "Inside Man")
+  A prisoner on death row in the US, a vicar in a quiet English town, and a maths teacher trapped in a cellar cross paths in the most unexpected way.
 
 ### Reading
 
 #### Books
-* [The Outsider by Stephen King](https://bookwyrm.social/book/36200/s/the-outsider "The Outsider by Stephen King")
+* [Holly by Stephen King](https://bookwyrm.social/book/1373489/s/holly "Holly by Stephen King")
 * [Company of One](https://bookwyrm.social/book/184714/s/company-of-one "Company of One")
 
 #### Articles

@@ -1,6 +1,20 @@
 [
     {
-        "year": 2022,
+        "year": 2024,
+        "books": [
+            {
+                "title": "Holly",
+                "subtitle": "",
+                "author": "Stephen King",
+                "img": "holly.jpg",
+                "url": "https://openlibrary.org/books/OL49355452M/Holly",
+                "status": "Reading",
+                "notes": ""
+            }
+        ]
+    },
+    {
+        "year": 2023,
         "books": [
             {
                 "title": "The Outsider",
@@ -8,9 +22,14 @@
                 "author": "Stephen King",
                 "img": "the-outsider.jpg",
                 "url": "https://openlibrary.org/books/OL27831341M/The_Outsider",
-                "status": "Reading",
+                "status": "Read",
                 "notes": ""
-            },
+            }
+        ]
+    },
+    {
+        "year": 2022,
+        "books": [
             {
                 "title": "End of Watch",
                 "subtitle": "",
