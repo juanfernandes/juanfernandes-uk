@@ -103,5 +103,31 @@
       "url": "/contact/"
     }
   ],
+  "footerlinks": [
+    {
+      "label": "Now",
+      "url": "/now/"
+    },
+    {
+      "label": "Uses",
+      "url": "/uses/"
+    },
+    {
+      "label": "Stream",
+      "url": "/stream/"
+    },
+    {
+      "label": "Social Links",
+      "url": "/social-links/"
+    },
+    {
+      "label": "Books",
+      "url": "/books/"
+    },
+    {
+      "label": "RSS",
+      "url": "/rss/feed.xml"
+    }
+  ],
   "generator": "Eleventy"
 }
