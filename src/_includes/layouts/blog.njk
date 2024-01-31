@@ -51,6 +51,9 @@
   <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
 
     {% include 'misc/svg.njk' %}
+    {% if site.announcement %}
+    {% include 'components/announcement.njk' %}
+    {% endif %}
     {% include 'components/header.njk' %}
 
     <a class="skip" href="#content">Skip to content</a>

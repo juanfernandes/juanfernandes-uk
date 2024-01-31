@@ -1,0 +1,22 @@
+--- 
+title: Links
+layout: page
+class: links
+intro:
+  class: sml
+---
+
+{% for year in links %}
+<h2 class="year">{{ year.year }}</h2>
+
+  {%- for link in year.links | reverse -%}
+  <div class="link">
+    <div class="link__details">
+      <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
+      {% if link.excerpt %}<p>{{ link.excerpt | safe }}</p>{% endif %}
+      <span class="link__date dt-published">Published on {{ link.date }}</span>
+    </div>
+  </div>
+  {%- endfor -%}
+
+{% endfor %}

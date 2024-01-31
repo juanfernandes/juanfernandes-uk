@@ -1,77 +1,163 @@
 [
-  {
-    "name": "Mastodon",
-    "icon": "mastodon",
-    "url": "https://hachyderm.io/@juanfernandes"
-  },
-  {
-    "name": "Twitter",
-    "icon": "twitter",
-    "url": "https://twitter.com/juanfernandes"
-  },
-  {
-    "name": "LinkedIn",
-    "icon": "linkedin",
-    "url": "https://www.linkedin.com/in/juanfernandes"
-  },
-  {
-    "name": "Polywork",
-    "icon": "polywork",
-    "url": "https://www.polywork.com/juanfernandes"
-  },
-  {
-    "name": "Github",
-    "icon": "github",
-    "url": "https://github.com/juanfernandes"
-  },
-  {
-    "name": "GitLab",
-    "icon": "gitlab",
-    "url": "https://gitlab.com/juanfernandes"
-  },
-  {
-    "name": "Pixelfed",
-    "icon": "pixelfed",
-    "url": "https://pixelfed.social/juanfernandes"
-  },
-  {
-    "name": "Youtube",
-    "icon": "youtube",
-    "url": "https://www.youtube.com/@juanfernandes"
-  },
-  {
-    "name": "Instagram",
-    "icon": "instagram",
-    "url": "https://www.instagram.com/juanfernand.es"
-  },
-  {
-    "name": "Discord",
-    "icon": "discord",
-    "url": "https://discordapp.com/users/529361550310637568"
-  },
-  {
-    "name": "Last.fm",
-    "icon": "lastfm",
-    "url": "https://www.last.fm/user/juanfernandes"
-  },
-  {
-    "name": "Letterboxd",
-    "icon": "letterboxd",
-    "url": "https://letterboxd.com/juanfernandes"
-  },
-  {
-    "name": "Trakt.tv",
-    "icon": "trakttv",
-    "url": "https://trakt.tv/users/_juanfernandes"
-  },
-  {
-    "name": "Spotify",
-    "icon": "spotify",
-    "url": "https://open.spotify.com/user/juan.fernandes"
-  },
-  {
-    "name": "Strava",
-    "icon": "strava",
-    "url": "https://www.strava.com/athletes/juanfernandes"
-  }
+    {
+        "year": 2024,
+        "links": [
+            {
+                "title": "Expanding Grid Cards with View Transitions - Chris Coyier",
+                "excerpt": "A friend showed me something of a design spec they were charged with pulling off: The requirements: &#8230; when I click on any of them it expands at the top to full width and the rest of the cards…",
+                "url": "https://chriscoyier.net/2023/04/11/expanding-grid-cards-with-view-transitions/",
+                "date": "January 6, 2024 at 08:30AM"
+            },
+            {
+                "title": "CSS Custom Properties Beyond the :root - Matthias Ott",
+                "excerpt": "Is there a good reason why we’re defining global custom properties on :root/html and not on body?",
+                "url": "https://matthiasott.com/notes/custom-properties-beyond-the-root",
+                "date": "January 6, 2024 at 08:37AM"
+            },
+            {
+                "title": "A few developer console tricks",
+                "excerpt": "In my new free course for beginners, Learn JavaScript, I talk briefly about how powerful the developer console is, and why I think it&rsquo;s ones of the best features of working in the front end.",
+                "url": "https://gomakethings.com/a-few-developer-console-tricks/",
+                "date": "January 6, 2024 at 08:39AM"
+            },
+            {
+                "title": "Is It Time To Replace Sass? - Stephanie Eckles",
+                "excerpt": "With the growth of native CSS features - including nesting - what features do we still gain by using Sass, and what is available to use in its place?",
+                "url": "https://thinkdobecreate.com/articles/is-it-time-to-replace-sass/",
+                "date": "January 8, 2024 at 10:59PM"
+            },
+            {
+                "title": "Batching Life Changes",
+                "excerpt": "I’ve never really done a “year in review” post before, but 2023 and, in particular, the last few months, have brought tides of change that I feel the need to share",
+                "url": "https://chrisburnell.com/article/batching-life-changes/",
+                "date": "January 8, 2024 at 11:05PM"
+            },
+            {
+                "title": "CSS { In Real Life } | How Do You Vertically Centre an Element in CSS? (Even More) Easily!",
+                "excerpt": "Rachel Andrew shared a snippet of good news for CSS layout on her blog the other day: it’ll soon be possible to vertically centre an element inside a parent without the parent needing to be a flex or grid container, using the align-content property.",
+                "url": "https://css-irl.info/how-do-you-vertically-centre-an-element-in-css/",
+                "date": "January 12, 2024 at 11:12PM"
+            },
+            {
+                "title": "A CSS native way to prevent orphan text",
+                "excerpt": "In typography, an orphan or widow is a single word on its own line. It can look particularly unpleasing with headings, and is hard to &ldquo;plan for&rdquo; on the web, where people view your site on a wide range of viewport sizes. You can avoid them by manually added a non-breaking space (&amp;nbsp;) before the second and last word in every sentence, but doing that manually is madness. &lt;h2&gt;How to use the Array.",
+                "url": "https://gomakethings.com/a-css-native-way-to-prevent-orphan-text/",
+                "date": "January 12, 2024 at 11:14PM"
+            },
+            {
+                "title": "Minutes to Midnight - Giving context to a blogroll",
+                "excerpt": "Garrit Franke’s recent post, titled “Roast my site”, motivated me to write about something that has always bugged me with personal sites: the grocery-style blogroll",
+                "url": "https://minutestomidnight.co.uk/blog/giving-context-to-a-blogroll/",
+                "date": "January 12, 2024 at 11:17PM"
+            },
+            {
+                "title": "Local link targets must be focusable to prevent accessibility issues",
+                "excerpt": "If you&#x27;re linking to local elements via id you must ensure that they are focusable because otherwise assistive technology relying on &#x22;document.activeElement&#x22; can&#x27;t follow the link target.",
+                "url": "https://www.stefanjudis.com/today-i-learned/relative-html-links-focus-issues/",
+                "date": "January 13, 2024 at 11:56PM"
+            },
+            {
+                "title": "Exposed RSS",
+                "excerpt": "I get sites not having an &#8220;RSS&#8221; for &#8220;Feed&#8221; link on their website while actually having an RSS feed. I don&#8217;t like it, but I get it. Maybe they picked an off-the-shelf t…",
+                "url": "https://chriscoyier.net/2024/01/13/exposed-rss/",
+                "date": "January 14, 2024 at 12:01AM"
+            },
+            {
+                "title": "Using abbr Element with title Attribute",
+                "excerpt": "How the &lt;abbr&gt; element is defined and exposed, along with the title attribute: § 4.5.9 The abbr element from WHATWG. ARIA in HTML entry on &lt;abbr&gt; notes it has no implicit role and naming is prohibited. Which is probably why Core Accessibility API Mappings 1.2 does not list it. HTML&hellip;",
+                "url": "https://adrianroselli.com/2024/01/using-abbr-element-with-title-attribute.html",
+                "date": "January 15, 2024 at 11:23PM"
+            },
+            {
+                "title": "Sharing links",
+                "excerpt": "The amount of content on the web is so large, that it's tricky to find the stuff worth reading. One of my strategies is to follow people I trust and read what they share.",
+                "url": "https://hidde.blog/sharing-links/",
+                "date": "January 15, 2024 at 11:28PM"
+            },
+            {
+                "title": "The gotchas of CSS Nesting - Kilian Valkhof",
+                "excerpt": "I've written before about the problems you can run into with CSS nesting and the question that @ChallengeCSS tweeted out today made me realize there's actually a few more gotcha's.",
+                "url": "https://kilianvalkhof.com/2023/css-html/the-gotchas-of-css-nesting/",
+                "date": "January 16, 2024 at 11:50PM"
+            },
+            {
+                "title": "Testing My Eleventy-Website With Cypress and Netlify › Martin Schneider — Frontend Developer",
+                "excerpt": "Last time I wrote &quot;this page is a repository consisting of some thrown-together and latenight-written code&quot;. Some tests should ensure that I don&#39;t break to much when I&#39;m, cleaning up the code. Here&#39;s how I created a basic setup that runs my tests before every deployment.",
+                "url": "https://martinschneider.me/articles/testing-my-eleventy-website-with-cypress-and-netlify/",
+                "date": "January 17, 2024 at 08:48AM"
+            },
+            {
+                "title": "Fetching Webmentions With Netlify and Eleventy Edge › Martin Schneider — Frontend Developer",
+                "excerpt": "Sadly, I&#39;m not too good at documenting what I&#39;m sometimes building in the little free time that I have. At the end of last year, I implemented an interesting feature on this site, but never wrote about it.",
+                "url": "https://martinschneider.me/articles/fetching-webmentions-with-netlify-and-eleventy-edge/",
+                "date": "January 17, 2024 at 10:44PM"
+            },
+            {
+                "title": "Creating Scroll-Triggered Animations by combining Scroll-Driven Animations, Custom Properties, Style Queries, and Transitions",
+                "excerpt": "When you combine Scroll-Driven Animations with Custom Properties, Style Queries, and Transitions you hack your way into creating Scroll-Triggered Animations.",
+                "url": "https://www.bram.us/2023/06/15/scroll-triggered-animations/",
+                "date": "January 17, 2024 at 10:55PM"
+            },
+            {
+                "title": "6 Quick tests you can do to test your forms for accessibility - Karl Groves",
+                "excerpt": "Whenever I do a full audit for a website, I have almost 40 individual, highly granular, form-related checks. Those checks can be boiled down to the following 6 high level goals.",
+                "url": "https://karlgroves.com/6-quick-tests-you-can-do-to-test-your-forms-for-accessibility/",
+                "date": "January 17, 2024 at 11:00PM"
+            },
+            {
+                "title": "Time to First Byte: What it is and How to Make Improvements - Calibre",
+                "excerpt": "TTFB is the backbone of page speed: it can make or break the experience of your sites. Learn how to test and  track it.",
+                "url": "https://calibreapp.com/blog/time-to-first-byte",
+                "date": "January 19, 2024 at 08:37AM"
+            },
+            {
+                "title": "Bulletproofing your CMS - Nic Chan",
+                "excerpt": "Help your future self by making sure your CMS can take anything clients throw at it.",
+                "url": "https://www.nicchan.me/blog/bulletproofing-your-cms/",
+                "date": "January 22, 2024 at 11:51PM"
+            },
+            {
+                "title": "12 Modern CSS One-Line Upgrades - Modern CSS Solutions",
+                "excerpt": "Sometimes, improving your application CSS just takes a one-line upgrade or enhancement! Learn about 12 properties to start incorporating into your projects, and enjoy reducing technical debt, removing JavaScript, and scoring easy wins for user experience.",
+                "url": "https://moderncss.dev/12-modern-css-one-line-upgrades/",
+                "date": "January 22, 2024 at 11:53PM"
+            },
+            {
+                "title": "Better form UX with the CSS property `field-sizing` - Stephanie Stimac's Blog",
+                "excerpt": "A look at the `field-sizing` CSS property and how it could improve web form user experience.",
+                "url": "https://blog.stephaniestimac.com/posts/2024/01/css-field-sizing/",
+                "date": "January 23, 2024 at 11:45PM"
+            },
+            {
+                "title": "Progressively enhancing a link into a button with vanilla JavaScript",
+                "excerpt": "In yesterday&rsquo;s article on loading HTML from another page, I talked about progressively enhancing a link into a button. Let’s imagine you have a dialog modal that loads some HTML. You might keep all that HTML in a separate file, and by default display a link to it. &lt;a href=&#34;/terms&#34;&gt;Read the Terms of Service&lt;/a&gt;  When your JS loads, you can progressively enhance it into a modal toggle.",
+                "url": "https://gomakethings.com/progressively-enhancing-a-link-into-a-button-with-vanilla-javascript/",
+                "date": "January 23, 2024 at 11:48PM"
+            },
+            {
+                "title": "5 key design system elements to build trust and maximise uptake",
+                "excerpt": "Since 2016 I’ve used, created and contributed to multiple design systems. I’ve seen what works and what doesn’t. By “doesn’t” I mean designers don’t trust it. And as a result they don’t use it",
+                "url": "https://adamsilver.io/blog/5-key-design-system-elements-to-build-trust-and-maximise-uptake/",
+                "date": "January 24, 2024 at 11:14PM"
+            },
+            {
+                "title": "A quick introduction to CSS @scope",
+                "excerpt": "An introductory thread to CSS @scope.",
+                "url": "https://www.bram.us/2023/08/22/a-quick-introduction-to-css-scope",
+                "date": "January 24, 2024 at 11:20PM"
+            },
+            {
+                "title": "Positioning anchored popovers",
+                "excerpt": "Popovers are in the top layer, how can we position them relative to invokers that are not?",
+                "url": "https://hidde.blog/positioning-anchored-popovers/",
+                "date": "January 30, 2024 at 01:32PM"
+            },
+            {
+                "title": "CSS { In Real Life } | Reducing Complexity in Front End Development",
+                "excerpt": "One of my favourite sessions at All Day Hey conference last month was Jack Franklin’s talk Abstractions, complexities and off-ramps. As web applications grow larger, they inevitably fall prey to complexity, despite our best intentions.",
+                "url": "https://css-irl.info/reducing-complexity-in-front-end-development/",
+                "date": "January 30, 2024 at 02:31PM"
+            }
+        ]
+    }
 ]

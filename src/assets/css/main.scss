@@ -1532,3 +1532,13 @@ figure.effect:hover p {
     margin-bottom: 0;
   }
 }
+
+.link {
+  border-bottom: 1px solid var(--orange);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+
+  &__date {
+    font-size: 1.2rem;
+  }
+}
