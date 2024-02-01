@@ -117,12 +117,20 @@
       "url": "/stream/"
     },
     {
-      "label": "Social Links",
-      "url": "/social-links/"
+      "label": "Blogroll",
+      "url": "/blogroll/"
+    },
+    {
+      "label": "Links",
+      "url": "/links/"
     },
     {
       "label": "Books",
       "url": "/books/"
+    },
+    {
+      "label": "Social Links",
+      "url": "/social-links/"
     },
     {
       "label": "RSS",
