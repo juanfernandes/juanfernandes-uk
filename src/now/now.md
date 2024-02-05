@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-01-23T00:00:00Z
+date: 2024-02-05T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,10 +12,10 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ### Work
-* Still early days but nothing's changed at work yet - my new boss got this message from a Business Analyst in the business "I have created a certain rough layouts using Paint; could you please review them and suggest the changes required as per the design standards." - this was sent to the Head of UX!
+* Work is finally picking up and we're doing a lot more talking about UX and new processes which is great as there hasn't been any UX processes in place - ever.
 
 ### Personal
-* Desperately trying to sell the family home as my ex-wife has lost her job and can't pay half of the mortgage - so I have to pay all of it and also feed my 3 children and pay all the bills. Its getting difficult.
+* House still for sale. Ex-wife is looking into other ways of selling the house. The children are all doing well. Really can't wait for this house to sell so I can buy my own place and start to settle down again.
 
 ### Watching
 * [Loudermilk](https://www.themoviedb.org/tv/73200-loudermilk "Loudermilk")

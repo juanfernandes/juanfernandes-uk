@@ -4,12 +4,13 @@ layout: page
 class: links
 intro:
   class: sml
+  subheading: Sharing links to articles I've read
 ---
 
-{% for year in links %}
-<h2 class="year">{{ year.year }}</h2>
+{% for month in links | reverse %}
+<h2 class="month">{{ month.month }}</h2>
 
-  {%- for link in year.links | reverse -%}
+  {%- for link in month.links | reverse -%}
   <div class="link">
     <div class="link__details">
       <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
@@ -18,5 +19,4 @@ intro:
     </div>
   </div>
   {%- endfor -%}
-
 {% endfor %}

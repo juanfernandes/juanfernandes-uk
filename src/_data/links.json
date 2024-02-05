@@ -1,6 +1,6 @@
 [
     {
-        "year": 2024,
+        "month": "January",
         "links": [
             {
                 "title": "Expanding Grid Cards with View Transitions - Chris Coyier",
@@ -157,6 +157,83 @@
                 "excerpt": "One of my favourite sessions at All Day Hey conference last month was Jack Franklin’s talk Abstractions, complexities and off-ramps. As web applications grow larger, they inevitably fall prey to complexity, despite our best intentions.",
                 "url": "https://css-irl.info/reducing-complexity-in-front-end-development/",
                 "date": "January 30, 2024 at 02:31PM"
+            },
+            {
+                "title": "What happened with the Web Monetization API?",
+                "excerpt": "I was pretty hot on it for a minute . I wanted it to succeed and thought it had the bones to make it. Coil was the main startup trying to push it. They did the…",
+                "url": "https://chriscoyier.net/2024/01/24/what-happened-with-the-web-monetization-api/",
+                "date": "January 31, 2024 at 08:46PM"
+            },
+            {
+                "title": "Nicer Text Wrapping with CSS text-wrap",
+                "excerpt": "Let’s take a look at the CSS text-wrap property and how we can use it to improve the way text flows on a web page. We can use text-wrap: balance to tell the…",
+                "url": "https://codersblock.com/blog/nicer-text-wrapping-with-css-text-wrap/",
+                "date": "January 31, 2024 at 08:58PM"
+            },
+            {
+                "title": "No Analytics",
+                "excerpt": "It was nice to see Rach talk about stripping out analytics . I stripped out my analytics years ago and while I thought I wrote about it, I can’t find where I…",
+                "url": "https://snook.ca/archives/opinion/no-analytics",
+                "date": "January 31, 2024 at 09:01PM"
+            },
+            {
+                "title": "I turned off analytics",
+                "excerpt": "I turned off the Plausible analytics for this site. I used to use analytics mostly to look for links back to my site from other creators. When I had so little…",
+                "url": "https://rachsmith.com/i-turned-off-analytics/",
+                "date": "January 31, 2024 at 09:03PM"
+            }
+        ]
+    },
+    {
+        "month": "February",
+        "links": [
+            {
+                "title": "The details element and in-page search - Manuel Matuzovic",
+                "excerpt": "An important factor in terms of UX and accessibility for deciding whether the &lt;details&gt; element is…",
+                "url": "https://www.matuzo.at/blog/2023/details-find-in-page",
+                "date": "February 1, 2024 at 11:54PM"
+            },
+            {
+                "title": "More than blogrolls",
+                "excerpt": "The latest edition of Matthias Ott's Own Your Web (which I recommend subscribing too!) points out that there are a lot of blogs…",
+                "url": "https://sebastiandedeyne.com/more-than-blogrolls/",
+                "date": "February 1, 2024 at 11:54PM"
+            },
+            {
+                "title": "The article element and screen readers - Manuel Matuzovic ",
+                "excerpt": "I wanted to know how and if common screen readers expose the &lt;article&gt; element. Here are my results…",
+                "url": "https://www.matuzo.at/blog/2023/article-screen-readers/",
+                "date": "February 1, 2024 at 11:59PM"
+            },
+            {
+                "title": "Ditch the developer Swiss Army Knife",
+                "excerpt": "Our industry loves Swiss Army Knives. The tools we tend to gravitate towards are ones that do all the things . They’re packed with features. I get the appeal…",
+                "url": "https://gomakethings.com/ditch-the-developer-swiss-army-knife/",
+                "date": "February 2, 2024 at 11:49AM"
+            },
+            {
+                "title": "Join the 11ty International Symposium on Making Web Sites Real Good",
+                "excerpt": "Join the 11ty International Symposium on Making Web Sites Real Good (it’s an 11ty Conference) In May 2024…",
+                "url": "https://www.zachleat.com/web/11tyconf/",
+                "date": "February 2, 2024 at 11:50AM"
+            },
+            {
+                "title": "3 questions to evaluate design patterns and avoid unnecessary work that degrades UX",
+                "excerpt": "There’s a new form design trend going around: Buttons inside inputs. Anthony Hobday mentioned it by asking his audience if there was any…",
+                "url": "https://adamsilver.io/blog/3-questions-to-evaluate-design-patterns-and-avoid-unnecessary-work-that-degrades-ux/",
+                "date": "February 2, 2024 at 11:55AM"
+            },
+            {
+                "title": "What’s The Perfect Design Process? — Smashing Magazine ",
+                "excerpt": "What’s The Perfect Design Process? About The Author Vitaly Friedman loves beautiful content and doesn’t like to give in easily. When he is not…",
+                "url": "https://www.smashingmagazine.com/2023/06/perfect-design-process/",
+                "date": "February 4, 2024 at 06:26PM"
+            },
+            {
+                "title": "4 Ways to Improve Mobile Accessibility - Karl Groves",
+                "excerpt": "This is a repost of an old article on the Tenon blog. Since that’s being sunsetted, I’m reposting it below. Ensuring that your website is ADA compliant on…",
+                "url": "https://karlgroves.com/4-ways-to-improve-mobile-accessibility/",
+                "date": "February 4, 2024 at 08:35PM"
             }
         ]
     }
