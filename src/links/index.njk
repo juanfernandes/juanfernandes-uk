@@ -15,7 +15,7 @@ intro:
     <div class="link__details">
       <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
       {% if link.excerpt %}<p>{{ link.excerpt | safe }}</p>{% endif %}
-      <span class="link__date dt-published">Published on {{ link.date }}</span>
+      <span class="link__date dt-published">Read on: {{ link.date }}</span>
     </div>
   </div>
   {%- endfor -%}
