@@ -234,6 +234,66 @@
                 "excerpt": "This is a repost of an old article on the Tenon blog. Since that’s being sunsetted, I’m reposting it below. Ensuring that your website is ADA compliant on…",
                 "url": "https://karlgroves.com/4-ways-to-improve-mobile-accessibility/",
                 "date": "February 4, 2024 at 08:35PM"
+            },
+            {
+                "title": "CSS! CSS! CSS! - Manuel Matuzovic CSS! CSS! CSS!",
+                "excerpt": "I just came home after three beautiful days in Amsterdam, where I gave a talk at the CSS Day conference. I’ve watched many…",
+                "url": "https://www.matuzo.at/blog/2023/css-css-css",
+                "date": "February 6, 2024 at 12:57PM"
+            },
+            {
+                "title": "Inside .git",
+                "excerpt": "I posted a comic on Mastodon this week about what’s in the .git directory and someone requested a text version, so here it is. I added someextra notes…",
+                "url": "https://jvns.ca/blog/2024/01/26/inside-git/",
+                "date": "February 6, 2024 at 01:39PM"
+            },
+            {
+                "title": "RSS Feed Styles - David Bushell",
+                "excerpt": "Now that I’m in my 15th year of blogging it’s past time I spruced up my RSS feed . I’ve also launched a new…",
+                "url": "https://dbushell.com/2024/02/06/rss-feed-styles/",
+                "date": "February 7, 2024 at 11:06PM"
+            },
+            {
+                "title": "Thoughts on a Global Design System",
+                "excerpt": "Dave and I just had Brad on ShopTalk Show to talk about his idea for a Global Design System . I love Brad’s optimism on all this. From Brad’s perspective, he’s…",
+                "url": "https://chriscoyier.net/2024/02/05/thoughts-on-a-global-design-system/",
+                "date": "February 7, 2024 at 11:16PM"
+            },
+            {
+                "title": "Blockquotes in Screen Readers",
+                "excerpt": "This post does not assert the correct way to code blockquotes, it will only demonstrate how screen readers announce some existing…",
+                "url": "https://adrianroselli.com/2023/07/blockquotes-in-screen-readers.html",
+                "date": "February 8, 2024 at 11:25PM"
+            },
+            {
+                "title": "How to create rounded gradient borders with any background in CSS A solution!",
+                "excerpt": "For many months I have been trying to find a decent solution to rounded gradient borders that allow a semi-transparent or blurred main background.",
+                "url": "https://benfrain.com/how-to-create-rounded-gradient-borders-with-any-background-in-css/",
+                "date": "February 8, 2024 at 11:29PM"
+            },
+            {
+                "title": "The Indie Web and the joy of being weird",
+                "excerpt": "GoMakeThings.com has been my home on the web for over 12 years. When I first started publishing here, I had an HR blog (I was an HR professional at the time)…",
+                "url": "https://gomakethings.com/the-indie-web-and-the-joy-of-being-weird/",
+                "date": "February 8, 2024 at 11:35PM"
+            },
+            {
+                "title": "Pull request descriptions",
+                "excerpt": "I used to leave pull request descriptions empty. \"Let the code speak for itself\" or \"let the commits speak for themselves\" are…",
+                "url": "https://sebastiandedeyne.com/pull-request-descriptions",
+                "date": "February 9, 2024 at 11:15PM"
+            },
+            {
+                "title": "When to use CSS text-wrap: balance; vs text-wrap: pretty; - Stephanie Stimac",
+                "excerpt": "When to use CSS text-wrap: balance; vs text-wrap: pretty; At the start of the year I had written about how I wanted to spend this year writing about new CSS…",
+                "url": "https://blog.stephaniestimac.com/posts/2023/10/css-text-wrap/",
+                "date": "February 9, 2024 at 11:24PM"
+            },
+            {
+                "title": "Own Your Web – Issue 9: We ❤️ RSS",
+                "excerpt": "In the last issue, we looked at blogrolls as one way to improve the visibility and discoverability of our sites. Whether or not you want to add a…",
+                "url": "https://buttondown.email/ownyourweb/archive/issue-09/",
+                "date": "February 13, 2024 at 09:37AM"
             }
         ]
     }
