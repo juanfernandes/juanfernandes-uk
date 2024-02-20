@@ -294,6 +294,48 @@
                 "excerpt": "In the last issue, we looked at blogrolls as one way to improve the visibility and discoverability of our sites. Whether or not you want to add a…",
                 "url": "https://buttondown.email/ownyourweb/archive/issue-09/",
                 "date": "February 13, 2024 at 09:37AM"
+            },
+            {
+                "title": "Super Fast Builds by David Bushell",
+                "excerpt": "I want to see more developers experiment with how they build their websites! Don’t just npm install a blackhole. Roll your own personal solution. It’s fun and…",
+                "url": "https://dbushell.com/2024/02/14/super-fast-builds/",
+                "date": "February 15, 2024 at 09:21AM"
+            },
+            {
+                "title": "Eleventy Starter Project Updates",
+                "excerpt": "This blog uses static site generator Eleventy (or 11ty. I have no idea which one is the “official” spelling, and the docs appear to delight in switching…",
+                "url": "https://css-irl.info/eleventy-starter-projects-updates/",
+                "date": "February 15, 2024 at 09:48AM"
+            },
+            {
+                "title": "Let's create a Web Component from scratch!",
+                "excerpt": "Because I love Web Components so much, today, I thought we’d build an HTML Web Component from scratch. Let’s build a component that shows and hides text when a…",
+                "url": "https://gomakethings.com/lets-create-a-web-component-from-scratch/",
+                "date": "February 16, 2024 at 07:33PM"
+            },
+            {
+                "title": "New and Improved Green Web Hosting Directory from the Green Web Foundation",
+                "excerpt": "The Green Web Foundation has recently redesigned their green web hosting directory. Previously the directory was a useful resource for finding hosting platforms…",
+                "url": "https://css-irl.info/new-and-improved-green-web-hosting-directory/",
+                "date": "February 16, 2024 at 07:44PM"
+            },
+            {
+                "title": "Don’t Disable Form Controls",
+                "excerpt": "Just another usability and accessibility pro telling authors not to do the thing they continue to do. It’s Ok to Disable Buttons There are…",
+                "url": "https://adrianroselli.com/2024/02/dont-disable-form-controls.html",
+                "date": "February 17, 2024 at 10:12PM"
+            },
+            {
+                "title": "How to make external links accessible",
+                "excerpt": "Links are what connect online content – they’re everywhere. Since they’re so common, their design and functionality often go unnoticed, especially when it comes…",
+                "url": "https://blog.pope.tech/2024/01/02/how-to-make-external-links-accessible/",
+                "date": "February 17, 2024 at 10:22PM"
+            },
+            {
+                "title": "Animated SVG Logo",
+                "excerpt": "I recently replaced the logo on the top left corner with an animated SVG: Inspiration The first time I saw such stroke animations in SVG is the Material Line…",
+                "url": "https://antfu.me/posts/animated-svg-logo",
+                "date": "February 18, 2024 at 09:58PM"
             }
         ]
     }
