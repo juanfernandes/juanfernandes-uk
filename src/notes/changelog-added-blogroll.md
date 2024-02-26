@@ -1,20 +1,20 @@
 ---
-layout: layouts/post.njk
+layout: post
 postImage: "/v1579162295/trianglify.png"
-title: 'Changelog: Added a Blogroll'
-description: 'I decided to be like the cool kids in the web design industry and added a blogroll - a list of the web design blogs that I follow.'
+title: "Changelog: Added a Blogroll"
+description: "I decided to be like the cool kids in the web design industry and added a blogroll - a list of the web design blogs that I follow."
 keywords:
-- web design
-- webdesign
-- web development
-- web dev
-- blogroll
+  - web design
+  - webdesign
+  - web development
+  - web dev
+  - blogroll
 date: 2023-10-13T00:00:00Z
 edited: 
 tags:
-- notes
-- changelog
-
+  - notes
+  - changelog
+shareLink: "https://hachyderm.io/@juanfernandes/111228921824830432"
 ---
 ## Changelog: Added a Blogroll
 

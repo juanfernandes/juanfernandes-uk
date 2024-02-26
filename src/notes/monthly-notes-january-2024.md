@@ -13,6 +13,7 @@ date: 2024-02-16T00:00:00Z
 tags:
   - monthly-notes
   - notes
+shareLink: "https://hachyderm.io/@juanfernandes/111941945053972516"
 ---
 <p class="lead">Pretty slow start to the year - which is a good thing considering the year I've just had. Trying to get on with my new life but still one big tie to my ex which is the house.</p>
 

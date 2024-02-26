@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-02-20T00:00:00Z
+date: 2024-02-26T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -15,7 +15,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Work is finally picking up and we're doing a lot more talking about UX and new processes which is great as there hasn't been any UX processes in place - ever.
 
 ### Personal
-* Half-term week for my children here in Suffolk. Got at least one mountain bike ride planned with the children. Rest of the time we'll be chillin' - well, I'm still working!
+* Working on my website again this week - mostly tinkering and then working on the new design, but first need to continue my design research.
 
 ### Watching
 * [Loudermilk](https://www.themoviedb.org/tv/73200-loudermilk "Loudermilk")

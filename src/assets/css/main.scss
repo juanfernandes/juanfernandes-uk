@@ -1542,3 +1542,43 @@ figure.effect:hover p {
     font-size: 1.2rem;
   }
 }
+
+.mastodon-post-wrapper {
+  margin-top: 2.4rem;
+  width: 100%;
+
+  @media only screen and (min-width: 1024px) {
+    max-width: 800px;
+  }
+
+  & blockquote {
+    margin-top: 2rem;
+    margin-left: 0;
+
+    & p::after,
+    & p::before {
+      content: "";
+    }
+  }
+
+  & dl {
+    align-items: center;
+    display: flex;
+    font-size: 1.6rem;
+  }
+
+  & dt {
+    svg {
+      margin-right: 1rem;
+    }
+  }
+
+  & dd {
+    margin: 0 2rem 0 0;
+  }
+
+  .invisible {
+    visibility: hidden;
+    display: none;
+  }
+}

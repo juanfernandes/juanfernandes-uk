@@ -336,6 +336,78 @@
                 "excerpt": "I recently replaced the logo on the top left corner with an animated SVG: Inspiration The first time I saw such stroke animations in SVG is the Material Line…",
                 "url": "https://antfu.me/posts/animated-svg-logo",
                 "date": "February 18, 2024 at 09:58PM"
+            },
+            {
+                "title": "Static Site Generators and CMS's",
+                "excerpt": "I write a lot about my love of Static Site Generators. They’re fast. Easier to theme. Easier to maintain. Less prone to vulnerabilities. More portable. But they…",
+                "url": "https://gomakethings.com/static-site-generators-and-cmss/",
+                "date": "February 19, 2024 at 11:29PM"
+            },
+            {
+                "title": "mastodon-post Web Component",
+                "excerpt": "The mastodon-post Web Component allows you to turn a regular link to a Mastodon post into an embeddable post quote including metadata such as reply count, boost…",
+                "url": "https://darn.es/mastodon-post-web-component/",
+                "date": "February 19, 2024 at 11:34PM"
+            },
+            {
+                "title": "Read later",
+                "author": "Simone Silvestroni",
+                "excerpt": "My latest post generated a few emails from people suggesting alternatives to my semi-manual Instapaper solution. The back-and-forth convinced me to…",
+                "url": "https://minutestomidnight.co.uk/blog/read-later/",
+                "date": "February 20, 2024 at 01:59PM"
+            },
+            {
+                "title": "Why Markdown is a great design tool",
+                "excerpt": "Markdown is an incredibly flexible tool that’s part of my daily working practice. Almost everything I write digitally (including this post) starts in Markdown…",
+                "url": "https://www.benjystanton.co.uk/blog/why-markdown-is-a-great-design-tool/",
+                "date": "February 20, 2024 at 11:18PM"
+            },
+            {
+                "title": "Decision time",
+                "excerpt": " I’ve always associated good design with thoughtfulness. Like, I should be able to point to any element in an interface and the designer should be able to tell…",
+                "url": "https://adactio.com/journal/20564",
+                "date": "February 20, 2024 at 11:30PM"
+            },
+            {
+                "title": "Tailwind is bad",
+                "author": "Chris Ferdinandi",
+                "excerpt": "Yes, this is a clickbait title, but it’s also (mostly) true. If you’re not familiar with Tailwind (bless your heart), it’s a “utility-first CSS framework.” I’ve…",
+                "url": "https://gomakethings.com/tailwind-is-bad/",
+                "date": "February 23, 2024 at 11:32PM"
+            },
+            {
+                "title": "Automatic Mastodon post embeds",
+                "excerpt": "I use Nicolas Hoizey's GitHub action to syndicate my web activity to Mastodon. Recently, I removed the display of webmentions from my posts after seeing Chris…",
+                "url": "https://coryd.dev/posts/2024/automatic-mastodon-post-embeds/",
+                "date": "February 23, 2024 at 11:32PM"
+            },
+            {
+                "title": "Cut the Intro",
+                "author": "Robin Rendle",
+                "excerpt": "Here’s one way to improve the thing you’re writing: cut the intro. Writing about the symbiosis between trees and mushrooms? Don’t start talking about how…",
+                "url": "https://robinrendle.com/notes/cut-the-intro/",
+                "date": "February 24, 2024 at 11:19PM"
+            },
+            {
+                "title": "Don't disable buttons",
+                "author": "Chris Ferdinandi",
+                "excerpt": "One of the most common accessibility issues I find (and fix) on client projects is dynamically disabled form buttons when a form is being submitted. Today I…",
+                "url": "https://gomakethings.com/dont-disable-buttons/",
+                "date": "February 24, 2024 at 11:28PM"
+            },
+            {
+                "title": "More Things You Can Do on Your Website",
+                "author": "Robb Knight",
+                "excerpt": "James wrote a great post with 100 83 ideas for things to do on a website [1] with a call for people suggest more so here's another… ",
+                "url": "https://rknight.me/blog/more-things-you-can-do-on-your-website/",
+                "date": "February 25, 2024 at 10:43PM"
+            },
+            {
+                "title": "100 things you can do on your personal website",
+                "author": "James",
+                "excerpt": "One of my favourite things to do in my free time is to tinker with this website. Indeed, this website is the culmination of years of tinkering. I have added…",
+                "url": "https://jamesg.blog/2024/02/19/personal-website-ideas/",
+                "date": "February 25, 2024 at 10:43PM"
             }
         ]
     }

@@ -13,6 +13,7 @@ date: 2024-01-24T00:00:00Z
 tags:
   - monthly-notes
   - notes
+shareLink: "https://hachyderm.io/@juanfernandes/111811909318056708"
 ---
 <p class="lead">October - lots more upheaval on a personal level - but we had Halloween and the kids really enjoyed it. Started working on a new design for this website.</p>
 

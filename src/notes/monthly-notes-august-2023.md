@@ -13,6 +13,7 @@ date: 2023-10-21T00:00:00Z
 tags:
   - monthly-notes
   - notes
+shareLink: "https://hachyderm.io/@juanfernandes/111279422920186877"
 ---
 <p class="lead">August was a VERY expensive month for me - what with getting the car back and getting it back on the road (MOT, tax & insurance) as well as paying for a mortgage advisor and mortgage.</p>
 
