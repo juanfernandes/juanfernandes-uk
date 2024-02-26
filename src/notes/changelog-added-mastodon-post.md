@@ -14,7 +14,7 @@ edited:
 tags:
   - notes
   - changelog
-shareLink: ""
+shareLink: "https://hachyderm.io/@juanfernandes/111997505877347498"
 ---
 ## Added mastodon-post Web Component
 Since I'm no longer using Twitter all that much and pretty much spend all my time on Mastodon, my blog posts don't get many web mentions. When I saw that [David Darnes](https://mastodon.design/@daviddarnes) created a [`mastodon-post` web component](https://darn.es/mastodon-post-web-component/) - I thought this was a perfect time to get into web components!
