@@ -14,7 +14,7 @@ edited:
 tags:
   - notes
   - changelog
-shareLink: ""
+shareLink: "https://hachyderm.io/@juanfernandes/111997450393996150"
 ---
 ## Changelog: Added links page
 I've been sharing links to articles I read to social media for a while now - this happens soon after I've read it - I aim to read at least 2 articles a day. Recently I noticed that a lot of people have created a links page to store links they've shared - so it made sense for me to do that as well - it's a great way to archive and be able to revisit when I'm looking for something I've shared.
