@@ -1,11 +1,12 @@
 {% set currentUrl = site.url + page.url %}
 {% set pageTitle = title + ' - ' + ' Blog - ' + site.meta.title %}
+{% set tagsTitle = tag + ' - ' + ' Blog - ' + site.meta.title %}
 
 <!doctype html>
   <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ pageTitle }}</title>
+    <title>{% if tag %}Tag: {{ tagsTitle }}{% else %}{{ pageTitle }}{% endif %}</title>
     <meta name="description" content="{{ description }}" />
     <meta name="keywords" content="{{ keywords }}" />
     <meta name="twitter:site" content="{{ site.meta.ogTwitter }}" />

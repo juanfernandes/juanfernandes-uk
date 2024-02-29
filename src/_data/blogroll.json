@@ -13,7 +13,7 @@
   },
   {
     "name": "Ahmad Shadeed",
-    "url": "http://ishadeed.com/",
+    "url": "http://ishadeed.com",
     "feed": "http://ishadeed.com/feed.xml",
     "icon": "https://ishadeed.com/assets/favicon-32x32.png"
   },
@@ -127,15 +127,15 @@
   },
   {
     "name": "Dave Rupert",
-    "url": "http://daverupert.com/",
+    "url": "http://daverupert.com",
     "feed": "https://daverupert.com/atom.xml",
     "icon": "https://daverupert.com/favicon.ico"
   },
   {
     "name": "David Darnes",
-    "url": "https://david.darn.es/",
-    "feed": "https://david.darn.es/feed.xml",
-    "icon": "https://david.darn.es/favicon.ico"
+    "url": "https://darn.es",
+    "feed": "https://darn.es/feed.xml",
+    "icon": "https://hub.darn.es/content/images/2022/05/logo.jpg"
   },
   {
     "name": "David Bushell",
@@ -181,7 +181,7 @@
   },
   {
     "name": "Jeremy Wagner",
-    "url": "https://jeremy.codes/",
+    "url": "https://jeremy.codes",
     "feed": "https://jeremy.codes/rss.xml",
     "icon": "https://jlwagner.net/img/icons/apple-touch-icon-57x57.png"
   },
@@ -229,8 +229,8 @@
   },
   {
     "name": "Matt Hobbs",
-    "url": "https://nooshu.github.io/",
-    "feed": "https://nooshu.github.io/feed.xml",
+    "url": "https://nooshu.com",
+    "feed": "https://nooshu.com/feed.xml",
     "icon": "https://web.archive.org/web/20230524070911if_/https://nooshu.com/images/icons/apple-touch-icon.png"
   },
   {
