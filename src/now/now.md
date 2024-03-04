@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-02-26T00:00:00Z
+date: 2024-03-04T00:00:00Z
 class: now
 intro:
   heading: Now
@@ -18,6 +18,9 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Working on my website again this week - mostly tinkering and then working on the new design, but first need to continue my design research.
 
 ### Watching
+* [Law & Order: Special Victims Unit](https://www.themoviedb.org/tv/2734-law-order-special-victims-unit "Law & Order: Special Victims Unit")
+  In the criminal justice system, sexually-based offenses are considered especially heinous. In New York City, the dedicated detectives who investigate these vicious felonies are members of an elite squad known as the Special Victims Unit. These are their stories.
+
 * [Loudermilk](https://www.themoviedb.org/tv/73200-loudermilk "Loudermilk")
   Sam Loudermilk is a recovering alcoholic and substance abuse counselor with an extremely bad attitude about, well, everything. He is unapologetically uncensored, and manages to piss off everyone in his life. Although he has his drinking under control, Loudermilk discovers that when your life is a complete mess, getting clean is the easy part.
 

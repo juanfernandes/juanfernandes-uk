@@ -16,6 +16,7 @@
             },
             {
                 "title": "A few developer console tricks",
+                "author": "Chris Ferdinandi",
                 "excerpt": "In my new free course for beginners, Learn JavaScript, I talk briefly about how powerful the developer console is, and why I think it&rsquo;s ones of the best features of working in the front end.",
                 "url": "https://gomakethings.com/a-few-developer-console-tricks/",
                 "date": "January 6, 2024 at 08:39AM"
@@ -40,6 +41,7 @@
             },
             {
                 "title": "A CSS native way to prevent orphan text",
+                "author": "Chris Ferdinandi",
                 "excerpt": "In typography, an orphan or widow is a single word on its own line. It can look particularly unpleasing with headings, and is hard to &ldquo;plan for&rdquo; on the web, where people view your site on a wide range of viewport sizes. You can avoid them by manually added a non-breaking space (&amp;nbsp;) before the second and last word in every sentence, but doing that manually is madness. &lt;h2&gt;How to use the Array.",
                 "url": "https://gomakethings.com/a-css-native-way-to-prevent-orphan-text/",
                 "date": "January 12, 2024 at 11:14PM"
@@ -130,6 +132,7 @@
             },
             {
                 "title": "Progressively enhancing a link into a button with vanilla JavaScript",
+                "author": "Chris Ferdinandi",
                 "excerpt": "In yesterday&rsquo;s article on loading HTML from another page, I talked about progressively enhancing a link into a button. Let’s imagine you have a dialog modal that loads some HTML. You might keep all that HTML in a separate file, and by default display a link to it. &lt;a href=&#34;/terms&#34;&gt;Read the Terms of Service&lt;/a&gt;  When your JS loads, you can progressively enhance it into a modal toggle.",
                 "url": "https://gomakethings.com/progressively-enhancing-a-link-into-a-button-with-vanilla-javascript/",
                 "date": "January 23, 2024 at 11:48PM"
@@ -207,6 +210,7 @@
             },
             {
                 "title": "Ditch the developer Swiss Army Knife",
+                "author": "Chris Ferdinandi",
                 "excerpt": "Our industry loves Swiss Army Knives. The tools we tend to gravitate towards are ones that do all the things . They’re packed with features. I get the appeal…",
                 "url": "https://gomakethings.com/ditch-the-developer-swiss-army-knife/",
                 "date": "February 2, 2024 at 11:49AM"
@@ -273,6 +277,7 @@
             },
             {
                 "title": "The Indie Web and the joy of being weird",
+                "author": "Chris Ferdinandi",
                 "excerpt": "GoMakeThings.com has been my home on the web for over 12 years. When I first started publishing here, I had an HR blog (I was an HR professional at the time)…",
                 "url": "https://gomakethings.com/the-indie-web-and-the-joy-of-being-weird/",
                 "date": "February 8, 2024 at 11:35PM"
@@ -309,6 +314,7 @@
             },
             {
                 "title": "Let's create a Web Component from scratch!",
+                "author": "Chris Ferdinandi",
                 "excerpt": "Because I love Web Components so much, today, I thought we’d build an HTML Web Component from scratch. Let’s build a component that shows and hides text when a…",
                 "url": "https://gomakethings.com/lets-create-a-web-component-from-scratch/",
                 "date": "February 16, 2024 at 07:33PM"
@@ -339,6 +345,7 @@
             },
             {
                 "title": "Static Site Generators and CMS's",
+                "author": "Chris Ferdinandi",
                 "excerpt": "I write a lot about my love of Static Site Generators. They’re fast. Easier to theme. Easier to maintain. Less prone to vulnerabilities. More portable. But they…",
                 "url": "https://gomakethings.com/static-site-generators-and-cmss/",
                 "date": "February 19, 2024 at 11:29PM"
@@ -408,6 +415,95 @@
                 "excerpt": "One of my favourite things to do in my free time is to tinker with this website. Indeed, this website is the culmination of years of tinkering. I have added…",
                 "url": "https://jamesg.blog/2024/02/19/personal-website-ideas/",
                 "date": "February 25, 2024 at 10:43PM"
+            },
+            {
+                "title": "Own Your Web – Issue 10: Links Worth Sharing",
+                "author": "Matthias Ott",
+                "excerpt": "Hi All! 🤗 Every day, we browse the Web and scroll our timelines. And every day, we find even more interesting websites, blog posts, articles, videos, podcasts…",
+                "url": "https://buttondown.email/ownyourweb/archive/issue-10/",
+                "date": "February 27, 2024 at 05:05PM"
+            },
+            {
+                "title": "Piccalilli Links - Piccalilli",
+                "author": "Andy Bell",
+                "excerpt": "You might have noticed that I’m starting to share links on here. There’s a hole that’s been left by publications like CSS-Tricks and A List Apart going quiet…",
+                "url": "https://piccalil.li/blog/piccalilli-links/",
+                "date": "February 27, 2024 at 11:06PM"
+            },
+            {
+                "title": "Where I’m at on the whole CSS-Tricks thing",
+                "author": "Chris Coyier",
+                "excerpt": "It was March 2022 when I sold CSS-Tricks to DigitalOcean. So it’s been just about 2 years now. This was me and my wife’s thinking: The negotiated sale price was…",
+                "url": "https://chriscoyier.net/2024/02/28/where-im-at-on-the-whole-css-tricks-thing/",
+                "date": "February 28, 2024 at 10:48PM"
+            },
+            {
+                "title": "Now's the time to own and host your own content",
+                "author": "Cory Dransfeldt",
+                "excerpt": "We've seen Meta, Google, Microsoft, Apple, Reddit, Automattic, Mozilla — name a company — integrate AI that continues to be trained on public data with or…",
+                "url": "https://coryd.dev/posts/2024/nows-the-time-to-own-and-host-your-own-content/",
+                "date": "February 28, 2024 at 10:49PM"
+            },
+            {
+                "title": "Tailwind vs. Semantic CSS",
+                "author": "Chris Ferdinandi",
+                "excerpt": "Over the last week or two, I’ve written about why Tailwind is bad. Yesterday, I stumbled upon this article from Tero Piirainen comparing semantic CSS to…",
+                "url": "https://gomakethings.com/tailwind-vs.-semantic-css/",
+                "date": "February 29, 2024 at 07:47PM"
+            }
+        ]
+    },
+    {
+        "month": "March",
+        "links": [
+            {
+                "title": "How to create a responsive grid system with CSS Grid",
+                "author": "Chris Ferdinandi",
+                "excerpt": "I recently updated the grid system on my site from Flexbox to CSS Grid. Today, I wanted to share how to use it, how it works under-the-hood, and why I made the…",
+                "url": "https://gomakethings.com/how-to-create-a-responsive-grid-system-with-css-grid/",
+                "date": "March 1, 2024 at 10:27PM"
+            },
+            {
+                "title": "Capo.js: A five minute web performance boost",
+                "author": "Dave Rupert",
+                "excerpt": "You want a quick web performance win at work that’s sure to get you a promotion? Want it to only take five minutes? Then I got you. Capo.js is a tool to get…",
+                "url": "https://frontendmasters.com/blog/capo-js-a-five-minute-web-performance-boost/",
+                "date": "March 1, 2024 at 10:30PM"
+            },
+            {
+                "title": "The path to becoming a publisher - Piccalilli",
+                "author": "Andy Bell",
+                "excerpt": "In my 2023 wrap-up post I said the following: I also see a gap in publications. CSS-Tricks is done now, and unfortunately, been abandoned. A List Apart has…",
+                "url": "https://piccalil.li/blog/the-path-to-becoming-a-publisher/",
+                "date": "March 2, 2024 at 09:19AM"
+            },
+            {
+                "title": "AI and accessible front-end components: is the nuance generatable?",
+                "author": "Hidde de Vries",
+                "excerpt": "Companies are rushing to add generated AI capabilities to their products. Some promise to produce front-end components for you. Is that even possible, given the…",
+                "url": "https://hidde.blog/ai-for-accessible-components/",
+                "date": "March 2, 2024 at 09:37AM"
+            },
+            {
+                "title": "Which CSS framework should I use?",
+                "author": "Chris Ferdinandi",
+                "excerpt": "I’ve been ragging on Tailwind a lot lately (because it’s terrible). One of the natural follow-up questions I get is… Which CSS framework do you like? I tend to…",
+                "url": "https://gomakethings.com/which-css-framework-should-i-use/",
+                "date": "March 2, 2024 at 09:38AM"
+            },
+            {
+                "title": "Deploy an Eleventy site to Cloudflare Pages efficiently with GitHub's action cache",
+                "author": "Jonas Brusman",
+                "excerpt": "I have wanted to move this site from Netlify for a while now, but the recent news about their bandwidth pricing made me finally do it. I looked into some…",
+                "url": "https://jonas.brusman.se/deploy-eleventy-to-cloudflare-with-githubs-action-cache/",
+                "date": "March 3, 2024 at 09:00AM"
+            },
+            {
+                "title": "Automated weekly links posts with raindrop.io and Eleventy",
+                "author": "Sophie Koonin",
+                "excerpt": "A post that's been getting a lot of traction recently is I miss human curation by Cassidy Williams, in which she laments that we're so reliant on algorithms…",
+                "url": "https://localghost.dev//blog/automated-weekly-links-posts-with-raindrop-io-and-eleventy/",
+                "date": "March 3, 2024 at 09:06AM"
             }
         ]
     }
