@@ -4,7 +4,7 @@
 
 # juanfernandes.uk
 
-> Source files for my [personal website](https://www.juanfernandes.uk) built with Eleventy and hosted with Netlify.
+> Source files for my [personal website](https://www.juanfernandes.uk) built with Eleventy and hosted with [Guru.co.uk](https://my.guru.co.uk/aff.php?aff=6526).
 
 ## Getting Started
 
@@ -21,6 +21,3 @@ npm install
 # Start local dev server
 npm run start
 ```
-
-## Deployments
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ad9cac69-cad5-4015-9a0e-98ceef6380da/deploy-status)](https://app.netlify.com/sites/juanfernandes/deploys)
