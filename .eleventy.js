@@ -37,6 +37,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('.well-known/')
   eleventyConfig.addPassthroughCopy('src/Juan_Fernandes-CV-2022.pdf')
   eleventyConfig.addPassthroughCopy('src/admin/index.html')
+  eleventyConfig.addPassthroughCopy('src/.htaccess')
 
   eleventyConfig.addCollection('posts', function (collection) {
     return collection.getFilteredByGlob('./src/blog/*.md')
