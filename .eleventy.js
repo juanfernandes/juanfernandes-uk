@@ -24,7 +24,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
   eleventyConfig.addPassthroughCopy('src/assets/js')
   eleventyConfig.addPassthroughCopy('src/robots.txt')
-  eleventyConfig.addPassthroughCopy('src/keybase.txt')
   eleventyConfig.addPassthroughCopy('src/humans.txt')
   eleventyConfig.addPassthroughCopy('src/site.webmanifest')
   eleventyConfig.addPassthroughCopy('src/browserconfig.xml')
@@ -36,8 +35,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/icon.svg')
   eleventyConfig.addPassthroughCopy('.well-known/')
   eleventyConfig.addPassthroughCopy('src/Juan_Fernandes-CV-2022.pdf')
-  eleventyConfig.addPassthroughCopy('src/admin/index.html')
-  eleventyConfig.addPassthroughCopy('src/.htaccess')
 
   eleventyConfig.addCollection('posts', function (collection) {
     return collection.getFilteredByGlob('./src/blog/*.md')
