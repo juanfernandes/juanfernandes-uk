@@ -48,6 +48,7 @@
             },
             {
                 "title": "Minutes to Midnight - Giving context to a blogroll",
+                "author": "Simone Silvestroni",
                 "excerpt": "Garrit Franke’s recent post, titled “Roast my site”, motivated me to write about something that has always bugged me with personal sites: the grocery-style blogroll",
                 "url": "https://minutestomidnight.co.uk/blog/giving-context-to-a-blogroll/",
                 "date": "January 12, 2024 at 11:17PM"
@@ -504,6 +505,160 @@
                 "excerpt": "A post that's been getting a lot of traction recently is I miss human curation by Cassidy Williams, in which she laments that we're so reliant on algorithms…",
                 "url": "https://localghost.dev//blog/automated-weekly-links-posts-with-raindrop-io-and-eleventy/",
                 "date": "March 3, 2024 at 09:06AM"
+            },
+            {
+                "title": "Sliders degrade UX (so do this instead)",
+                "author": "Adam Silver",
+                "excerpt": "18 February 2024 My friend Victor shared this design tip on Twitter last week: He said that if you put the slider values on top, your finger won’t cover them…",
+                "url": "https://adamsilver.io/blog/sliders-degrade-ux-so-do-this-instead/",
+                "date": "March 4, 2024 at 08:06PM"
+            },
+            {
+                "title": "Simplify sharing with built-in APIs and progressive enhancement",
+                "author": "Andy Bell",
+                "excerpt": "You’ve written a great post or produced a delightful website and now you want people to share it. In times gone by, you might be tempted to add a section like…",
+                "url": "https://set.studio/simplify-sharing-with-built-in-apis-and-progressive-enhancement/",
+                "date": "March 4, 2024 at 10:00PM"
+            },
+            {
+                "title": "Progressively Enhanced HTML Accordion",
+                "author": "Adrian Roselli",
+                "excerpt": "Does what it says on the tin. Uses <details> and <summary> with a bit of ARIA to create an accordion that works without JavaScript while…",
+                "url": "https://adrianroselli.com/2023/08/progressively-enhanced-html-accordion.html",
+                "date": "March 6, 2024 at 10:11AM"
+            },
+            {
+                "title": "Adding Search to an Eleventy Site Without Client-side JavaScript",
+                "author": "Philip Renich",
+                "excerpt": "Adding Search to an Eleventy Site Without Client-side JavaScript October 9th, 2023 Earlier this year (2023) I added a search feature to my blog. I’ve always…",
+                "url": "https://www.philiprenich.com/blog/adding-search-to-an-eleventy-site-without-client-side-javascript/",
+                "date": "March 6, 2024 at 10:20AM"
+            },
+            {
+                "title": "How layout position impacts three big web performance levers",
+                "author": "Sia Karamalegos",
+                "excerpt": "We help Shopify merchants improve their web performance and see three common problems related to layout position: Lazy loading images above the fold…",
+                "url": "https://performance.shopify.com/blogs/blog/how-layout-position-impacts-three-big-web-performance-levers",
+                "date": "March 9, 2024 at 07:34AM"
+            },
+            {
+                "title": "Some little ways I’m using CSS :has() in the real world",
+                "author": "Andy Bell",
+                "excerpt": "There’s a lot of chatter around the new(ish) :has() pseudo-class. It’s something we’ve been crying out for, for years: being able to select parent elements! A…",
+                "url": "https://piccalil.li/blog/some-little-ways-im-using-css-has-in-the-real-world/",
+                "date": "March 9, 2024 at 07:40AM"
+            },
+            {
+                "title": "Don’t use paracetamol to fix bad UX",
+                "author": "Adam Silver",
+                "excerpt": "My dad was a pharmacist. Whenever I was ill, he’d tell me to take paracetamol. So I did. And it made me feel better. But paracetamol doesn’t…",
+                "url": "https://adamsilver.io/blog/dont-use-paracetamol-to-fix-bad-ux/",
+                "date": "March 11, 2024 at 08:04PM"
+            },
+            {
+                "title": "Using an Eleventy event to optimize component JavaScript",
+                "author": "Cory Dransfeldt",
+                "excerpt": "My site leverages a number of web component for functionality on my site. Namely: mastodon post embeds, search, my now playing component, my theme toggle, post…",
+                "url": "https://coryd.dev/posts/2024/using-an-eleventy-event-to-optimize-component-javascript/",
+                "date": "March 11, 2024 at 08:08PM"
+            },
+            {
+                "title": "Sharing links via RSS, sharing links via APIs",
+                "author": "Cory Dransfeldt",
+                "excerpt": "I follow and subscribe to a whole bunch of blogs and less and less high-volume news via RSS. It's one of my absolute favorite mediums for keeping up with and…",
+                "url": "https://coryd.dev/posts/2024/sharing-links-via-rss-sharing-links-via-apis/",
+                "date": "March 11, 2024 at 10:26PM"
+            },
+            {
+                "title": "Own Your Web – Issue 11: Welcome to the IndieWeb",
+                "author": "Matthias Ott",
+                "excerpt": "Hi All! 🤗 Imagine you post and make new friends on an online network for more than a decade – and suddenly, your account gets suspended for no apparent reason…",
+                "url": "https://buttondown.email/ownyourweb/archive/issue-11/",
+                "date": "March 12, 2024 at 05:55PM"
+            },
+            {
+                "title": "Following Links",
+                "author": "Jim Nielsen",
+                "excerpt": "I loved this post from Chris Enns (via Robb Knight) where he outlines the rabbit hole of links he ventured down in writing that post. It felt fun and familiar…",
+                "url": "https://blog.jim-nielsen.com/2024/following-links/",
+                "date": "March 12, 2024 at 05:59PM"
+            },
+            {
+                "title": "CSS Button Styles You Might Not Know",
+                "author": "David Bushell",
+                "excerpt": "CSS Button Styles You Might Not Know Sunday 10 Mar 2024 Buttons are everywhere! We can use all sorts of fancy CSS to style a button. I prefer using Flexbox…",
+                "url": "https://dbushell.com/2024/03/10/css-button-styles-you-might-not-know/",
+                "date": "March 12, 2024 at 10:33PM"
+            },
+            {
+                "title": "Surfacing most used tags in Eleventy",
+                "author": "Cory Dransfeldt",
+                "excerpt": "I made some lightweight design changes to my site, keeping things simple but moving the date up above post headers, surfacing tags below and restoring Read more…",
+                "url": "https://coryd.dev/posts/2024/surfacing-most-used-tags-in-eleventy/",
+                "date": "March 13, 2024 at 09:08AM"
+            },
+            {
+                "title": "Leaving Netlify",
+                "author": "Simone Silvestroni",
+                "excerpt": "Leaving Netlify Tomorrow marks the first week after migrating all the websites I share with my wife Silvia, from Netlify to Mythic Beasts. Very happy about the…",
+                "url": "https://minutestomidnight.co.uk/blog/leaving-netlify/",
+                "date": "March 13, 2024 at 09:12AM"
+            },
+            {
+                "title": "You don't have to be a “content creator” to have a website.",
+                "author": "Ana Rodrigues",
+                "excerpt": "This is clearly the result of living in a capitalist society. In recent years, people have felt the pressure to monetise their hobbies, so there’s a constant…",
+                "url": "https://ohhelloana.blog/just-get-a-website/",
+                "date": "March 14, 2024 at 11:36PM"
+            },
+            {
+                "title": "Fetching Package Dependents from GitHub",
+                "author": "Robb Knight",
+                "excerpt": "A conversation in the Eleventy Discord led me to remember about the dependents page of a GitHub repository. That is, a list of…",
+                "url": "https://rknight.me/blog/fetching-package-dependents-from-github/",
+                "date": "March 14, 2024 at 11:45PM"
+            },
+            {
+                "title": "11ty Linkrolls",
+                "author": "Carter Baxter",
+                "excerpt": "Gotta get yourself connected... One of the things I've always loved about blogs were the linkrolls... that candy trail to more and more interesting things…",
+                "url": "https://another.rodeo/linkroll/",
+                "date": "March 14, 2024 at 11:52PM"
+            },
+            {
+                "title": "How I Eleventy",
+                "author": "Declan Byrd",
+                "excerpt": "I first starting using Eleventy to build this site back in 2020 using version 0.10.0 and through a combination of the official documentation and other people's…",
+                "url": "https://declanbyrd.co.uk/journal/2024/how-i-eleventy/",
+                "date": "March 16, 2024 at 07:58AM"
+            },
+            {
+                "title": "You Want border-color: transparent, Not border: none",
+                "author": "Dave Rupert",
+                "excerpt": "If you find yourself removing a border from an element that has a border and are tempted to use border: 0 , border: none, or outline: none, I’d urge you to stop…",
+                "url": "https://frontendmasters.com/blog/you-want-border-color-transparent-not-border-none/",
+                "date": "March 16, 2024 at 08:02AM"
+            },
+            {
+                "title": "We Need to Talk About Your Eleventy Post Dates",
+                "author": "Robb Knight",
+                "excerpt": "Since I really got back into following RSS feeds in the past couple of years I've noticed a problem with Eleventy sites[1] and post…",
+                "url": "https://rknight.me/blog/eleventy-post-dates/",
+                "date": "March 17, 2024 at 03:43PM"
+            },
+            {
+                "title": "Welcome to the IndieWeb",
+                "author": "Matthias Ott",
+                "excerpt": "Imagine you post and make new friends on an online network for more than a decade – and suddenly, your account gets suspended for no apparent reason. And there…",
+                "url": "https://matthiasott.com/notes/welcome-to-the-indieweb",
+                "date": "March 17, 2024 at 03:52PM"
+            },
+            {
+                "title": "The 'IndieWeb' feels like coming home",
+                "author": "Nathaniel Daught",
+                "excerpt": "The 'IndieWeb' feels like coming home tech personal Eleventy IndieWeb featured Due to the convenience of not needing to code or maintain anything…",
+                "url": "https://daught.me/blog/2024/indie-web/",
+                "date": "March 17, 2024 at 04:00PM"
             }
         ]
     }

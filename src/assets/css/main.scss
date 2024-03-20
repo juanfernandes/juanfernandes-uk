@@ -647,6 +647,11 @@ footer {
     text-align: center;
     margin: 0 auto;
 
+    a {
+      font-size: 12px;
+      font-size: 1.2rem;
+    }
+
     @media only screen and (min-width: 48em) {
       max-width: 640px;
     }
