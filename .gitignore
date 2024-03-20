@@ -1,12 +1,3 @@
-.DS_STORE
-.vagrant
-.env
-.swp
 /dist
 
 node_modules
-/src/admin/index.html
-/src/admin/assets/
-
-# Local Netlify folder
-.netlify
