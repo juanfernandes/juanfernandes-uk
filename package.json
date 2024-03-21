@@ -6,7 +6,7 @@
     "eleventy": "npx eleventy",
     "sass": "sass --style=compressed src/assets/css/global.scss:dist/assets/css/global.min.css src/assets/css/error.scss:dist/assets/css/error.css",
     "watch:eleventy": "eleventy --quiet --serve",
-    "start": "npm-run-all sass --parallel watch:* dev:*",
+    "start": "npm-run-all sass --parallel watch:*",
     "build": "npm run sass && npx eleventy"
   },
   "repository": {
