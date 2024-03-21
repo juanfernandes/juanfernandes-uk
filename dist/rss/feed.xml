@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="feed-style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title>Blog - Juan Fernandes - Freelance Web Designer</title>
+  <subtitle>Juan Fernandes is a freelance web designer specialising in building bespoke responsive websites for small businesses in the UK</subtitle>
+  <link href="https://www.juanfernandes.uk/rss/feed.xml" rel="self"/>
+  <link href="https://www.juanfernandes.uk"/>
+  <updated>2023-08-14T00:00:00Z</updated>
+  <id>https://www.juanfernandes.uk/</id>
+  <author>
+    <name>Juan Fernandes</name>
+    <email>hello@juanfernandes.uk</email>
+  </author>
+  
+  
+  <entry>
+    <title>2022: Year in review</title>
+    <link href="https://www.juanfernandes.uk/blog/2022-year-in-review/"/>
+    <published>2023-08-14T00:00:00Z</published>
+    <updated>2023-08-14T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/2022-year-in-review/</id>
+    <summary><![CDATA[This year in review post has been really difficult to write (and why it's so late) because of how it ended with being the worst year of my life, so far. It took me a while to write it, but I really didn't want to miss posting it as I've written one every year since 2016.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/social-sharing.jpg" />
+    <content type="html"><![CDATA[
+      <p class="lead">This year in review post has been really difficult to write (and why it's so late) because of how it ended with being the worst year of my life, so far. It took me a while to write it, but I really didn't want to miss posting it as I've written one every year since 2016.</p>
+<h2>Work</h2>
+<ul>
+<li>
+<p>Not much freelance work done this year as I stepped back from doing so much, just focused on contract work.</p>
+</li>
+<li>
+<p>Finished <a href="https://www.arrival-lifts.co.uk/" title="Arrival Lift Services">Arrival Lift Services</a> website - a custom design and build using Tailwind CSS and Eleventy</p>
+</li>
+<li>
+<p>Removed Forestry CMS from JF website because I wasn't using it any more and it's also being discontinued. Now that I'm back to using an iPhone, there are GitLab apps that allowed me to edit content on my repo, but this was quite a fiddly way to edit and add content to my website. I then added Forestry back because of Stream (Short posts that get syndicated to social media) posts as a temporary solution whilst I look into getting <a href="https://tina.io/" title="Tina CMS">Tina CMS</a> setup</p>
+</li>
+<li>
+<p>For a long time I used the project-hub.xyz domain name to host projects I was working on, as a way to show clients progress that was made - with a backlog of changes kept for reference. But since I've stopped doing freelance work, it was time to get rid of it. I tried selling the domain name, but there was no interest, so I let it expire :(</p>
+</li>
+</ul>
+<h2>Personal</h2>
+<ul>
+<li>
+<p>Since we moved into our house about 8 years ago, we've just been working on updating the inside of the house. So this year it was time to work on the outside. We decided to extend the house into half of the loft (the other half is used for storage still) and add an extra two rooms (a bedroom and an exercise room).</p>
+</li>
+<li>
+<p>We also had the driveway and patio redone - the patio got a new design and shape. The driveway surface was redone using hardcore and new shingle. Plus we had an outside entertainment area built - it's sheltered with a big table and chairs, so we can have meals out there, also houses our barbecue and a seating area.</p>
+</li>
+<li>
+<p>As part of working on the outside entertainment area, I decided to get a new BBQ as part of the outside kitchen I will be building. I got a Traeger Wood pellet BBQ in the end, as it seemed like a great choice and easier to use. I love it. SO easy to use, and we can have BBQs even if it's raining because it's sheltered, and we can even eat out there as we had patio heaters installed.</p>
+</li>
+<li>
+<p>Middle child, Tasha, joined a football team, and I am super proud of her. She's doing really well for someone who has not been playing football for that long. I'm enjoying watching her play at the weekends and at training during the week, apart from it's been freezing cold!</p>
+</li>
+<li>
+<p>I turned 41 in November and how do you know you're officially old, the NHS send you for your free health check! Furthermore, I didn't do anything for my birthday. It was just another day for me. And I also got kidney stones, it's the second time I've had them in myself, and it still hurts a lot. By the time I got seen my someone at the hospital, I had already passed it.</p>
+</li>
+<li>
+<p>We decided it was time to add another addition to our family - yes, we got another dog. We got a 5-month-old Dobermann. He is the cutest! He was very shy at first, but soon started trusting us enough to let us take him home.</p>
+</li>
+<li>
+<p>I was advised to see a Neuropath to try and help me with this rash I've had for a while now. He seemed very knowledgable, but in the end it didn't help at all :(</p>
+</li>
+<li>
+<p>Due to the pandemic we decided it was still too early to travel abroad, so we decided to go back to our favourite glamping site in Yorkshire - <a href="https://kingfisher-lakes.com" title="Kingfisher Lakes">Kingfisher Lakes</a></p>
+</li>
+</ul>
+<details>
+    <summary>Content Warning: marriage breakup</summary>
+    <h3>The year my marriage ended</h3>
+    <p>No one close to me died (and what happened to me is not a unique situation, but that didn’t make it hurt any less).</p>
+    <p>She, after a while of agonizing about it, told me she didn't love me any more. Which was hard to hear.</p>
+    <p>We had been married for 19 years and together for 22 years. Half of my life has been spent with her, and it was over in a flash. She also didn't want to try and fix the marriage, as she believed it could not be fixed.</p>
+    <p>We decided to wait until after Christmas to tell the kids - it was really hard pretending everything was fine. I spent a lot of time drunk in my office with my dog!</p>
+</details>
+<p>Well, there you have it. Not a great way to end the year.</p>
+<h2>Stats</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Trees Planted</th>
+      <th>Podcasts Listened</th>
+      <th>Books Read</th>
+      <th>Freelance Projects</th>
+      <th>Series Watched</th>
+      <th>Blog Posts</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Trees Planted">340</td>
+      <td data-label="Podcasts Listened">20</td>
+      <td data-label="Books Read">4</td>
+      <td data-label="Freelance Projects">2</td>
+      <td data-label="Series Watched">30 [570hrs]</td>
+      <td data-label="Blog Posts">0</td>
+      <td data-label="Notes">10</td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Articles Read</th>
+      <th>Movies Watched</th>
+      <th>Completed Tasks</th>
+      <th>Pomodoro Minutes</th>
+      <th>Music Listened</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Articles Read">373</td>
+      <td data-label="Movies Watched">11</td>
+      <td data-label="Completed Tasks">342</td>
+      <td data-label="Pomodoro Minutes">1024min [42]</td>
+      <td data-label="Music Listened">17hrs / 237 scrobbles</td>
+    </tr>
+  </tbody>
+</table>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: 2022: Year in review">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title> 2021: Year in review</title>
+    <link href="https://www.juanfernandes.uk/blog/2021-year-in-review/"/>
+    <published>2022-02-06T00:00:00Z</published>
+    <updated>2022-02-06T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/2021-year-in-review/</id>
+    <summary><![CDATA[2021 was a year of firsts for the family & I after a few years of covid, including our first restaurant outing & also our first UK break since before covid]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/social-sharing.jpg" />
+    <content type="html"><![CDATA[
+      <p>Twenty Twenty One was a year of firsts for the family and I after a few years of covid. Including our first restaurant outing and also our first UK break since before covid started. Apart from that, it was an uneventful year - which is not a bad thing. I hope you had a great year.</p>
+<h2>Personal</h2>
+<p>Due to covid, I was without work for about a year and during that time I wasn't using my car. After I got my fully remote permanent role - I decided to sell my lovely Mercedes-Benz A-Class.</p>
+<p>It had been off-road for over a year. I had to have it MOTd, serviced and taxed and then I got a quote from WeBuyAnyCar.</p>
+<p>Selling via WeBuyAnyCar for the first time was an interesting experience. For example, did you know that once you take your car for them to inspect it and review the quoted price - you can no longer drive off and think about it, as it will invalidate their quote.</p>
+<p>We had to get the train home!</p>
+<h3>Anniversary</h3>
+<p>In July my wife and I celebrated our 18th wedding anniversary and we celebrated by going to a restaurant for the first time since before covid and also the first time my wife has eaten at a Japanese restaurant - she liked it!</p>
+<h3>Holiday</h3>
+<p>We also went on our first holiday since before covid - we managed to book a place at a glamping site in Yorkshire. We had booked it quite early before everywhere in the UK was sold-out. It's a lovely site, with only 7 other families onsite at once. There was a lake and we hired a canoe for the week, which the kids loved using.</p>
+<p>We stayed in a Bell tent. It was great - we had a fire pit and a BBQ where we cooked most of our meals.</p>
+<h3>Skateboarding</h3>
+<p>I wasn't much of a skateboarder when I was young - I was in my teens when I got into it and so didn't spend much time skateboarding. But one of my kids wanted to learn - so I dusted off my old skateboard and we spent quite a few summer evenings skateboarding in our local tennis courts as we don't have a skate park near us yet.</p>
+<p>We even visited a skatepark - a first for both of us. I have to remember to take it easy as my body is not as young as my mind thinks it is!!</p>
+<h3>Health and fitness</h3>
+<p>My health and fitness took a huge leap backwards in 2021. At the start of covid in 2020, I self-isolated even before the first lockdown was announced and I pretty much stayed in unless I was going for a run or to take the dog out for a walk.</p>
+<p>But then winter came and I didn't have the willpower to go out for a run in the cold, wet and muddy countryside where I live - nor have any enthusiasm to do any other type of exercise either.</p>
+<p>So by 2021, I was already a hermit and barely left the house - I stayed up late every night watching TV and eating all sorts of rubbish food and drinking - I went through quite a few bottles of rum.</p>
+<p>To add to this I had a daily, very itchy skin rash, all over my body that I got in March 2020 that has never gone away. I've been on prescribed antihistamines ever since. I paid for a private allergy test which tested 800 food and enviromental items and I got back a huge list of things that I was now apparantly allergic to. I stopped eating everything on the list - including wheat and dairy products.</p>
+<p>Now I have a very basic and plain diet. It got better in 2021 but I still have a daily rash and I still take antihistamines. Doctors just told me to keep a food diary and stop eating anything that caused the rash - but they don't know the cause. Blood tests only work if they know what they are testing for, so mine didn't show anything.</p>
+<p>I was fully vaccinated against covid - managing to get all the vaccines before the end of the year.</p>
+<h3>NFTs / Crypto</h3>
+<p>[Warning: This is about Crypto and Non-Fungible Tokens (NFTs). I'm not writing this to convince anyone that they should invest in Crypto/NFTs. If you want to chat about them, add me on Discord and I'll be more than happy to chat NFTs. Discord: CryptoJuan#9664]</p>
+<p>In August I read about a 12-year-old kid from the UK who created a generative art collection as an NFT and it piqued my interest as something that I may be able to do myself. An opportunity to learn a new skill and delve into blockchain development.</p>
+<p>So I took a deep dive into the world of NFTs and Crypto. It was one eye-opening experience with tons of learning.</p>
+<p>I soon became a community mod for a new NFT project - CryptoGhosts - and that was the real eye-opener to the real world of NFTs and Crypto - a very shady, scam riddled industry and until it gets some sort of regulation, people will continue to lose a lot of money. My advice is to only use money you can afford to lose and don't go into expecting to become a millionaire overnight by spending a few hundreds of dollars/pounds.</p>
+<h2>Work</h2>
+<p>I have now been at my new permanent job for over six months and I have been slowly getting used to being a permanent member of staff at a company again.</p>
+<p>I've done a lot of varied work in my first six months at intelliflo from styling a 3rd party help plugin, bug fixes, new components and even setting up our first design system/style guide.</p>
+<h3>Freelance</h3>
+<p>I designed and built four websites for existing and new clients, One of these was put on hold as the client was too busy to be able to provide the remaining content, but all the others went live.</p>
+<p>Worked quite a bit on my website, but most of it was behind the scenes stuff. I added webmentions to my blog posts - which was only possible thanks to the 11ty community for kindly providing plenty of articles on the subject. I could not have done this without those articles.</p>
+<p>Another behind the scenes change was that I finally fixed my Service Worker script. I wasn't deleting older versions and so returning visitors may not have seen the latest CSS changes. This again was something that I couldn't have done myself had it not been for the numerous articles and a book on implementing a service worker script.</p>
+<h2>Stats</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Trees Planted</th>
+      <th>Podcasts Listened</th>
+      <th>Books Read</th>
+      <th>Freelance Projects</th>
+      <th>Series Watched</th>
+      <th>Blog Posts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Trees Planted">388</td>
+      <td data-label="Podcasts Listened">20</td>
+      <td data-label="Books Read">4</td>
+      <td data-label="Freelance Projects">4</td>
+      <td data-label="Series Watched">38</td>
+      <td data-label="Blog Posts">14</td>
+    </tr>
+  </tbody>
+</table>
+<table>
+  <thead>
+    <tr>
+      <th>Articles Read</th>
+      <th>Movies Watched</th>
+      <th>Completed Tasks</th>
+      <th>Pomodoro Minutes</th>
+      <th>Music Listened</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Articles Read">226</td>
+      <td data-label="Movies Watched">8</td>
+      <td data-label="Completed Tasks">109</td>
+      <td data-label="Pomodoro Minutes">11,037</td>
+      <td data-label="Music Listened">118hrs / 1446 scrobbles</td>
+    </tr>
+  </tbody>
+</table>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re:  2021: Year in review">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Working an inside IR35 contract</title>
+    <link href="https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract/"/>
+    <published>2021-04-26T23:00:00Z</published>
+    <updated>2021-04-26T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/working-an-inside-ir35-contract/</id>
+    <summary><![CDATA[I've only had one contract inside IR35 & that was enough to put me off. First & last contract inside IR35 that I will take on]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Working an inside IR35 contract,co_rgb:eee,c_fit,w_600/v1579162295/trianglify.png" />
+    <content type="html"><![CDATA[
+      <h2>What is IR35?</h2>
+<blockquote>
+<p>IR35 is the name given to a tax legislation that is aimed at identifying individuals who are avoiding paying the tax that they should be. The IR35 legislation specifically challenges those people who supply their services to clients via their own company, often known as a ‘personal service company’, be it a limited company or a limited liability partnership, who, in the ever-watchful eyes of HMRC, should be classed as ‘disguised employees’. This means that HMRC do not recognise the contractor in question as ‘self-employed’ from a taxation perspective and therefore they should be taxed the same way that a permanent employee should be, thus falling insider what is called IR35.</p>
+</blockquote>
+<p><em><a href="https://www.contractorweekly.com/ir35/what-is-ir35/">Contractor Weekly</a></em></p>
+<h2>My experience</h2>
+<p>To be fair, I've only had one contract that was inside IR35 and after a brief <a href="https://twitter.com/_worknotes/status/1380147375285678081">Twitter</a> conversation I decided to write a blog post about my experienvce working an inside IR35 contract and why I decided it's not for me and pushed me back to peermanent employment.</p>
+<h3>Umbrella companies</h3>
+<p>The biggest issue I had was finding a good umbrella company - you have to do your research, including looking at companies house and checking their accounts. If they haven't updated their accounts in a while, then something may not be right. Remember they get your money take a cut and then pay you - if they are having money problems, they may not be able to pay.</p>
+<p>Also, checkout umbrella company reviews on contractor websites. This article on IT Contracting - <a href="https://www.itcontracting.com/umbrella-company-reviews-trust/">Umbrella company reviews – can they be trusted?</a> has a lot more information on what you should look at when researching umbrella companies.</p>
+<p>You will need to find contracts that pay at least £100 per day more than your usual day rate if you want your take-home pay to be the same as an outside IR35 contract. When looking for an umbrella company, one of the main questions you'll want to get an answer to is - what is the take-home pay?</p>
+<p>Not all recruitment agencies will let you just choose any Umbrella company - it will likely have to be one from a list of approved companies. I had a list of twenty to choose from - but the one that was highly recommended to me was not on that list.</p>
+<h3>Pensions</h3>
+<p>Umbrella companies have to automatically enrol you into a pension after three months - not something I needed as I already had a private one - but they still did it and I had to cancel it and chase get back two payments back.</p>
+<p>Some umbrella companies allow you to pay your pension contributions into an existing pension, including a SIPP (Self-invested Personal Pension) if you have one - you need to check if they do this and you need to tell them before they auto-enrol you onto their one. If you have a SIPP, make sure they can pay your contributions into it.</p>
+<h3>Accountants</h3>
+<p>Your accountant may charge you more to be able to help with an inside IR35 contract if they normally just deal with your business accounts and not personal - since your earnings will be paid into your account and not your business account. Mine didn't and was very helpful.</p>
+<h3>Multiple employments</h3>
+<p>You can have more than one employment - you're employed by your own limited company as well as by the umbrella company but this means you won't have a P45 to give to the umbrella company - this is fine - but you may end up on the wrong tax code or the emergency tax code - which means you'll pay a lot more tax. Speaking with my accountant it was easier to just end my employment with my own company so that I could get a P45 instead of risking it.</p>
+<h3>Salary</h3>
+<p>If you normally pay yourself a salary from your limited company - then that will need to stop if you're no longer employed by them (you), but if you choose to stay employed with your company then be aware that you'll pay more taxes because you'll be earning more.</p>
+<p>In the three months, I was in a contract - I only 4 weeks where my pay was the same. And once my tax code was changed at HMRC but no one knew why. In the 5 years, I've been self-employed that has never happened.</p>
+<h3>Timesheets</h3>
+<p>I had to complete three timesheets a week - the recruitment agency, the umbrella company and one for the client.</p>
+<h2>Just my experience</h2>
+<p>By the way, these are just my observations based on my short experience and research. Please speak to your accountant and/or a professional who specialises in IR35 regulation.</p>
+<h3>Is an inside IR35 contract right for you?</h3>
+<p>My advice is to try it and find out for yourself. After reading this you'll have more information and hopefully know more about what to expect. It's what I decided to do, I had only heard negative things about inside IR35 contracts and with more and more contracts being inside - I needed to see what it was like for myself.</p>
+<h2>Not just inside IR35 contracts</h2>
+<p>Some recruitment agencies will need proof that a contract is in fact outside the IR35 scope as stated by the client and this means you may need to pay a third party company, arranged by the recruitment agency, that will check whether the contract is or isn't outside IR35. Not sure if this is the same with all agencies, but I had to pay for this service - luckily the client was happy to pay this fee - as I wasn't happy to fork out the £80 for the privilege.</p>
+<h2>IR35 Insurance</h2>
+<p>There is tax investigation insurance for IR35. It also covers your compliance with regulations relating to national insurance contributions or VAT amongst other things. However, the spotlight right now is on IR35. This is not a sponsored link - but I have Professional indemnity insurance from WithJack and I found they now do tax investigation insurance as well.</p>
+<p><a href="https://web.archive.org/web/20220901110629/https://withjack.co.uk/insurance/2020/01/27/lowdown-on-ir35-insurance/">Checkout WithJack insurance</a></p>
+<h2>That's it</h2>
+<p>I hope you found this post useful if you are currently considering a contract inside IR35. Do let me know if you have had a different experience.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Working an inside IR35 contract">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>2020: Year in review</title>
+    <link href="https://www.juanfernandes.uk/blog/2020-year-in-review/"/>
+    <published>2021-02-05T00:00:00Z</published>
+    <updated>2021-02-05T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/2020-year-in-review/</id>
+    <summary><![CDATA[Worldwide pandemic, bullshit politics, white supremacists, racists, Brexit & a whole bunch of rubbish I won't get into]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:2020: Year in review,co_rgb:eee,c_fit,w_600/farm-field.jpg" />
+    <content type="html"><![CDATA[
+      <p>Twenty-Twenty wasn't a good year for a lot of people - except perhaps for Jeff Bezos and all those who profited from the pandemic. I almost didn't bother doing a review, but felt I owed it to myself and use it as an opportunity to highlight the good things that happened, despite all that went on.</p>
+<p>The year of the worldwide pandemic, bullshit politics, white supremacists, racists, Brexit and a whole bunch of rubbish I won't get into - it's fair to say we won't be forgetting 2020 in a hurry.</p>
+<p>As I said, I almost didn't bother doing a review of 2020 - we all know it wasn't a great year and it seems that these - 'year in review' posts have become less popular, probably because a lot of people didn't have a great year. But since I've been doing them for a few years I wanted to continue the tradition - even if it's just a way for me to review my year and see what I need to do better and to celebrate all the wins too.</p>
+<h2>Work</h2>
+<p>Like the previous year, my contract rolled over into 2020 as it was extended from a six-week contract to a rolling contract. I returned to the Chartered Management Institute and was there until mid-April 2020.</p>
+<p>I was scheduled to start a new contract with Signet Jewelers, whom I have worked with before - at the start of March but unfortunately, the UK went into our first lockdown. Signet had to close their stores (Ernest Jones and H. Samuel) and most of their IT staff were put on furlough - which is something a lot of companies had to do to survive.</p>
+<p>CMI offered to keep me on for another two weeks (it could have been longer, but they too had to tighten the purse strings).</p>
+<p>After those extra two weeks of work at CMI - I went full into lockdown and homeschooling mode because my wife, being a primary school teacher had to work.</p>
+<p>My mother in law, who normally looks after our children when my wife and I are both at work - with her being more at risk due to her health, she was staying in her room (she lives with us) and away from us as much as possible to minimise the risk of her catching covid from my wife due to my wife's risk of exposure at school.</p>
+<p>This meant I was in charge of homeschooling our three children and also cooking our dinners as my wife was having to stay at work a lot later than usual as the school was open for the children of key workers. I'm lucky all our children know how to get their breakfasts and lunches without supervision.</p>
+<p>I was happy doing this, even though it was hard work and mentally taxing. I love cooking normally, but having to do homeschooling and then cook every day, was tiring.</p>
+<p>This also meant I didn't do any freelance work or even look for new contracts as I didn't think I'd cope with a full-time job and all the other jobs around the house.</p>
+<p>I did think that once things started to go back to 'normal' after the lockdown was lifted that I would easily get another contract but unfortunately that didn't happen until mid-November.</p>
+<p>Luckily I had been saving money - enough for three months worth of wages but unfortunately that wasn't enough to cover me during an unpredictable event like a worldwide pandemic and I ended up having to use the money I had put aside for paying my corporate tax bill for the previous year.</p>
+<p>After the schools opened up again in September I started looking for work, mainly focusing on getting freelance work as the contract work market was still pretty dire - unless you were a JavaScript/React/[insert other JS framework] developer.</p>
+<p>Work started to pick up in October and I also started a new contract as an Interaction Designer towards the end of November with Defra.</p>
+<p>This contract is my first and last contract inside IR35. It has not been a great experience. For example, you can only use a certain number of Umbrella companies that are pre-approved by the recruitment agency and the end client. You can't use your own Ltd. company. You then spend ages reviewing the umbrella companies - looking for the cheapest rate - us freelancers don't care much about the 'employee' benefits.</p>
+<p>Anyway, I won't go into it too much - let's just say I won't be doing any more inside IR35 contracts.</p>
+<h2>Freelance</h2>
+<p>When it became obvious to me that the contract market wasn't going to recover as quickly as I had hoped - I decided to focus on getting back into freelance work.</p>
+<p>I put on my marketing hat and started letting all my connections know I was looking for freelance work and it paid off as I was contacted by someone who saw one of my tweets about going back to freelance work and asked me if I would redesign and rebuild their property search website which has been doing very well in terms of visitors and generating a good income, but the design was quite dated and in need of a refresh.</p>
+<p>Then I took on a new web hosting client whose website had been built and hosted by one of his employees who was now an ex-employee.</p>
+<p>As you can imagine that was a tricky position for me to be in as I had to liaise with a disgruntled ex-employee. Unfortunately, I never got given access to the old hosting or given a copy of the site and database.</p>
+<p>I had managed to download a copy of the website using the command line utility 'wget' but unfortunately this doesn't work all that well when its a WordPress website.</p>
+<p>The client did want a new website but he had wanted to wait until 2021 but this forced his hand to get moving with the new site. I spent some time researching and creating a proposal for them which they accepted.</p>
+<p>The new website will be launching early on in the new year.</p>
+<p>They will be my first freelance project where I have not designed the website myself but instead hired a designer to do this - my very good friend and excellent designer, <a href="https://www.linkedin.com/in/fern-taylor/" title="Fern Taylor's LinkedIn profile">Fern Taylor</a>.</p>
+<h2>Personal</h2>
+<p>I'm pretty sure we or most of us had a rubbish 2020 - mine wasn't great but I know it could have been much much worse. We were very lucky to not have caught covid or have lost anyone to it.</p>
+<p>But on a more positive note - I completed the Couch to 5k program - I never thought I'd enjoy running but I have enjoyed getting into it. Especially running in the summer with the lovely Suffolk Coastal views to one side and farm fields to the other, whilst listening to dance music.</p>
+<p>I decide to isolate right from the beginning – even before the first lockdown was announced – as much as possible – I didn’t leave the house at all unless it was for dog walks or going for a run.</p>
+<p>Since my wife was already at work, being a teacher and already at higher risk - she decided that she could do the weekly shopping trip since Tesco was only allowing those at risk to use delivery slots.</p>
+<p>But we used that time to get loads of DIY done in the house - we painted all the hallway walls and ceilings, my mother in laws bedroom, planned and hung a load of picture frames.</p>
+<h2>Side Projects</h2>
+<p>I didn’t have many side projects this year, but I did have a few things I focused on.</p>
+<h3>Chicks</h3>
+<p>On a bit of a personal 'side project' one of our chickens became broody and after a few weeks and one failed attempt, we got two beautiful chicks.</p>
+<img src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto,w_600/chicks.jpg" alt="Two young chicks">
+<h3>Blogging</h3>
+<p>I blogged a bit more than the previous year - a total of seven blog posts, whereas in 2019 I only wrote five blog post. I also managed to post 27 notes in 2020.</p>
+<p>In 2019 I jumped on the week-notes bandwagon but it soon started to feel a bit repetitive with not much to write about. Then I saw Clive Walker was doing monthly notes and I thought that would be better-suited format and I managed to stick with it - writing one for every month of 2020.</p>
+<p>Looking forward to 2021 I want to continue blogging – I had some very encouraging comments from people finding my posts useful and that was great but it’s also improving my writing skills and ability to better communicate about a particular subject.</p>
+<h3>My Website</h3>
+<p>I guess a side project is something you work on the side – so I guess my website was my main side project for the year.</p>
+<p>I have spent quite a bit of time improving the performance of my website over the year. I also managed to add more to it.</p>
+<p>I delved into security headers and that lead to further <a href="https://www.juanfernandes.uk/blog/improved-website-because-of-csp/">improvements to my website performance</a> and overall user experience.</p>
+<p>Another side project was a website I designed and built for a friend's martial arts business – <a href="https://www.kuksoolwonwoodbridge.co.uk">Kuk Sool Won Woodbridge</a>.</p>
+<p>This was a fairly simple, bright design and a huge improvement on their previous website. All hand-coded with HTML, Sass and using <a href="https://www.11ty.dev">Eleventy</a> with Nunjucks templates.</p>
+<p>I worked on another side project, which wasn’t planned – I built and released my first 11ty plugin – <a href="https://github.com/juanfernandes/eleventy-plugin-cloudinary">Cloudinary Images</a> which allows the user to embed an image from cloudinary in your markup.</p>
+<p>This is the first time I released anything code related to the wild. It got quite a bit of interest when released – including a 'like' from Chris Coyer.</p>
+<h3>Reading</h3>
+<p>I finally finished the Stephen King series The Dark Tower – all 8 books!</p>
+<p>My fiction reading for quite a few years has just been Stephen King books for two reasons – I like his work and I have quite a few of his books. But after the Dark Tower series I fancied a change and have started reading The Fireman by Joe Hill (yes, Stephen King’s son 😁).</p>
+<p>I also did a lot more reading from my Instapaper archive and I started tracking my monthly reads and sharing them on my monthly notes posts.</p>
+<h2>That’s it!</h2>
+<p>Well, it’s taken me all of January to get this review written and typed up. Just goes to show what kind of year 2020 was that I was so eager to write this.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: 2020: Year in review">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>How I improved my website because of Content Security Policies</title>
+    <link href="https://www.juanfernandes.uk/blog/improved-website-because-of-csp/"/>
+    <published>2021-01-08T23:00:00Z</published>
+    <updated>2021-01-08T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/improved-website-because-of-csp/</id>
+    <summary><![CDATA[Last month I delved into security headers including Content Security Policies and added a bunch of them to my website. As a result this has improved my website]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:How I improved my website because of Content Security Policies,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p class="lead">Last month I delved into security headers including Content Security Policies and added a bunch of them to my website. I did this to learn more about website security and improve my websites' security.</p>
+<p>But I learnt that I had inadvertently broken some things on my site - this wasn't obvious because I have a cobbled together ServiceWorker which meant I didn't see the things that had stopped working - namely images and sliders.</p>
+<p>I spent a few hours applying fixes to my website to comply with the Content Security Policies I implemented a few weeks ago and at the same time improved my websites' performance and usability.</p>
+<aside class="fyi"><p>CSP or Content Security Policy - are a set of rules you add to a web server to say how content should be served and from where. For example, you can choose to serve images, CSS and JS just from your domain. That means, for example, google analytics would not work and any scripts hosted elsewhere unless you specifically allow that domain.</p></aside>
+<p>The issue I had is that its either all or nothing. So you cant have any inline JS or CSS. The JS was a quick fix - I needed to move it to a file. But I use CSS to apply background images to components via the CMS. So I needed to move that to the CSS file and use a class to apply a chosen background image.</p>
+<h2>What I changed</h2>
+<h3>Problem - Inline CSS</h3>
+<p>One of the issues I had was that all inline CSS is blocked, only linked to CSS files will be applied to my website, this meant that I had to change how I did the background images for the hero section. I was able to add the image via front matter or the CMS, which would then be added to the hero section using inline CSS.</p>
+<h3>Solution</h3>
+<p>I now have a list of modifier classes I add to the hero section that chooses the type of background image I use. I have been using the same image for code related blog posts, for example, so it made sense to move that to a class in my main stylesheet. I can always create new ones with different background images when I need them.</p>
+<p>You can use the &quot;inline-unsafe&quot; CSP rule to allow inline styling, but this makes it, as the name suggests, not safe to use. I think with my limited security knowledge that if you disallow inline scripts, it would be safe to allow inline styling - I can imagine the only way for someone to change the styling of your website would be via an injected script.</p>
+<h3>Problem - Inline JavaScript, JS Library</h3>
+<p>I had a testimonials slider on my homepage - it used a slider script and some custom JS to customise the slider. I started by moving the custom code from being inline into a JS file and linking to it, but I was struggling to generate a SHA (Secure Hash Algorithm) for the slider library.</p>
+<h3>Solution</h3>
+<p>Since I was struggling to get a SHA to work with the code for the slider, I decided to get rid of all the JavaScript, not just from the homepage, but also from the portfolio work pages.</p>
+<p>Now I show a random testimonial on the homepage, with a new one being randomly shown every time there is a new build of my website.</p>
+<p>I also removed the image slider from portfolio projects. The images now are shown in a column with project details on the right which I also applied position sticky to the project detail sidebar to it stays with the user as they scroll down to see all the project images.</p>
+<h2>The result?</h2>
+<div class="u-center"><img class="u-block u-auto-width" src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto/fireworks.jpg" loading="lazy" width="520" height="215" alt="Shows the results of a Chromium Lighthouse test on my website"></div>
+<p>I enjoyed it this - now my website fully complies with very secure CSPs. It's more secure, has better performance and better for users. Win win.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: How I improved my website because of Content Security Policies">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Add your site to the Eleventy Leaderboards</title>
+    <link href="https://www.juanfernandes.uk/blog/add-your-site-to-eleventy-leaderboard/"/>
+    <published>2020-12-09T23:00:00Z</published>
+    <updated>2020-12-09T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/add-your-site-to-eleventy-leaderboard/</id>
+    <summary><![CDATA[This is a quick tip showing you how to add your eleventy built website to the Eleventy leaderboards]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Add your site to the Eleventy Leaderboards,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p class="lead">The Eleventy (11ty) leaderboard benchmarks websites built with Eleventy over time.</p>
+<p>TL;DR - You need to add your site via GitHub to the eleventy website repository and create a pull request for it to be included in the leaderboards.</p>
+<img src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto//eleventy-leaderboards.jpg" alt="Screenshot of the Eleventy Leaderboards top 5">
+<hr>
+<h2>Let's get started</h2>
+<ol>
+<li>Go to the eleventy website GitHub repository - <a href="https://github.com/11ty/11ty-website">https://github.com/11ty/11ty-website</a></li>
+<li>Navigate to <code>/_data/sites</code> - here you will find <code>JSON</code> files - each one represents a website built with Eleventy and ones shown on the leaderboard</li>
+<li>Now you need to create your own <code>JSON</code> file for your website, so click on the <strong><em>Add file</em></strong> button and then on the dropdown click on <strong><em>Create new file</em></strong></li>
+</ol>
+<img src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto//1-create-new-file.jpg" alt="Shows user selecting create new file menu item in GitHub">
+<ol start="4">
+<li>
+<p>Enter your a file name in the <strong><em>Name your file...</em></strong> input. This is a filename, so don't use spaces or punctuation marks, but you can use hyphens (-) or underscores (_) to separate words</p>
+</li>
+<li>
+<p>Use the template below with your website's details as the content of your new file:</p>
+</li>
+</ol>
+<pre><code>{
+    &quot;url&quot;: &quot;&quot;,
+    &quot;name&quot;: &quot;&quot;,
+    &quot;description&quot;: &quot;&quot;,
+    &quot;twitter&quot;: &quot;&quot;,
+    &quot;authoredBy&quot;: [&quot;&quot;],
+    &quot;source_url&quot;: &quot;&quot;
+}
+</code></pre>
+<ul>
+<li><strong>url</strong>: The site’s live URL</li>
+<li><strong>name</strong>: Name of the site</li>
+<li><strong>description</strong>: A short text description of the site</li>
+<li><strong>twitter</strong>: Twitter username for the site or the site’s author.</li>
+<li><strong>authoredBy</strong>: An array of Twitter usernames of the site’s authors. Supplements the twitter entry. (Optional)</li>
+<li><strong>source_url</strong>: URL to the source code (Optional)</li>
+</ul>
+<img src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto//2-add-your-file.jpg" alt="Shows new JSON file being created in GitHub">
+<p>Now that you're done creating the new file, you need to save it and also create a pull request - this will ask for your file to be added to the eleventy repository.</p>
+<ol start="6">
+<li>
+<p>You don't need to add anything to the optional description field</p>
+</li>
+<li>
+<p>Click on the <strong><em>Propose new file</em></strong> button</p>
+</li>
+<li>
+<p>On the next screen, you can check your changes and then click on the <strong><em>Create pull request</em></strong> button to proceed.</p>
+</li>
+<li>
+<p>You don't need to add a comment, but you can thank <a href="https://twitter.com/zachleat" title="Zack Leatherman on Twitter">Zach</a> for creating Eleventy. Then click on the  <strong><em>Create pull request</em></strong> button again</p>
+</li>
+<li>
+<p>Next, GitHub will do a bunch of checks on your changes and it will tell you if there are any conflicts. Hopefully, there aren't, but if you followed this exactly you shouldn't have any conflicts.</p>
+</li>
+</ol>
+<figure>
+  <img src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto//3-final-step.jpg" alt="Shows a sucessfull pull request screen in GitHub">
+  <figcaption>This is the result of me submitting an actual change, so I'd have a screenshot of what the final stage looks like.</figcaption>
+</figure>
+<p>That's it - you can now close the page and wait. Once your pull request gets merged, your website will be included in the next round of leaderboard checks and added to the leaderboard.</p>
+<p>Keep an eye out on the <a href="https://www.11ty.dev/speedlify/">Eleventy Leaderboards</a> to see how your website scores.</p>
+<aside class="fyi"><p>Once your website has been added to the Eleventy GitHub repository, you will also get your author page on the Eleventy website.</p></aside>
+<p>Check out my <a href="https://www.11ty.dev/authors/juanfernandes/" title="Juan Fernandes' author page on the Eleventy website">author page</a>.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Add your site to the Eleventy Leaderboards">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Improving Website Security</title>
+    <link href="https://www.juanfernandes.uk/blog/improving-website-security/"/>
+    <published>2020-11-20T16:00:00Z</published>
+    <updated>2020-11-20T16:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/improving-website-security/</id>
+    <summary><![CDATA[Since WebPageTest.org started testing website security, I wanted to learn more about it & figure out how to improve my website security using headers on Netlify]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Improving Website Security,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p>Ever since I converted my website to Eleventy - from PHP - I have been obsessively working ton improving its performance.</p>
+<p>One well-known tool that I use for checking website performance is <a href="https://www.webpagetest.org" title="Test your website performance">WebPageTest.org</a> and they recently added a new metric to test for - security.</p>
+<p>This new test is provided by the <a href="https://snyk.io/">Snyk</a>. You can sign up for a free account, give it access to your project's repository and it will actively perform security checks on your code dependencies and you'll be notified if there are any vulnerabilities.</p>
+<p>You don't need to have a Snyk account to improve your website security. You only need one if you want them to scan your website repository. 👍 But If you do, you can also use their command-line tool to check your website locally as you work on it.</p>
+<h2>So why do this?</h2>
+<p>Firstly, I didn't like seeing that red square with an E grade next to all the green checks ✅ - but also it was a good learning opportunity.</p>
+<aside class="fyi"><p>Confession time - I'm not a website or server security expert. Everything I did to my website was based on what I learnt whilst researching the suggestions from Snyk and WebPageTest.</p></aside>
+<p>Also, and most importantly to protect my website and users from hacks introduced via JavaScript vulnerabilities like cross-site scripting or compromised npm scripts and a lot more.</p>
+<h2>How do I do this?</h2>
+<p>First, test your website using WebPateTest.org and see what level of security your website currently has. Then If you need to improve it, look at your security report to see what Snyk recommends you need to improve.</p>
+<p>Based on the report from Snyk, on WebPageTest I researched each of the issues it said I needed to fix. To see what you need to fix, click on the grade letter for security to be taken to your detailed report.</p>
+<p><strong>These are the security issues I had to fix:</strong></p>
+<ul>
+<li><strong>X Content Type Options:</strong>
+The only defined value, &quot;nosniff&quot;, prevents Internet Explorer from MIME-sniffing a response away from the declared content-type. This also applies to Google Chrome, when downloading extensions</li>
+<li><strong>X Frame Options:</strong>
+Clickjacking protection: deny - no rendering within a frame, sameorigin - no rendering if origin mismatch, allow-from - allow from specified location, allowall - non-standard, allow from any location</li>
+<li><strong>Content Security Policy:</strong>
+A computer security standard introduced to prevent cross-site scripting (XSS), clickjacking and other code injection attacks resulting from execution of malicious content in the trusted web page context</li>
+<li><strong>X XSS Protection:</strong>
+A Cross-site scripting filter. The HTTP X-XSS-Protection response header is a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks.</li>
+</ul>
+<h2>Let's look at some code</h2>
+<p>This was done specifically for my website which is hosted with Netlify, but the same principles apply to other hosts - just be aware that the way the headers code is formatted may differ.</p>
+<p>There are two ways to do this for a website hosted on netlify - you can either add it to your <code>netlify.toml</code> config file or create a <code>_headers</code> file.</p>
+<ul>
+<li><a href="https://docs.netlify.com/routing/headers/#syntax-for-the-netlify-configuration-file">Syntax for the config file</a></li>
+<li><a href="https://docs.netlify.com/routing/headers/#syntax-for-the-headers-file">Syntax for the headers file</a></li>
+</ul>
+<p>It's up to you which one you use - the difference between the two is how the headers code is formatted.</p>
+<p>I chose to add mine to the netlify config file because I already had that file and it made sense to keep all netlify related settings in the same place.</p>
+<p>Here is what my security headers look like in my netlify config file:</p>
+<p>[[headers]]
+for = &quot;/*&quot;
+[headers.values]
+X-Content-Type-Options = &quot;nosniff&quot;
+Content-Security-Policy = &quot;default-src 'self' https://res.cloudinary.com; frame-ancestors 'none'; style-src 'self' 'unsafe-inline';&quot;
+X-Frame-Options = &quot;DENY&quot;
+X-XSS-Protection = &quot;1; mode=block&quot;</p>
+<aside class="fyi"><p>You could copy the above code and add it to your netlify config file, but it may be better if you do your research, as some of these security headers may stop scripts from third-parties working on your website.</p></aside>
+<h2>Conclusion</h2>
+<img src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto//v1605887921/before-and-after_sbwdh3.jpg" alt="Before and after WebPageTest results">
+<p>There you have it - easy when you know how and I didn't break my site once. There are still a few more things to work on going forward, looking at the Mozilla Observatory test results for my website shows that there is still room for improvement - but I now have the basics covered and a more secure website.</p>
+<p>I hope you found this post useful. I have listed the resources I used bellow to help you make your website more secure.</p>
+<h2>Resources</h2>
+<h3>Learning Resources</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection">X XSS Protection documentation</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP">Content Security Policy documentation</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">X Frame Options documentation</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options">X Content Type Options documentation</a></li>
+<li><a href="https://notes.elmiko.dev/2019/06/27/netlify-headers.html">Netlify Headers</a></li>
+<li><a href="https://www.keycdn.com/support/x-content-type-options">X Content Type Options on KeyCDN</a></li>
+<li><a href="https://www.tomodwyer.com/posts/2017-08-20-improve-your-mozilla-observatory-score/">Improve your Mozilla observatory score</a></li>
+<li><a href="https://infosec.mozilla.org/guidelines/web_security">Web Security - Mozilla guide</a></li>
+</ul>
+<h3>Tools</h3>
+<ul>
+<li><a href="https://www.experte.com/pagespeed"><strong>NEW</strong> - Bulk Page Speed Test</a></li>
+<li><a href="https://observatory.mozilla.org/">Mozilla Observatory</a></li>
+<li><a href="https://securityheaders.com/">Security Headers</a></li>
+<li><a href="https://www.ssllabs.com/ssltest/">SSL Labs</a></li>
+</ul>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Improving Website Security">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Creating a Sitemap file with Eleventy</title>
+    <link href="https://www.juanfernandes.uk/blog/creating-a-sitemap-file-with-11ty/"/>
+    <published>2020-10-22T23:00:00Z</published>
+    <updated>2020-10-22T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/creating-a-sitemap-file-with-11ty/</id>
+    <summary><![CDATA[This is a quick tip showing how I created a sitemap.xml file using Eleventy that will automatically update itself when you create new pages]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Creating a Sitemap file with Eleventy,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p>This is a quick tip showing how I created a <code>sitemap.xml</code> file using <a href="https://www.11ty.dev" title="Eleventy - the simpler static site generator">Eleventy</a> that will automatically update itself when you create new pages.</p>
+<p>You need a sitemap to make it easier for search engines to index your website - but you can also inform them about how often pages are updated, when they were last updated and the priority level for each page.</p>
+<h2>What is a sitemap.xml file?</h2>
+<blockquote>
+<p>The Sitemaps protocol allows a webmaster to inform search engines about URLs on a website that are available for crawling. A Sitemap is an XML file that lists the URLs for a site. It allows webmasters to include additional information about each URL: when it was last updated, how often it changes, and how important it is in relation to other URLs of the site.</p>
+</blockquote>
+<p><em><a href="https://en.wikipedia.org/wiki/Sitemaps">Wikipedia</a></em></p>
+<h2>How it works</h2>
+<p>The first thing I am doing here is excluding the sitemap file from the eleventy collection - we don't want the sitemap listing the sitemap.xml file as an entry.</p>
+<p>I then set the permalink - which is the filename we want as its what search engines look for when they visit your website.</p>
+<p>We then loop through the eleventy <code>collections.all</code> and output each page URL wrapped in a <code>&lt;url&gt;</code> tag. Inside that tag, we have the standard sitemap tags, <code>&lt;loc&gt;</code>, <code>&lt;lastmod&gt;</code>, <code>&lt;changefreq&gt;</code> and <code>&lt;priority&gt;</code>.</p>
+<ul>
+<li>LOC is short for Location and holds the complete URL to the page</li>
+<li>LASTMOD is short for Last Modified which is the date the file was last changed</li>
+<li>CHANGEFREQ is short for Change Frequency which tells search engines how often the page changes</li>
+<li>PRIORITY tag which tells search engines the priority of the page.</li>
+</ul>
+<h2>Let's see the code</h2>
+<pre><code>---
+eleventyExcludeFromCollections: true
+permalink: sitemap.xml
+---
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;urlset
+      xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;
+      xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+      xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot;&gt;
+  {%- for page in collections.all %}
+  &lt;url&gt;
+    &lt;loc&gt;{{ site.url }}{{ page.url }}&lt;/loc&gt;
+    &lt;lastmod&gt;{{ page.date | w3DateFilter }}&lt;/lastmod&gt;
+    &lt;changefreq&gt;monthly&lt;/changefreq&gt;
+    {% if page.url == '/' %}
+    &lt;priority&gt;1.00&lt;/priority&gt;
+    {% else %}
+    &lt;priority&gt;0.50&lt;/priority&gt;
+    {% endif %}
+  &lt;/url&gt;
+  {%- endfor %}
+&lt;/urlset&gt;
+</code></pre>
+<h3>A couple of things to note</h3>
+<p>I am using a filter to process and format the date - that's the w3DateFilter in the lastmod tag.</p>
+<p>Also, I'm setting the home page as having the highest priority and setting all other pages to be less of a priority. I'm not an SEO expert and so I don't know if this is the best way of doing it or not, but based on some quick research I'm convinced this approach will work as I read that if you omit the priority, then a page's priority is usually set to 0.5 by default. This will work for smaller sites, but on a large site - this may not be the best approach.</p>
+<p>Same with the Change Frequency - I'm setting all pages to have monthly set as the default for how often the page changes. I won't be doing many updates on my clients' website so I think monthly is appropriate for their website.</p>
+<p>That's it - this is enough for a small website that doesn't get updated very often, but we can make this better for larger sites with content authors - let's look into that now.</p>
+<h2>Now let's make it better</h2>
+<p>The above example works perfectly for my client and their small website. It doesn't need to be updated regularly and they don't have a lot of pages - plus they are not very technical, so asking them to specify a page priority and change frequency I know it just wouldn't work for them.</p>
+<p>But let's say you have a client website that has content authors and they are used to SEO terms, page priorities and change frequencies - let's give them the ability to add those to pages.</p>
+<p>Here we are adding it via frontmatter but this could be handled by a CMS as well.</p>
+<pre><code>---
+eleventyExcludeFromCollections: true
+permalink: sitemap.xml
+---
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;urlset
+      xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;
+      xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+      xsi:schemaLocation=&quot;http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd&quot;&gt;
+  {%- for page in collections.all %}
+  &lt;url&gt;
+    &lt;loc&gt;{{ site.url }}{{ page.url }}&lt;/loc&gt;
+    &lt;lastmod&gt;{{ page.date | w3DateFilter }}&lt;/lastmod&gt;
+    &lt;changefreq&gt;{% if page.data.changefreq %}{{ page.data.changefreq }}{% else %}monthly{% endif %}&lt;/changefreq&gt;
+    &lt;priority&gt;{% if page.data.priority %}{{ page.data.priority }}{% else %}0.5{% endif %}&lt;/priority&gt;
+  &lt;/url&gt;
+  {%- endfor %}
+&lt;/urlset&gt;
+</code></pre>
+<h2>Let's look at what is different</h2>
+<p>We are now checking to see if the page data contains a <code>changefreq</code> if it does, we use it, otherwise, we use <em>monthly</em> as the default and we use the same approach with the page <code>priority</code> - if the user has not set a page priority, we use a default of <em>0.5</em> - that's it.</p>
+<p>A nice and easy fix to allow content authors more control over their pages whilst also having a default value automatically set if the author has not set one.</p>
+<h2>Wrapping up</h2>
+<p>I love these quick wins - doing a small thing to make maintaining a website a lot easier. You can just set it and forget it.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Creating a Sitemap file with Eleventy">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Automated Open Graph images with 11ty and Cloudinary</title>
+    <link href="https://www.juanfernandes.uk/blog/automated-open-graph-images-with-11ty-and-cloudinary/"/>
+    <published>2020-09-22T23:00:00Z</published>
+    <updated>2020-09-22T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/automated-open-graph-images-with-11ty-and-cloudinary/</id>
+    <summary><![CDATA[I wanted to find a way to dynamically generate a unique Opengraph images for each blog post automatically using post data, Cloudinary API & Eleventy]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Automated Open Graph images with 11ty and Cloudinary,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p>I wanted to find a way to dynamically generate a unique Open Graph (OG) image for each blog post or note automatically using post data, the Cloudinary API and Eleventy (11ty) for social sharing.</p>
+<p>The purpose of this solution is to save time by not having to manually create a blog post image for each post and make blog posts stand out more when shared on social media websites like Twitter for example.</p>
+<p>Previously I was using a generic image for posts, or if I used a specific image for the blog post header, then that would become the OG image. But I wanted something unique for each post and something that would instantly tell people on social media what the post was about.</p>
+<p>There are many ways to achieve this, for example, <a href="http://drewmclellan.net/" title="Drew McLellans' website">Drew McLellan</a> wrote <a href="https://24ways.org/2018/dynamic-social-sharing-images/">Dynamic Social Sharing Images</a> back in 2018, but Drew is doing this at build time and is using some very clever stuff with Puppeteer and also this post, <a href="https://dev.to/5t3ph/automated-social-sharing-images-with-puppeteer-11ty-and-netlify-22ln">Automated Social Sharing Images</a> by <a href="https://thinkdobecreate.com/" title="Stephanie Eckles' website">Stephanie Eckles</a> that also uses Puppeteer.</p>
+<p>Those are great solutions, but I wanted something simpler to set up, lightweight on dependencies, not too technical and to just be able to <em>'set it and forget it'</em>.</p>
+<h2>Solution</h2>
+<p>What I wanted to achieve was to have an OpenGraph image that shows the post title on top of the image with my logo added to the image as well. This is what it will look like:</p>
+<img src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto/opengraph-image_y6colg.webp" alt="Image showing a blog post title and my logo">
+<p>First you will need to make sure you have the OpenGraph tags for images added to the <code>&lt;head&gt;</code> of your page template, in my case I have this in my <code>blog.njk</code> layout in eleventy. Here is the code I currently use:</p>
+<pre class="language-html"><code class="language-html">{% if postImage %}<br><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image<span class="token punctuation">"</span></span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ site.cloudinary_url }}{{ postImage }}<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image:alt<span class="token punctuation">"</span></span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image:alt<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ title }}<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><br>{% else %}<br><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image<span class="token punctuation">"</span></span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ site.meta.ogImg }}<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br>  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image:alt<span class="token punctuation">"</span></span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image:alt<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ site.meta.ogImgAlt }}<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><br>{% endif %}</code></pre>
+<p>Here I am checking to see if the post has specified a post image, if not, then use the default one (which I need to amend to use what I am writing about here). You'll notice that I have merged the OpenGraph tags (<code>name=&quot;twitter:image&quot; property=&quot;og:image&quot;</code>) that Facebook and Twitter use instead of having multiple lines of code for the same thing. Note that you can specify ALT text for the image.</p>
+<p>Since I already use Cloudinary, I was happy to discover that their API has <a href="https://cloudinary.com/documentation/image_transformations#image_and_text_overlays" title="Cloudinary API - Image and Text Overlays Documentation">text and image overlays</a> that you can add to your images when you request them.</p>
+<p>This meant that my idea to have the post title and my logo overlaid on an image could be achieved.</p>
+<h2>How does it work?</h2>
+<p>This works by passing variables in the cloudinary image request URL, these variables are then used by the cloudinary API to create these custom images <em>on the fly</em>.</p>
+<p>Here is the complete URL for requesting an image with some custom overlays - in this case, the blog post title and my website logo.</p>
+<pre><code>https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_80_bold_center:Using Defer to improve performance,co_rgb:eee,c_fit,w_600//v1579162296/computer-18363301920-1.jpg
+</code></pre>
+<p>The great thing about this is that you can design your image right in the browser by adding a few variables to the URL.</p>
+<p>Now, this is how my OpenGraph images code in my <code>blog.njk</code> layout template looks like using the Cloudinary variables and my blog post variables in Eleventy.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image<span class="token punctuation">"</span></span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ site.cloudinary_url }}w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_80_bold_center:{{ title }},co_rgb:eee,c_fit,w_600/{{ postImage }}<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>twitter:image:alt<span class="token punctuation">"</span></span> <span class="token attr-name">property</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>og:image:alt<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{{ title }}<span class="token punctuation">"</span></span> <span class="token punctuation">/></span></span></code></pre>
+<h2>Let's break it down</h2>
+<p>Essentially I am passing the post title text and image using Nunjucks variables, then I'm telling Cloudinary how to display that text and image overlay on top of the post image. Here is a breakdown of what all those variables mean:</p>
+<ul>
+<li><code>https://res.cloudinary.com/juanfernandes/</code> this is a variable I use to pass the  cloudinary URL which my account name</li>
+<li><code>w_1200,f_auto/</code> here I am requesting the images at 1200px wide and automated image format</li>
+<li><code>l_juanfernandes-logo</code> this is the name of the image I want to use in the overlay, my logo, it's prepended with <code>l_</code> and this is what tells cloudinary to use it as an overlay</li>
+<li><code>w_100,g_south_east,x_60,y_40/</code> this specifies the size of the image, 100px wide and the position, bottom right and its exact placement using X and Y values</li>
+<li><code>l_text:Georgia_80_bold_center</code> this tells cloudinary that the overlay text should be in Georgia font and the font size should be 80px, bold and centred</li>
+<li><code>Automated Open Graph images with 11ty and Cloudinary</code> this is nunjucks variable for the blog post title</li>
+<li><code>co_rgb:eee,c_fit,w_600</code> this tells cloudinary the colour we want the overlay text to be, places it centred vertically and horizontally and sets a max-width for the text</li>
+<li><code>v1579162296/computer-18363301920-1.jpg</code> this variable passes the name of the post image already uploaded to cloudinary</li>
+</ul>
+<p>For general posts, like <a href="/notes/">Notes</a>, I created a generic image using my brand colour and the text is added in the centre of the image and my logo at the bottom right.</p>
+<p>For posts where I have used a custom image, I make sure that it's a dark image to make the white text is legible.</p>
+<p>This was a quick solution and an easy win that will make my posts stand out a bit more on social media. I got to delve into and learn more about the Cloudinary API overlays in general.</p>
+<h3>Tip: Testing your social sharing images</h3>
+<p>Twitter and Facebook provide tools for you to test your social media 'cards' and here is what mine now looks like on Twitter.</p>
+<img src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto/card_preview_twitter-dev.png" alt="Image showing the twitter card preview tool">
+<ul>
+<li><a href="https://cards-dev.twitter.com/validator" title="Twitter Card Validator">Twitter Card Validator</a></li>
+<li><a href="https://developers.facebook.com/tools/debug/" title="Facebook Sharing Debugger tool">Facebook Sharing Debugger</a></li>
+</ul>
+<h2>Taking this further</h2>
+<p>I could take this a step further and pass the colour of the text or be able to choose a different logo or image to use as an overlay that can be set via a Content Management System, in my case that's <a href="https://www.forestry.io" title="Forestry CMS website">Forestry.io</a> when creating a post.</p>
+<p>I could even turn this into an 11ty Plugin.</p>
+<p>Hope you find this useful and if you want to discuss anything about it, reach out to me on <a href="https://twitter.com/juanfernandes" title="Juan Fernandes on Twitter">Twitter</a>.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Automated Open Graph images with 11ty and Cloudinary">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Using Defer to improve performance</title>
+    <link href="https://www.juanfernandes.uk/blog/using-defer-to-improve-performance/"/>
+    <published>2020-08-03T23:00:00Z</published>
+    <updated>2020-08-03T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/using-defer-to-improve-performance/</id>
+    <summary><![CDATA[Using Defer to improve the performance of my website by only loading JavaScript and CSS on a per component/partial basis.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Using Defer to improve performance,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p>In my last post, <a href="https://www.juanfernandes.uk/blog/exploring-the-benefits-of-http-2/" title="Exploring the benefits of HTTP2">Exploring the benefits of HTTP2</a>, I wrote about removing jQuery and my <code>global.min.js</code> files in favour of loading JavaScript on a per component or partial basis, so only when that component is included on a page it then loads the needed JavaScript code and library.</p>
+<p>Which lead me to look into Defer in JavaScript as another way to improve performance.</p>
+<p>&quot;This Boolean attribute is set to indicate to a browser that the script is meant to be executed after the document has been parsed, but before firing DOMContentLoaded.</p>
+<p>Scripts with the defer attribute will prevent the DOMContentLoaded event from firing until the script has loaded and finished evaluating.&quot; - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script" title="MDN Web Docs">MDN Web Docs</a></p>
+<p>Since the testimonials slider on my homepage is near the end of the page, I don't need to load the JavaScript right away and since it's not used on every page, it makes sense to only load it where the slider is being used.</p>
+<p>I read a few articles on Async and Defer to try and understand the difference between both and which was the correct one to use for the testimonials slider.</p>
+<p>So I figured I would just need to add the defer attribute to the <code>&lt;script&gt;</code> tag for the TinySlider JavaScript and that would be it...</p>
+<p>But I found that doing this, it stopped the slider from working - I'm still learning JavaScript, so you will have to forgive me. I looked at the TinySlider example code I used and realised it was written so it would run as soon as the browser loads that part of the code.</p>
+<p>What I needed to do was change the code to only run when the DOM had finished loading and this meant that the HTML code for the slider would have been loaded too.</p>
+<pre><code>	      &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/components/slider.css&quot;&gt;
+          &lt;script src='/assets/js/tiny-slider.js' defer&gt;&lt;/script&gt;
+          &lt;script&gt;
+            document.addEventListener(&quot;DOMContentLoaded&quot;, () =&gt; {
+              let slider = tns({
+                container: '.testimonials__slider',
+                items: 1,
+                autoHeight: true,
+                speed: 400,
+                loop: true,
+                autoplay: true,
+                autoplayButtonOutput: false,
+                controls: false,
+                autoplayHoverPause: true,
+                nav: true,
+                navPosition: &quot;bottom&quot;,
+              });
+            });
+          &lt;/script&gt;
+</code></pre>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Using Defer to improve performance">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Exploring the benefits of HTTP2</title>
+    <link href="https://www.juanfernandes.uk/blog/exploring-the-benefits-of-http-2/"/>
+    <published>2020-05-03T23:00:00Z</published>
+    <updated>2020-05-03T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/blog/exploring-the-benefits-of-http-2/</id>
+    <summary><![CDATA[Since this website is hosted on Netlify & they serve websites using the HTTP/2 protocol I've started exploring the benefits of it]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Exploring the benefits of HTTP2,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p>Now that this website is hosted on <a href="https://www.netlify.com">Netlify</a> and they serve websites using the <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTTP_2">HTTP/2 protocol</a> I've started exploring the benefits of it and what I need to change to take advantage of those benefits.</p>
+<blockquote>
+<p>HTTP/2 is a major revision of the HTTP network protocol. The primary goals for HTTP/2 are to reduce latency by enabling full request and response multiplexing, minimize protocol overhead via efficient compression of HTTP header fields, and add support for request prioritization and server push.  - MDN Web Docs</p>
+</blockquote>
+<p>After some research, I found out that when a website is being served via HTTP/2, you no longer need to rely on the following techniques to improve the performance of your website:</p>
+<ul>
+<li>Concatenated CSS and JS</li>
+<li>Inline CSS (criticalCSS)</li>
+<li>Use of a CDN (Content Distribution Network)</li>
+</ul>
+<p>This website is fairly simple and does not rely on a lot of JavaScript but does use it for a couple of sliders, one on the homepage for testimonials and another on each of the work pages.</p>
+<p>I used this <a href="https://tools.keycdn.com/http2-test" title="HTTP/2 Protocol Test">tool from KeyCDN</a> to find out if my website was being served via the HTTP/2 protocol.</p>
+<h2>The Old Way</h2>
+<p>What I was doing before was to load jQuery in the footer on all pages along with a <code>global.min.js</code> file - which was a concatenated file made up of my <code>main.js</code> and <code>plugins.js</code> files.</p>
+<p>The file was minified, but it's still a lot of JS to load on every single page, even if it wasn't being used - and to top it all off, I was also loading jQuery.</p>
+<h2>Out with the old, in with the new... way</h2>
+<p>The first thing I decided to do was to get rid of jQuery - there's nothing wrong with jQuery, I know its no longer flavour of the month, but it still has its place and it's still used by a lot of websites, but for my website, it was overkill.</p>
+<p>So I replaced the jQuery slider with a vanilla JS alternative, <a href="https://github.com/ganlanyuan/tiny-slider">TinySlider</a>. I spent some time researching to find a slider that was small in size as well as accessible. I'm not an accessibility expert, so I just made sure that the slider was navigable using a keyboard.</p>
+<p>This meant I could remove the code in the footer that loaded the jQuery library from the jQuery CDN and also stopped including the <code>plugins.js</code> file into the <code>global.min.js</code> file.</p>
+<p>It's a great start, the global.min.js file was now smaller and I was no longer loading jQuery.</p>
+<p>But I didn't stop there. One of the advantages of HTTP/2 is that you don't have to worry about too many file requests.</p>
+<p>Instead of including the JavaScript code for the slider on every single page. I decided to only include the slider JS code in the slider partial - I'm using Nunjucks for this, but you can do this with other templating languages.</p>
+<p>This is the code for the testimonials slider on my homepage:</p>
+<pre><code>              &lt;link rel=&quot;stylesheet&quot; href=&quot;/assets/css/components/slider.css&quot;&gt;
+              &lt;script src='/assets/js/tiny-slider.js' defer&gt;&lt;/script&gt;
+              &lt;script&gt;
+                document.addEventListener(&quot;DOMContentLoaded&quot;, () =&gt; {
+                  let slider = tns({
+                    container: '.testimonials__slider',
+                    items: 1,
+                    autoHeight: true,
+                    speed: 400,
+                    loop: true,
+                    autoplay: true,
+                    autoplayButtonOutput: false,
+                    controls: false,
+                    autoplayHoverPause: true,
+                    nav: true,
+                    navPosition: &quot;bottom&quot;,
+                  });
+                });
+              &lt;/script&gt;
+</code></pre>
+<p>At the same time, I also included the CSS or the slider - just on the slider partial.</p>
+<p>The JS and CSS files, as well as the slider JS code, are included the at the end of the slider partial so that when the JS runs, the HTML for the slider has already been loaded by the DOM.</p>
+<p>This change has improved my websites' overall performance score on Lighthouse - but there is one more thing I need to fix before its perfect.</p>
+<p><em>This is all new to me and I may have made a mistake or misunderstood something, if you spot something, please let me know -</em> <a href="https://twitter.com/juanfernandes"><em>send me a tweet</em></a></p>
+<p><strong>May the 4th be with you</strong></p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Exploring the benefits of HTTP2">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>2019: Year in review</title>
+    <link href="https://www.juanfernandes.uk/blog/2019-year-in-review/"/>
+    <published>2020-01-05T13:54:38Z</published>
+    <updated>2020-01-05T13:54:38Z</updated>
+    <id>https://www.juanfernandes.uk/blog/2019-year-in-review/</id>
+    <summary><![CDATA[Another year gone but it was a very good year both professionally and personally, but there is room for improvement in twenty twenty.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:2019: Year in review,co_rgb:eee,c_fit,w_600//v1579162296/sun_sea.jpg" />
+    <content type="html"><![CDATA[
+      <p>Another year gone but it was a very good year both professionally and personally, but there is room for improvement in twenty twenty.</p>
+<h2>Work</h2>
+<p>This year I had a total of 4 contracts which meant I was working for most of the year without any big gaps. It was a year of 'firsts' for me; it was the first time I ended a contract early; first time I returned to working with a previous client; first time I got to work as an interaction designer for GOV project using the GOV.UK Prototype Kit.</p>
+<h3>Ending a contract early</h3>
+<p>I started a contract working with a company in the self-catering UK short breaks holiday space - but I ended the three-month contract early after only being there for one month. It seemed like the perfect contract - it was only an hours drive from home, which if you know where I live, you know that is not bad at all and after 2 weeks I was able to work from home three days a week.</p>
+<h4>So what went wrong?</h4>
+<p>I spent the first two weeks there without any work to do whatsoever. I was told to use that time to get familiar with the codebase - it didn't take that long to get familiar with it. So I had nothing todo, just waiting for the backend developers to finish their work so that I could do the front-end work. The project was delayed and eventually it was put on hold indefinitely - this was the project I was brought in to work on - the redesign of the checkout process for booking a holiday.</p>
+<p>After that, I was given 'business as usual' work - to start with I had 2 tasks to work on. This was to get changes from the development environment to their QA environment - easy right - normally, just a case of creating a pull request to get your branch merged etc, except they didn't use version control!</p>
+<p>Well, they said they did and what they meant was that their in-house 'CMS' was their custom version control - that was it - you had different versions of pages but no source control, no code changes were highlighted, so you had no idea what code had changed between versions.</p>
+<p>Imagine taking work, previously worked on by three other developers, that have since left, without knowing what those changes were and no documentation - I had to go through work items and then figure out where the change was made and copy it over to QA, then a bunch of stuff would break, I'd fix it and then something else would break or a previous change got undone - more stuff would break, rinse and repeat!</p>
+<p>This on-top of how miserable the place was - the town, the people at the company - I'd arrive in the morning and say &quot;good morning&quot; and barely get a response, most people were already on a 'call' so were unresponsive. Everyone always seemed to be on a call at this place.</p>
+<p>I noticed that people were starting work early, have a short lunch break at their desk so they could leave work early. I didn't expect it to be a party over there every day, but this wasn't a nice working environment. I soon started doing the same, having my lunch in my car - I did start having lunch in the staff area, but everyone was always on their phones and no one ever said anything, so I may as well sit in my car and listen to music.</p>
+<p>There was nothing to see in this town - no green spaces. It was a seaside town; but you couldn't even get to the beach!</p>
+<p>I was not happy there and it was having an impact on my work, my mental health and also my family. I didn't like the idea of ending my contract early as I felt id be letting people down but after speaking to them several times about the lack of work and nothing changing, I decided it couldn't stay any longer.</p>
+<h3>Moving on</h3>
+<p>I took a short term contract, six weeks, in Manchester - which was a lot further than I normally travel for work. But having left my contract early this had left me in a bit of a financial situation - I was still waiting to be paid from the contract I'd just left and I had also made that mistake of not saving enough money to pay my corporation tax, so there was that pressure too - which meant I had to take what ever contract came my way.</p>
+<p>Apart from having to travel to Manchester by train and staying there for the week, it was a great contract - so much to learn - but most of all working with so many passionate and smart people - unfortunately, it was a short contract with no chance for an extension because the company had already hired a full-time interaction designer who was working their notice and had a holiday planned before they would start their new job - I was a gap filler.</p>
+<p>After the short contract in Manchester with the DfE, I started a new contract working with Signet in Borehamwood, North London.</p>
+<p>Signet is the company that owns the H. Samuel and Ernest Jones jewellers and this was initially to be a three-month contract but ended up being there for seven months.</p>
+<p>I was expecting quite a big team at the Signet headquarters but was surprised to find that the entire IT team was quite small - I joined a full-time front end developer and another contractor who was there as a senior front-end developer. He'd been there for about 7 months and had been working on the front-end setup for the new CMS and also setup a component library.</p>
+<p>At first, I didn't think there was enough work to warrant another front-end developer - but eventually, the work picked up and we started working on our first big project.</p>
+<p>The first project was the redesign and rebuild of the website header for both brands. Both brands share the same HTML but have different designs. This proved to be quite the challenge and it meant we had to have more HTML and CSS than we would normally need to build out those components that made up the headers.</p>
+<p>The senior front-end developer built the complex navigation for Ernest Jones. Whilst I built the rest of the components for the header - he also helped out with any JavaScript that was needed for the rest of the header. I wrote some of the basic JavaScript and he then improved it and got it working with his code for the navigation.</p>
+<p>After the Ernest Jones header went live - the senior front-end developer decided it was time to move on and I was then in charge of building the entire header for H. Samuel. This was quite a bit of work due to not being able to change the HTML structure as it was the same code used for Ernest Jones, which was now live - means any changes would impact the QA testing.</p>
+<p>Then the final and biggest project was the redesign and rebuild of the product list pages and the product detail pages for both brands - for this they hired another three contractors and another permanent front-end developer came back after a six-month break. This was a huge undertaking in a small amount of time, but we did it - not 100% perfect and even though not live, a lot of the issues have now been fixed and will be released in the new year after the code freeze.</p>
+<p>My last contract of the year has taken me back to the Chartered Management Institute (CMI). I first worked with CMI back in 2018 - another contract that that was initially 3-months and then got extended for seven months. This was the first time for me - returning to a company I had previously worked with - it's a great feeling and must mean I am doing something right.</p>
+<p>With freelance work, it seems its more common to get repeat work from previous clients whereas I think that's not the same with contract work.</p>
+<h2>Freelance</h2>
+<p>Every year I say I'm going to stop doing freelance work and just focus on contract work to make life less stressful and every year I fail at this - and 2019 was no different - this means I did a bit of freelance work, got some new clients and also lost some.</p>
+<p>Without looking for new freelance work, I managed to gain two new clients through  recommendations - so it was hard to say no to them, but it always ends up with me having to do freelance work, alongside a contract which means that after I finish a days work, I end up going back to the hotel/AirBnB and doing some freelance work.</p>
+<p>One of those new clients is a Day Nursery with three nurseries - they hired me to quickly get a new page up for their new nursery and change the website to have more content about the new nursery as they needed it to start showing on search results.</p>
+<p>As part of the initial meeting with the client, we discussed the bigger piece of work they need - a redesign of their current website and a new CMS.</p>
+<p>The other new client is an industrial design blog - they needed a front end developer to work with their backend developer to help implement new changes on the front-end - mainly helping out with HTML and CSS.</p>
+<h3>Losing a client</h3>
+<p>But the year ended with me losing a client - I suspected this was going to happen, but its never a great feeling when you lose a client. I have now heard back from them - I decided to email them and find out why they decided to abandon a perfectly good website and to get a new one.</p>
+<p>I was originally hired by them to take an unfinished static website, finish it and add a CMS to it. At the time they couldn't afford my time to add the CMS to all pages, so they chose which pages they wanted to be able to edit and the others would be done at a later date.</p>
+<p>After the website went live though, they approached me with a new project - an online store. I was excited about this project as I'd not done an e-commerce website in a very long time and it was an opportunity to move back into this line of work.</p>
+<h4>It was all going well...</h4>
+<p>The shop was built, I had tested it and it was over to the client for them to test it and populate the shop with their products. This never happened - due to illness and people being busy they didn't add the products or test the site. After a while, I needed to get on with other client work and I stopped chasing them.</p>
+<p>Anyway, they now have a brand new Wix website created by the company they hired to help them manage their charity.</p>
+<h2>Personal</h2>
+<p>At the end of the year, I finally sorted out part of my pension plan - opened a Lifetime ISA - I didn't know about these - had I known I would have opened one sooner because you can only open one between the ages of 18-38  and pay into it until you're 40 - so that means I have 2 years to pay into it.</p>
+<p>A lot of people I spork to didn't like the idea of a Lifetime ISA because you get hit with a hefty penalty if you take the money out early - but this is a good thing for me as it will stop me taking that money out before I retire. So this forms part of my pension plan. Also, with a Lifetime ISA, if you put in the maximum amount of £4000 a year, the government will top it up with 25% - which makes it worthwhile doing.</p>
+<p>I opened an account with AJ Bell - there aren't many companies doing Lifetime ISAs and because I did it just before the end of the financial year of 2018/2019 - means I have until April to put in the 4k to take advantage of an extra year of this free 25%. Then I'll have 2 more years that I can pay into it before I turn 40.</p>
+<h2>Side projects</h2>
+<p>My only tech side project this year was this website. I decided to join the JAMstack trend and rebuild the backend of this website using a static site generator - Eleventy.</p>
+<p>The previous backend was built in PHP and used Perch CMS - I decided to add Perch to my site because at the time I was doing a lot of freelance work for clients that needed a CMS and Perch is my go-to choice. I used my website to test out new Perch features or plugins so I could sell those onto my clients if they needed it.</p>
+<p>But I'm doing a lot less work with Perch these days that I didn't need my site to still be using it.</p>
+<p>I decided to treat my site rebuild as I would a project, using a proper git workflow - rather than just working directly on the master branch, including raising issues and working agaist those.</p>
+<p>As well as using Eleventy as my static site generator I also moved the site hosting to Netlify and for the CMS I'm using the NetlifyCMS. Again, I don't need a CMS, but I wanted to learn more about static site CMSs.</p>
+<p>I've enjoyed learning more about the JAMstack, Eleventy, Nunjucks and Netlify - its been awesome.</p>
+<h3>Personal</h3>
+<p>I finally finished a non-tech side project - it was close to not getting it finished - but my wife and I spent a few days before the new year getting it finished. My wifes help was required to stop me trying to create any kind of pattern.</p>
+<p>When we had our kitchen done in 2018 - we had this wall, that other than having a small breakfast bar was very empty. I came up with an idea - lets cover the wall in pallets!</p>
+<p>No one could visualise this - nobody liked the idea but I persuaded my wife to let me put a few pieces of wood on the wall and she was convinced.</p>
+<p><img src="/assets/imgs/kitchen_pallet_wall.jpg" alt="Pallet Wood Wall" title="Wall covered in wood from pallets"></p>
+<p>So, it turns out that dismantling about 30 wooden pallets takes a long time and it's hard. They have so many many nails holding them together - it was hard work taking them apart without breaking the wood. But it felt good to recycle (upcycle?) these discarded pallets - some of which I found washed up on the beach! (FYI water logged pallets are really heavy.)</p>
+<p>I already have my next non-tech project picked for 2020 - an outdoor kitchen with built-in BBQ, pizza/wood oven and maybe even a smoker. This project will involve me building some brick walls - something that I've never done.</p>
+<h2>Looking ahead to 2020</h2>
+<p>I'm lucky to be able to start the year with a contract in place already - which carried over from 2019 - this was due to end halfway through January, but it has been extended until March.</p>
+<p>I don't do New Year's resolutions because I believe you don't need to wait for a new year to do things or change how you do stuff - but there a few things I want to get done this year.</p>
+<ul>
+<li>
+<p>I'll be continuing to learn JavaScript - I need to stop learning it though and start practising it this year. I have one course to finish and I also have Wes Bos' Beginner JavaScript course to do.</p>
+</li>
+<li>
+<p>I want to start a tech side project where I can dive into JavaScript and put into practice what I have learnt so far.</p>
+</li>
+<li>
+<p>I still haven't had a fully remote contract and I want 2020 to be the year this happens - I think once I've had that first fully remote contract it will be easier to get more.</p>
+</li>
+<li>
+<p>Finish setting up my pension - the next stage of my pension plan is to set up a SIPP (Self Invested Pension Plan) which I will after April. I just need to learn more about investing money!</p>
+</li>
+<li>
+<p>I want to read more this year, I only <em>just</em> managed to finish 1 book out of the 10 I wanted to read. I also want to read more non-fiction books, but necessarily tech ones.</p>
+</li>
+<li>
+<p>And continue working on this website and continue learning more about the JAMstack ways, including adding some more IndieWeb features like webventions now that I have removed analytics.</p>
+</li>
+</ul>
+<p><em>Happy New Year and thanks for reading.</em></p>
+<h3>Year in review posts I've read</h3>
+<ul>
+<li><a href="https://daverupert.com/2019/12/twenty-nineteen/" title="Twenty Nineteen - Dave Rupert">Twenty Nineteen - Dave Rupert</a></li>
+<li><a href="https://www.dan-davies.co.uk/2010-2019" title="2010-2019 - Dan Davies">2010-2019 - Dan Davies</a></li>
+<li><a href="https://archive.hankchizljaw.com/wrote/2019:-a-year-in-review/" title="2019: A year in review - Andy Bell">2019: A year in review - Andy Bell</a></li>
+<li><a href="https://mxb.dev/blog/year-in-review-2019/" title="A year in review: 2019 - Max Böck">A year in review: 2019 - Max Böck</a></li>
+<li><a href="https://alicebartlett.co.uk/blog/yearnotes-2019" title="Yearnotes 2019 - Alice Bartlett">Yearnotes 2019 - Alice Bartlett</a></li>
+<li><a href="https://colly.com/journal/twenty-nineteen-in-review" title="2019 in review - Simon Collison">2019 in review - Simon Collison</a></li>
+<li><a href="https://justinjackson.ca/2019-review" title="2019 year in review - Justin Jackson">2019 year in review - Justin Jackson</a></li>
+</ul>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: 2019: Year in review">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Multiple blogs with Perch CMS</title>
+    <link href="https://www.juanfernandes.uk/blog/multiple-blogs-with-perch-cms/"/>
+    <published>2019-03-13T13:00:08Z</published>
+    <updated>2019-03-13T13:00:08Z</updated>
+    <id>https://www.juanfernandes.uk/blog/multiple-blogs-with-perch-cms/</id>
+    <summary><![CDATA[Short post to show how you can create multiple blogs using the Perch CMS and the blog app using sections.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Multiple blogs with Perch CMS,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p>An existing client asked me to move their blog from /self-help/blog/ to the root of the website - but they wanted to keep the self-help blog, as well as having a blog for general posts and a blog for media related articles, ie press releases etc.</p>
+<p>I wondered if the perch blog app had a built-in way of doing this - it does but not in the way I thought it would. It does have <code>perch_blog_section()</code> which allows you to output a blog section onto a page.</p>
+<p>You can think of blog sections as virtual folders where you can store some blog posts. So you still write all your blog posts in the same way as before, but you choose which section it belongs to.</p>
+<h2>Create the sections</h2>
+<p>To get started you need to log into perch and create your new sections. Once you're logged in:</p>
+<ol>
+<li>Click on Blog -&gt; Sections</li>
+<li>Click the <em>Add section</em> button</li>
+<li>Add the <em>Title</em> [image is not required]</li>
+<li>Click <em>Save</em></li>
+</ol>
+<p>For my client, I created the sections based on where they were going to be shown <em>media</em> and <em>self-help</em>.</p>
+<p>You can leave <em>Posts</em> as the blog's default section.</p>
+<h2>Multiple blogs</h2>
+<p>We can now create our multiple blogs. Depending on the website you're working on, you'll either need to create a new page or edit an existing one.</p>
+<p>For my clients' website, I created a new page using the default template and then added the following code:</p>
+<pre><code>&lt;?php
+  perch_blog_custom([
+    'section'   =&gt;  'media',
+    'sort'       =&gt; 'postDateTime',
+    'sort-order' =&gt; 'DESC',
+    'template'  =&gt;  'blog/media_post_in_list.html'
+  ]);
+?&gt;
+</code></pre>
+<p>If you already use Perch, then the above code will look fairly familiar, but if you don't.</p>
+<ul>
+<li><em>Line 3</em> -  instead of getting all the blog posts, we are calling just blog posts that belong to the <em>media</em> section</li>
+<li><em>Lines 4-5</em> - we are sorting the blog posts in the date they were created and showing them in descending order</li>
+<li><em>Line 6</em> - this specifies the template to use. This one is specific to my clients' website. You can just use your own one or the default <code>post_in_list.html</code> template.</li>
+</ul>
+<p>Using the above code, you can create your multiple blogs in different areas of your website.</p>
+<h2>Creating the content</h2>
+<p>Now that you have the code to show posts from different sections on different pages of your website, you can create blogs posts and add them to each section.</p>
+<ol>
+<li>Login to Perch</li>
+<li>Go to the Blog app</li>
+<li>Create or edit a post</li>
+<li>Switch to the <em>Meta and Social</em> tab</li>
+<li>Scroll down and select the section from the dropdown</li>
+<li>Save</li>
+</ol>
+<p>Now, go to the page for that blog section on your website and see your posts for that blog section.</p>
+<h3>If you're also moving a blog</h3>
+<p>In my case, I first moved the blog folder to the root of the website, changed all the URLs, updated the settings for the blog app in Perch settings and changed rewrites in the <code>.htaccess</code> file.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Multiple blogs with Perch CMS">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Keeping track of tasks</title>
+    <link href="https://www.juanfernandes.uk/blog/keeping-track-of-tasks/"/>
+    <published>2019-03-08T16:15:33Z</published>
+    <updated>2019-03-08T16:15:33Z</updated>
+    <id>https://www.juanfernandes.uk/blog/keeping-track-of-tasks/</id>
+    <summary><![CDATA[Been thinking about how I keep track of changes requested by clients outside of project work. I maintain websites I've built as well as websites I host]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Keeping track of tasks,co_rgb:eee,c_fit,w_600//v1579162296/trianglify.png" />
+    <content type="html"><![CDATA[
+      <p>I've been thinking about how I keep track of changes requested by clients, outside of project work. Since I maintain websites I've built as well as websites I inherited and host, I often get requests for minor changes, fixes or updates.</p>
+<p>The problem I have with these is that they tend to arrive either via email, phone call or even via Messenger and then I lose track of these requests - because these tools were not designed for tracking changes.</p>
+<p>When I'm working on a project, I will have a Trello board set up for that project with all the tasks as cards, either for me or for the client - but only I have access to this board, the cards for the client are usually just things I expect the client to provide, i.e. assets etc.</p>
+<p>I use a to-do app on my phone for personal tasks, i.e. pay car tax. But should I also use this for freelance tasks? I don't like the idea of mixing my personal and business tasks.</p>
+<h2>What should I do?</h2>
+<p>Should I get into the habit of logging those requests into a Trello board for non-project based work or should I introduce some sort of bug/task management application that will allow my clients to log any issues that require my attention themselves?</p>
+<p>Would my clients actually use it - we're talking about small business owners, who are busy running their business and it's easier for them to just email or call.</p>
+<p>I wondered whether Trello is the right tool for my clients, web developers and designers get how to use Trello - but do other people? I'm going to do a trial run with one of my clients - he is one of those clients that aren't afraid to try new technologies.</p>
+<p>I've created a Trello board for his website and will search through my emails and find the things he has asked me to do and add them as cards to the board - then I will invite him to have a look around and see if he can create a card himself.</p>
+<p><em>How do you manage your non-project based tasks? Have I missed something obvious or am I over complicating things?</em></p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Keeping track of tasks">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Home Automation</title>
+    <link href="https://www.juanfernandes.uk/blog/home-automation/"/>
+    <published>2019-02-28T20:34:55Z</published>
+    <updated>2019-02-28T20:34:55Z</updated>
+    <id>https://www.juanfernandes.uk/blog/home-automation/</id>
+    <summary><![CDATA[In this post, I talk about my adventures with home automation. Basic stuff as simple as using Alexa to switch on a lamp or lights in a room]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Home Automation,co_rgb:eee,c_fit,w_600//v1579162296/trianglify.png" />
+    <content type="html"><![CDATA[
+      <p>In this post, I'm going to talk about my adventures with home automation. It may sound negative, but I'm just painting a true picture of what I discovered.</p>
+<p>When I say home automation - I mean basic home automation - I'm talking about using Alexa to do simple things - like switching on a lamp or lights in a room.</p>
+<p>This isn't a how-to guide. There's so much out there and it varies depending on what tech you use and how you go about it.</p>
+<h2>Simplest approach</h2>
+<p>The simplest way, I think is the most expensive - to get started you could get a Phillips HUE lights kit - this comes with a controller and some WiFi bulbs - you can then make Alexa aware of these new devices and control them using voice commands - i.e. &quot;Alexa turn on living room lamp&quot;.</p>
+<p>With this approach, you may end up with different controllers for different technology, hence why I believe its more expensive.</p>
+<p>The cheapest way is to get WiFi lightbulbs and use their own apps to set them up, then add them to Alexa. But this way you will end up with various different apps on your phone for all the different tech you automate.</p>
+<h2>My current setup</h2>
+<p>I opted to go down a different route, I bought a controller that can use various different protocols - a <a href="https://shop.ezlo.com/" title="Vera">VeraPlus</a> controller and also opted to use the <a href="https://en.wikipedia.org/wiki/Z-Wave" title="Read about Z-Wave protocol">Z-Wave</a> protocol.</p>
+<p>I have two amazon echo dots, one in the kitchen and another in my office (this one used to be in the living room until we upgraded it to an echo) and an echo in the living room.</p>
+<p>I have two Sonos play 1 speakers in the kitchen and a Sonos amp in the living room connected to the surround sound speakers.</p>
+<p>The new living room TV is also connected to Alexa via an Alexa skill - this is a fairly new addition - we can ask Alexa to pause/resume YouTube/Netflix etc without having to reach for the remote control and we can switch the TV on/off (<em>but don't tell the kids</em>).</p>
+<p>Recently I got five smart plugs that control a lamp in the hallway, our tortoises' vivarium, an outside tree light, my office heater and one for the Christmas tree and outside lights (<em>which is now in the loft until December!</em>). These have all been added to Alexa and can be controlled via the app or a voice command. I have also created routines for those devices - for example, the hallway lamp comes on in the evening - saves us turning on the hallway lights (<em>about 10 spotlights!</em>).</p>
+<p>In the living room, we have a lamp with a <a href="https://www.vesternet.com/collections/brands-aeotec" title=" Z-Wave Plus Aeotec LED"> Z-Wave Plus Aeotec LED</a> WiFi bulb - I tried a cheaper alternative before, a TP-Link, but every time we wanted to use it, it couldn't be 'seen' on the network.</p>
+<p>The echo dot in the kitchen is mainly used to tell Alexa what music to play on the two Sonos play 1 speakers, which are set up in stereo mode.</p>
+<h2>How it's going so far...</h2>
+<p>So far this has been a stressful adventure into home automation and I've only hit the tip of the iceberg of possibilities. Why has it been stressful? Well, I have this love/hate relationship with technology - I love when it works, absolutely hate it when it doesn't work as it should.</p>
+<p>The most frustrating thing about home automation so far for me is that it's not 100% reliable. Devices will sometimes stop working and you don't know whether the controller has a problem or its a problem with Alexa. Currently, we can't turn the TV on/off via Alexa - we don't know why, Alexa says to check network connection on the TV, but that's fine because Netflix works.</p>
+<p>It relies on WiFi and an internet connection, for Alexa to be able to control a device that was set up via the controller, it needs to do this via the internet - for some reason they don't do it through WiFi even though it means they are in the same network. This isn't an issue for someone that lives in a city or town with really good internet - we live in the countryside and internet access is not the best.</p>
+<h2>It's not ready for everyone...</h2>
+<p>Home automation is really popular at the moment but I don't think its ready for <em>everyone</em> yet. Asides from it not being cheap to get started with, it's also not very plug 'n' play and forget about it.</p>
+<p>One thing to consider when going down the home automation rabbit hole is how this will affect the other members of your household. For example, I named the lamp in the downstairs hallway, &quot;Hallway Lamp&quot; but none of the other household members knew that's what it was called - I've heard them trying various different names.</p>
+<p>Ideally, I need a tablet with some sort of dashboard, accessible to everyone so they can interact with the automation manually. This isn't as simple as you'd hope.</p>
+<p>The Vera controller app does not have great UX or a nice design, also for some reason, you can't do everything via the app - that you can if you connect directly to the controller via a web browser - not even to add a new device.</p>
+<p>Finally, to get into the more advanced side of home automation, it appears you need to be an electrician.</p>
+<h2>What's next?</h2>
+<p>My plan, when I started this venture, was to be able to switch on/off the main lights in some of the rooms and the hallways. This proved to be more difficult than I was hoping for because it involves electricity and I'm not an electrician and looking at the wiring made no sense at all to me, especially when you have a 3 way light switch on one side of the room and a 2 way on the other.</p>
+<p>I bought some of these <a href="https://www.vesternet.com/products/z-wave-fibaro-single-switch-2-gen5" title="Z-Wave Fibaro Single Switch">Z-Wave Fibaro Single Switch</a>, but they won't fit in a standard box behind the light switches. I also bought some of these Z-Wave TKB Double Relay Wall light switches but again, too complex for me to figure out.</p>
+<p>I'd like to get some of the main lights automated - especially the outside lights, but I'm going to wait for the next time I have an electrician coming round and will get them to wire some of the Fibaro modules in for me.</p>
+<p>I'll probably get a few more smart plugs, but first I need to sort out my WiFi - I think this is one of the main causes of issues. I've bought a Ubiquity WiFi AP, but there's a lot of moving of equipment that needs to happen before I can set it up.</p>
+<p><strong>So have you ventured into the home automation rabbit hole yet?</strong> Let me know how it went.</p>
+<hr>
+<p><em>I know, I know, another post that isn't about web design stuff. I've just not been doing much web design stuff worth mentioning or writing about. But now I'm back to work and have a freelance project too, I'll have more to write about.</em></p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Home Automation">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>My Git Aliases</title>
+    <link href="https://www.juanfernandes.uk/blog/my-git-aliases/"/>
+    <published>2019-01-31T16:05:36Z</published>
+    <updated>2019-01-31T16:05:36Z</updated>
+    <id>https://www.juanfernandes.uk/blog/my-git-aliases/</id>
+    <summary><![CDATA[Quick post to share my Git aliases. I love seeing other developers' aliases - a lot of mine have been copied from others. So I thought I'd share mine - in the hopes someone will find it useful.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:My Git Aliases,co_rgb:eee,c_fit,w_600//v1579162296/trianglify.png" />
+    <content type="html"><![CDATA[
+      <p>I use Git via the command line and have always used it that way ever since it was introduced at a company I worked at a few years ago.</p>
+<p>But soon after using it Git for a few days, I started disliking the repetitiveness of the commands - so I did some googling and found that I could create shortcuts (aliases) in Bash.</p>
+<p>So I started creating aliases for the commands I used several times a day and over the years I have added to them as I find other developers' own git aliases.</p>
+<h2>How to create an alias</h2>
+<p>You can create an alias in a .bash_profile or in . bashrc, usually in the your users home directory.</p>
+<p>A bash alias takes on this format:</p>
+<p>alias ALIAS_NAME=&quot;ALIAS_COMMAND&quot;</p>
+<p>Here are my aliases:</p>
+<img src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto//v1638977502/aliases_nalmi0.png" alt="List of GIT aliases">
+<p>You can see the list on this <a href="https://gist.github.com/juanfernandes/7e13fa0c81253ae46f8d" title="GIt Aliases Gist">Github gist</a></p>
+<h2>Bash the fish</h2>
+<p>With my new laptop (MacBook Pro) I decided to try Fish, a bash alternative, so creating aliases with fish is not done the same way - they are know as functions in Fish.</p>
+<p>Instead of adding them to a file, you create them on the command line, like so:</p>
+<p>alias x='exit'</p>
+<p>Then, save it using this command:</p>
+<p>funcsave x</p>
+<p>The functions are then saved in a folder: ~/.config/fish/functions/ - to see all the functions in a web based interface, type the following command:</p>
+<p>fish_config functions</p>
+<p>I won't get too deep into Fish, as I'm still learning it - maybe a future post.</p>
+<p>Did you find this useful? Have you got a your own set of aliases - please share them.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: My Git Aliases">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>2018: Year in review</title>
+    <link href="https://www.juanfernandes.uk/blog/2018-year-in-review/"/>
+    <published>2019-01-03T17:30:47Z</published>
+    <updated>2019-01-03T17:30:47Z</updated>
+    <id>https://www.juanfernandes.uk/blog/2018-year-in-review/</id>
+    <summary><![CDATA[Twenty eighteen year in review post where I talk about what went well and what didn't go so well. Covering some work and personal stuff.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:2018: Year in review,co_rgb:eee,c_fit,w_600//v1579162296/bawdsey-2018.jpg" />
+    <content type="html"><![CDATA[
+      <p>Twenty Eighteen was a good year for me, but not so good for the UK, USA or politics, but we won't talk too much about that here!</p>
+<p>I made it point of avoiding politics in 2018 and will continue to do so in 2019 - be it on social media or in real life. I can't change what politicians want to do and I don't know enough about it, so it just infuriates me.</p>
+<p>Social media, in general, had an interesting year - most people now know how much data Facebook has on them and what they can do (and did) with it. Lots of people have left Facebook and even Twitter - there's even a hashtag - <a href="https://twitter.com/search?q=%23DeleteFacebook" title="Delete Facebook hashtag on Twitter">#DeleteFacebook</a>.</p>
+<p>I've been wanting to leave Facebook way before all of this happened - but the one thing that stopped me is that my mum is on there and she calls/messages me on Messenger (Turns out you can use Messenger even if you have deactivated your Facebook account). I've also recently joined a couple of very good groups - I had left the majority of groups I was in and also unliked/unfollowed a LOT of pages. Update: I finally deactivated my Facebook and Instagram accounts on New Year's Eve!</p>
+<p><a href="https://mastodon.social/about" title="Mastodon">Mastodon</a> came along and loads of people left Twitter for it but for a social network to work - it needs people and people didn't stick around long enough - oh well. In an attempt to make Twitter better for me I have unfollowed a lot of people and companies and have also started using the mute words to clean up my timeline. It has improved a lot.</p>
+<p>The year had a great start with me getting a contract to start in February - which ended up being my longest contract to date (7 months).</p>
+<p>Anyway, following on from last years theme and my second 'year in review' post, I'm going to look at went well and what didn't.</p>
+<h2>What went well</h2>
+<h3>Work</h3>
+<p>I was hired as a front-end developer to work with the Chartered Management Institute (CMI) in Corby, Northamptonshire, originally on a three-month contract. I joined the digital team to help them clear their backlog of day to day jobs that had accrued over the last few months due to the team of three losing two team members.</p>
+<p>I had to learn how to use a CMS I'd never used before - Sitecore - and unfortunately, it wasn't a recent version - it was a very old version. I wasn't able to use any of the modern development tools I've gotten accustomed to in the last few years - like Sass, Grunt/Gulp etc.</p>
+<p>My contract was extended twice - first to six months, then to nine, but it was cut 7 months due to a company restructure.</p>
+<p>I really enjoyed this contract - it was different to my previous contracts as I'm normally hired to work on a specific project. But at CMI - it was 'day to day' to start off with - but then it progressed into working on smaller projects on the CMI website.</p>
+<p>I don't usually do long contracts and I still feel the same about them - I don't like them, they start to feel a lot like a permanent role. But I stayed because I made really good friends there and its good to have a long contract under your belt, so I'm told.</p>
+<p>Thanks go out to Lee (my manager) and Harry (Junior Dev) for a great few months and for putting up with my nagging about code standards and design systems.</p>
+<p><strong>Update</strong>: I finished this contract mid way throuch October as I had four weeks off during the contract, it was already booked before I started the initial 3 month contract. After being away for 7 months, I decided to take the rest of the year off to spend it with my family, recharge my batteries (they're old and don't charge as quickly as they used to!) and did some DIY work around the house and garden.</p>
+<p>On the freelance side of things - I finished one project. At the end of 2017, I was approached by the Graham Hughes International Charity (GHIC) to build them a website.</p>
+<p>This was an interesting project for sure and a first for me. The charity had originally hired a London based design agency to design and build them a Wordpress website but they had some issues working together - the agency only delivered a static website, at which point the charity decided to stop working with them.</p>
+<p>I was hired to take the static website, which wasn't live, build some extra functionality and add a CMS to it as well so that the charity could add their own content. For this, I chose to use Perch, as its what I know and love using for smaller projects, plus it's easy for the clients to learn and use.</p>
+<p>They required a lot of changes and also a few new features - including a blog and a members area.</p>
+<p>The biggest hurdle with this project was the quality of the code I had to work with - I was only being paid for the agreed changes and new features so I had a hard time stopping myself from refactoring the entire codebase. But that was definitely not in the budget, where ever I was adding to an existing section I would refactor code - as I couldn't work with it how it was.</p>
+<p>Anyway, I finished the project on time, the client is happy and now I am still working with GHIC as we continue to update (and refactor) the website and add new features.</p>
+<h3>Side projects</h3>
+<p>This year I didn't build any web-based side projects - being away from home a 7-month contract (away Mon-Fri, back for weekends) meant I just wanted to do non-screen based projects.</p>
+<p>So I finished my kids' treehouse!</p>
+<p><img src="https://res.cloudinary.com/juanfernandes/treehouse.jpg" alt="My kids' new treehouse" title="My kids' new treehouse"></p>
+<p>This project started as a proper treehouse - we finally had the perfect tree for it - but my neighbour decided to change his mind about allowing me to build it in line with the property line, I did speak to him before I started it - but let's not dwell on this as it's still a sore point.</p>
+<p>But I'm glad I have pretty much finished it - just need to cut in 2 porthole windows and add some perplex. I will do write up of this project - essentially a photo progress post.</p>
+<p>I also repurposed an old kids playhouse shed that we hadn't even put back together since we moved to Suffolk 4 years ago.</p>
+<p>I needed to build a new chicken coop as the old one that came with the house was starting to fall apart so I decided rather than bin the playhouse I'd turn it into a new chicken coop!</p>
+<p><img src="https://res.cloudinary.com/juanfernandes/chickencoop-1.jpg" alt="Chicken coop" title="Chicken coop"></p>
+<p>I plan on getting some more chickens soon and now there is plenty of room for them.</p>
+<h3>Bullet Journalling</h3>
+<p>I've been doing a basic version of bullet journaling for a few years now. But towards the end of the year, I started following the bullet journaling methodology properly. I plan on expanding this further in 2019 and get a bit creative with it as well - being inspired by <a href="https://www.youtube.com/user/amandarachlee" title="Amanda Rach Lee">AmandaRachLee</a> on Youtube.</p>
+<h3>Health</h3>
+<p>My health and fitness have continued to improve throughout the year. During most of my 7-month contract, I was going to the gym two to three times a week and eating healthy food prepared from scratch, rather than living off microwave meals, staying away from sweets and cake also helped (this wasn't easy in an open office).</p>
+<p>At the of the year I signed up to do <a href="https://www.thebodycoach.com/" title="The Body Coach">The Body Coach's 90-day plan</a> (I'm now on month 2 of 3). This is a High-Intensity Interval Training (HIIT) program and a healthy eating regime - but it's not a diet - the portions are huge! What I want to get from this is to be fitter - which I am now starting to see a change.</p>
+<p>I plan on continuing with the gym while I'm away on contract - this is easier when I'm away from home - but not sure how easy it will be if my next contract is in London - as its a 2hr commute each way - which will mean I'll be very tired. So we'll see what how that goes.</p>
+<h3>Family</h3>
+<p>In 2018 we had a family holiday of a lifetime - the five of us went to Orlando, Florida and spent three weeks going to all the Disneyland and Universal parks. That's three weeks of walking - a LOT of walking - some days I did over 25k steps.</p>
+<p>But we loved this holiday - my wife and I preferred Universal  - but the kids loved all of it. We've been planning for this holiday for a while - we had to time it right so that our youngest (6) would remember it but also our eldest (10) would still find it magical.</p>
+<p>This holiday was also the first time I have ever been on a rollercoaster! My eldest (also her first time) was the only one that was tall enough to ride but, of course, she needed to go with an adult and I was happy to step up!</p>
+<h3>Personal</h3>
+<p>I wasn't sure whether I should mention some of these personal things for fear of it coming across as a bit of a show-off - that's not what I want.</p>
+<p>This year I treated myself to a few nice things - I've worked hard and I believe I deserve these things.</p>
+<p>Firstly, I got my self a new laptop, a MacBook Pro - the last laptop I had was a £400 Toshiba that I bought five years ago - it has served me very well, but it was starting to show its age. I've been wanting to get an MBP for a while - especially since there is some Mac-only software I've wanted to use to for a while (I gave up waiting for them to release a Linux version).</p>
+<p>Secondly, since I do a lot of driving when I am on contract - I got myself a newish car - a Mercedes A-Class 2017 plate - this is the nicest, most expensive car I have ever owned - my previous car was a 10-year-old Ford Fiesta - which rattled a lot on the motorways and almost killed me in this year when it spun out and I ended up off road - luckily it stopped just before a massive 20ft drop.</p>
+<p><strong>Update</strong>: When I say I bought, I don't mean outright - it's a lease, I'll have it for 4 years and then I can choose to keep it or give it back, or trade it for another.</p>
+<p>Lastly, I got myself a motorbike - it is a 125cc custom cruiser - I don't have my CBT yet, that's happening in 2019 - but for my birthday I got a jacket and helmet, just need boots, gloves and trousers and I'll be set.</p>
+<p>My wife says I'm having a mid-life crisis!</p>
+<p><img src="https://res.cloudinary.com/juanfernandes/car-and-motorbike.jpg" alt="My new car and motorbike" title="My new car and motorbike"></p>
+<p>I think if you can, you should treat yourself, especially if it makes getting to your job that little bit nicer!</p>
+<h2>What didn't go so well</h2>
+<h3>Blogging</h3>
+<p>I didn't do much writing on my blog in 2018 - I only managed 2 posts, three if you count the one that I should have published but didn't quite get to it. I was hoping to have posted a lot more as I had a great start in 2017.</p>
+<p>But I blame this on being away for a long contract and where I was staying, I didn't have a proper desk, so couldn't do much work. Plus, after a days work, going to the gym and cooking my dinner, I didn't have much time to spend on the computer.</p>
+<h3>Reading</h3>
+<p>I wanted to have read ten books this year but I only managed two! I'm still reading Stephen King's The Dark Tower series - which have quite a few big books.</p>
+<p>I managed to finish a book that I struggled to get into - &quot;You're my favourite client&quot; - it's not my usual sort of book. I do need to read a lot more non-fiction books, not just fiction and web design.</p>
+<p>I only managed to read 74 articles in 2018 - which can be seen as a good thing because I feel as though I've done a lot of reading of technical articles but then I don't put anything I read into practice.</p>
+<h3>Side Projects</h3>
+<p>No personal digital projects this year. I have many ideas on paper - but lacked focus this year. Something I will do better in 2019.</p>
+<p>A side project I started in 2018 - I started tinkering around with Home Automation - not sure if this is something will ever be finished. It has been an interesting and frustrating delve into this - I plan on writing about it. But let's just say, if you want to do it properly, it's not yet ready for the mainstream - it's getting there though.</p>
+<p>I started to redo my website to use <a href="https://www.11ty.dev/" title="Eleventy">Eleventy</a> - a static site generator but I didn't get it finished!</p>
+<p>Sometime after designing and building my current website, I added the Perch CMS so that I could use it as a testbed for new plugins and functionality. But since I'm not doing many freelance projects that require a CMS these days and I've been wanting to dive into static site generators for a while now - I decided to give Eleventy a go.</p>
+<h3>Learning</h3>
+<p>I usually use side projects to learn something new but since I didn't do any, I don't feel as though I've learnt much. I started a few JavaScript courses but didn't get them finished.</p>
+<h3>Video Streaming</h3>
+<p>Something I wanted to get into was streaming. I've done a few gaming let's play videos and have streamed a few times (to an audience of zero!) but I've been wanting to stream web design content - what I think stopped me was lack of focus on 'what' the streams should be about and lack of confidence.</p>
+<h3>Pets</h3>
+<p>It wasn't a great year for our pets - we lost a few, but the one that hurt me the most was losing our dog, Zack.</p>
+<p>We had him since he was a puppy - before we had our children - he watched our children grow up and they watched him grow old and frail.</p>
+<p>We said goodbye to him in the summer and he now rests peacefully in our garden.</p>
+<p>Our cat had to have an operation on his right leg bone - where they had to cut off the top of his leg bone - this procedure is done instead of a hip replacement - it was a tough decision to make, but a hip replacement is not as common as the other procedure plus the recovery time is much longer. It was hard enough to keep him under house arrest for two months as it was - if you have a Bengal, you'll know how much they love the outdoors.</p>
+<p>We also lost loads of our rabbits - we were on holiday when it happened (we had someone looking after them, but it wasn't their fault - rabbits die pretty quickly if they get sick), we're down to 1 rabbit from 12. One of our chickens also died - so we only have 1 chicken and a cockerel left.</p>
+<p>At the beginning of the year I also lost my pet lizard - a bearded dragon named Bernie - she was with us for a good 7 years, but she became ill and the vets didn't know what was wrong with her and we eventually lost her.</p>
+<h2>Looking ahead to Twenty Nineteen</h2>
+<p>In 2019 I want to focus on monthly goals, instead of resolutions, continuing learning JavaScript and learn Sketch app and Figma.</p>
+<p>I am attending the <a href="https://newadventuresconf.com/2019/" title="New Adventures Conference">New Adventures conference</a> in January - its the first conference I've been to in a few years. I've heard so many good things about the past conferences - I'm so glad its back as it's already looking like its going to be a great conference. Fingers crossed I get to meet a few people in real life.</p>
+<p>Last year I went with a theme word for the year which was 'focus' and that didn't work for me. Maybe if I'd had the word printed out in large text and stuck to the wall it would have been a constant reminder  - but in 2019 I'm just going to set monthly goals instead.</p>
+<p>These are the main things I want to focus on in 2019.</p>
+<h2>Work</h2>
+<p>I want to get my first fully remote contract job in 2019. I've had contracts that have allowed 1 or 2 days of remote work after I've been there for a month or so. But I really want a contract that will be fully remote, I'm happy to go to the office 1 or 2 days per week for meetings.</p>
+<h2>Learning</h2>
+<p>Need to stop 'trying' to learn JavaScript and make a conscious effort to actually learn it. I find myself in a strange situation - I've always been a front-end developer - but in all my permanent jobs, someone else was the JavaScript person, it was usually a backend developer that worked with JS and all I needed to do was HTML CSS and jQuery - so all of a sudden JS is really popular and I missed all the boats.</p>
+<p>I'm in the middle - I'm not a JS developer or a UX Designer, but I am somewhere in the middle. I believe I'm more developer than a designer, so this is why I'm going to focus on learning JS.</p>
+<p>I also want to dive into Vue and Gatsby - there has been so much love for both that you can't help wanting to get stuck in. Plus I also read that learning Gatsby will help with learning React, which I've tried but found too difficult because I don't know vanilla JS.</p>
+<p>There's a whole bunch of other stuff I want to learn too - like CSS Grid!</p>
+<h2>Side Projects</h2>
+<p>I think the main issue with me learning JS is that I do a lot of reading and video tutorials but I don't do anything with it. Sometimes I will use vanilla JS instead of jQuery, but if I'm busy - then I don't have time to figure out JS, so will just default to what I know.</p>
+<p>I need to build stuff and use JS so I can learn it, spend time making mistakes and figuring things out and I believe I can do this with side projects. What will I build I don't know yet, but whatever it is, it will be something for me and it may never see the light of day.</p>
+<p>I also plan on streaming as much as possible and hopefully actually get people to 'tune' in - I want to stream so that I can practice speaking to an audience, learn to speak clearly while showing/doing demos/presentations etc.</p>
+<h2>Blogging</h2>
+<p>Gah. I really need to make this a habit. I like doing it and it helps with the learning side of things - if I write about something I've learnt, it helps commit it to long-term memory - so I want to do at least 1 blog post a month - I know it doesn't sound like a lot, but when I only managed 2 in twenty eighteen - 12 will be a milestone!</p>
+<h2>Health</h2>
+<p>After many many years of neglecting my health, fitness and well being - I am making a conscious effort to fix this. It won't be easy, but then you can't expect to fix years of damage in one quick HIIT session, can you?</p>
+<p>I'm going to finish The Body Coach's 90-day plan and then create my own plan to keep the exercise and healthy eating going. I'm also going to try very hard not to have any sugar - which won't be easy - it means giving up things like chocolate, cookies and cakes! I have already replaced sugar in my coffee with a plant-based alternative.</p>
+<p>Well, I think that's all I have to say for this year in review post (sorry it's a long one) - I hope you enjoyed reading it as much as I enjoyed looking back. Let me know if you did and if you also wrote your own - I love reading these.</p>
+<p>Here are the ones I've read so far:</p>
+<ul>
+<li><a href="https://iamashley.co.uk/2018-year-in-review/" title="Ashley Baxter">Ashley Baxter</a></li>
+<li><a href="https://daverupert.com/2018/12/twenty-eighteen/" title="Dave Rupert">Dave Rupert</a></li>
+<li><a href="https://ohhelloana.blog/the-end-of-2018/" title="Ana">Ana</a></li>
+<li><a href="https://remysharp.com/2018/12/31/my-2018" title="Remy Sharp">Remy Sharp</a></li>
+<li><a href="https://charlimarie.com/blog/2018-review" title="Charlie Marie">Charlie Marie</a></li>
+<li><a href="https://justinjackson.ca/2018-review/" title="Justin Jackson">Justin Jackson</a></li>
+</ul>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: 2018: Year in review">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Tools I Use</title>
+    <link href="https://www.juanfernandes.uk/blog/tools-i-use/"/>
+    <published>2018-11-12T18:00:16Z</published>
+    <updated>2018-11-12T18:00:16Z</updated>
+    <id>https://www.juanfernandes.uk/blog/tools-i-use/</id>
+    <summary><![CDATA[Love posts that show what designers & developers use to do their job – so I thought I’d post my own]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Tools I Use,co_rgb:eee,c_fit,w_600//v1579162296/trianglify.png" />
+    <content type="html"><![CDATA[
+      <p>Update: I now have a <a href="/uses/">/uses</a> page which will be kept upto date.</p>
+<p>I love these posts that show what designers and developers use to do their job - so I thought I'd post my own. It's been a long while since I last wrote anything, so thought this would be an easy one to get me back into writing.</p>
+<p><em>Update: These are the tools I like to use, it's ones I use when I can, but as a contractor I am used to adapting and using what ever tools the client needs me to use. So don't feel that just because I like a MacBook doesn't mean I can't use Windows.</em> 😊</p>
+<h2>Web Design</h2>
+<h3>Editor</h3>
+<p>My editor of choice is <a href="https://www.sublimetext.com/" title="Sublime Text 3">Sublime Text 3</a> using the <a href="https://github.com/ctf0/Seti_ST3" title="Seti Theme &amp; Colour Scheme">Seti theme &amp; colour scheme</a> with whole bunch of add-ons and <a href="https://gist.github.com/juanfernandes/ba413678c7686f0c96b0#file-03_user_preferences-txt" title="Sublime Text Preferences">custom settings</a>. I'm happy with ST3 and I know there are other editors, like the new VS Code, but ST3 is not broken for me, so I don't need to change it.</p>
+<h3>Terminal</h3>
+<p>For terminal emulation I have just started using <a href="https://iterm2.com/" title="iTerm 2">iTerm 2</a> - previously when using Ubuntu, I just used the default terminal - I tried <a href="https://hyper.is/" title="Hyper">Hyper</a> but I didn't get on with it.</p>
+<p>I have always used Bash but now on the MBP, I'm trying out <a href="https://fishshell.com/" title="Fish shell">Fish shell</a> and <a href="https://github.com/oh-my-fish/oh-my-fish" title="Oh My Fish">Oh My Fish</a>.</p>
+<h2>Desktop Apps</h2>
+<p>For design I use <a href="https://www.gimp.org" title="GIMP">GIMP</a> - Adobe Photoshop is far too expensive, does not work on Linux (which is what I've used for the past 10 years) and I never used more than 10% of its features.</p>
+<p>I still have to use FTP for some clients, <a href="https://filezilla-project.org" title="FileZilla FTP">FileZilla</a> has been my FTP client of choice for a long time.</p>
+<p>My development browser is Chrome - it has great developer tools and it's faster than Firefox. I have Firefox and Opera for testing. Firefox is my main browser.</p>
+<p>For notes and writing, I use <a href="https://simplenote.com/" title="Simplenote">Simplenote</a>. It's cross-platform, which means all my notes are available on my phone, on the internet and my laptop.</p>
+<p>Slack and Skype for communication. Currently trying out <a href="https://meetfranz.com/" title="Franz">Franz</a> - an app that houses other apps, like Hangouts, Facebook Messenger, Skype and more, all under one app.</p>
+<h2>Desk Setup</h2>
+<p>My development machine is a 15&quot; MacBook Pro 2018 with 32gb of ram and its plugged into a 21&quot; Samsung monitor. I've only had the MBP for about a month. My previous machine was a 15&quot; Toshiba Satellite Pro with 16gb ram - It was about 4 years old.</p>
+<h2>Other Gear</h2>
+<p>My phone is a OnePlus 5T
+For testing responsive websites I build, I use the following mobiles and tablets:</p>
+<ul>
+<li>iPhone 4s</li>
+<li>iPhone 5s</li>
+<li>LG Nexus 4</li>
+<li>LG G3</li>
+<li>Google Pixel 3</li>
+<li>OnePlus 5T</li>
+<li>Kindle Fire 10</li>
+<li>iPad Mini</li>
+</ul>
+<p>Not forgetting notepads, pens and pencils!</p>
+<p>Have you written a similar post? I'd love to read about your setup.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Tools I Use">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>2017: Year in review</title>
+    <link href="https://www.juanfernandes.uk/blog/twenty-seventeen/"/>
+    <published>2018-01-09T13:21:53Z</published>
+    <updated>2018-01-09T13:21:53Z</updated>
+    <id>https://www.juanfernandes.uk/blog/twenty-seventeen/</id>
+    <summary><![CDATA[My 2017 year in review post - what went well, what didn't go so well. I look into work, health, personal and look ahead for 2018.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:2017: Year in review,co_rgb:eee,c_fit,w_600//v1579162296/suffolk-coast-2017.jpg" />
+    <content type="html"><![CDATA[
+      <p>Last year was the first time I wrote a year in review post and I've been looking forward to reviewing twenty-seventeen.</p>
+<p>It was a good year for me, work-wise and personally. I got more contract work experience - two contracts and I also landed a freelance client website.</p>
+<p>We got quite a lot of work done to the house and I have very nearly finished the treehouse I started building for my children! They will get to finally use it in the summer.</p>
+<h2>What went well</h2>
+<p>Being very self-critical, its hard to notice when you've had a good year because its easier to remember the not so good things that happened - but I making a point of thinking about the things that did go well first.</p>
+<h3>Work</h3>
+<p>I only got did two contracts this year, and to some contractors (and recruiters) this seems to be a big deal - not for me, being freelance/contract doesn't mean you have to work every day of the year - if I did that, I would pay a huge amount of tax (I pay all the taxes I'm required to pay) and never get to spend any time with my family.</p>
+<p>It's funny how some people react when you tell them you're taking 4 months off work. Technically I never stopped working, I still run a business and a lot of business tasks get left behind when I'm working away on a contract.</p>
+<p>My first contract of the year happened right at the beginning of the year in January. I got to work with a great UX Research team at Ofgem.</p>
+<p>This was a great role - my job was to build interactive prototypes based on the research the team had conducted. The prototypes were then tested on real users, people selected at random, based on certain criteria that we needed to test, and I got to watch them interact with the prototypes I had built and seeing how it worked or didn't. After each testing session, we would then iterated the prototype ready for the next session.</p>
+<p>I really enjoy this kind of work.</p>
+<p>This was followed by a freelance website design project - a new website for a new business selling prestige cars - Lusso Prestige.</p>
+<p>The client approached me to design and build a website for his new business - the client has been selling supercars for Romans Internationals for a quite a few years and he has taken all that experience and set up his own business. The client approached me based on a recommendation and based on the work I did at Motortrak - an agency that specialises in websites for used car dealers like Tom Hartley, Mercedes Benz, McLaren, Ferrari and many more.</p>
+<p>This took me until June with a few breaks sprinkled in between. I was then offered a contract at Intelliflo, based in Kingston Upon Thames.</p>
+<p>I was hired as a UX/UI Front End Designer and I was brought in to take an existing design and apply it to a new app that was being built in-house. This is was, what's knows as an SPA or Single Page App - using the angular framework and bootstrap.</p>
+<p>The team were building an app store and a developer portal - the app store will feature apps developed for their SaaS software product - Intelligent Office. I took the existing design and built a basic design system using Pattern Labs with Sass and GruntJS.</p>
+<p>Once I had built all the existing pages that had been designed and for the prototype working, I was able to redesign pages, components and build new pages and user journeys much faster.</p>
+<p>This was originally a 3-month contract, which was later extended to four - I was asked to redesign the app store, developer hub landing pages and the documentation sections.</p>
+<p>Ended the year doing a quick job for Molo Finance - I was asked to design and build a temporary landing page as they currently do not have a website.</p>
+<p>After 4 months of being away from home and family - I decided to take a break from contract work until the new year. I travelled down to Surrey Sunday nights and stayed until Thursday, then I drove back after work and had the weekends at home - surprising how tiring this gets after four months.</p>
+<h3>Health</h3>
+<p>My health has improved in 2017 and I hope to continue improving it this year.</p>
+<p>While working away in Surrey on my last contract - I actually went to the gym twice a week. This was the first time I'd been to a gym in about 10 years! So you can imagine, this took some willpower to get me to the gym after a day at the office.</p>
+<p>I was also watching what I eat and was eating healthier meals. I find it so much easier to do this when I am away from home, but this is something I need to get better at when working from home.</p>
+<h2>What didn't go well</h2>
+<h3>Reading</h3>
+<p>I continued reading web design/development, but didn't stick to reading 2 per day - this means I ended up with a huge backlog of articles, that I'll never get to read and I ended up deleting a huge amount of unread articles twice last year.</p>
+<p>I only managed to read six books - I'd set my self a challenge of reading ten books, so I was a bit short there. But I've made a good start on Stephen Kings The Dark Tower, currently on the 4th book.</p>
+<h3>Writing</h3>
+<p>Only managed four blog posts last year, not great, but better than last year. I had some sort of block, I wasn't sure who I was writing for, who is my audience.</p>
+<h3>Focus</h3>
+<p>Twenty seventeen lacked focus. I ended up with too many things on the go, both work and personal projects, which meant the year ended with quite a few unfinished tasks. So already the start of this year has been lacking focus, so this is why focus is going to be my theme for 2018.</p>
+<h2>Numbers</h2>
+<p>I really like collecting stats! Here are some number from 2017. TV series, not all are finished, some I've already carried on watching this year. The coffee numbers aren't all there, I've gone through a few phones this past year, so being able to log my coffees hasn't always been an option.</p>
+<p>TV series (17)</p>
+<ul>
+<li>Arrow</li>
+<li>Blindspot</li>
+<li>Castle</li>
+<li>Criminal Minds: Beyond Borders</li>
+<li>Colony</li>
+<li>Dexter</li>
+<li>Outcast</li>
+<li>Parks and Recreation</li>
+<li>Quantico</li>
+<li>Red Dwarf</li>
+<li>The A-Team</li>
+<li>The Flash</li>
+<li>The Gifted</li>
+<li>The Orville</li>
+<li>The Walking Dead</li>
+<li>ZNation</li>
+<li>Zoo</li>
+</ul>
+<p>Movies (7)</p>
+<ul>
+<li>Allegiant</li>
+<li>E.T. the Extra-Terrestrial</li>
+<li>Flatliners</li>
+<li>Insurgent</li>
+<li>Judge Dredd (1995)</li>
+<li>The Day</li>
+<li>The Fault in our Stars</li>
+<li>The Green Hornet</li>
+<li>The Jungle Book (2016)</li>
+</ul>
+<p>Games Played (7)</p>
+<ul>
+<li>Destiny</li>
+<li>Doom</li>
+<li>Dying Light</li>
+<li>Fallout 4</li>
+<li>Gran Turismo</li>
+<li>Horizon Zero Dawn (PS4)</li>
+<li>Minecraft</li>
+</ul>
+<p>Contracts (3)</p>
+<ul>
+<li>Ofgem</li>
+<li>Intelliflo</li>
+<li>Molo Finance</li>
+</ul>
+<p>Side projects: 1</p>
+<p>Blog posts published: 4</p>
+<p>Books read: 6</p>
+<p>Coffees: 208</p>
+<h2>What’s ahead for 2018</h2>
+<p>This year I going to have a theme - and that Focus - I want to be better at focusing on getting things finished, streamlining my business so I don't spend time doing unnecessary tasks, or end up working more time than I need to. A great example of this is my accounts - since I started freelancing all those years ago, I've been doing my own accounts and that meant spreadsheets. But since I started my limited company and got an accountant, it turns out he doesn't use my spreadsheet - he just needs the bank statements with some notes on items that aren't obvious - so it turns out I've been doing unnecessary work.</p>
+<p><strong>Health</strong>: I want to continue improving my health. I'm going to make sure I continue with the gym when I'm away on contracts and will be building my own mini gym at home, once I've cleared out the garage.</p>
+<p><strong>Work</strong>: I need to get to a stage where my contracts are seamless without any large gaps in between. I also want to get into remote work so that I can spend less time away from home.</p>
+<p><strong>Writing</strong>: Continue writing blog posts - I've decided (thanks to some useful advice) to focus on writing for me, this will allow me to improve my writing and allow me to discover who my audience is.</p>
+<p><strong>Reading</strong>: Continue reading at least two design/development articles per day. Carry on reading my Steven King and technical books - get a least 10 books read this year.</p>
+<p><strong>Video</strong>: I also want to start creating more videos - I did some personal gaming ones, but I want to create some web design video content in 2018.</p>
+<p>That's it for my year in review post for twenty-seventeen. Have you written a year in review post? I'd love to read it.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: 2017: Year in review">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>My Web Design Journey</title>
+    <link href="https://www.juanfernandes.uk/blog/my-web-design-journey/"/>
+    <published>2017-06-08T08:00:29Z</published>
+    <updated>2017-06-08T08:00:29Z</updated>
+    <id>https://www.juanfernandes.uk/blog/my-web-design-journey/</id>
+    <summary><![CDATA[I want you to know about my past, my journey as a website designer and how I can help you. I thought I’d write a post about how I got started as a website designer and eventually becoming a freelance website designer.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:My Web Design Journey,co_rgb:eee,c_fit,w_600//v1579162296/lnlimzqrqm3emnrrnv1wimg7726.jpg" />
+    <content type="html"><![CDATA[
+      <p>I want you to know about my past, my journey as a website designer and how I can help you. I thought I’d write a post about how I got started as a website designer and eventually becoming a freelance website designer.</p>
+<h2>How it all started</h2>
+<p>Well, let's take a journey back in time - if you’ve met me, you’ll no doubt get that I’m a bit of a geek!</p>
+<p>I went to college to study GNVQ Information Technology at an intermediate level - I then moved onto the advanced version of the course the year after, but a few months into it, I realised that this wasn't for me - it was far too theory based and I was more into the practical side of technology.</p>
+<p>As well as my love of computers, I'd discovered the internet in my first IT course, but I wasn’t just browsing websites - I wanted to know how they were built, so I spent a lot of time looking at websites’ source code and copying everything I found that was ‘cool’.</p>
+<p>Yes, I had a Geocities website - remember those? Unfortunately, I don’t have any screenshots of those early sites - phew!</p>
+<p>I decided to find out what courses taught web design, but back then there wasn’t a specific course for web design - so I did the next best thing - a Higher National Diploma in Multimedia - a course that covered web design, game design, video and music production, photography and programming.</p>
+<p>This course allowed me to get really creative and I knew I had found what I wanted to do for a living!</p>
+<p>Part of the course was to work with a local business owner to design and develop a website for their business.</p>
+<p>This is what we did as a group:</p>
+<p><img src="https://res.cloudinary.com/juanfernandes/benchrover.jpg" alt="Benchrover" title="Benchrover"></p>
+<p>I ended up working privately with that client and he has been my client ever since.</p>
+<p>After the 2 years doing the HND Multimedia course, we were given the option of staying on for a 3rd year to get a BA degree in multimedia - I stayed. I got a 2.2 for my BA - turns out I wasn’t that great at researching and writing a 15000-word dissertation - it brought my mark down from a 1st for my practical work, to a 2.2 - oh well!</p>
+<p>I can’t remember the exact title of my dissertation, but it was about looking into the impact that digital equipment was having on the music over analogue equipment, for example, vinyl vs CD etc.</p>
+<p>I remember being told that we should send out questionnaires - but for me sending out paper questionnaires seemed like an archaic thing to do, so I built a website with my questions, that saved the answers to a database - all very basic, but it worked - shows you how interested I was in writing a dissertation. :D</p>
+<p>After I finished college and got my Bachelors degree, I tried to get a job as a website designer, but back then there wasn’t that many companies doing web design and the ones that were, were too small to hire me because I didn’t have any commercial experience, and I couldn’t get any commercial experience because I couldn’t get a job - the ol' catch 22!</p>
+<p>So I got a job working at Tesco! I started stacking shelves like everyone does and I had done before while at college - but after a month I moved up to stock control, but I really did not like working in a store. I ended up getting an IT job working for the NHS, working as an IT Support Analyst. Soon after I ended up working with an IT manager on a new project, to refit all local doctors surgeries with brand new computers and servers, it was just me and him - it was great.</p>
+<p>I loved this project so much, this project was my first foray into self-employment - I know I wasn't self-employed, but because it was just me and this manager, we got to schedule our own time and workload. I ended up being the first port of call for all GP IT issues. But even though I was loving my IT job, I was still doing web design work in the evenings after finishing my job - also known as 'moonlighting'.</p>
+<p>I teamed up with a colleague from my multimedia course, who was also not having any luck getting a job as a web designer. We created a partnership and traded as Multi Creative Media.</p>
+<p>This was our first website - my business partner was the creative genius!</p>
+<p><img src="https://res.cloudinary.com/juanfernandes/multi-creative-media.jpg" alt="First Multi Creative Media website" title="First Multi Creative Media website"></p>
+<p>We carried on working together for a few years, I then landed my first ever website designer job working at Tesco Compare - one of the first insurance comparison websites - yeah I know, Tesco again :D</p>
+<p>I was actually employed by RBS - Tesco Compare was a joint venture between RBS and Tesco, but after 2 years working there, Tesco bought the RBS half of the business and a year later they moved the business to Scotland. I was offered my job up there, but at that time, I was recently married and we had our first child - we didn’t want to move to Scotland.</p>
+<h2>It was time to move on</h2>
+<p>My second website designer job was working for TUI Travel at <a href="http://www.crystalski.co.uk/" title="Crystal Ski">Crystal Ski</a> - I was working as a UX Developer. This was a huge leap for me, working in the UX department and as a front-end developer ( a new name for website designer).</p>
+<p>I got to work on some great projects, some that were just for testing out new ideas to see if they would work and others actually got implemented. The last thing I worked on was the <a href="http://www.crystalski.co.uk/snow-reports/" title="Crystal Ski Snow Reports">Snow Reports</a> section on the Crystal Ski website and it still in use - yay!</p>
+<p>I found that job and company quite restrictive in the end, I loved the people I was working with, but the politics &amp; rules of big companies really got to me.</p>
+<p>I moved onto to a new job - working as a front-end developer for a company called Motortrak - they are an agency that specialises in building CMS sites for the used car market. I got to work with some great people and some great brands, including McLaren, Mercedes-Benz, Land Rover and Tom Hartley.</p>
+<p>I lasted about 2 years at this job this time. It was going great, I started building an internal framework that was going to be used to build all websites and it was responsive, but my very supportive Head of Technology left and things took a turn - the company really changed into something that I didn’t like, so it was time to leave.</p>
+<p>At that time, I was working from home 3 days a week, I was in the office Monday and Tuesday. I had moved to Suffolk from Surrey - I was driving down for the 2 days and then coming home.</p>
+<p>I decided to leave. I also decided that I was going to work for myself. No more big company rules and politics to deal with.</p>
+<p>I built this website, it has changed a little bit since then, for the purposes of finding work. After about 6 months I found my first contract job.</p>
+<p>I got a 3-month contract working in Norwich with Virgin Wines - they were re-building their entire front end website and back-end. This was a great first contract, but I felt like I wasn’t good enough for it, so I was always staying late - until about 8 pm, which meant I'd get home at about 10 pm and I did that for a few months. It was hard work, but I learnt a lot.</p>
+<p>The setup was quite different, there were 3 contractors and 3 perm staff, we got given a room and for the duration of the project, each developer was paired with a designer and we worked closely on the section we were designing and building.</p>
+<p>This was a great way of working. We were also using <a href="https://patternlab.io/" title="Pattern Lab">Pattern Lab</a> and building out a style guide - this was amazing, I had read so much about it, to actually work this way and seeing how it was being used by other people in the company was great.</p>
+<p>I’ve had a few more contracts since then but now I am trying to focus more on freelance work.</p>
+<p>This is the kind of work that I thrive on. I love solving problems, I do like working with other people and I do, if I need a new logo for a client website or if a client needs something that is beyond my skill set. But the majority of the time, it is just me.</p>
+<p>When I started contracting, I took my old name, Multi Creative Media and registered it as a Limited company and I still use that company name, but this year I decided that I was just going to trade as myself - Juan Fernandes Freelance Website Designer.</p>
+<p>This felt like the right thing to do, working as Multi Creative Media, I always felt that I gave the impression that I was bigger than I actually was - website copy referred to ‘We’ rather than ‘I’ etc.</p>
+<p>All in all, I have about 12 years of experience as a website designer, having gained that experience working in many roles and a few different industries.</p>
+<p>After my second contract, working as an Interaction Designer with a great team up in Sheffield, I was offered a full-time position, but based in their London office - I didn’t think twice about accepting it, but I should have. Because I had worked with such a great bunch of people, I forgot about my dislike for big companies, I also thought that working from London, would have been the same as it was when I worked in Sheffield. Things weren’t the same, and a lot of change happened within the company - 90% of the Sheffield office were made redundant and then 6 months later, I too, was made redundant.</p>
+<p>So I decided to go back to contract work and also work on establishing myself as a freelance website designer.</p>
+<p>When I say I dislike working for big companies, I’m not saying there is anything wrong with them - I believe that I am not suitable to work for large companies.</p>
+<p>What I didn’t realise all those years was that perhaps I was not suited to permanent work for companies and that I should have started working for myself all those years ago. But I have gained a lot of experience.</p>
+<p>I hope that by reading this quite long post you have gotten to know me a bit better and have learnt about my journey to becoming a company of <em>‘Juan’</em> and establishing myself as a freelance website designer.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: My Web Design Journey">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Website Design Process - working with me</title>
+    <link href="https://www.juanfernandes.uk/blog/website-design-process-working-with-me/"/>
+    <published>2017-05-02T14:00:43Z</published>
+    <updated>2017-05-02T14:00:43Z</updated>
+    <id>https://www.juanfernandes.uk/blog/website-design-process-working-with-me/</id>
+    <summary><![CDATA[This is my website design process. In this blog post I detail my process from initial client contact to the end of a project.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Website Design Process - working with me,co_rgb:eee,c_fit,w_600//v1579162296/webdesign-work-in-progresspicjumbo.comhnck7775.jpg" />
+    <content type="html"><![CDATA[
+      <p>In this blog post, I'm going to break down my process from initial client query to project completion.</p>
+<p>Have you ever wondered what it is like to work with a website designer? Does it stop you hiring one because you don't know how they work - what if your ways of working don't align with theirs?</p>
+<p>I hope that by sharing my process, you might find we would work well together.</p>
+<h2>Let's get started</h2>
+<p>After a potential client has been through the onboarding stage, which we wont cover in this post, we schedule a meeting - this meeting can either be face to face if you're local or a Skype video call - I can travel to your offices if you prefer.</p>
+<p>The purpose of the meeting is for us to discuss your project in detail - this gives me an idea of the priorities, overall goals and project complexity.</p>
+<p>Whether its a new website or an existing one, we will cover pages you need, what functionality you want, existing branding.</p>
+<p>We'll talk about colours, typography and images - the look and feel you are after and logos, websites you love and hate - all of this will help me when it comes to the design stage - it helps me visualise your project.</p>
+<p>After our meeting, there are a few things that I will need you to do. I will need you to create a pinterest board or a word document and fill it with visual inspiration for your website, complete the design questionnaire and have upload all your website content (text and photos) to the Google Drive folder I share with you.</p>
+<p>I will then work on your project proposal - this will detail how I intend on solving your problem in detail, the cost and the contract - don't worry, the contract is written in plain English and it's designed to help both of us in case we change our minds during the project. It will also explain what happens next.</p>
+<h2>What happens next</h2>
+<p>Providing you are happy with the proposal, contract and there are no amends needed - but you are free to suggest amends.</p>
+<p>A typical project is split into three stages, Design, Build and Live - but before the first stage can start - I will need you to have signed and returned the contract, as well as a down-payment of 50% of the total project cost. This enables me to schedule you in, create a project plan and start working on the design.</p>
+<p>We will be in constant contact throughout all of the stages and you will have access to the Project Hub - a place where you can check the process of your website. While you are checking, if you find any issues at this stage, I will need you to log them on a spreadsheet that will be created for this project - this allows me to focus on getting things done and we wont lose track of any issues.</p>
+<h2>Finishing up</h2>
+<p>We will catch up once more before the site goes live. If you have chosen a CMS, I will show you how to update your website, we will go over the documentation to make sure it all makes sense and you are able to edit your site.</p>
+<p>After I receive the final payment, the website goes live, and you can start sharing your new website. But this isn't the end, I will always be on hand to help you with your website, if you get stuck or have any issues or decided to add more to it.</p>
+<p>My process is not set in stone, and neither should yours - it should be constantly reviewed and changed to suit your needs.</p>
+<p>Have you found this post useful? Did I miss anything out that you would like to know more about? Please leave a comment and I will be more than happy to get back to you or even add to this post.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Website Design Process - working with me">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Automatic copyright year in Perch CMS</title>
+    <link href="https://www.juanfernandes.uk/blog/automatic-copyright-year-in-perch-cms/"/>
+    <published>2017-02-06T08:30:22Z</published>
+    <updated>2017-02-06T08:30:22Z</updated>
+    <id>https://www.juanfernandes.uk/blog/automatic-copyright-year-in-perch-cms/</id>
+    <summary><![CDATA[How to auto update your copyright year with Perch CMS. In this short blog post I share a small code snippet that you can add to automatically update your copyright year.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Automatic copyright year in Perch CMS,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p>One of the things I still get asked to do a lot by clients, ones that don't have a site that is managed by a CMS - is to update their copyright year on the footer.</p>
+<p>Now, this is fairly easy to do using PHP on its own, just using this line of code:</p>
+<pre><code>    &lt;?php echo date(&quot;Y&quot;); ?&gt;
+</code></pre>
+<p>But, you if allow your CMS users to edit the copyright text, then you can't use PHP in a Perch HTML template.</p>
+<p>After reading this article, <a href="https://docs.grabaperch.com/templates/passing-variables-into-templates/" title="Passing Variables Into Templates">Passing Variables Into Templates</a>, I created this code snippet that sets a variable with the current year and then I pass this variable to the Perch template.</p>
+<pre><code>    &lt;?php
+        $curYear = date('Y');
+        PerchSystem::set_var('curyear',$curYear);
+        perch_content_custom('Footer', array(
+            'template'=&gt;'footer.html'
+        ));
+    ?&gt;
+</code></pre>
+<p>This is the Perch template I use to add the copyright text and year.</p>
+<pre><code>    &lt;p class=&quot;copyright&quot;&gt;©2015 - &lt;perch:content id=&quot;curyear&quot; /&gt; &lt;perch:content
+    type=&quot;text&quot; id=&quot;footer-copyright&quot; label=&quot;Copyright Text&quot; required=&quot;true&quot; /&gt;&lt;/p&gt;
+</code></pre>
+<p>This may be a bit over the top, I could simply just added the PHP code in the footer template and not allow the user change the copyright text, but my copyright statement is part of a bigger template that needs to be CMS managed.</p>
+<p>I hope you found this tip useful. Let me know if you see any way I could improve this code.</p>
+<p>How are you setting the copyright year?</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Automatic copyright year in Perch CMS">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>2016: Year in review</title>
+    <link href="https://www.juanfernandes.uk/blog/2016-year-in-review/"/>
+    <published>2017-01-09T15:30:18Z</published>
+    <updated>2017-01-09T15:30:18Z</updated>
+    <id>https://www.juanfernandes.uk/blog/2016-year-in-review/</id>
+    <summary><![CDATA[My first ever year in review post, let's see how it went! 2016 was not a great year, in general for a lot of reasons]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:2016: Year in review,co_rgb:eee,c_fit,w_600//v1579162296/nduplkyrxqu-elena-prokofyeva-min.jpg" />
+    <content type="html"><![CDATA[
+      <p>They must have liked me at G2G3 Digital, because they offered me a permanent role, which I gladly accepted, but working out of their London office, instead of Sheffield. But shortly after this, Capita, who owned G2G3, bought another agency and G2G3 was no more, we became OrangeBus. Ninety percent of the Sheffield staff were made redundant. :(</p>
+<p>In September, a colleague and I got to work on an awesome project - a hi-fidelity prototype proof of concept app for <a href="https://www.globecast.com/" title="GlobeCast">GlobeCast</a>. This was a really quick turnaround project, but I got a chance to implement a basic ServiceWorker script so that the app would work offline. I plan on doing a case study for the GlobeCast work.</p>
+<p>Sadly, myself and a few others from the London office were made redundant just before Christmas and now I'm back to working freelance full-time.</p>
+<h3>Health</h3>
+<p>Health has not been great and my long train journeys didn't help - it didn't leave me with much time left for doing any sort of exercise. The only exercise I managed was a 30m walk to the office each way, I chose to walk rather than get the tube.</p>
+<p>My posture, due to years of bad posture, while working on computers for over 15 years, has had a massive impact on my health. I have started seeing a physio about this and being more aware of my posture.</p>
+<p>I did start doing weights, but this kind of fell through, again due to lack of time, so I'm going to be picking this up again, but after the physio says is ok to do this.</p>
+<p>I'm going to start regular swimming and running! Swimming will help with my posture and upper body health. Running should help me improve my overall fitness.</p>
+<h3>Reading</h3>
+<p>Have read a lot of articles in 2016 due to my long train commutes but I realised I was consuming a lot but wasn't sure how much of it was sticking - a lot of reading and not a lot of practising what I was reading. This is something I want to change this year.</p>
+<p>Feeling overwhelmed with all the unread articles, I decided to delete 90% of my unread Instapaper articles and was only left with articles dating back 1 year.</p>
+<p>I managed to read more fiction and I want to do a lot more of that next year. I've set a target of 10 books, I only managed to read 4 books in 2016. I'll also be reading a lot more non-fiction, self-help types of books - like Deep Work and more.</p>
+<h3>Writing</h3>
+<p>Finally started blogging, even though I only managed a few posts, it's definitely a good start for me, as it's something I've never done, but have always wanted to. I hope to use blogging as a way to remember what I have learnt and read about, and hopefully, others will find it useful.</p>
+<h3>Numbers</h3>
+<p>I read a few year in review posts and some had posted number, I liked this idea - so here are some numbers. I'm going to do a better job of collecting this kind of data for next year's review.</p>
+<ul>
+<li>
+<p>Books read: 4</p>
+</li>
+<li>
+<p>Blog posts published: 3</p>
+</li>
+<li>
+<p>Coffees: 158</p>
+</li>
+<li>
+<p>Conferences attended: 1</p>
+</li>
+<li>
+<p>Client projects: 4</p>
+</li>
+<li>
+<p>Side projects: 3</p>
+</li>
+<li>
+<p>Games played: 2</p>
+<ul>
+<li>Minecraft</li>
+<li>Firewatch</li>
+</ul>
+</li>
+<li>
+<p>TV Shows watched: 24</p>
+<ul>
+<li>11.22.63</li>
+<li>Agents of Shield</li>
+<li>Banshee</li>
+<li>Blindspot</li>
+<li>Childhood's End</li>
+<li>Colony</li>
+<li>Fear the walking dead</li>
+<li>Humans</li>
+<li>Mr Robot</li>
+<li>Outcast</li>
+<li>Peep Show</li>
+<li>Plebs</li>
+<li>Red Dwarf</li>
+<li>Revenge</li>
+<li>Slasher</li>
+<li>The Man in the high castle</li>
+<li>The Strain</li>
+<li>The X-Files</li>
+<li>Undatable</li>
+<li>Walking Dead</li>
+<li>Wayward Pines</li>
+<li>Westworld</li>
+<li>Zoo</li>
+<li>ZNation</li>
+</ul>
+</li>
+<li>
+<p>Films watched: 6</p>
+<ul>
+<li>Deadpool</li>
+<li>Westworld</li>
+<li>The Secret Life of Pets</li>
+<li>Arrival</li>
+<li>Finding Dory</li>
+<li>The Good Dinosaur</li>
+<li>Moana</li>
+</ul>
+</li>
+</ul>
+<h2>Looking ahead</h2>
+<p>I have quite a list of things I want to achieve this year - I hope it's not too many things, as we all know if we try to achieve too many things at once, it just sets us up for failure.</p>
+<p>I've been thinking of starting a local community for a while, either for web designers or for website owners - so either a meetup for web designers in the area or a Home Brew Computer Club.</p>
+<h3>Work</h3>
+<p><em>Establish my freelance business</em></p>
+<p>Because I was made redundant, I didn't have a plan for going full-time freelance and I am currently looking for work. Depending on whether or not I find a freelance client in the next few weeks, will determine whether or not this year is the year I go full-time freelance. But one thing is for sure, I do not want to go back to working for someone else on a permanent basis. That is just not me. I will be looking at possibly going back into contracting just so I can get some savings in place for being able to go full-time freelance.</p>
+<h3>Health</h3>
+<p><em>Exercise more and eat healthier</em></p>
+<p>I have started the year with a '31 days of yoga' video course, currently at day 9 and oh boy you wouldn't think yoga would be that hard, but when you have spent years sat at the computer with bad posture, you soon discover how inflexible your body has become.</p>
+<p>Have started having smoothies for breakfast, again, then just a light snack for lunch.</p>
+<p>Something else that I read about that I wanted to try this year - no caffeine or alcohol - yup! In 2016 I cut down the number of coffees I had a day to just 2 max because I started having double espressos, I found that I rarely needed a second one throughout the day. But after reading a post by Tobias van Schneider - No Alcohol, No Coffee for 27 Months {http://www.vanschneider.com/no-alcohol-no-coffee-for-15-months-this-is-what-happened/} - I realised I was having some of the effects of caffeine and had never attributed it to caffeine.</p>
+<p>Giving up alcohol for me is just a health thing, I've had way too many beers and my belly is showing that! We'll see how long that lasts, but I'm not hopeful - I have a trip to Madeira in the next few weeks to see my parents, and its tradition to stop off at a bar on the way home from the airport to have a <a href="http://www.madeira-holidays.eu/madeira-products/poncha-traditional-drink-madeira/" title="Poncha – The traditional drink of Madeira">Poncha</a>.</p>
+<p>Finally, another new thing for me in 2017 - I have started meditation - it has become really popular over the years and I never thought it as something for me, but after my wife went to a mindfulness meditation course and we spoke about it, I have wanted to try it myself.</p>
+<p>Let me know if you have reviewed your year, I'd love to read it. If you want to read a few more year in review posts - check out the <a href="https://yearinreview.me/" title="Year In Review for Makers">Year In Review for Makers</a> website.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: 2016: Year in review">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Adding SVG icons to a sprite with Perch CMS</title>
+    <link href="https://www.juanfernandes.uk/blog/adding-svg-icons-to-a-sprite-with-perch-cms/"/>
+    <published>2016-12-09T09:00:17Z</published>
+    <updated>2016-12-09T09:00:17Z</updated>
+    <id>https://www.juanfernandes.uk/blog/adding-svg-icons-to-a-sprite-with-perch-cms/</id>
+    <summary><![CDATA[Allow a Perch CMS user to add SVG icons to an SVG sprite and use them through out the website. Usually, SVG sprites are created by a developer/designer when building a website and then never revisited unless the site has a redesign. The creation of a sprite is likely to be an automated process using a task runner like Grunt or Gulp JS.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Adding SVG icons to a sprite with Perch CMS,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p>I wanted to be able to allow a CMS user to add an SVG icon to a sites' SVG Sprite.</p>
+<p>An SVG sprite is the new way of doing image sprites, like the old way of doing CSS image sprites - where you would put all your icons on one image files then use CSS to position that image to show the icon you needed, this is essentially the same thing, but instead it's a list of SVG icons that can be used throughout a site.</p>
+<p>See this article on CSS Tricks about creating an <a href="https://css-tricks.com/svg-sprites-use-better-icon-fonts/" title="Icon System with SVG Sprites">Icon System with SVG Sprites</a></p>
+<p>Usually, SVG sprites are created by a developer/designer when building a website and then never revisited unless the site has a redesign. The creation of a sprite is likely to be an automated process using a task runner like Grunt or Gulp JS.</p>
+<p>But this process does not apply to a site once it's gone live and is managed by a content management system (CMS).</p>
+<p>A similar technique inspired me to create this. See Clive Walker's post - <a href="http://www.cvwdesign.com/blog/using-perch-layouts-and-managing-svg-assets-with-perch" title="Using Perch layouts and managing SVG assets with Perch ">Using Perch layouts and managing SVG assets with Perch</a>.</p>
+<h2>Let's get into the code</h2>
+<p>To start, you need to create a PHP file which will list all the SVG icons. This PHP file has to be  included on all pages - but they will be hidden. This file is not in the root of the site and is not indexed by search engines.</p>
+<p>Once you have that setup, you can include the ability to add SVG icons to your templates, and all the user needs to do is insert the ID of that SVG.</p>
+<p>Create a PHP file inside the <code>/perch /includes/</code> - you don't have to create the includes folder, but I like to keep these types of files separate.</p>
+<p>I called the page svgs.php but you can name it anything - icons.php may have made more sense.</p>
+<pre><code>    &lt;?php include($_SERVER['DOCUMENT_ROOT'].'/cms/runtime.php'); ?&gt;
+    
+    &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot; style=&quot;display: none&quot; class=&quot;hidden&quot;&gt;
+        &lt;?php perch_content('svgs'); ?&gt;
+    &lt;/svg&gt;
+</code></pre>
+<p>In this PHP file, I have a perch_content tag called svgs - again this could be called anything. Make sure you include the runtime.php as per usual and then go to that file on your website: <code>websiteaddress.uk/cms/svgs.php</code> - you can now edit that page via Perch CMS.</p>
+<p>You need to create a new template for adding icons to the svgs.php file. Create the template in <code>/templates/content/</code> and you can call it anything you want; I called mine <code>SVG_icons.html</code> and use the following code:</p>
+<pre><code>    &lt;perch:before&gt;
+        &lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; aria-hidden=&quot;true&quot; style=&quot;display: none&quot; class=&quot;hidden&quot;&gt;
+    &lt;/perch:before&gt;
+          &lt;symbol id=&quot;svg-&lt;perch:content id=&quot;id&quot; type=&quot;text&quot; label=&quot;ID&quot; requi
+          red=&quot;true&quot; size=&quot;m&quot; /&gt;&quot; width=&quot;&lt;perch:content id=&quot;width&quot; type=&quot;text&quot; label=&quot;Width&quot; required=&quot;true&quot; size=&quot;s&quot; /&gt;&quot; height=&quot;&lt;perch:content id=&quot;height&quot; type=&quot;text&quot; label=&quot;Height&quot; required=&quot;true&quot; size=&quot;s&quot; /&gt;&quot; viewBox=&quot;&lt;perch:content id=&quot;viewbox&quot; type=&quot;text&quot; label=&quot;ViewBox&quot; required=&quot;true&quot; size=&quot;m&quot; help=&quot;Format: 0 0 0 0&quot; /&gt;&quot;&gt;
+            &lt;title&gt;&lt;perch:content id=&quot;title&quot; type=&quot;text&quot; label=&quot;Title&quot; required=&quot;true&quot; title=&quot;true&quot; order=&quot;1&quot; /&gt;&lt;/title&gt;
+            &lt;perch:content id=&quot;text&quot; type=&quot;textarea&quot; label=&quot;SVG Paths&quot; html=&quot;true&quot; editor=&quot;markitup&quot; /&gt;
+          &lt;/symbol&gt;
+    &lt;perch:after&gt;
+        &lt;/svg&gt;
+    &lt;/perch:after&gt;
+</code></pre>
+<p>Now log in to your Perch CMS and go to Pages &gt; svgs, click on the Icons region and select the new template - SVG Icons - make sure you check 'Allow multiple items' so that you can add multiple icons.</p>
+<p>You need to include this code on all the pages that you want to be able to use the SVG icons on - I would add it to you header layout - make sure it's placed just after the <body> tag.</p>
+<pre><code>    &lt;?php
+        perch_content_custom('svgs', array(
+            'page'=&gt;'/cms/includes/svgs.php',
+            'template'=&gt;'SVG_icons.html'
+        ));
+    ?&gt;
+</code></pre>
+<p>Let's go back to the SVGs page - Pages &gt; svgs and let's add an icon.</p>
+<p><code>&lt;img src=&quot;https://res.cloudinary.com/juanfernandes/q_auto,f_auto//v1579162293/svgs-1.png&quot; alt=&quot;Adding an SVG icon&quot;&gt;</code></p>
+<p>The <code>SVG_icons.html</code> template gives you the following fields:</p>
+<ul>
+<li>Title - if you are not hiding this icon for visually impaired users, you should give it a title</li>
+<li>ID - this has to be a unique name as it will be used to refer to the icon</li>
+<li>Width and Height</li>
+<li>ViewBox and SVG Paths.</li>
+</ul>
+<p>Fill all of these in - you get this information by opening the SVG using your IDE - like Sublime Text.</p>
+<p>Save this.</p>
+<p>Once saved, that icon should now be in the svgs.php page - but it won't be visible because we are hiding the SVG container.</p>
+<p>This is what the output will look like inside the <code>&lt;svg&gt;</code> tag in the <code>svgs.php</code> file:</p>
+<pre><code>    &lt;symbol id=&quot;svg-html5&quot; width=&quot;150px&quot; height=&quot;150px&quot; viewBox=&quot;0 0 32 32&quot;&gt;
+        &lt;title&gt;html5 Icon&lt;/title&gt;
+        &lt;path d=&quot;M4.665 3.411l2.063 23.176 9.258 2.574 9.284-2.578 2.065-23.172h-22.671zM8.951 8.911l-0.068-0.763h7.107v2.842h-4.005l0.259 2.911h3.746v2.842h-6.341l-0.698-7.833zM22.518 14.665l-0.667 7.483-0.043 0.48-5.822 1.616-5.814-1.616-0.398-4.463h2.849l0.202 2.267 3.163 0.854 3.165-0.856 0.329-3.686h-3.485v-2.842h6.587l-0.069 0.763zM23.032 8.911l-0.129 1.441-0.057 0.639h-6.846v-2.842h7.1l-0.068 0.762z&quot;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+</code></pre>
+<p>Include the following code on any template where you want the user to be able to add an SVG icon from the sprite.</p>
+<pre><code>    &lt;svg aria-hidden=&quot;true&quot;&gt;`
+        &lt;use xlink:href=&quot;#svg-&lt;perch:content type=&quot;text&quot; id=&quot;skill-icon-id&quot; label=&quot;Icon ID&quot; required=&quot;true&quot; size=&quot;m&quot; help=&quot;SVG icon ID name&quot; /&gt;&quot; /&gt;
+    &lt;/svg&gt;
+</code></pre>
+<p>By adding the above code in a template, in Perch, you can use an SVG icon from the <code>svgs.php</code> file.</p>
+<p><code>&lt;img src=&quot;https://res.cloudinary.com/juanfernandes/q_auto,f_auto//v1579162293/svgs-2.png&quot; alt=&quot;Adding an SVG icon to your content&quot;&gt;</code></p>
+<p>You should now be able to add your own SVG icons to your SVG sprite via Perch CMS.</p>
+<p>This solution is what I am using on my own website and will be using in all future website that I create that use Perch CMS.</p>
+<p>What do you think of this solution? Can you see any way this can be improved? I'd love to get some feedback - this is the first time I have shared any code that I have used in Perch.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Adding SVG icons to a sprite with Perch CMS">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Newsletters for Front-end developers</title>
+    <link href="https://www.juanfernandes.uk/blog/newsletters-for-front-end-developers/"/>
+    <published>2016-11-29T17:30:47Z</published>
+    <updated>2016-11-29T17:30:47Z</updated>
+    <id>https://www.juanfernandes.uk/blog/newsletters-for-front-end-developers/</id>
+    <summary><![CDATA[Because there is so much content and noise on the web about development theses days, its difficult to find great ressources - its also very easy to miss hearing about new software or new techniques via social media. Newsletters are still a great way to keep up with all thats happening in our industry and front end development.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Newsletters for Front-end developers,co_rgb:eee,c_fit,w_600/v1579162296/computer-18363301920-1.jpg" />
+    <content type="html"><![CDATA[
+      <p>Because there is so much content and noise on the web about development theses days, it's difficult to find great resources - it's also very easy to miss hearing about new software or new techniques via social media, and I find newsletters to be a great way of keeping up with the latest.</p>
+<p>You don’t have to read every single article in every single newsletter, but what you will find is that some links repeat across newsletters, so you know it's worth reading it then.</p>
+<p>Bellow is a list of all the newsletters that I am currently subscribed to. Hopefully, you will find some that you aren't subscribed to yet.</p>
+<p>Let me know if there are other great newsletters that I should subscribe to and add to the list - send me a tweet or message.</p>
+<h2>Newsletters</h2>
+<ul>
+<li>CSS Animation Weekly - https://cssanimation.curated.co/</li>
+<li>CSS Layout News - http://csslayout.news/</li>
+<li>CSS Tricks - https://css-tricks.com/</li>
+<li>CSS Weekly - http://css-weekly.com/</li>
+<li>Design Systems - https://designsystems.curated.co/</li>
+<li>Front End Front - https://frontendfront.com/</li>
+<li>From the front - https://frontendfront.com/</li>
+<li>FrontEnd Focus - http://frontendfocus.co/</li>
+<li>Paul Jarvis - https://pjrvs.com/signup/</li>
+<li>Perchology - https://perchology.curated.co/</li>
+<li>Offline FIrst - http://offlinefirst.org/news/</li>
+<li>The Smashing Magazine - https://www.smashingmagazine.com/the-smashing-newsletter/</li>
+<li>Tobias Van Schneider - http://www.vanschneider.com/signup/</li>
+<li>UI Animation Newsletter - http://valhead.com/newsletter/</li>
+<li>UX Booth - http://www.uxbooth.com/subscribe/</li>
+<li>Web Tools Weekly - http://webtoolsweekly.com/</li>
+<li>WebAIM - http://webaim.org/newsletter/</li>
+</ul>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Newsletters for Front-end developers">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+  
+  <entry>
+    <title>Hello World! First blog post.</title>
+    <link href="https://www.juanfernandes.uk/blog/hello-world-first-blog-post/"/>
+    <published>2016-10-26T13:50:05Z</published>
+    <updated>2016-10-26T13:50:05Z</updated>
+    <id>https://www.juanfernandes.uk/blog/hello-world-first-blog-post/</id>
+    <summary><![CDATA[I’ve decided that 2016 is the year I start writing regular blog posts - and I just about made it, 2017 is just around the corner. I’ve never properly done it, I’ve written a few posts for my business websites’ blog but they came once in a blue moon - not good, I know.]]></summary>
+    <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Hello World! First blog post.,co_rgb:eee,c_fit,w_600//v1579162296/photo-1415045550139-59b6fafc832f.jpg" />
+    <content type="html"><![CDATA[
+      <p>I’ve decided that 2016 is the year I start writing regular blog posts - and I just about made it, 2017 is just around the corner. I’ve never properly done it, I’ve written a few posts for my business websites’ blog but they came once in a blue moon - not good, I know.</p>
+<h3>Why Now</h3>
+<p>Some say that blogging is no longer relevant, but for me, I want to use it to improve my writing and also to document what I learn as a front-end developer, maybe rant and ramble now and again. That’s it, I’m not hoping for hundreds or thousands of readers, I’d be happy with two. :)</p>
+<h3>What's the plan?</h3>
+<p>So over the years I have read a lot! A lot of it goes in and doesn’t stick. So my plan is to take something I want to learn about, for example, Flexbox, read about it, play around with it, create some demos and write about what I have learned.</p>
+<h3>Simple right?</h3>
+<p>So this year I am going to learn JavaScript. So I will be writing about what I have learned, but I also want to play around with Flexbox, srcset, and loads of other exciting front-end techs. Exciting times ahead.</p>
+
+      <hr><p><a href="mailto:hello@juanfernandes.uk?subject=Re: Hello World! First blog post.">Reply via email</a></p>
+    ]]></content>
+  </entry>
+  
+</feed>
