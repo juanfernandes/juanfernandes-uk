@@ -659,6 +659,41 @@
                 "excerpt": "The 'IndieWeb' feels like coming home tech personal Eleventy IndieWeb featured Due to the convenience of not needing to code or maintain anything…",
                 "url": "https://daught.me/blog/2024/indie-web/",
                 "date": "March 17, 2024 at 04:00PM"
+            },
+            {
+                "title": "Time to Ditch Analytics? Tracking Scripts and Web Sustainability",
+                "autho": "Michelle Barker",
+                "excerpt": "This article on privacy-focussed web design by Paul Jardine and Becky Thorn of sustainably-minded web design agency Root raises some great points about the link…",
+                "url": "https://css-irl.info/time-to-ditch-analytics/",
+                "date": "March 19, 2024 at 10:40PM"
+            },
+            {
+                "title": "Lightweight search in Eleventy",
+                "author": "Cory Dransfeldt",
+                "excerpt": "I've been using Pagefind for my site search for a while now and would readily recommend it, but I wanted to throw together something a bit lighter weight and…",
+                "url": "https://coryd.dev/posts/2024/lightweight-search-in-eleventy/",
+                "date": "March 19, 2024 at 10:59PM"
+            },
+            {
+                "title": "Readable code tips: Introduction",
+                "author": "Ross Wintle",
+                "excerpt": "There’s lots about code that slows us down I’ve been doing a lot of code reviews recently. And while most of the code I review works (by which I mean: meets the…",
+                "url": "https://rosswintle.uk/2024/03/readable-code-tips-intro/",
+                "date": "March 21, 2024 at 07:35AM"
+            },
+            {
+                "title": "Better type layouts with CSS",
+                "author": "Chris Ferdinandi",
+                "excerpt": "I wanted to quickly share two newer CSS properties that make it easier to create nice, well-balanced layouts. The text-wrap property has two newish…",
+                "url": "https://gomakethings.com/better-type-layouts-with-css/",
+                "date": "March 21, 2024 at 08:45PM"
+            },
+            {
+                "title": "When to Nest CSS",
+                "author": "Scott Vandehey",
+                "excerpt": "With the recent news that CSS nesting is now available in the major evergreen browsers , our team was discussing how it differs from nesting in Sass , and the…",
+                "url": "https://cloudfour.com/thinks/when-to-nest-css/",
+                "date": "March 21, 2024 at 08:53PM"
             }
         ]
     }
