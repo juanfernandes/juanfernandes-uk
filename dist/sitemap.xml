@@ -448,9 +448,6 @@
     <loc>https://www.juanfernandes.uk/notes/changelog-added-mastodon-post/</loc>
   </url>
   <url>
-    <loc>https://www.juanfernandes.uk/now/</loc>
-  </url>
-  <url>
     <loc>https://www.juanfernandes.uk/about/</loc>
   </url>
   <url>
@@ -460,9 +457,6 @@
     <loc>https://www.juanfernandes.uk/books/</loc>
   </url>
   <url>
-    <loc>https://www.juanfernandes.uk/links/</loc>
-  </url>
-  <url>
     <loc>https://www.juanfernandes.uk/photos/ninja-line/</loc>
   </url>
   <url>
@@ -470,5 +464,11 @@
   </url>
   <url>
     <loc>https://www.juanfernandes.uk/uses/</loc>
+  </url>
+  <url>
+    <loc>https://www.juanfernandes.uk/links/</loc>
+  </url>
+  <url>
+    <loc>https://www.juanfernandes.uk/now/</loc>
   </url>
 </urlset>
