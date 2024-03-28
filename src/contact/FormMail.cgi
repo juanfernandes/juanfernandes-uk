@@ -43,7 +43,7 @@ $mailprog = '/usr/sbin/sendmail -i -t -odb';
 # valid addresses to receive e-mail.  Read the documentation to find out how #
 # this variable works!!!  It is EXTREMELY IMPORTANT.                         #
 
-@recipients = &fill_recipients('multicreativemedia.co.uk');
+@recipients = &fill_recipients('juanfernandes.uk');
 
 # ACCESS CONTROL FIX: Peter D. Thompson Yezek                                #
 # @valid_ENV allows the sysadmin to define what environment variables can    #
