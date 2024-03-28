@@ -253,7 +253,7 @@
         
         <section class="section section--intro">
           <div class="content">
-            <p>I'd love to hear about your project, and see if I'm the right fit to help you grow. Fill out the form below or give me a call on 07549 936695 and we'll make it happen.</p>
+            <p>I'd love to hear about your project, and see if I'm the right fit to help you grow. Fill out the form below or give me a call on 07549936695 and we'll make it happen.</p>
             <hr class="u-mb-0 u-mt-3">
           </div>
         </section>
@@ -264,23 +264,29 @@
               <div class="ten cols">
                 <p>If you're looking to start a project or give your existing website a fresh new look, make an enquiry about front-end web development services or find out about availability, please use the form below.</p>
 
-                <form class="form form--horizontal" name="Contact" method="POST" action="https://formspree.io/f/xpzvyqea">
+                <form class="form form--horizontal" name="Contact" method="POST" action="FormMail.cgi">
+                  <input type="hidden" name="recipient" value="info@juanfernandes.uk">
+                  <input type="hidden" name="required" value="Name,Email">
+                  <input type="hidden" name="subject" value="Hailing Frequencies Open">
+                  <input type="hidden" name="missing_fields_redirect" value="error.html">
+                  <input type="hidden" name="redirect" value="thank-you.html">
+                  <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT">
                   <div class="control-group">
                     <label class="control-label" for="name">Your Name <span class="required">*</span></label>
                     <div class="controls">
-                      <input id="name" name="name" class="input input--xxlarge" type="text" required="required">
+                      <input id="name" name="Name" class="input input--xxlarge" type="text" required="required">
                     </div>
                   </div>
                   <div class="control-group">
                     <label class="control-label" for="email">Your Email <span class="required">*</span></label>
                     <div class="controls">
-                      <input id="email" name="email" class="input input--xxlarge" type="email" required="required">
+                      <input id="email" name="Email" class="input input--xxlarge" type="email" required="required">
                     </div>
                   </div>
                   <div class="control-group">
                     <label class="control-label" for="message">What's up? <span class="required">*</span></label>
                     <div class="controls">
-                      <textarea id="message" name="message" cols="30" rows="5" required="required"></textarea>
+                      <textarea id="message" name="Message" cols="30" rows="5" required="required"></textarea>
                     </div>
                   </div>
                   <div class="control-group">
@@ -294,7 +300,7 @@
               <div class="six cols">
                 <ul>
                   <li><strong>Email:</strong> <a href="mailto:info@juanfernandes.uk" title="info@juanfernandes.uk">info@juanfernandes.uk</a></li>
-                  <li><strong>Call:</strong> <a href="tel:+447549936695" title="07549 936695">07549 936695</a></li>
+                  <li><strong>Call:</strong> <a href="tel:07549936695" title="07549936695">07549936695</a></li>
                 </ul>
               </div>
             </div>
