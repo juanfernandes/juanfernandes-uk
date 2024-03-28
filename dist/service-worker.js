@@ -1,5 +1,5 @@
 'use strict'
-const version = 'v92a3-6027-0fe1';
+const version = 'v45e8-b1a5-fb20';
 
 const staticCacheName = version + 'static'
 const pagesCacheName = 'pages'
