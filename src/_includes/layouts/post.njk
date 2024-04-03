@@ -21,6 +21,8 @@
       {% include 'components/mastodon-post.njk' %}
     {% endif %}
 
+    {# {% include 'components/social-share.njk' %} #}
+
       <p class="meta">
         {% if edited %}<small>Edited on <time class="dt-published" datetime="{{ edited | w3DateFilter }}">{{ edited | dateFilter }}</time></small><br>{% endif %}
         <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/about/" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/tags/{{ item }}/" class="p-category">{{ item }}</a> {% endfor %}</small>

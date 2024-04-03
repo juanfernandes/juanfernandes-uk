@@ -696,5 +696,94 @@
                 "date": "March 21, 2024 at 08:53PM"
             }
         ]
+    },
+    {
+        "month": "April",
+        "links": [
+            {
+                "title": "Subgrid is here",
+                "author": "Michelle Barker",
+                "excerpt": "Support for subgrid (part of the CSS Grid Level 2 specification has just landed in Firefox Nightly! To start experimenting with it you’ll need to enable the…",
+                "url": "https://css-irl.info/subgrid-is-here/",
+                "date": "March 26, 2024 at 10:58PM"
+            },
+            {
+                "title": "Own Your Web – Issue 12: Finding Your Rhythm",
+                "author": "Matthias Ott",
+                "excerpt": "t is one of the most common reasons why we abandon our personal sites and blogs: at some point, we stop publishing. But why? Weren’t we so…",
+                "url": "https://buttondown.email/ownyourweb/archive/issue-12/",
+                "date": "March 26, 2024 at 11:01PM"
+            },
+            {
+                "title": "The IndieWeb is the new and the old web",
+                "author": "Alex Hyett",
+                "excerpt": " When I first started developing websites back in 2000 the internet was a much simpler place. Google existed, but most people still used Yahoo or Ask Jeeves to…",
+                "url": "https://www.alexhyett.com/newsletter/the-indie-web-is-the-new-and-the-old-web/",
+                "date": "March 26, 2024 at 11:07PM"
+            },
+            {
+                "title": "The Discovery Phase in UX Projects",
+                "author": "Maria Rosala",
+                "excerpt": "In This Article: Introduction Discovery: A preliminary phase in the UX-design process that involves researching the problem space, framing the problem(s) to be…",
+                "url": "https://www.nngroup.com/articles/discovery-phase/",
+                "date": "March 28, 2024 at 09:29AM"
+            },
+            {
+                "title": "Using Gitea/Github actions for triggering Echo",
+                "author": "Lewis Dale",
+                "excerpt": "I decided to start using Robb Knight’s Echo tool, to syndicate my blog posts to Mastodon, and trigger Webmentions. I’m not going to go through the configuration…",
+                "url": "https://lewisdale.dev/post/using-gitea-github-actions-for-triggering-echo/",
+                "date": "March 28, 2024 at 09:29AM"
+            },
+            {
+                "title": "CSS color-scheme-dependent colors with light-dark()",
+                "author": "Bramus Van Damme",
+                "excerpt": "System colors have the ability to react to the current used color-scheme value. The light-dark() function exposes the same capability to authors. Bramus System…",
+                "url": "https://web.dev/articles/light-dark",
+                "date": "March 28, 2024 at 09:34AM"
+            },
+            {
+                "title": "How would you build a complex app with vanilla tech?",
+                "author": "Chris Ferdinandi",
+                "excerpt": "The other day on Mastodon, Hawk Ticehurst asked… If you were asked to build a “proper complex” web application (let’s say a full featured mastodon client or…",
+                "url": "https://gomakethings.com/how-would-you-build-a-complex-app-with-vanilla-tech/",
+                "date": "March 29, 2024 at 11:57AM"
+            },
+            {
+                "title": "Building Dynamic Progress Bars using only CSS",
+                "author": "Amit Merchant",
+                "excerpt": "Here’s a full disclaimer upfront: This isn’t something I’ve come up with. Jeffery Way from Laracasts has come up with this technique in one of the videos and…",
+                "url": "https://www.amitmerchant.com/dynamic-progress-bars-using-css/",
+                "date": "March 29, 2024 at 12:01PM"
+            },
+            {
+                "title": "disabled vs aria-disabled on form elements",
+                "author": "Stefan Judis",
+                "excerpt": "I'll definitely reference the following blog post in the future. Kitty Giraudel describes when to use disabled and aria-disabled. Ready? Because here comes some…",
+                "url": "https://www.stefanjudis.com/notes/disabled-vs-aria-disabled-on-form-elements/",
+                "date": "March 30, 2024 at 10:47AM"
+            },
+            {
+                "title": "Using Eleventy to Gobble Up Everything I Do Online",
+                "author": "Robb Knight",
+                "excerpt": "This post is adapted from the talk I did at the Eleventy Meetup. You can also watch the talk on YouTube. This is what I look like when I try to…",
+                "url": "https://rknight.me/blog/using-eleventy-to-gobble-up-everything-i-do-online/",
+                "date": "March 31, 2024 at 12:56PM"
+            },
+            {
+                "title": "Front-end development’s identity crisis",
+                "author": "Elly Loel",
+                "excerpt": "I’m not a “[full-stack] developer”, regardless of what my last job title says. I’m not even a front-end developer, thanks to the JavaScript–industrial complex.…",
+                "url": "https://ellyloel.com/blog/front-end-development-s-identity-crisis/",
+                "date": "April 2, 2024 at 05:29PM"
+            },
+            {
+                "title": "Best practices for writing CSS and JavaScript with a team",
+                "author": "Chris Ferdinandi",
+                "excerpt": "Yesterday, I wrote about the importance of understanding the medium that we work in. Today, I wanted to share my best practices for writing code with a team.…",
+                "url": "https://gomakethings.com/best-practices-for-writing-css-and-javascript-with-a-team/",
+                "date": "April 2, 2024 at 05:35PM"
+            }
+        ]
     }
 ]

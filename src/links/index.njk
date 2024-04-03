@@ -2,7 +2,7 @@
 title: Links
 layout: page
 class: links
-date: 2024-03-35T10:00:00Z
+date: 2024-04-03T14:30:00Z
 intro:
   class: sml
   subheading: Sharing links to articles I've read
@@ -16,6 +16,7 @@ intro:
     <div class="link__details">
       <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
       {% if link.excerpt %}<p>{{ link.excerpt | safe }}</p>{% endif %}
+      {# {% if link.author %}<a class="link__author u-inline-block">{{ link.author }}</a>{% endif %} #}
       <span class="link__date dt-published">Read on: {{ link.date }}</span>
     </div>
   </div>

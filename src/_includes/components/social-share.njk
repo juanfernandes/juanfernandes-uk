@@ -1,0 +1,47 @@
+<div class="social-share">
+  <header>
+    <h3 class="social-share__title">Share this post</h3>
+  </header>
+  <div class="social-share__targets">
+    <a class="social-share__button">
+      <svg aria-hidden="true" focusable="false" width="32" height="32" stroke="#000">
+        <use xlink:href="#svg-mastodon"></use>
+      </svg>
+      <span>Mastodon</span>
+    </a>
+
+    <a class="social-share__button" href="http://twitter.com/share?text={{ title }}&amp;url={{ currentUrl }}&amp;hashtags=WebDesign,WebDev" rel="noreferrer">
+      <svg aria-hidden="true" focusable="false" width="32" height="32" stroke="#000">
+        <use xlink:href="#svg-twitter"></use>
+      </svg>
+      <span>Twitter</span>
+    </a>
+
+    <a class="social-share__button" href="https://www.linkedin.com/sharing/share-offsite/?url={{ currentUrl }}">
+      <svg aria-hidden="true" focusable="false" width="32" height="32" stroke="#000">
+        <use xlink:href="#svg-linkedin"></use>
+      </svg>
+      <span>LinkedIn</span>
+    </a>
+
+    <a class="social-share__button" href="mailto:?subject={{ title }} &body={{ description }}">
+      <svg width="32" height="32">
+        <use href="#email"></use>
+      </svg>
+      <span>Email</span>
+    </a>
+  </div>
+
+  <div class="social-share__link">
+    <div class="social-share__url">https://codepen.io/ayoisaiah/pen/YbNazJ</div>
+    <button class="social-share__copy-link">Copy Link</button>
+  </div>
+</div>
+
+<svg class="hidden">
+  <defs>
+    <symbol id="share-icon" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></symbol>
+
+    <symbol id="email" viewBox="0 0 32 32" fill="#777" stroke="#fafafa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></symbol>
+  </defs>
+</svg>
