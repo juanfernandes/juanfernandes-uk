@@ -1167,6 +1167,66 @@
                 "excerpt": "Yesterday, I wrote about the importance of understanding the medium that we work in. Today, I wanted to share my best practices for writing code with a team.…",
                 "url": "https://gomakethings.com/best-practices-for-writing-css-and-javascript-with-a-team/",
                 "date": "April 2, 2024 at 05:35PM"
+            },
+            {
+                "title": "CSS variables",
+                "author": {
+                    "name": "Chris Ferdinandi",
+                    "url": "https://gomakethings.com/"
+                },
+                "excerpt": "Yesterday, I mentioned that I love CSS variables. Today, I thought I’d explain what they are and how they work, for those who aren’t already familiar with them…",
+                "url": "https://gomakethings.com/css-variables/",
+                "date": "April 3, 2024 at 07:44PM"
+            },
+            {
+                "title": "Have we forgotten how to build ethical things for the web?",
+                "author": {
+                    "name": "Nic Chan",
+                    "url": "https://www.nicchan.me/"
+                },
+                "excerpt": "I've worked on a few projects where values and ethics were a key part of the clients' mission. They weren't putting profits over everything, they were trying to…",
+                "url": "https://www.nicchan.me/blog/have-we-forgotten-how-to-build-ethical-things-for-the-web/",
+                "date": "April 3, 2024 at 07:54PM"
+            },
+            {
+                "title": "An advanced way to use CSS variables",
+                "author": {
+                    "name": "Chris Ferdinandi",
+                    "url": "https://gomakethings.com/"
+                },
+                "excerpt": "Yesterday, we learned about CSS variables. Today, I wanted to show you an advanced approach to working with them that I often use with client projects. Let’s…",
+                "url": "https://gomakethings.com/an-advanced-way-to-use-css-variables/",
+                "date": "April 4, 2024 at 09:07PM"
+            },
+            {
+                "title": "5 Things Designers Need to Know for a Smooth Handoff",
+                "author": {
+                    "name": "Lauren Byrne",
+                    "url": "https://www.linkedin.com/in/laurenandresbyrne"
+                },
+                "excerpt": "There’s no truth teller quite like Google autocomplete. As you type “Design development handoff is…” into the search bar, it quickly fills in the blank with…",
+                "url": "https://www.figma.com/blog/5-things-designers-need-to-know-for-a-smooth-handoff/",
+                "date": "April 4, 2024 at 10:31PM"
+            },
+                {
+                "title": "Your Cache Headers Could Probably be More Aggressive",
+                "author": {
+                    "name": "Alex MacArthur",
+                    "url": "https://macarthur.me/"
+                },
+                "excerpt": "We've got it real good when it comes to standing up websites these days (especially static ones). Modern hosts like Vercel and Netlify take care of a lot out of…",
+                "url": "https://macarthur.me/posts/more-aggressive-cache-headers/",
+                "date": "April 5, 2024 at 10:33PM"
+            },
+            {
+                "title": "Embeds and Quotations in Writing",
+                "author": {
+                    "name": "Jim Nielsen",
+                    "url": "https://blog.jim-nielsen.com/"
+                },
+                "excerpt": "Chris wrote “0 KB Social Media Embeds” and it got me thinking about my own approach to embeds and quotations in my writing. A lot of my blogging is quoting…",
+                "url": "https://blog.jim-nielsen.com/2023/embeds-and-quotations/",
+                "date": "April 5, 2024 at 10:39PM"
             }
         ]
     }

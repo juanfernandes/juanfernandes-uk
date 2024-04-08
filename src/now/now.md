@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-04-03T14:30:00Z
+date: 2024-04-08T10:30:00Z
 class: now
 intro:
   heading: Now
@@ -18,6 +18,9 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Weather is starting to improve so I've started cleaning the BBQ and sorting out the garden ready for summer.
 
 ## Watching
+* [Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")
+  Rewatch: Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.
+
 * [Loudermilk](https://www.themoviedb.org/tv/73200-loudermilk "Loudermilk")
   Sam Loudermilk is a recovering alcoholic and substance abuse counselor with an extremely bad attitude about, well, everything. He is unapologetically uncensored, and manages to piss off everyone in his life. Although he has his drinking under control, Loudermilk discovers that when your life is a complete mess, getting clean is the easy part.
 
@@ -28,6 +31,5 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ### Books
 * [Holly by Stephen King](https://bookwyrm.social/book/1373489/s/holly "Holly by Stephen King")
-* [Company of One](https://bookwyrm.social/book/184714/s/company-of-one "Company of One")
 
 ### Articles
