@@ -1515,8 +1515,15 @@ figure.effect:hover p {
   margin-bottom: 2rem;
   padding-bottom: 1rem;
 
-  &__date {
-    font-size: 1.2rem;
+  &__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__meta span,
+  &__meta a {
+    font-size: 1.6rem;
   }
 }
 
@@ -1571,9 +1578,7 @@ figure.effect:hover p {
   border: 1px solid #ddd;
   box-shadow: 0 8px 16px rgba(0,0,0,.15);
   display: block;
-  max-width: 500px;
   padding: 20px;
-  width: 95%;
 
   &__header {
     display: flex;
@@ -1591,6 +1596,7 @@ figure.effect:hover p {
 
   &__button {
     align-items: center;
+    background-color: transparent;
     border-radius: 4px;
     border: 1px solid #ddd;
     color: #777;
@@ -1598,6 +1604,7 @@ figure.effect:hover p {
     display: inline-flex;
     font-size: 14px;
     font-weight: 500;
+    gap: 10px;
     height: auto;
     justify-content: center;
     letter-spacing: 2px;
@@ -1608,6 +1615,20 @@ figure.effect:hover p {
     text-decoration: none;
     text-transform: capitalize;
     white-space: nowrap;
+
+    &:hover,
+    &:focus {
+      border-color: var(--off-black);
+      background-color: var(--orange);
+      color: var(--off-white);
+      outline: none;
+      transition: all .3s ease-in-out;
+
+      & svg {
+        transition: stroke .3s ease-in-out;
+        stroke: var(--off-white);
+      }
+    }
   }
 
   &__link {
@@ -1620,8 +1641,17 @@ figure.effect:hover p {
   }
 
   &__copy-link {
-    padding-left: 30px;
-    padding-right: 30px;
+    flex-basis: fit-content;
+    padding: 8px 30px;
+
+    &:hover,
+    &:focus {
+      border-color: var(--off-black);
+      background-color: var(--orange);
+      color: var(--off-white);
+      outline: none;
+      transition: all .3s ease-in-out;
+    }
   }
 
   &__url {

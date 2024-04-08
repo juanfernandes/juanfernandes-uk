@@ -16,8 +16,10 @@ intro:
     <div class="link__details">
       <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
       {% if link.excerpt %}<p>{{ link.excerpt | safe }}</p>{% endif %}
-      {# {% if link.author %}<a class="link__author u-inline-block">{{ link.author }}</a>{% endif %} #}
-      <span class="link__date dt-published">Read on: {{ link.date }}</span>
+      <div class="link__meta">
+        {% if link.author %}<span>Author: <a href="{{ link.author.url }}" class="link__author u-inline-block">{{ link.author.name }}</a></span>{% endif %}
+        <span class="link__date dt-published">Read on: {{ link.date }}</span>
+      </div>
     </div>
   </div>
   {%- endfor -%}

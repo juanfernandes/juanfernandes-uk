@@ -3,12 +3,7 @@
     <h3 class="social-share__title">Share this post</h3>
   </header>
   <div class="social-share__targets">
-    <a class="social-share__button">
-      <svg aria-hidden="true" focusable="false" width="32" height="32" stroke="#000">
-        <use xlink:href="#svg-mastodon"></use>
-      </svg>
-      <span>Mastodon</span>
-    </a>
+    <button class="social-share__button mastodon-share"></button>
 
     <a class="social-share__button" href="http://twitter.com/share?text={{ title }}&amp;url={{ currentUrl }}&amp;hashtags=WebDesign,WebDev" rel="noreferrer">
       <svg aria-hidden="true" focusable="false" width="32" height="32" stroke="#000">
@@ -25,15 +20,15 @@
     </a>
 
     <a class="social-share__button" href="mailto:?subject={{ title }} &body={{ description }}">
-      <svg width="32" height="32">
-        <use href="#email"></use>
+      <svg aria-hidden="true" focusable="false" width="32" height="32" stroke="#000">
+        <use xlink:href="#svg-email"></use>
       </svg>
       <span>Email</span>
     </a>
   </div>
 
   <div class="social-share__link">
-    <div class="social-share__url">https://codepen.io/ayoisaiah/pen/YbNazJ</div>
+    <div class="social-share__url">{{ currentUrl }}</div>
     <button class="social-share__copy-link">Copy Link</button>
   </div>
 </div>
@@ -45,3 +40,52 @@
     <symbol id="email" viewBox="0 0 32 32" fill="#777" stroke="#fafafa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></symbol>
   </defs>
 </svg>
+
+<script>
+// Copy Link
+const button = document.querySelector('.social-share__copy-link')
+
+const addToClipboard = async (link) => {
+  await navigator.clipboard.writeText(link);
+}
+
+const copyLink = async (link) => {
+  const copied = await addToClipboard(link)
+  button.innerText = 'Copied'
+  setTimeout(() => {
+    button.innerText = 'Copy Link'
+  }, 3000)
+};
+
+button.addEventListener('click', () => copyLink('{{ currentUrl }}'))
+
+// Mastodon Share Icon
+function mastodonShareButtonClick(e) {
+  const btn = e.target;
+  let href = document.URL;
+  let title = document.title;
+  if ('data-title' in btn.attributes && 'data-href' in btn.attributes) {
+    href = btn.attributes['data-href'].value;
+    title = btn.attributes['data-title'].value;
+  }
+  const mastodonInstance = prompt(`Sharing "${href}"\nPlease enter your Mastodon instance (e.g. mastodon.social) for sharing`);
+  if (mastodonInstance == null) {
+    return;
+  }
+  if (mastodonInstance.indexOf('/') === -1) {
+    window.open('https://' + mastodonInstance + '/share?text=' + encodeURIComponent(title) + ' ' + encodeURIComponent(href), "_blank");
+  } else {
+    alert("Please enter your instance without https:// or other paths!");
+  }
+}
+
+addEventListener('DOMContentLoaded', () => {
+  const buttons = document.querySelectorAll('button.mastodon-share');
+  buttons.forEach((btn) => {
+    btn.innerHTML = '<svg aria-hidden="true" focusable="false" width="32" height="32" stroke="#000"><use xlink:href="#svg-mastodon"></use></svg><span>Mastodon</span>';
+    btn.addEventListener('click', mastodonShareButtonClick);
+  })
+})
+
+
+</script>

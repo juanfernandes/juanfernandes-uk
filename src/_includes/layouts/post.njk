@@ -21,7 +21,6 @@
       {% include 'components/mastodon-post.njk' %}
     {% endif %}
 
-    {# {% include 'components/social-share.njk' %} #}
 
       <p class="meta">
         {% if edited %}<small>Edited on <time class="dt-published" datetime="{{ edited | w3DateFilter }}">{{ edited | dateFilter }}</time></small><br>{% endif %}
@@ -29,9 +28,8 @@
       </p>
     </article>
 
-    {% include 'components/signup-form.njk' %}
+    {% include 'components/social-share.njk' %}
 
-    {% include 'webmentions.njk' %}
   </div>
 </div>
 {% endblock %}
