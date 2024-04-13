@@ -1,5 +1,6 @@
 --- 
 title: Links
+description: test test
 layout: page
 class: links
 date: 2024-04-08T10:30:00Z
@@ -8,10 +9,7 @@ intro:
   subheading: Sharing links to articles I've read
 ---
 
-{% for month in links | reverse %}
-<h2 class="month">{{ month.month }}</h2>
-
-  {%- for link in month.links | reverse -%}
+  {%- for link in links | reverse -%}
   <div class="link">
     <div class="link__details">
       <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
@@ -23,4 +21,3 @@ intro:
     </div>
   </div>
   {%- endfor -%}
-{% endfor %}

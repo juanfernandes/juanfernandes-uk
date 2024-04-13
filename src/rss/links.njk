@@ -1,0 +1,27 @@
+---
+permalink: '/rss/links.xml'
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="links-style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <title>{{ site.feed.links.title }}</title>
+  <subtitle>{{ site.feed.links.description }}</subtitle>
+  <link href="{{ site.url }}{{ permalink }}" rel="self"/>
+  <link href="{{ site.url }}"/>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
+  {%- for link in links | reverse -%}
+  <entry>
+    <title>{{ link.title }}</title>
+    <link href="{{ link.url }}"/>
+    <id>{{ link.url }}</id>
+    <content type="html"><![CDATA[
+      {{ link.excerpt | safe }}
+    ]]></content>
+  </entry>
+  {% endfor %}
+</feed>
