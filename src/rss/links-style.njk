@@ -33,7 +33,8 @@ eleventyExcludeFromCollections: true
             </div>
 
             <h2>Recent links</h2>
-            <p class="u-block"><small>Updated: {{ page.date | dateFilter }}</small></p>
+            <p class="u-block"><small>Updated: <time class="dt-published" datetime="{{ collections.links | rssLastUpdatedDate }}">{{ collections.links | rssLastUpdatedDate }}</time></small></p>
+
             <ul class="list-bordered">
             {%- for link in links | reverse -%}
             <li>

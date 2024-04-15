@@ -9,6 +9,7 @@ eleventyExcludeFromCollections: true
   <subtitle>{{ site.feed.links.description }}</subtitle>
   <link href="{{ site.url }}{{ permalink }}" rel="self"/>
   <link href="{{ site.url }}"/>
+  <updated>{{ collections.links | rssLastUpdatedDate }}</updated>
   <id>{{ site.url }}/</id>
   <author>
     <name>{{ site.author.name }}</name>

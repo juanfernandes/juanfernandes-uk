@@ -29,8 +29,41 @@
             </div>
 
             <h2>Recent links</h2>
-            <p class="u-block"><small>Updated: 20th March 2024</small></p>
+            <p class="u-block"><small>Updated: <time class="dt-published" datetime="2024-04-15T13:59:06Z">2024-04-15T13:59:06Z</time></small></p>
+
             <ul class="list-bordered"><li>
+              <a class="delta" href="https://www.stefanjudis.com/today-i-learned/how-to-use-language-dependent-quotes-in-css/">How to display language-specific quotes in CSS</a>
+              <p class="u-mb-0">Will Boyd&#39;s excellent article Diving into the ::before and ::after Pseudo-Elements includes nifty details about CSS quotes. Let&#39;s say you&#39;re dealing with a…</p>
+            </li>
+            <li>
+              <a class="delta" href="https://coryd.dev/posts/2024/enhancing-pagination-with-a-page-selector/">Enhancing pagination with a page selector</a>
+              <p class="u-mb-0">I’ve made a change to my site’s pagination wherein I’ve enhanced the page count displayed at the bottom of my home and links pages to display the page count in…</p>
+            </li>
+            <li>
+              <a class="delta" href="https://jamesg.blog/2024/03/04/incremental-website-improvements-joy/">The joy of incremental website improvements</a>
+              <p class="u-mb-0">Back in the pandemic, as my personal website started to become a comfort in difficult times, I often asked myself: what can I do with my website this weekend? I…</p>
+            </li>
+            <li>
+              <a class="delta" href="https://ethanmarcotte.com/wrote/blockin-bots/">Blockin’ bots</a>
+              <p class="u-mb-0">I’ve been blocking various “artificial intelligence” (“AI”) bots on my site. Why, you ask? Well, I don’t like the idea of my work being hoovered up to train…</p>
+            </li>
+            <li>
+              <a class="delta" href="https://tylersticka.com/journal/git-fresh/">Git Fresh</a>
+              <p class="u-mb-0">I don’t know if this is a personal quirk or a side effect of my role (designer first, developer second), but my Git branchs…</p>
+            </li>
+            <li>
+              <a class="delta" href="https://adamsilver.io/blog/figma-prototypes-vs-html-prototypes/">Figma prototypes vs HTML prototypes</a>
+              <p class="u-mb-0">When you design a product, you should usability test it. Otherwise, you won’t know how well it works. Typically you either: create and test a…</p>
+            </li>
+            <li>
+              <a class="delta" href="https://jamesg.blog/2024/04/08/wander/">My wander page</a>
+              <p class="u-mb-0">One of my favourite pastimes is clicking around the blogosphere, exploring and reading personal websites. I especially love encountering blogrolls or link…</p>
+            </li>
+            <li>
+              <a class="delta" href="https://gomakethings.com/web-dev-craftsmanship/">Web dev craftsmanship</a>
+              <p class="u-mb-0">I’m coming to realize that a lot of my dissatisfaction with the state of the web is that I view web development as a craft, but as a profession we’re in the…</p>
+            </li>
+            <li>
               <a class="delta" href="https://blog.jim-nielsen.com/2023/embeds-and-quotations/">Embeds and Quotations in Writing</a>
               <p class="u-mb-0">Chris wrote “0 KB Social Media Embeds” and it got me thinking about my own approach to embeds and quotations in my writing. A lot of my blogging is quoting…</p>
             </li>

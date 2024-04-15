@@ -5,11 +5,76 @@
   <subtitle>Sharing links to articles I&#39;ve read</subtitle>
   <link href="https://www.juanfernandes.uk/rss/links.xml" rel="self"/>
   <link href="https://www.juanfernandes.uk"/>
+  <updated>2024-04-15T13:59:06Z</updated>
   <id>https://www.juanfernandes.uk/</id>
   <author>
     <name>Juan Fernandes</name>
     <email>info@juanfernandes.uk</email>
   </author><entry>
+    <title>How to display language-specific quotes in CSS</title>
+    <link href="https://www.stefanjudis.com/today-i-learned/how-to-use-language-dependent-quotes-in-css/"/>
+    <id>https://www.stefanjudis.com/today-i-learned/how-to-use-language-dependent-quotes-in-css/</id>
+    <content type="html"><![CDATA[
+      Will Boyd's excellent article Diving into the ::before and ::after Pseudo-Elements includes nifty details about CSS quotes. Let's say you're dealing with a…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Enhancing pagination with a page selector</title>
+    <link href="https://coryd.dev/posts/2024/enhancing-pagination-with-a-page-selector/"/>
+    <id>https://coryd.dev/posts/2024/enhancing-pagination-with-a-page-selector/</id>
+    <content type="html"><![CDATA[
+      I’ve made a change to my site’s pagination wherein I’ve enhanced the page count displayed at the bottom of my home and links pages to display the page count in…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>The joy of incremental website improvements</title>
+    <link href="https://jamesg.blog/2024/03/04/incremental-website-improvements-joy/"/>
+    <id>https://jamesg.blog/2024/03/04/incremental-website-improvements-joy/</id>
+    <content type="html"><![CDATA[
+      Back in the pandemic, as my personal website started to become a comfort in difficult times, I often asked myself: what can I do with my website this weekend? I…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Blockin’ bots</title>
+    <link href="https://ethanmarcotte.com/wrote/blockin-bots/"/>
+    <id>https://ethanmarcotte.com/wrote/blockin-bots/</id>
+    <content type="html"><![CDATA[
+      I’ve been blocking various “artificial intelligence” (“AI”) bots on my site. Why, you ask? Well, I don’t like the idea of my work being hoovered up to train…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Git Fresh</title>
+    <link href="https://tylersticka.com/journal/git-fresh/"/>
+    <id>https://tylersticka.com/journal/git-fresh/</id>
+    <content type="html"><![CDATA[
+      I don’t know if this is a personal quirk or a side effect of my role (designer first, developer second), but my Git branchs…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Figma prototypes vs HTML prototypes</title>
+    <link href="https://adamsilver.io/blog/figma-prototypes-vs-html-prototypes/"/>
+    <id>https://adamsilver.io/blog/figma-prototypes-vs-html-prototypes/</id>
+    <content type="html"><![CDATA[
+      When you design a product, you should usability test it. Otherwise, you won’t know how well it works. Typically you either: create and test a…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>My wander page</title>
+    <link href="https://jamesg.blog/2024/04/08/wander/"/>
+    <id>https://jamesg.blog/2024/04/08/wander/</id>
+    <content type="html"><![CDATA[
+      One of my favourite pastimes is clicking around the blogosphere, exploring and reading personal websites. I especially love encountering blogrolls or link…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Web dev craftsmanship</title>
+    <link href="https://gomakethings.com/web-dev-craftsmanship/"/>
+    <id>https://gomakethings.com/web-dev-craftsmanship/</id>
+    <content type="html"><![CDATA[
+      I’m coming to realize that a lot of my dissatisfaction with the state of the web is that I view web development as a craft, but as a profession we’re in the…
+    ]]></content>
+  </entry>
+  <entry>
     <title>Embeds and Quotations in Writing</title>
     <link href="https://blog.jim-nielsen.com/2023/embeds-and-quotations/"/>
     <id>https://blog.jim-nielsen.com/2023/embeds-and-quotations/</id>

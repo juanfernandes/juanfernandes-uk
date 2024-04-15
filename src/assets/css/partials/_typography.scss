@@ -244,23 +244,16 @@ blockquote {
     font-style: italic;
     line-height: 1.5;
 
-    &:before {
-      content: "“";
+    &::before {
       content: open-quote;
     }
 
-    &:after {
-      content: "";
-      content: no-close-quote;
+    &::after {
+      content: close-quote;
     }
 
     &:last-of-type {
       margin-bottom: 0;
-
-      &:after {
-        content: "”";
-        content: close-quote;
-      }
     }
   }
 

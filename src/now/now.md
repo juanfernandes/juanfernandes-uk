@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-04-08T10:30:00Z
+date: 2024-04-15T11:30:00Z
 class: now
 intro:
   heading: Now
@@ -12,12 +12,15 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Work
-* Work is finally picking up and we're doing a lot more talking about UX and new processes which is great as there hasn't been any UX processes in place - ever.
+* Started a new project at work and I get to do UX things properly. I'm also finding what I like and don't about UX processes.
 
 ## Personal
-* Weather is starting to improve so I've started cleaning the BBQ and sorting out the garden ready for summer.
+* Now the weather has started to improve, I've been working on tidying up the garden and also the outside entertainment area - ready to put on a big BBQ this summer for family and friends.
 
 ## Watching
+* [Fallout](https://www.themoviedb.org/tv/106379-fallout "Fallout")
+  The story of haves and have-nots in a world in which there’s almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.
+
 * [Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")
   Rewatch: Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.
 
