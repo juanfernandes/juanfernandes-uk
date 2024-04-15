@@ -1053,10 +1053,10 @@ figure.effect:hover p {
 .uses,
 .now,
 .books,
-.links {
+.links,
+.blogroll {
   padding: 54px 0;
 }
-
 
 .fyi {
   background-color: var(--off-white);
@@ -1234,44 +1234,44 @@ figure.effect:hover p {
     list-style: none;
     padding: 0;
   }
-
-  .sidebar {
-    border-top: 2px solid var(--orange);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 4em;
-
-    &.cols {
-      margin-left: 0;
-    }
-
-    @media only screen and (min-width: 60em) { // 960
-      &.cols {
-        margin-left: 2%;
-      }
-    }
-  }
-
-  .meta {
-    .heading {
-      font-size: 18px;
-      font-size: 1.8rem;
-      margin-bottom: 16px;
-      text-transform: uppercase;
-
-      &:first-of-type {
-        margin-top: .6em;
-      }
-    }
-
-    ul {
-      margin-left: 4px;
-    }
-  }
 }
 
 .post img {
   border: 1px solid #c6bfbf;
+}
+
+.sidebar {
+  border-top: 2px solid var(--orange);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 4em;
+
+  &.cols {
+    margin-left: 0;
+  }
+
+  @media only screen and (min-width: 60em) { // 960
+    &.cols {
+      margin-left: 2%;
+    }
+  }
+}
+
+.meta {
+  .heading {
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+
+    &:first-of-type {
+      margin-top: .6em;
+    }
+  }
+
+  ul {
+    margin-left: 4px;
+  }
 }
 
 .more::after {
@@ -1471,23 +1471,12 @@ figure.effect:hover p {
   li {
     list-style: none;
   }
-
-  a {
-    font-size: 2rem;
-
-    &:hover,
-    &:focus {
-      border-color: var(--off-black);
-    }
-  }
 }
 
 .links-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(30ch,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(34ch,1fr));
   gap: 2rem;
-  margin-block: 3rem;
-  margin-inline: 1rem;
 }
 
 .link-card {
@@ -1514,6 +1503,15 @@ figure.effect:hover p {
   border-bottom: 1px solid var(--orange);
   margin-bottom: 2rem;
   padding-bottom: 1rem;
+
+  a {
+    font-size: 2rem;
+
+    &:hover,
+    &:focus {
+      border-color: var(--off-black);
+    }
+  }
 
   &__meta {
     display: flex;

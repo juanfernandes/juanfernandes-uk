@@ -51,6 +51,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('design', function (collection) {
     return collection.getFilteredByTag('design')
   })
+  eleventyConfig.addCollection('changelog', function (collection) {
+    return collection.getFilteredByTag('changelog')
+  })
 
   // Universal Shortcodes
   eleventyConfig.cloudinaryCloudName = 'juanfernandes'
@@ -65,6 +68,7 @@ module.exports = function (eleventyConfig) {
   // Layout aliases
   eleventyConfig.addLayoutAlias('base', 'layouts/base.njk')
   eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
+  eleventyConfig.addLayoutAlias('page-sidebar', 'layouts/page-sidebar.njk')
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
   eleventyConfig.addLayoutAlias('stream', 'layouts/stream.njk')
 

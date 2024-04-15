@@ -22,7 +22,7 @@
                 <span>RSS Notes Preview - <small>juanfernandes.uk</small></span>
               </h1>
               <p class="lead">Short posts, thoughts about code, design and personal stuff</p>
-              <a class="u-inline-block u-mb-2" href="https://www.juanfernandes.uk">Visit Website →</a>
+              <a class="u-inline-block u-mb-2" href="https://www.juanfernandes.uk/notes/">Visit Website →</a>
             </header>
             <div class="alert alert--info u-mb-2">
               <p><strong>This is an RSS feed</strong>. Subscribe by copying the URL from the address bar into your newsreader. Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more and get started. It’s free.</p>
@@ -30,6 +30,12 @@
 
             <h2>Recent note posts</h2>
             <ul class="list-bordered">
+            
+            
+            <li>
+              <a class="delta" href="https://www.juanfernandes.uk/notes/changelog-updated-links-page/">Changelog: Updated Links page</a>
+              <span class="u-block"><small>Published: 15th April 2024</small></span>
+            </li>
             
             
             <li>
