@@ -135,8 +135,12 @@
       "url": "/books/"
     },
     {
-      "label": "Social Links",
+      "label": "Socials",
       "url": "/social-links/"
+    },
+    {
+      "label": "Colophon",
+      "url": "/colophon/"
     },
     {
       "label": "RSS",

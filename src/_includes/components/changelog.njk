@@ -1,0 +1,9 @@
+    <h2>Changelog</h2>
+    <ul>
+      {%- for item in collections.changelog | reverse -%}
+      <li>
+        <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.data.title }}</a>
+        {% if item.data.description %}<p>{{ item.data.description | safe }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>

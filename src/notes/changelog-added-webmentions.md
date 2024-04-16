@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 postImage: "/v1579162295/trianglify.png"
 title: 'Changelog: Added Webmentions'
-description: 'Changelog: Added Webmentions'
+description: 'Webmentions are a way to show social media comments and interactions on your website.'
 keywords:
 - indieweb
 - web mentions
@@ -15,7 +15,7 @@ tags:
 ---
 ## My website now has web mentions 🎉
 
-For those who don't know what web mentions are; its a way to show social media comments and interactions on your website. If I post a blog post to twitter and someone comments or likes that tweet, that will be added to the blog post.
+For those who don't know what webmentions are; its a way to show social media comments and interactions on your website. If I post a blog post to twitter and someone comments or likes that tweet, that will be added to the blog post.
 
 ### Example
 
