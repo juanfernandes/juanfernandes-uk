@@ -191,7 +191,8 @@ p {
   margin: 0 0 24px;
   word-spacing: .125em;
 
-  &.lead {
+  &.lead,
+  &.lead a {
     color: var(--off-black);
     font-size: 2rem;
     font-weight: 500;

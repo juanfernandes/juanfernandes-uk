@@ -1,0 +1,9 @@
+    <h2>Commit History</h2>
+    <ul>
+      {% for item in commits %}
+      <li>
+        <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
+        {% if item.summary %}<p>{{ item.summary | safe }}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>

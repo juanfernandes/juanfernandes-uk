@@ -1,0 +1,33 @@
+--- 
+title: Colophon
+description: "All about this website, including tech used etc"
+layout: page-sidebar
+class: colophon
+date: 2024-04-16T16:30:00Z
+intro:
+  class: sml
+  subheading: 
+---
+  <p class="lead">This website is built with <a href="https://www.11ty.dev/">Eleventy</a>, the following languages and it's hosted with <a href="https://my.guru.co.uk/aff.php?aff=6526">Guru</a>.</p>
+
+  <ul role="list" style="column-count: 2">
+    <li>HTML</li>
+    <li>WebC</li>
+    <li>Markdown</li>
+    <li>Nunjucks</li>
+    <li>CSS &amp; SCSS</li>
+    <li>JavaScript</li>
+    <li>JSON</li>
+    <li>XML</li>
+    <li>YAML</li>
+  </ul>
+
+  <ul>
+    <li>The source code is available on <a href="https://gitlab.com/juanfernandes/juanfernandes-uk/">Gitlab</a>.</li>
+    <li>No large language models were used in any of the writing on this website.</li>
+    <li>This sites uses no cookies and is not tracking you.</li>
+  </ul>
+
+  {% include "components/websitecarbon.njk" %}
+  {% include "components/changelog.njk" %}
+  {% include "components/git-commits.njk" %}
