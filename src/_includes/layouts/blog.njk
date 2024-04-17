@@ -1,14 +1,14 @@
 {% set currentUrl = site.url + page.url %}
-{% set pageTitle = title + ' - ' + ' Blog - ' + site.meta.title %}
-{% set tagsTitle = tag + ' - ' + ' Blog - ' + site.meta.title %}
+{% set pageTitle = title + ' - ' + 'Blog - ' + site.meta.title %}
+{% set tagsTitle = tag + ' - ' + 'Blog - ' + site.meta.title %}
 
 <!doctype html>
   <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8">
     <title>{% if tag %}Tag: {{ tagsTitle }}{% else %}{{ pageTitle }}{% endif %}</title>
-    <meta name="description" content="{{ description }}" />
-    <meta name="keywords" content="{{ keywords }}" />
+    {% if tag %}<meta name="description" content="Posts by Juan Fernandes tagged as {{ tag }}" />{% else %}<meta name="description" content="{{ description }}" />{% endif %}
+    {% if tag %}<meta name="keywords" content="{{ tag }}, web design, website design, web dev, web development, website development" />{% else %}<meta name="keywords" content="{{ keywords }}" />{% endif %}
     <meta name="twitter:site" content="{{ site.meta.ogTwitter }}" />
     <meta name="twitter:url" property="og:url" content="{{ currentUrl }}">
     <meta name="twitter:title" property="og:title" content="{% if tag %}Tag: {{ tagsTitle }}{% else %}{{ pageTitle }}{% endif %}">
