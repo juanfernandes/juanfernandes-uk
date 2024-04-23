@@ -1,3 +1,11 @@
+---
+pagination:
+  data: collections.posts
+  size: 6
+  alias: posts
+  reverse: true
+---
+
 {% extends 'layouts/base.njk' %}
 
 {% block main %}
@@ -6,7 +14,7 @@
       <div class="row">
         <div class="twelve cols">
           <ul class="post-list">
-            {%- for post in collections.posts | reverse -%}
+            {% for post in posts %}
             <li>
               <div class="block block--thumb">
                 <a href="{{ post.url }}" class="b-inner">
@@ -20,8 +28,21 @@
                 </a>
               </div>
             </li>
-            {%- endfor -%}
+            {% endfor %}
           </ul>
+
+<nav aria-labelledby="my-pagination">
+  <h2 id="my-pagination">This is my Pagination</h2>
+  <ol>
+    <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Previous</a>{% else %}Previous{% endif %}</li>
+{%- for pageEntry in pagination.pages %}
+    <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>Page {{ loop.index }}</a></li>
+{%- endfor %}
+    <li>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Next</a>{% else %}Next{% endif %}</li>
+  </ol>
+</nav>
+
+
         </div>
 
         <div class="sidebar meta / four cols">
