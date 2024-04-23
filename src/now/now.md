@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-04-15T11:30:00Z
+date: 2024-04-23T13:00:00Z
 class: now
 intro:
   heading: Now
@@ -18,6 +18,9 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Now the weather has started to improve, I've been working on tidying up the garden and also the outside entertainment area - ready to put on a big BBQ this summer for family and friends.
 
 ## Watching
+* [Baby Reindeer](https://www.themoviedb.org/tv/241259-baby-reindeer "Baby Reindeer")
+  When a struggling comedian shows one act of kindness to a vulnerable woman, it sparks a suffocating obsession which threatens to wreck both their lives.
+
 * [Fallout](https://www.themoviedb.org/tv/106379-fallout "Fallout")
   The story of haves and have-nots in a world in which there’s almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.
 

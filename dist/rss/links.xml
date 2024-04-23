@@ -5,12 +5,60 @@
   <subtitle>Sharing links to articles I&#39;ve read</subtitle>
   <link href="https://www.juanfernandes.uk/rss/links.xml" rel="self"/>
   <link href="https://www.juanfernandes.uk"/>
-  <updated>2024-04-17T14:30:29Z</updated>
+  <updated>2024-04-23T12:04:03Z</updated>
   <id>https://www.juanfernandes.uk/</id>
   <author>
     <name>Juan Fernandes</name>
     <email>info@juanfernandes.uk</email>
   </author><entry>
+    <title>A Cheatsheet for User Interview and Follow Ups Questions</title>
+    <link href="https://stephaniewalter.design/blog/a-cheatsheet-for-user-interview-and-follow-ups-questions/"/>
+    <id>https://stephaniewalter.design/blog/a-cheatsheet-for-user-interview-and-follow-ups-questions/</id>
+    <content type="html"><![CDATA[
+      When I prepare user interviews (or usability tests), I end up coming back to the same resources again. I decided to put them all in one single place. If you…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Index images, videos and news with specialized sitemaps</title>
+    <link href="https://www.stefanjudis.com/today-i-learned/image-video-news-sitemaps/"/>
+    <id>https://www.stefanjudis.com/today-i-learned/image-video-news-sitemaps/</id>
+    <content type="html"><![CDATA[
+      If you take the time to create content online, you probably want people to read it. It doesn't have to go viral, but it'd be nice if some folks read it, right?…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Blogging Anonymously</title>
+    <link href="https://flamedfury.com/posts/blogging-anonymously/"/>
+    <id>https://flamedfury.com/posts/blogging-anonymously/</id>
+    <content type="html"><![CDATA[
+      While surfing the web this weekend, I saw a curious question from Kev Quirk on Mastodon, attached to a blog post: What About…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>link-peek Web Component</title>
+    <link href="https://darn.es/link-peek-web-component/"/>
+    <id>https://darn.es/link-peek-web-component/</id>
+    <content type="html"><![CDATA[
+       The link-peek Web Component allows you to turn a regular anchor link to a rich preview (also known as an 'unfurled' link) to show description, meta image,…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Own Your Web – Issue 13: Now</title>
+    <link href="https://buttondown.email/ownyourweb/archive/issue-13/"/>
+    <id>https://buttondown.email/ownyourweb/archive/issue-13/</id>
+    <content type="html"><![CDATA[
+      There are many pages you can add to your personal site that people can visit if they want to learn more about you. A “contact” page or an “about” page…
+    ]]></content>
+  </entry>
+  <entry>
+    <title>Faster Connectivity !== Faster Websites</title>
+    <link href="https://blog.jim-nielsen.com/2024/faster-bandwidth-and-websites/"/>
+    <id>https://blog.jim-nielsen.com/2024/faster-bandwidth-and-websites/</id>
+    <content type="html"><![CDATA[
+      This post from Dan Luu discussing how web bloat impacts users with slow devices caused me to reflect on the supposition that faster connectivity means faster…
+    ]]></content>
+  </entry>
+  <entry>
     <title>How to display language-specific quotes in CSS</title>
     <link href="https://www.stefanjudis.com/today-i-learned/how-to-use-language-dependent-quotes-in-css/"/>
     <id>https://www.stefanjudis.com/today-i-learned/how-to-use-language-dependent-quotes-in-css/</id>

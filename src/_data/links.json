@@ -13,7 +13,7 @@
         "title": "CSS Custom Properties Beyond the :root",
         "author": {
             "name": "Matthias Ott",
-            "url": "https://matthiasott.com"
+            "url": "https://matthiasott.com/"
         },
         "excerpt": "Is there a good reason why we’re defining global custom properties on :root/html and not on body?",
         "url": "https://matthiasott.com/notes/custom-properties-beyond-the-root",
@@ -1289,5 +1289,65 @@
         "excerpt": "Will Boyd's excellent article Diving into the ::before and ::after Pseudo-Elements includes nifty details about CSS quotes. Let's say you're dealing with a…",
         "url": "https://www.stefanjudis.com/today-i-learned/how-to-use-language-dependent-quotes-in-css/",
         "date": "April 15, 2024 at 09:29AM"
+    },
+    {
+        "title": "Faster Connectivity !== Faster Websites",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "This post from Dan Luu discussing how web bloat impacts users with slow devices caused me to reflect on the supposition that faster connectivity means faster…",
+        "url": "https://blog.jim-nielsen.com/2024/faster-bandwidth-and-websites/",
+        "date": "April 15, 2024 at 10:25PM"
+    },
+    {
+        "title": "Own Your Web – Issue 13: Now",
+        "author": {
+            "name": "Matthias Ott",
+            "url": "https://matthiasott.com/"
+        },
+        "excerpt": "There are many pages you can add to your personal site that people can visit if they want to learn more about you. A “contact” page or an “about” page…",
+        "url": "https://buttondown.email/ownyourweb/archive/issue-13/",
+        "date": "April 15, 2024 at 10:28PM"
+    },
+    {
+        "title": "link-peek Web Component",
+        "author": {
+            "name": "David Darnes",
+            "url": "https://darn.es/"
+        },
+        "excerpt": " The link-peek Web Component allows you to turn a regular anchor link to a rich preview (also known as an 'unfurled' link) to show description, meta image,…",
+        "url": "https://darn.es/link-peek-web-component/",
+        "date": "April 17, 2024 at 04:50PM"
+    },
+    {
+        "title": "Blogging Anonymously",
+        "author": {
+            "name": "fLaMEd",
+            "url": "https://flamedfury.com/"
+        },
+        "excerpt": "While surfing the web this weekend, I saw a curious question from Kev Quirk on Mastodon, attached to a blog post: What About…",
+        "url": "https://flamedfury.com/posts/blogging-anonymously/",
+        "date": "April 17, 2024 at 04:54PM"
+    },
+    {
+        "title": "Index images, videos and news with specialized sitemaps",
+        "author": {
+            "name": "Stefan Judis",
+            "url": "https://www.stefanjudis.com/"
+        },
+        "excerpt": "If you take the time to create content online, you probably want people to read it. It doesn't have to go viral, but it'd be nice if some folks read it, right?…",
+        "url": "https://www.stefanjudis.com/today-i-learned/image-video-news-sitemaps/",
+        "date": "April 17, 2024 at 04:56PM"
+    },
+    {
+        "title": "A Cheatsheet for User Interview and Follow Ups Questions",
+        "author": {
+            "name": "Stéphanie Walter",
+            "url": "https://stephaniewalter.design/"
+        },
+        "excerpt": "When I prepare user interviews (or usability tests), I end up coming back to the same resources again. I decided to put them all in one single place. If you…",
+        "url": "https://stephaniewalter.design/blog/a-cheatsheet-for-user-interview-and-follow-ups-questions/",
+        "date": "April 17, 2024 at 07:02PM"
     }
 ]

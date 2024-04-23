@@ -29,9 +29,33 @@
             </div>
 
             <h2>Recent links</h2>
-            <p class="u-block"><small>Updated: <time class="dt-published" datetime="2024-04-17T14:30:29Z">2024-04-17T14:30:29Z</time></small></p>
+            <p class="u-block"><small>Updated: <time class="dt-published" datetime="2024-04-23T12:04:03Z">2024-04-23T12:04:03Z</time></small></p>
 
             <ul class="list-bordered"><li>
+              <a class="delta u-inline-block u-mb-1" href="https://stephaniewalter.design/blog/a-cheatsheet-for-user-interview-and-follow-ups-questions/">A Cheatsheet for User Interview and Follow Ups Questions</a>
+              <p class="u-mb-0">When I prepare user interviews (or usability tests), I end up coming back to the same resources again. I decided to put them all in one single place. If you…</p>
+            </li>
+            <li>
+              <a class="delta u-inline-block u-mb-1" href="https://www.stefanjudis.com/today-i-learned/image-video-news-sitemaps/">Index images, videos and news with specialized sitemaps</a>
+              <p class="u-mb-0">If you take the time to create content online, you probably want people to read it. It doesn&#39;t have to go viral, but it&#39;d be nice if some folks read it, right?…</p>
+            </li>
+            <li>
+              <a class="delta u-inline-block u-mb-1" href="https://flamedfury.com/posts/blogging-anonymously/">Blogging Anonymously</a>
+              <p class="u-mb-0">While surfing the web this weekend, I saw a curious question from Kev Quirk on Mastodon, attached to a blog post: What About…</p>
+            </li>
+            <li>
+              <a class="delta u-inline-block u-mb-1" href="https://darn.es/link-peek-web-component/">link-peek Web Component</a>
+              <p class="u-mb-0"> The link-peek Web Component allows you to turn a regular anchor link to a rich preview (also known as an &#39;unfurled&#39; link) to show description, meta image,…</p>
+            </li>
+            <li>
+              <a class="delta u-inline-block u-mb-1" href="https://buttondown.email/ownyourweb/archive/issue-13/">Own Your Web – Issue 13: Now</a>
+              <p class="u-mb-0">There are many pages you can add to your personal site that people can visit if they want to learn more about you. A “contact” page or an “about” page…</p>
+            </li>
+            <li>
+              <a class="delta u-inline-block u-mb-1" href="https://blog.jim-nielsen.com/2024/faster-bandwidth-and-websites/">Faster Connectivity !== Faster Websites</a>
+              <p class="u-mb-0">This post from Dan Luu discussing how web bloat impacts users with slow devices caused me to reflect on the supposition that faster connectivity means faster…</p>
+            </li>
+            <li>
               <a class="delta u-inline-block u-mb-1" href="https://www.stefanjudis.com/today-i-learned/how-to-use-language-dependent-quotes-in-css/">How to display language-specific quotes in CSS</a>
               <p class="u-mb-0">Will Boyd&#39;s excellent article Diving into the ::before and ::after Pseudo-Elements includes nifty details about CSS quotes. Let&#39;s say you&#39;re dealing with a…</p>
             </li>
