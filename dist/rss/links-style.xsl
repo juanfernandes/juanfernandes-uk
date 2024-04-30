@@ -29,7 +29,7 @@
             </div>
 
             <h2>Recent links</h2>
-            <p class="u-block"><small>Updated: <time class="dt-published" datetime="2024-04-23T11:01:34Z">2024-04-23T11:01:34Z</time></small></p>
+            <p class="u-block"><small>Updated: <time class="dt-published" datetime="2024-04-30T21:19:51Z">2024-04-30T21:19:51Z</time></small></p>
 
             <ul class="list-bordered"><li>
               <a class="delta u-inline-block u-mb-1" href="https://www.stefanjudis.com/today-i-learned/how-to-use-language-dependent-quotes-in-css/">How to display language-specific quotes in CSS</a>

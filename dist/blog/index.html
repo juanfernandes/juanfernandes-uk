@@ -1,6 +1,7 @@
 
 
 
+
 <!doctype html>
   <html class="no-js" lang="en">
   <head>
@@ -347,17 +348,36 @@
             
           </ul>
 
-<nav aria-labelledby="my-pagination">
-  <h2 id="my-pagination">This is my Pagination</h2>
-  <ol>
-    <li>Previous</li>
-    <li><a href="/blog/" aria-current="page">Page 1</a></li>
-    <li><a href="/blog/1/">Page 2</a></li>
-    <li><a href="/blog/2/">Page 3</a></li>
-    <li><a href="/blog/3/">Page 4</a></li>
-    <li><a href="/blog/4/">Page 5</a></li>
-    <li><a href="/blog/1/">Next</a></li>
-  </ol>
+          <nav class="pagination" aria-label="Pagination links">
+  <div class="flex">
+    
+    <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12V7l-7 5 7 5zm7-5-7 5 7 5z"/></svg>
+    <span class="epsilon">First</span>
+    
+    
+      <svg aria-hidden="true" focusable="false" class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
+      <span class="epsilon">Newer</span>
+    
+  </div>
+  <div class="pagination__pages">
+    <a href="/blog/" aria-current="page">1</a>
+    <a href="/blog/1/">2</a>
+    <a href="/blog/2/">3</a>
+    <a href="/blog/3/">4</a>
+    <a href="/blog/4/">5</a>
+  </div>
+   <div class="flex">
+    
+      <a href="/blog/1/" data-direction="forwards">
+        <span class="epsilon">Older</span>
+      </a>
+      <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
+      
+    
+    <a href="/blog/4/">Last</a>
+    <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m19 12-7-5v10zM5 7v10l7-5z"/></svg>
+    
+  </div>
 </nav>
 
 

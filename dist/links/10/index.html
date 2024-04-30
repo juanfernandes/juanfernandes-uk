@@ -1,6 +1,7 @@
 
 
 
+
 <!doctype html>
   <html class="no-js" lang="en">
   <head>
@@ -263,8 +264,6 @@
   <p class="dt-published">Updated on: <time datetime="2024-04-15T11:30:00.000Z">15th April 2024</time></p>
 
   <hr>
-
-  
   <div class="link">
     <div class="link__details">
       <h3><a href="https://www.matuzo.at/blog/2023/details-find-in-page">The details element and in-page search - Manuel Matuzovic</a></h3>
@@ -374,27 +373,52 @@
       </div>
     </div>
   </div>
-  <nav aria-labelledby="my-pagination">
-  <h2 id="my-pagination">This is my Pagination</h2>
-  <ol>
-    <li><a href="/links/9/">Previous</a></li>
-    <li><a href="/links/">Page 1</a></li>
-    <li><a href="/links/1/">Page 2</a></li>
-    <li><a href="/links/2/">Page 3</a></li>
-    <li><a href="/links/3/">Page 4</a></li>
-    <li><a href="/links/4/">Page 5</a></li>
-    <li><a href="/links/5/">Page 6</a></li>
-    <li><a href="/links/6/">Page 7</a></li>
-    <li><a href="/links/7/">Page 8</a></li>
-    <li><a href="/links/8/">Page 9</a></li>
-    <li><a href="/links/9/">Page 10</a></li>
-    <li><a href="/links/10/" aria-current="page">Page 11</a></li>
-    <li><a href="/links/11/">Page 12</a></li>
-    <li><a href="/links/12/">Page 13</a></li>
-    <li><a href="/links/13/">Page 14</a></li>
-    <li><a href="/links/11/">Next</a></li>
-  </ol>
-</nav>
+  
+  <nav class="pagination" aria-label="Pagination links">
+    <div class="flex">
+      
+      <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12V7l-7 5 7 5zm7-5-7 5 7 5z"/></svg>
+      <a href="/links/">First</a>
+      
+      
+        <svg aria-hidden="true" focusable="false" class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
+        <a href="/links/9/" data-direction="backwards">
+          <span class="epsilon">Newer</span>
+        </a>
+        
+    </div>
+    <div class="pagination__pages">
+      <span class="epsilon">
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        11 of 14
+        
+        
+        
+      </span>
+    </div>
+    <div class="flex">
+      
+        <a href="/links/11/" data-direction="forwards">
+          <span class="epsilon">Older</span>
+        </a>
+        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
+        
+      
+      <a href="/links/13/">Last</a>
+      <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m19 12-7-5v10zM5 7v10l7-5z"/></svg>
+      
+    </div>
+  </nav>
+
 
       </div>
 
