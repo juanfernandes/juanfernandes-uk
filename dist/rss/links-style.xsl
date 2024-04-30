@@ -29,7 +29,7 @@
             </div>
 
             <h2>Recent links</h2>
-            <p class="u-block"><small>Updated: <time class="dt-published" datetime="2024-04-23T12:04:03Z">2024-04-23T12:04:03Z</time></small></p>
+            <p class="u-block"><small>Updated: <time class="dt-published" datetime="2024-04-30T21:51:37Z">2024-04-30T21:51:37Z</time></small></p>
 
             <ul class="list-bordered"><li>
               <a class="delta u-inline-block u-mb-1" href="https://stephaniewalter.design/blog/a-cheatsheet-for-user-interview-and-follow-ups-questions/">A Cheatsheet for User Interview and Follow Ups Questions</a>
