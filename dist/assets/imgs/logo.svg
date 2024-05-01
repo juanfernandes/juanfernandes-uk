@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100.3 100.2">
+  <style>
+    .bg {
+      fill: #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg {
+        fill: #535d6c;
+      }
+    }
+  </style>
+  <path fill="#666" stroke="#666" stroke-miterlimit="10" stroke-width=".231" d="M50.2 100.2l-50-50 50-50 50 50-50 50" opacity=".25"/>
+  <path class="bg" fill="#FFF" stroke="#F1F2F2" stroke-miterlimit="10" stroke-width=".23099769000000003" d="M50.163 7.647l42.568 42.567-42.568 42.568L7.596 50.214z"/><g opacity=".4"><defs><path id="a" d="M20.1 20.1h60.2v60.2H20.1z" opacity=".4" transform="rotate(45.001 50.164 50.163)"/></defs><clipPath id="b"><use overflow="visible" xlink:href="#a"/></clipPath></g><path d="M50.6 11v78.7l7.3-8.1V52.1l9 6.2v-7.7l-9.1-7.7v-11L72.7 44V33.8S50.6 10.2 50.6 11zM27.3 33.4v10l1.6-1.4h-.1l13.5-12.2v40.5L21.6 50.2H11l39.3 39.5V10.9z"/>
+</svg>

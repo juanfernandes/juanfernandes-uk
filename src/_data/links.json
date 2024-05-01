@@ -1349,5 +1349,115 @@
         "excerpt": "When I prepare user interviews (or usability tests), I end up coming back to the same resources again. I decided to put them all in one single place. If you…",
         "url": "https://stephaniewalter.design/blog/a-cheatsheet-for-user-interview-and-follow-ups-questions/",
         "date": "April 17, 2024 at 07:02PM"
+    },
+    {
+        "title": "Will Web Components replace React and Vue?",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Over the weekend, I sent an email to my newsletter subscribers asking them what kinds of things they’d like to learn about Web Components. One of the most…",
+        "url": "https://gomakethings.com/will-web-components-replace-react-and-vue/",
+        "date": "April 23, 2024 at 07:46PM"
+    },
+    {
+        "title": "Re-creating the ‘His Dark Materials’ Logo in CSS",
+        "author": {
+            "name": "Michelle Barker",
+            "url": "https://css-irl.info/"
+        },
+        "excerpt": "I love the new BBC adaptation of Philip Pullman’s His Dark Materials trilogy of novels. There’s also some pretty nice graphic design to appreciate. I’m a sucker…",
+        "url": "https://css-irl.info/recreating-the-his-dark-materials-logo-in-css/",
+        "date": "April 23, 2024 at 07:53PM"
+    },
+    {
+        "title": "Your first Web Component",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Yesterday, we talked about why Web Components won’t replace React or Vue. Today, let’s look at how to create your first Web Component. Let’s dig in! A really…",
+        "url": "https://gomakethings.com/your-first-web-component/",
+        "date": "April 24, 2024 at 11:51PM"
+    },
+    {
+        "title": "Adding options to your Web Component",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Yesterday, we learned how to create your first Web Component. Today, we’ll learn how to add options and settings. Let’s dig in! Our Web Component We’ve got our…",
+        "url": "https://gomakethings.com/adding-options-to-your-web-component/",
+        "date": "April 24, 2024 at 11:52PM"
+    },
+    {
+        "title": "Deploying An 11ty Project To Shared Hosting",
+        "author": {
+            "name": "fLaMEd",
+            "url": "https://flamedfury.com/"
+        },
+        "excerpt": "When discussing hosting options for personal websites, the usual suspects are mentioned: Netlify,…",
+        "url": "https://flamedfury.com/posts/deploying-an-11ty-project-to-shared-hosting/",
+        "date": "April 26, 2024 at 09:20AM"
+    },
+    {
+        "title": "Eleventy Nested Pagination",
+        "author": {
+            "name": "Alistair Deneys",
+            "url": "https://www.codeflood.net/"
+        },
+        "excerpt": "Eleventy (the cool static site generator) has a great feature called Pagination which allows you to iterate over a list of things in chunks and…",
+        "url": "https://www.codeflood.net/blog/2024/04/17/11ty-nested-pagination/",
+        "date": "April 26, 2024 at 09:36AM"
+    },
+    {
+        "title": "Don’t use the maxlength attribute to stop users from exceeding the limit",
+        "author": {
+            "name": "Adam Silver",
+            "url": "https://adamsilver.io/"
+        },
+        "excerpt": "Have you heard of the “error prevention” heuristic? It means “do everything you can so users don’t make mistakes”. And it’s good advice. But some…",
+        "url": "https://adamsilver.io/blog/dont-use-the-maxlength-attribute-to-stop-users-from-exceeding-the-limit/",
+        "date": "April 28, 2024 at 09:40PM"
+    },
+    {
+        "title": "JSON RSS feed I quickly created a JSON feed for this website",
+        "author": {
+            "name": "Simone Silvestroni",
+            "url": "https://minutestomidnight.co.uk/"
+        },
+        "excerpt": "While setting up Echo Feed to mirror my blog posts on the fediverse, I’ve discovered…",
+        "url": "https://minutestomidnight.co.uk/blog/json-rss-feed/",
+        "date": "April 28, 2024 at 09:42PM"
+    },
+    {
+        "title": "Progressively enhancing a Web Component",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "This week, we’ve looked at how Web Components are different from React, how to create your first Web Component, and how to add options to a Web Component.…",
+        "url": "https://gomakethings.com/progressively-enhancing-a-web-component/",
+        "date": "April 28, 2024 at 09:55PM"
+    },
+    {
+        "title": "My approach to HTML web components",
+        "author": {
+            "name": "Jeremy Keith",
+            "url": "https://adactio.com/"
+        },
+        "excerpt": "I’ve been deep-diving into HTML web components over the past few weeks. I decided to refactor the JavaScript on The Session to use custom elements wherever it…",
+        "url": "https://adactio.com/journal/21078",
+        "date": "April 30, 2024 at 02:13PM"
+    },
+    {
+        "title": "The different ways to instantiate a Web Component",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "As part of this ongoing series on Web Components, we’ve created our first Web Component, learned how to add options and settings, and learned how to…",
+        "url": "https://gomakethings.com/the-different-ways-to-instantiate-a-web-component/",
+        "date": "April 30, 2024 at 10:00PM"
     }
 ]
