@@ -5,7 +5,7 @@
   <subtitle>Short posts, thoughts about code, design and personal stuff</subtitle>
   <link href="https://www.juanfernandes.uk/rss/notes.xml" rel="self"/>
   <link href="https://www.juanfernandes.uk"/>
-  <updated>2024-05-01T11:30:00Z</updated>
+  <updated>2024-05-01T16:30:00Z</updated>
   <id>https://www.juanfernandes.uk/</id>
   <author>
     <name>Juan Fernandes</name>
@@ -16,13 +16,14 @@
   <entry>
     <title>Changelog: Added pagination</title>
     <link href="https://www.juanfernandes.uk/notes/changelog-added-pagination/"/>
-    <published>2024-05-01T11:30:00Z</published>
-    <updated>2024-05-01T11:30:00Z</updated>
+    <published>2024-05-01T16:30:00Z</published>
+    <updated>2024-05-01T16:30:00Z</updated>
     <id>https://www.juanfernandes.uk/notes/changelog-added-pagination/</id>
     <summary><![CDATA[Added pagination to the links page and blog index page.]]></summary>
     <media:thumbnail url="https://res.cloudinary.com/juanfernandes/w_1200,f_auto/l_juanfernandes-logo,w_100,g_south_east,x_60,y_40/l_text:Georgia_60_bold_center:Changelog: Added pagination,co_rgb:eee,c_fit,w_600//v1579162295/trianglify.png" />
     <content type="html"><![CDATA[
       <h2>Changelog: Added pagination</h2>
+<p>I added pagination navigation to the bottom of the links and also the blog index page. This is something I've been meaning to add to the blog, but never got round to it. The links page was starting to get very long - so it made sense to add it now. Both are set to show 10 entries per page.</p>
 <p>Check out my <a href="/links/">links</a> page and my <a href="/blog/">blog</a> page.</p>
 
       <hr><p><a href="mailto:info@juanfernandes.uk?subject=Re: Changelog: Added pagination">Reply via email</a></p>

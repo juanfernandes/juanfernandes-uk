@@ -29,7 +29,7 @@
             </div>
 
             <h2>Recent links</h2>
-            <p class="u-block"><small>Updated: <time class="dt-published" datetime="2024-05-01T13:31:44Z">2024-05-01T13:31:44Z</time></small></p>
+            <p class="u-block"><small>Updated: <time class="dt-published" datetime="2024-05-01T15:30:42Z">2024-05-01T15:30:42Z</time></small></p>
 
             <ul class="list-bordered"><li>
               <a class="delta u-inline-block u-mb-1" href="https://gomakethings.com/the-different-ways-to-instantiate-a-web-component/">The different ways to instantiate a Web Component</a>

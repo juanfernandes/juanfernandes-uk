@@ -1,5 +1,5 @@
 'use strict'
-const version = 'vba40-dca1-cba5';
+const version = 'v0e3b-96a1-d499';
 
 const staticCacheName = version + 'static'
 const pagesCacheName = 'pages'
