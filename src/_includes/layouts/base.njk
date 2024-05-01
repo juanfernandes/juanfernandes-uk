@@ -1,5 +1,8 @@
 {% set currentUrl = site.url + page.url %}
 {% set pageTitle = title + ' - ' + site.meta.title %}
+{% if item.url in page.url %}
+    {% set currentAttribute = 'aria-current="page"' %}
+{% endif %}
 
 <!doctype html>
   <html class="no-js" lang="en">
