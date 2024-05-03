@@ -1,0 +1,57 @@
+name: "11ty: Build and Deploy"
+
+on:
+  schedule:
+    - cron: 0 2/6 * * *
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    name: "11ty: Build and Deploy"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: "npm"
+
+      - uses: actions/cache/restore@v4
+        id: cache
+        with:
+          path: |
+            _cache/
+            src/assets/imgs/
+          key: 11ty-$-$
+          restore-keys: |
+            11ty-$
+            $-11ty
+            
+      - name: Build website
+        run: |
+          npm install
+          npm run build
+        env:
+          LASTFM_KEY: $
+          LASTFM_USER: $
+
+      - name: Deploy website to server
+        uses: easingthemes/ssh-deploy@v5.0.3
+        env:
+          SSH_PRIVATE_KEY: $
+          SOURCE: "dist/"
+          REMOTE_HOST: $
+          REMOTE_PORT: $
+          REMOTE_USER: $
+          TARGET: $
+          EXCLUDE: ".git*, .github*, node_modules*, src*"
+
+      - uses: actions/cache/save@v4
+        with:
+          path: |
+            _cache/
+            src/assets/imgs/
+          key: 11ty-$-$
