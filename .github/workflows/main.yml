@@ -41,7 +41,7 @@ jobs:
           SSH_PRIVATE_KEY: $
           SOURCE: "dist/"
           REMOTE_HOST: $
-          REMOTE_PORT: $
+          REMOTE_PORT: 22
           REMOTE_USER: $
           TARGET: $
           EXCLUDE: ".git*, .github*, node_modules*, src*"
