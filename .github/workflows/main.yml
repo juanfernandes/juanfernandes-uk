@@ -25,10 +25,10 @@ jobs:
           path: |
             _cache/
             src/assets/imgs/
-          key: 11ty-$-$
+          key: 11ty-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
-            11ty-$
-            $-11ty
+            11ty-${{ runner.os }}
+            ${{ runner.os }}-11ty
             
       - name: Build website
         run: |
@@ -38,12 +38,12 @@ jobs:
       - name: Deploy website to server
         uses: easingthemes/ssh-deploy@v5.0.3
         env:
-          SSH_PRIVATE_KEY: $
+          SSH_PRIVATE_KEY: ${{ secrets.CPANEL_SSH_KEY }}
           SOURCE: "dist/"
-          REMOTE_HOST: $
-          REMOTE_PORT: 22
-          REMOTE_USER: $
-          TARGET: $
+          REMOTE_HOST: ${{ secrets.CPANEL_HOST }}
+          REMOTE_PORT: ${{ secrets.CPANEL_PORT }}
+          REMOTE_USER: ${{ secrets.CPANEL_USER }}
+          TARGET: ${{ secrets.CPANEL_TARGET }}
           EXCLUDE: ".git*, .github*, node_modules*, src*"
 
       - uses: actions/cache/save@v4
@@ -51,4 +51,4 @@ jobs:
           path: |
             _cache/
             src/assets/imgs/
-          key: 11ty-$-$
+          key: 11ty-${{ runner.os }}-${{ github.run_id }}
