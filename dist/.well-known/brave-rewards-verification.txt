@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: juanfernandes.uk
-Token: 6ec95cbd22605a34b719870c0118783498c1f83fd44fd9e2f7d68dfbfde69be7
