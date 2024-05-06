@@ -1459,5 +1459,25 @@
         "excerpt": "As part of this ongoing series on Web Components, we’ve created our first Web Component, learned how to add options and settings, and learned how to…",
         "url": "https://gomakethings.com/the-different-ways-to-instantiate-a-web-component/",
         "date": "April 30, 2024 at 10:00PM"
+    },
+    {
+        "title": "What are you interested in?",
+        "author": {
+            "name": "Chris Burnell",
+            "url": "https://chrisburnell.com/"
+        },
+        "excerpt": "You may or may not be aware of the /about, /ideas, /now, and /uses page initiatives[1] [2], where website authors are encouraged to create pages on their…",
+        "url": "https://chrisburnell.com/note/slash-interests/",
+        "date": "May 1, 2024 at 11:18PM"
+    },
+    {
+        "title": "Web Component lifecycle methods",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Yesterday, we learned about the different ways to instantiate a Web Component. In the article, I mentioned the connectedCallback() lifecycle method. Today,…",
+        "url": "https://gomakethings.com/the-web-component-lifecycle-methods/",
+        "date": "May 1, 2024 at 11:23PM"
     }
 ]

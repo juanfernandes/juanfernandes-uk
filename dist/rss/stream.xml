@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Stream - Juan Fernandes - Freelance Web Designer</title>
+  <subtitle>Social media posts about web design, development and personal stuff</subtitle>
+  <link href="https://www.juanfernandes.uk/rss/stream.xml" rel="self"/>
+  <link href="https://www.juanfernandes.uk"/>
+  <updated>2024-02-10T13:00:00Z</updated>
+  <id>https://www.juanfernandes.uk</id>
+  <author>
+    <name>Juan Fernandes</name>
+    <email>info@juanfernandes.uk</email>
+  </author>
+  
+  
+  <entry>
+    <title>Should I continue with my monthly notes?</title>
+    <link href="https://www.juanfernandes.uk/stream/should-i-continue-with-my-monthly-notes/"/>
+    <updated>2024-02-10T13:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/should-i-continue-with-my-monthly-notes/</id>
+    <content>I’m wondering if I should keep up with my monthly notes posts as over the last year they have contained mostly personal stuff, which I don’t mind sharing but I don’t know if those who read them also want more web design stuff.</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Do I still need to use these?</title>
+    <link href="https://www.juanfernandes.uk/stream/meta-tags/"/>
+    <updated>2023-11-03T18:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/meta-tags/</id>
+    <content>Do I still need to use these? I&#39;m rebuilding my website and tidying up/removing code.
+&amp;lt;meta http-equiv=&quot;cleartype&quot; content=&quot;on&quot;&gt;&amp;lt;meta name=&quot;HandheldFriendly&quot; content=&quot;True&quot;&gt;&amp;lt;meta name=&quot;MobileOptimized&quot; content=&quot;320&quot;&gt;</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Auto posting to fediverse broke</title>
+    <link href="https://www.juanfernandes.uk/stream/auto-posting-to-fediverse-broke/"/>
+    <updated>2022-12-01T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/auto-posting-to-fediverse-broke/</id>
+    <content>Auto posting to fediverse broke with the change of instance, and I&#39;m trying to get it working again</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Updating IFTTT Webhooks</title>
+    <link href="https://www.juanfernandes.uk/stream/updating-ifttt-webhooks/"/>
+    <updated>2022-11-30T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/updating-ifttt-webhooks/</id>
+    <content>Following the tutorial (https://hyperborea.org/journal/2017/12/mastodon-ifttt/) by Kelson once again to help me created the webhook needed on IFTTT.com to auto post streams from my website to the new mastodon instance I just moved to - hachyderm.io</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Tried a few headless CMSs</title>
+    <link href="https://www.juanfernandes.uk/stream/tried-a-few-headless-cmss/"/>
+    <updated>2022-11-22T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/tried-a-few-headless-cmss/</id>
+    <content>Spent sometime reviewing a few headless CMSs to make it easier to post short posts to social media and ended up going back to Forestry CMS - which has an uncertain future as the owners are working on a replacement version; Tina CMS. But it was so easy to set up, it was a no-brainer.</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Mastodon Instance</title>
+    <link href="https://www.juanfernandes.uk/stream/mastodon-instance/"/>
+    <updated>2022-11-21T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/mastodon-instance/</id>
+    <content>I need to either move to another Mastodon instance or host my own. Busy me thinks I should just find one, but the tinkerer in me wants to self-host.</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Social posts and IFTTT reliance</title>
+    <link href="https://www.juanfernandes.uk/stream/stream-ifttt-reliance/"/>
+    <updated>2022-11-17T18:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/stream-ifttt-reliance/</id>
+    <content>All my auto posts to social media rely on IFTTT, and I need to find a way of doing this without relying on another service. I&#39;ve seen others use Netlify functions to achieve this; but I would struggle to get that working, and also I would need to work out how to get it to work if I ever moved my site to another host 🤔
+#IndieWeb</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Now Streaming</title>
+    <link href="https://www.juanfernandes.uk/stream/stream-social-media-posts/"/>
+    <updated>2022-11-17T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/stream-social-media-posts/</id>
+    <content>If this works, then this post from my website should auto post to Mastodon and Twitter. This is how I plan on owning my social media content. But any shitposts I will post directly on the socials.
+#IndieWeb</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Adding a CMS to my website</title>
+    <link href="https://www.juanfernandes.uk/stream/adding-a-cms/"/>
+    <updated>2022-11-17T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/adding-a-cms/</id>
+    <content>Been looking to add a CMS to my website so that its easier to post to social media whilst on my phone. I looked at Netlify CMS but that was a no go because of CSP rules and needing to include JS files on my site. Trying out TinaCMS.
+#indieWeb</content>
+  </entry>
+  
+  
+  <entry>
+    <title>IndieWeb Tweets</title>
+    <link href="https://www.juanfernandes.uk/stream/indieweb-tweets/"/>
+    <updated>2022-08-06T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/indieweb-tweets/</id>
+    <content>A while back I started posting on social media by writing notes on my website and then syndicating them to social media networks. But I had no way of writing them on my phone before, but now I have an iPhone there’s an app that allows me to create new files on my gitlab repo. Yay.</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Changelog: Add other links to the footer</title>
+    <link href="https://www.juanfernandes.uk/stream/changelog-add-other-links-to-the-footer/"/>
+    <updated>2021-08-02T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/changelog-add-other-links-to-the-footer/</id>
+    <content>Saw a tweet about how websites with RSS should have a link to it in the header to save digging into code to find it and I also hate that, but I also didn&#39;t have any links to my RSS feed.
+Well I had a task to add these other links to my site and was going to wait until the redesign, but decided to redesign the footer slightly to include them.</content>
+  </entry>
+  
+  
+  <entry>
+    <title>DeGoogling is the same as jailbreaking apparently</title>
+    <link href="https://www.juanfernandes.uk/stream/degoogling-is-the-same-as-jailbreaking-apparently/"/>
+    <updated>2021-05-03T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/degoogling-is-the-same-as-jailbreaking-apparently/</id>
+    <content>Having recently got a DeGoogled mobile phone from /e/ OS and installing all the apps I used on my old phone, I discovered that the Freetrade app will not work because it considers my phone to be &#39;jailbroken&#39; or running a customised version of the OS.
+
+&amp;quot;DeGoogling would indeed involve jailbreaking methods, so I&#39;m afraid it is incompatible with the Freetrade app&amp;quot; - Freetrade Support
+Just a small prices to pay for wanting more control over your data and its usage.
+#PrivacyControl</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Bye  Bye Gmail</title>
+    <link href="https://www.juanfernandes.uk/stream/bye-bye-gmail/"/>
+    <updated>2021-03-05T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/bye-bye-gmail/</id>
+    <content>That&#39;s it - I have finally deleted my Gmail account. I&#39;ve been using a self-hosted email address for a year now and slowly switching email addresses on websites I still use.
+Whenever I got an email sent to my Gmail account in the last year - I would decide if I&#39;m still using that website/service and decide if I want to keep my account. If I still use it, then I&#39;d change the email address to my new one, otherwise, I just deleted the account.
+So not only have I moved away from Gmail - I have also had a bit of a digital accounts cleanup.
+This week I requested and downloaded all my 14,570 emails and today I deleted my account.
+I have had that Gmail account since the Gmail beta days when it was invite-only.
+#PrivacyControl</content>
+  </entry>
+  
+  
+  <entry>
+    <title>New Pallet Project</title>
+    <link href="https://www.juanfernandes.uk/stream/new-pallet-project/"/>
+    <updated>2020-04-18T23:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/new-pallet-project/</id>
+    <content>Started on a non tech project today. My office is a mini loft above our garage, and it has these gaps for storage but we don&#39;t need it. Currently it has these rubbish wooden sliding covers. So I&#39;m taking pallets apart and using the planks to cover it up.</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Performance? What performance?</title>
+    <link href="https://www.juanfernandes.uk/stream/performance-what-performance/"/>
+    <updated>2020-03-06T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/performance-what-performance/</id>
+    <content>Just found an image on my clients&#39; website (added by a third party) that weighs in at...
+wait for it...
+a whopping 39.4mb 😬
+#performance #whatPerformance</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Switching to Firefox Focus</title>
+    <link href="https://www.juanfernandes.uk/stream/switching-to-firefox-focus/"/>
+    <updated>2020-03-04T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/switching-to-firefox-focus/</id>
+    <content>I&#39;ve now switched my default browser to Firefox Focus - a privacy focused browser. No cookies, ads, tracking or history. I still use Firefox for browsing websites I trust.
+#privacycontrol</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Off Facebook</title>
+    <link href="https://www.juanfernandes.uk/stream/off-facebook/"/>
+    <updated>2020-02-19T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/off-facebook/</id>
+    <content>My Facebook account has been deactivated for over a year and now I&#39;ve now asked for it to be deleted. It doesn&#39;t happen straight away. Just need to get my parents to stop using Messenger.
+#privacycontrol</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Google Pay</title>
+    <link href="https://www.juanfernandes.uk/stream/google-pay/"/>
+    <updated>2020-02-17T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/google-pay/</id>
+    <content>Turns out that removing your Google account from your phone will cause Google Pay to stop working which then reminded me that I need to find an alternative - any suggestions?
+I&#39;m getting more &amp;amp; more tempted to get an iPhone - is Apple better than Google when it comes to privacy?
+#privacycontrol</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Estimote LTE Beacons Developer Kit</title>
+    <link href="https://www.juanfernandes.uk/stream/estimote-lte-beacons-developer-kit/"/>
+    <updated>2020-02-14T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/estimote-lte-beacons-developer-kit/</id>
+    <content>My estimote LTE beacons developer kit has finally arrived (made to order) - so looks like I&#39;ll be tinkering with this at this weekend 🤓</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Created my first NPM package</title>
+    <link href="https://www.juanfernandes.uk/stream/created-my-first-npm-package/"/>
+    <updated>2020-02-12T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/created-my-first-npm-package/</id>
+    <content>I&#39;ve created my first NPM package and it was surprisingly easy to do. 🤓
+Now I need to update the install instructions on the repo - I should probably test it first though!
+https://www.npmjs.com/package/eleventy-plugin-cloudinary</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Native disclosure element works in Instapaper app</title>
+    <link href="https://www.juanfernandes.uk/stream/native-disclosure-element-work-in-instapaper-app/"/>
+    <updated>2020-02-07T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/native-disclosure-element-work-in-instapaper-app/</id>
+    <content>Reading an article by Scott O&#39;Hara, I was surprised to see the summary and details working perfectly in the Instapaper app on Android. Yay for native disclosure widgets.
+
+https://www.scottohara.me/blog/2018/09/03/details-and-summary.html</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Firefox Focus</title>
+    <link href="https://www.juanfernandes.uk/stream/firefox-focus/"/>
+    <updated>2020-02-05T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/firefox-focus/</id>
+    <content>For a privacy focused browser, like Firefox Focus - I was surprised to see Google as the default search engine.
+#privacycontrol</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Google Hangouts</title>
+    <link href="https://www.juanfernandes.uk/stream/google-hangouts/"/>
+    <updated>2020-02-01T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/google-hangouts/</id>
+    <content>Almost ready to uninstall Google Hangouts from my phone. One out of two friends has switched to Telegram.
+#privacycontrol</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Replacing my phone&#39;s OS</title>
+    <link href="https://www.juanfernandes.uk/stream/replacing-my-phone-s-os/"/>
+    <updated>2020-01-30T00:00:00Z</updated>
+    <id>https://www.juanfernandes.uk/stream/replacing-my-phone-s-os/</id>
+    <content>It&#39;s been a week since #naconf and Laura Kalbag&#39;s talk on privacy - I&#39;ve been reviewing my own privacy since then.
+This is not my first foray into this, but now its time to take up a notch or two - I&#39;ll be replacing my phones OS with a privacy focused one - Lineage OS.
+#privacycontrol</content>
+  </entry>
+  
+  
+  <entry>
+    <title>New Adventures 2020</title>
+    <link href="https://www.juanfernandes.uk/stream/new-adventures-2020/"/>
+    <updated>2020-01-06T12:24:44Z</updated>
+    <id>https://www.juanfernandes.uk/stream/new-adventures-2020/</id>
+    <content>Really looking forward to New Adventures 2020 conference in a few weeks. Great way to start the year.
+Let me know if you&#39;re going.
+https://newadventuresconf.com/2020/</content>
+  </entry>
+  
+  
+  <entry>
+    <title>Version 2 of my website went live last week</title>
+    <link href="https://www.juanfernandes.uk/stream/version-2-of-my-website-went-live-last-week/"/>
+    <updated>2019-08-23T13:24:47Z</updated>
+    <id>https://www.juanfernandes.uk/stream/version-2-of-my-website-went-live-last-week/</id>
+    <content>Last week I pushed version 2 of my website live. Not much has changed visually as the main change was replacing PHP and PerchCMS with Nunjucks, Eleventy (static site generator) and NetlifyCMS, as well it now being hosted by Netlify.
+Next phase will be design fixes.</content>
+  </entry>
+  
+</feed>

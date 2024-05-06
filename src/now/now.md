@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-05-01T10:15:00Z
+date: 2024-05-06T15:40:00Z
 class: now
 intro:
   heading: Now
@@ -11,12 +11,8 @@ description: Read about what I'm currently up to
 keywords: now, freelance website designer, frontend developer, reading, watching, work
 
 ---
-## Work
-* Going into the office on Thursday for a UX Workshop
-
 ## Personal
-* My eldest child just turned 16 - yes 16! I feel old
-* BBQ for friends and family is planned for the Bank Holiday weekend and I have been prepping the BBQ and the garden
+* Postponed the BBQ until the next bank holiday weekend and instead spent the weekend doing stuff around the house
 
 ## Watching
 * [Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")
