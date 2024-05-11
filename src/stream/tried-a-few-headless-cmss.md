@@ -10,8 +10,7 @@ keywords:
   - headless cms
 date: 2022-11-22T00:00:00.000Z
 tags:
-  - stream
-_template: stream
+  - notes
 ---
 
 Spent sometime reviewing a few headless CMSs to make it easier to post short posts to social media and ended up going back to Forestry CMS - which has an uncertain future as the owners are working on a replacement version; Tina CMS. But it was so easy to set up, it was a no-brainer.

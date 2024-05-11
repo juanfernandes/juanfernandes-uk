@@ -22,7 +22,6 @@ tags:
 - ssg
 - eleventy
 - 11ty
-- post
 ---
 
 I wanted to find a way to dynamically generate a unique Open Graph (OG) image for each blog post or note automatically using post data, the Cloudinary API and Eleventy (11ty) for social sharing.
