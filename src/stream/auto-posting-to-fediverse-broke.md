@@ -11,8 +11,7 @@ keywords:
   - fediverse
 date: 2022-12-01T00:00:00.000Z
 tags:
-  - stream
-_template: stream
+  - notes
 ---
 
 Auto posting to fediverse broke with the change of instance, and I'm trying to get it working again

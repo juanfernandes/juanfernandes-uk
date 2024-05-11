@@ -1,0 +1,8 @@
+          <div class="tagcloud">
+            <h3 class="heading">Posts by Tag</h3>
+            <ul class="tags">
+            {% for tag in collections.tagsList %}
+              <li><a href="/tags/{{tag}}">{{tag}}</a></li>
+            {% endfor %}
+            </ul>
+          </div>

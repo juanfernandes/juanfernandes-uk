@@ -54,6 +54,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('changelog', function (collection) {
     return collection.getFilteredByTag('changelog')
   })
+  eleventyConfig.addCollection('tagsList', (collectionApi) => {
+    const tagsSet = new Set()
+    collectionApi.getAll().forEach((item) => {
+      if (!item.data.tags) return
+      item.data.tags.forEach((tag) => tagsSet.add(tag))
+    })
+    return tagsSet
+  })
 
   // Universal Shortcodes
   eleventyConfig.cloudinaryCloudName = 'juanfernandes'

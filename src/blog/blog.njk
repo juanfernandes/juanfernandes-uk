@@ -39,9 +39,9 @@ pagination:
           <h3 class="heading">Bio</h3>
           <p>{{ site.author.bio }} <a href="/about/">Read more</a> →</p>
           <p><a href="/notes/">Read my notes</a> →</p>
-        </div>
 
+          {% include 'components/tagcloud.njk' %}
+        </div>
       </div>
     </div>
-  </div>
 {% endblock %}

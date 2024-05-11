@@ -11,8 +11,7 @@ keywords:
   - mastodon
 date: 2022-11-30T00:00:00.000Z
 tags:
-  - stream
-_template: stream
+  - notes
 ---
 
 Following the tutorial ([https://hyperborea.org/journal/2017/12/mastodon-ifttt/](https://hyperborea.org/journal/2017/12/mastodon-ifttt/ "https://hyperborea.org/journal/2017/12/mastodon-ifttt/")) by Kelson once again to help me created the webhook needed on IFTTT.com to auto post streams from my website to the new mastodon instance I just moved to - [hachyderm.io]()

@@ -12,6 +12,6 @@ keywords:
 date: 2022-11-21T00:00:00Z
 
 tags:
-- stream
+- notes
 ---
 I need to either move to another Mastodon instance or host my own. Busy me thinks I should just find one, but the tinkerer in me wants to self-host. 

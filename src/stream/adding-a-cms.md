@@ -12,7 +12,7 @@ keywords:
 date: 2022-11-17T00:00:00Z
 
 tags:
-- stream
+- notes
 ---
 Been looking to add a CMS to my website so that its easier to post to social media whilst on my phone. I looked at Netlify CMS but that was a no go because of CSP rules and needing to include JS files on my site. Trying out TinaCMS.
 
