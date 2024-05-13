@@ -1479,5 +1479,105 @@
         "excerpt": "Yesterday, we learned about the different ways to instantiate a Web Component. In the article, I mentioned the connectedCallback() lifecycle method. Today,…",
         "url": "https://gomakethings.com/the-web-component-lifecycle-methods/",
         "date": "May 1, 2024 at 11:23PM"
+    },
+    {
+        "title": "User Interviews 101",
+        "author": {
+            "name": "Maria Rosala and Kara Pernice",
+            "url": "https://www.nngroup.com/"
+        },
+        "excerpt": "A user interview is a popular UX research method often used in the discovery phase. User interview: A research method where the interviewer asks participants…",
+        "url": "https://www.nngroup.com/articles/user-interviews/",
+        "date": "May 6, 2024 at 10:49PM"
+    },
+    {
+        "title": "Securing client-side JavaScript",
+        "author": {
+            "name": "Jeremy Keith",
+            "url": "https://adactio.com/"
+        },
+        "excerpt": "I mentioned that I overhauled the JavaScript on The Session recently. That wasn’t just so that I could mess about with HTML web components. I’d been meaning to…",
+        "url": "https://adactio.com/journal/21104",
+        "date": "May 6, 2024 at 10:54PM"
+    },
+    {
+        "title": "A quick light-dark() experiment",
+        "author": {
+            "name": "Dave Rupert",
+            "url": "https://daverupert.com/"
+        },
+        "excerpt": "I wanted to experiment with the new CSS function light-dark() and get a sense of how to use it in a CSS architecture of nested (web) components. I think it’s…",
+        "url": "https://daverupert.com/2024/05/light-dark-experiment/",
+        "date": "May 6, 2024 at 10:58PM"
+    },
+    {
+        "title": "How to get different Web Components to talk to each other (part 2)",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Yesterday, we learned how to connect a child and parent Web Component to each other. Today, we’re going to look at how to use custom events to provide a more…",
+        "url": "https://gomakethings.com/how-to-get-different-web-components-to-talk-to-each-other-part-2/",
+        "date": "May 7, 2024 at 11:54PM"
+    },
+    {
+        "title": "Building a Localised Site with 11ty, Sanity &amp; Netlify",
+        "author": {
+            "name": "Ryan Gittings",
+            "url": "https://www.ryangittings.co.uk/"
+        },
+        "excerpt": "In this article, we'll explore how I built a localised website for a client of mine using 11ty, Sanity, and Netlify. Recently, I had the task of converting the…",
+        "url": "https://www.ryangittings.co.uk/blog/jamstack-localisation-11ty-netlify-sanity/",
+        "date": "May 7, 2024 at 11:54PM"
+    },
+    {
+        "title": "How to get different Web Components to talk to each other (part 1)",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "This morning, I had multiple people ask me how you can nest Web Components inside each other and share information from one to another. Today, we’re going to…",
+        "url": "https://gomakethings.com/how-to-get-different-web-components-to-talk-to-each-other-part-1/",
+        "date": "May 8, 2024 at 12:03AM"
+    },
+    {
+        "title": "Why use Web Components over traditional DOM manipulation?",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "If you’ve been following my articles on HTML Web Components, you may have come away thinking… This looks a lot like traditional DOM manipulation. And you’d be…",
+        "url": "https://gomakethings.com/why-use-web-components-over-traditional-dom-manipulation/",
+        "date": "May 9, 2024 at 10:28PM"
+    },
+    {
+        "title": "The /interests Directory",
+        "author": {
+            "name": "Chris Burnell",
+            "url": "https://chrisburnell.com/"
+        },
+        "excerpt": "I made a directory for /interests pages! If you’ve built your own, why not submit it to the list! Just over a week ago, I published What are you interested in?…",
+        "url": "https://chrisburnell.com/note/interests-directory/",
+        "date": "May 9, 2024 at 10:29PM"
+    },
+    {
+        "title": "A Brief Note on Highlighted Text",
+        "author": {
+            "name": "Adrian Roselli",
+            "url": "https://adrianroselli.com/"
+        },
+        "excerpt": "TL;DR: If you plan to style text highlighted by the browser, you must give it sufficient contrast — 3:1 for the highlight block against its…",
+        "url": "https://adrianroselli.com/2024/05/a-brief-note-on-highlighted-text.html",
+        "date": "May 9, 2024 at 10:34PM"
+    },
+    {
+        "title": "Interests: A New Sitelet",
+        "author": {
+            "name": "Robb Knight",
+            "url": "https://rknight.me/"
+        },
+        "excerpt": "Okay so maybe the definition of sitelet doesn't quite fit but it's close enough to describe these common pages people have on their…",
+        "url": "https://rknight.me/blog/interests-a-new-sitelet/",
+        "date": "May 11, 2024 at 10:06PM"
     }
 ]

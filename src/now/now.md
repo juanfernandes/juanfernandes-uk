@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-05-06T15:40:00Z
+date: 2024-05-13T15:00:00Z
 class: now
 intro:
   heading: Now
@@ -12,7 +12,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
-* Postponed the BBQ until the next bank holiday weekend and instead spent the weekend doing stuff around the house
+* Daughter and I went to the UEFA Women's FA Cup final match between Manchester United and Tottenham Hotspur - it was a great game. We had a great time travelling into London, just the two of us, and then we met up with other children and parents from my daughters' football team.
 
 ## Watching
 * [Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")
@@ -27,6 +27,6 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 ## Reading
 
 ### Books
-* [Holly by Stephen King](https://bookwyrm.social/book/1373489/s/holly "Holly by Stephen King")
+* [ Everything's Eventual by Stephen King](https://bookwyrm.social/book/73015/s/everythings-eventual " Everything's Eventual by Stephen King")
 
 ### Articles

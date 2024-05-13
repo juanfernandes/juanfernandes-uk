@@ -3,12 +3,21 @@
         "year": 2024,
         "books": [
             {
+                "title": "Everything's Eventual",
+                "subtitle": "14 Dark Tales",
+                "author": "Stephen King",
+                "img": "everythings-eventual.jpg",
+                "url": "https://openlibrary.org/books/OL10630716M/Everything%27s_Eventual",
+                "status": "Reading",
+                "notes": ""
+            },
+            {
                 "title": "Holly",
                 "subtitle": "",
                 "author": "Stephen King",
                 "img": "holly.jpg",
                 "url": "https://openlibrary.org/books/OL49355452M/Holly",
-                "status": "Reading",
+                "status": "Read",
                 "notes": ""
             }
         ]
