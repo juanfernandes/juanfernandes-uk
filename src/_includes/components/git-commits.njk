@@ -2,8 +2,7 @@
     <ul>
       {% for item in commits %}
       <li>
-        <a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a>
-        {% if item.summary %}<p>{{ item.summary | safe }}</p>{% endif %}
+        <a href="{{ item.link }}" rel="noopener">{{ item.title }}</a>
       </li>
       {% endfor %}
     </ul>
