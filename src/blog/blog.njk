@@ -32,14 +32,10 @@ pagination:
           </ul>
 
           {% include 'components/blog-pagination.njk' %}
-
         </div>
 
         <div class="sidebar meta / four cols">
-          <h3 class="heading">Bio</h3>
-          <p>{{ site.author.bio }} <a href="/about/">Read more</a> →</p>
-          <p><a href="/notes/">Read my notes</a> →</p>
-
+          {% include 'components/bio.njk' %}
           {% include 'components/tagcloud.njk' %}
         </div>
       </div>

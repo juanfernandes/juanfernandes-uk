@@ -7,7 +7,8 @@
         },
         "excerpt": "A friend showed me something of a design spec they were charged with pulling off: The requirements: &#8230; when I click on any of them it expands at the top to full width and the rest of the cards…",
         "url": "https://chriscoyier.net/2023/04/11/expanding-grid-cards-with-view-transitions/",
-        "date": "January 6, 2024 at 08:30AM"
+        "date": "January 6, 2024 at 08:30AM",
+        "tags": ["test-1","ux"]
     },
     {
         "title": "CSS Custom Properties Beyond the :root",
@@ -17,7 +18,8 @@
         },
         "excerpt": "Is there a good reason why we’re defining global custom properties on :root/html and not on body?",
         "url": "https://matthiasott.com/notes/custom-properties-beyond-the-root",
-        "date": "January 6, 2024 at 08:37AM"
+        "date": "January 6, 2024 at 08:37AM",
+        "tags": ["test-2","css"]
     },
     {
         "title": "A few developer console tricks",
@@ -191,12 +193,20 @@
     },
     {
         "title": "12 Modern CSS One-Line Upgrades - Modern CSS Solutions",
+        "author": {
+            "name": "Stephanie Eckles",
+            "url": "https://thinkdobecreate.com/"
+        },
         "excerpt": "Sometimes, improving your application CSS just takes a one-line upgrade or enhancement! Learn about 12 properties to start incorporating into your projects, and enjoy reducing technical debt, removing JavaScript, and scoring easy wins for user experience.",
         "url": "https://moderncss.dev/12-modern-css-one-line-upgrades/",
         "date": "January 22, 2024 at 11:53PM"
     },
     {
-        "title": "Better form UX with the CSS property `field-sizing` - Stephanie Stimac's Blog",
+        "title": "Better form UX with the CSS property `field-sizing`",
+        "author": {
+            "name": "Stephanie Stimac",
+            "url": "https://blog.stephaniestimac.com/"
+        },
         "excerpt": "A look at the `field-sizing` CSS property and how it could improve web form user experience.",
         "url": "https://blog.stephaniestimac.com/posts/2024/01/css-field-sizing/",
         "date": "January 23, 2024 at 11:45PM"

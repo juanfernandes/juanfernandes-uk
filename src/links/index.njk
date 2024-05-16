@@ -1,7 +1,6 @@
 --- 
 title: Links
 description: "This is a curated list of articles I've read and have shared online as I believe they are worth sharing."
-layout: page-sidebar
 class: links
 rssUrlTitle: "RSS Feed for links"
 rssUrl: "/rss/links.xml"
@@ -15,68 +14,89 @@ pagination:
   alias: link
   reverse: true
 ---
-  <p class="lead">This is a curated list of articles I've read and have shared online as I believe they are worth sharing. I aim to update this list on a weekly basis. You can keep up to date with all the links I share by revisiting this page, or alternately, you can subscribe to the RSS feed for links.</p>
-  <p class="dt-published">Updated on: <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time></p>
+{% extends 'layouts/base.njk' %}
 
-  <hr>
+{% block main %}
+<div class="{{ class }}">
+  <div class="content">
+    <div class="row">
+      <div class="twelve cols">
+        <p class="lead">This is a curated list of articles I've read and have shared online as I believe they are worth sharing. I aim to update this list on a weekly basis. You can keep up to date with all the links I share by revisiting this page, or alternately, you can subscribe to the RSS feed for links.</p>
+        <p class="dt-published">Updated on: <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time></p>
 
-  {%- for link in pagination.items %}
-  <div class="link">
-    <div class="link__details">
-      <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
-      {% if link.excerpt %}<p>{{ link.excerpt | safe }}</p>{% endif %}
-      <div class="link__meta">
-        {% if link.author %}<span>Author: <a href="{{ link.author.url }}" class="link__author u-inline-block">{{ link.author.name }}</a></span>{% endif %}
-        {% if link.date %}<span class="link__date">Read on: {{ link.date }}</span>{% endif %}
+        <hr>
+
+        {%- for link in pagination.items %}
+        <div class="link">
+          <div class="link__details">
+            <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
+            {% if link.excerpt %}<p>{{ link.excerpt | safe }}</p>{% endif %}
+            <div class="link__meta">
+              {% if link.author %}<span>Author: <a href="{{ link.author.url }}" class="link__author u-inline-block">{{ link.author.name }}</a></span>{% endif %}
+              {% if link.date %}<span class="link__date">Read on: {{ link.date }}</span>{% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor -%}
+
+      {% if pagination.href.next or pagination.href.previous %}
+        <nav class="pagination" aria-label="Pagination links">
+          <div class="flex">
+            {% if page.url != pagination.href.first %}
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12V7l-7 5 7 5zm7-5-7 5 7 5z"/></svg>
+            <a href="{{ pagination.href.first }}">First</a>
+            {% else %}
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12V7l-7 5 7 5zm7-5-7 5 7 5z"/></svg>
+            <span class="epsilon">First</span>
+            {% endif %}
+            {% if pagination.href.previous %}
+              <svg aria-hidden="true" focusable="false" class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
+              <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
+                <span class="epsilon">Newer</span>
+              </a>
+              {% else %}
+              <svg aria-hidden="true" focusable="false" class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
+              <span class="epsilon">Newer</span>
+            {% endif %}
+          </div>
+          <div class="pagination__pages">
+            <span class="epsilon">
+            {%- for pageEntry in pagination.pages %}
+              {% if page.url == pagination.hrefs[ loop.index0 ] %}{{ loop.index }} of {{ pagination.pages.length }}{% endif %}
+            {%- endfor %}
+            </span>
+          </div>
+          <div class="flex">
+            {% if pagination.href.next %}
+              <a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
+                <span class="epsilon">Older</span>
+              </a>
+              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
+              {% else %}
+              <span class="epsilon">Older</span>
+              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
+            {% endif %}
+            {% if page.url != pagination.href.last %}
+            <a href="{{ pagination.href.last }}">Last</a>
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m19 12-7-5v10zM5 7v10l7-5z"/></svg>
+            {% else %}
+            <span class="epsilon">Last</span>
+            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m19 12-7-5v10zM5 7v10l7-5z"/></svg>
+            {% endif %}
+          </div>
+        </nav>
+      {% endif %}
       </div>
+
+      <div class="sidebar meta / four cols">
+        {% include 'components/bio.njk' %}
+
+        <hr>
+
+        {% include 'components/featured-authors.njk' %}
+      </div>
+
     </div>
   </div>
-  {% endfor -%}
-
-{% if pagination.href.next or pagination.href.previous %}
-  <nav class="pagination" aria-label="Pagination links">
-    <div class="flex">
-      {% if page.url != pagination.href.first %}
-      <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12V7l-7 5 7 5zm7-5-7 5 7 5z"/></svg>
-      <a href="{{ pagination.href.first }}">First</a>
-      {% else %}
-      <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12V7l-7 5 7 5zm7-5-7 5 7 5z"/></svg>
-      <span class="epsilon">First</span>
-      {% endif %}
-      {% if pagination.href.previous %}
-        <svg aria-hidden="true" focusable="false" class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
-        <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
-          <span class="epsilon">Newer</span>
-        </a>
-        {% else %}
-        <svg aria-hidden="true" focusable="false" class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
-        <span class="epsilon">Newer</span>
-      {% endif %}
-    </div>
-    <div class="pagination__pages">
-      <span class="epsilon">
-      {%- for pageEntry in pagination.pages %}
-        {% if page.url == pagination.hrefs[ loop.index0 ] %}{{ loop.index }} of {{ pagination.pages.length }}{% endif %}
-      {%- endfor %}
-      </span>
-    </div>
-    <div class="flex">
-      {% if pagination.href.next %}
-        <a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
-          <span class="epsilon">Older</span>
-        </a>
-        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
-        {% else %}
-        <span class="epsilon">Older</span>
-        <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
-      {% endif %}
-      {% if page.url != pagination.href.last %}
-      <a href="{{ pagination.href.last }}">Last</a>
-      <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m19 12-7-5v10zM5 7v10l7-5z"/></svg>
-      {% else %}
-      <span class="epsilon">Last</span>
-      <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m19 12-7-5v10zM5 7v10l7-5z"/></svg>
-      {% endif %}
-    </div>
-  </nav>
-{% endif %}
+</div>
+{% endblock %}
