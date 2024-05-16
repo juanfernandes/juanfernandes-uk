@@ -1,9 +1,9 @@
         <h3 class="heading">Featured Authors</h3>
         <ul class="list-style-none">
-        {% set seen_authors = [] %}
+        {% set feat_authors = [] %}
         {% for link in pagination.items | sort(attribute="author.name") %}
-          {% if link.author.name not in seen_authors %}
-            {% set seen_authors = seen_authors.concat([link.author.name]) %}
+          {% if link.author.name not in feat_authors %}
+            {% set feat_authors = feat_authors.concat([link.author.name]) %}
             <li><a href="{{ link.author.url }}" class="link__author u-inline-block">{{ link.author.name }}</a></li>
           {% endif %}
         {% endfor %}
