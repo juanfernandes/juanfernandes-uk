@@ -1,0 +1,13 @@
+        <section class="testimonials testimonials--section">
+          <div class="content">
+            <h2 class="alpha / content__heading">Testimonials</h2>
+            {% for item in testimonials | randomItem %}
+            <article>
+              <blockquote>
+                <p class="testimonials__quote">{{ item.quote | safe }}</p>
+              </blockquote>
+              <cite class="testimonials__cite">{{ item.cite }}, {{ item.company }}</cite>
+            </article>
+            {% endfor %}
+          </div>
+        </section>
