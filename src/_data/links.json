@@ -7,8 +7,7 @@
         },
         "excerpt": "A friend showed me something of a design spec they were charged with pulling off: The requirements: &#8230; when I click on any of them it expands at the top to full width and the rest of the cards…",
         "url": "https://chriscoyier.net/2023/04/11/expanding-grid-cards-with-view-transitions/",
-        "date": "January 6, 2024 at 08:30AM",
-        "tags": ["test-1","ux"]
+        "date": "January 6, 2024 at 08:30AM"
     },
     {
         "title": "CSS Custom Properties Beyond the :root",
@@ -18,8 +17,7 @@
         },
         "excerpt": "Is there a good reason why we’re defining global custom properties on :root/html and not on body?",
         "url": "https://matthiasott.com/notes/custom-properties-beyond-the-root",
-        "date": "January 6, 2024 at 08:37AM",
-        "tags": ["test-2","css"]
+        "date": "January 6, 2024 at 08:37AM"
     },
     {
         "title": "A few developer console tricks",
@@ -1589,5 +1587,65 @@
         "excerpt": "Okay so maybe the definition of sitelet doesn't quite fit but it's close enough to describe these common pages people have on their…",
         "url": "https://rknight.me/blog/interests-a-new-sitelet/",
         "date": "May 11, 2024 at 10:06PM"
+    },
+    {
+        "title": "Target=_blank implies rel=noopener",
+        "author": {
+            "name": "Stefan Judis",
+            "url": "https://www.stefanjudis.com/"
+        },
+        "excerpt": "f you want to be a good web citizen, you might be aware of the target=\"_blank\" security issue. In the old days, when you linked to a site and wanted to open a…",
+        "url": "https://www.stefanjudis.com/today-i-learned/target-blank-implies-rel-noopener/",
+        "date": "May 13, 2024 at 04:48PM"
+    },
+    {
+        "title": "View transitions and stacking context",
+        "author": {
+            "name": "Nic Chan",
+            "url": "https://www.nicchan.me/"
+        },
+        "excerpt": "Why does my CSS View Transition ignore z-index? - Nic Chan,  The problem Readers Of The Blog™ may know that I have been experimenting with the View Transitions API as a way to provide animations in my new portfolio site…",
+        "url": "https://www.nicchan.me/blog/view-transitions-and-stacking-context/",
+        "date": "May 13, 2024 at 04:54PM"
+    },
+    {
+        "title": "How to listen to multiple events in a Web Component with the handleEvent() method",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "In a previous article, I wrote about the handleEvent() method for working with event listeners in Web Components. Today, let’s look at how we can use that to…",
+        "url": "https://gomakethings.com/how-to-listen-to-multiple-events-in-a-web-component-with-the-handleevent-method/",
+        "date": "May 17, 2024 at 10:53PM"
+    },
+    {
+        "title": "Web Security Basics: XSS",
+        "author": {
+            "name": "Manuel Matuzovic",
+            "url": "https://www.matuzo.at/"
+        },
+        "excerpt": "I decided to learn more about areas of web development I don’t know a lot about. You know,…stuff like SEO and web…",
+        "url": "https://www.matuzo.at/blog/2022/web-security-basics-xss",
+        "date": "May 19, 2024 at 11:26AM"
+    },
+    {
+        "title": "Some of my Eleventy Filters",
+        "author": {
+            "name": "Chris Burnell",
+            "url": "https://chrisburnell.com/"
+        },
+        "excerpt": "Before diving in, I think it’s helpful here to note that these filters are defined using JavaScript and made available to use as Nunjucks filters in my Eleventy…",
+        "url": "https://chrisburnell.com/article/some-eleventy-filters/",
+        "date": "May 19, 2024 at 07:33PM"
+    },
+    {
+        "title": "RSS is Good, Isn’t It?!",
+        "author": {
+            "name": "Michelle Barker",
+            "url": "https://css-irl.info/"
+        },
+        "excerpt": "My son gets a weekly magazine delivered to our home. It’s full of his favourite comic strips by fantastic authors and artists, he gets the pleasure of receiving…",
+        "url": "https://css-irl.info/rss-is-good-isnt-it/",
+        "date": "May 19, 2024 at 07:36PM"
     }
 ]
