@@ -1,0 +1,13 @@
+        <section class="latest-post">
+          <div class="content">
+            <h2 class="alpha / content__heading">Latest Blog Post</h2>
+            {% set item = collections.posts | last %}
+            <div class="post">
+              <h3 class="">{{ item.data.title }}</h3>
+              <time class="dt-published" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+
+              <p class="lead">{{ item.data.description }}</p>
+              <a href="{{ item.url }}" class="">Read more</a>
+            </div>
+          </div>
+        </section>

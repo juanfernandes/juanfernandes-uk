@@ -1,0 +1,13 @@
+        <section class="companies">
+          <div class="content">
+            <h2 class="alpha / content__heading">{{ businesses.title }}</h2>
+            <div class="client-list">
+              {%- for i in range(0, 4) -%}
+              {% set item = companies[i] %}
+              <div class="client">
+                <img class="client__logo" src="{{ site.cloudinary_url }}f_auto/work/clients/{{ companies[i].img }}" alt="{{ companies[i].alt }}" loading="lazy" width="490" height="340">
+              </div>
+              {%- endfor -%}
+            </div>
+          </div>
+        </section>
