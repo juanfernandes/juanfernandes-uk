@@ -1,13 +1,26 @@
         <section class="latest-post">
           <div class="content">
-            <h2 class="alpha / content__heading">Latest Blog Post</h2>
-            {% set item = collections.posts | last %}
-            <div class="post">
-              <h3 class="">{{ item.data.title }}</h3>
-              <time class="dt-published" datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+            <h2 class="alpha / content__heading">Latest Posts</h2>
+            <div class="grid-2-col">
+              <div class="post">
+                <h2 class="section-heading">Blog</h2>
+                {% set post = collections.posts | last %}
+                <h3>{{ post.data.title }}</h3>
+                <time class="dt-published" datetime="{{ post.date | w3DateFilter }}">{{ post.date | dateFilter }}</time>
 
-              <p class="lead">{{ item.data.description }}</p>
-              <a href="{{ item.url }}" class="">Read more</a>
+                <p class="lead">{{ post.data.description }}</p>
+                <p class="post__link"><a href="{{ post.url }}">Read more</a> →</p>
+              </div>
+
+              <div class="post">
+                <h2 class="section-heading">Note</h2>
+                {% set note = collections.notes | last %}
+                <h3>{{ note.data.title }}</h3>
+                <time class="dt-published" datetime="{{ note.date | w3DateFilter }}">{{ note.date | dateFilter }}</time>
+
+                <p class="lead">{{ note.data.description }}</p>
+                <p class="post__link"><a href="{{ note.url }}">Read more</a> →</p>
+              </div>
             </div>
           </div>
         </section>

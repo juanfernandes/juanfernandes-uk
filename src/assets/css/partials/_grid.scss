@@ -161,3 +161,12 @@
       width: 74.5%;
   }
 }
+
+.grid-2-col {
+  display: grid;
+  gap: 4rem;
+
+  @media only screen and (min-width: 40em) {/* 640 */
+    grid-template-columns: 2fr 2fr;
+  }
+}

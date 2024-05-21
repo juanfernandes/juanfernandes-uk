@@ -899,6 +899,7 @@ figure.effect:hover p {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size), 1fr));
+    width: 100%;
 
     @media only screen and (min-width: 48.438em) { // 775
       --auto-grid-min-size: 146px;
@@ -1652,4 +1653,41 @@ figure.effect:hover p {
 // Commit History
 .gfm-merge_request {
   display: none;
+}
+
+.latest-post {
+  .section-heading {
+    border-bottom: 2px solid var(--orange);
+    display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .post {
+    time {
+      display: inline-block;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    &__link > * {
+      font-size: 1.8rem;
+    }
+  }
+}
+
+.latest-post,
+.recent-work,
+.testimonials,
+.companies {
+  .content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    &__heading {
+      border-bottom: 6px solid var(--orange);
+    }
+  }
 }
