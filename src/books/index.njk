@@ -1,23 +1,66 @@
 --- 
 title: Books
-layout: page
+layout: page-sidebar
 class: books
 intro:
   class: sml
 ---
-{% for year in books %}
-<h2 class="year">{{ year.year }}</h2>
-<div class="bookshelf">
-  {% for book in year.books %}
-  <div class="book">
-    <a href="{{ book.url }}" aria-label="{{ book.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ book.img }}" alt="" width="180" height="276"></a>
-    <div class="details">
-      <h3>{{ book.title }}</h3>
-      {% if book.subtitle %}<span class="subtitle">{{ book.subtitle }}</span>{% endif %}
-      <span class="author">{{ book.author }}</span>
-      {% if book.status %}<span class="status">{{ book.status }}</span>{% endif %}
+<div id="current">
+  <h2 class="section-heading">Currently Reading</h2>
+  {% set currentBook = books | findCurrentBook %}
+  <div class="bookshelf">
+    {% if currentBook %}
+    <div class="book">
+      <a href="{{ currentBook.url }}" aria-label="{{ currentBook.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ currentBook.img }}" alt="{{ currentBook.title }}" width="180" height="276"></a>
+      <div class="details">
+        <h3>{{ currentBook.title }}</h3>
+        {% if currentBook.subtitle %}
+        <span class="subtitle">{{ currentBook.subtitle }}</span>
+        {% endif %}
+        <span class="author">{{ currentBook.author }}</span>
+      </div>
     </div>
+    {% else %}
+    <p>No current book found.</p>
+    {% endif %}
   </div>
+</div>
+
+<div id="read">
+  <h2 class="section-heading">Read</h2>
+  {% for yearRead, book in books | groupby("yearRead") | dictsort | reverse %}
+  {% if yearRead %}
+    <h3>{{ yearRead }}</h3>
+    <div class="bookshelf">
+      {% for book in book | sort(attribute='title') %}
+      <div class="book">
+        <a href="{{ book.url }}" aria-label="{{ book.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ book.img }}" alt="{{ book.title }}" width="180" height="276"></a>
+        <div class="details">
+          <h3>{{ book.title }}</h3>
+          {% if book.subtitle %}<span class="subtitle">{{ book.subtitle }}</span>{% endif %}
+          <span class="author">{{ book.author }}</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  {% endif %}
   {% endfor %}
 </div>
-{% endfor %}
+
+<div id="want-to-read">
+  <h2 class="section-heading">Want to Read</h2>
+  <div class="bookshelf u-mb-0">
+  {% for book in books | sort(attribute='title') %}
+    {% if book.status == "toRead" %}
+      <div class="book">
+        <a href="{{ book.url }}" aria-label="{{ book.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ book.img }}" alt="{{ book.title }}" width="180" height="276"></a>
+        <div class="details">
+          <h3>{{ book.title }}</h3>
+          {% if book.subtitle %}<span class="subtitle">{{ book.subtitle }}</span>{% endif %}
+          <span class="author">{{ book.author }}</span>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>

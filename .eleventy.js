@@ -19,6 +19,11 @@ module.exports = function (eleventyConfig) {
     return arr.slice(0, 1)
   })
 
+  // Custom filter to find the current book
+  eleventyConfig.addNunjucksFilter('findCurrentBook', function (books) {
+    return books.find(book => book.current)
+  })
+
   // Pass through
   eleventyConfig.addPassthroughCopy('README.md')
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
