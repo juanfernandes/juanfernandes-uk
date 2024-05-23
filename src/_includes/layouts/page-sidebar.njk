@@ -10,6 +10,18 @@
 
       <div class="sidebar meta / four cols">
         {% include 'components/bio.njk' %}
+
+        {% if page.url == "/books/" %}
+
+      <h3 class="heading">Page Navigation</h3>
+        <nav>
+          <ul class="u-flex u-flex-col">
+            <li><a href="#read">Read</a></li>
+            <li><a href="#want-to-read">Want To Read</a></li>
+            <li><a href="#current">Currently Reading</a></li>
+          </ul>
+        </nav>
+        {% endif %}
       </div>
 
     </div>

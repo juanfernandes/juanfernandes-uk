@@ -8,6 +8,7 @@ html {
   margin: 0;
   height: 100%;
   scrollbar-gutter: stable;
+  scroll-behavior: smooth;
   padding: 0;
   scrollbar-color: var(--orange) var(--off-black);
   -webkit-overflow-scrolling: touch;
@@ -160,9 +161,7 @@ p {
   top: 50%;
   transform: translateY(-50%);
 }
-.uppercase {
-  text-transform: uppercase;
-}
+
 .flex {
   display: flex;
 }
@@ -328,7 +327,7 @@ p {
   width: auto;
 }
 .u-mb-0 {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .u-mb-1 {
   margin-bottom: 1rem;
@@ -350,6 +349,9 @@ p {
   margin-right: 1rem;
 }
 
+.u-pb-0 {
+  padding-bottom: 0 !important;
+}
 .u-pb-1 {
   padding-bottom: 2rem;
 }

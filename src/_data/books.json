@@ -1,422 +1,633 @@
 [
     {
-        "year": 2024,
-        "books": [
-            {
-                "title": "Everything's Eventual",
-                "subtitle": "14 Dark Tales",
-                "author": "Stephen King",
-                "img": "everythings-eventual.jpg",
-                "url": "https://openlibrary.org/books/OL10630716M/Everything%27s_Eventual",
-                "status": "Reading",
-                "notes": ""
-            },
-            {
-                "title": "Holly",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "holly.jpg",
-                "url": "https://openlibrary.org/books/OL49355452M/Holly",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "Everything's Eventual",
+        "subtitle": "14 Dark Tales",
+        "author": "Stephen King",
+        "img": "everythings-eventual",
+        "url": "https://openlibrary.org/books/OL10630716M/Everything%27s_Eventual",
+        "notes": "",
+        "status": "reading",
+        "yearRead": "",
+        "current": true
     },
     {
-        "year": 2023,
-        "books": [
-            {
-                "title": "The Outsider",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "the-outsider.jpg",
-                "url": "https://openlibrary.org/books/OL27831341M/The_Outsider",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "Holly",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "holly",
+        "url": "https://openlibrary.org/books/OL49355452M/Holly",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2024"
     },
     {
-        "year": 2022,
-        "books": [
-            {
-                "title": "End of Watch",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "end-of-watch.jpg",
-                "url": "https://openlibrary.org/books/OL28180331M/End_of_watch",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Finders Keepers",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "finders-keepers.jpg",
-                "url": "https://openlibrary.org/books/OL32936255M/Finders_Keepers",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "If It Bleeds",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "if-it-bleeds.jpg",
-                "url": "https://openlibrary.org/works/OL24618057W/If_It_Bleeds",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Mr Mercedes",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "12920967-M.jpg",
-                "url": "https://openlibrary.org/books/OL28294245M/Mr._Mercedes",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "The Outsider",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "the-outsider",
+        "url": "https://openlibrary.org/books/OL27831341M/The_Outsider",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2023"
     },
     {
-        "year": 2021,
-        "books": [
-            {
-                "title": "Later",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "10354506-M.jpg",
-                "url": "https://openlibrary.org/works/OL21229708W/Later",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Midnight Library",
-                "subtitle": "",
-                "author": "Matt Haig",
-                "img": "10479372-M.jpg",
-                "url": "https://openlibrary.org/works/OL21522194W/The_Midnight_Library",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Fireman",
-                "subtitle": "",
-                "author": "Joe Hill",
-                "img": "12920965-M.jpg",
-                "url": "https://openlibrary.org/works/OL21282686W/Fireman",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Wind Through the Keyhole",
-                "subtitle": "The Dark Tower #4.5",
-                "author": "Stephen King",
-                "img": "10712309-M.jpg",
-                "url": "https://openlibrary.org/books/OL32046635M/The_Wind_Through_the_Keyhole",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Dark Tower",
-                "subtitle": "The Dark Tower #7",
-                "author": "Stephen King",
-                "img": "the-dark-tower.jpg",
-                "url": "https://openlibrary.org/works/OL149195W/The_Dark_Tower_VII",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "End of Watch",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "end-of-watch",
+        "url": "https://openlibrary.org/books/OL28180331M/End_of_watch",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2022"
     },
     {
-        "year": 2019,
-        "books": [
-            {
-                "title": "Song of Susannah",
-                "subtitle": "The Dark Tower, #6",
-                "author": "Stephen King",
-                "img": "11413276-M.jpg",
-                "url": "https://openlibrary.org/books/OL10676802M/The_Dark_Tower_VI",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Wizard and Glass",
-                "subtitle": "The Dark Tower, #4",
-                "author": "Stephen King",
-                "img": "11412749-M.jpg",
-                "url": "https://openlibrary.org/books/OL9664793M/The_Dark_Tower_IV",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "Finders Keepers",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "finders-keepers",
+        "url": "https://openlibrary.org/books/OL32936255M/Finders_Keepers",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2022"
     },
     {
-        "year": 2018,
-        "books": [
-            {
-                "title": "Wolves of the Calla",
-                "subtitle": "The Dark Tower, #5",
-                "author": "Stephen King",
-                "img": "10326676-M.jpg",
-                "url": "https://openlibrary.org/books/OL15576556M/The_Dark_Tower_V",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "If It Bleeds",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "if-it-bleeds",
+        "url": "https://openlibrary.org/works/OL24618057W/If_It_Bleeds",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2022"
     },
     {
-        "year": 2017,
-        "books": [
-            {
-                "title": "The New CSS Layout",
-                "subtitle": "",
-                "author": "Rachel Andrew",
-                "img": "10482619-M.jpg",
-                "url": "https://openlibrary.org/works/OL22655805W/The_New_CSS_Layout",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "JavaScript For Web Designers",
-                "subtitle": "",
-                "author": "Mat Marquis",
-                "img": "12920952-M.jpg",
-                "url": "https://openlibrary.org/books/OL39805068M/JavaScript_for_Web_Designers",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "Mr Mercedes",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "12920967-M",
+        "url": "https://openlibrary.org/books/OL28294245M/Mr._Mercedes",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2022"
     },
     {
-        "year": 2016,
-        "books": [
-            {
-                "title": "Atomic Design",
-                "subtitle": "",
-                "author": "Brad Frost",
-                "img": "12920949-M.jpg",
-                "url": "https://openlibrary.org/works/OL22297494W/Atomic_Design",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Lisey's Story",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "12920954-M.jpg",
-                "url": "https://openlibrary.org/works/OL26150393W/Lisey%27s_Story",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "Later",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "10354506-M",
+        "url": "https://openlibrary.org/works/OL21229708W/Later",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2021"
     },
     {
-        "year": 2015,
-        "books": [
-            {
-                "title": "You're My Favorite Client",
-                "subtitle": "",
-                "author": "Mike Monteiro",
-                "img": "12587850-M.jpg",
-                "url": "https://openlibrary.org/works/OL27094427W/You%E2%80%99re_My_Favorite_Client",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "The Midnight Library",
+        "subtitle": "",
+        "author": "Matt Haig",
+        "img": "10479372-M",
+        "url": "https://openlibrary.org/works/OL21522194W/The_Midnight_Library",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2021"
     },
     {
-        "year": 2014,
-        "books": [
-            {
-                "title": "Rose Madder",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "9255967-M.jpg",
-                "url": "https://openlibrary.org/books/OL18388150M/Rose_Madder",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Adaptive Web Design",
-                "subtitle": "Crafting Rich Experiences with Progressive Enhancement",
-                "author": "Aaron Gustafson",
-                "img": "6771310-M.jpg",
-                "url": "https://openlibrary.org/works/OL15745606W/Adaptive_Web_Design",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "HTML5 for Web Designers",
-                "subtitle": "",
-                "author": "Jeremy Keith",
-                "img": "6666412-M.jpg",
-                "url": "https://openlibrary.org/works/OL15437498W/HTML5_For_Web_Designers",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Introducing HTML5",
-                "subtitle": "",
-                "author": "Bruce Lawson",
-                "img": "6726610-M.jpg",
-                "url": "https://openlibrary.org/works/OL15710580W/Introducing_HTML_5",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Waste Lands",
-                "subtitle": "The Dark Tower #3",
-                "author": "Stephen King",
-                "img": "10515631-M.jpg",
-                "url": "https://openlibrary.org/books/OL9624437M/The_Dark_Tower_III",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Drawing of the Three",
-                "subtitle": "The Dark Tower #2",
-                "author": "Stephen King",
-                "img": "12983438-M.jpg",
-                "url": "https://openlibrary.org/books/OL10628188M/The_Dark_Tower_II",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Gunslinger",
-                "subtitle": "The Dark Tower #1",
-                "author": "Stephen King",
-                "img": "12983417-M.jpg",
-                "url": "https://openlibrary.org/books/OL9542909M/The_Dark_Tower_I",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Desperation",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "10520959-M.jpg",
-                "url": "https://openlibrary.org/books/OL28368041M/Desperation",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Cell",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "12983441-M.jpg",
-                "url": "https://openlibrary.org/works/OL26150521W/Cell",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Dreamcatcher",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "11412877-M.jpg",
-                "url": "https://openlibrary.org/books/OL10630713M/Dreamcatcher",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The CSS Anthology",
-                "subtitle": "",
-                "author": "Rachel Andrew",
-                "img": "12983674-M.jpg",
-                "url": "https://openlibrary.org/works/OL16932146W/The_CSS_anthology",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Doctor Sleep",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "12685616-M.jpg",
-                "url": "https://openlibrary.org/books/OL28507073M/Doctor_Sleep",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "The Fireman",
+        "subtitle": "",
+        "author": "Joe Hill",
+        "img": "12920965-M",
+        "url": "https://openlibrary.org/works/OL21282686W/Fireman",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2021"
     },
     {
-        "year": 2013,
-        "books": [
-            {
-                "title": "11.22.63",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "7267516-M.jpg",
-                "url": "https://openlibrary.org/books/OL25434880M/11_22_63",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Stand",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "9255989-M.jpg",
-                "url": "https://openlibrary.org/books/OL20402389M/The_Stand",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Girl Who Loved Tom Gordon",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "8666518-M.jpg",
-                "url": "https://openlibrary.org/books/OL27047553M/The_Girl_Who_Loved_Tom_Gordon",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Green Mile",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "11456735-M.jpg",
-                "url": "https://openlibrary.org/works/OL24726026W/The_Green_Mile",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Thinner",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "10936333-M.jpg",
-                "url": "https://openlibrary.org/books/OL32312068M/Thinner",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "Salem's Lot",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "10193444-M.jpg",
-                "url": "https://openlibrary.org/books/OL28265158M/Salem's_Lot",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "The Wind Through the Keyhole",
+        "subtitle": "The Dark Tower #4.5",
+        "author": "Stephen King",
+        "img": "10712309-M",
+        "url": "https://openlibrary.org/books/OL32046635M/The_Wind_Through_the_Keyhole",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2021"
     },
     {
-        "year": 2012,
-        "books": [
-            {
-                "title": "Carrie",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "8588037-M.jpg",
-                "url": "https://openlibrary.org/works/OL14916810W/Novels_%28Carrie_Tommyknockers%29",
-                "status": "Read",
-                "notes": ""
-            },
-            {
-                "title": "The Shining",
-                "subtitle": "",
-                "author": "Stephen King",
-                "img": "12983683-M.jpg",
-                "url": "https://openlibrary.org/books/OL30104053M/The_Shining",
-                "status": "Read",
-                "notes": ""
-            }
-        ]
+        "title": "The Dark Tower",
+        "subtitle": "The Dark Tower #7",
+        "author": "Stephen King",
+        "img": "the-dark-tower",
+        "url": "https://openlibrary.org/works/OL149195W/The_Dark_Tower_VII",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2021"
+    },
+    {
+        "title": "Song of Susannah",
+        "subtitle": "The Dark Tower, #6",
+        "author": "Stephen King",
+        "img": "11413276-M",
+        "url": "https://openlibrary.org/books/OL10676802M/The_Dark_Tower_VI",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2019"
+    },
+    {
+        "title": "Wizard and Glass",
+        "subtitle": "The Dark Tower, #4",
+        "author": "Stephen King",
+        "img": "11412749-M",
+        "url": "https://openlibrary.org/books/OL9664793M/The_Dark_Tower_IV",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2019"
+    },
+    {
+        "title": "Wolves of the Calla",
+        "subtitle": "The Dark Tower, #5",
+        "author": "Stephen King",
+        "img": "10326676-M",
+        "url": "https://openlibrary.org/books/OL15576556M/The_Dark_Tower_V",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2018"
+    },
+    {
+        "title": "The New CSS Layout",
+        "subtitle": "",
+        "author": "Rachel Andrew",
+        "img": "10482619-M",
+        "url": "https://openlibrary.org/works/OL22655805W/The_New_CSS_Layout",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2017"
+    },
+    {
+        "title": "JavaScript For Web Designers",
+        "subtitle": "",
+        "author": "Mat Marquis",
+        "img": "12920952-M",
+        "url": "https://openlibrary.org/books/OL39805068M/JavaScript_for_Web_Designers",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2017"
+    },
+    {
+        "title": "Atomic Design",
+        "subtitle": "",
+        "author": "Brad Frost",
+        "img": "12920949-M",
+        "url": "https://openlibrary.org/works/OL22297494W/Atomic_Design",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2016"
+    },
+    {
+        "title": "Lisey's Story",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "12920954-M",
+        "url": "https://openlibrary.org/works/OL26150393W/Lisey%27s_Story",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2016"
+    },
+    {
+        "title": "You're My Favorite Client",
+        "subtitle": "",
+        "author": "Mike Monteiro",
+        "img": "12587850-M",
+        "url": "https://openlibrary.org/works/OL27094427W/You%E2%80%99re_My_Favorite_Client",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2015"
+    },
+    {
+        "title": "Rose Madder",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "9255967-M",
+        "url": "https://openlibrary.org/books/OL18388150M/Rose_Madder",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "Adaptive Web Design",
+        "subtitle": "Crafting Rich Experiences with Progressive Enhancement",
+        "author": "Aaron Gustafson",
+        "img": "6771310-M",
+        "url": "https://openlibrary.org/works/OL15745606W/Adaptive_Web_Design",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "HTML5 for Web Designers",
+        "subtitle": "",
+        "author": "Jeremy Keith",
+        "img": "6666412-M",
+        "url": "https://openlibrary.org/works/OL15437498W/HTML5_For_Web_Designers",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "Introducing HTML5",
+        "subtitle": "",
+        "author": "Bruce Lawson",
+        "img": "6726610-M",
+        "url": "https://openlibrary.org/works/OL15710580W/Introducing_HTML_5",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "The Waste Lands",
+        "subtitle": "The Dark Tower #3",
+        "author": "Stephen King",
+        "img": "10515631-M",
+        "url": "https://openlibrary.org/books/OL9624437M/The_Dark_Tower_III",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "The Drawing of the Three",
+        "subtitle": "The Dark Tower #2",
+        "author": "Stephen King",
+        "img": "12983438-M",
+        "url": "https://openlibrary.org/books/OL10628188M/The_Dark_Tower_II",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "The Gunslinger",
+        "subtitle": "The Dark Tower #1",
+        "author": "Stephen King",
+        "img": "12983417-M",
+        "url": "https://openlibrary.org/books/OL9542909M/The_Dark_Tower_I",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "Desperation",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "10520959-M",
+        "url": "https://openlibrary.org/books/OL28368041M/Desperation",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "Cell",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "12983441-M",
+        "url": "https://openlibrary.org/works/OL26150521W/Cell",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "Dreamcatcher",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "11412877-M",
+        "url": "https://openlibrary.org/books/OL10630713M/Dreamcatcher",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "The CSS Anthology",
+        "subtitle": "",
+        "author": "Rachel Andrew",
+        "img": "12983674-M",
+        "url": "https://openlibrary.org/works/OL16932146W/The_CSS_anthology",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "Doctor Sleep",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "12685616-M",
+        "url": "https://openlibrary.org/books/OL28507073M/Doctor_Sleep",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2014"
+    },
+    {
+        "title": "11.22.63",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "7267516-M",
+        "url": "https://openlibrary.org/books/OL25434880M/11_22_63",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2013"
+    },
+    {
+        "title": "The Stand",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "9255989-M",
+        "url": "https://openlibrary.org/books/OL20402389M/The_Stand",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2013"
+    },
+    {
+        "title": "The Girl Who Loved Tom Gordon",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "8666518-M",
+        "url": "https://openlibrary.org/books/OL27047553M/The_Girl_Who_Loved_Tom_Gordon",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2013"
+    },
+    {
+        "title": "The Green Mile",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "11456735-M",
+        "url": "https://openlibrary.org/works/OL24726026W/The_Green_Mile",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2013"
+    },
+    {
+        "title": "Thinner",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "10936333-M",
+        "url": "https://openlibrary.org/books/OL32312068M/Thinner",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2013"
+    },
+    {
+        "title": "Salem's Lot",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "10193444-M",
+        "url": "https://openlibrary.org/books/OL28265158M/Salem's_Lot",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2013"
+    },
+    {
+        "title": "Carrie",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "8588037-M",
+        "url": "https://openlibrary.org/works/OL14916810W/Novels_%28Carrie_Tommyknockers%29",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2012"
+    },
+    {
+        "title": "The Shining",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "12983683-M",
+        "url": "https://openlibrary.org/books/OL30104053M/The_Shining",
+        "status": "read",
+        "notes": "",
+        "yearRead": "2012"
+    },
+    {
+        "title": "You Like It Darker",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "you-like-it-darker",
+        "url": "https://openlibrary.org/books/OL50643649M/You_Like_It_Darker",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "The Tommyknockers",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "8588037-M",
+        "url": "https://openlibrary.org/works/OL14916810W/Novels_%28Carrie_Tommyknockers%29",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "IT",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "it",
+        "url": "https://openlibrary.org/books/OL28466365M/It",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Duma Key",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "duma-key",
+        "url": "https://openlibrary.org/books/OL35256871M/Duma_Key",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Black House",
+        "subtitle": "",
+        "author": "Stephen King & Peter Straub",
+        "img": "black-house",
+        "url": "https://openlibrary.org/books/OL7261008M/Black_House",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "On Writing",
+        "subtitle": "A Memoir of the Craft",
+        "author": "Stephen King",
+        "img": "on-writing",
+        "url": "https://openlibrary.org/books/OL24325491M/On_Writing",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "The Eyes of the Dragon",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "the-eyes-of-the-dragon",
+        "url": "https://openlibrary.org/books/OL7777829M/The_Eyes_of_the_Dragon",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Misery",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "misery",
+        "url": "https://openlibrary.org/books/OL28428990M/Misery",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Under The Dome",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "under-the-dome",
+        "url": "https://openlibrary.org/books/OL32042363M/Under_the_Dome",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Desperation",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "desperation",
+        "url": "https://openlibrary.org/books/OL23277896M/Desperation",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Insomnia",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "insomnia",
+        "url": "https://openlibrary.org/books/OL22325147M/Insomnia",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Just After Sunset",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "just-after-sunset",
+        "url": "https://openlibrary.org/books/OL28375028M/Just_After_Sunset",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "The Dark Half",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "the-dark-half",
+        "url": "https://openlibrary.org/books/OL18930845M/The_Dark_Half",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Sleeping Beauties",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "sleeping-beauties",
+        "url": "https://openlibrary.org/books/OL26871878M/Sleeping_Beauties",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "The Institute",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "the-institute",
+        "url": "https://openlibrary.org/books/OL28722028M/Institute",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Nightmares and Dreamscapes",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "nightmares-and-dreamscapes",
+        "url": "https://openlibrary.org/books/OL7569599M/Nightmares_and_Dreamscapes",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Fairy Tale",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "fairy-tale",
+        "url": "https://openlibrary.org/books/OL39559930M/Fairy_Tale",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "The Bazaar of Bad Dreams",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "the-bazaar-of-bad-dreams",
+        "url": "https://openlibrary.org/books/OL35501754M/Bazaar_of_Bad_Dreams",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Revival",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "revival",
+        "url": "https://openlibrary.org/books/OL32045125M/Revival",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Gwendy's Final Task",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "gwendys-final-task",
+        "url": "https://openlibrary.org/books/OL35854776M/Gwendy's_Final_Task",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Bag of Bones",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "bag-of-bones",
+        "url": "https://openlibrary.org/books/OL27045209M/Bag_of_Bones",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Billy Summers",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "billy-summers",
+        "url": "https://openlibrary.org/books/OL34708072M/Billy_Summers",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
+    },
+    {
+        "title": "Four Past Midnight",
+        "subtitle": "",
+        "author": "Stephen King",
+        "img": "four-past-midnight",
+        "url": "https://openlibrary.org/books/OL27038399M/Four_Past_Midnight",
+        "notes": "",
+        "status": "toRead",
+        "yearRead": ""
     }
 ]
