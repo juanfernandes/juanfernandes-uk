@@ -1647,5 +1647,155 @@
         "excerpt": "My son gets a weekly magazine delivered to our home. It’s full of his favourite comic strips by fantastic authors and artists, he gets the pleasure of receiving…",
         "url": "https://css-irl.info/rss-is-good-isnt-it/",
         "date": "May 19, 2024 at 07:36PM"
+    },
+    {
+        "title": "Futuristic Progressive Enhancement",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "Imagine someone came to you in a time machine and said, “In the future we will write software that becomes more capable as time passes without any effort on our…",
+        "url": "https://blog.jim-nielsen.com/2024/futuristic-progressive-enhanement/",
+        "date": "May 20, 2024 at 10:32PM"
+    },
+    {
+        "title": "Buried Bookworm",
+        "author": {
+            "name": "Chris Burnell",
+            "url": "https://chrisburnell.com/"
+        },
+        "excerpt": "’ve been tracking books that I read since 2015, and, frankly, I’m pretty embarassed at how little I read these days. To be fair, there were periods of time…",
+        "url": "https://chrisburnell.com/note/buried-bookworm/",
+        "date": "May 20, 2024 at 10:36PM"
+    },
+    {
+        "title": "Design interviews",
+        "author": {
+            "name": "Robin Rendle",
+            "url": "https://robinrendle.com/"
+        },
+        "excerpt": "I’ve been doing a lot of interviews for designers lately so here’s a list of all the questions I’m asking along the way and maybe this helps someone out there…",
+        "url": "https://robinrendle.com/notes/design-interviews/",
+        "date": "May 21, 2024 at 12:59PM"
+    },
+    {
+        "title": "CSS is fun again",
+        "author": {
+            "name": "Jeff Sandberg",
+            "url": "https://pdx.su/"
+        },
+        "excerpt": "CSS has been undergoing a quiet renaissance lately. Lots of big features which previously required an external tool to use, are now native parts of the…",
+        "url": "https://pdx.su/blog/2023-10-25-css-is-fun-again/",
+        "date": "May 21, 2024 at 01:00PM"
+    },
+    {
+        "title": "Upgraded to Eleventy v3",
+        "author": {
+            "name": "Tom",
+            "url": "https://ttntm.me/"
+        },
+        "excerpt": "The alpha release of Eleventy v3 became available in December '23. It took me a little while, but I finally upgraded this website to v3.0.0-alpha.10 today. This…",
+        "url": "https://ttntm.me/blog/upgraded-to-eleventy-v3/",
+        "date": "May 23, 2024 at 11:51PM"
+    },
+    {
+        "title": "Slash Pages",
+        "author": {
+            "name": "Robb Knight",
+            "url": "https://rknight.me/"
+        },
+        "excerpt": "Don't care about the backstory? Go check out slashpages.net. While putting Baby Knight to bed I had an idea for a project: a…",
+        "url": "https://rknight.me/blog/slash-pages/",
+        "date": "May 23, 2024 at 11:51PM"
+    },
+    {
+        "title": "More Indieweb Automation",
+        "author": {
+            "name": "Simone Silvestroni",
+            "url": "https://minutestomidnight.co.uk/"
+        },
+        "excerpt": "Follow-up to a previous case study on how I automated my static website publishing workflow. This time, a lean Shortcut script is allowing me to write…",
+        "url": "https://minutestomidnight.co.uk/blog/more-indieweb-automation/",
+        "date": "May 24, 2024 at 09:44AM"
+    },
+    {
+        "title": "Dynamic Content Includes",
+        "author": {
+            "name": "",
+            "url": "https://chrisburnell.com/"
+        },
+        "excerpt": "Those of you who have been following along with my posts this month may have noticed that I’m participating in Weblog Posting Month 2024. At the end of each of…",
+        "url": "https://chrisburnell.com/article/dynamic-content-includes/",
+        "date": "May 24, 2024 at 05:37PM"
+    },
+    {
+        "title": "Thinking Big and Small",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "It’s so easy to start with the question, “What should I do?” And end up with a discussion about other people and what they’re doing. Here’s Paul Ford: I’ll give…",
+        "url": "https://blog.jim-nielsen.com/2024/thinking-big-and-small/",
+        "date": "May 24, 2024 at 07:05PM"
+    },
+    {
+        "title": "But what about the shadow DOM?",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "I got a lot of responses to my article yesterday about the wrong way to build Web Components that insisted that “HTML only shows when the JavaScript loads” is a…",
+        "url": "https://gomakethings.com/but-what-about-the-shadow-dom/",
+        "date": "May 24, 2024 at 07:09PM"
+    },
+    {
+        "title": "The Times You Need A Custom @property Instead Of A CSS Variable",
+        "author": {
+            "name": "Preethi Sam",
+            "url": "https://x.com/rpsthecoder"
+        },
+        "excerpt": "The Times You Need A Custom @property Instead Of A CSS Variable About The Author Preethi is a web developer and writer. She jots down mostly on…",
+        "url": "https://www.smashingmagazine.com/2024/05/times-need-custom-property-instead-css-variable/",
+        "date": "May 24, 2024 at 10:24PM"
+    },
+    {
+        "title": "Misconceptions about CSS Specificity",
+        "author": {
+            "name": "Bramus Van Damme",
+            "url": "https://www.bram.us/"
+        },
+        "excerpt": "Me talking about Specificity (and the Cascade) Whenever a post about Specificity in CSS – and by extension the Cascade itself – gets published…",
+        "url": "https://www.bram.us/2024/05/05/misconceptions-about-css-specificity/",
+        "date": "May 25, 2024 at 06:23PM"
+    },
+    {
+        "title": "Re: Blocking Bots",
+        "author": {
+            "name": "Simone Silvestroni",
+            "url": "https://minutestomidnight.co.uk/"
+        },
+        "excerpt": "Inspired by Neil Clarke and Ethan Marcotte, I moved my list of crawlers to a Jekyll YAML data file, and now use it to compile both the .htaccess and robots.txt…",
+        "url": "https://minutestomidnight.co.uk/blog/re-blocking-bots/",
+        "date": "May 25, 2024 at 06:30PM"
+    },
+    {
+        "title": "A Multiplicity of Writing",
+        "author": {
+            "name": "Mike Sass",
+            "url": "https://shellsharks.com/"
+        },
+        "excerpt": "On this site, I write and publish in a variety of different forms, each serving their own unique purpose. I want to describe what these different are and how...",
+        "url": "https://shellsharks.com/multiplicity-of-writing",
+        "date": "May 25, 2024 at 06:33PM"
+    },
+    {
+        "title": "The key to side project success",
+        "author": {
+            "name": "Sam D King",
+            "url": "https://samdking.co.uk/"
+        },
+        "excerpt": "The key to side project success Posted on: 31 October 2023 Most start-ups fail. Intuitively, they fail because they run out of money. But what’s the biggest…",
+        "url": "https://samdking.co.uk/blog/mvp/",
+        "date": "May 27, 2024 at 09:42AM"
     }
 ]

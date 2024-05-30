@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-05-20T14:10:00Z
+date: 2024-05-28T18:00:00Z
 class: now
 intro:
   heading: Now
@@ -11,9 +11,6 @@ description: Read about what I'm currently up to
 keywords: now, freelance website designer, frontend developer, reading, watching, work
 
 ---
-## Personal
-* Another week and yet another argument with the ex-wife, which has led to us deciding to sell the house for a cash buy out offer - they only pay 80% of the market value, but do cover all the fees. Not happy about losing money, but at the same time feel happy to end another financial tie.
-
 ## Watching
 * [Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")
   Rewatch: Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.
