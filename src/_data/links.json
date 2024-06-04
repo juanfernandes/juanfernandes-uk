@@ -1797,5 +1797,95 @@
         "excerpt": "The key to side project success Posted on: 31 October 2023 Most start-ups fail. Intuitively, they fail because they run out of money. But what’s the biggest…",
         "url": "https://samdking.co.uk/blog/mvp/",
         "date": "May 27, 2024 at 09:42AM"
+    },
+    {
+        "title": "The prefers-reduced-transparency media feature",
+        "author": {
+            "name": "Manuel Matuzovic",
+            "url": "https://www.matuzo.at/"
+        },
+        "excerpt": "The prefers-reduced-transparency media feature posted on 01.11.2023 It’s time to get me up to speed with modern CSS. There’s so much new in CSS that I…",
+        "url": "https://www.matuzo.at/blog/2023/100daysof-day103",
+        "date": "May 28, 2024 at 07:29PM"
+    },
+    {
+        "title": "Progressively Enhanced Popover Toggletips",
+        "author": {
+            "name": "Michelle Barker",
+            "url": "https://css-irl.info/"
+        },
+        "excerpt": "The CSS Anchor Positioning specification enables us to position elements relative to an anchor, wherever they are in our web page. As I wrote recently, one…",
+        "url": "https://css-irl.info/progressively-enhanced-popover-toggletips/",
+        "date": "May 28, 2024 at 07:33PM"
+    },
+    {
+        "title": "Old Dogs, new CSS Tricks",
+        "author": {
+            "name": "Max Böck",
+            "url": "https://mxb.dev/"
+        },
+        "excerpt": "A lot of new CSS features have shipped in the last years, but actual usage is still low. While there are many different reasons for the slow adoption, I think…",
+        "url": "https://mxb.dev/blog/old-dogs-new-css-tricks/",
+        "date": "May 29, 2024 at 11:50PM"
+    },
+    {
+        "title": "The New CSS Math: rem() and mod()",
+        "author": {
+            "name": "Daniel C. Wilson",
+            "url": "https://danielcwilson.com/"
+        },
+        "excerpt": "SS added many new Math functions to supplement the old favorites (think calc() and the more recent clamp() ). They all ultimately represent a…",
+        "url": "https://danielcwilson.com/posts/mathematicss-rem-mod/",
+        "date": "May 29, 2024 at 11:50PM"
+    },
+    {
+        "title": "Your site or app should work as much as possible without JavaScript",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "I’m amazed at how often this is a controversial opinion, but… your site or app should work as much as possible without JavaScript. The most common argument I…",
+        "url": "https://gomakethings.com/your-site-or-app-should-work-as-much-as-possible-without-javascript/",
+        "date": "May 31, 2024 at 09:45PM"
+    },
+    {
+        "title": "The different ways to build a resilient website or web app",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Yesterday, I talked about how your site should work without JavaScript. Today, I wanted to talk about some different approaches for building a resilient website…",
+        "url": "https://gomakethings.com/the-different-ways-to-build-a-resilient-website-or-web-app/",
+        "date": "May 31, 2024 at 09:50PM"
+    },
+    {
+        "title": "A simpler way to build dynamic user interactions",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Yesterday, we looked at two different ways to build more resilient websites and web apps. Today, let’s talk about how to add dynamic user interactions to static…",
+        "url": "https://gomakethings.com/a-simpler-way-to-build-dynamic-user-interactions/",
+        "date": "June 1, 2024 at 02:51PM"
+    },
+    {
+        "title": "External links and target=\"_blank\"",
+        "author": {
+            "name": "Tom",
+            "url": "https://ttntm.me/"
+        },
+        "excerpt": "External links are everywhere, and I’m using tons of them on this rather small website. They’re often used as…",
+        "url": "https://ttntm.me/blog/external-links-and-target-blank/",
+        "date": "June 1, 2024 at 02:52PM"
+    },
+    {
+        "title": "Layout Update",
+        "author": {
+            "name": "Chris Burnell",
+            "url": "https://chrisburnell.com/"
+        },
+        "excerpt": "Over the last few days, I’ve been working on some minor redesign of my website’s overall layout that I mentioned in yesterday’s post, Indent Outdent. After some…",
+        "url": "https://chrisburnell.com/note/layout-update-may-2024/",
+        "date": "June 1, 2024 at 02:54PM"
     }
 ]

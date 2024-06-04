@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-05-28T18:00:00Z
+date: 2024-06-04T15:30:00Z
 class: now
 intro:
   heading: Now
@@ -11,6 +11,10 @@ description: Read about what I'm currently up to
 keywords: now, freelance website designer, frontend developer, reading, watching, work
 
 ---
+## Personal
+* Spent the weekend in Norwich with my daughter, the middle child, as she had her final martial arts testing and then on Sunday I watched her and others get their black belt and certification.
+* No change on the house situation - still unsold. We're trying a new company to help sell the house and if it doesn't work, then we'll be taking the house to auction.
+
 ## Watching
 * [Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")
   Rewatch: Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.
@@ -24,6 +28,6 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 ## Reading
 
 ### Books
-* [ Everything's Eventual by Stephen King](https://bookwyrm.social/book/73015/s/everythings-eventual " Everything's Eventual by Stephen King")
+* [ Everything's Eventual by Stephen King](https://bookwyrm.social/book/73015/s/everythings-eventual "Everything's Eventual by Stephen King")
 
 ### Articles
