@@ -1,0 +1,35 @@
+               <nav class="nav--portfolio" role="navigation" aria-label="Work Navigation">
+
+                <ul class="nav--portfolio__all">
+                  <li>
+                    <a href="/work/" title="All Projects">
+                      <svg aria-hidden="true"><use xlink:href="#svg-dash" /></svg>
+                    </a>
+                  </li>
+                </ul>
+
+                <ul class="nav--portfolio__controls">
+                {% if nav.previous %}
+                  <li class="nav--portfolio__prev">
+                    <a href="/work/{{ nav.previous }}" data-direction="backwards" title="Previous Project">
+                      <svg aria-hidden="true"><use xlink:href="#svg-prev-arrow" /></svg>
+                    </a>
+                  </li>
+                {% else %}
+                  <li class="nav--portfolio__prev nav--portfolio--disabled">
+                    <svg aria-hidden="true"><use xlink:href="#svg-prev-arrow" /></svg>
+                  </li>
+                {% endif %}
+                {% if nav.next %}
+                  <li class="nav--portfolio__next">
+                    <a href="/work/{{ nav.next }}" title="Next Project" data-direction="forwards">
+                      <svg aria-hidden="true"><use xlink:href="#svg-nxt-arrow" /></svg>
+                    </a>
+                  </li>
+                {% else %}
+                  <li class="nav--portfolio__next nav--portfolio--disabled">
+                    <svg aria-hidden="true"><use xlink:href="#svg-nxt-arrow" /></svg>
+                  </li>
+                {% endif %}
+                </ul>
+              </nav>

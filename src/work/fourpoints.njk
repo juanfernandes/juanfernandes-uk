@@ -1,59 +1,33 @@
+---
+nav:
+  next:
+  previous: tomhartleyjnr
+---
+
 {% extends 'layouts/base.njk' %}
 
 {% block main %}
         <section class="project">
           <div class="container">
             <div class="content" id="content">
-              <h2 class="project__heading">Four Points Website Refresh</h2>
+              <h2 class="project__heading">{{ project.heading }}</h2>
 
-              <nav class="nav--portfolio" role="navigation">
-                <ul class="nav--portfolio__all">
-                  <li>
-                    <a href="/work/" title="All Projects">
-                      <svg aria-hidden="true"><use xlink:href="#svg-dash" /></svg>
-                    </a>
-                  </li>
-                </ul>
-                <ul class="nav--portfolio__controls">
-                  <li class="nav--portfolio__prev">
-                    <a href="/work/tomhartleyjnr/" title="Previous Project">
-                      <svg aria-hidden="true"><use xlink:href="#svg-prev-arrow" /></svg>
-                    </a>
-                  </li>
-                  <li class="nav--portfolio__next nav--portfolio--disabled">
-                    <svg aria-hidden="true"><use xlink:href="#svg-nxt-arrow" /></svg>
-                  </li>
-                </ul>
-              </nav>
+              {% include 'components/work-nav.njk' %}
 
               <div class="row">
                 <div class="ten cols">
-                  {% include 'components/project-slider.njk' %}
+                  {% include 'components/work-images.njk' %}
                 </div>
                 <div class="six cols / aside">
-                  <h3 class="project__sub-heading">Project Details</h3>
-                  <div class="project__meta">
-                    <span class="project__meta--client"><strong>Client:</strong> Four Points Ltd</span>
-                    <span class="project__meta--role"><strong>Role:</strong> Frontend Developer</span>
-                    <span class="project__meta--skills"><strong>Tech:</strong> HTML PHP CSS jQuery Perch CMS</span>
-                  </div>
+                  <h3 class="project__sub-heading">Details</h3>
+                  {% include 'components/work-meta.njk' %}
 
-                  <h3 class="project__sub-heading">Project Brief</h3>
-                  <p>Four Points asked me to make their existing website responsive, as well moving it from Joomla to Perch CMS.</p>
-                  <p>Requirements:</p>
-                  <ul>
-                    <li>Move existing site to new CMS</li>
-                    <li>Make the site responsive</li>
-                    <li>Blog</li>
-                    <li>Site wide content changes</li>
-                    <li>New pages added</li>
-                    <li>New Case Studies section</li>
-                    <li>Breadcrumb trail</li>
-                    <li>Social Media Icons</li>
-                    <li>Social Sharing</li>
-                    <li>Sub-Navigation added</li>
-                    <li>Resources section with user registration &amp; download tracking</li>
-                  </ul>
+                  <h3 class="project__sub-heading">Brief</h3>
+                  {{ project.brief | safe }}
+
+                  <h3 class="project__sub-heading">Requirements</h3>
+                  {{ project.requirements | safe }}
+
                 </div>
               </div>
             </div>

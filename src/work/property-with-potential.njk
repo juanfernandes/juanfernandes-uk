@@ -1,0 +1,44 @@
+---
+nav:
+  next: mclaren
+  previous:
+---
+
+{% extends 'layouts/base.njk' %}
+
+{% block main %}
+        <section class="project">
+          <div class="container">
+            <div class="content" id="content">
+              <h2 class="project__heading">{{ project.heading }}</h2>
+
+              {% include 'components/work-nav.njk' %}
+
+              <div class="grid-8-4 gap-4">
+                <div>
+                  <h3 class="project__sub-heading">Brief</h3>
+                  {{ project.brief | safe }}
+                </div>
+                <div>
+                  <h3 class="project__sub-heading">Details</h3>
+                  <div class="project__meta">
+                    <span class="project__meta--client"><strong>Client:</strong> {{ details.client }}</span>
+                    <span class="project__meta--role"><strong>Role:</strong> {{ details.role }}</span>
+                    <span class="project__meta--skills"><strong>Tech:</strong> {{ details.tech }}</span>
+                    {% if details.url %}
+                    <span class="project__meta--link"><strong>Link:</strong> <a href="{{ details.url }}">View website</a></span>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+
+              <h3 class="project__sub-heading project__sub-heading--full">Result</h3>
+              {% include 'components/work-images.njk' %}
+
+              <h3 class="project__sub-heading project__sub-heading--full u-mt-4">Testimonial</h3>
+              {% include 'components/work-testimonial.njk' %}
+
+            </div>
+          </div>
+        </section>
+{% endblock %}

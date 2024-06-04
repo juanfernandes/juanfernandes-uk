@@ -3,14 +3,45 @@
   "description": "See the latest work by Juan Fernandes – Freelance Website Designer based in Woodbridge Suffolk UK – showcasing freelance and contract work",
   "keywords": "responsive website design, website design for small businesses, affordable website design, website design company suffolk uk, website design company woodbridge uk, website designer suffolk uk, freelance website designer suffolk uk, responsive web design, design, web design, cms, perch, wordpress, local, suffolk uk",
   "meta": {
-    "sg-url": "https://www.juanfernandes.uk/contact/",
     "sg-title": "Work - Latest work by freelance website designer Juan Fernandes based in Woodbridge, Suffolk UK",
-    "sg-desc": "See the latest work by Juan Fernandes – Freelance Website Designer based in Woodbridge Suffolk UK – showcasing freelance and contract work",
+    "ogDesc": "See the latest work by Juan Fernandes – Freelance Website Designer based in Woodbridge Suffolk UK – showcasing freelance and contract work",
     "lang": "https://www.juanfernandes.uk/work/"
   },
   "intro": {
     "class": "work",
     "heading": "Portfolio",
     "subheading": "A selection of my latest work"
-  }
+  },
+  "works": [
+    {
+      "name": "Modern Redesign",
+      "client": "Property With Potential",
+      "img": "property-with-potential-project.jpg",
+      "link": "/work/property-with-potential/"
+    },
+    {
+      "name": "Responsive Forms",
+      "client": "McLaren",
+      "img": "mclaren-project.jpg",
+      "link": "/work/mclaren/"
+    },
+    {
+      "name": "Used Vehicle Search",
+      "client": "Land Rover",
+      "img": "landrover-project.jpg",
+      "link": "/work/landrover/"
+    },
+    {
+      "name": "Responsive Website",
+      "client": "Tom Hartley JNR",
+      "img": "tomhartleyjnr-project.jpg",
+      "link": "tomhartleyjnr"
+    },
+    {
+      "name": "New Website",
+      "client": "Fourpoints",
+      "img": "fourpoints-project.jpg",
+      "link": "/work/fourpoints/"
+    }
+  ]
 }

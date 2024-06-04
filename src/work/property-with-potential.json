@@ -1,0 +1,49 @@
+{
+  "title": "Property With Potential - Modern Redesign of Landing and Results Pages",
+  "description": "This project aims to significantly improve the current website's mobile experience, accessibility, and overall performance using advanced design and coding techniques.",
+  "keywords": "HTML, CSS, TAILWIND, JS, Modern Redesign, web design",
+  "meta": {
+    "ogTitle": "Property With Potential - Modern Redesign of Landing and Results Pages",
+    "ogDesc": "This project aims to significantly improve the current website's mobile experience, accessibility, and overall performance using advanced design and coding techniques.",
+    "lang": "https://www.juanfernandes.uk/work/property-with-potential"
+  },
+  "intro": {
+    "class": "",
+    "heading": "Property With Potential",
+    "subheading": ""
+  },
+  "details": {
+    "client": "Property With Potential Ltd.",
+    "role": "Website Designer",
+    "tech": "HTML CSS TAILWIND JS",
+    "url": "https://propertytorenovate.co.uk/"
+  },
+  "project": {
+    "heading": "Modern Redesign of Landing and Results Pages",
+    "brief": "<h4>Objective:</h4> <p>To create a modern, stylish, and reusable design for the landing and results pages that can be extended to other sections of the website. This project aims to enhance user experience (UX) and performance across devices.</p> <h4>Scope of Work:</h4><ol><li><b>Design and Development:</b> <ul><li>Create a new, modern, and stylish design for the landing and results pages.</li> <li>Develop templates using standards-compliant HTML and a templating language.</li> <li>Adopt a component/modular approach for maximum code reusability.</li> <li>Utilize the Tailwind CSS framework for customizable components and future scalability.</li></ul></li><li><b>Responsiveness:</b><ul><li>Ensure templates are responsive, employing a mobile-first design strategy.</li> <li>Redesign the filters UI to enhance usability and accessibility, particularly on small screens.</li> <li>Optimize the homepage layout to boost user engagement with various website sections.</li></ul></li> <li><b>Performance and Usability:</b> <ul><li>Implement mock design modules for in-content advertising.</li> <li>Improve code quality and utilize modern coding techniques to enhance accessibility and usability.</li> <li>Focus on creating error-free, high-performance templates that ensure fast loading and responsive interactions on both mobile and larger screen devices.</li></ul></li></ol> <h4>Deliverables:</h4><ul><li>New landing and results page templates with a modern design.</li><li>Responsive design implementation with a mobile-first approach.</li><li>Enhanced filters UI for better usability and accessibility.</li><li>Reordered homepage content for increased user interaction.</li><li>Mock design modules for advertising integration.</li><li>High-performance, standards-compliant, and reusable codebase.</li></ul><p>This project aims to significantly improve the current website's mobile experience, accessibility, and overall performance using advanced design and coding techniques.</p>"
+  },
+  "testimonial": {
+    "quote": "I asked Juan to redesign Property With Potential with the intent of improving the mobile experience and increasing user engagement. However, I needed <b>more than just a designer</b> since I wanted it delivered in a templating language that was compatible with our system, and to use Tailwind CSS. Juan rose to the challenge, learning Tailwind, introducing me to Alpine JS, and continuously delivering to Netlify and GitLab. There's nothing better as a developer than to work with someone that just 'gets it'; someone who can collaborate, work independently, and deliver. The new design has <b>significantly improved our performance</b> and <b>accessibility metrics</b>, and improved our ad revenue. If you need someone to hit the ground running and work with your existing team, <b>hire him</b>.",
+    "cite": "Jon Canning",
+    "img": "/v1617039926/jon-canning.jpg",
+    "company": "Property With Potential"
+  },
+  "images": [
+    {
+      "img": "property-with-potential-homepage.png",
+      "alt": "Home page screenshot"
+    },
+    {
+      "img": "property-with-potential-about.png",
+      "alt": "About page screenshot"
+    },
+    {
+      "img": "property-with-potential-details.png",
+      "alt": "Details page with screenshot"
+    },
+    {
+      "img": "property-with-potential-details-map.png",
+      "alt": "Details page with map screenshot"
+    }
+  ]
+}

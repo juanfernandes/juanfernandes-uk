@@ -10,7 +10,18 @@
   "intro": {
     "class": "tomhartleyjnr",
     "heading": "Tom Hartley JNR",
-    "subheading": "Responsive website"
+    "subheading": ""
+  },
+  "details": {
+    "client": "Tom Hartley JNR",
+    "role": "Frontend Developer",
+    "tech": "HTML PHP CSS jQuery CMS",
+    "url": ""
+  },
+  "project": {
+    "heading": "Responsive website",
+    "brief": "<p>Tom Hartley JNR started his own business after many years of working with his dad Tom Hartley. Tom Hartley JNR had a new brand and needed a website ready for the launch of his new business.</p>",
+    "requirements": "<ul><li>Responsive design</li><li>Mobile first</li><li>Modern design</li><li>Content Management System driven</li></ul>"
   },
   "images": [
     {
