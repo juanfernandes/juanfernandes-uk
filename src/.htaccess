@@ -206,6 +206,10 @@ AddDefaultCharset utf-8
     RewriteCond %{HTTP_HOST} ^www\.juanfernandes\.uk$
     RewriteRule ^notes\/changelog\-colophon\-chnagelog\/$ "https\:\/\/www\.juanfernandes\.uk\/notes\/changelog\-colophon\-changelog\/" [R=301,L]
 
+    RewriteCond %{HTTP_HOST} ^juanfernandes\.uk$ [OR]
+    RewriteCond %{HTTP_HOST} ^www\.juanfernandes\.uk$
+    RewriteRule ^notes\/changelog\-added\-fatured\-authors\/$ "https\:\/\/www\.juanfernandes\.uk\/notes\/changelog\-added\-featured\-authors\/" [R=301,L]
+
 # ######################################################################
 # # SECURITY                                                           #
 # ######################################################################

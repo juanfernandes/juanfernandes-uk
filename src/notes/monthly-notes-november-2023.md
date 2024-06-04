@@ -13,7 +13,7 @@ date: 2024-02-07T00:00:00Z
 tags:
   - monthly-notes
   - notes
-shareLink: "https://hachyderm.io/@juanfernandes/111891534728029360"
+shareLink: ""
 ---
 <p class="lead">Lots of personal stuff happened this month and this meant I've not had any time to work on any side projects and nothing worth mentioning has happened at work, so it's a short monthly note.</p>
 

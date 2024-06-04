@@ -8,14 +8,13 @@ keywords:
   - webdesign
   - web development
   - web dev
-  - changelog
   - indieweb
 date: 2024-06-04T16:50:00Z
 edited: 
 tags:
   - notes
   - changelog
-shareLink: ""
+shareLink: "https://indieweb.social/@juanfernandes/112559255160730397"
 ---
 ## Changelog: Updated Work design and layout
 

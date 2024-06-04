@@ -16,7 +16,7 @@ edited:
 tags:
   - notes
   - changelog
-shareLink: "https://hachyderm.io/@juanfernandes/112275963591477793"
+shareLink: ""
 ---
 ## Changelog: Updated Links page
 

@@ -13,7 +13,7 @@ date: 2023-10-22T00:00:00Z
 tags:
   - monthly-notes
   - notes
-shareLink: "https://hachyderm.io/@juanfernandes/111279423051494861"
+shareLink: ""
 ---
 <p class="lead">Not a busy month, but wish it was less stressful. Managed to work on my personal website, which was a good a distraction.</p>
 

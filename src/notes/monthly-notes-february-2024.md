@@ -13,7 +13,7 @@ date: 2024-05-14T17:00:00Z
 tags:
   - monthly-notes
   - notes
-shareLink: "https://hachyderm.io/@juanfernandes/112440680207368802"
+shareLink: ""
 ---
 <p class="lead">Celebrated my one-year anniversary with my girlfriend, my eldest visiting sixth form college, and the house was relisted for sale with new estate agents.</p>
 
