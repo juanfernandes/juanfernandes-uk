@@ -1,0 +1,8 @@
+                  <div class="project__meta">
+                    <span class="project__meta--client"><strong>Client:</strong> {{ details.client }}</span>
+                    <span class="project__meta--role"><strong>Role:</strong> {{ details.role }}</span>
+                    <span class="project__meta--skills"><strong>Tech:</strong> {{ details.tech }}</span>
+                    {% if details.url %}
+                    <span class="project__meta--link"><strong>Link:</strong> <a href="{{ details.url }}">View website</a></span>
+                    {% endif %}
+                  </div>

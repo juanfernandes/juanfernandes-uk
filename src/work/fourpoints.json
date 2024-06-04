@@ -10,7 +10,18 @@
   "intro": {
     "class": "fourpoints",
     "heading": "Four Points",
-    "subheading": "Website Refresh"
+    "subheading": ""
+  },
+  "details": {
+    "client": "Fourpoints Ltd.",
+    "role": "Frontend Developer",
+    "tech": "HTML PHP CSS jQuery Perch CMS",
+    "url": ""
+  },
+  "project": {
+    "heading": "Website Refresh",
+    "brief": "<p>Four Points asked me to make their existing website responsive, as well moving it from Joomla to Perch CMS.</p>",
+    "requirements": "<ul><li>Move existing site to new CMS</li><li>Make the site responsive</li><li>Blog</li><li>Site wide content changes</li><li>New pages added</li><li>New Case Studies section</li><li>Breadcrumb trail</li><li>Social Media Icons</li><li>Social Sharing</li><li>Sub-Navigation added</li><li>Resources section with user registration &amp; download tracking</li></ul>"
   },
   "images": [
     {

@@ -9,8 +9,19 @@
   },
   "intro": {
     "class": "mclaren",
-    "heading": "McLaren Interest",
-    "subheading": "Responsive Forms"
+    "heading": "McLaren",
+    "subheading": ""
+  },
+  "details": {
+    "client": "McLaren Automotive",
+    "role": "Frontend Developer",
+    "tech": "HTML PHP CSS jQuery JSON",
+    "url": ""
+  },
+  "project": {
+    "heading": "Interest Responsive Forms",
+    "brief": "<p>McLaren required a set of responsive forms used to gather interest from fans and perspective clients when ever they release a new vehicle.</p>",
+    "requirements": "<ul><li>Responsive and mobile first</li><li>Followed existing style guide</li><li>Capture information from fans and perspective clients</li><li>Cookie notification, with built in reset when the policy is updated</li><li>Show all dealers for the users country of residence, show all dealers if that country does not have any dealers</li><li>Allow for the forms to be translated</li><li>Allow the user to add/remove up-to three currently owned vehicles</li><li>Ability to show all models for a chosen make and all model variants</li><li>Browser detection with an out of date browser message</li></ul>"
   },
   "images": [
     {

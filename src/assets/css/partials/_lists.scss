@@ -14,7 +14,6 @@ ol {
 
 ol {
   list-style: decimal;
-  margin-left: 1.875em;
 }
 
 ul.square,
@@ -39,14 +38,12 @@ ul {
 
 ul ul,
 ul ol {
-  font-size: 90%;
-  margin: 0.25em 0 0.3125em 1.875em;
+  margin: 0.25em 0.3125em;
 }
 
 ol ol,
 ol ul {
-  font-size: 90%;
-  margin: 0.25em 0 0.3125em 1.875em;
+  margin: 0.25em 0.3125em;
 }
 
 ul ul li,

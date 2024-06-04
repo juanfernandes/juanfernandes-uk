@@ -2,7 +2,7 @@
    Base styles
    ========================================================================== */
 html {
-  background: var(--white);
+  background-color: var(--orange);
   color: var(--off-black);
   font: 62.5%/1.5 sans-serif;
   margin: 0;
@@ -274,94 +274,4 @@ p {
 }
 .cf:after {
   clear: both;
-}
-
-/* ==========================================================================
-   Utility Classes
-   ========================================================================== */
-
-.u-block {
-  display: block;
-}
-.u-flex {
-  display: flex;
-}
-.u-flex--inline {
-  display: inline-flex;
-}
-.u-grid {
-  display: grid;
-}
-.u-gap-1 {
-  gap: 1rem;
-}
-.u-flex-col {
-  flex-direction: column;
-}
-.u-flex-row {
-  flex-direction: row;
-}
-.u-inline {
-  display: inline;
-}
-.u-inline-block {
-  display: inline-block;
-}
-.u-center {
-  display: flex;
-  justify-content: center;
-
-    > * {
-      align-items: center;
-    }
-}
-.u-vert-center {
-  align-items: center;
-}
-
-.u-border-none {
-  border-width: 0;
-}
-
-.u-auto-width {
-  width: auto;
-}
-.u-mb-0 {
-  margin-bottom: 0 !important;
-}
-.u-mb-1 {
-  margin-bottom: 1rem;
-}
-.u-mb-2 {
-  margin-bottom: 2rem;
-}
-.u-mt-1 {
-  margin-top: 1rem;
-}
-.u-mt-2 {
-  margin-top: 2rem;
-}
-.u-mt-3 {
-  margin-top: 3rem;
-}
-
-.u-mr-1 {
-  margin-right: 1rem;
-}
-
-.u-pb-0 {
-  padding-bottom: 0 !important;
-}
-.u-pb-1 {
-  padding-bottom: 2rem;
-}
-.u-p-6 {
-  padding: 6px;
-}
-.u-pt-0 {
-  padding-top: 0 !important;
-}
-
-.rotate-180 {
-  transform: rotate(180deg);
 }

@@ -1,56 +1,31 @@
+---
+nav:
+  next: tomhartleyjnr
+  previous: mclaren
+---
 {% extends 'layouts/base.njk' %}
 
 {% block main %}
         <section class="project">
           <div class="container">
             <div class="content" id="content">
-              <h2 class="project__heading">Land Rover Approved Used Vehicle Search</h2>
+              <h2 class="project__heading">{{ project.heading }}</h2>
 
-              <nav class="nav--portfolio" role="navigation">
-                <ul class="nav--portfolio__all">
-                  <li>
-                    <a href="/work/" title="All Projects">
-                      <svg aria-hidden="true"><use xlink:href="#svg-dash" /></svg>
-                    </a>
-                  </li>
-                </ul>
-                <ul class="nav--portfolio__controls">
-                  <li class="nav--portfolio__prev">
-                    <a href="/work/mclaren/" title="Previous Project">
-                      <svg aria-hidden="true"><use xlink:href="#svg-prev-arrow" /></svg>
-                    </a>
-                  </li>
-                  <li class="nav--portfolio__next">
-                    <a href="/work/tomhartleyjnr/" title="Next Project">
-                      <svg aria-hidden="true"><use xlink:href="#svg-nxt-arrow" /></svg>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+              {% include 'components/work-nav.njk' %}
 
               <div class="row">
                 <div class="ten cols">
-                  {% include 'components/project-slider.njk' %}
+                  {% include 'components/work-images.njk' %}
                 </div>
                 <div class="six cols / aside">
-                  <h3 class="project__sub-heading">Project Details</h3>
-                  <div class="project__meta">
-                    <span class="project__meta--client"><strong>Client:</strong> Land Rover</span>
-                    <span class="project__meta--role"><strong>Role:</strong> Frontend Developer</span>
-                    <span class="project__meta--skills"><strong>Tech:</strong> HTML PHP CSS jQuery</span>
-                  </div>
+                  <h3 class="project__sub-heading">Details</h3>
+                  {% include 'components/work-meta.njk' %}
 
-                  <h3 class="project__sub-heading">Project Brief</h3>
-                  <p>To build Land Rovers first approved used vehicles website for over 1000 dealers worldwide.</p>
-                  <p>Requirements:</p>
-                  <ul>
-                    <li>Desktop and tablet</li>
-                    <li>Landing page with vehicle and model selection</li>
-                    <li>Advanced search filter</li>
-                    <li>Vehicle information</li>
-                    <li>Vehicle List - listing all vehicles for sale in list or grid layout</li>
-                    <li>Vehicle details page with dealer information</li>
-                  </ul>
+                  <h3 class="project__sub-heading">Brief</h3>
+                  {{ project.brief | safe }}
+
+                  <h3 class="project__sub-heading">Requirements</h3>
+                  {{ project.requirements | safe }}
                 </div>
               </div>
             </div>

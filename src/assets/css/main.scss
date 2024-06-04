@@ -170,6 +170,7 @@ $module: 'social-icons';
     Header
 */
 .page__header {
+  background-color: var(--white);
   height: 55px;
   position: relative;
   z-index: 2;
@@ -703,82 +704,72 @@ footer > .container > .sixteen {
   }
 }
 
-.work figure {
-  background: #3085A3;
-  border: 1px solid var(--orange);
-  cursor: pointer;
-  float: left;
-  height: 180px;
-  margin: 0 0 24px 0;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-@media only screen and (min-width: 28.750em) { // 460
-  .work figure {
-    height: 200px;
-  }
-}
-
-@media only screen and (min-width: 32.500em) { // 520
-  .work figure {
-    height: 320px;
-  }
-}
-
-@media only screen and (min-width: 40em) { // 640
-  .work figure {
+.work {
+  figure {
+    background: #3085A3;
+    border: 1px solid var(--orange);
+    cursor: pointer;
+    float: left;
     height: 180px;
-    margin: 0;
+    margin: 0 0 24px 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+
+    @media only screen and (min-width: 28.750em) { // 460
+      height: 200px;
+    }
+
+    @media only screen and (min-width: 32.500em) { // 520
+      height: 320px;
+    }
+
+    @media only screen and (min-width: 40em) { // 640
+      height: 180px;
+      margin: 0;
+    }
+
+    @media only screen and (min-width: 52.500em) { // 840
+      height: 220px;
+    }
+
+    @media only screen and (min-width: 64em) { // 1024
+      height: 280px;
+    }
+
+    @media only screen and (min-width: 68.750em) { // 1100
+      height: 300px;
+    }
+
+    @media only screen and (min-width: 87.500em) { // 1400
+      height: 360px;
+    }
+
+    img {
+      display: block;
+      margin-bottom: 0;
+      max-width: 100%;
+      min-height: 100%;
+      opacity: .8;
+      position: relative;
+    }
+
+    figcaption {
+      backface-visibility: hidden;
+      color: var(--white);
+      margin-bottom: 0;
+      padding: 2em;
+      text-transform: uppercase;
+
+      &::before,
+      &::after {
+        pointer-events: none;
+      }
+    }
   }
 }
 
-@media only screen and (min-width: 52.500em) { // 840
-  .work figure {
-    height: 220px;
-  }
-}
-
-@media only screen and (min-width: 64em) { // 1024
-  .work figure {
-    height: 280px;
-  }
-}
-
-@media only screen and (min-width: 68.750em) { // 1100
-  .work figure {
-    height: 300px;
-  }
-}
-
-@media only screen and (min-width: 87.500em) { // 1400
-  .work figure {
-    height: 360px;
-  }
-}
-
-.work figure img {
-  position: relative;
-  display: block;
-  min-height: 100%;
-  max-width: 100%;
-  opacity: .8;
-}
-
-.work figure figcaption {
-  padding: 2em;
-  color: var(--white);
-  text-transform: uppercase;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.work figure figcaption::before,
-.work figure figcaption::after {
-  pointer-events: none;
-}
 
 .work figure figcaption,
 .work figure figcaption > a {
@@ -815,14 +806,12 @@ figure.effect {
 
 figure.effect img,
 figure.effect p {
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-          transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect:hover img {
   opacity: 0.1;
-  -webkit-transform: scale3d(2,2,1);
-          transform: scale3d(2,2,1);
+  transform: scale3d(2,2,1);
 }
 
 figure.effect p {
@@ -832,13 +821,11 @@ figure.effect p {
   left: 0;
   margin: 20px;
   opacity: 0;
-  padding: 30px;
+  padding: 10px;
   position: absolute;
   text-transform: none;
-  -webkit-transform: scale3d(0.8,0.8,1);
-          transform: scale3d(0.8,0.8,1);
-  -webkit-transform-origin: 50% -100%;
-          transform-origin: 50% -100%;
+  transform: scale3d(0.8,0.8,1);
+  transform-origin: 50% -100%;
 }
 
 figure.effect:hover p {
@@ -892,12 +879,33 @@ figure.effect:hover p {
   }
 
   &__sub-heading {
-    border-bottom: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid var(--orange);
     margin-top: 0;
+    margin-bottom: 2rem;
+
+    &--full {
+      display: inline-block;
+      margin-bottom: 4rem;
+    }
   }
 
   &__images img {
     border: 1px solid var(--orange);
+  }
+
+  &__images img:not(:last-of-type) {
+    margin-bottom: 4rem;
+  }
+
+  &__meta {
+    color: var(--black);
+    font-size: 1.6rem;
+    margin-bottom: 24px;
+
+    & > * {
+      display: block;
+      margin-bottom: 1rem;
+    }
   }
 
   @media only screen and (min-width: 40em) { // 640
@@ -907,20 +915,6 @@ figure.effect:hover p {
     }
   }
 }
-
-
-.project__meta {
-  color: var(--dark-grey);
-  font-size: 12px;
-  font-size: 1.2rem;
-  margin-bottom: 24px;
-
-  &--client,
-  &--role {
-    display: block;
-  }
-}
-
 
 .nav--portfolio {
   margin-bottom: 24px;
@@ -954,7 +948,7 @@ figure.effect:hover p {
   }
 
   svg {
-    fill: #4691f6;
+    fill: var(--orange);
     height: 32px;
     width: 32px;
   }
@@ -966,7 +960,7 @@ figure.effect:hover p {
 .nav--portfolio .nav--portfolio__all:focus svg,
 .nav--portfolio .nav--portfolio__prev:focus svg,
 .nav--portfolio .nav--portfolio__next:focus svg, {
-  fill: var(--orange);
+  fill: var(--black);
   transition: fill .25s cubic-bezier(.25, .46, .45, .94) 0s;
 }
 
@@ -1335,14 +1329,6 @@ figure.effect:hover p {
     .b-text {
       display: table-cell;
       padding: 0;
-    }
-  }
-}
-
-.no-js {
-  .project {
-    img {
-      margin-bottom: 24px;
     }
   }
 }

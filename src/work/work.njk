@@ -4,46 +4,18 @@
         <section class="work">
           <div class="content" id="content">
             <h2 class="content__heading">Work I've Done</h2>
-            <div class="row">
-              <div class="eight cols">
+            <div class="grid-6-6">
+              {% for item in works %}
+              <div>
                 <figure class="effect">
-                  <img src="{{ site.cloudinary_url }}f_auto/work/projects/mclaren-project.jpg" alt="McLaren" loading="lazy" width="586" height="387">
+                  <img src="{{ site.cloudinary_url }}f_auto/work/projects/{{ item.img }}" alt="{{ item.client }}" loading="lazy" width="586" height="387">
                   <figcaption>
-                    <p>Interest McLaren Responsive forms</p>
-                    <a href="/work/mclaren/">View more</a>
+                    <p>{{ item.name }}</p>
+                    <a href="{{ item.link }}">View more</a>
                   </figcaption>
                 </figure>
               </div>
-              <div class="eight cols">
-                <figure class="effect">
-                  <img src="{{ site.cloudinary_url }}f_auto/work/projects/landrover-project.jpg" alt="Land Rover" loading="lazy" width="586" height="341">
-                  <figcaption>
-                    <p>Land Rover Used Vehicle Search</p>
-                    <a href="/work/landrover/">View more</a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
-            <div class="row">
-              <div class="eight cols">
-                <figure class="effect">
-                  <img src="{{ site.cloudinary_url }}f_auto/work/projects/tomhartleyjnr-project.jpg" alt="Tom Hartley JNR" loading="lazy" width="586" height="387">
-                  <figcaption>
-                    <p>Tom Hartley JNR Responsive website</p>
-                    <a href="/work/tomhartleyjnr/">View more</a>
-                  </figcaption>
-                </figure>
-              </div>
-              <div class="eight cols">
-                <figure class="effect">
-                  <img src="{{ site.cloudinary_url }}f_auto/work/projects/fourpoints-project.jpg" alt="Four Points" loading="lazy" width="586" height="178">
-                  <figcaption>
-                    <p>Fourpoints</p>
-                    <a href="/work/fourpoints/">View more</a>
-                  </figcaption>
-                </figure>
-              </div>
-            </div>
+              {% endfor %}
           </div>
         </section>
 
@@ -57,7 +29,7 @@
                   <img class="client__logo" src="{{ site.cloudinary_url }}f_auto/work/clients/{{ item.img }}" alt="{{ item.alt }}" loading="lazy" width="490" height="340">
                 </div>
               {% endfor %}
-              </div><!-- /.clients -->
+              </div>
             </div>
           </div>
         </section>

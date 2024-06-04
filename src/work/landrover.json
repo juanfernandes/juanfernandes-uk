@@ -10,7 +10,18 @@
   "intro": {
     "class": "landrover",
     "heading": "Land Rover",
-    "subheading": "Approved Used Vehicle Search"
+    "subheading": ""
+  },
+  "details": {
+    "client": "Land Rover",
+    "role": "Frontend Developer",
+    "tech": "HTML PHP CSS jQuery",
+    "url": ""
+  },
+  "project": {
+    "heading": "Approved Used Vehicle Search",
+    "brief": "<p>To build Land Rovers first approved used vehicles website for over 1000 dealers worldwide.</p>",
+    "requirements": "<ul><li>Desktop and tablet</li><li>Landing page with vehicle and model selection</li><li>Advanced search filter</li><li>Vehicle information</li><li>Vehicle List - listing all vehicles for sale in list or grid layout</li><li>Vehicle details page with dealer information</li></ul>"
   },
   "images": [
     {

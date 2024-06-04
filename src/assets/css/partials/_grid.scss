@@ -162,11 +162,34 @@
   }
 }
 
-.grid-2-col {
+.grid-8-4 {
+  display: grid;
+
+  @media only screen and (min-width: 40em) {/* 640 */
+    grid-template-columns: 8fr 4fr;
+  }
+}
+.grid-6-6 {
   display: grid;
   gap: 4rem;
 
   @media only screen and (min-width: 40em) {/* 640 */
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 6fr 6fr;
   }
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-3 {
+  gap: 3rem;
+}
+
+.gap-4 {
+  gap: 4rem;
 }
