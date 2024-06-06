@@ -14,6 +14,12 @@
   },
   "works": [
     {
+      "name": "Redesign of Surbiton Tyre & Wheel Website",
+      "client": "Surbiton Tyre & Wheel",
+      "img": "surbiton-tyre-wheel-project.jpg",
+      "link": "/work/surbiton-tyre-wheel/"
+    },
+    {
       "name": "Modern Redesign",
       "client": "Property With Potential",
       "img": "property-with-potential-project.jpg",

@@ -93,8 +93,8 @@
       "url": "/about/"
     },
     {
-      "label": "Blog",
-      "url": "/blog/"
+      "label": "Work",
+      "url": "/work/"
     },
     {
       "label": "Juan Fernandes - Freelance Website Designer",
@@ -102,12 +102,12 @@
       "url": "/"
     },
     {
-      "label": "Notes",
-      "url": "/notes/"
+      "label": "Blog",
+      "url": "/blog/"
     },
     {
-      "label": "Contact",
-      "url": "/contact/"
+      "label": "Notes",
+      "url": "/notes/"
     }
   ],
   "footerlinks": [
