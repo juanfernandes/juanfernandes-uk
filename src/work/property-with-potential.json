@@ -30,19 +30,19 @@
   },
   "images": [
     {
-      "img": "property-with-potential-homepage.png",
+      "img": "property-with-potential-homepage",
       "alt": "Home page screenshot"
     },
     {
-      "img": "property-with-potential-about.png",
+      "img": "property-with-potential-about",
       "alt": "About page screenshot"
     },
     {
-      "img": "property-with-potential-details.png",
+      "img": "property-with-potential-details",
       "alt": "Details page with screenshot"
     },
     {
-      "img": "property-with-potential-details-map.png",
+      "img": "property-with-potential-details-map",
       "alt": "Details page with map screenshot"
     }
   ]

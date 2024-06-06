@@ -169,6 +169,18 @@
     grid-template-columns: 8fr 4fr;
   }
 }
+.grid-4-col {
+  display: grid;
+
+  @media only screen and (min-width: 40em) {/* 640 */
+    grid-template-columns: 8fr 8fr;
+  }
+
+  @media only screen and (min-width: 60em) { // 960
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+  }
+}
+
 .grid-6-6 {
   display: grid;
   gap: 4rem;
@@ -192,4 +204,12 @@
 
 .gap-4 {
   gap: 4rem;
+}
+
+.gap-5 {
+  gap: 5rem;
+}
+
+.gap-6 {
+  gap: 6rem;
 }

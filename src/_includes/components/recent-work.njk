@@ -1,47 +1,16 @@
         <section class="recent-work">
           <div class="content">
             <h2 class="alpha / content__heading">Recent Work</h2>
-            <div class="row">
-              <div class="cols four">
-                <div class="project">
-                  <a href="work/property-with-potential/">
-                    <img class="project__img" src="{{ site.cloudinary_url }}f_auto/work/projects/property-with-potential-project.jpg" alt="Property With Potential screenshot" loading="lazy" width="200" height="200">
-                    <div class="project__content-wrapper">
-                      <h3 class="project__heading">Property With Potential</h3>
-                    </div>
-                  </a>
-                </div>
+            <div class="grid-4-col / projects-wrapper">
+              {% for item in recentWork %}
+              <div class="project">
+                <a href="work/{{ item.link }}/">
+                  <span class="project__effect"></span>
+                  <img class="project__img" src="{{ site.cloudinary_url }}f_auto,w_200,h_200/work/projects/{{ item.img }}.jpg" alt="{{ item.name }}" width="200" height="200">
+                  <h3 class="project__heading">{{ item.name }}</h3>
+                </a>
               </div>
-              <div class="cols four">
-                <div class="project">
-                  <a href="/work/mclaren/">
-                    <img class="project__img" src="{{ site.cloudinary_url }}f_auto/work/projects/mclaren-project-recent.jpg" alt="McLaren P1 car on the road with mountains in the background" loading="lazy" width="200" height="200">
-                    <div class="project__content-wrapper">
-                      <h3 class="project__heading">McLaren Automotive</h3>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="cols four">
-                <div class="project">
-                  <a href="/work/landrover/">
-                    <img class="project__img" src="{{ site.cloudinary_url }}f_auto/work/projects/landrover-project-recent.jpg" alt="Land Rover Freelander 90 going down a steep hill" loading="lazy" width="200" height="200">
-                    <div class="project__content-wrapper">
-                      <h3 class="project__heading">Land Rover Used Vehicles</h3>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="cols four">
-                <div class="project">
-                  <a href="/work/tomhartleyjnr/">
-                    <img class="project__img" src="{{ site.cloudinary_url }}f_auto/work/projects/tomhartleyjnr-project-recent.jpg" alt="Close up of a 1958 Ferrari 250 TR" loading="lazy" width="200" height="200">
-                    <div class="project__content-wrapper">
-                      <h3 class="project__heading">Tom Hartley JNR</h3>
-                    </div>
-                  </a>
-                </div>
-              </div>
+              {% endfor %}
             </div>
           </div>
         </section>

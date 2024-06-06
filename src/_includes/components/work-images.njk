@@ -1,5 +1,5 @@
                   <div class="project__images">
                     {% for item in images %}
-                    <img src="{{ site.cloudinary_url }}f_auto/work/projects/{{ item.img }}" loading="lazy" alt="{{ item.alt }}">
+                    <img src="{{ site.cloudinary_url }}f_auto,w_1200/work/projects/{{ item.img }}" loading="lazy" width="1200" alt="{{ item.alt }}">
                     {% endfor %}
                    </div>

@@ -1,0 +1,37 @@
+{
+  "title": "",
+  "description": "",
+  "keywords": "",
+  "meta": {
+    "ogTitle": "",
+    "ogDesc": "",
+    "lang": "https://www.juanfernandes.uk/work/"
+  },
+  "intro": {
+    "class": "",
+    "heading": "",
+    "subheading": ""
+  },
+  "details": {
+    "client": "",
+    "role": "",
+    "tech": "",
+    "url": ""
+  },
+  "project": {
+    "heading": "",
+    "brief": "<h4>Objective:</h4> <h4>Scope of Work:</h4><h4>Deliverables:</h4>"
+  },
+  "testimonial": {
+    "quote": "",
+    "cite": "",
+    "img": "",
+    "company": ""
+  },
+  "images": [
+    {
+      "img": "",
+      "alt": ""
+    }
+  ]
+}

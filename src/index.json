@@ -16,6 +16,28 @@
       "text": "View my work"
     }
   },
+  "recentWork": [
+    {
+      "link": "surbiton-tyre-wheel",
+      "img": "surbiton-tyre-wheel-project",
+      "name": "Surbiton Tyre and Wheel"
+    },
+    {
+      "link": "property-with-potential",
+      "img": "property-with-potential-project",
+      "name": "Property With Potential"
+    },
+    {
+      "link": "mclaren",
+      "img": "mclaren-project-recent",
+      "name": "McLaren Automotive"
+    },
+    {
+      "link": "landrover",
+      "img": "landrover-project-recent",
+      "name": "Land Rover Used Vehicles"
+    }
+  ],
   "businesses": {
     "title": "Who I've worked with"
   }
