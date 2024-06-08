@@ -28,14 +28,14 @@
       "name": "Property With Potential"
     },
     {
+      "link": "lusso-prestige",
+      "img": "lusso-prestige-recent",
+      "name": "Lusso Prestige"
+    },
+    {
       "link": "mclaren",
       "img": "mclaren-project-recent",
       "name": "McLaren Automotive"
-    },
-    {
-      "link": "landrover",
-      "img": "landrover-project-recent",
-      "name": "Land Rover Used Vehicles"
     }
   ],
   "businesses": {

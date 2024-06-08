@@ -8,9 +8,9 @@
               {% for item in works %}
               <div>
                 <figure class="effect">
-                  <img src="{{ site.cloudinary_url }}f_auto/work/projects/{{ item.img }}" alt="{{ item.client }}" loading="lazy" width="586" height="387">
+                  <img src="{{ site.cloudinary_url }}f_auto/work/projects/{{ item.img }}" alt="{{ item.client }}" loading="lazy" width="586" height="384">
                   <figcaption>
-                    <p>{{ item.name }}</p>
+                    <span>{{ item.name }}</span>
                     <a href="{{ item.link }}">View more</a>
                   </figcaption>
                 </figure>

@@ -655,17 +655,6 @@ footer > .container > .sixteen {
   .content__heading {
     margin-bottom: 40px;
   }
-
-  .row {
-    margin-bottom: 0;
-  }
-
-  .cols {
-    margin-bottom: 0;
-    @media only screen and (min-width: 40em) { // 640
-      margin-bottom: 2%;
-    }
-  }
 }
 
 .work {
@@ -731,71 +720,58 @@ footer > .container > .sixteen {
         pointer-events: none;
       }
     }
+
+    figcaption,
+    figcaption > a {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    figcaption > a {
+      font-size: 0;
+      opacity: 0;
+      text-indent: 200%;
+      white-space: nowrap;
+      z-index: 1000;
+    }
+
+    &.effect {
+      background-color: var(--orange);
+      background-image: linear-gradient(602deg, rgba(195, 195, 195, 0.02) 0%, rgba(195, 195, 195, 0.02) 16.667%,rgba(91, 91, 91, 0.02) 16.667%, rgba(91, 91, 91, 0.02) 33.334%,rgba(230, 230, 230, 0.02) 33.334%, rgba(230, 230, 230, 0.02) 50.001000000000005%,rgba(18, 18, 18, 0.02) 50.001%, rgba(18, 18, 18, 0.02) 66.668%,rgba(163, 163, 163, 0.02) 66.668%, rgba(163, 163, 163, 0.02) 83.33500000000001%,rgba(140, 140, 140, 0.02) 83.335%, rgba(140, 140, 140, 0.02) 100.002%),linear-gradient(512deg, rgba(151, 151, 151, 0.02) 0%, rgba(151, 151, 151, 0.02) 16.667%,rgba(11, 11, 11, 0.02) 16.667%, rgba(11, 11, 11, 0.02) 33.334%,rgba(162, 162, 162, 0.02) 33.334%, rgba(162, 162, 162, 0.02) 50.001000000000005%,rgba(171, 171, 171, 0.02) 50.001%, rgba(171, 171, 171, 0.02) 66.668%,rgba(119, 119, 119, 0.02) 66.668%, rgba(119, 119, 119, 0.02) 83.33500000000001%,rgba(106, 106, 106, 0.02) 83.335%, rgba(106, 106, 106, 0.02) 100.002%),linear-gradient(371deg, rgba(245, 245, 245, 0.01) 0%, rgba(245, 245, 245, 0.01) 16.667%,rgba(23, 23, 23, 0.01) 16.667%, rgba(23, 23, 23, 0.01) 33.334%,rgba(96, 96, 96, 0.01) 33.334%, rgba(96, 96, 96, 0.01) 50.001000000000005%,rgba(140, 140, 140, 0.01) 50.001%, rgba(140, 140, 140, 0.01) 66.668%,rgba(120, 120, 120, 0.01) 66.668%, rgba(120, 120, 120, 0.01) 83.33500000000001%,rgba(48, 48, 48, 0.01) 83.335%, rgba(48, 48, 48, 0.01) 100.002%),linear-gradient(387deg, rgba(106, 106, 106, 0.03) 0%, rgba(106, 106, 106, 0.03) 14.286%,rgba(203, 203, 203, 0.03) 14.286%, rgba(203, 203, 203, 0.03) 28.572%,rgba(54, 54, 54, 0.03) 28.572%, rgba(54, 54, 54, 0.03) 42.858%,rgba(75, 75, 75, 0.03) 42.858%, rgba(75, 75, 75, 0.03) 57.144%,rgba(216, 216, 216, 0.03) 57.144%, rgba(216, 216, 216, 0.03) 71.42999999999999%,rgba(39, 39, 39, 0.03) 71.43%, rgba(39, 39, 39, 0.03) 85.71600000000001%,rgba(246, 246, 246, 0.03) 85.716%, rgba(246, 246, 246, 0.03) 100.002%),linear-gradient(677deg, rgba(215, 215, 215, 0.01) 0%, rgba(215, 215, 215, 0.01) 16.667%,rgba(72, 72, 72, 0.01) 16.667%, rgba(72, 72, 72, 0.01) 33.334%,rgba(253, 253, 253, 0.01) 33.334%, rgba(253, 253, 253, 0.01) 50.001000000000005%,rgba(4, 4, 4, 0.01) 50.001%, rgba(4, 4, 4, 0.01) 66.668%,rgba(183, 183, 183, 0.01) 66.668%, rgba(183, 183, 183, 0.01) 83.33500000000001%,rgba(17, 17, 17, 0.01) 83.335%, rgba(17, 17, 17, 0.01) 100.002%),linear-gradient(488deg, rgba(119, 119, 119, 0.03) 0%, rgba(119, 119, 119, 0.03) 12.5%,rgba(91, 91, 91, 0.03) 12.5%, rgba(91, 91, 91, 0.03) 25%,rgba(45, 45, 45, 0.03) 25%, rgba(45, 45, 45, 0.03) 37.5%,rgba(182, 182, 182, 0.03) 37.5%, rgba(182, 182, 182, 0.03) 50%,rgba(243, 243, 243, 0.03) 50%, rgba(243, 243, 243, 0.03) 62.5%,rgba(162, 162, 162, 0.03) 62.5%, rgba(162, 162, 162, 0.03) 75%,rgba(190, 190, 190, 0.03) 75%, rgba(190, 190, 190, 0.03) 87.5%,rgba(148, 148, 148, 0.03) 87.5%, rgba(148, 148, 148, 0.03) 100%),linear-gradient(450deg, rgb(249,163,57),rgb(248,152,32));
+
+      img,
+      span {
+        transition: opacity 0.35s, transform 0.35s;
+      }
+
+      &:hover img {
+        opacity: 0.1;
+        transform: scale3d(2,2,1);
+      }
+
+      span {
+        background-color: var(--black);
+        border: 2px solid var(--black);
+        bottom: 0;
+        left: 0;
+        margin: 20px;
+        opacity: 0;
+        padding: 10px;
+        position: absolute;
+        text-transform: none;
+        transform-origin: 50% -100%;
+        transform: scale3d(0.8,0.8,1);
+      }
+
+      &:hover span {
+        opacity: 1;
+        transform: scale3d(1,1,1);
+      }
+    }
   }
-}
-
-
-.work figure figcaption,
-.work figure figcaption > a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-.work figure figcaption > a {
-  z-index: 1000;
-  text-indent: 200%;
-  white-space: nowrap;
-  font-size: 0;
-  opacity: 0;
-}
-
-.work figure p {
-  margin: 0;
-}
-
-.work figure p {
-  letter-spacing: 1px;
-  font-size: 68.5%;
-}
-
-figure.effect {
-  background: -webkit-linear-gradient(-45deg, #34495E 0%,var(--orange) 100%);
-  background: linear-gradient(-45deg, #34495E 0%,var(--orange) 100%);
-}
-
-figure.effect img,
-figure.effect p {
-  transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect:hover img {
-  opacity: 0.1;
-  transform: scale3d(2,2,1);
-}
-
-figure.effect p {
-  border: 2px solid var(--white);
-  bottom: 0;
-  font-size: 90%;
-  left: 0;
-  margin: 20px;
-  opacity: 0;
-  padding: 10px;
-  position: absolute;
-  text-transform: none;
-  transform: scale3d(0.8,0.8,1);
-  transform-origin: 50% -100%;
-}
-
-figure.effect:hover p {
-  opacity: 1;
-  -webkit-transform: scale3d(1,1,1);
-  transform: scale3d(1,1,1);
 }
 
 @supports (display: grid) {

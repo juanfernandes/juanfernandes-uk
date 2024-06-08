@@ -1,7 +1,7 @@
 ---
 nav:
-  next: lusso-prestige
-  previous: surbiton-tyre-wheel
+  next: mclaren
+  previous: property-with-potential
 ---
 
 {% extends 'layouts/base.njk' %}
@@ -25,11 +25,15 @@ nav:
                 </div>
               </div>
 
+            {% if images %}
               <h3 class="project__sub-heading project__sub-heading--full">Result</h3>
               {% include 'components/work-images.njk' %}
+            {% endif %}
 
+            {% if testimonial %}
               <h3 class="project__sub-heading project__sub-heading--full u-mt-4">Testimonial</h3>
               {% include 'components/work-testimonial.njk' %}
+            {% endif %}
 
             </div>
           </div>
