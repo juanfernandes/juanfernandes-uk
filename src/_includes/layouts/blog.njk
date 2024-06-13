@@ -19,7 +19,6 @@
     <meta name="twitter:image" property="og:image" content="{{ site.meta.ogImg }}" />
     <meta name="twitter:image:alt" property="og:image:alt" content="{{ site.meta.ogImgAlt }}" />
     {% endif %}
-    <meta name="monetization" content="$ilp.uphold.com/JgXZWm3wZ6KM">
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta http-equiv="cleartype" content="on">
@@ -32,19 +31,19 @@
     <link rel="dns-prefetch" href="https://res.cloudinary.com">
     <meta name="generator" content="{{ site.generator }}">
 
-    {# Webmentions #}
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="webmention" href="https://webmention.io/www.juanfernandes.uk/webmention" />
     <link rel="pingback" href="https://webmention.io/www.juanfernandes.uk/xmlrpc" />
 
-    <link rel="icon" href="/favicon.ico"><!-- 32×32 -->
-    <link rel="icon" href="/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="icon" href="{{ cloudinary_url }}/favicon.ico">
+    <link rel="icon" href="{{ cloudinary_url }}/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="{{ cloudinary_url }}/apple-touch-icon.png">
     <meta name="theme-color" content="#F89820">
 
     <link rel="manifest" href="/site.webmanifest" crossorigin="use-credentials">
-
-    <link href="https://micro.blog/juanfernandes" rel="me" />
+    {% for item in site.socials %}
+    <link href="{{ item.url }}" rel="me" />
+    {% endfor %}
     <link rel="stylesheet" href="/assets/css/global.min.css">
   </head>
 

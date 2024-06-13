@@ -6,7 +6,7 @@
               <div class="project">
                 <a href="work/{{ item.link }}/">
                   <span class="project__effect"></span>
-                  <img class="project__img" src="{{ site.cloudinary_url }}f_auto,w_200,h_200/work/projects/{{ item.img }}.jpg" alt="{{ item.name }}" width="200" height="200">
+                  <img class="project__img" src="{{ site.cloudinary_url }}f_auto,w_200,h_200/work/projects/{{ item.img }}.jpg" alt="{{ item.name }}" width="200" height="200" loading="lazy">
                   <h3 class="project__heading">{{ item.name }}</h3>
                 </a>
               </div>
