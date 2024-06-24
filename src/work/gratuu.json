@@ -1,0 +1,43 @@
+{
+  "title": "Gratuu - Website Design and Development",
+  "description": "This project aims to deliver a modern, user-friendly website that effectively showcases the client's product and information while providing easy content management and flexibility.",
+  "keywords": "HTML, CSS, TAILWIND, JS, Modern Redesign, web design, web development, responsive, website",
+  "meta": {
+    "ogTitle": "Gratuu - Website Design and Development",
+    "ogDesc": "This project aims to deliver a modern, user-friendly website that effectively showcases the client's product and information while providing easy content management and flexibility.",
+    "lang": "https://www.juanfernandes.uk/work/gratuu/"
+  },
+  "intro": {
+    "class": "",
+    "heading": "Gratuu",
+    "subheading": ""
+  },
+  "details": {
+    "client": "Gratuu Ltd",
+    "role": "Website Designer",
+    "tech": "HTML 11TY CSS TAILWIND JS CLOUDINARY",
+    "url": "https://www.gratuu.com/"
+  },
+  "project": {
+    "heading": "Website Design and Development",
+    "brief": "<h4>Objective:</h4> <p class=\"lead\">To design and develop a four-page website consisting of a homepage, about/how it works page, contact page, and terms and conditions (TCs) page. The website will feature modern design elements.</p> <h4>Scope of Work:</h4> <ol><li><b>Homepage:</b><ul><li><b>Image Carousel:</b> Implement an image carousel at the top, cycling through a collection of images with overlay text and call-to-action buttons as needed.</li><li><b>Intro Text Section</b> Include introductory text accompanied by icons.</li><li><b>Image Carousel/Scroller</b> Add an image carousel or scroller for product screenshots (app images). Note that having two carousels may impact performance; we can explore using an image scroller instead.</li><li><b>App Features</b> List the app features below the app images section.</li><li><b>Contact Section:</b> Include a \"Get in Touch\" section leading to a contact form and social media icons.</li></ul></li><li><b>About/How It Works Page:</b><ul><li><b>Hero Video Section:</b> Feature a hero video with call-to-action buttons.</li><li><b>Text Section:</b> Provide a section for compliance and other relevant information.</li><li><b>Contact Section:</b> Include a contact section.</li></ul></li><li><b>Contact Page:</b><ul><li><b>Hero Image Section:</b> Feature a hero image with accompanying text.</li><li><b>Contact Form Section:</b> Include a contact form, additional text, and social media icons.</li></ul></li><li><b>Terms and Conditions (TCs) Page:</b><ul><li>Provide a section for detailed terms and conditions text.</li></ul></li><li><b>General Requirements:</b><ul><li>Ensure all sections are editable via the CMS.</li><li>Store all content in a version-controlled system using markdown text files, ensuring flexibility in CMS choice without affecting the website.</li><li>The client will provide images and select icons to be used throughout the website.</li><li>Follow existing color schemes and fonts.</li></ul></li></ol><h4>Deliverables:</h4> <ul><li>A four-page website including a homepage, about/how it works page, contact page, and TCs page.</li><li>Image carousel, text sections, video sections, and contact forms as specified.</li><li>Version-controlled content in markdown text files.</li><li>Integration of client-provided images and selected icons.</li><li>Adherence to existing color schemes and fonts.</li></ul> <p>This project aims to deliver a modern, user-friendly website that effectively showcases the client's product and information while providing easy content management and flexibility.</p>"
+  },
+  "images": [
+    {
+      "img": "gratuu-home",
+      "alt": "Gratuu Home page"
+    },
+    {
+      "img": "gratuu-howitworks",
+      "alt": "Gratuu How It Works page"
+    },
+    {
+      "img": "gratuu-contact",
+      "alt": "Gratuu Contact page"
+    },
+    {
+      "img": "gratuu-policy",
+      "alt": "Gratuu Policy page"
+    }
+  ]
+}

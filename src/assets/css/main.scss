@@ -662,12 +662,10 @@ footer > .container > .sixteen {
     background: #3085A3;
     border: 1px solid var(--orange);
     cursor: pointer;
-    float: left;
     height: 180px;
     margin: 0 0 24px 0;
     overflow: hidden;
     position: relative;
-    text-align: center;
     width: 100%;
 
     @media only screen and (min-width: 28.750em) { // 460
@@ -704,7 +702,7 @@ footer > .container > .sixteen {
       margin-bottom: 0;
       max-width: 100%;
       min-height: 100%;
-      opacity: .8;
+      opacity: 1;
       position: relative;
     }
 

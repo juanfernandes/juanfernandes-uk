@@ -14,6 +14,18 @@
   },
   "works": [
     {
+      "name": "Comprehensive Redesign & Rebuild",
+      "client": "Arrival Lifts",
+      "img": "arrival-lifts-project",
+      "link": "/work/arrival-lifts/"
+    },
+    {
+      "name": "Website Design and Development",
+      "client": "Gratuu",
+      "img": "gratuu-project",
+      "link": "/work/gratuu/"
+    },
+    {
       "name": "Redesign of Surbiton Tyre & Wheel Website",
       "client": "Surbiton Tyre & Wheel",
       "img": "surbiton-tyre-wheel-project",

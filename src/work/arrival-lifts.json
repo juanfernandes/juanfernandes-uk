@@ -1,0 +1,47 @@
+{
+  "title": "Arrival Lifts - Comprehensive Redesign and Rebuild of Arrival Lifts Website",
+  "description": "This project aims to enhance the Arrival Lifts online presence, providing a visually appealing, functional, and professional website that effectively engages visitors and improves overall user experience.",
+  "keywords": "HTML, CSS, TAILWIND, JS, Modern Redesign, web design, web development, responsive, website",
+  "meta": {
+    "ogTitle": "Arrival Lifts - Comprehensive Redesign and Rebuild of Arrival Lifts Website",
+    "ogDesc": "This project aims to enhance the Arrival Lifts online presence, providing a visually appealing, functional, and professional website that effectively engages visitors and improves overall user experience.",
+    "lang": "https://www.juanfernandes.uk/work/arrival-lifts/"
+  },
+  "intro": {
+    "class": "",
+    "heading": "Arrival Lifts",
+    "subheading": ""
+  },
+  "details": {
+    "client": "Arrival Lifts Ltd.",
+    "role": "Website Designer",
+    "tech": "HTML 11TY CSS TAILWIND JS CLOUDINARY",
+    "url": ""
+  },
+  "project": {
+    "heading": "Comprehensive Redesign & Rebuild of Existing Website",
+    "brief": "<h4>Objective:</h4> <p class=\"lead\">To completely redesign and rebuild the Arrival Lifts website, creating a modern, professional, and user-friendly online presence that is accessible across all devices and optimized for search engines.</p> <h4>Scope of Work:</h4> <ol><li><b>Design and Aesthetics:</b><ul><li>Develop a new, modern, and professional design that is simple yet elegant.</li><li>Ensure the website is fully responsive, working seamlessly on small to large screens.</li><li>Utilize the entire screen space effectively to enhance visual appeal.</li><li>Incorporate new, high-quality images to improve the overall look and feel.</li></ul></li><li><b>Features and Functionality:</b><ul><li>Integrate social media links, including Twitter and LinkedIn, to enhance online presence and connectivity.</li><li>Include an option for visitors to download a pamphlet directly from the website.</li><li>Update the client list to reflect the most current information.</li><li>Create a standout, modern look while maintaining a professional appearance.</li><li>Ensure the website is interactive, user-friendly, and accessible.</li><li>Optimize the site for search engines to improve visibility and ranking.</li></ul></li><li><b>Content Structure:</b><ul><li><b>Header Section:</b> Feature the company name, contact details, and social media links.</li><li><b>About Us Section:</b> Provide comprehensive information about the company, including a \"Meet the Team\" section and a downloadable brochure.</li><li><b>Products and Services Page:</b> Detail the products and services offered by Arrival Lifts.</li><li><b>Clients Page:</b> Showcase testimonials and an updated client list.</li><li><b>Projects Page:</b> Highlight examples of work carried out with images and descriptions.</li><li><b>Contact Us Page:</b> Include a contact form, email address, phone number, and physical address for inquiries and communication.</li></ul></li><li><b>Pages to be Built:</b><ul><li><b>Homepage:</b> Introduce the company with a modern design, featuring key services and links to other pages.</li><li><b>About:</b> Provide detailed information about Arrival Lifts, including team introductions and a company brochure.</li><li><b>Services:</b> Describe the range of services offered in detail.</li><li><b>Projects:</b> Display completed projects with images and descriptions.</li><li><b>Contact/Enquiries Page:</b> Facilitate communication with a contact form, email, phone number, and physical address.</li></ul></li></ol> <h4>Deliverables:</h4> <ul><li>A fully redesigned and rebuilt Arrival Lifts website with a modern, professional design.</li><li>Responsive design that works across all devices, from small screens to large displays.</li><li>Integration of social media links (Twitter and LinkedIn).</li><li>Option for visitors to download a pamphlet.</li><li>Updated client list and new images.</li><li>Interactive, user-friendly, accessible, and search engine-optimized website.</li><li>Comprehensive header section with company name, contact details, and social links.</li><li>Detailed About Us section with team information and a downloadable brochure.</li><li>Products and Services page detailing offerings.</li><li>Clients page with testimonials.</li><li>Projects page showcasing completed work.</li><li>Contact Us page with a form and contact information.</li></ul> <p>This project aims to enhance the Arrival Lifts online presence, providing a visually appealing, functional, and professional website that effectively engages visitors and improves overall user experience.</p>"
+  },
+  "images": [
+    {
+      "img": "arrival-lifts-home.png",
+      "alt": "Arrival Lifts Home Page"
+    },
+    {
+      "img": "arrival-lifts-services.png",
+      "alt": "Arrival Lifts Services Page"
+    },
+    {
+      "img": "arrival-lifts-projects.png",
+      "alt": "Arrival Lifts Projects Page"
+    },
+    {
+      "img": "arrival-lifts-about.png",
+      "alt": "Arrival Lifts About Page"
+    },
+    {
+      "img": "arrival-lifts-contact.png",
+      "alt": "Arrival Lifts Contact Page"
+    }
+  ]
+}
