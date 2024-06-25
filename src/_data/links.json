@@ -1887,5 +1887,115 @@
         "excerpt": "Over the last few days, I’ve been working on some minor redesign of my website’s overall layout that I mentioned in yesterday’s post, Indent Outdent. After some…",
         "url": "https://chrisburnell.com/note/layout-update-may-2024/",
         "date": "June 1, 2024 at 02:54PM"
+    },
+    {
+        "title": "Exit Animations",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://chriscoyier.net/"
+        },
+        "excerpt": "How do you animate an element as it leaves the DOM? You can’t, is the historical answer. As soon as an element is removed from the DOM, it immediately…",
+        "url": "https://chriscoyier.net/2023/10/30/exit-animations/",
+        "date": "June 3, 2024 at 11:34PM"
+    },
+    {
+        "title": "Updating to Eleventy v3",
+        "author": {
+            "name": "Max Böck",
+            "url": "https://mxb.dev/"
+        },
+        "excerpt": "I took some time this week to update my site to the newest version of Eleventy. Although v3.0.0 is still in alpha, I wanted to give it a try. This iteration of…",
+        "url": "https://mxb.dev/blog/eleventy-v3-update/",
+        "date": "June 3, 2024 at 11:41PM"
+    },
+    {
+        "title": "Why You Should Use px Units for margin, padding, & Other Spacing Techniques",
+        "author": {
+            "name": "Ashlee M Boyer",
+            "url": "https://ashleemboyer.com/"
+        },
+        "excerpt": "Why are CSS margin and padding so closely related? The CSS margin and padding properties are often talked about together for two reasons: They both affect…",
+        "url": "https://ashleemboyer.com//blog/why-you-should-use-px-units-for-margin-padding-and-other-spacing-techniques",
+        "date": "June 4, 2024 at 11:07PM"
+    },
+    {
+        "title": "“Just” One Line",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "From Jeremy Keith’s piece “Responsibility”: Dropping in one line of JavaScript seems like a victimless crime. It’s just one small script, right? But JavaScript…",
+        "url": "https://blog.jim-nielsen.com/2024/just-one-line/",
+        "date": "June 4, 2024 at 11:07PM"
+    },
+    {
+        "title": "The challenge with Netlify, Vercel, Cloudflare, and so on",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "The other day, I wrote about how every dependency is a potential vulnerability. While that article as about third-party libraries and frameworks, you can make a…",
+        "url": "https://gomakethings.com/the-challenge-with-netlify-vercel-cloudflare-and-so-on/",
+        "date": "June 7, 2024 at 12:11PM"
+    },
+    {
+        "title": "Animation With Registered Custom Properties",
+        "author": {
+            "name": "Manuel Matuzovic",
+            "url": "https://www.matuzo.at/"
+        },
+        "excerpt": "Day 104: animation with registered custom properties posted on 02.11.2023 It’s time to get me up to speed with modern CSS. There’s so much new in CSS that I…",
+        "url": "https://www.matuzo.at/blog/2023/100daysof-day104",
+        "date": "June 7, 2024 at 12:15PM"
+    },
+    {
+        "title": "Maybe Don’t Name That Landmark",
+        "author": {
+            "name": "Adrian Roselli",
+            "url": "https://adrianroselli.com/"
+        },
+        "excerpt": "TL;DR: You probably don’t need to name that landmark. The Ngong Ping Village tourist trap on Hong Kong’s Lantau Island. All the pricey tourist…",
+        "url": "ttps://adrianroselli.com/2024/06/maybe-dont-name-that-landmark.html",
+        "date": "June 11, 2024 at 11:51AM"
+    },
+    {
+        "title": "Managing My Motivation, as a Solo Dev",
+        "author": {
+            "name": "Marcus Buffett",
+            "url": "https://mbuffett.com/"
+        },
+        "excerpt": "One of the biggest sticking points of being a solo dev is maintaining motivation. I’ve been keeping a journal entry about how to hack my motivation, what works…",
+        "url": "https://mbuffett.com/posts/maintaining-motivation/",
+        "date": "June 11, 2024 at 12:01PM"
+    },
+    {
+        "title": "Modular CSS and different ways to structure your stylesheets",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "This week, I’ve written about classless vs. class-based CSS , and how I approach CSS architecture . I’ve also written a fair bit recently about how I’m starting…",
+        "url": "https://gomakethings.com/modular-css-and-different-ways-to-structure-your-stylesheets/",
+        "date": "June 11, 2024 at 12:07PM"
+    },
+    {
+        "title": "Compounding complexity in modern web development",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "I’d wager that most of the developers who build modern websites and web apps don’t start off thinking… I’m going to make this as complex as possible. Most of…",
+        "url": "https://gomakethings.com/compounding-complexity-in-modern-web-development/",
+        "date": "June 19, 2024 at 10:48PM"
+    },
+    {
+        "title": "Basic, beautiful, and buildless",
+        "author": {
+            "name": "Baldur Bjarnason",
+            "url": "https://www.baldurbjarnason.com/"
+        },
+        "excerpt": "I’m a big fan of the static site builder Eleventy. I’ve found the ability to put together a small site or landing page with minimum effort and complexity to be…",
+        "url": "https://www.baldurbjarnason.com/2024/basic-beautiful-buildless/",
+        "date": "June 19, 2024 at 10:50PM"
     }
 ]

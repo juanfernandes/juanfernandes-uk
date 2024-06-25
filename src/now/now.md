@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-06-04T15:30:00Z
+date: 2024-06-24T15:30:00
 class: now
 intro:
   heading: Now
@@ -12,8 +12,10 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
-* Spent the weekend in Norwich with my daughter, the middle child, as she had her final martial arts testing and then on Sunday I watched her and others get their black belt and certification.
-* No change on the house situation - still unsold. We're trying a new company to help sell the house and if it doesn't work, then we'll be taking the house to auction.
+* Hmm more personal stuff happening - I'm now single again. It was my choice, we just had different plans for the future.
+
+## Work
+* Work wise - that's not good either, last year my role was changed from Front-end Dev to UX/UI Designer and this year, a few months ago we finally got a Head of UX. I've tried doing the UX role and I don't like it. I like designing with UX in mind, but not doing all the research or all the written work etc.
 
 ## Watching
 * [Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")
