@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-06-24T15:30:00
+date: 2024-07-03T15:30:00
 class: now
 intro:
   heading: Now
@@ -12,7 +12,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
-* Hmm more personal stuff happening - I'm now single again. It was my choice, we just had different plans for the future.
+* Back to dating. Dating in your 40s sucks. Dating apps SUCK.
 
 ## Work
 * Work wise - that's not good either, last year my role was changed from Front-end Dev to UX/UI Designer and this year, a few months ago we finally got a Head of UX. I've tried doing the UX role and I don't like it. I like designing with UX in mind, but not doing all the research or all the written work etc.

@@ -1997,5 +1997,35 @@
         "excerpt": "I’m a big fan of the static site builder Eleventy. I’ve found the ability to put together a small site or landing page with minimum effort and complexity to be…",
         "url": "https://www.baldurbjarnason.com/2024/basic-beautiful-buildless/",
         "date": "June 19, 2024 at 10:50PM"
+    },
+    {
+        "title": "No No-JavaScript",
+        "author": {
+            "name": "David Bushell",
+            "url": "https://dbushell.com/"
+        },
+        "excerpt": "I’m blogging this quick tip because the old technique is so ingrained I keep forgetting there is a new…",
+        "url": "https://dbushell.com/2024/06/22/no-no-javascript/",
+        "date": "June 26, 2024 at 02:46PM"
+    },
+    {
+        "title": "Consent, LLM scrapers, and poisoning the well",
+        "author": {
+            "name": "Eric Bailey",
+            "url": "https://ericwbailey.website/"
+        },
+        "excerpt": " remember feeling numb learning that my writing had been sucked up by OpenAI. It came out of nowhere and was done without my permission or consent. I have a…",
+        "url": "https://ericwbailey.website/published/consent-llm-scrapers-and-poisoning-the-well/",
+        "date": "June 26, 2024 at 11:32PM"
+    },
+    {
+        "title": "Quick Trick: Using border-image to Apply and Overlay Gradient",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://chriscoyier.net/"
+        },
+        "excerpt": "I was watching Kevin Powell and Adam Argyle rapidfire through 23 CSS features. They are all cool tricks, but one stood out to me. Even as an extreme CSS…",
+        "url": "https://frontendmasters.com/blog/quick-trick-using-border-image-to-apply-and-overlay-gradient/",
+        "date": "June 26, 2024 at 11:54PM"
     }
 ]
