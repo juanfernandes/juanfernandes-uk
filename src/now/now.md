@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-07-03T15:30:00
+date: 2024-07-16T10:30:00
 class: now
 intro:
   heading: Now
@@ -18,6 +18,9 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 * Work wise - that's not good either, last year my role was changed from Front-end Dev to UX/UI Designer and this year, a few months ago we finally got a Head of UX. I've tried doing the UX role and I don't like it. I like designing with UX in mind, but not doing all the research or all the written work etc.
 
 ## Watching
+* [The Job Lot](https://www.themoviedb.org/tv/59541-the-job-lot "The Job Lot")
+  The daily troubles of the people who work in a busy West Midlands Job Centre, and the people who don’t work there, or anywhere else for that matter.
+
 * [Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")
   Rewatch: Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.
 

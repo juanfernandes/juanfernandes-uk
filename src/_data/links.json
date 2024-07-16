@@ -2027,5 +2027,105 @@
         "excerpt": "I was watching Kevin Powell and Adam Argyle rapidfire through 23 CSS features. They are all cool tricks, but one stood out to me. Even as an extreme CSS…",
         "url": "https://frontendmasters.com/blog/quick-trick-using-border-image-to-apply-and-overlay-gradient/",
         "date": "June 26, 2024 at 11:54PM"
+    },
+    {
+        "title": "Every website and web app should have a service worker",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "A service worker is a special type of JavaScript file that acts like middleware for your site. Today, I want to talk about why every website and web app should…",
+        "url": "https://gomakethings.com/every-website-and-web-app-should-have-a-service-worker/",
+        "date": "July 4, 2024 at 07:14PM"
+    },
+    {
+        "title": "Google Spam",
+        "author": {
+            "name": "David Bushell",
+            "url": "https://dbushell.com/"
+        },
+        "excerpt": "Robots accessing this content must agree to the copyright license terms at https://dbushell.com/copyright/ and ignore all…",
+        "url": "https://dbushell.com/2024/07/03/google-spam/",
+        "date": "July 7, 2024 at 06:12PM"
+    },
+    {
+        "title": "Feature detect CSS @property support",
+        "author": {
+            "name": "Bramus Van Damme",
+            "url": "https://www.bram.us/"
+        },
+        "excerpt": "Today on Mastodon, Nils asked how to detect support for @property. While in theory you could use @supports at-rule() for this, in practice you can’t because it…",
+        "url": "https://www.bram.us/2024/07/03/feature-detect-css-property-support/",
+        "date": "July 7, 2024 at 06:17PM"
+    },
+    {
+        "title": "Vivaldi is quite good",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Last year, I wrote about how all web browsers kind of suck. Every single one has turned into an AI-and-ad-driven piece of garbage. Amazing garbage that does…",
+        "url": "https://gomakethings.com/vivaldi-is-quite-good/",
+        "date": "July 9, 2024 at 10:16PM"
+    },
+    {
+        "title": "Highlighting Blogging on Mastodon",
+        "author": {
+            "name": "Matthias Ott",
+            "url": "https://matthiasott.com/"
+        },
+        "excerpt": "In what looks like a very smart move, the team at Mastodon just released a very nice new feature for media organizations, journalists and bloggers: when someone…",
+        "url": "https://matthiasott.com/notes/highlighting-blogging-on-mastodon/",
+        "date": "July 9, 2024 at 10:19PM"
+    },
+    {
+        "title": "Surprising Facts About New CSS Selectors",
+        "author": {
+            "name": "Scott Vandehe",
+            "url": "https://spaceninja.com/"
+        },
+        "excerpt": "I went down a bit of a rabbit-hole recently learning about CSS Nesting , specifically regarding the new & selector. I heard that it behaves like the :is()…",
+        "url": "https://cloudfour.com/thinks/surprising-facts-about-new-css-selectors/",
+        "date": "July 11, 2024 at 04:23PM"
+    },
+    {
+        "title": "OKLCH for better color in the browser",
+        "author": {
+            "name": "Jason Lengstorf",
+            "url": "https://www.learnwithjason.dev/"
+        },
+        "excerpt": "Something that has always bugged me about CSS is the dullness of most gradients. You’d have this beautiful idea for your design, set up the gradient in your…",
+        "url": "https://www.learnwithjason.dev/blog/oklch-better-color-css-browser/",
+        "date": "July 12, 2024 at 07:55PM"
+    },
+    {
+        "title": "Feature detect CSS @starting-style support",
+        "author": {
+            "name": "Bramus Van Damme",
+            "url": "https://www.bram.us/"
+        },
+        "excerpt": "The other day on Mastodon, Ryan wondered how hey can detect support for @starting-style. While in theory you could use @supports at-rule() for this, in practice…",
+        "url": "https://www.bram.us/2024/07/11/feature-detect-css-starting-style-support/",
+        "date": "July 14, 2024 at 05:41PM"
+    },
+    {
+        "title": "Is AI part and parcel of web dev?",
+        "author": {
+            "name": "Remy Sharp",
+            "url": "https://remysharp.com/"
+        },
+        "excerpt": "Over the last year+ I've seen AI quickly increase its dominance in the social feeds I follow. I know I'm in an echo chamber, but it feels like working on the…",
+        "url": "https://remysharp.com/2024/07/12/is-ai-part-and-parcel-of-web-dev",
+        "date": "July 14, 2024 at 05:43PM"
+    },
+    {
+        "title": "Poisoning the AI well",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "AI is shit. There is no nuance to this for me. It steals other people’s work without permission, washes away copyright and attribution, and makes shit up. Most…",
+        "url": "https://gomakethings.com/poisoning-the-ai-well/",
+        "date": "July 14, 2024 at 05:45PM"
     }
 ]
