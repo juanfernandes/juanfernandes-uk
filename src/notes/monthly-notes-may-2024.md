@@ -2,7 +2,7 @@
 layout: "post"
 postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: May 2024"
-description: "Pretty uneventful month which is never a bad thing. Spent some time adding more content to my website and did quite a bit of dev work on it too. Went into the work office and also went to the UEFA Women's CUp Final"
+description: "Pretty uneventful month which is never a bad thing. Spent some time adding more content to my website and did quite a bit of dev work on it too. Went into the work office and also went to the UEFA Women's Cup Final"
 keywords:
   - listening
   - watching
