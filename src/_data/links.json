@@ -2127,5 +2127,65 @@
         "excerpt": "AI is shit. There is no nuance to this for me. It steals other people’s work without permission, washes away copyright and attribution, and makes shit up. Most…",
         "url": "https://gomakethings.com/poisoning-the-ai-well/",
         "date": "July 14, 2024 at 05:45PM"
+    },
+    {
+        "title": "Helping to get quality code into production as an interaction designer",
+        "author": {
+            "name": "Benjy Stanton",
+            "url": "https://www.benjystanton.co.uk/"
+        },
+        "excerpt": "My notes on how interaction designers can work with software developers and testers on agile delivery teams. I shared this earlier in the week and wanted to…",
+        "url": "https://www.benjystanton.co.uk/blog/helping-to-get-quality-code-into-production-as-an-interaction-designer/",
+        "date": "July 17, 2024 at 09:40AM"
+    },
+    {
+        "title": "HTML & CSS for a One-Time Password Input",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://chriscoyier.net/"
+        },
+        "excerpt": "You know those One Time Password inputs? Typically 4 or 6 numbers, something like: Well I came across an article by Phuoc Nguyen about them called Build an OTP…",
+        "url": "https://chriscoyier.net/2023/12/04/html-css-for-a-one-time-password-input/",
+        "date": "July 17, 2024 at 09:43AM"
+    },
+    {
+        "title": "No JavaScript, No Problem",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Last week, I pushed a big update to the Lean Web Club that removed all JavaScript dependencies. While most of the platform was server-rendered HTML stuff, some…",
+        "url": "https://gomakethings.com/no-javascript-no-problem/",
+        "date": "July 17, 2024 at 09:45AM"
+    },
+    {
+        "title": "Forms without an accessible name are not exposed as ARIA landmarks",
+        "author": {
+            "name": "Stefan Judis",
+            "url": "https://www.stefanjudis.com/"
+        },
+        "excerpt": "Suppose you want to be a good web citizen; you use semantic and accessible HTML. Elements \"leading places\" are a elements, your navigation lives in a nav…",
+        "url": "https://www.stefanjudis.com/today-i-learned/forms-require-an-accessible-name/",
+        "date": "July 20, 2024 at 08:30AM"
+    },
+    {
+        "title": "You probably dont need HTML imports",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "For years, advocates of the lean web have lamented that there’s no such thing as HTML imports—me included. But turns out, you probably don’t actually need them…",
+        "url": "https://gomakethings.com/you-probably-dont-need-html-imports/",
+        "date": "July 20, 2024 at 09:17AM"
+    },
+    {
+        "title": "The many ways to hide things in the DOM",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "A few weeks ago in one of my YouTube videos, I used the [hidden] attribute to hide and show some elements in the DOM. One of my subscribers mentioned that they…",
+        "url": "https://gomakethings.com/the-many-ways-to-hide-things-in-the-dom/",
+        "date": "July 21, 2024 at 06:09PM"
     }
 ]
