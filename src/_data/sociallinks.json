@@ -2,12 +2,12 @@
   {
     "name": "Mastodon",
     "icon": "mastodon",
-    "url": "https://hachyderm.io/@juanfernandes"
+    "url": "https://indieweb.social/@juanfernandes"
   },
   {
-    "name": "Twitter",
+    "name": "X",
     "icon": "twitter",
-    "url": "https://twitter.com/juanfernandes"
+    "url": "https://x.com/juanfernandes"
   },
   {
     "name": "LinkedIn",
