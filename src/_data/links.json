@@ -2187,5 +2187,75 @@
         "excerpt": "A few weeks ago in one of my YouTube videos, I used the [hidden] attribute to hide and show some elements in the DOM. One of my subscribers mentioned that they…",
         "url": "https://gomakethings.com/the-many-ways-to-hide-things-in-the-dom/",
         "date": "July 21, 2024 at 06:09PM"
+    },
+    {
+        "title": "Be Careful Using ‘Grid’",
+        "author": {
+            "name": "Adrian Roselli",
+            "url": "https://adrianroselli.com/"
+        },
+        "excerpt": "Be careful when using the word grid on its own. Be certain you have chosen the term that accurately describes the pattern you want. If this…",
+        "url": "https://adrianroselli.com/2024/07/be-careful-using-grid.html",
+        "date": "July 23, 2024 at 08:54AM"
+    },
+    {
+        "title": "Building a Custom Filter for Eleventy Collections",
+        "author": {
+            "name": "Tom",
+            "url": "https://ttntm.me/"
+        },
+        "excerpt": "Collections and lists are a wonderful thing, and filters simply make them better. On this website, the first use case for a filterable collection was my whisky…",
+        "url": "https://ttntm.me/blog/building-a-custom-filter-for-eleventy-collections/",
+        "date": "July 23, 2024 at 09:06AM"
+    },
+    {
+        "title": "Quick Tip: How to Animate Text Gradients and Patterns in CSS",
+        "author": {
+            "name": "Ralph Mason",
+            "url": "https://pageaffairs.com/"
+        },
+        "excerpt": "In this quick tip, we’ll show how easy it is to animate a background gradient with CSS. In a recent article, we showed how to set a background gradient on text…",
+        "url": "https://www.sitepoint.com/css-animate-text-gradients-patterns/",
+        "date": "July 24, 2024 at 10:24PM"
+    },
+    {
+        "title": "Communication Practices for Increasing UX Maturity",
+        "author": {
+            "name": "Tim Neusesser",
+            "url": "https://www.nngroup.com/people/tim-neusesser/"
+        },
+        "excerpt": "Improve your organization’s UX maturity by increasing UX awareness and knowledge through purposeful UX-related communication…",
+        "url": "https://www.nngroup.com/articles/communication-practices/",
+        "date": "July 24, 2024 at 10:35PM"
+    },
+    {
+        "title": "5 CSS snippets every front-end developer should know in 2024",
+        "author": {
+            "name": "Adam Argyle",
+            "url": "https://nerdy.dev/"
+        },
+        "excerpt": "Toolbelt worthy, powerful, and stable CSS you can use today. Adam Argyle GitHub Glitch Homepage I believe every front-end developer should know :has() is more…",
+        "url": "https://web.dev/articles/5-css-snippets-every-front-end-developer-should-know-in-2024",
+        "date": "July 25, 2024 at 10:20AM"
+    },
+    {
+        "title": "Three modern CSS properties your website must have",
+        "author": {
+            "name": "bejamas.io",
+            "url": "https://bejamas.io/"
+        },
+        "excerpt": "1. Scroll-margin Ever used an anchor link on a webpage, trying to find something, but got totally lost? It happens way too often. Usually the target elements…",
+        "url": "https://bejamas.io/hub/guides/modern-css-properties-your-website-must-have",
+        "date": "July 25, 2024 at 07:58PM"
+    },
+    {
+        "title": "Web content, the social contract and copyrights",
+        "author": {
+            "name": "Stefan Judis",
+            "url": "https://www.stefanjudis.com/"
+        },
+        "excerpt": "I just updated the footer of this site. This is how it looks now. I'm going all corporate and legally official and stuff. Yeah — I hate it, too. You probably…",
+        "url": "https://www.stefanjudis.com/blog/web-content-and-copyrights/",
+        "date": "July 25, 2024 at 08:03PM"
     }
 ]
