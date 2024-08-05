@@ -22,7 +22,7 @@ postImage: "v1579162295/trianglify.png"
 
 
 ## My experience
-To be fair, I've only had one contract that was inside IR35 and after a brief [Twitter](https://twitter.com/_worknotes/status/1380147375285678081) conversation I decided to write a blog post about my experienvce working an inside IR35 contract and why I decided it's not for me and pushed me back to peermanent employment.
+To be fair, I've only had one contract that was inside IR35 and after a brief Twitter conversation I decided to write a blog post about my experienvce working an inside IR35 contract and why I decided it's not for me and pushed me back to peermanent employment.
 
 ### Umbrella companies
 The biggest issue I had was finding a good umbrella company - you have to do your research, including looking at companies house and checking their accounts. If they haven't updated their accounts in a while, then something may not be right. Remember they get your money take a cut and then pay you - if they are having money problems, they may not be able to pay.

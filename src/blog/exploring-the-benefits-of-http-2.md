@@ -83,6 +83,6 @@ The JS and CSS files, as well as the slider JS code, are included the at the end
 
 This change has improved my websites' overall performance score on Lighthouse - but there is one more thing I need to fix before its perfect.
 
-_This is all new to me and I may have made a mistake or misunderstood something, if you spot something, please let me know -_ [_send me a tweet_](https://twitter.com/juanfernandes)
+_This is all new to me and I may have made a mistake or misunderstood something, if you spot something, please let me know -_ [_send me a tweet_](https://x.com/juanfernandes)
 
 **May the 4th be with you**

@@ -24,7 +24,7 @@ This weeknotes has been in my drafts for a few weeks now. It only takes getting 
 
 ## Updates
 
-The new version of this website is live, it has been rebuilt using a static site generator, [Eleventy](https://www.11ty.dev/). It's the same design with minor tweaks, but this update was mainly about the underlying structure - moving away from PHP and PerchCMS to Nunjucks and [NetlifyCMS](https://www.netlifycms.org/), as well as hosting it on [Netlify](https://www.netlify.com).
+The new version of this website is live, it has been rebuilt using a static site generator, [Eleventy](https://www.11ty.dev/). It's the same design with minor tweaks, but this update was mainly about the underlying structure - moving away from PHP and PerchCMS to Nunjucks and [NetlifyCMS](https://decapcms.org/), as well as hosting it on [Netlify](https://www.netlify.com).
 
 I had to manually copy over all my blog posts and notes as I couldn't figure out a way to export them from Perch. It wasn't too bad as I didn't have that many blog posts. The plan was to convert the RSS feed to static HTML and then use that as the start for the new static site pages - that's when I realised my RSS feed wasn't showing full page content, just the excerpt but I couldn't get the PHP template to output the full content in the end.
 

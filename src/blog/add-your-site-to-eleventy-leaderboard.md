@@ -65,7 +65,7 @@ Now that you're done creating the new file, you need to save it and also create 
 
 8. On the next screen, you can check your changes and then click on the **_Create pull request_** button to proceed.
 
-9. You don't need to add a comment, but you can thank [Zach](https://twitter.com/zachleat "Zack Leatherman on Twitter") for creating Eleventy. Then click on the  **_Create pull request_** button again
+9. You don't need to add a comment, but you can thank [Zach](https://x.com/zachleat "Zack Leatherman on X") for creating Eleventy. Then click on the  **_Create pull request_** button again
 
 10. Next, GitHub will do a bunch of checks on your changes and it will tell you if there are any conflicts. Hopefully, there aren't, but if you followed this exactly you shouldn't have any conflicts.
 

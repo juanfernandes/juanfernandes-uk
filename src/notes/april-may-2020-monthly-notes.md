@@ -91,7 +91,7 @@ I'm still cooking all the dinners during the week - it has taken some effort get
 * [Easily Use Design Tokens In Eleventy: HeydonWorks](https://heydonworks.com/article/design-tokens-in-eleventy/ "Easily Use Design Tokens In Eleventy: HeydonWorks")
 * [Overlapping Header with CSS Grid](https://snook.ca/archives/html_and_css/overlapping-header-with-css-grid "Overlapping Header with CSS Grid")
 * [WordPress As A Headless CMS](https://medium.com/@jasuca/headless-cms-or-head-cms-50a8d9ce45d7 "WordPress As A Headless CMS")
-* [CSS Logical Properties - Piccalilli](https://piccalil.li/tutorial/css-logical-properties/ "CSS Logical Properties - Piccalilli")
+* [CSS Logical Properties - Piccalilli](https://web.archive.org/web/20230125085650/https://piccalil.li/tutorial/css-logical-properties/ "CSS Logical Properties - Piccalilli")
 * [Micro-interactions to incorporate for powerful emotional design](https://cloudfour.com/thinks/micro-interactions-to-incorporate-for-powerful-emotional-design/ "Micro-interactions to incorporate for powerful emotional design")
 * [Styling Links with Real Underlines | CSS-Tricks](https://css-tricks.com/styling-links-with-real-underlines/ "Styling Links with Real Underlines | CSS-Tricks")
 * [CSS-only Slide-up Caption Hover Effect](https://css-irl.info/css-only-slide-up-caption-hover-effect/ "CSS-only Slide-up Caption Hover Effect")

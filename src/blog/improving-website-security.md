@@ -21,7 +21,7 @@ tags:
 ---
 Ever since I converted my website to Eleventy - from PHP - I have been obsessively working ton improving its performance.
 
-One well-known tool that I use for checking website performance is [WebPageTest.org](https://www.webpagetest.org "Test your website performance") and they recently added a new metric to test for - security.
+One well-known tool that I use for checking website performance is [WebPageTest.org](https://www.webpagetest.org/ "Test your website performance") and they recently added a new metric to test for - security.
 
 This new test is provided by the [Snyk](https://snyk.io/). You can sign up for a free account, give it access to your project's repository and it will actively perform security checks on your code dependencies and you'll be notified if there are any vulnerabilities.
 

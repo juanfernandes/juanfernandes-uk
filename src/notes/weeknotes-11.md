@@ -25,7 +25,7 @@ Work on my current project is slowing down, just tying loose ends and waiting fo
 Next week will mostly be testing and so more finishing touches. Plus any changes once the client starts testing it themselves.
 
 ## Personal
-Met up with [Benjy Stanton](https://twitter.com/benjystanton "Benjy Stanton on Twitter") for a coffee at Black Sheep in Manchester while he was visiting the [Swirrl](https://twitter.com/Swirrl "Swirrl on Twitter") HQ where he has recently started working. Was great to finally meet up in real life.
+Met up with [Benjy Stanton](https://x.com/benjystanton "Benjy Stanton on Twitter") for a coffee at Black Sheep in Manchester while he was visiting the [Swirrl](https://x.com/Swirrl "Swirrl on Twitter") HQ where he has recently started working. Was great to finally meet up in real life.
 
 We had friends staying with us for the entire Easter weekend which was great. Lots of eating and drinking, kids playing in the garden and the dog running around after them. Had our first BBQ of the year (like a lot of people I'm guessing because the weather was great).
 

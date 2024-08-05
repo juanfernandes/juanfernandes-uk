@@ -107,7 +107,7 @@ Twitter and Facebook provide tools for you to test your social media 'cards' and
 
 {% cloudinaryImage "card_preview_twitter-dev.png", "q_auto,f_auto", "Image showing the twitter card preview tool" %}
 
-* [Twitter Card Validator](https://cards-dev.twitter.com/validator "Twitter Card Validator")
+* [X Card Validator](https://cards-dev.x.com/validator "X Card Validator")
 * [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/ "Facebook Sharing Debugger tool")
 
 ## Taking this further
@@ -116,4 +116,4 @@ I could take this a step further and pass the colour of the text or be able to c
 
 I could even turn this into an 11ty Plugin.
 
-Hope you find this useful and if you want to discuss anything about it, reach out to me on [Twitter](https://twitter.com/juanfernandes "Juan Fernandes on Twitter").
+Hope you find this useful and if you want to discuss anything about it, reach out to me on [Twitter](https://x.com/juanfernandes "Juan Fernandes on Twitter").

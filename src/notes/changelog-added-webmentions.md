@@ -23,7 +23,7 @@ For those who don't know what webmentions are; its a way to show social media co
 
 ### Sources
 
-Thanks to [Sia Karamalegos](https://twitter.com/TheGreenGreek), [Angélique Weger](https://twitter.com/messypixels) and [Max Böck](https://twitter.com/mxbck) for their blog posts and their code, because without it I wouldn't have managed to add this to my website.
+Thanks to [Sia Karamalegos](https://x.com/TheGreenGreek), [Angélique Weger](https://x.com/messypixels) and [Max Böck](https://x.com/mxbck) for their blog posts and their code, because without it I wouldn't have managed to add this to my website.
 
 - [https://sia.codes/posts/webmentions-eleventy-in-depth/](https://sia.codes/posts/webmentions-eleventy-in-depth/ "https://sia.codes/posts/webmentions-eleventy-in-depth/")
 - [https://mxb.dev/blog/using-webmentions-on-static-sites/](https://mxb.dev/blog/using-webmentions-on-static-sites/)

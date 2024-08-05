@@ -35,12 +35,12 @@ I'm aiming to keep up with my monthly notes, as I only managed about six months 
 
 
 ## 📺 Watching
-- [Bad Blood](https://www.netflix.com/gb/TITLE/80221787 "Bad Blood")
-- [Homeland](https://www.netflix.com/gb/title/70180387 "Homeland")
-- [It's Always Sunny in Philadelphia](https://www.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
-- [Sanctuary](https://www.imdb.com/title/tt0965394/ "Sanctuary")
-- [iZombie](https://www.netflix.com/gb/title/80027159 "iZombie")
-- [The Serpent](https://www.netflix.com/gb/title/80206099 "The Serpent")
+- [Bad Blood](https://www.themoviedb.org/tv/72742-bad-blood "Bad Blood")
+- [Homeland](https://www.themoviedb.org/tv/1407-homeland "Homeland")
+- [It's Always Sunny in Philadelphia](https://www.themoviedb.org/tv/2710-it-s-always-sunny-in-philadelphia "It's Always Sunny in Philadelphia")
+- [Sanctuary](https://www.themoviedb.org/tv/1310-sanctuary "Sanctuary")
+- [iZombie](https://www.themoviedb.org/tv/60866-izombie "iZombie")
+- [The Serpent](https://www.themoviedb.org/movie/504148-the-serpent "The Serpent")
 
 ## 📖 Reading
 - [2021 into 2022 - Tania Rascia](https://www.taniarascia.com/2021-into-2022/ "2021 into 2022")

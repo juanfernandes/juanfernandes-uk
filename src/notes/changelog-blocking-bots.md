@@ -58,5 +58,5 @@ Here's my robots.txt file:
 
 ### Sources
 - [Permission - Jeremy Keith](https://adactio.com/journal/20315 "Permission - Jeremy Keith")
-- [Twitter/X thread by Gergely Orosz](https://twitter.com/gergelyorosz/status/1688829094249615360 "Twitter/X thread by Gergely Orosz")
+- [Twitter/X thread by Gergely Orosz](https://x.com/gergelyorosz/status/1688829094249615360 "Twitter/X thread by Gergely Orosz")
 - [Block the Bots that Feed “AI” Models by Scraping Your Website](https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/ "Block the Bots that Feed “AI” Models by Scraping Your Website")

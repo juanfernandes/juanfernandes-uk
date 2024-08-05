@@ -33,11 +33,11 @@ Not a lot happened in March which is not too bad, apart from the lack of work an
 - My mother in law got covid but thankfully it didn't affect her too bad and she was back to normal after a week. It just meant I had to do a lot more diving our kids around to after school clubs
 
 ## 📺 Watching
-- [Bad Blood](https://www.netflix.com/gb/TITLE/80221787 "Bad Blood")
-- [Wolf Like Me](https://www.imdb.com/title/tt14452228/ "Wolf Like Me")
-- [Snowpiercer](https://www.netflix.com/gb/Title/80177458 "Snowpiercer")
-- [All of Us Are Dead](https://www.netflix.com/gb/title/81237994 "All of Us Are Dead")
-- [V Wars](https://www.netflix.com/gb/title/80236118 "V Wars")
+- [Bad Blood](https://www.themoviedb.org/tv/72742-bad-blood "Bad Blood")
+- [Wolf Like Me](https://www.themoviedb.org/tv/136738-wolf-like-me "Wolf Like Me")
+- [Snowpiercer](https://www.themoviedb.org/tv/79680-snowpiercer "Snowpiercer")
+- [All of Us Are Dead](https://www.themoviedb.org/tv/99966 "All of Us Are Dead")
+- [V Wars](https://www.themoviedb.org/tv/81559-v-wars "V Wars")
 
 ## 📖 Reading
 - [Service worker strategies](https://gomakethings.com/service-worker-strategies/ "Service worker strategies")

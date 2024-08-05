@@ -33,7 +33,7 @@ If all goes to plan, I'll be finishing my current contract on Friday and then I'
 I've wanted to get back into an interaction designer role for a while now and have also been trying to work in government as well. I'm hoping this contract, though short, will be the stepping stone into more work in government.
 
 ### Articles I read this week
-- [Week note 2 - sonniesedge](https://whalecoiner.com/articles/week-note-2 "Week note 2 - sonniesedge")
+- [Week note 2 - sonniesedge](https://web.archive.org/web/20211205104954/https://whalecoiner.com/articles/week-note-2 "Week note 2 - sonniesedge")
 - [Solving problems customers will pay for](https://justinjackson.ca/hard-valuable "Solving problems customers will pay for")
 - [Pixels vs. Ems: Users DO Change Font Size](https://medium.com/@vamptvo/pixels-vs-ems-users-do-change-font-size-5cfb20831773 "Pixels vs. Ems: Users DO Change Font Size")
 - [Why isn't the internet more fun and weird?](https://jarredsumner.com/codeblog/ "Why isn't the internet more fun and weird?")

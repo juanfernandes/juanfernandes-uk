@@ -65,7 +65,7 @@ So we need to remove all current members (not very active) and we will be emaili
 
 This was a very manual process as I couldn't find a way to print out the full list of members, so I exported the table from the database into a CSV file and cleaned it up in Excel. 🤷
 
-That's it for this week. Do let me know if you're reading this and are enjoying it or not - you send me a tweet or DM me over on [Twitter](https://twitter.com/juanfernandes "Juan Fernandes on Twitter")
+That's it for this week. Do let me know if you're reading this and are enjoying it or not - you send me a tweet or DM me over on [Twitter](https://x.com/juanfernandes "Juan Fernandes on Twitter")
 
 ## Reading
 - [Self-Host Your Static Assets – CSS Wizardry](https://csswizardry.com/2019/05/self-host-your-static-assets/ "Self-Host Your Static Assets – CSS Wizardry")

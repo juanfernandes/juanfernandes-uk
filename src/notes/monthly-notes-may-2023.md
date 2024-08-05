@@ -39,7 +39,7 @@ tags:
 </details>
 
 ## 📖 Reading
-- [Don't Make a Blog, Make a Brain Dump · Bradley Taunt](https://bt.ht/dump/ "Don't Make a Blog, Make a Brain Dump · Bradley Taunt")
+- [Don't Make a Blog, Make a Brain Dump · Bradley Taunt](https://btxx.org/posts/dump "Don't Make a Blog, Make a Brain Dump · Bradley Taunt")
 - [Baseline Rules for Scrollbar Usability](https://adrianroselli.com/2019/01/baseline-rules-for-scrollbar-usability.html "Baseline Rules for Scrollbar Usability")
 - [How to style links that don't look ugly](https://gomakethings.com/how-to-style-links-that-dont-look-ugly/ "How to style links that don't look ugly")
 - [When is :focus-visible visible? | bitsofcode](https://bitsofco.de/when-is-focus-visible-visible/?utm_source=CSS-Weekly&utm_campaign=Issue-549&utm_medium=RSS "When is :focus-visible visible? | bitsofcode")

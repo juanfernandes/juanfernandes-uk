@@ -71,19 +71,19 @@ So as you can tell, it has been a busy month full of change - but it has been a 
 Don't worry I am not going to try and persuade you to give up meat or get rid of all your possessions - it's just a lifestyle my wife and I have made for us and our children.
 
 ## 📺 Watching
-* [Cowboy Bebop](https://www.netflix.com/gb/title/80207033 "Cowboy Bebop")
+* [Cowboy Bebop](https://www.themoviedb.org/tv/84469-cowboy-bebop "Cowboy Bebop")
   Long on style and perpetually short on cash, bounty hunters Spike, Jet and Faye trawl the solar system looking for jobs. But can they outrun Spike's past?
 
-* [Archive 81](https://www.netflix.com/gb/title/80222802 "Archive 81")
+* [Archive 81](https://www.themoviedb.org/tv/112314-archive-81 "Archive 81")
 An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.
 
-* [Manhunt](https://www.netflix.com/gb/title/80176878 "Manhunt")
+* [Manhunt](https://www.themoviedb.org/tv/72597-manhunt "Manhunt")
 Faced with few clues and an increasingly panicked public, the FBI calls on a new kind of profiler to help track down the infamous Unabomber.
 
-* [Power](https://www.netflix.com/gb/title/70298433 "Power")
+* [Power](https://www.themoviedb.org/tv/54650-power "Power")
 In this absorbing crime drama, a successful and well-liked nightclub owner moonlights as a drug dealer to New York City's A-list users.
 
-* [The Sandman](https://www.netflix.com/gb/title/81150303 "The Sandman")
+* [The Sandman](https://www.themoviedb.org/tv/90802-the-sandman "The Sandman")
 After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.
 
 ## 📖 Reading

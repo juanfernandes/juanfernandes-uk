@@ -54,7 +54,7 @@ shareLink: ""
 - [No more 404](https://remysharp.com/2023/09/26/no-more-404 "No more 404")
 - [Fun With Front Matter: Part 3 - Handling Edits](https://www.raymondcamden.com/2023/08/31/fun-with-front-matter-part-3-handling-edits "Fun With Front Matter: Part 3 - Handling Edits")
 - [Fun With Front Matter: Part 4 - Featured Posts](https://www.raymondcamden.com/2023/09/12/fun-with-front-matter-part-4-featured-posts "Fun With Front Matter: Part 4 - Featured Posts")
-- [🧪 Can SVG Symbols affect web performance?](https://bstefanski.com/blog/can-svg-symbols-affect-web-performance "🧪 Can SVG Symbols affect web performance?")
+- [🧪 Can SVG Symbols affect web performance?](https://bstefanski.com/blog/can-svg-symbols-affect-web-performance/ "🧪 Can SVG Symbols affect web performance?")
 - [A Mobile-Only Grid - Chris Coyier](https://chriscoyier.net/2023/09/22/a-mobile-only-grid/ "A Mobile-Only Grid - Chris Coyier")
 - [Henry From Online | Using Focal Points, Aspect Ratio & Object-Fit To Crop Images Correctly](https://henry.codes/writing/pure-css-focal-points/ "Henry From Online | Using Focal Points, Aspect Ratio & Object-Fit To Crop Images Correctly")
 - [Eleventy JSON Output](https://www.trovster.com/blog/2023/09/eleventy-json-output "Eleventy JSON Output")

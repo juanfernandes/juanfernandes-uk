@@ -42,7 +42,7 @@ Updated the code on the contact form to use Netlify forms - because its a static
 ### Video/stream
 I also decided that it was about time I tested the waters with recording myself coding and talking about what I was doing - I didn't quite have the confidence to do a live stream, so I opted to record it and then watch it back. There are a few things I need to improve - but overall it wasn't a bad first attempt.
 
-Thanks to Ross [@magicroundabout](https://twitter.com/magicroundabout "Ross on Twitter") for inspiring me to get on and do it, after watching his stream.
+Thanks to Ross [@magicroundabout](https://x.com/magicroundabout "Ross on Twitter") for inspiring me to get on and do it, after watching his stream.
 
 ## Freelance
 Nearly there with my e-commerce website project. The client has started to test the website and has started asking questions and has finally started putting together a list of products. Both of these, I needed them to have started a lot sooner, but this didn't happen.
@@ -60,7 +60,6 @@ So I decided to use add a links section above the header. If a member is already
 ## Reading
 - [Create a responsive grid layout with no media queries, using CSS Grid](https://archive.hankchizljaw.com/wrote/create-a-responsive-grid-layout-with-no-media-queries-using-css-grid/ "Create a responsive grid layout with no media queries, using CSS Grid")
 - [Structured data and Google](https://brucelawson.co.uk/2019/structured-data-and-google/ "Structured data and Google")
-- [004: CMS, content and contexts - Piccalilli Redesign Journal](https://redesign-journal.piccalil.li//journal/004-cms-content-and-contexts/ "004: CMS, content and contexts - Piccalilli Redesign Journal")
 
 ### Weeknotes
 - [Weeknotes #9 - Vincent Pickering](https://vincentp.me/articles/2019/05/20/22-00/ "Weeknotes #9 - Vincent Pickering")

@@ -23,8 +23,8 @@ These are the tools I like to use, it's ones I use when I can, but as a contract
 
 ## Desktop Apps
 
-- For design I use [Sketch](https://www.sketch.com/) and [Affinity Photo](https://affinity.serif.com/en-gb/photo/) - Adobe Photoshop is far too expensive and I never used more than 10% of its features.
-- I still have to use FTP for some clients, [FileZilla](https://filezilla-project.org/) has been my FTP client of choice for a long time.
+- For design I use [Figma](https://www.figma.com/), [Sketch](https://www.sketch.com/) and [Affinity Photo](https://affinity.serif.com/en-gb/photo/) - Adobe Photoshop is far too expensive and I never used more than 10% of its features.
+- I still have to use FTP for some clients, [Cyberduck](https://cyberduck.io/ftp/) is my FTP client of choice.
 - My main browser is Firefox - it has great developer tools, especially for CSS grid and has improved a lot over the years. I have Chromium, Safari and Brave for testing.
 - For notes and writing, I use [Simplenote](https://simplenote.com/). It's cross-platform, which means all my notes are available on my phone, on the internet and my laptop.
 - [OBS](https://obsproject.com/) for screencasts and recording training material for clients
@@ -32,31 +32,21 @@ These are the tools I like to use, it's ones I use when I can, but as a contract
 ## Desk Setup
 
 - I currently use a 2018 15" MacBook Pro with 32gb of ram and maxed out processor 2.9 GHz 6-Core Intel Core i9
-- My keyboard is a [Vinpok Taptek](https://www.vinpok.com/products/vinpok-taptek-thinnest-wireless-mac-mechanical-keyboard) mechanical keyboard which I backed on IndieGoGo but is now available for everyone
+- My keyboard is a [ZSA Moonlander](https://www.zsa.io/moonlander) mechanical keyboard
 - My mouse is an MX Master 1 - its the most expensive mouse I have ever bought, but has been worth every penny
-- My monitor is a 21" Samsung monitor - this is the next thing I will be replacing
+- My monitor is a 21" Dell monitor
 - For sitting I use an [Autonomous Ergo Chair 2](https://www.autonomous.ai?rid=b98811)
 - My desk is an Ikea [Trotten](https://www.ikea.com/gb/en/p/trotten-desk-sit-stand-white-s79429602/) sit / stand desk - I wish I had paid more and gone for the electronic version instead of the manual crank
 
 ## Other Gear
 
-- OnePlus 5T android phone
+- iPhone 13 mini RED
 - Blue Ice microphone
 - Logitech HD Pro C920 webcam
 - Old Logitech 5.1 speakers
 - Generic mic stand (clamps to desk)
 - Perinexx large desk matt
 - Generic desk lamp
-
-For testing responsive websites I build, I use the following mobiles and tablets:
-
-- iPhone 4s
-- iPhone 5s
-- LG Nexus 4
-- LG G3
-- Google Pixel 3
-- Kindle Fire 10
-- iPad Mini
 
 Not forgetting notepads, pens and pencils! I have probably forgotten many things, but I will update this if I have.
 

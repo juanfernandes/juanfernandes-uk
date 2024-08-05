@@ -41,7 +41,7 @@ I’ve waiting to finish my site so I can start writing these weeknotes and blog
 ## Articles I read this week
 
 - [Redesign Diary: Conundrum](https://paulrobertlloyd.com/articles/2018/10/conundrum/ "Redesign Diary: Conundrum")
-- [Should I stay or should I go?](https://blog.honest.work/should-i-stay-or-should-i-go/ "Should I stay or should I go?")
+- [Should I stay or should I go?](https://web.archive.org/web/20190304113147/https://blog.honest.work/should-i-stay-or-should-i-go/ "Should I stay or should I go?")
 - [Bye, Bye, Google](https://defn.io/2019/02/04/bye-bye-google/ "Bye, Bye, Google")
 - [Quick Tip #008—Trigger a Netlify Build Every Day with IFTTT](https://www.11ty.dev/docs/quicktips/netlify-ifttt/ "Trigger a Netlify Build Every Day with IFTTT")
 - [Revisiting the abbr element](https://bitsofco.de/revisiting-the-abbr-element/ "Revisiting the abbr element")

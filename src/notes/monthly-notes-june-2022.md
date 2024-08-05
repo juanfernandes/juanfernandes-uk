@@ -38,16 +38,16 @@ Looking forward to making use of it once we've decorated it all!
 The outside entertainment area which was also finished this year has now had the electrics done and two patio heaters installed. I now just need to finish building the kitchen area.
 
 ## 📺 Watching
-- [Bloodline](https://www.netflix.com/gb/title/80010655 "Bloodline")
+- [Bloodline](https://www.themoviedb.org/tv/61986-bloodline "Bloodline")
   When the black sheep son of a respected family threatens to expose dark secrets from their past, sibling loyalties are put to the test.
 
-- [Bordertown](https://www.netflix.com/gb/title/80145143 "Bordertown")
+- [Bordertown](https://www.themoviedb.org/tv/68327-sorjonen "Bordertown")
   A gifted detective takes a job in a small town so he can spend more time with his family. But he's soon drawn into a web of disturbing murder cases.
 
-- [Locke & Key](https://www.netflix.com/gb/Title/80241239 "Locke & Key")
+- [Locke & Key](https://www.themoviedb.org/tv/86423-locke-key "Locke & Key")
   After their dad's murder, three siblings move with their mom to his ancestral estate, where they discover magical keys that unlock powers — and secrets.
 
-- [Homeland](https://www.netflix.com/gb/title/70180387 "Homeland")
+- [Homeland](https://www.themoviedb.org/tv/1407-homeland "Homeland")
   CIA analyst Carrie Mathison struggles with mental health and family issues while leading the war against terrorism in this political thriller series.
 
 ## 📖 Reading
@@ -68,7 +68,7 @@ The outside entertainment area which was also finished this year has now had the
 - [Building a theme switch component](https://web.dev/building-a-theme-switch-component/ "Building a theme switch component")
 - [Quick accessibility tests anyone can do - TetraLogical](https://tetralogical.com/blog/2022/01/18/quick-accessibility-tests-anyone-can-do/ "Quick accessibility tests anyone can do - TetraLogical")
 - [What Would a Useful NFT Look Like?](https://blog.developerdao.com/what-would-a-useful-nft-look-like "What Would a Useful NFT Look Like?")
-- [Prevent Cumulative Layout Shift for responsive images](https://blog.jankoritak.com/how-to-prevent-cumulative-layout-shift-for-responsive-images "Prevent Cumulative Layout Shift for responsive images")
+- [Prevent Cumulative Layout Shift for responsive images](https://web.archive.org/web/20230518085032/https://blog.jankoritak.com/how-to-prevent-cumulative-layout-shift-for-responsive-images "Prevent Cumulative Layout Shift for responsive images")
 - [the joke that changed my life by Derek Sivers](https://sive.rs/joke "the joke that changed my life by Derek Sivers")
 - [I used Tailwind for the U in CUBE CSS and I liked it - Piccalilli](https://piccalil.li/blog/i-used-tailwind-for-the-u-in-cube-css-and-i-liked-it/ "I used Tailwind for the U in CUBE CSS and I liked it - Piccalilli")
 - [Fancy CSS Borders Using Masks | CSS-Tricks](https://css-tricks.com/css-borders-using-masks/ "Fancy CSS Borders Using Masks | CSS-Tricks")
@@ -80,12 +80,12 @@ The outside entertainment area which was also finished this year has now had the
 - [The What, Why, and How of Internal Documentation](https://www.stephaniemorillo.co/post/the-what-why-and-how-of-internal-documentation "The What, Why, and How of Internal Documentation")
 - [A look at the dialog element's super powers](https://www.stefanjudis.com/blog/a-look-at-the-dialog-elements-super-powers/ "A look at the dialog element's super powers")
 - [How I self publish my podcast](https://gomakethings.com/how-i-self-publish-my-podcast/ "How I self publish my podcast")
-- [Enough Talks about Good Commit Message, Enforce or validate it!](https://halawa.dev/enough-talks-about-good-commit-message-enforce-or-validate-it "Enough Talks about Good Commit Message, Enforce or validate it!")
+- [Commit Mastery](https://halawa.dev/2022/06/06/why-good-commit-messages-matter-and-how-to-implement-effective-validation-techniques/ "Commit Mastery")
 - [Async Alpine — Asynchronous Alpine component loading - Alistair Shepherd](https://www.alistairshepherd.uk/writing/async-alpine/ "Async Alpine — Asynchronous Alpine component loading - Alistair Shepherd")
 - [How I hold myself accountable to my side projects as a dad who works full time](https://www.indiehackers.com/post/how-i-hold-myself-accountable-to-my-side-projects-as-a-dad-who-works-full-time-6a4f0c32ed "How I hold myself accountable to my side projects as a dad who works full time")
 - [Replace JavaScript Dialogs With New HTML Dialog - CSS-Tricks](https://css-tricks.com/replace-javascript-dialogs-html-dialog-element/ "Replace JavaScript Dialogs With New HTML Dialog - CSS-Tricks")
 - [6 Creative Ideas for CSS Link Hover Effects - CSS-Tricks](https://css-tricks.com/css-link-hover-effects/ "6 Creative Ideas for CSS Link Hover Effects - CSS-Tricks")
 - [CSS card shadow effects](https://chenhuijing.com/blog/css-card-shadow-effects/ "CSS card shadow effects")
-- [A CLS punishment for progressive enhancement? - Piccalilli](https://piccalil.li/blog/a-CLS-punishment-for-progressive-enhancement/ "A CLS punishment for progressive enhancement? - Piccalilli")
+- [A CLS punishment for progressive enhancement? - Piccalilli](https://piccalil.li/blog/a-cls-punishment-for-progressive-enhancement/ "A CLS punishment for progressive enhancement? - Piccalilli")
 - [Explain the First 10 Lines of Twitter's Source Code to Me - CSS-Tricks](https://css-tricks.com/explain-the-first-10-lines-of-twitter-source-code/ "Explain the First 10 Lines of Twitter's Source Code to Me - CSS-Tricks")
 - [The Right Space Around Headings in Web Typography - Pimp my Type](https://pimpmytype.com/hugo-md/ "The Right Space Around Headings in Web Typography - Pimp my Type")

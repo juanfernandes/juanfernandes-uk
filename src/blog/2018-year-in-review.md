@@ -32,7 +32,7 @@ Twenty Eighteen was a good year for me, but not so good for the UK, USA or polit
 
 I made it point of avoiding politics in 2018 and will continue to do so in 2019 - be it on social media or in real life. I can't change what politicians want to do and I don't know enough about it, so it just infuriates me.
 
-Social media, in general, had an interesting year - most people now know how much data Facebook has on them and what they can do (and did) with it. Lots of people have left Facebook and even Twitter - there's even a hashtag - [\#DeleteFacebook](https://twitter.com/search?q=%23DeleteFacebook "Delete Facebook hashtag on Twitter").
+Social media, in general, had an interesting year - most people now know how much data Facebook has on them and what they can do (and did) with it. Lots of people have left Facebook and even Twitter - there's even a hashtag - [\#DeleteFacebook](https://x.com/search?q=%23DeleteFacebook "Delete Facebook hashtag on Twitter").
 
 I've been wanting to leave Facebook way before all of this happened - but the one thing that stopped me is that my mum is on there and she calls/messages me on Messenger (Turns out you can use Messenger even if you have deactivated your Facebook account). I've also recently joined a couple of very good groups - I had left the majority of groups I was in and also unliked/unfollowed a LOT of pages. Update: I finally deactivated my Facebook and Instagram accounts on New Year's Eve!
 
@@ -226,7 +226,7 @@ Well, I think that's all I have to say for this year in review post (sorry it's 
 
 Here are the ones I've read so far:
 
-- [Ashley Baxter](https://iamashley.co.uk/2018-year-in-review/ "Ashley Baxter")
+- [Ashley Baxter](https://web.archive.org/web/20191206160653/https://iamashley.co.uk/2018-year-in-review/ "Ashley Baxter")
 - [Dave Rupert](https://daverupert.com/2018/12/twenty-eighteen/ "Dave Rupert")
 - [Ana](https://ohhelloana.blog/the-end-of-2018/ "Ana")
 - [Remy Sharp](https://remysharp.com/2018/12/31/my-2018 "Remy Sharp")

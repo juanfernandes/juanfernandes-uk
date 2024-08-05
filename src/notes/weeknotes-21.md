@@ -35,7 +35,7 @@ Also, as part of the new header, the navigation items are now going to be contro
 Working on components in an isolated way is great, but then, when they have to come together, there's going to be some issues as they are integrated, especially with all of them being part of the header and they have to be 'aware of each other. For example. When a user clicks the menu icon, we activate an overlay and show the menu, but we also have to check if the search component is open, if it is, it needs to be closed. What if the user has the menu (and overlay) open and then they click the search icon to open the search component - we need to _not_ hide the overlay, but close the menu. What seems like a simple design, can start to get complicated when you have so many moving parts.
 
 ## Freelance
-Continued working on my website - mainly working on the blog. I added the [Netlify CMS](https://www.netlifycms.org/ "Netlify CMS") to my site and have started adding my old blog posts to it via the Netlify CMS interface.
+Continued working on my website - mainly working on the blog. I added the [Netlify CMS](https://decapcms.org/ "Netlify CMS") to my site and have started adding my old blog posts to it via the Netlify CMS interface.
 
 I looked into changing my current RSS feed so it shows the entire post, as opposed to just an excerpt but I couldn't get it to work, so I'm just manually copying the posts from my current CMS and into Netlify CMS.
 

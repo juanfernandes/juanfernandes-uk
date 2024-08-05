@@ -39,12 +39,12 @@ tweetId: ''
 - Have added all the music I listed to this month - previously it was just podcasts but I'm not really finding the right time to listen to podcasts.
 
 ## 📺 Watching
-* [Orange Is the New Black](https://www.netflix.com/gb/title/70242311 "Orange Is the New Black")
-* [Stranger Things S4](https://www.netflix.com/gb/title/80057281 "Stranger Things S4")
-* [War Of The Worlds](https://www.disneyplus.com/en-gb/series/war-of-the-worlds/7aLsbcvuOIy9 "War Of The Worlds")
-* [Wu Assassins](https://www.netflix.com/gb/title/80230293 "Wu Assassins")
-* [Power](https://www.netflix.com/gb/title/70298433 "Power")
-* [Bloodline](https://www.netflix.com/gb/title/80010655 "Bloodline")
+* [Orange Is the New Black](https://www.themoviedb.org/tv/1424-orange-is-the-new-black "Orange Is the New Black")
+* [Stranger Things S4](https://www.themoviedb.org/tv/66732-stranger-things "Stranger Things S4")
+* [War Of The Worlds](https://www.themoviedb.org/tv/86374-la-guerre-des-mondes "War Of The Worlds")
+* [Wu Assassins](https://www.themoviedb.org/tv/86752-wu-assassins "Wu Assassins")
+* [Power](https://www.themoviedb.org/tv/54650-power "Power")
+* [Bloodline](https://www.themoviedb.org/tv/61986-bloodline "Bloodline")
 
 ## 📖 Reading
 - [Adding Social Share Links in Eleventy](https://www.raymondcamden.com/2022/08/22/adding-social-share-links-in-eleventy "Adding Social Share Links in Eleventy")
@@ -61,7 +61,7 @@ tweetId: ''
 - [10 Common Vegan Stereotypes (Do They Check Out?) | The Minimalist Vegan](https://theminimalistvegan.com/vegan-stereotypes/ "10 Common Vegan Stereotypes (Do They Check Out?) | The Minimalist Vegan")
 - [CSS isn't broken: Tailwind, utility classes, and CSS architecture](https://gomakethings.com/css-isnt-broken-tailwind-utility-classes-and-css-architecture/ "CSS isn't broken: Tailwind, utility classes, and CSS architecture")
 - [HTML Markup Tips for Developing Accessible Websites](https://thenewstack.io/html-markup-tips-for-developing-accessible-websites/ "HTML Markup Tips for Developing Accessible Websites")
-- [How to Use localStorage in JavaScript: an Easy Guide](https://blog.bitsrc.io/how-to-use-localstorage-in-javascript-an-easy-guide-91aad566e4de "How to Use localStorage in JavaScript: an Easy Guide")
+- [How to Use localStorage in JavaScript: an Easy Guide](https://www.freecodecamp.org/news/use-local-storage-in-modern-applications/ "How to Use localStorage in JavaScript: an Easy Guide")
 - [Peering into the accessibility of Dark Mode](https://uxdesign.cc/peering-into-the-accessibility-of-dark-mode-ab1237b68265 "Peering into the accessibility of Dark Mode")
 - [Getting Clients to Care About Their Website Long Term](https://speckyboy.com/getting-clients-to-care-about-their-website-long-term/ "Getting Clients to Care About Their Website Long Term")
 - [Showing File Types in Links](https://adrianroselli.com/2019/12/showing-file-types-in-links.html "Showing File Types in Links")
@@ -78,7 +78,7 @@ tweetId: ''
 
 
 ## 🎧 Listening
-- [Turn It Up: A Short History of Drum & Bass](https://www.bbc.co.uk/sounds/brand/p0clxkpt "Turn It Up: A Short History of Drum & Bass")
+- [Turn It Up: A Short History of Drum & Bass](https://www.bbc.co.uk/sounds/series/p0hwhn03 "Turn It Up: A Short History of Drum & Bass")
 - [LTJ Bukem Yaman Studio Mix 1 1991](https://www.mixcloud.com/rickywalker167/ltj-bukem-yaman-studio-mix-1-1991/ "LTJ Bukem Yaman Studio Mix 1 1991")
 - [Frost - Back to business](https://www.mixcloud.com/jjfrost2/frost-back-to-business/ "Frost - Back to business")
 - [V Podcast 114 - Hosted by Bryan Gee](https://www.mixcloud.com/v_recordings/v-podcast-114-hosted-by-bryan-gee/ "V Podcast 114 - Hosted by Bryan Gee")

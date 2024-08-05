@@ -31,9 +31,9 @@ Very short update for this month. Mostly personal updates, a lot of articles rea
 
 
 ## 📺 Watching
-- [Bad Blood](https://www.netflix.com/gb/TITLE/80221787 "Bad Blood")
-- [Homeland](https://www.netflix.com/gb/title/70180387 "Homeland")
-- [It's Always Sunny in Philadelphia](https://www.netflix.com/gb/title/70136141 "It's Always Sunny in Philadelphia")
+- [Bad Blood](https://www.themoviedb.org/tv/72742-bad-blood "Bad Blood")
+- [Homeland](https://www.themoviedb.org/tv/1407-homeland "Homeland")
+- [It's Always Sunny in Philadelphia](https://www.themoviedb.org/tv/2710-it-s-always-sunny-in-philadelphia "It's Always Sunny in Philadelphia")
 
 ## 📖 Reading
 - [Use Cases For CSS fit-content - Ahmad Shadeed](https://ishadeed.com/snippet/fit-content/ "Use Cases For CSS fit-content - Ahmad Shadeed")

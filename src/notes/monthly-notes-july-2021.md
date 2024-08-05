@@ -100,5 +100,5 @@ July was a bit of a mixed bag of events and feelings, including having my second
 * [A Complete Guide to Netlify Forms | Stackbit](https://www.stackbit.com/blog/complete-guide-netlify-forms/ "A Complete Guide to Netlify Forms | Stackbit")
 * [Website Accessibility Checklist (15 Things You Can Improve) | websitesetup.org](https://websitesetup.org/web-accessibility-checklist/ "Website Accessibility Checklist (15 Things You Can Improve) | websitesetup.org")
 * [Icon accessibility and aria label](https://gomakethings.com/icon-accessibility-and-aria-label/ "Icon accessibility and aria label")
-* [How to Build a Consistent Content Creation Habit](https://www.jason.af/build-consistent-content-creation-habit/ "How to Build a Consistent Content Creation Habit")
+* [How to Build a Consistent Content Creation Habit](https://jason.energy/build-consistent-content-creation-habit/ "How to Build a Consistent Content Creation Habit")
 * [Supporting Multiple Authors in an Eleventy Blog](https://www.raymondcamden.com/2020/08/24/supporting-multiple-authors-in-an-eleventy-blog "Supporting Multiple Authors in an Eleventy Blog")

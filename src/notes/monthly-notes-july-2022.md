@@ -28,17 +28,17 @@ Yes this is very late. Sorry. July was a bit of a slow month work-wise, both fre
 * First stage of the network cabling and setup for the converted loft space has been done. I got a new network cabinet switch installed in the loft - in the non-converted side
 
 ## 📺 Watching
-* [Bloodline](https://www.netflix.com/gb/title/80010655 "Bloodline")
+* [Bloodline](https://www.themoviedb.org/tv/61986-bloodline "Bloodline")
   When the black sheep son of a respected family threatens to expose dark secrets from their past, sibling loyalties are put to the test.
-* [Cowboy Bebop](https://www.netflix.com/gb/title/80207033 "Cowboy Bebop")
+* [Cowboy Bebop](https://www.themoviedb.org/tv/84469-cowboy-bebop "Cowboy Bebop")
   Long on style and perpetually short on cash, bounty hunters Spike, Jet and Faye trawl the solar system looking for jobs. But can they outrun Spike's past?
-* [Bordertown](https://www.netflix.com/gb/title/80145143 "Bordertown")
+* [Bordertown](https://www.themoviedb.org/tv/68327-sorjonen "Bordertown")
   A gifted detective takes a job in a small town so he can spend more time with his family. But he's soon drawn into a web of disturbing murder cases.
-* [Somewhere Between](https://www.netflix.com/gb/title/80173623 "Somewhere Between")
+* [Somewhere Between](https://www.themoviedb.org/tv/70390-somewhere-between "Somewhere Between")
   A local news producer is given one chance to relive a deadly week and stop a serial killer. If she fails, she'll lose her daughter forever.
-* [Mindhunter](https://www.netflix.com/gb/title/80114855 "Mindhunter")
+* [Mindhunter](https://www.themoviedb.org/tv/67744-mindhunter "Mindhunter")
   In the late 1970s two FBI agents expand criminal science by delving into the psychology of murder and getting uneasily close to all-too-real monsters.
-* [Ozark](https://www.netflix.com/gb/title/80117552 "Ozark")
+* [Ozark](https://www.themoviedb.org/tv/69740-ozark "Ozark")
   A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.
 
 ## 📖 Reading

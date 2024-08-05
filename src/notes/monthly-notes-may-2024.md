@@ -38,7 +38,7 @@ shareLink: ""
 - [User Interviews 101](https://www.nngroup.com/articles/user-interviews/ "User Interviews 101")
 - [Securing client-side JavaScript](https://adactio.com/journal/21104 "Securing client-side JavaScript")
 - [A quick light-dark() experiment](https://daverupert.com/2024/05/light-dark-experiment/ "A quick light-dark() experiment")
-- [Why don’t we talk about minifying CSS anymore?](https://blog.sentry.io/why-dont-we-talk-about-minifying-css/ "Why don’t we talk about minifying CSS anymore?")
+- [Why don’t we talk about minifying CSS anymore?](https://web.archive.org/web/20240703134719/https://blog.sentry.io/why-dont-we-talk-about-minifying-css/ "Why don’t we talk about minifying CSS anymore?")
 - [How to get different Web Components to talk to each other (part 2)](https://gomakethings.com/how-to-get-different-web-components-to-talk-to-each-other-part-2/ "How to get different Web Components to talk to each other (part 2)")
 - [Building a Localised Site with 11ty, Sanity and Netlify](https://www.ryangittings.co.uk/blog/jamstack-localisation-11ty-netlify-sanity/ "Building a Localised Site with 11ty, Sanity and Netlify")
 - [How to get different Web Components to talk to each other (part 1)](https://gomakethings.com/how-to-get-different-web-components-to-talk-to-each-other-part-1/ "How to get different Web Components to talk to each other (part 1)")
