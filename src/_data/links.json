@@ -2257,5 +2257,105 @@
         "excerpt": "I just updated the footer of this site. This is how it looks now. I'm going all corporate and legally official and stuff. Yeah — I hate it, too. You probably…",
         "url": "https://www.stefanjudis.com/blog/web-content-and-copyrights/",
         "date": "July 25, 2024 at 08:03PM"
+    },
+    {
+        "title": "The other shoe dropping on 'AI' and office work",
+        "author": {
+            "name": "Baldur Bjarnason",
+            "url": "https://www.baldurbjarnason.com/"
+        },
+        "excerpt": "From Burnout to Balance: AI-Enhanced Work Models for the Future Nearly half (47%) of workers using AI say they have no idea how to achieve the productivity…",
+        "url": "https://www.baldurbjarnason.com/2024/the-other-ai-shoe-dropping/",
+        "date": "July 29, 2024 at 10:40PM"
+    },
+    {
+        "title": "A modern CMS",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "I absolutely love static site generators. But their biggest weakness (when using them for clients and non-technical folks) is their lack of integrated CMS…",
+        "url": "https://gomakethings.com/a-modern-cms/",
+        "date": "July 29, 2024 at 10:53PM"
+    },
+    {
+        "title": "Losing is part of being a designer",
+        "author": {
+            "name": "Adam Silver",
+            "url": "https://adamsilver.io/"
+        },
+        "excerpt": "Last Sunday I took a break from being a designer to play in the tennis men’s open singles finals. Not at Wimbledon. At my local club in North…",
+        "url": "https://adamsilver.io/blog/losing-is-part-of-being-a-designer/",
+        "date": "July 30, 2024 at 07:39PM"
+    },
+    {
+        "title": "Rebuilding The Web",
+        "author": {
+            "name": "fLaMEd",
+            "url": "https://flamedfury.com/"
+        },
+        "excerpt": "What’s going on, Internet? This one has been bouncing around my head for months now, and I’ve had this draft open for the past three weeks…",
+        "url": "https://flamedfury.com/posts/rebuilding-the-web/",
+        "date": "July 30, 2024 at 07:44PM"
+    },
+    {
+        "title": "Using Figma variables for breakpoints",
+        "author": {
+            "name": "Allie Paschal",
+            "url": "https://paschalallie.medium.com/about"
+        },
+        "excerpt": "The hunt to find more use cases for local variables. At this point in 2023, almost all UX UI designers…",
+        "url": "https://uxdesign.cc/using-figma-variables-for-breakpoints-eff321435306",
+        "date": "July 30, 2024 at 07:51PM"
+    },
+    {
+        "title": "Why you need a killer web design proposal and how to write one",
+        "author": {
+            "name": "Andy Clarke",
+            "url": "https://stuffandnonsense.co.uk/"
+        },
+        "excerpt": "Buy the Killer Proposals template Proposals can also be effective selling tools, answering clients’ questions and encouraging them to hire you. Your goal should…",
+        "url": "https://stuffandnonsense.co.uk/blog/why-you-need-a-killer-web-design-proposal-and-how-to-write-one",
+        "date": "July 31, 2024 at 08:34PM"
+    },
+    {
+        "title": "Instability",
+        "author": {
+            "name": "Robin Rendle",
+            "url": "https://robinrendle.com/"
+        },
+        "excerpt": "I’ve been thinking a lot about how the web is changing. Here’s Nilay Patel: There’s a theory I’ve had for a long time that I’ve been calling “Google Zero” — my…",
+        "url": "https://robinrendle.com/notes/instability/",
+        "date": "July 31, 2024 at 08:44PM"
+    },
+    {
+        "title": "Displays May Be Ultra-Wide, But That Doesn't Mean Your Web Page Should Be",
+        "author": {
+            "name": "Douglas Karr",
+            "url": "https://martech.zone/author/douglaskarr/"
+        },
+        "excerpt": "Chances are, you’ve likely visited a website whose design incorporates the full width of the browser. You may have noticed the content wasn’t easy to digest as…",
+        "url": "https://martech.zone/optimal-web-page-width/",
+        "date": "August 1, 2024 at 07:31PM"
+    },
+    {
+        "title": "Cascade Layers are useless",
+        "author": {
+            "name": "Manuel Matuzovic",
+            "url": "https://www.matuzo.at/"
+        },
+        "excerpt": "Cascade Layers are useless if you don‘t understand the problems they solve and use them in combination with other solutions that tackle…",
+        "url": "https://www.matuzo.at/blog/2023/cascade-layers-are-useless",
+        "date": "August 4, 2024 at 09:23AM"
+    },
+    {
+        "title": "Offloading JavaScript With Custom Properties",
+        "author": {
+            "name": "Heydon Pickering",
+            "url": "https://heydonworks.com/"
+        },
+        "excerpt": "Sometimes a web development client doesn’t know quite what they want. Trying to guess is…",
+        "url": "https://heydonworks.com/article/offloading-javascript-with-custom-properties/",
+        "date": "August 4, 2024 at 09:29AM"
     }
 ]

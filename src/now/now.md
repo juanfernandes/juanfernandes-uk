@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-07-29T10:30:00
+date: 2024-08-05T16:00:00
 class: now
 intro:
   heading: Now
@@ -12,11 +12,10 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
-* My ex-girlfriend got back together and are working things out.
-* Planning my next tattoo.
+* Went to [Dreamland](https://www.dreamland.co.uk/ "Dreamland") in Margate to watch [The Roots](https://www.theroots.com/ "The Roots") live with [De La Soul](https://www.wearedelasoul.com/ "De La Soul") and [The Pharcyde](https://thepharcyde.com/ "The Pharcyde") supporting. A great few days away and I got to see three of my favourite Hip Hop groups live!
 
 ## Work
-* Work wise - that's not good either, last year my role was changed from Front-end Dev to UX/UI Designer and this year, a few months ago we finally got a Head of UX. I've tried doing the UX role and I don't like it. I like designing with UX in mind, but not doing all the research or all the written work etc.
+* Focusing on two pieces of design work. One is a small design fix, but the other is a bigger piece which involves an integration with a third party video provider - feels good to actually have something to make you think.
 
 ## Watching
 * [Money Heist](https://www.themoviedb.org/tv/71446-la-casa-de-papel "Money Heist")
