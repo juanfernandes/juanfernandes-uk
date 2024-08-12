@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-08-05T16:00:00
+date: 2024-08-12T12:00:00
 class: now
 intro:
   heading: Now
@@ -12,7 +12,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
-* Went to [Dreamland](https://www.dreamland.co.uk/ "Dreamland") in Margate to watch [The Roots](https://www.theroots.com/ "The Roots") live with [De La Soul](https://www.wearedelasoul.com/ "De La Soul") and [The Pharcyde](https://thepharcyde.com/ "The Pharcyde") supporting. A great few days away and I got to see three of my favourite Hip Hop groups live!
+* Mudt have caught a cold whilst away in Kent last weekend as I've had one all week. And to top it all pff, I lost a filling so have also had toothache to deal with. Yay.
 
 ## Work
 * Focusing on two pieces of design work. One is a small design fix, but the other is a bigger piece which involves an integration with a third party video provider - feels good to actually have something to make you think.

@@ -2357,5 +2357,95 @@
         "excerpt": "Sometimes a web development client doesn’t know quite what they want. Trying to guess is…",
         "url": "https://heydonworks.com/article/offloading-javascript-with-custom-properties/",
         "date": "August 4, 2024 at 09:29AM"
+    },
+    {
+        "title": "Just Build Websites",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "Here’s something you might not know about me: I like to play golf. As such, I follow a couple of golf-related brands on social media as a guilty pleasure. The…",
+        "url": "https://blog.jim-nielsen.com/2024/just-build-websites/",
+        "date": "August 5, 2024 at 07:05PM"
+    },
+    {
+        "title": "Own Your Web – Issue 15: Home Sweet Home",
+        "author": {
+            "name": "Matthias Ott",
+            "url": "https://matthiasott.com/"
+        },
+        "excerpt": "Let’s talk about the first thing many of your visitors will see and thus one of the most important places on any personal website: the home page. “The…",
+        "url": "https://buttondown.email/ownyourweb/archive/issue-15/",
+        "date": "August 5, 2024 at 07:11PM"
+    },
+    {
+        "title": "Bye bye build steps",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "I’m removing all build steps from all of my websites. I’m just so damn sick of having to install NPM scripts and run CLI commands every time I want to update my…",
+        "url": "https://gomakethings.com/bye-bye-build-steps/",
+        "date": "August 7, 2024 at 09:06AM"
+    },
+    {
+        "title": "Vanilla CSS and efficiencies over Sass",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "I wrote about how I ditched my Sass build step for vanilla CSS. As part of that process, I ended up refactoring a lot of code in a way that made it…",
+        "url": "https://gomakethings.com/vanilla-css-and-efficiencies-over-sass/",
+        "date": "August 7, 2024 at 02:47PM"
+    },
+    {
+        "title": "Highlight Text When a User Scrolls Down to That Piece of Text",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://chriscoyier.net/"
+        },
+        "excerpt": "I was reading a great post on Lene Saile’s blog and noticed a cool little design feature on her site that highlights a line of text once you scroll to it…",
+        "url": "https://frontendmasters.com/blog/highlight-text-when-a-user-scrolls-down-to-that-piece-of-text/",
+        "date": "August 8, 2024 at 07:47PM"
+    },
+    {
+        "title": "Design Patterns that Encourage Junk Data",
+        "author": {
+            "name": "Michelle Barker",
+            "url": "https://css-irl.info/design-patterns-that-encourage-junk-data/"
+        },
+        "excerpt": "A post from Remy on Mastodon recently got me thinking: Been picking up some of the jsbin archive work. Today, there's currently 62 millions bins stored. The…",
+        "url": "https://css-irl.info/design-patterns-that-encourage-junk-data/",
+        "date": "August 8, 2024 at 07:55PM"
+    },
+    {
+        "title": "A feed for everything and everything in a feed",
+        "author": {
+            "name": "Cory Dransfeldt",
+            "url": "https://coryd.dev/"
+        },
+        "excerpt": "At the moment my site has 6 different feeds. 5 RSS feeds, an ICS feeds and JSON versions of the 5 RSS feeds. I was asked how they're put together and, well…",
+        "url": "https://coryd.dev/posts/2024/a-feed-for-everything-and-everything-in-a-feed/",
+        "date": "August 11, 2024 at 08:15AM"
+    },
+    {
+        "title": "Flat files and data portability",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/flat-files-and-data-portability/"
+        },
+        "excerpt": "The more I work with flat files, the more I love them over a traditional database setup. Let’s dig in! What is flat file storage? A flat is just a file you can…",
+        "url": "https://gomakethings.com/flat-files-and-data-portability/",
+        "date": "August 11, 2024 at 08:16AM"
+    },
+    {
+        "title": "Struggle and process",
+        "author": {
+            "name": "Robin Rendle",
+            "url": "https://robinrendle.com/"
+        },
+        "excerpt": "The way I’ve seen great work made isn’t using any sort of design process. It’s skipping steps when we deem them unnecessary. It’s doing them out of order just…",
+        "url": "https://robinrendle.com/notes/struggle-and-process/",
+        "date": "August 11, 2024 at 08:21AM"
     }
 ]
