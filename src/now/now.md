@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-08-12T12:00:00
+date: 2024-09-02T17:00:00
 class: now
 intro:
   heading: Now
@@ -12,14 +12,13 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
-* Mudt have caught a cold whilst away in Kent last weekend as I've had one all week. And to top it all pff, I lost a filling so have also had toothache to deal with. Yay.
+* Summer holidays are over as they're back to school this week. I had an extra long weekend - Friday and Monday off as I was supposed to be going somewhere but it got cancelled, I still enjoyed the break.
 
-## Work
-* Focusing on two pieces of design work. One is a small design fix, but the other is a bigger piece which involves an integration with a third party video provider - feels good to actually have something to make you think.
+* Got rid of my Digital Ocean droplet to try and save some money. I was using it to host a nextcloud instance but I figured I could just host it locally instead.
 
 ## Watching
-* [Money Heist](https://www.themoviedb.org/tv/71446-la-casa-de-papel "Money Heist")
-  To carry out the biggest heist in history, a mysterious man called The Professor recruits a band of eight robbers who have a single characteristic: none of them has anything to lose. Five months of seclusion - memorizing every step, every detail, every probability - culminate in eleven days locked up in the National Coinage and Stamp Factory of Spain, surrounded by police forces and with dozens of hostages in their power, to find out whether their suicide wager will lead to everything or nothing.
+* [Wu-Tang: An American Saga](https://www.themoviedb.org/tv/90870-wu-tang-an-american-saga "Wu-Tang: An American Saga")
+  In the early 1990s in New York, during the height of the crack cocaine epidemic, a visionary musician named Bobby Diggs aka The RZA begins to form a super group of a dozen young, black men, who will eventually rise to become one of the unlikeliest success stories in American music history.
 
 * [Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")
   Rewatch: Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.

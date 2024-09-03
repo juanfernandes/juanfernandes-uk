@@ -2447,5 +2447,195 @@
         "excerpt": "The way I’ve seen great work made isn’t using any sort of design process. It’s skipping steps when we deem them unnecessary. It’s doing them out of order just…",
         "url": "https://robinrendle.com/notes/struggle-and-process/",
         "date": "August 11, 2024 at 08:21AM"
+    },
+    {
+        "title": "My Failed Personal Site Redesign",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "tfw when you have an idea for a personal website redesign, and then you build it, and then you hate it, and then you have to decide whether to ship it anyway or…",
+        "url": "https://blog.jim-nielsen.com/2024/my-failed-peronsal-site-redesign/",
+        "date": "August 15, 2024 at 10:55PM"
+    },
+    {
+        "title": "The area element",
+        "author": {
+            "name": "Heydon Pickering",
+            "url": "https://heydonworks.com/"
+        },
+        "excerpt": "If you’ve never killed a Tamagotchi, you’ve probably never used an <area> element. Like Tamagotchis, <area> elements used to be all the rage…",
+        "url": "https://heydonworks.com/article/the-area-element/",
+        "date": "August 15, 2024 at 11:00PM"
+    },
+    {
+        "title": "How to detect when attributes change on a Web Component",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Yesterday, we looked at the Web Component lifecycle. While Web Components don’t have data reactivity, one of the lifecycle methods built into the Web Component…",
+        "url": "https://gomakethings.com/how-to-detect-when-attributes-change-on-a-web-component/",
+        "date": "August 15, 2024 at 11:14PM"
+    },
+    {
+        "title": "How to avoid optional form fields with a conditional reveal",
+        "author": {
+            "name": "Adam Silver",
+            "url": "https://adamsilver.io/"
+        },
+        "excerpt": "The first rule of form design is to only ask for information you actually need to give users a good experience. But sometimes asking for…",
+        "url": "https://adamsilver.io/blog/how-to-avoid-optional-form-fields-with-a-conditional-reveal/",
+        "date": "August 16, 2024 at 11:17PM"
+    },
+    {
+        "title": "font-size Limbo",
+        "author": {
+            "name": "Sebastian Laube",
+            "url": "https://sebastianlaube.de/"
+        },
+        "excerpt": "One point from Alvaro Montoro's CSS One-Liners post triggered me. Increase the text size body size…",
+        "url": "https://sebastianlaube.de/en/blog/font-size-limbo",
+        "date": "August 16, 2024 at 11:18PM"
+    },
+    {
+        "title": "What about searching flat files?",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "On Friday, I wrote about why I love using flat text files instead of a database for my projects. One of the more common questions I got was how I search for…",
+        "url": "https://gomakethings.com/what-about-searching-flat-files/",
+        "date": "August 17, 2024 at 09:56PM"
+    },
+    {
+        "title": "Things to Do Before Asking “Is This Accessible?”",
+        "author": {
+            "name": "Adrian Roselli",
+            "url": "https://adrianroselli.com/"
+        },
+        "excerpt": "It is not uncommon for someone to message, call, email, or carrier pigeon me to ask if something is accessible. They almost invariably want a…",
+        "url": "https://adrianroselli.com/2024/08/things-to-do-before-asking-is-this-accessible.html",
+        "date": "August 17, 2024 at 09:59PM"
+    },
+    {
+        "title": "80 / 20 accessibility",
+        "author": {
+            "name": "Marcus Herrmann",
+            "url": "https://marcus.io/"
+        },
+        "excerpt": "Many people are confronted with the topic of web accessibility for the first time as a result of the EAA (European Accessibility Act) (why this conftontation…",
+        "url": "https://marcus.io/blog/80-20-accessibility",
+        "date": "August 18, 2024 at 10:23AM"
+    },
+    {
+        "title": "heading-anchors Web Component",
+        "author": {
+            "name": "David Darnes",
+            "url": "https://darn.es/"
+        },
+        "excerpt": "A long time ago, I wrote an article on how to add anchor links to headings in Jekyll. It got a fair amount of interest, and I was pretty pleased with the code I…",
+        "url": "https://darn.es/heading-anchors-web-component/",
+        "date": "August 21, 2024 at 10:10AM"
+    },
+    {
+        "title": "10 Figma Keyboard Shortcuts: A Cheat Sheet for UX Designers",
+        "author": {
+            "name": "Emilyann Gachko",
+            "url": "https://designlab.com/blog-authors/emilyann-gachko"
+        },
+        "excerpt": "As a UX Designer, working efficiently is always a priority—and leveraging the full power of your design tools can help. Figma offers a plethora of keyboard…",
+        "url": "https://designlab.com/blog/10-figma-keyboard-shortcuts-a-cheat-sheet-for-ux-designers",
+        "date": "August 21, 2024 at 10:14AM"
+    },
+    {
+        "title": "Blog Posts vs. Social Posts",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "From Emil Kowalski’s newsletter (my Feedbin cache for your convenience): I started writing more blog posts recently. I like it because it's different than X…",
+        "url": "https://blog.jim-nielsen.com/2024/blog-vs-social-posts/",
+        "date": "August 22, 2024 at 08:48AM"
+    },
+    {
+        "title": "The aside element",
+        "author": {
+            "name": "Heydon Pickering",
+            "url": "https://heydonworks.com/"
+        },
+        "excerpt": "If you’re reading these HTML element guides alphabetically, you will have already read about <article> and learned what a sectioning element is.…",
+        "url": "https://heydonworks.com/article/the-aside-element/",
+        "date": "August 28, 2024 at 07:02PM"
+    },
+    {
+        "title": "New Workflow for Publishing Notes: Content in Dropbox, Code in GitHub",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "I recently changed my workflow around authoring and publishing my site notes.jim-nielsen.com. Here’s the rundown. Before Pretty standard JAMstack type stuff.…",
+        "url": "https://blog.jim-nielsen.com/2024/notes-site-via-content-in-dropbox/",
+        "date": "August 28, 2024 at 10:02PM"
+    },
+    {
+        "title": "Paragraphs",
+        "author": {
+            "name": "Scott O'Hara",
+            "url": "https://www.scottohara.me/"
+        },
+        "excerpt": "Consider the following: I am a paragraph. I am also a paragraph. You might hate it, but I'm a paragraph too. Even I am a paragraph. Though I'm a list item as…",
+        "url": "https://www.scottohara.me/blog/2024/08/29/paragraphs.html",
+        "date": "August 29, 2024 at 07:22PM"
+    },
+    {
+        "title": "Dynamic Importing with Eleventy",
+        "author": {
+            "name": "Trevor Morris",
+            "url": "https://www.trovster.com/"
+        },
+        "excerpt": "After organising Eleventy filters, shortcodes etc I had an idea to tidy the code even more and make it dynamic. I wanted to automatically import any new…",
+        "url": "https://www.trovster.com/blog/2024/08/dynamic-importing-with-eleventy",
+        "date": "August 30, 2024 at 09:57PM"
+    },
+    {
+        "title": "The secret inside One Million Checkboxes",
+        "author": {
+            "name": "Nolen Royalty",
+            "url": "http://eieio.games/"
+        },
+        "excerpt": "A few days into making One Million Checkboxes I thought I’d been hacked. What was that doing in my database? A few hours later I was tearing up, proud of some…",
+        "url": "http://eieio.games/essays/the-secret-in-one-million-checkboxes/",
+        "date": "August 30, 2024 at 09:57PM"
+    },
+    {
+        "title": "Gardening and code",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "There’s a section of my yard where not much grows. We tried to get turf grass to grow for years. Wasted a ton of time, money, and resources on seeds, water,…",
+        "url": "https://gomakethings.com/gardening-and-code/",
+        "date": "August 30, 2024 at 09:58PM"
+    },
+    {
+        "title": "Hourly Billing Is Stopping Your Growth",
+        "author": {
+            "name": "Kyle Prinsloo",
+            "url": "https://www.kyleprinsloo.com/"
+        },
+        "excerpt": "Do you want to earn more, work less and be a more fulfilled freelancer?",
+        "url": "https://www.kyleprinsloo.com/articles/stop-billing-hourly",
+        "date": "September 1, 2024 at 07:45PM"
+    },
+    {
+        "title": "Organising Eleventy Filters, Shortcodes and more…",
+        "author": {
+            "name": "Trevor Morris",
+            "url": "https://www.trovster.com/"
+        },
+        "excerpt": "I work a lot with the Laravel framework, which scaffolds much of your initial setup and has conventions for where code should be stored. Starting a brand new…",
+        "url": "https://www.trovster.com/blog/2024/08/organising-eleventy-filters-shortcodes-and-more",
+        "date": "September 1, 2024 at 08:23PM"
     }
 ]
