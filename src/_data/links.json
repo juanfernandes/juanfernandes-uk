@@ -1,4 +1,4 @@
-[
+    [
     {
         "title": "Expanding Grid Cards with View Transitions",
         "author": {
@@ -2637,5 +2637,55 @@
         "excerpt": "I work a lot with the Laravel framework, which scaffolds much of your initial setup and has conventions for where code should be stored. Starting a brand new…",
         "url": "https://www.trovster.com/blog/2024/08/organising-eleventy-filters-shortcodes-and-more",
         "date": "September 1, 2024 at 08:23PM"
+    },
+    {
+        "title": "Sanding UI",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "One of the ways I like to do development is to build something, click around a ton, make tweaks, click around more, more tweaks, more clicks, etc., until I…",
+        "url": "https://blog.jim-nielsen.com/2024/sanding-ui/",
+        "date": "September 4, 2024 at 09:29PM"
+    },
+    {
+        "title": "Different ways to use “--patch” in Git",
+        "author": {
+            "name": "Tekin Süleyman",
+            "url": "https://tekin.co.uk/"
+        },
+        "excerpt": "I’ve written previously about using --patch to interactively stage changes. But did you know that you can use --patch (aka -p) to similar effect with other Git…",
+        "url": "https://tekin.co.uk/2024/08/the-many-uses-for-git-patch",
+        "date": "September 4, 2024 at 09:36PM"
+    },
+    {
+        "title": "Personal Websites Are As Vulnerable As Us",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "I look at some people’s personal websites and think, “Stupendous! If I ever reach that zenith of personal web design, I will call it quits.” Then I read a post…",
+        "url": "https://blog.jim-nielsen.com/2024/personal-website-vulnerability/",
+        "date": "September 5, 2024 at 10:04PM"
+    },
+    {
+        "title": "Popover API is Here",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://chriscoyier.net/"
+        },
+        "excerpt": "The Popover API has support across browsers now, and apparently the new way to say that is “landed in Baseline”, albeit as “newly available” rather than “widely…",
+        "url": "https://frontendmasters.com/blog/popover-api-is-here/",
+        "date": "September 5, 2024 at 10:38PM"
+    },
+    {
+        "title": "Basic accessibility mistakes I often see in audits",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "When I start working with new consulting clients , one of the first things I like to do is an audit of their existing site. I’m primarily looking for…",
+        "url": "https://gomakethings.com/basic-accessibility-mistakes-i-often-see-in-audits/",
+        "date": "September 6, 2024 at 07:07PM"
     }
 ]

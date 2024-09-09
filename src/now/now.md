@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-09-02T17:00:00
+date: 2024-09-09T20:00:00
 class: now
 intro:
   heading: Now
