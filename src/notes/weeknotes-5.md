@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #5'
 description: >-
   My week didn't have a great start but it got much better towards the end. Did

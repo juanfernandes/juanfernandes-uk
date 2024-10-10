@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: December 2022'
 description: Pretty much did nothing the whole of December and some of you who follow me on social media will know why.

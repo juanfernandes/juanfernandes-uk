@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: "post"
 postImage: v1579162295/trianglify.png
 title: TIL - Webmention and URLs
 description: Creating a post with a title that has uppercase letters, like IR35 -

@@ -1,5 +1,6 @@
 ---
 layout: 'post'
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: July 2023'
 description: "July has been a much better month. It's been a month since I moved out of my home and started living in a rented flat. Got to see the Red Hot Chilli Peppers live in London."

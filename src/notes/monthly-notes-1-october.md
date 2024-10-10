@@ -1,7 +1,8 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Monthly Notes #1: October'
-description: >-
+description:
   I struggled to keep up with writing weekly notes since I cut my days at the
   office down to just three and they felt like they were the same thing every
   week and I didn't have much to write every week - so I am not trying a monthly

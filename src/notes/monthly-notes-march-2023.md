@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: March 2023'
 description: "I only realised March was over about one week into April so that's why this post is so late."

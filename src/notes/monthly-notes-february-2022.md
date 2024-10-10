@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: February 2022'
 description: Very short update for this month. Mostly personal updates, a lot of articles read and some freelance work

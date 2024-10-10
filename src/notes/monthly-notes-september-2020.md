@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/v1579162295/trianglify.png"
 title: 'Monthly Notes: September 2020'
 description: September flew by. Not much to report as it was a quiet month on the

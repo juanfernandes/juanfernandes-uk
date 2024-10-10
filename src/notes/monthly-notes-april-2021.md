@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: April 2021'
 description: Busy month adjusting to being a permanent employee again and finishing

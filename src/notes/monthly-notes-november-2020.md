@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/v1579162295/trianglify.png"
 title: 'Monthly Notes: November 2020'
 description: Don't you hate when you go from having no work to then having way too

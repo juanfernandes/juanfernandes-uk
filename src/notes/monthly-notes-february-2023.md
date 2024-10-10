@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: February 2023'
 description: "Well, February was definitely an improvement for me. Better focused at work and actually got some work done. Started dating someone and it's going well. The house is now listed for sale and have got a mortgage in principle. Things are a lot better now."

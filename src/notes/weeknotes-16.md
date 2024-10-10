@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #16'
 description: >-
   Started a new contract on Monday, working for Signet Jewellers aka H.Samuel

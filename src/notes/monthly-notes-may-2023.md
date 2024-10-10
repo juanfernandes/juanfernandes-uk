@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: May 2023'
 description: "May did not end on a happy note, unfortunately. I’m now technically homeless, and I no longer have my dog."

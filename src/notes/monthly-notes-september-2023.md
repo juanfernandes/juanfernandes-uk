@@ -1,5 +1,6 @@
 ---
 layout: 'post'
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: September 2023'
 description: "Not a busy month, but wish it was less stressful. Managed to work on my personal website, which was a good a distraction."

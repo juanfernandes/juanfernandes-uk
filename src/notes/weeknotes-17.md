@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #17'
 description: >-
   Another bank holiday week but it was a very busy weekend. Second week at my

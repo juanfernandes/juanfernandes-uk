@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #4'
 description: It's been another tiring week, but I felt it went by fairly quickly.
   Tiring because I did about ten hours of driving this week to my new contract. But

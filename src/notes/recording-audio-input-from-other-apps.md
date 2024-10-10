@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: "post"
 postImage: "/v1579162295/og.jpg"
 title: Recording audio input from other apps
 description: Turns out that you can't easily recorded audio from one app to another

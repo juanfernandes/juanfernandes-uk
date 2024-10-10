@@ -1,5 +1,6 @@
 ---
 layout: 'post'
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: August 2023'
 description: "August was a VERY expensive month for me - what with getting the car back and getting it back on the road (MOT, tax & insurance) as well as paying for a mortgage advisor and mortgage."

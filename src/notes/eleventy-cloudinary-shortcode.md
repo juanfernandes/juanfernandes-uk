@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: "post"
 postImage: "/v1579162295/og.jpg"
 introClass: intro--sml
 title: Eleventy Cloudinary Shortcode

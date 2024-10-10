@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/v1579162295/trianglify.png"
 title: 'Monthly Notes: October 2020'
 description: October was a surprisingly busy month which is a good thing after months

@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #22'
 description: >-
   This weeknotes has been in my drafts for a few weeks now. It only takes

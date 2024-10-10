@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/src/assets/imgs/og.jpg"
 title: 'Monthly Notes: December 2020'
 description: Not a very busy month as the year comes to an end and things slow down

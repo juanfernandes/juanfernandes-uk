@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: "post"
 postImage: "/v1579162295/trianglify.png"
 title: Escaping Nunjucks code in a markdown code block
 description: Turns out you need to escape Nunjucks code within a markdown code block.

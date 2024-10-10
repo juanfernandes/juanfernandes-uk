@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #1'
 description: >-
   My first #weeknotes. I really like the idea of these - just like the yearly

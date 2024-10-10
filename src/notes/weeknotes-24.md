@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #24'
 description: >-
   Not a lot to write about this week. Still really busy with my current contract

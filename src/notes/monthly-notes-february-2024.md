@@ -1,5 +1,6 @@
 ---
 layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: February 2024"
 description: "Celebrated my one-year anniversary with my girlfriend, my eldest visiting sixth form college, and the house was relisted for sale with new estate agents."

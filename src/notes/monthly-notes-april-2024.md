@@ -1,5 +1,6 @@
 ---
 layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: April 2024"
 description: "Oof, what a month. Huge improvement in lots of aspects. The house still has not sold or even had any interest - it seems we'll have no choice but opt for a cash buy out. Lots of changes at work and did some updates on my website."

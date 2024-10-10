@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: "post"
 postImage: "/v1579162295/trianglify.png"
 title: 'Changelog: Added Webmentions'
 description: 'Webmentions are a way to show social media comments and interactions on your website.'

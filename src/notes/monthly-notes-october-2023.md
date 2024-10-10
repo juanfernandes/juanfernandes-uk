@@ -1,5 +1,6 @@
 ---
 layout: 'post'
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: October 2023'
 description: "October - lots more upheaval on a personal level - but we had Halloween and the kids really enjoyed it. Started working on a new design for this website."

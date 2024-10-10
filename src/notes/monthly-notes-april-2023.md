@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: April 2023'
 description: "Been feeling a lot better about my personal situation, celebrated a 2-month anniversary with my girlfriend. Went bowling with my children, and my eldest celebrated turning fifteen."

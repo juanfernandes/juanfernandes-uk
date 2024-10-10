@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #9'
 description: >-
   This week I was in Manchester for my new contract. I was only there for two

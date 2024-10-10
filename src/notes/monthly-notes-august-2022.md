@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: August 2022'
 description: "August saw quite a lot of change for my family and me. We've switched to a mostly plant-based diet and have also started to venture into minimalism."

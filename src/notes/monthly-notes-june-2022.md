@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: June 2022'
 description: "I'm way behind on these monthly blog posts that I've decided to forget about the last few months. There hasn't been much to write about these last few months, plus I've just been too busy with life and house stuff."

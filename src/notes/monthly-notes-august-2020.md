@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/v1579162295/trianglify.png"
 title: 'Monthly Notes: August 2020'
 description: "Augusts' monthly notes are mostly personal and shorter than usual as

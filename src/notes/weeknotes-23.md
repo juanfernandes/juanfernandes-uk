@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #23'
 description: >-
   As my current contract gets busier and we head towards a huge deadline, I'm a

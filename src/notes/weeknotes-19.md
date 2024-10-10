@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #19'
 description: >-
   I'm sounding like a broken record, but it has been yet another slow week.

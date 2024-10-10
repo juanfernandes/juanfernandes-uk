@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #7'
 description: >-
   Well, it was another uneventful and unproductive week - I've been distracted

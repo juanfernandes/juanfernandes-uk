@@ -1,5 +1,6 @@
 ---
 layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: July 2024"
 description: "It's been a quiet month, with summer approaching and my eldest daughter nearly done with her GCSEs. I haven't worked on any major projects, just some minor fixes on this website. My house is now listed for sale through a digital auction, similar to eBay for houses—waiting to see how that turns out."

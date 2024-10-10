@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: "post"
 postImage: "/v1579162295/trianglify.png"
 title: 'Changelog: Blocking GoogleBot and ChatGPT bot'
 description: 'With the rise of AI and companies profiting from free content online, I, like many others have decided to just block access to those bots'

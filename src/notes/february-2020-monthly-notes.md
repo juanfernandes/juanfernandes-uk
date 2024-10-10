@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/v1579162295/og.jpg"
 title: 'February 2020: Monthly Notes'
 description: February was a good month for me as I released my first open-source project

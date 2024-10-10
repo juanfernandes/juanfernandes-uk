@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #20'
 description: >-
   After a bit of an unscheduled break, my weeknotes are back. You may notice

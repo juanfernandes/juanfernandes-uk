@@ -1,5 +1,6 @@
 ---
 layout: 'post'
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: January 2024'
 description: "Pretty slow start to the year - which is a good thing considering the year I've just had. Trying to get on with my new life but still one big tie to my ex which is the house."

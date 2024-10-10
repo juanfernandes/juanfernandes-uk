@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #10'
 description: >-
   This weeks 'weeknotes' is being posted a bit later than usual. I was supposed

@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #21'
 description: >-
   Work on the new header continues for one of the brands and the pressure is on

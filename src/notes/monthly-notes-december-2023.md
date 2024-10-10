@@ -1,5 +1,6 @@
 ---
 layout: 'post'
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: December 2023'
 description: "I planned on doing lots of work on the new version of this website over the Christmas holidays, but then I bought loads of beers instead. Had a great Christmas and went to Nottingham for a hip hop concert."

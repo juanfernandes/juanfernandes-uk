@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #12'
 description: >-
   Short week at work due to the bank holidays in the UK. First time working from

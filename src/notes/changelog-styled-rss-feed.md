@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: "post"
 postImage: "/v1579162295/trianglify.png"
 title: 'Changelog: Styled RSS Feed'
 description: 'Used XSL to style my main RSS Feed'

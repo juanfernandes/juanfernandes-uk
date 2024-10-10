@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/v1579162295/trianglify.png"
 title: 'Monthly Notes: January 2021'
 description: January has been a good month with a steady flow of work and spending

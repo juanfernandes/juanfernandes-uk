@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #11'
 description: >-
   Another short week notes this week due to a short week and a long bank holiday

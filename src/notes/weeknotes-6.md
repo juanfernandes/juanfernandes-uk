@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #6'
 description: >-
   It's been another pretty uneventful week apart from all the wind we had here

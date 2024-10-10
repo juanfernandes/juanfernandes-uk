@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #18'
 description: >-
   Bit of a slow week at work while we wait for the new UX Designer to get

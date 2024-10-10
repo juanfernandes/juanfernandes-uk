@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/v1579162295/og.jpg"
 title: 'June 2020: Monthly Notes'
 description: Wowsers, we are already halfway through the year and what a terrible

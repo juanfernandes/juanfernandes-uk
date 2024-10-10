@@ -1,5 +1,6 @@
 ---
 layout: 'post'
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: June 2023'
 description: "June was a really shit month. I lost my best friend. The relationship between my ex-wife went from amicable to hostile, which forced me to move out."

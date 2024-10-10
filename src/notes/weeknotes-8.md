@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 title: 'Weeknotes #8'
 description: >-
   This week started with me handing in my notice at my then-current contract. I

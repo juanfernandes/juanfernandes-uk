@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: March 2022'
 description: 'Not a lot happened in March which is not too bad, apart from the lack of work and downtime at work, which makes for a long and boring day. Continue working on a freelance website project.'

@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: January 2023'
 description: January has been pretty quiet, and again I've not done much other than turn up for work, do some work and then spend the evening in my room watching TV on my own.

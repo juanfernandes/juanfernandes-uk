@@ -1,5 +1,6 @@
 ---
 layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: March 2024"
 description: "I didn't make any notes for March, it seems, and looking back at the calendar it seems like nothing worthy of mentioning happened."

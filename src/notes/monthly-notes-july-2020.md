@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/v1579162295/og.jpg"
 title: 'Monthly Notes: July 2020'
 description: July has been a bit slow going as I slowly get back into web development,

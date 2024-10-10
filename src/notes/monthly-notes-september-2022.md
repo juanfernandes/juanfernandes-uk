@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: September 2022'
 description: "Bit of a slow month. I started working on a Books section on my website and worked on a complex membership table build."

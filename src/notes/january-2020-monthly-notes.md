@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: "/v1579162295/og.jpg"
 title: 'January 2020: Monthly Notes'
 description: January has been a surprisingly busy month - it's normally a bit quieter

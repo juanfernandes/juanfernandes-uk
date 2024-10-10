@@ -1,5 +1,6 @@
 ---
-layout: layouts/post.njk
+layout: "post"
+eleventyExcludeFromCollections: true
 postImage: v1579162295/trianglify.png
 title: 'Monthly Notes: January 2022'
 description: Wowsers January flew by. I started the year with a detox. Set a reading goal of 10 books - only managed four last year...

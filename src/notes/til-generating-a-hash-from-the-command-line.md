@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: "post"
 postImage: v1579162295/trianglify.png
 title: 'TIL: Generating a hash from the command line'
 description: Since adding Content Security Policies to my website, I need to add a
