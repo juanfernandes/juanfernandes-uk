@@ -2687,5 +2687,95 @@
         "excerpt": "When I start working with new consulting clients , one of the first things I like to do is an audit of their existing site. I’m primarily looking for…",
         "url": "https://gomakethings.com/basic-accessibility-mistakes-i-often-see-in-audits/",
         "date": "September 6, 2024 at 07:07PM"
+    },
+    {
+        "title": "Auto Layout in Figma: to use or not to use?",
+        "author": {
+            "name": "",
+            "url": "https://rafaltomal.ck.page/"
+        },
+        "excerpt": "Lately, I’ve been thinking a lot about the debate around auto layout in Figma. On one side, you’ve got designers who say skipping auto layout makes their work…",
+        "url": "https://rafaltomal.ck.page/posts/auto-layout-in-figma-to-use-or-not-to-use",
+        "date": "September 17, 2024 at 03:05PM"
+    },
+    {
+        "title": "Good forms",
+        "author": {
+            "name": "Dave Rupert",
+            "url": "https://daverupert.com/"
+        },
+        "excerpt": "Brian LeRoux posted a few thoughts about forms and the idea of a “good form” resonated with me so I dogpiled some of my own thoughts and experiences on it.…",
+        "url": "https://daverupert.com/2024/09/good-forms/",
+        "date": "September 17, 2024 at 03:09PM"
+    },
+    {
+        "title": "Animating height with only CSS",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "I love ditching JavaScript for HTML and CSS whenever I can. It’s a core part of the Lean Web Club ethos. In particular, one of my favorite sets of HTML elements…",
+        "url": "https://gomakethings.com/animating-height-with-only-css/",
+        "date": "October 1, 2024 at 04:27PM"
+    },
+    {
+        "title": "Removing link underline styles between icons and text",
+        "author": {
+            "name": "Chris Kirk-Nielsen",
+            "url": "https://chriskirknielsen.com/"
+        },
+        "excerpt": "I recently made a little update to my site with a blogroll that includes the linked site’s favicon. I think it’s good to have that icon be clickable, so I…",
+        "url": "https://chriskirknielsen.com/blog/remove-link-underline-styling-between-icon-and-text/",
+        "date": "October 1, 2024 at 04:32PM"
+    },
+    {
+        "title": "Should form labels be wrapped or separate?",
+        "author": {
+            "name": "James Edwards",
+            "url": "https://www.tpgi.com/author/brothercake/"
+        },
+        "excerpt": "Several times this year, I’ve answered variations of the following question: Is it strictly necessary for form fields and labels to have for/id association, or…",
+        "url": "https://www.tpgi.com/should-form-labels-be-wrapped-or-separate/",
+        "date": "October 3, 2024 at 11:02AM"
+    },
+    {
+        "title": "The role of Web Components in your site or app",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Last week, Ryan Carniato, the guy who made SolidJS, wrote an article about how Web Components are not the future. The nicest thing I can say about it is that…",
+        "url": "https://gomakethings.com/the-role-of-web-components-in-your-site-or-app/",
+        "date": "October 3, 2024 at 11:05AM"
+    },
+    {
+        "title": "Putting the “Person” in “Personal Website”",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "The other day I saw a meme that went something like this: Isn’t it crappy how basic human activities like singing, dancing, and making art have been turned into…",
+        "url": "https://blog.jim-nielsen.com/2024/person-in-personal-website/",
+        "date": "October 5, 2024 at 09:46AM"
+    },
+    {
+        "title": "Going beyond pixels and (r)ems in CSS",
+        "author": {
+            "name": "Brecht De Ruyte",
+            "url": "https://utilitybend.com/"
+        },
+        "excerpt": "Relative length units based on font - iO tech_hub   I will base this article on a list found at MDN as a reference but will add some extra upcoming things in the mix later on. The idea is that this is more than…",
+        "url": "https://techhub.iodigital.com/articles/going-beyond-pixels-and-rems-in-css/relative-length-units-based-on-font",
+        "date": "October 16, 2024 at 06:29PM"
+    },
+    {
+        "title": "A 4-step framework for crafting meaningful designs",
+        "author": {
+            "name": "Bora Kaizen",
+            "url": "https://borakaizen.medium.com/about"
+        },
+        "excerpt": "Creating a successful design doesn't have to feel like wandering through a maze. There's a proven design…",
+        "url": "https://uxdesign.cc/a-4-step-framework-for-crafting-meaningful-designs-ea9fca9b39b8",
+        "date": "October 20, 2024 at 10:51AM"
     }
 ]

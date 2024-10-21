@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-09-09T20:00:00
+date: 2024-10-21T19:00:00
 class: now
 intro:
   heading: Now
@@ -12,9 +12,7 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
-* Summer holidays are over as they're back to school this week. I had an extra long weekend - Friday and Monday off as I was supposed to be going somewhere, but it got cancelled, I still enjoyed the break.
-
-* Got rid of my Digital Ocean droplet to try and save some money. I was using it to host a Nextcloud instance, but I figured I could just host it locally instead.
+ - My house may have finally sold - won't hold my breath yet! I'm on the lookout for a new job - permanent or contract - even freelance projects. 
 
 ## Watching
 * **[Wu-Tang: An American Saga](https://www.themoviedb.org/tv/90870-wu-tang-an-american-saga "Wu-Tang: An American Saga")**  
