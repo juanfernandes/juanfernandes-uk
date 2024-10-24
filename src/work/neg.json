@@ -1,0 +1,219 @@
+{
+  "title": "The National College",
+  "description": "I was hired by Synergi Tech to develop components and pages from designs provided by a National College designer.",
+  "keywords": "HTML, CSS, TAILWIND, JS, Modern Design, web design, web development, responsive, website",
+  "meta": {
+    "ogTitle": "The National College",
+    "ogDesc": "I was hired by Synergi Tech to develop components and pages from designs provided by a National College designer.",
+    "lang": "https://www.juanfernandes.uk/work/neg"
+  },
+  "intro": {
+    "class": "",
+    "heading": "The National College",
+    "subheading": ""
+  },
+  "details": {
+    "client": "The National College via Synergy Tech",
+    "role": "UI Designer",
+    "tech": "HTML 11TY CSS TAILWIND JS",
+    "url": ""
+  },
+  "project": {
+    "heading": "New Responsive Website Build",
+    "brief": "<h4>Objective:</h4> <p>I was hired by Synergi Tech to develop responsive components and pages based on designs provided by a National College designer. My role involved translating the visual concepts into clean, efficient code, ensuring seamless functionality across devices, and collaborating with both the design and development teams to maintain brand consistency and optimise user experience. Additionally, I worked closely with stakeholders to implement feedback, refine features, and ensure the project met all technical and accessibility standards.</p>"
+  },
+  "images": [
+    {
+      "img": "neg/neg-Homepage.png",
+      "alt": "Homepage"
+    },
+    {
+      "img": "neg/neg-Membership-Discount.png",
+      "alt": "Membership Discount"
+    },
+    {
+      "img": "neg/neg-Membership-Cost.png",
+      "alt": "Membership Cost"
+    },
+    {
+      "img": "neg/neg-Membership.png",
+      "alt": "Membership"
+    },
+    {
+      "img": "neg/neg-Membership-v1.png",
+      "alt": "Membership Alt"
+    },
+    {
+      "img": "neg/neg-Achieve-Certifications.png",
+      "alt": "Achieve Certifications"
+    },
+    {
+      "img": "neg/neg-Certifications.png",
+      "alt": "Certifications"
+    },
+    {
+      "img": "neg/neg-TED.png",
+      "alt": "Channel"
+    },
+    {
+      "img": "neg/neg-Education-Feed.png",
+      "alt": "Education Feed"
+    },
+    {
+      "img": "neg/neg-Case-Studies.png",
+      "alt": "Case-Studies"
+    },
+    {
+      "img": "neg/neg-Reviews.png",
+      "alt": "Reviews"
+    },
+    {
+      "img": "neg/neg-Library-List-View.png",
+      "alt": "Library - List View"
+    },
+    {
+      "img": "neg/neg-Library-Grid-View.png",
+      "alt": "Library - Grid View"
+    },
+    {
+      "img": "neg/neg-Watchlists.png",
+      "alt": "Watchlists"
+    },
+    {
+      "img": "neg/neg-CPD-Dashboard.png",
+      "alt": "CPD Dashboard"
+    },
+    {
+      "img": "neg/neg-Internal-CPD.png",
+      "alt": "Internal CPD"
+    },
+    {
+      "img": "neg/neg-User-Report.png",
+      "alt": "User Report"
+    },
+    {
+      "img": "neg/neg-Manage-Users.png",
+      "alt": "Manage Users"
+    },
+    {
+      "img": "neg/neg-Contact-Us-v1.png",
+      "alt": "Contact Us"
+    },
+    {
+      "img": "neg/neg-Contact-Us-v2.png",
+      "alt": "Contact Us"
+    },
+    {
+      "img": "neg/neg-Experts.png",
+      "alt": "Experts"
+    },
+    {
+      "img": "neg/neg-Teacher.png",
+      "alt": "Expert"
+    },
+    {
+      "img": "neg/neg-Teacher-2.png",
+      "alt": "Expert"
+    },
+    {
+      "img": "neg/neg-About-v1.png",
+      "alt": "About"
+    },
+    {
+      "img": "neg/neg-About-v2.png",
+      "alt": "About"
+    },
+    {
+      "img": "neg/neg-Learning-Record.png",
+      "alt": "Learning Record"
+    },
+    {
+      "img": "neg/neg-Admin-My-Profile.png",
+      "alt": "My Profile"
+    },
+    {
+      "img": "neg/neg-My-Profile.png",
+      "alt": "My Profile"
+    },
+    {
+      "img": "neg/neg-My-Profile-2.png",
+      "alt": "My Profile"
+    },
+    {
+      "img": "neg/neg-ExamResults-ReviewIncorrect.png",
+      "alt": "Exam Results - Review Incorrect"
+    },
+    {
+      "img": "neg/neg-ExamResults-ReviewCorrect.png",
+      "alt": "Exam Results - Review Correct"
+    },
+    {
+      "img": "neg/neg-ExamResults-Fail.png",
+      "alt": "Exam Results - Fail"
+    },
+    {
+      "img": "neg/neg-ExamResults-Pass.png",
+      "alt": "Exam Results - Pass"
+    },
+    {
+      "img": "neg/neg-Exam.png",
+      "alt": "Exam"
+    },
+    {
+      "img": "neg/neg-ReviewCourse.png",
+      "alt": "Review Course"
+    },
+    {
+      "img": "neg/neg-Login.png",
+      "alt": "Login"
+    },
+    {
+      "img": "neg/neg-CheckoutDelegates.png",
+      "alt": "Checkout Delegates"
+    },
+    {
+      "img": "neg/neg-Checkout-DelegatesConfirm.png",
+      "alt": "Checkout - Delegates Confirm"
+    },
+    {
+      "img": "neg/neg-Checkout1.png",
+      "alt": "Checkout"
+    },
+    {
+      "img": "neg/neg-Checkout2.png",
+      "alt": "Checkout"
+    },
+    {
+      "img": "neg/neg-Cohorts.png",
+      "alt": "Cohorts"
+    },
+    {
+      "img": "neg/neg-TeachingLearning.png",
+      "alt": "Teaching Learning"
+    },
+    {
+      "img": "neg/neg-TeachingLearning1.png",
+      "alt": "Teaching Learning"
+    },
+    {
+      "img": "neg/neg-TeachingLearning2.png",
+      "alt": "Teaching Learning"
+    },
+    {
+      "img": "neg/neg-TeachingLearning3.png",
+      "alt": "Teaching Learning"
+    },
+    {
+      "img": "neg/neg-TeachingLearning4.png",
+      "alt": "Teaching Learning"
+    },
+    {
+      "img": "neg/neg-Safeguarding.png",
+      "alt": "Safeguarding"
+    },
+    {
+      "img": "neg/neg-OnlineSafety.png",
+      "alt": "Online Safety"
+    }
+  ]
+}
