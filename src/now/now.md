@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2024-10-21T19:00:00
+date: 2025-01-04T12:00:00
 class: now
 intro:
   heading: Now
@@ -12,17 +12,17 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
- - My house may have finally sold - won't hold my breath yet! I'm on the lookout for a new job - permanent or contract - even freelance projects. 
+* Spent Christmas in the old house, we're hoping to move in early in January
+* Not read much fiction lately but need to get back into it
 
 ## Watching
-* **[Wu-Tang: An American Saga](https://www.themoviedb.org/tv/90870-wu-tang-an-american-saga "Wu-Tang: An American Saga")**  
-In the early 1990s in New York, during the height of the crack cocaine epidemic, a visionary musician named Bobby Diggs aka The RZA begins to form a super group of a dozen young, black men, who will eventually rise to become one of the unlikeliest success stories in American music history.
+
+* **[Squid Game S2](https://www.themoviedb.org/tv/93405 "Squid Game S2")**  
+Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.
 
 * **[Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")**  
 Rewatch: Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.
 
-* **[Loudermilk](https://www.themoviedb.org/tv/73200-loudermilk "Loudermilk")**  
-Sam Loudermilk is a recovering alcoholic and substance abuse counselor with an extremely bad attitude about, well, everything. He is unapologetically uncensored, and manages to piss off everyone in his life. Although he has his drinking under control, Loudermilk discovers that when your life is a complete mess, getting clean is the easy part.
 
 ## Reading
 

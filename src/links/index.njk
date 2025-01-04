@@ -4,7 +4,7 @@ description: "This is a curated list of articles I've read and have shared onlin
 class: links
 rssUrlTitle: "RSS Feed for links"
 rssUrl: "/rss/links.xml"
-date: 2024-10-21T19:00:00
+date: 2025-01-04T12:00:00
 intro:
   class: sml
   subheading: Sharing links to articles I've read
@@ -30,7 +30,7 @@ pagination:
         <div class="link">
           <div class="link__details">
             <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
-            {% if link.excerpt %}<p>{{ link.excerpt | safe }}</p>{% endif %}
+            {% if link.excerpt %}<p>{{ link.excerpt }}</p>{% endif %}
             <div class="link__meta">
               {% if link.author %}<span>Author: <a href="{{ link.author.url }}" class="link__author u-inline-block">{{ link.author.name }}</a></span>{% endif %}
               {% if link.date %}<span class="link__date">Read on: {{ link.date }}</span>{% endif %}

@@ -2691,7 +2691,7 @@
     {
         "title": "Auto Layout in Figma: to use or not to use?",
         "author": {
-            "name": "",
+            "name": "Rafal Tomal",
             "url": "https://rafaltomal.ck.page/"
         },
         "excerpt": "Lately, I’ve been thinking a lot about the debate around auto layout in Figma. On one side, you’ve got designers who say skipping auto layout makes their work…",
@@ -2777,5 +2777,265 @@
         "excerpt": "Creating a successful design doesn't have to feel like wandering through a maze. There's a proven design…",
         "url": "https://uxdesign.cc/a-4-step-framework-for-crafting-meaningful-designs-ea9fca9b39b8",
         "date": "October 20, 2024 at 10:51AM"
+    },
+    {
+        "title": "As little code as possible",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "That should be the goal when writing code. As little of it as possible. I don’t mean in the code-golf, how-short-can-I-make-this-line-of-code kind of way…",
+        "url": "https://gomakethings.com/as-little-code-as-possible/",
+        "date": "October 23, 2024 at 07:36AM"
+    },
+    {
+        "title": "Top 10 Graphic Design Trends For 2024",
+        "author": {
+            "name": "Lyudmil Enchev",
+            "url": "https://graphicmama.com/"
+        },
+        "excerpt": "As we navigate through 2024, the world of graphic design is buzzing with new and exciting trends that are reshaping the industry. This year has brought a lively…",
+        "url": "https://graphicmama.com/blog/graphic-design-trends-2024/",
+        "date": "October 25, 2024 at 01:32PM"
+    },
+    {
+        "title": "Getting Started With Style Dictionary",
+        "author": {
+            "name": "Stu Robson",
+            "url": "https://alwaystwisted.com/"
+        },
+        "excerpt": "Design Tokens have become a widely-adopted method to store design decisions (such as colours, typography, spacing, border-radius, and other visual properties) across products, applications, and websites.",
+        "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-1.html",
+        "date": "October 29, 2024 at 10:38PM"
+    },
+    {
+        "title": "What Else Can We Do With Design Tokens?",
+        "author": {
+            "name": "Stu Robson",
+            "url": "https://alwaystwisted.com/"
+        },
+        "excerpt": "Design Tokens are a solution in Design System that allow teams to define and use their design…",
+        "url": "https://alwaystwisted.com/articles/what-else-can-we-do-with-design-tokens.html",
+        "date": "October 29, 2024 at 10:41PM"
+    },
+    {
+        "title": "Outputting to Different Formats with Style Dictionary",
+        "author": {
+            "name": "Stu Robson",
+            "url": "https://alwaystwisted.com/"
+        },
+        "excerpt": "In this article we will go through the other 'built-in' formats that are available, how to set them up, what they are for, and what they would look like.",
+        "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-2.html",
+        "date": "November 1, 2024 at 01:20PM"
+    },
+    {
+        "title": "Web Components and FOUC",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": " My preferred style of authoring Web Components is to start with existing HTML and enhance it once the Web Component loads. For example, if I were building a…",
+        "url": "https://gomakethings.com/web-components-and-fouc/",
+        "date": "November 1, 2024 at 01:32PM"
+    },
+    {
+        "title": "Doing what’s required: Indicating mandatory fields in an accessible way",
+        "author": {
+            "name": "Steve Snodgrass",
+            "url": "https://www.tpgi.com/author/dswallow/"
+        },
+        "excerpt": "When filling in a form—be it signing up for a newsletter or applying for a credit card—you must provide a minimum…",
+        "url": "https://www.tpgi.com/doing-whats-required-indicating-mandatory-fields-in-an-accessible-way/",
+        "date": "November 4, 2024 at 10:50PM"
+    },
+    {
+        "title": "A CSS project boilerplate",
+        "author": {
+            "name": "Andy Bell",
+            "url": "https://piccalil.li/author/andy-bell/"
+        },
+        "excerpt": "When it comes to the core of CSS stuff, we do things very much the same each time at the studio. The output varies project-to-project, but the core principles…",
+        "url": "https://piccalil.li/blog/a-css-project-boilerplate/",
+        "date": "November 9, 2024 at 07:04PM"
+    },
+    {
+        "title": "How SVG Line Animation Works",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://chriscoyier.net/"
+        },
+        "excerpt": "I bet all of you have seen that little trick where an SVG path is animated to look like it’s drawing itself. It’s super cool. Jake Archibald pioneered the…",
+        "url": "https://css-tricks.com/svg-line-animation-works/",
+        "date": "November 12, 2024 at 07:14PM"
+    },
+    {
+        "title": "View transitions: Handling aspect ratio changes",
+        "author": {
+            "name": "Jake Archibald",
+            "url": "https://jakearchibald.com/"
+        },
+        "excerpt": "This post assumes some knowledge of view transitions. If you're looking for a from-scratch intro to the feature, see this article. When folks ask me for help…",
+        "url": "https://jakearchibald.com/2024/view-transitions-handling-aspect-ratio-changes/",
+        "date": "November 12, 2024 at 07:21PM"
+    },
+    {
+        "title": "Playing with Infinity in CSS ",
+        "author": {
+            "name": "Will Boyd",
+            "url": "https://codersblock.com/"
+        },
+        "excerpt": "CSS has an infinity constant. When I first learned about this, my brain lit up with all kinds of absurd possibilities. Let’s discuss! There might even be some…",
+        "url": "https://codersblock.com/blog/playing-with-infinity-in-css/",
+        "date": "November 17, 2024 at 04:49PM"
+    },
+    {
+        "title": "Eleventy Transform speeds local development...a lot!",
+        "author": {
+            "name": "Bob Monsour",
+            "url": "https://www.bobmonsour.com/"
+        },
+        "excerpt": "Ever since the Eleventy v3.0.0 came out and the new Eleventy Image plugin came out…",
+        "url": "https://www.bobmonsour.com/posts/fast-as-hell/",
+        "date": "November 25, 2024 at 08:03AM"
+    },
+    {
+        "title": "Syndicating to Bluesky",
+        "author": {
+            "name": "Jeremy Keith",
+            "url": "https://adactio.com/"
+        },
+        "excerpt": "Back then my approach to syndicating to Bluesky was to piggy-back off my micro.blog account (which is really just the RSS feed of my notes): Micro.blog can also…",
+        "url": "https://adactio.com/journal/21570",
+        "date": "November 25, 2024 at 08:05AM"
+    },
+    {
+        "title": "Never half-ass two things",
+        "author": {
+            "name": "Benjy Stanton",
+            "url": "https://www.benjystanton.co.uk/"
+        },
+        "excerpt": "One alpha and one discovery I've finished my first sprint of being split between 2 services this week. I'm already feeling like it's not the most efficient use…",
+        "url": "https://www.benjystanton.co.uk/blog/never-half-ass-two-things/",
+        "date": "November 27, 2024 at 11:35PM"
+    },
+    {
+        "title": "Asking the right questions to frame the problem",
+        "author": {
+            "name": "Ben Holliday",
+            "url": "https://benholliday.com/"
+        },
+        "excerpt": "Framing the problem is vital for designers. We need to be relentlessly talking about the core benefits that a product or service delivers, and why. I’ve found…",
+        "url": "https://benholliday.com/2015/07/28/frame-the-problem/",
+        "date": "November 27, 2024 at 11:44PM"
+    },
+    {
+        "title": "How to usability test your product (if you want bad UX)",
+        "author": {
+            "name": "Adam Silver",
+            "url": "https://adamsilver.io/"
+        },
+        "excerpt": "On Friday, I met up with a friend for lunch. The day before, he’d been a research participant to taste-test 4 different brands of Jaffa cake…",
+        "url": "https://adamsilver.io/blog/how-to-usability-test-your-product-if-you-want-bad-ux/",
+        "date": "December 2, 2024 at 06:50PM"
+    },
+    {
+        "title": "How to Conduct a Design Audit in 2023: A Beginner’s Guide",
+        "author": {
+            "name": "Jaye Hannah",
+            "url": "https://designlab.com/blog-authors/jaye-hannah"
+        },
+        "excerpt": "Have you ever wished there was a way to determine if your website’s UX/UI design is delivering the value it’s supposed to? Enter: The design audit. A website…",
+        "url": "https://designlab.com/blog/how-to-conduct-a-design-audit",
+        "date": "December 2, 2024 at 06:53PM"
+    },
+    {
+        "title": "Using the Popover API for HTML Tooltips Can it be done?",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://chriscoyier.net/"
+        },
+        "excerpt": "This plucky front-end developer intends to find out. Can we do it? We looked at the Popover API and how it’s made it’s way across all browsers…",
+        "url": "https://frontendmasters.com/blog/using-the-popover-api-for-html-tooltips/",
+        "date": "December 3, 2024 at 07:46PM"
+    },
+    {
+        "title": "Using the ':not()' pseudo-class to remove styles from ':last-child'",
+        "author": {
+            "name": "Stephanie Stimac",
+            "url": "https://stephaniestimac.com/"
+        },
+        "excerpt": "I was re-designing the footer for my blog when I added a…",
+        "url": "https://blog.stephaniestimac.com/posts/2024/12/not-pseudo-class/",
+        "date": "December 3, 2024 at 07:52PM"
+    },
+    {
+        "title": "Turn off AI features by default (to reduce their climate impact)",
+        "author": {
+            "name": "Hidde de Vries",
+            "url": "https://hidde.blog/"
+        },
+        "excerpt": "Generative AI features have a large climate impact and water consumption. We can weigh that impact against those features' benefits, but what if they are left…",
+        "url": "https://hidde.blog/please-make-ai-opt-in/",
+        "date": "December 4, 2024 at 08:16AM"
+    },
+    {
+        "title": "Royal Mail? More like Royal FAIL",
+        "author": {
+            "name": "Adam Silver",
+            "url": "https://adamsilver.io/"
+        },
+        "excerpt": "Last week my friend, Rachael got married. I ordered her a gift using MoonPig and arranged delivery for Tuesday (the day she’d arrive back). But…",
+        "url": "https://adamsilver.io/blog/royal-mail-more-like-royal-fail/",
+        "date": "December 4, 2024 at 08:23AM"
+    },
+    {
+        "title": "bluesky-replies Web Component",
+        "author": {
+            "name": "David Darnes",
+            "url": "https://darn.es/"
+        },
+        "excerpt": "It's great to see the Web Components community grow on Bluesky. To help nurture it, I created a custom feed for Web Components as a topic if you're interested…",
+        "url": "https://darn.es/bluesky-replies-web-component/",
+        "date": "December 6, 2024 at 09:16PM"
+    },
+    {
+        "title": "Cool People Link to Text Fragments",
+        "author": {
+            "name": "David Bushell",
+            "url": "https://dbushell.com/"
+        },
+        "excerpt": "Hyperlinks are cool. They’re what make the web, The Web. You know what’s…",
+        "url": "https://dbushell.com/2024/12/05/url-fragment-text-directives/",
+        "date": "December 6, 2024 at 09:19PM"
+    },
+    {
+        "title": "A Design Tokens Workflow (part 3) - Beyond JSON: Exploring File Formats for Design Tokens",
+        "author": {
+            "name": "Stu Robson",
+            "url": "https://alwaystwisted.com/"
+        },
+        "excerpt": "Discover how to go beyond JSON and explore alternative file formats for design tokens in Style Dictionary. Learn to use YAML, JSON5, HJSON, and W3C-compliant…",
+        "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-3.html",
+        "date": "December 7, 2024 at 11:55PM"
+    },
+    {
+        "title": "A Design Tokens Workflow (part 4) - Converting Tokens with Style Dictionary",
+        "author": {
+            "name": "Stu Robson",
+            "url": "https://alwaystwisted.com/"
+        },
+        "excerpt": "Learn how to transform Design Tokens for web, Android, iOS, and beyond with Style Dictionary. This guide covers key and value conversions, platform-specific naming…",
+        "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-4.html",
+        "date": "December 7, 2024 at 11:55PM"
+    },
+    {
+        "title": "Don’t Use aria-label on Static Text Elements",
+        "author": {
+            "name": "Ben Myers",
+            "url": "https://benmyers.dev/"
+        },
+        "excerpt": "Don’t use the aria-label or aria-labelledby attributes on <div>s, <span>s, or other elements representing static/noninteractive text-level…",
+        "url": "https://benmyers.dev/blog/dont-use-aria-label-on-static-text-elements/",
+        "date": "December 8, 2024 at 07:24PM"
     }
 ]
