@@ -1,4 +1,4 @@
-    [
+[
     {
         "title": "Expanding Grid Cards with View Transitions",
         "author": {
@@ -7,7 +7,7 @@
         },
         "excerpt": "A friend showed me something of a design spec they were charged with pulling off: The requirements: &#8230; when I click on any of them it expands at the top to full width and the rest of the cards…",
         "url": "https://chriscoyier.net/2023/04/11/expanding-grid-cards-with-view-transitions/",
-        "date": "January 6, 2024 at 08:30AM"
+        "date": "2024-01-06"
     },
     {
         "title": "CSS Custom Properties Beyond the :root",
@@ -17,7 +17,7 @@
         },
         "excerpt": "Is there a good reason why we’re defining global custom properties on :root/html and not on body?",
         "url": "https://matthiasott.com/notes/custom-properties-beyond-the-root",
-        "date": "January 6, 2024 at 08:37AM"
+        "date": "2024-01-06"
     },
     {
         "title": "A few developer console tricks",
@@ -27,7 +27,7 @@
         },
         "excerpt": "In my new free course for beginners, Learn JavaScript, I talk briefly about how powerful the developer console is, and why I think it&rsquo;s ones of the best features of working in the front end.",
         "url": "https://gomakethings.com/a-few-developer-console-tricks/",
-        "date": "January 6, 2024 at 08:39AM"
+        "date": "2024-01-06"
     },
     {
         "title": "Is It Time To Replace Sass?",
@@ -37,7 +37,7 @@
         },
         "excerpt": "With the growth of native CSS features - including nesting - what features do we still gain by using Sass, and what is available to use in its place?",
         "url": "https://thinkdobecreate.com/articles/is-it-time-to-replace-sass/",
-        "date": "January 8, 2024 at 10:59PM"
+        "date": "2024-01-08"
     },
     {
         "title": "Batching Life Changes",
@@ -47,7 +47,7 @@
         },
         "excerpt": "I’ve never really done a “year in review” post before, but 2023 and, in particular, the last few months, have brought tides of change that I feel the need to share",
         "url": "https://chrisburnell.com/article/batching-life-changes/",
-        "date": "January 8, 2024 at 11:05PM"
+        "date": "2024-01-08"
     },
     {
         "title": "How Do You Vertically Centre an Element in CSS? (Even More) Easily!",
@@ -57,7 +57,7 @@
         },
         "excerpt": "Rachel Andrew shared a snippet of good news for CSS layout on her blog the other day: it’ll soon be possible to vertically centre an element inside a parent without the parent needing to be a flex or grid container, using the align-content property.",
         "url": "https://css-irl.info/how-do-you-vertically-centre-an-element-in-css/",
-        "date": "January 12, 2024 at 11:12PM"
+        "date": "2024-01-12"
     },
     {
         "title": "A CSS native way to prevent orphan text",
@@ -67,7 +67,7 @@
         },
         "excerpt": "In typography, an orphan or widow is a single word on its own line. It can look particularly unpleasing with headings, and is hard to &ldquo;plan for&rdquo; on the web, where people view your site on a wide range of viewport sizes. You can avoid them by manually added a non-breaking space (&amp;nbsp;) before the second and last word in every sentence, but doing that manually is madness. &lt;h2&gt;How to use the Array.",
         "url": "https://gomakethings.com/a-css-native-way-to-prevent-orphan-text/",
-        "date": "January 12, 2024 at 11:14PM"
+        "date": "2024-01-12"
     },
     {
         "title": "Giving context to a blogroll",
@@ -77,7 +77,7 @@
         },
         "excerpt": "Garrit Franke’s recent post, titled “Roast my site”, motivated me to write about something that has always bugged me with personal sites: the grocery-style blogroll",
         "url": "https://minutestomidnight.co.uk/blog/giving-context-to-a-blogroll/",
-        "date": "January 12, 2024 at 11:17PM"
+        "date": "2024-01-12"
     },
     {
         "title": "Local link targets must be focusable to prevent accessibility issues",
@@ -87,7 +87,7 @@
         },
         "excerpt": "If you&#x27;re linking to local elements via id you must ensure that they are focusable because otherwise assistive technology relying on &#x22;document.activeElement&#x22; can&#x27;t follow the link target.",
         "url": "https://www.stefanjudis.com/today-i-learned/relative-html-links-focus-issues/",
-        "date": "January 13, 2024 at 11:56PM"
+        "date": "2024-01-13"
     },
     {
         "title": "Exposed RSS",
@@ -97,7 +97,7 @@
         },
         "excerpt": "I get sites not having an &#8220;RSS&#8221; for &#8220;Feed&#8221; link on their website while actually having an RSS feed. I don&#8217;t like it, but I get it. Maybe they picked an off-the-shelf t…",
         "url": "https://chriscoyier.net/2024/01/13/exposed-rss/",
-        "date": "January 14, 2024 at 12:01AM"
+        "date": "2024-01-14"
     },
     {
         "title": "Using abbr Element with title Attribute",
@@ -107,7 +107,7 @@
         },
         "excerpt": "How the &lt;abbr&gt; element is defined and exposed, along with the title attribute: § 4.5.9 The abbr element from WHATWG. ARIA in HTML entry on &lt;abbr&gt; notes it has no implicit role and naming is prohibited. Which is probably why Core Accessibility API Mappings 1.2 does not list it. HTML&hellip;",
         "url": "https://adrianroselli.com/2024/01/using-abbr-element-with-title-attribute.html",
-        "date": "January 15, 2024 at 11:23PM"
+        "date": "2024-01-15"
     },
     {
         "title": "Sharing links",
@@ -117,7 +117,7 @@
         },
         "excerpt": "The amount of content on the web is so large, that it's tricky to find the stuff worth reading. One of my strategies is to follow people I trust and read what they share.",
         "url": "https://hidde.blog/sharing-links/",
-        "date": "January 15, 2024 at 11:28PM"
+        "date": "2024-01-15"
     },
     {
         "title": "The gotchas of CSS Nesting",
@@ -127,7 +127,7 @@
         },
         "excerpt": "I've written before about the problems you can run into with CSS nesting and the question that @ChallengeCSS tweeted out today made me realize there's actually a few more gotcha's.",
         "url": "https://kilianvalkhof.com/2023/css-html/the-gotchas-of-css-nesting/",
-        "date": "January 16, 2024 at 11:50PM"
+        "date": "2024-01-16"
     },
     {
         "title": "Testing My Eleventy-Website With Cypress and Netlify",
@@ -137,7 +137,7 @@
         },
         "excerpt": "Last time I wrote &quot;this page is a repository consisting of some thrown-together and latenight-written code&quot;. Some tests should ensure that I don&#39;t break to much when I&#39;m, cleaning up the code. Here&#39;s how I created a basic setup that runs my tests before every deployment.",
         "url": "https://martinschneider.me/articles/testing-my-eleventy-website-with-cypress-and-netlify/",
-        "date": "January 17, 2024 at 08:48AM"
+        "date": "2024-01-17"
     },
     {
         "title": "Fetching Webmentions With Netlify and Eleventy Edge",
@@ -147,7 +147,7 @@
         },
         "excerpt": "Sadly, I&#39;m not too good at documenting what I&#39;m sometimes building in the little free time that I have. At the end of last year, I implemented an interesting feature on this site, but never wrote about it.",
         "url": "https://martinschneider.me/articles/fetching-webmentions-with-netlify-and-eleventy-edge/",
-        "date": "January 17, 2024 at 10:44PM"
+        "date": "2024-01-17"
     },
     {
         "title": "Creating Scroll-Triggered Animations by combining Scroll-Driven Animations, Custom Properties, Style Queries, and Transitions",
@@ -157,7 +157,7 @@
         },
         "excerpt": "When you combine Scroll-Driven Animations with Custom Properties, Style Queries, and Transitions you hack your way into creating Scroll-Triggered Animations.",
         "url": "https://www.bram.us/2023/06/15/scroll-triggered-animations/",
-        "date": "January 17, 2024 at 10:55PM"
+        "date": "2024-01-17"
     },
     {
         "title": "6 Quick tests you can do to test your forms for accessibility",
@@ -167,7 +167,7 @@
         },
         "excerpt": "Whenever I do a full audit for a website, I have almost 40 individual, highly granular, form-related checks. Those checks can be boiled down to the following 6 high level goals.",
         "url": "https://karlgroves.com/6-quick-tests-you-can-do-to-test-your-forms-for-accessibility/",
-        "date": "January 17, 2024 at 11:00PM"
+        "date": "2024-01-17"
     },
     {
         "title": "Time to First Byte: What it is and How to Make Improvements",
@@ -177,7 +177,7 @@
         },
         "excerpt": "TTFB is the backbone of page speed: it can make or break the experience of your sites. Learn how to test and  track it.",
         "url": "https://calibreapp.com/blog/time-to-first-byte",
-        "date": "January 19, 2024 at 08:37AM"
+        "date": "2024-01-19"
     },
     {
         "title": "Bulletproofing your CMS",
@@ -187,7 +187,7 @@
         },
         "excerpt": "Help your future self by making sure your CMS can take anything clients throw at it.",
         "url": "https://www.nicchan.me/blog/bulletproofing-your-cms/",
-        "date": "January 22, 2024 at 11:51PM"
+        "date": "2024-01-22"
     },
     {
         "title": "12 Modern CSS One-Line Upgrades - Modern CSS Solutions",
@@ -197,7 +197,7 @@
         },
         "excerpt": "Sometimes, improving your application CSS just takes a one-line upgrade or enhancement! Learn about 12 properties to start incorporating into your projects, and enjoy reducing technical debt, removing JavaScript, and scoring easy wins for user experience.",
         "url": "https://moderncss.dev/12-modern-css-one-line-upgrades/",
-        "date": "January 22, 2024 at 11:53PM"
+        "date": "2024-01-22"
     },
     {
         "title": "Better form UX with the CSS property `field-sizing`",
@@ -207,7 +207,7 @@
         },
         "excerpt": "A look at the `field-sizing` CSS property and how it could improve web form user experience.",
         "url": "https://blog.stephaniestimac.com/posts/2024/01/css-field-sizing/",
-        "date": "January 23, 2024 at 11:45PM"
+        "date": "2024-01-23"
     },
     {
         "title": "Progressively enhancing a link into a button with vanilla JavaScript",
@@ -217,7 +217,7 @@
         },
         "excerpt": "In yesterday&rsquo;s article on loading HTML from another page, I talked about progressively enhancing a link into a button. Let’s imagine you have a dialog modal that loads some HTML. You might keep all that HTML in a separate file, and by default display a link to it. &lt;a href=&#34;/terms&#34;&gt;Read the Terms of Service&lt;/a&gt;  When your JS loads, you can progressively enhance it into a modal toggle.",
         "url": "https://gomakethings.com/progressively-enhancing-a-link-into-a-button-with-vanilla-javascript/",
-        "date": "January 23, 2024 at 11:48PM"
+        "date": "2024-01-23"
     },
     {
         "title": "5 key design system elements to build trust and maximise uptake",
@@ -227,7 +227,7 @@
         },
         "excerpt": "Since 2016 I’ve used, created and contributed to multiple design systems. I’ve seen what works and what doesn’t. By “doesn’t” I mean designers don’t trust it. And as a result they don’t use it",
         "url": "https://adamsilver.io/blog/5-key-design-system-elements-to-build-trust-and-maximise-uptake/",
-        "date": "January 24, 2024 at 11:14PM"
+        "date": "2024-01-24"
     },
     {
         "title": "A quick introduction to CSS @scope",
@@ -237,13 +237,13 @@
         },
         "excerpt": "An introductory thread to CSS @scope.",
         "url": "https://www.bram.us/2023/08/22/a-quick-introduction-to-css-scope",
-        "date": "January 24, 2024 at 11:20PM"
+        "date": "2024-01-24"
     },
     {
         "title": "Positioning anchored popovers",
         "excerpt": "Popovers are in the top layer, how can we position them relative to invokers that are not?",
         "url": "https://hidde.blog/positioning-anchored-popovers/",
-        "date": "January 30, 2024 at 01:32PM"
+        "date": "2024-01-30"
     },
     {
         "title": "Reducing Complexity in Front End Development",
@@ -253,7 +253,7 @@
         },
         "excerpt": "One of my favourite sessions at All Day Hey conference last month was Jack Franklin’s talk Abstractions, complexities and off-ramps. As web applications grow larger, they inevitably fall prey to complexity, despite our best intentions.",
         "url": "https://css-irl.info/reducing-complexity-in-front-end-development/",
-        "date": "January 30, 2024 at 02:31PM"
+        "date": "2024-01-30"
     },
     {
         "title": "What happened with the Web Monetization API?",
@@ -263,7 +263,7 @@
         },
         "excerpt": "I was pretty hot on it for a minute . I wanted it to succeed and thought it had the bones to make it. Coil was the main startup trying to push it. They did the…",
         "url": "https://chriscoyier.net/2024/01/24/what-happened-with-the-web-monetization-api/",
-        "date": "January 31, 2024 at 08:46PM"
+        "date": "2024-01-31"
     },
     {
         "title": "Nicer Text Wrapping with CSS text-wrap",
@@ -273,7 +273,7 @@
         },
         "excerpt": "Let’s take a look at the CSS text-wrap property and how we can use it to improve the way text flows on a web page. We can use text-wrap: balance to tell the…",
         "url": "https://codersblock.com/blog/nicer-text-wrapping-with-css-text-wrap/",
-        "date": "January 31, 2024 at 08:58PM"
+        "date": "2024-01-31"
     },
     {
         "title": "No Analytics",
@@ -283,7 +283,7 @@
         },
         "excerpt": "It was nice to see Rach talk about stripping out analytics . I stripped out my analytics years ago and while I thought I wrote about it, I can’t find where I…",
         "url": "https://snook.ca/archives/opinion/no-analytics",
-        "date": "January 31, 2024 at 09:01PM"
+        "date": "2024-01-31"
     },
     {
         "title": "I turned off analytics",
@@ -293,7 +293,7 @@
         },
         "excerpt": "I turned off the Plausible analytics for this site. I used to use analytics mostly to look for links back to my site from other creators. When I had so little…",
         "url": "https://rachsmith.com/i-turned-off-analytics/",
-        "date": "January 31, 2024 at 09:03PM"
+        "date": "2024-01-31"
     },
     {
         "title": "The details element and in-page search - Manuel Matuzovic",
@@ -303,7 +303,7 @@
         },
         "excerpt": "An important factor in terms of UX and accessibility for deciding whether the &lt;details&gt; element is…",
         "url": "https://www.matuzo.at/blog/2023/details-find-in-page",
-        "date": "February 1, 2024 at 11:54PM"
+        "date": "2024-02-01"
     },
     {
         "title": "More than blogrolls",
@@ -313,7 +313,7 @@
         },
         "excerpt": "The latest edition of Matthias Ott's Own Your Web (which I recommend subscribing too!) points out that there are a lot of blogs…",
         "url": "https://sebastiandedeyne.com/more-than-blogrolls/",
-        "date": "February 1, 2024 at 11:54PM"
+        "date": "2024-02-01"
     },
     {
         "title": "The article element and screen readers",
@@ -323,7 +323,7 @@
         },
         "excerpt": "I wanted to know how and if common screen readers expose the &lt;article&gt; element. Here are my results…",
         "url": "https://www.matuzo.at/blog/2023/article-screen-readers/",
-        "date": "February 1, 2024 at 11:59PM"
+        "date": "2024-02-01"
     },
     {
         "title": "Ditch the developer Swiss Army Knife",
@@ -333,7 +333,7 @@
         },
         "excerpt": "Our industry loves Swiss Army Knives. The tools we tend to gravitate towards are ones that do all the things . They’re packed with features. I get the appeal…",
         "url": "https://gomakethings.com/ditch-the-developer-swiss-army-knife/",
-        "date": "February 2, 2024 at 11:49AM"
+        "date": "2024-02-02"
     },
     {
         "title": "Join the 11ty International Symposium on Making Web Sites Real Good",
@@ -343,7 +343,7 @@
         },
         "excerpt": "Join the 11ty International Symposium on Making Web Sites Real Good (it’s an 11ty Conference) In May 2024…",
         "url": "https://www.zachleat.com/web/11tyconf/",
-        "date": "February 2, 2024 at 11:50AM"
+        "date": "2024-02-02"
     },
     {
         "title": "3 questions to evaluate design patterns and avoid unnecessary work that degrades UX",
@@ -353,7 +353,7 @@
         },
         "excerpt": "There’s a new form design trend going around: Buttons inside inputs. Anthony Hobday mentioned it by asking his audience if there was any…",
         "url": "https://adamsilver.io/blog/3-questions-to-evaluate-design-patterns-and-avoid-unnecessary-work-that-degrades-ux/",
-        "date": "February 2, 2024 at 11:55AM"
+        "date": "2024-02-02"
     },
     {
         "title": "What’s The Perfect Design Process?",
@@ -363,7 +363,7 @@
         },
         "excerpt": "The design process is messy. You might be following a structured approach, but too often, it takes a life of its own. And before you know it, you are designing in chaos, with…",
         "url": "https://www.smashingmagazine.com/2023/06/perfect-design-process/",
-        "date": "February 4, 2024 at 06:26PM"
+        "date": "2024-02-04"
     },
     {
         "title": "4 Ways to Improve Mobile Accessibility",
@@ -373,17 +373,17 @@
         },
         "excerpt": "This is a repost of an old article on the Tenon blog. Since that’s being sunsetted, I’m reposting it below. Ensuring that your website is ADA compliant on…",
         "url": "https://karlgroves.com/4-ways-to-improve-mobile-accessibility/",
-        "date": "February 4, 2024 at 08:35PM"
+        "date": "2024-02-04"
     },
     {
-        "title": "CSS! CSS! CSS! - Manuel Matuzovic CSS! CSS! CSS!",
+        "title": "CSS! CSS! CSS!",
         "author": {
             "name": "Manuel Matuzović",
             "url": "https://www.matuzo.at/"
         },
         "excerpt": "I just came home after three beautiful days in Amsterdam, where I gave a talk at the CSS Day conference. I’ve watched many…",
         "url": "https://www.matuzo.at/blog/2023/css-css-css",
-        "date": "February 6, 2024 at 12:57PM"
+        "date": "2024-02-06"
     },
     {
         "title": "Inside .git",
@@ -393,7 +393,7 @@
         },
         "excerpt": "I posted a comic on Mastodon this week about what’s in the .git directory and someone requested a text version, so here it is. I added someextra notes…",
         "url": "https://jvns.ca/blog/2024/01/26/inside-git/",
-        "date": "February 6, 2024 at 01:39PM"
+        "date": "2024-02-06"
     },
     {
         "title": "RSS Feed Styles",
@@ -403,13 +403,13 @@
         },
         "excerpt": "Now that I’m in my 15th year of blogging it’s past time I spruced up my RSS feed . I’ve also launched a new…",
         "url": "https://dbushell.com/2024/02/06/rss-feed-styles/",
-        "date": "February 7, 2024 at 11:06PM"
+        "date": "2024-02-07"
     },
     {
         "title": "Thoughts on a Global Design System",
         "excerpt": "Dave and I just had Brad on ShopTalk Show to talk about his idea for a Global Design System . I love Brad’s optimism on all this. From Brad’s perspective, he’s…",
         "url": "https://chriscoyier.net/2024/02/05/thoughts-on-a-global-design-system/",
-        "date": "February 7, 2024 at 11:16PM"
+        "date": "2024-02-07"
     },
     {
         "title": "Blockquotes in Screen Readers",
@@ -419,7 +419,7 @@
         },
         "excerpt": "This post does not assert the correct way to code blockquotes, it will only demonstrate how screen readers announce some existing…",
         "url": "https://adrianroselli.com/2023/07/blockquotes-in-screen-readers.html",
-        "date": "February 8, 2024 at 11:25PM"
+        "date": "2024-02-08"
     },
     {
         "title": "How to create rounded gradient borders with any background in CSS A solution!",
@@ -429,7 +429,7 @@
         },
         "excerpt": "For many months I have been trying to find a decent solution to rounded gradient borders that allow a semi-transparent or blurred main background.",
         "url": "https://benfrain.com/how-to-create-rounded-gradient-borders-with-any-background-in-css/",
-        "date": "February 8, 2024 at 11:29PM"
+        "date": "2024-02-08"
     },
     {
         "title": "The Indie Web and the joy of being weird",
@@ -439,7 +439,7 @@
         },
         "excerpt": "GoMakeThings.com has been my home on the web for over 12 years. When I first started publishing here, I had an HR blog (I was an HR professional at the time)…",
         "url": "https://gomakethings.com/the-indie-web-and-the-joy-of-being-weird/",
-        "date": "February 8, 2024 at 11:35PM"
+        "date": "2024-02-08"
     },
     {
         "title": "Pull request descriptions",
@@ -449,7 +449,7 @@
         },
         "excerpt": "I used to leave pull request descriptions empty. \"Let the code speak for itself\" or \"let the commits speak for themselves\" are…",
         "url": "https://sebastiandedeyne.com/pull-request-descriptions",
-        "date": "February 9, 2024 at 11:15PM"
+        "date": "2024-02-09"
     },
     {
         "title": "When to use CSS text-wrap: balance; vs text-wrap: pretty",
@@ -459,7 +459,7 @@
         },
         "excerpt": "When to use CSS text-wrap: balance; vs text-wrap: pretty; At the start of the year I had written about how I wanted to spend this year writing about new CSS…",
         "url": "https://blog.stephaniestimac.com/posts/2023/10/css-text-wrap/",
-        "date": "February 9, 2024 at 11:24PM"
+        "date": "2024-02-09"
     },
     {
         "title": "Own Your Web – Issue 9: We ❤️ RSS",
@@ -469,7 +469,7 @@
         },
         "excerpt": "In the last issue, we looked at blogrolls as one way to improve the visibility and discoverability of our sites. Whether or not you want to add a…",
         "url": "https://buttondown.email/ownyourweb/archive/issue-09/",
-        "date": "February 13, 2024 at 09:37AM"
+        "date": "2024-02-13"
     },
     {
         "title": "Super Fast Builds",
@@ -479,7 +479,7 @@
         },
         "excerpt": "I want to see more developers experiment with how they build their websites! Don’t just npm install a blackhole. Roll your own personal solution. It’s fun and…",
         "url": "https://dbushell.com/2024/02/14/super-fast-builds/",
-        "date": "February 15, 2024 at 09:21AM"
+        "date": "2024-02-15"
     },
     {
         "title": "Eleventy Starter Project Updates",
@@ -489,7 +489,7 @@
         },
         "excerpt": "This blog uses static site generator Eleventy (or 11ty. I have no idea which one is the “official” spelling, and the docs appear to delight in switching…",
         "url": "https://css-irl.info/eleventy-starter-projects-updates/",
-        "date": "February 15, 2024 at 09:48AM"
+        "date": "2024-02-15"
     },
     {
         "title": "Let's create a Web Component from scratch!",
@@ -499,7 +499,7 @@
         },
         "excerpt": "Because I love Web Components so much, today, I thought we’d build an HTML Web Component from scratch. Let’s build a component that shows and hides text when a…",
         "url": "https://gomakethings.com/lets-create-a-web-component-from-scratch/",
-        "date": "February 16, 2024 at 07:33PM"
+        "date": "2024-02-16"
     },
     {
         "title": "New and Improved Green Web Hosting Directory from the Green Web Foundation",
@@ -509,7 +509,7 @@
         },
         "excerpt": "The Green Web Foundation has recently redesigned their green web hosting directory. Previously the directory was a useful resource for finding hosting platforms…",
         "url": "https://css-irl.info/new-and-improved-green-web-hosting-directory/",
-        "date": "February 16, 2024 at 07:44PM"
+        "date": "2024-02-16"
     },
     {
         "title": "Don’t Disable Form Controls",
@@ -519,7 +519,7 @@
         },
         "excerpt": "Just another usability and accessibility pro telling authors not to do the thing they continue to do. It’s Ok to Disable Buttons There are…",
         "url": "https://adrianroselli.com/2024/02/dont-disable-form-controls.html",
-        "date": "February 17, 2024 at 10:12PM"
+        "date": "2024-02-17"
     },
     {
         "title": "How to make external links accessible",
@@ -529,7 +529,7 @@
         },
         "excerpt": "Links are what connect online content – they’re everywhere. Since they’re so common, their design and functionality often go unnoticed, especially when it comes…",
         "url": "https://blog.pope.tech/2024/01/02/how-to-make-external-links-accessible/",
-        "date": "February 17, 2024 at 10:22PM"
+        "date": "2024-02-17"
     },
     {
         "title": "Animated SVG Logo",
@@ -539,7 +539,7 @@
         },
         "excerpt": "I recently replaced the logo on the top left corner with an animated SVG: Inspiration The first time I saw such stroke animations in SVG is the Material Line…",
         "url": "https://antfu.me/posts/animated-svg-logo",
-        "date": "February 18, 2024 at 09:58PM"
+        "date": "2024-02-18"
     },
     {
         "title": "Static Site Generators and CMS's",
@@ -549,7 +549,7 @@
         },
         "excerpt": "I write a lot about my love of Static Site Generators. They’re fast. Easier to theme. Easier to maintain. Less prone to vulnerabilities. More portable. But they…",
         "url": "https://gomakethings.com/static-site-generators-and-cmss/",
-        "date": "February 19, 2024 at 11:29PM"
+        "date": "2024-02-19"
     },
     {
         "title": "mastodon-post Web Component",
@@ -559,7 +559,7 @@
         },
         "excerpt": "The mastodon-post Web Component allows you to turn a regular link to a Mastodon post into an embeddable post quote including metadata such as reply count, boost…",
         "url": "https://darn.es/mastodon-post-web-component/",
-        "date": "February 19, 2024 at 11:34PM"
+        "date": "2024-02-19"
     },
     {
         "title": "Read later",
@@ -569,7 +569,7 @@
         },
         "excerpt": "My latest post generated a few emails from people suggesting alternatives to my semi-manual Instapaper solution. The back-and-forth convinced me to…",
         "url": "https://minutestomidnight.co.uk/blog/read-later/",
-        "date": "February 20, 2024 at 01:59PM"
+        "date": "2024-02-20"
     },
     {
         "title": "Why Markdown is a great design tool",
@@ -579,7 +579,7 @@
         },
         "excerpt": "Markdown is an incredibly flexible tool that’s part of my daily working practice. Almost everything I write digitally (including this post) starts in Markdown…",
         "url": "https://www.benjystanton.co.uk/blog/why-markdown-is-a-great-design-tool/",
-        "date": "February 20, 2024 at 11:18PM"
+        "date": "2024-02-20"
     },
     {
         "title": "Decision time",
@@ -589,7 +589,7 @@
         },
         "excerpt": " I’ve always associated good design with thoughtfulness. Like, I should be able to point to any element in an interface and the designer should be able to tell…",
         "url": "https://adactio.com/journal/20564",
-        "date": "February 20, 2024 at 11:30PM"
+        "date": "2024-02-20"
     },
     {
         "title": "Tailwind is bad",
@@ -599,7 +599,7 @@
         },
         "excerpt": "Yes, this is a clickbait title, but it’s also (mostly) true. If you’re not familiar with Tailwind (bless your heart), it’s a “utility-first CSS framework.” I’ve…",
         "url": "https://gomakethings.com/tailwind-is-bad/",
-        "date": "February 23, 2024 at 11:32PM"
+        "date": "2024-02-23"
     },
     {
         "title": "Automatic Mastodon post embeds",
@@ -609,7 +609,7 @@
         },
         "excerpt": "I use Nicolas Hoizey's GitHub action to syndicate my web activity to Mastodon. Recently, I removed the display of webmentions from my posts after seeing Chris…",
         "url": "https://coryd.dev/posts/2024/automatic-mastodon-post-embeds/",
-        "date": "February 23, 2024 at 11:32PM"
+        "date": "2024-02-23"
     },
     {
         "title": "Cut the Intro",
@@ -619,7 +619,7 @@
         },
         "excerpt": "Here’s one way to improve the thing you’re writing: cut the intro. Writing about the symbiosis between trees and mushrooms? Don’t start talking about how…",
         "url": "https://robinrendle.com/notes/cut-the-intro/",
-        "date": "February 24, 2024 at 11:19PM"
+        "date": "2024-02-24"
     },
     {
         "title": "Don't disable buttons",
@@ -629,7 +629,7 @@
         },
         "excerpt": "One of the most common accessibility issues I find (and fix) on client projects is dynamically disabled form buttons when a form is being submitted. Today I…",
         "url": "https://gomakethings.com/dont-disable-buttons/",
-        "date": "February 24, 2024 at 11:28PM"
+        "date": "2024-02-24"
     },
     {
         "title": "More Things You Can Do on Your Website",
@@ -639,14 +639,14 @@
         },
         "excerpt": "James wrote a great post with 100 83 ideas for things to do on a website [1] with a call for people suggest more so here's another… ",
         "url": "https://rknight.me/blog/more-things-you-can-do-on-your-website/",
-        "date": "February 25, 2024 at 10:43PM"
+        "date": "2024-02-25"
     },
     {
         "title": "100 things you can do on your personal website",
         "author": "James",
         "excerpt": "One of my favourite things to do in my free time is to tinker with this website. Indeed, this website is the culmination of years of tinkering. I have added…",
         "url": "https://jamesg.blog/2024/02/19/personal-website-ideas/",
-        "date": "February 25, 2024 at 10:43PM"
+        "date": "2024-02-25"
     },
     {
         "title": "Own Your Web – Issue 10: Links Worth Sharing",
@@ -656,7 +656,7 @@
         },
         "excerpt": "Hi All! 🤗 Every day, we browse the Web and scroll our timelines. And every day, we find even more interesting websites, blog posts, articles, videos, podcasts…",
         "url": "https://buttondown.email/ownyourweb/archive/issue-10/",
-        "date": "February 27, 2024 at 05:05PM"
+        "date": "2024-02-27"
     },
     {
         "title": "Piccalilli Links",
@@ -666,7 +666,7 @@
         },
         "excerpt": "You might have noticed that I’m starting to share links on here. There’s a hole that’s been left by publications like CSS-Tricks and A List Apart going quiet…",
         "url": "https://piccalil.li/blog/piccalilli-links/",
-        "date": "February 27, 2024 at 11:06PM"
+        "date": "2024-02-27"
     },
     {
         "title": "Where I’m at on the whole CSS-Tricks thing",
@@ -676,7 +676,7 @@
         },
         "excerpt": "It was March 2022 when I sold CSS-Tricks to DigitalOcean. So it’s been just about 2 years now. This was me and my wife’s thinking: The negotiated sale price was…",
         "url": "https://chriscoyier.net/2024/02/28/where-im-at-on-the-whole-css-tricks-thing/",
-        "date": "February 28, 2024 at 10:48PM"
+        "date": "2024-02-28"
     },
     {
         "title": "Now's the time to own and host your own content",
@@ -686,7 +686,7 @@
         },
         "excerpt": "We've seen Meta, Google, Microsoft, Apple, Reddit, Automattic, Mozilla — name a company — integrate AI that continues to be trained on public data with or…",
         "url": "https://coryd.dev/posts/2024/nows-the-time-to-own-and-host-your-own-content/",
-        "date": "February 28, 2024 at 10:49PM"
+        "date": "2024-02-28"
     },
     {
         "title": "Tailwind vs. Semantic CSS",
@@ -696,7 +696,7 @@
         },
         "excerpt": "Over the last week or two, I’ve written about why Tailwind is bad. Yesterday, I stumbled upon this article from Tero Piirainen comparing semantic CSS to…",
         "url": "https://gomakethings.com/tailwind-vs.-semantic-css/",
-        "date": "February 29, 2024 at 07:47PM"
+        "date": "2024-02-29"
     },
     {
         "title": "How to create a responsive grid system with CSS Grid",
@@ -706,7 +706,7 @@
         },
         "excerpt": "I recently updated the grid system on my site from Flexbox to CSS Grid. Today, I wanted to share how to use it, how it works under-the-hood, and why I made the…",
         "url": "https://gomakethings.com/how-to-create-a-responsive-grid-system-with-css-grid/",
-        "date": "March 1, 2024 at 10:27PM"
+        "date": "2024-03-01"
     },
     {
         "title": "Capo.js: A five minute web performance boost",
@@ -716,7 +716,7 @@
         },
         "excerpt": "You want a quick web performance win at work that’s sure to get you a promotion? Want it to only take five minutes? Then I got you. Capo.js is a tool to get…",
         "url": "https://frontendmasters.com/blog/capo-js-a-five-minute-web-performance-boost/",
-        "date": "March 1, 2024 at 10:30PM"
+        "date": "2024-03-01"
     },
     {
         "title": "The path to becoming a publisher - Piccalilli",
@@ -726,7 +726,7 @@
         },
         "excerpt": "In my 2023 wrap-up post I said the following: I also see a gap in publications. CSS-Tricks is done now, and unfortunately, been abandoned. A List Apart has…",
         "url": "https://piccalil.li/blog/the-path-to-becoming-a-publisher/",
-        "date": "March 2, 2024 at 09:19AM"
+        "date": "2024-03-02"
     },
     {
         "title": "AI and accessible front-end components: is the nuance generatable?",
@@ -736,7 +736,7 @@
         },
         "excerpt": "Companies are rushing to add generated AI capabilities to their products. Some promise to produce front-end components for you. Is that even possible, given the…",
         "url": "https://hidde.blog/ai-for-accessible-components/",
-        "date": "March 2, 2024 at 09:37AM"
+        "date": "2024-03-02"
     },
     {
         "title": "Which CSS framework should I use?",
@@ -746,7 +746,7 @@
         },
         "excerpt": "I’ve been ragging on Tailwind a lot lately (because it’s terrible). One of the natural follow-up questions I get is… Which CSS framework do you like? I tend to…",
         "url": "https://gomakethings.com/which-css-framework-should-i-use/",
-        "date": "March 2, 2024 at 09:38AM"
+        "date": "2024-03-02"
     },
     {
         "title": "Deploy an Eleventy site to Cloudflare Pages efficiently with GitHub's action cache",
@@ -756,7 +756,7 @@
         },
         "excerpt": "I have wanted to move this site from Netlify for a while now, but the recent news about their bandwidth pricing made me finally do it. I looked into some…",
         "url": "https://jonas.brusman.se/deploy-eleventy-to-cloudflare-with-githubs-action-cache/",
-        "date": "March 3, 2024 at 09:00AM"
+        "date": "2024-03-03"
     },
     {
         "title": "Automated weekly links posts with raindrop.io and Eleventy",
@@ -766,7 +766,7 @@
         },
         "excerpt": "A post that's been getting a lot of traction recently is I miss human curation by Cassidy Williams, in which she laments that we're so reliant on algorithms…",
         "url": "https://localghost.dev/blog/automated-weekly-links-posts-with-raindrop-io-and-eleventy/",
-        "date": "March 3, 2024 at 09:06AM"
+        "date": "2024-03-03"
     },
     {
         "title": "Sliders degrade UX (so do this instead)",
@@ -776,7 +776,7 @@
         },
         "excerpt": "18 February 2024 My friend Victor shared this design tip on Twitter last week: He said that if you put the slider values on top, your finger won’t cover them…",
         "url": "https://adamsilver.io/blog/sliders-degrade-ux-so-do-this-instead/",
-        "date": "March 4, 2024 at 08:06PM"
+        "date": "2024-03-04"
     },
     {
         "title": "Simplify sharing with built-in APIs and progressive enhancement",
@@ -786,7 +786,7 @@
         },
         "excerpt": "You’ve written a great post or produced a delightful website and now you want people to share it. In times gone by, you might be tempted to add a section like…",
         "url": "https://set.studio/simplify-sharing-with-built-in-apis-and-progressive-enhancement/",
-        "date": "March 4, 2024 at 10:00PM"
+        "date": "2024-03-04"
     },
     {
         "title": "Progressively Enhanced HTML Accordion",
@@ -796,7 +796,7 @@
         },
         "excerpt": "Does what it says on the tin. Uses <details> and <summary> with a bit of ARIA to create an accordion that works without JavaScript while…",
         "url": "https://adrianroselli.com/2023/08/progressively-enhanced-html-accordion.html",
-        "date": "March 6, 2024 at 10:11AM"
+        "date": "2024-03-06"
     },
     {
         "title": "Adding Search to an Eleventy Site Without Client-side JavaScript",
@@ -806,7 +806,7 @@
         },
         "excerpt": "Adding Search to an Eleventy Site Without Client-side JavaScript October 9th, 2023 Earlier this year (2023) I added a search feature to my blog. I’ve always…",
         "url": "https://www.philiprenich.com/blog/adding-search-to-an-eleventy-site-without-client-side-javascript/",
-        "date": "March 6, 2024 at 10:20AM"
+        "date": "2024-03-06"
     },
     {
         "title": "How layout position impacts three big web performance levers",
@@ -816,7 +816,7 @@
         },
         "excerpt": "We help Shopify merchants improve their web performance and see three common problems related to layout position: Lazy loading images above the fold…",
         "url": "https://performance.shopify.com/blogs/blog/how-layout-position-impacts-three-big-web-performance-levers",
-        "date": "March 9, 2024 at 07:34AM"
+        "date": "2024-03-09"
     },
     {
         "title": "Some little ways I’m using CSS :has() in the real world",
@@ -826,7 +826,7 @@
         },
         "excerpt": "There’s a lot of chatter around the new(ish) :has() pseudo-class. It’s something we’ve been crying out for, for years: being able to select parent elements! A…",
         "url": "https://piccalil.li/blog/some-little-ways-im-using-css-has-in-the-real-world/",
-        "date": "March 9, 2024 at 07:40AM"
+        "date": "2024-03-09"
     },
     {
         "title": "Don’t use paracetamol to fix bad UX",
@@ -836,7 +836,7 @@
         },
         "excerpt": "My dad was a pharmacist. Whenever I was ill, he’d tell me to take paracetamol. So I did. And it made me feel better. But paracetamol doesn’t…",
         "url": "https://adamsilver.io/blog/dont-use-paracetamol-to-fix-bad-ux/",
-        "date": "March 11, 2024 at 08:04PM"
+        "date": "2024-03-11"
     },
     {
         "title": "Using an Eleventy event to optimize component JavaScript",
@@ -846,7 +846,7 @@
         },
         "excerpt": "My site leverages a number of web component for functionality on my site. Namely: mastodon post embeds, search, my now playing component, my theme toggle, post…",
         "url": "https://coryd.dev/posts/2024/using-an-eleventy-event-to-optimize-component-javascript/",
-        "date": "March 11, 2024 at 08:08PM"
+        "date": "2024-03-11"
     },
     {
         "title": "Sharing links via RSS, sharing links via APIs",
@@ -856,7 +856,7 @@
         },
         "excerpt": "I follow and subscribe to a whole bunch of blogs and less and less high-volume news via RSS. It's one of my absolute favorite mediums for keeping up with and…",
         "url": "https://coryd.dev/posts/2024/sharing-links-via-rss-sharing-links-via-apis/",
-        "date": "March 11, 2024 at 10:26PM"
+        "date": "2024-03-11"
     },
     {
         "title": "Own Your Web – Issue 11: Welcome to the IndieWeb",
@@ -866,7 +866,7 @@
         },
         "excerpt": "Hi All! 🤗 Imagine you post and make new friends on an online network for more than a decade – and suddenly, your account gets suspended for no apparent reason…",
         "url": "https://buttondown.email/ownyourweb/archive/issue-11/",
-        "date": "March 12, 2024 at 05:55PM"
+        "date": "2024-03-12"
     },
     {
         "title": "Following Links",
@@ -876,7 +876,7 @@
         },
         "excerpt": "I loved this post from Chris Enns (via Robb Knight) where he outlines the rabbit hole of links he ventured down in writing that post. It felt fun and familiar…",
         "url": "https://blog.jim-nielsen.com/2024/following-links/",
-        "date": "March 12, 2024 at 05:59PM"
+        "date": "2024-03-12"
     },
     {
         "title": "CSS Button Styles You Might Not Know",
@@ -886,7 +886,7 @@
         },
         "excerpt": "CSS Button Styles You Might Not Know Sunday 10 Mar 2024 Buttons are everywhere! We can use all sorts of fancy CSS to style a button. I prefer using Flexbox…",
         "url": "https://dbushell.com/2024/03/10/css-button-styles-you-might-not-know/",
-        "date": "March 12, 2024 at 10:33PM"
+        "date": "2024-03-12"
     },
     {
         "title": "Surfacing most used tags in Eleventy",
@@ -896,7 +896,7 @@
         },
         "excerpt": "I made some lightweight design changes to my site, keeping things simple but moving the date up above post headers, surfacing tags below and restoring Read more…",
         "url": "https://coryd.dev/posts/2024/surfacing-most-used-tags-in-eleventy/",
-        "date": "March 13, 2024 at 09:08AM"
+        "date": "2024-03-13"
     },
     {
         "title": "Leaving Netlify",
@@ -906,7 +906,7 @@
         },
         "excerpt": "Leaving Netlify Tomorrow marks the first week after migrating all the websites I share with my wife Silvia, from Netlify to Mythic Beasts. Very happy about the…",
         "url": "https://minutestomidnight.co.uk/blog/leaving-netlify/",
-        "date": "March 13, 2024 at 09:12AM"
+        "date": "2024-03-13"
     },
     {
         "title": "You don't have to be a “content creator” to have a website.",
@@ -916,7 +916,7 @@
         },
         "excerpt": "This is clearly the result of living in a capitalist society. In recent years, people have felt the pressure to monetise their hobbies, so there’s a constant…",
         "url": "https://ohhelloana.blog/just-get-a-website/",
-        "date": "March 14, 2024 at 11:36PM"
+        "date": "2024-03-14"
     },
     {
         "title": "Fetching Package Dependents from GitHub",
@@ -926,7 +926,7 @@
         },
         "excerpt": "A conversation in the Eleventy Discord led me to remember about the dependents page of a GitHub repository. That is, a list of…",
         "url": "https://rknight.me/blog/fetching-package-dependents-from-github/",
-        "date": "March 14, 2024 at 11:45PM"
+        "date": "2024-03-14"
     },
     {
         "title": "11ty Linkrolls",
@@ -936,7 +936,7 @@
         },
         "excerpt": "Gotta get yourself connected... One of the things I've always loved about blogs were the linkrolls... that candy trail to more and more interesting things…",
         "url": "https://another.rodeo/linkroll/",
-        "date": "March 14, 2024 at 11:52PM"
+        "date": "2024-03-14"
     },
     {
         "title": "How I Eleventy",
@@ -946,7 +946,7 @@
         },
         "excerpt": "I first starting using Eleventy to build this site back in 2020 using version 0.10.0 and through a combination of the official documentation and other people's…",
         "url": "https://declanbyrd.co.uk/journal/2024/how-i-eleventy/",
-        "date": "March 16, 2024 at 07:58AM"
+        "date": "2024-03-16"
     },
     {
         "title": "You Want border-color: transparent, Not border: none",
@@ -956,7 +956,7 @@
         },
         "excerpt": "If you find yourself removing a border from an element that has a border and are tempted to use border: 0 , border: none, or outline: none, I’d urge you to stop…",
         "url": "https://frontendmasters.com/blog/you-want-border-color-transparent-not-border-none/",
-        "date": "March 16, 2024 at 08:02AM"
+        "date": "2024-03-16"
     },
     {
         "title": "We Need to Talk About Your Eleventy Post Dates",
@@ -966,7 +966,7 @@
         },
         "excerpt": "Since I really got back into following RSS feeds in the past couple of years I've noticed a problem with Eleventy sites[1] and post…",
         "url": "https://rknight.me/blog/eleventy-post-dates/",
-        "date": "March 17, 2024 at 03:43PM"
+        "date": "2024-03-17"
     },
     {
         "title": "Welcome to the IndieWeb",
@@ -976,7 +976,7 @@
         },
         "excerpt": "Imagine you post and make new friends on an online network for more than a decade – and suddenly, your account gets suspended for no apparent reason. And there…",
         "url": "https://matthiasott.com/notes/welcome-to-the-indieweb",
-        "date": "March 17, 2024 at 03:52PM"
+        "date": "2024-03-17"
     },
     {
         "title": "The 'IndieWeb' feels like coming home",
@@ -986,7 +986,7 @@
         },
         "excerpt": "The 'IndieWeb' feels like coming home tech personal Eleventy IndieWeb featured Due to the convenience of not needing to code or maintain anything…",
         "url": "https://daught.me/blog/2024/indie-web/",
-        "date": "March 17, 2024 at 04:00PM"
+        "date": "2024-03-17"
     },
     {
         "title": "Time to Ditch Analytics? Tracking Scripts and Web Sustainability",
@@ -996,7 +996,7 @@
         },
         "excerpt": "This article on privacy-focussed web design by Paul Jardine and Becky Thorn of sustainably-minded web design agency Root raises some great points about the link…",
         "url": "https://css-irl.info/time-to-ditch-analytics/",
-        "date": "March 19, 2024 at 10:40PM"
+        "date": "2024-03-19"
     },
     {
         "title": "Lightweight search in Eleventy",
@@ -1006,7 +1006,7 @@
         },
         "excerpt": "I've been using Pagefind for my site search for a while now and would readily recommend it, but I wanted to throw together something a bit lighter weight and…",
         "url": "https://coryd.dev/posts/2024/lightweight-search-in-eleventy/",
-        "date": "March 19, 2024 at 10:59PM"
+        "date": "2024-03-19"
     },
     {
         "title": "Readable code tips: Introduction",
@@ -1016,7 +1016,7 @@
         },
         "excerpt": "There’s lots about code that slows us down I’ve been doing a lot of code reviews recently. And while most of the code I review works (by which I mean: meets the…",
         "url": "https://rosswintle.uk/2024/03/readable-code-tips-intro/",
-        "date": "March 21, 2024 at 07:35AM"
+        "date": "2024-03-21"
     },
     {
         "title": "Better type layouts with CSS",
@@ -1026,7 +1026,7 @@
         },
         "excerpt": "I wanted to quickly share two newer CSS properties that make it easier to create nice, well-balanced layouts. The text-wrap property has two newish…",
         "url": "https://gomakethings.com/better-type-layouts-with-css/",
-        "date": "March 21, 2024 at 08:45PM"
+        "date": "2024-03-21"
     },
     {
         "title": "When to Nest CSS",
@@ -1036,7 +1036,7 @@
         },
         "excerpt": "With the recent news that CSS nesting is now available in the major evergreen browsers , our team was discussing how it differs from nesting in Sass , and the…",
         "url": "https://cloudfour.com/thinks/when-to-nest-css/",
-        "date": "March 21, 2024 at 08:53PM"
+        "date": "2024-03-21"
     },
     {
         "title": "Subgrid is here",
@@ -1046,7 +1046,7 @@
         },
         "excerpt": "Support for subgrid (part of the CSS Grid Level 2 specification has just landed in Firefox Nightly! To start experimenting with it you’ll need to enable the…",
         "url": "https://css-irl.info/subgrid-is-here/",
-        "date": "March 26, 2024 at 10:58PM"
+        "date": "2024-03-26"
     },
     {
         "title": "Own Your Web – Issue 12: Finding Your Rhythm",
@@ -1056,7 +1056,7 @@
         },
         "excerpt": "t is one of the most common reasons why we abandon our personal sites and blogs: at some point, we stop publishing. But why? Weren’t we so…",
         "url": "https://buttondown.email/ownyourweb/archive/issue-12/",
-        "date": "March 26, 2024 at 11:01PM"
+        "date": "2024-03-26"
     },
     {
         "title": "The IndieWeb is the new and the old web",
@@ -1066,7 +1066,7 @@
         },
         "excerpt": " When I first started developing websites back in 2000 the internet was a much simpler place. Google existed, but most people still used Yahoo or Ask Jeeves to…",
         "url": "https://www.alexhyett.com/newsletter/the-indie-web-is-the-new-and-the-old-web/",
-        "date": "March 26, 2024 at 11:07PM"
+        "date": "2024-03-26"
     },
     {
         "title": "The Discovery Phase in UX Projects",
@@ -1076,7 +1076,7 @@
         },
         "excerpt": "In This Article: Introduction Discovery: A preliminary phase in the UX-design process that involves researching the problem space, framing the problem(s) to be…",
         "url": "https://www.nngroup.com/articles/discovery-phase/",
-        "date": "March 28, 2024 at 09:29AM"
+        "date": "2024-03-28"
     },
     {
         "title": "Using Gitea/Github actions for triggering Echo",
@@ -1086,7 +1086,7 @@
         },
         "excerpt": "I decided to start using Robb Knight’s Echo tool, to syndicate my blog posts to Mastodon, and trigger Webmentions. I’m not going to go through the configuration…",
         "url": "https://lewisdale.dev/post/using-gitea-github-actions-for-triggering-echo/",
-        "date": "March 28, 2024 at 09:29AM"
+        "date": "2024-03-28"
     },
     {
         "title": "CSS color-scheme-dependent colors with light-dark()",
@@ -1096,7 +1096,7 @@
         },
         "excerpt": "System colors have the ability to react to the current used color-scheme value. The light-dark() function exposes the same capability to authors. Bramus System…",
         "url": "https://web.dev/articles/light-dark",
-        "date": "March 28, 2024 at 09:34AM"
+        "date": "2024-03-28"
     },
     {
         "title": "How would you build a complex app with vanilla tech?",
@@ -1106,7 +1106,7 @@
         },
         "excerpt": "The other day on Mastodon, Hawk Ticehurst asked… If you were asked to build a “proper complex” web application (let’s say a full featured mastodon client or…",
         "url": "https://gomakethings.com/how-would-you-build-a-complex-app-with-vanilla-tech/",
-        "date": "March 29, 2024 at 11:57AM"
+        "date": "2024-03-29"
     },
     {
         "title": "Building Dynamic Progress Bars using only CSS",
@@ -1116,7 +1116,7 @@
         },
         "excerpt": "Here’s a full disclaimer upfront: This isn’t something I’ve come up with. Jeffery Way from Laracasts has come up with this technique in one of the videos and…",
         "url": "https://www.amitmerchant.com/dynamic-progress-bars-using-css/",
-        "date": "March 29, 2024 at 12:01PM"
+        "date": "2024-03-29"
     },
     {
         "title": "disabled vs aria-disabled on form elements",
@@ -1126,7 +1126,7 @@
         },
         "excerpt": "I'll definitely reference the following blog post in the future. Kitty Giraudel describes when to use disabled and aria-disabled. Ready? Because here comes some…",
         "url": "https://www.stefanjudis.com/notes/disabled-vs-aria-disabled-on-form-elements/",
-        "date": "March 30, 2024 at 10:47AM"
+        "date": "2024-03-30"
     },
     {
         "title": "Using Eleventy to Gobble Up Everything I Do Online",
@@ -1136,7 +1136,7 @@
         },
         "excerpt": "This post is adapted from the talk I did at the Eleventy Meetup. You can also watch the talk on YouTube. This is what I look like when I try to…",
         "url": "https://rknight.me/blog/using-eleventy-to-gobble-up-everything-i-do-online/",
-        "date": "March 31, 2024 at 12:56PM"
+        "date": "2024-03-31"
     },
     {
         "title": "Front-end development’s identity crisis",
@@ -1146,7 +1146,7 @@
         },
         "excerpt": "I’m not a “[full-stack] developer”, regardless of what my last job title says. I’m not even a front-end developer, thanks to the JavaScript–industrial complex.…",
         "url": "https://ellyloel.com/blog/front-end-development-s-identity-crisis/",
-        "date": "April 2, 2024 at 05:29PM"
+        "date": "2024-04-02"
     },
     {
         "title": "Best practices for writing CSS and JavaScript with a team",
@@ -1156,7 +1156,7 @@
         },
         "excerpt": "Yesterday, I wrote about the importance of understanding the medium that we work in. Today, I wanted to share my best practices for writing code with a team.…",
         "url": "https://gomakethings.com/best-practices-for-writing-css-and-javascript-with-a-team/",
-        "date": "April 2, 2024 at 05:35PM"
+        "date": "2024-04-02"
     },
     {
         "title": "CSS variables",
@@ -1166,7 +1166,7 @@
         },
         "excerpt": "Yesterday, I mentioned that I love CSS variables. Today, I thought I’d explain what they are and how they work, for those who aren’t already familiar with them…",
         "url": "https://gomakethings.com/css-variables/",
-        "date": "April 3, 2024 at 07:44PM"
+        "date": "2024-04-03"
     },
     {
         "title": "Have we forgotten how to build ethical things for the web?",
@@ -1176,7 +1176,7 @@
         },
         "excerpt": "I've worked on a few projects where values and ethics were a key part of the clients' mission. They weren't putting profits over everything, they were trying to…",
         "url": "https://www.nicchan.me/blog/have-we-forgotten-how-to-build-ethical-things-for-the-web/",
-        "date": "April 3, 2024 at 07:54PM"
+        "date": "2024-04-03"
     },
     {
         "title": "An advanced way to use CSS variables",
@@ -1186,7 +1186,7 @@
         },
         "excerpt": "Yesterday, we learned about CSS variables. Today, I wanted to show you an advanced approach to working with them that I often use with client projects. Let’s…",
         "url": "https://gomakethings.com/an-advanced-way-to-use-css-variables/",
-        "date": "April 4, 2024 at 09:07PM"
+        "date": "2024-04-04"
     },
     {
         "title": "5 Things Designers Need to Know for a Smooth Handoff",
@@ -1196,7 +1196,7 @@
         },
         "excerpt": "There’s no truth teller quite like Google autocomplete. As you type “Design development handoff is…” into the search bar, it quickly fills in the blank with…",
         "url": "https://www.figma.com/blog/5-things-designers-need-to-know-for-a-smooth-handoff/",
-        "date": "April 4, 2024 at 10:31PM"
+        "date": "2024-04-04"
     },
         {
         "title": "Your Cache Headers Could Probably be More Aggressive",
@@ -1206,7 +1206,7 @@
         },
         "excerpt": "We've got it real good when it comes to standing up websites these days (especially static ones). Modern hosts like Vercel and Netlify take care of a lot out of…",
         "url": "https://macarthur.me/posts/more-aggressive-cache-headers/",
-        "date": "April 5, 2024 at 10:33PM"
+        "date": "2024-04-05"
     },
     {
         "title": "Embeds and Quotations in Writing",
@@ -1216,7 +1216,7 @@
         },
         "excerpt": "Chris wrote “0 KB Social Media Embeds” and it got me thinking about my own approach to embeds and quotations in my writing. A lot of my blogging is quoting…",
         "url": "https://blog.jim-nielsen.com/2023/embeds-and-quotations/",
-        "date": "April 5, 2024 at 10:39PM"
+        "date": "2024-04-05"
     },
     {
         "title": "Web dev craftsmanship",
@@ -1226,7 +1226,7 @@
         },
         "excerpt": "I’m coming to realize that a lot of my dissatisfaction with the state of the web is that I view web development as a craft, but as a profession we’re in the…",
         "url": "https://gomakethings.com/web-dev-craftsmanship/",
-        "date": "April 8, 2024 at 11:58PM"
+        "date": "2024-04-08"
     },
     {
         "title": "My wander page",
@@ -1236,7 +1236,7 @@
         },
         "excerpt": "One of my favourite pastimes is clicking around the blogosphere, exploring and reading personal websites. I especially love encountering blogrolls or link…",
         "url": "https://jamesg.blog/2024/04/08/wander/",
-        "date": "April 8, 2024 at 11:59PM"
+        "date": "2024-04-08"
     },
     {
         "title": "Figma prototypes vs HTML prototypes",
@@ -1246,7 +1246,7 @@
         },
         "excerpt": "When you design a product, you should usability test it. Otherwise, you won’t know how well it works. Typically you either: create and test a…",
         "url": "https://adamsilver.io/blog/figma-prototypes-vs-html-prototypes/",
-        "date": "April 9, 2024 at 11:14PM"
+        "date": "2024-04-09"
     },
     {
         "title": "Git Fresh",
@@ -1256,7 +1256,7 @@
         },
         "excerpt": "I don’t know if this is a personal quirk or a side effect of my role (designer first, developer second), but my Git branchs…",
         "url": "https://tylersticka.com/journal/git-fresh/",
-        "date": "April 9, 2024 at 11:16PM"
+        "date": "2024-04-09"
     },
     {
         "title": "Blockin’ bots",
@@ -1266,7 +1266,7 @@
         },
         "excerpt": "I’ve been blocking various “artificial intelligence” (“AI”) bots on my site. Why, you ask? Well, I don’t like the idea of my work being hoovered up to train…",
         "url": "https://ethanmarcotte.com/wrote/blockin-bots/",
-        "date": "April 13, 2024 at 09:11AM"
+        "date": "2024-04-13"
     },
     {
         "title": "The joy of incremental website improvements",
@@ -1276,7 +1276,7 @@
         },
         "excerpt": "Back in the pandemic, as my personal website started to become a comfort in difficult times, I often asked myself: what can I do with my website this weekend? I…",
         "url": "https://jamesg.blog/2024/03/04/incremental-website-improvements-joy/",
-        "date": "April 13, 2024 at 09:13AM"
+        "date": "2024-04-13"
     },
     {
         "title": "Enhancing pagination with a page selector",
@@ -1286,7 +1286,7 @@
         },
         "excerpt": "I’ve made a change to my site’s pagination wherein I’ve enhanced the page count displayed at the bottom of my home and links pages to display the page count in…",
         "url": "https://coryd.dev/posts/2024/enhancing-pagination-with-a-page-selector/",
-        "date": "April 13, 2024 at 09:16AM"
+        "date": "2024-04-13"
     },
     {
         "title": "How to display language-specific quotes in CSS",
@@ -1296,7 +1296,7 @@
         },
         "excerpt": "Will Boyd's excellent article Diving into the ::before and ::after Pseudo-Elements includes nifty details about CSS quotes. Let's say you're dealing with a…",
         "url": "https://www.stefanjudis.com/today-i-learned/how-to-use-language-dependent-quotes-in-css/",
-        "date": "April 15, 2024 at 09:29AM"
+        "date": "2024-04-15"
     },
     {
         "title": "Faster Connectivity !== Faster Websites",
@@ -1306,7 +1306,7 @@
         },
         "excerpt": "This post from Dan Luu discussing how web bloat impacts users with slow devices caused me to reflect on the supposition that faster connectivity means faster…",
         "url": "https://blog.jim-nielsen.com/2024/faster-bandwidth-and-websites/",
-        "date": "April 15, 2024 at 10:25PM"
+        "date": "2024-04-15"
     },
     {
         "title": "Own Your Web – Issue 13: Now",
@@ -1316,7 +1316,7 @@
         },
         "excerpt": "There are many pages you can add to your personal site that people can visit if they want to learn more about you. A “contact” page or an “about” page…",
         "url": "https://buttondown.email/ownyourweb/archive/issue-13/",
-        "date": "April 15, 2024 at 10:28PM"
+        "date": "2024-04-15"
     },
     {
         "title": "link-peek Web Component",
@@ -1326,7 +1326,7 @@
         },
         "excerpt": " The link-peek Web Component allows you to turn a regular anchor link to a rich preview (also known as an 'unfurled' link) to show description, meta image,…",
         "url": "https://darn.es/link-peek-web-component/",
-        "date": "April 17, 2024 at 04:50PM"
+        "date": "2024-04-17"
     },
     {
         "title": "Blogging Anonymously",
@@ -1336,7 +1336,7 @@
         },
         "excerpt": "While surfing the web this weekend, I saw a curious question from Kev Quirk on Mastodon, attached to a blog post: What About…",
         "url": "https://flamedfury.com/posts/blogging-anonymously/",
-        "date": "April 17, 2024 at 04:54PM"
+        "date": "2024-04-17"
     },
     {
         "title": "Index images, videos and news with specialized sitemaps",
@@ -1346,7 +1346,7 @@
         },
         "excerpt": "If you take the time to create content online, you probably want people to read it. It doesn't have to go viral, but it'd be nice if some folks read it, right?…",
         "url": "https://www.stefanjudis.com/today-i-learned/image-video-news-sitemaps/",
-        "date": "April 17, 2024 at 04:56PM"
+        "date": "2024-04-17"
     },
     {
         "title": "A Cheatsheet for User Interview and Follow Ups Questions",
@@ -1356,7 +1356,7 @@
         },
         "excerpt": "When I prepare user interviews (or usability tests), I end up coming back to the same resources again. I decided to put them all in one single place. If you…",
         "url": "https://stephaniewalter.design/blog/a-cheatsheet-for-user-interview-and-follow-ups-questions/",
-        "date": "April 17, 2024 at 07:02PM"
+        "date": "2024-04-17"
     },
     {
         "title": "Will Web Components replace React and Vue?",
@@ -1366,7 +1366,7 @@
         },
         "excerpt": "Over the weekend, I sent an email to my newsletter subscribers asking them what kinds of things they’d like to learn about Web Components. One of the most…",
         "url": "https://gomakethings.com/will-web-components-replace-react-and-vue/",
-        "date": "April 23, 2024 at 07:46PM"
+        "date": "2024-04-23"
     },
     {
         "title": "Re-creating the ‘His Dark Materials’ Logo in CSS",
@@ -1376,7 +1376,7 @@
         },
         "excerpt": "I love the new BBC adaptation of Philip Pullman’s His Dark Materials trilogy of novels. There’s also some pretty nice graphic design to appreciate. I’m a sucker…",
         "url": "https://css-irl.info/recreating-the-his-dark-materials-logo-in-css/",
-        "date": "April 23, 2024 at 07:53PM"
+        "date": "2024-04-23"
     },
     {
         "title": "Your first Web Component",
@@ -1386,7 +1386,7 @@
         },
         "excerpt": "Yesterday, we talked about why Web Components won’t replace React or Vue. Today, let’s look at how to create your first Web Component. Let’s dig in! A really…",
         "url": "https://gomakethings.com/your-first-web-component/",
-        "date": "April 24, 2024 at 11:51PM"
+        "date": "2024-04-24"
     },
     {
         "title": "Adding options to your Web Component",
@@ -1396,7 +1396,7 @@
         },
         "excerpt": "Yesterday, we learned how to create your first Web Component. Today, we’ll learn how to add options and settings. Let’s dig in! Our Web Component We’ve got our…",
         "url": "https://gomakethings.com/adding-options-to-your-web-component/",
-        "date": "April 24, 2024 at 11:52PM"
+        "date": "2024-04-24"
     },
     {
         "title": "Deploying An 11ty Project To Shared Hosting",
@@ -1406,7 +1406,7 @@
         },
         "excerpt": "When discussing hosting options for personal websites, the usual suspects are mentioned: Netlify,…",
         "url": "https://flamedfury.com/posts/deploying-an-11ty-project-to-shared-hosting/",
-        "date": "April 26, 2024 at 09:20AM"
+        "date": "2024-04-26"
     },
     {
         "title": "Eleventy Nested Pagination",
@@ -1416,7 +1416,7 @@
         },
         "excerpt": "Eleventy (the cool static site generator) has a great feature called Pagination which allows you to iterate over a list of things in chunks and…",
         "url": "https://www.codeflood.net/blog/2024/04/17/11ty-nested-pagination/",
-        "date": "April 26, 2024 at 09:36AM"
+        "date": "2024-04-26"
     },
     {
         "title": "Don’t use the maxlength attribute to stop users from exceeding the limit",
@@ -1426,7 +1426,7 @@
         },
         "excerpt": "Have you heard of the “error prevention” heuristic? It means “do everything you can so users don’t make mistakes”. And it’s good advice. But some…",
         "url": "https://adamsilver.io/blog/dont-use-the-maxlength-attribute-to-stop-users-from-exceeding-the-limit/",
-        "date": "April 28, 2024 at 09:40PM"
+        "date": "2024-04-28"
     },
     {
         "title": "JSON RSS feed I quickly created a JSON feed for this website",
@@ -1436,7 +1436,7 @@
         },
         "excerpt": "While setting up Echo Feed to mirror my blog posts on the fediverse, I’ve discovered…",
         "url": "https://minutestomidnight.co.uk/blog/json-rss-feed/",
-        "date": "April 28, 2024 at 09:42PM"
+        "date": "2024-04-28"
     },
     {
         "title": "Progressively enhancing a Web Component",
@@ -1446,7 +1446,7 @@
         },
         "excerpt": "This week, we’ve looked at how Web Components are different from React, how to create your first Web Component, and how to add options to a Web Component.…",
         "url": "https://gomakethings.com/progressively-enhancing-a-web-component/",
-        "date": "April 28, 2024 at 09:55PM"
+        "date": "2024-04-28"
     },
     {
         "title": "My approach to HTML web components",
@@ -1456,7 +1456,7 @@
         },
         "excerpt": "I’ve been deep-diving into HTML web components over the past few weeks. I decided to refactor the JavaScript on The Session to use custom elements wherever it…",
         "url": "https://adactio.com/journal/21078",
-        "date": "April 30, 2024 at 02:13PM"
+        "date": "2024-04-30"
     },
     {
         "title": "The different ways to instantiate a Web Component",
@@ -1466,7 +1466,7 @@
         },
         "excerpt": "As part of this ongoing series on Web Components, we’ve created our first Web Component, learned how to add options and settings, and learned how to…",
         "url": "https://gomakethings.com/the-different-ways-to-instantiate-a-web-component/",
-        "date": "April 30, 2024 at 10:00PM"
+        "date": "2024-04-30"
     },
     {
         "title": "What are you interested in?",
@@ -1476,7 +1476,7 @@
         },
         "excerpt": "You may or may not be aware of the /about, /ideas, /now, and /uses page initiatives[1] [2], where website authors are encouraged to create pages on their…",
         "url": "https://chrisburnell.com/note/slash-interests/",
-        "date": "May 1, 2024 at 11:18PM"
+        "date": "2024-05-01"
     },
     {
         "title": "Web Component lifecycle methods",
@@ -1486,7 +1486,7 @@
         },
         "excerpt": "Yesterday, we learned about the different ways to instantiate a Web Component. In the article, I mentioned the connectedCallback() lifecycle method. Today,…",
         "url": "https://gomakethings.com/the-web-component-lifecycle-methods/",
-        "date": "May 1, 2024 at 11:23PM"
+        "date": "2024-05-01"
     },
     {
         "title": "User Interviews 101",
@@ -1496,7 +1496,7 @@
         },
         "excerpt": "A user interview is a popular UX research method often used in the discovery phase. User interview: A research method where the interviewer asks participants…",
         "url": "https://www.nngroup.com/articles/user-interviews/",
-        "date": "May 6, 2024 at 10:49PM"
+        "date": "2024-05-06"
     },
     {
         "title": "Securing client-side JavaScript",
@@ -1506,7 +1506,7 @@
         },
         "excerpt": "I mentioned that I overhauled the JavaScript on The Session recently. That wasn’t just so that I could mess about with HTML web components. I’d been meaning to…",
         "url": "https://adactio.com/journal/21104",
-        "date": "May 6, 2024 at 10:54PM"
+        "date": "2024-05-06"
     },
     {
         "title": "A quick light-dark() experiment",
@@ -1516,7 +1516,7 @@
         },
         "excerpt": "I wanted to experiment with the new CSS function light-dark() and get a sense of how to use it in a CSS architecture of nested (web) components. I think it’s…",
         "url": "https://daverupert.com/2024/05/light-dark-experiment/",
-        "date": "May 6, 2024 at 10:58PM"
+        "date": "2024-05-06"
     },
     {
         "title": "How to get different Web Components to talk to each other (part 2)",
@@ -1526,7 +1526,7 @@
         },
         "excerpt": "Yesterday, we learned how to connect a child and parent Web Component to each other. Today, we’re going to look at how to use custom events to provide a more…",
         "url": "https://gomakethings.com/how-to-get-different-web-components-to-talk-to-each-other-part-2/",
-        "date": "May 7, 2024 at 11:54PM"
+        "date": "2024-05-07"
     },
     {
         "title": "Building a Localised Site with 11ty, Sanity &amp; Netlify",
@@ -1536,7 +1536,7 @@
         },
         "excerpt": "In this article, we'll explore how I built a localised website for a client of mine using 11ty, Sanity, and Netlify. Recently, I had the task of converting the…",
         "url": "https://www.ryangittings.co.uk/blog/jamstack-localisation-11ty-netlify-sanity/",
-        "date": "May 7, 2024 at 11:54PM"
+        "date": "2024-05-07"
     },
     {
         "title": "How to get different Web Components to talk to each other (part 1)",
@@ -1546,7 +1546,7 @@
         },
         "excerpt": "This morning, I had multiple people ask me how you can nest Web Components inside each other and share information from one to another. Today, we’re going to…",
         "url": "https://gomakethings.com/how-to-get-different-web-components-to-talk-to-each-other-part-1/",
-        "date": "May 8, 2024 at 12:03AM"
+        "date": "2024-05-08"
     },
     {
         "title": "Why use Web Components over traditional DOM manipulation?",
@@ -1556,7 +1556,7 @@
         },
         "excerpt": "If you’ve been following my articles on HTML Web Components, you may have come away thinking… This looks a lot like traditional DOM manipulation. And you’d be…",
         "url": "https://gomakethings.com/why-use-web-components-over-traditional-dom-manipulation/",
-        "date": "May 9, 2024 at 10:28PM"
+        "date": "2024-05-09"
     },
     {
         "title": "The /interests Directory",
@@ -1566,7 +1566,7 @@
         },
         "excerpt": "I made a directory for /interests pages! If you’ve built your own, why not submit it to the list! Just over a week ago, I published What are you interested in?…",
         "url": "https://chrisburnell.com/note/interests-directory/",
-        "date": "May 9, 2024 at 10:29PM"
+        "date": "2024-05-09"
     },
     {
         "title": "A Brief Note on Highlighted Text",
@@ -1576,7 +1576,7 @@
         },
         "excerpt": "TL;DR: If you plan to style text highlighted by the browser, you must give it sufficient contrast — 3:1 for the highlight block against its…",
         "url": "https://adrianroselli.com/2024/05/a-brief-note-on-highlighted-text.html",
-        "date": "May 9, 2024 at 10:34PM"
+        "date": "2024-05-09"
     },
     {
         "title": "Interests: A New Sitelet",
@@ -1586,7 +1586,7 @@
         },
         "excerpt": "Okay so maybe the definition of sitelet doesn't quite fit but it's close enough to describe these common pages people have on their…",
         "url": "https://rknight.me/blog/interests-a-new-sitelet/",
-        "date": "May 11, 2024 at 10:06PM"
+        "date": "2024-05-11"
     },
     {
         "title": "Target=_blank implies rel=noopener",
@@ -1596,7 +1596,7 @@
         },
         "excerpt": "f you want to be a good web citizen, you might be aware of the target=\"_blank\" security issue. In the old days, when you linked to a site and wanted to open a…",
         "url": "https://www.stefanjudis.com/today-i-learned/target-blank-implies-rel-noopener/",
-        "date": "May 13, 2024 at 04:48PM"
+        "date": "2024-05-13"
     },
     {
         "title": "View transitions and stacking context",
@@ -1606,7 +1606,7 @@
         },
         "excerpt": "Why does my CSS View Transition ignore z-index? - Nic Chan,  The problem Readers Of The Blog™ may know that I have been experimenting with the View Transitions API as a way to provide animations in my new portfolio site…",
         "url": "https://www.nicchan.me/blog/view-transitions-and-stacking-context/",
-        "date": "May 13, 2024 at 04:54PM"
+        "date": "2024-05-13"
     },
     {
         "title": "How to listen to multiple events in a Web Component with the handleEvent() method",
@@ -1616,7 +1616,7 @@
         },
         "excerpt": "In a previous article, I wrote about the handleEvent() method for working with event listeners in Web Components. Today, let’s look at how we can use that to…",
         "url": "https://gomakethings.com/how-to-listen-to-multiple-events-in-a-web-component-with-the-handleevent-method/",
-        "date": "May 17, 2024 at 10:53PM"
+        "date": "2024-05-17"
     },
     {
         "title": "Web Security Basics: XSS",
@@ -1626,7 +1626,7 @@
         },
         "excerpt": "I decided to learn more about areas of web development I don’t know a lot about. You know,…stuff like SEO and web…",
         "url": "https://www.matuzo.at/blog/2022/web-security-basics-xss",
-        "date": "May 19, 2024 at 11:26AM"
+        "date": "2024-05-19"
     },
     {
         "title": "Some of my Eleventy Filters",
@@ -1636,7 +1636,7 @@
         },
         "excerpt": "Before diving in, I think it’s helpful here to note that these filters are defined using JavaScript and made available to use as Nunjucks filters in my Eleventy…",
         "url": "https://chrisburnell.com/article/some-eleventy-filters/",
-        "date": "May 19, 2024 at 07:33PM"
+        "date": "2024-05-19"
     },
     {
         "title": "RSS is Good, Isn’t It?!",
@@ -1646,7 +1646,7 @@
         },
         "excerpt": "My son gets a weekly magazine delivered to our home. It’s full of his favourite comic strips by fantastic authors and artists, he gets the pleasure of receiving…",
         "url": "https://css-irl.info/rss-is-good-isnt-it/",
-        "date": "May 19, 2024 at 07:36PM"
+        "date": "2024-05-19"
     },
     {
         "title": "Futuristic Progressive Enhancement",
@@ -1656,7 +1656,7 @@
         },
         "excerpt": "Imagine someone came to you in a time machine and said, “In the future we will write software that becomes more capable as time passes without any effort on our…",
         "url": "https://blog.jim-nielsen.com/2024/futuristic-progressive-enhanement/",
-        "date": "May 20, 2024 at 10:32PM"
+        "date": "2024-05-20"
     },
     {
         "title": "Buried Bookworm",
@@ -1666,7 +1666,7 @@
         },
         "excerpt": "’ve been tracking books that I read since 2015, and, frankly, I’m pretty embarassed at how little I read these days. To be fair, there were periods of time…",
         "url": "https://chrisburnell.com/note/buried-bookworm/",
-        "date": "May 20, 2024 at 10:36PM"
+        "date": "2024-05-20"
     },
     {
         "title": "Design interviews",
@@ -1676,7 +1676,7 @@
         },
         "excerpt": "I’ve been doing a lot of interviews for designers lately so here’s a list of all the questions I’m asking along the way and maybe this helps someone out there…",
         "url": "https://robinrendle.com/notes/design-interviews/",
-        "date": "May 21, 2024 at 12:59PM"
+        "date": "2024-05-21"
     },
     {
         "title": "CSS is fun again",
@@ -1686,7 +1686,7 @@
         },
         "excerpt": "CSS has been undergoing a quiet renaissance lately. Lots of big features which previously required an external tool to use, are now native parts of the…",
         "url": "https://pdx.su/blog/2023-10-25-css-is-fun-again/",
-        "date": "May 21, 2024 at 01:00PM"
+        "date": "2024-05-21"
     },
     {
         "title": "Upgraded to Eleventy v3",
@@ -1696,7 +1696,7 @@
         },
         "excerpt": "The alpha release of Eleventy v3 became available in December '23. It took me a little while, but I finally upgraded this website to v3.0.0-alpha.10 today. This…",
         "url": "https://ttntm.me/blog/upgraded-to-eleventy-v3/",
-        "date": "May 23, 2024 at 11:51PM"
+        "date": "2024-05-23"
     },
     {
         "title": "Slash Pages",
@@ -1706,7 +1706,7 @@
         },
         "excerpt": "Don't care about the backstory? Go check out slashpages.net. While putting Baby Knight to bed I had an idea for a project: a…",
         "url": "https://rknight.me/blog/slash-pages/",
-        "date": "May 23, 2024 at 11:51PM"
+        "date": "2024-05-23"
     },
     {
         "title": "More Indieweb Automation",
@@ -1716,17 +1716,17 @@
         },
         "excerpt": "Follow-up to a previous case study on how I automated my static website publishing workflow. This time, a lean Shortcut script is allowing me to write…",
         "url": "https://minutestomidnight.co.uk/blog/more-indieweb-automation/",
-        "date": "May 24, 2024 at 09:44AM"
+        "date": "2024-05-24"
     },
     {
         "title": "Dynamic Content Includes",
         "author": {
-            "name": "",
+            "name": "Chris Burnell",
             "url": "https://chrisburnell.com/"
         },
         "excerpt": "Those of you who have been following along with my posts this month may have noticed that I’m participating in Weblog Posting Month 2024. At the end of each of…",
         "url": "https://chrisburnell.com/article/dynamic-content-includes/",
-        "date": "May 24, 2024 at 05:37PM"
+        "date": "2024-05-24"
     },
     {
         "title": "Thinking Big and Small",
@@ -1736,7 +1736,7 @@
         },
         "excerpt": "It’s so easy to start with the question, “What should I do?” And end up with a discussion about other people and what they’re doing. Here’s Paul Ford: I’ll give…",
         "url": "https://blog.jim-nielsen.com/2024/thinking-big-and-small/",
-        "date": "May 24, 2024 at 07:05PM"
+        "date": "2024-05-24"
     },
     {
         "title": "But what about the shadow DOM?",
@@ -1746,7 +1746,7 @@
         },
         "excerpt": "I got a lot of responses to my article yesterday about the wrong way to build Web Components that insisted that “HTML only shows when the JavaScript loads” is a…",
         "url": "https://gomakethings.com/but-what-about-the-shadow-dom/",
-        "date": "May 24, 2024 at 07:09PM"
+        "date": "2024-05-24"
     },
     {
         "title": "The Times You Need A Custom @property Instead Of A CSS Variable",
@@ -1756,7 +1756,7 @@
         },
         "excerpt": "The Times You Need A Custom @property Instead Of A CSS Variable About The Author Preethi is a web developer and writer. She jots down mostly on…",
         "url": "https://www.smashingmagazine.com/2024/05/times-need-custom-property-instead-css-variable/",
-        "date": "May 24, 2024 at 10:24PM"
+        "date": "2024-05-24"
     },
     {
         "title": "Misconceptions about CSS Specificity",
@@ -1766,7 +1766,7 @@
         },
         "excerpt": "Me talking about Specificity (and the Cascade) Whenever a post about Specificity in CSS – and by extension the Cascade itself – gets published…",
         "url": "https://www.bram.us/2024/05/05/misconceptions-about-css-specificity/",
-        "date": "May 25, 2024 at 06:23PM"
+        "date": "2024-05-25"
     },
     {
         "title": "Re: Blocking Bots",
@@ -1776,7 +1776,7 @@
         },
         "excerpt": "Inspired by Neil Clarke and Ethan Marcotte, I moved my list of crawlers to a Jekyll YAML data file, and now use it to compile both the .htaccess and robots.txt…",
         "url": "https://minutestomidnight.co.uk/blog/re-blocking-bots/",
-        "date": "May 25, 2024 at 06:30PM"
+        "date": "2024-05-25"
     },
     {
         "title": "A Multiplicity of Writing",
@@ -1786,7 +1786,7 @@
         },
         "excerpt": "On this site, I write and publish in a variety of different forms, each serving their own unique purpose. I want to describe what these different are and how...",
         "url": "https://shellsharks.com/multiplicity-of-writing",
-        "date": "May 25, 2024 at 06:33PM"
+        "date": "2024-05-25"
     },
     {
         "title": "The key to side project success",
@@ -1796,7 +1796,7 @@
         },
         "excerpt": "The key to side project success Posted on: 31 October 2023 Most start-ups fail. Intuitively, they fail because they run out of money. But what’s the biggest…",
         "url": "https://samdking.co.uk/blog/mvp/",
-        "date": "May 27, 2024 at 09:42AM"
+        "date": "2024-05-27"
     },
     {
         "title": "The prefers-reduced-transparency media feature",
@@ -1806,7 +1806,7 @@
         },
         "excerpt": "The prefers-reduced-transparency media feature posted on 01.11.2023 It’s time to get me up to speed with modern CSS. There’s so much new in CSS that I…",
         "url": "https://www.matuzo.at/blog/2023/100daysof-day103",
-        "date": "May 28, 2024 at 07:29PM"
+        "date": "2024-05-28"
     },
     {
         "title": "Progressively Enhanced Popover Toggletips",
@@ -1816,7 +1816,7 @@
         },
         "excerpt": "The CSS Anchor Positioning specification enables us to position elements relative to an anchor, wherever they are in our web page. As I wrote recently, one…",
         "url": "https://css-irl.info/progressively-enhanced-popover-toggletips/",
-        "date": "May 28, 2024 at 07:33PM"
+        "date": "2024-05-28"
     },
     {
         "title": "Old Dogs, new CSS Tricks",
@@ -1826,7 +1826,7 @@
         },
         "excerpt": "A lot of new CSS features have shipped in the last years, but actual usage is still low. While there are many different reasons for the slow adoption, I think…",
         "url": "https://mxb.dev/blog/old-dogs-new-css-tricks/",
-        "date": "May 29, 2024 at 11:50PM"
+        "date": "2024-05-29"
     },
     {
         "title": "The New CSS Math: rem() and mod()",
@@ -1836,7 +1836,7 @@
         },
         "excerpt": "SS added many new Math functions to supplement the old favorites (think calc() and the more recent clamp() ). They all ultimately represent a…",
         "url": "https://danielcwilson.com/posts/mathematicss-rem-mod/",
-        "date": "May 29, 2024 at 11:50PM"
+        "date": "2024-05-29"
     },
     {
         "title": "Your site or app should work as much as possible without JavaScript",
@@ -1846,7 +1846,7 @@
         },
         "excerpt": "I’m amazed at how often this is a controversial opinion, but… your site or app should work as much as possible without JavaScript. The most common argument I…",
         "url": "https://gomakethings.com/your-site-or-app-should-work-as-much-as-possible-without-javascript/",
-        "date": "May 31, 2024 at 09:45PM"
+        "date": "2024-05-31"
     },
     {
         "title": "The different ways to build a resilient website or web app",
@@ -1856,7 +1856,7 @@
         },
         "excerpt": "Yesterday, I talked about how your site should work without JavaScript. Today, I wanted to talk about some different approaches for building a resilient website…",
         "url": "https://gomakethings.com/the-different-ways-to-build-a-resilient-website-or-web-app/",
-        "date": "May 31, 2024 at 09:50PM"
+        "date": "2024-05-31"
     },
     {
         "title": "A simpler way to build dynamic user interactions",
@@ -1866,7 +1866,7 @@
         },
         "excerpt": "Yesterday, we looked at two different ways to build more resilient websites and web apps. Today, let’s talk about how to add dynamic user interactions to static…",
         "url": "https://gomakethings.com/a-simpler-way-to-build-dynamic-user-interactions/",
-        "date": "June 1, 2024 at 02:51PM"
+        "date": "2024-06-01"
     },
     {
         "title": "External links and target=\"_blank\"",
@@ -1876,7 +1876,7 @@
         },
         "excerpt": "External links are everywhere, and I’m using tons of them on this rather small website. They’re often used as…",
         "url": "https://ttntm.me/blog/external-links-and-target-blank/",
-        "date": "June 1, 2024 at 02:52PM"
+        "date": "2024-06-01"
     },
     {
         "title": "Layout Update",
@@ -1886,7 +1886,7 @@
         },
         "excerpt": "Over the last few days, I’ve been working on some minor redesign of my website’s overall layout that I mentioned in yesterday’s post, Indent Outdent. After some…",
         "url": "https://chrisburnell.com/note/layout-update-may-2024/",
-        "date": "June 1, 2024 at 02:54PM"
+        "date": "2024-06-01"
     },
     {
         "title": "Exit Animations",
@@ -1896,7 +1896,7 @@
         },
         "excerpt": "How do you animate an element as it leaves the DOM? You can’t, is the historical answer. As soon as an element is removed from the DOM, it immediately…",
         "url": "https://chriscoyier.net/2023/10/30/exit-animations/",
-        "date": "June 3, 2024 at 11:34PM"
+        "date": "2024-06-03"
     },
     {
         "title": "Updating to Eleventy v3",
@@ -1906,7 +1906,7 @@
         },
         "excerpt": "I took some time this week to update my site to the newest version of Eleventy. Although v3.0.0 is still in alpha, I wanted to give it a try. This iteration of…",
         "url": "https://mxb.dev/blog/eleventy-v3-update/",
-        "date": "June 3, 2024 at 11:41PM"
+        "date": "2024-06-03"
     },
     {
         "title": "Why You Should Use px Units for margin, padding, & Other Spacing Techniques",
@@ -1916,7 +1916,7 @@
         },
         "excerpt": "Why are CSS margin and padding so closely related? The CSS margin and padding properties are often talked about together for two reasons: They both affect…",
         "url": "https://ashleemboyer.com//blog/why-you-should-use-px-units-for-margin-padding-and-other-spacing-techniques",
-        "date": "June 4, 2024 at 11:07PM"
+        "date": "2024-06-04"
     },
     {
         "title": "“Just” One Line",
@@ -1926,7 +1926,7 @@
         },
         "excerpt": "From Jeremy Keith’s piece “Responsibility”: Dropping in one line of JavaScript seems like a victimless crime. It’s just one small script, right? But JavaScript…",
         "url": "https://blog.jim-nielsen.com/2024/just-one-line/",
-        "date": "June 4, 2024 at 11:07PM"
+        "date": "2024-06-04"
     },
     {
         "title": "The challenge with Netlify, Vercel, Cloudflare, and so on",
@@ -1936,7 +1936,7 @@
         },
         "excerpt": "The other day, I wrote about how every dependency is a potential vulnerability. While that article as about third-party libraries and frameworks, you can make a…",
         "url": "https://gomakethings.com/the-challenge-with-netlify-vercel-cloudflare-and-so-on/",
-        "date": "June 7, 2024 at 12:11PM"
+        "date": "2024-06-07"
     },
     {
         "title": "Animation With Registered Custom Properties",
@@ -1946,7 +1946,7 @@
         },
         "excerpt": "Day 104: animation with registered custom properties posted on 02.11.2023 It’s time to get me up to speed with modern CSS. There’s so much new in CSS that I…",
         "url": "https://www.matuzo.at/blog/2023/100daysof-day104",
-        "date": "June 7, 2024 at 12:15PM"
+        "date": "2024-06-07"
     },
     {
         "title": "Maybe Don’t Name That Landmark",
@@ -1956,7 +1956,7 @@
         },
         "excerpt": "TL;DR: You probably don’t need to name that landmark. The Ngong Ping Village tourist trap on Hong Kong’s Lantau Island. All the pricey tourist…",
         "url": "ttps://adrianroselli.com/2024/06/maybe-dont-name-that-landmark.html",
-        "date": "June 11, 2024 at 11:51AM"
+        "date": "2024-06-11"
     },
     {
         "title": "Managing My Motivation, as a Solo Dev",
@@ -1966,7 +1966,7 @@
         },
         "excerpt": "One of the biggest sticking points of being a solo dev is maintaining motivation. I’ve been keeping a journal entry about how to hack my motivation, what works…",
         "url": "https://mbuffett.com/posts/maintaining-motivation/",
-        "date": "June 11, 2024 at 12:01PM"
+        "date": "2024-06-11"
     },
     {
         "title": "Modular CSS and different ways to structure your stylesheets",
@@ -1976,7 +1976,7 @@
         },
         "excerpt": "This week, I’ve written about classless vs. class-based CSS , and how I approach CSS architecture . I’ve also written a fair bit recently about how I’m starting…",
         "url": "https://gomakethings.com/modular-css-and-different-ways-to-structure-your-stylesheets/",
-        "date": "June 11, 2024 at 12:07PM"
+        "date": "2024-06-11"
     },
     {
         "title": "Compounding complexity in modern web development",
@@ -1986,7 +1986,7 @@
         },
         "excerpt": "I’d wager that most of the developers who build modern websites and web apps don’t start off thinking… I’m going to make this as complex as possible. Most of…",
         "url": "https://gomakethings.com/compounding-complexity-in-modern-web-development/",
-        "date": "June 19, 2024 at 10:48PM"
+        "date": "2024-06-19"
     },
     {
         "title": "Basic, beautiful, and buildless",
@@ -1996,7 +1996,7 @@
         },
         "excerpt": "I’m a big fan of the static site builder Eleventy. I’ve found the ability to put together a small site or landing page with minimum effort and complexity to be…",
         "url": "https://www.baldurbjarnason.com/2024/basic-beautiful-buildless/",
-        "date": "June 19, 2024 at 10:50PM"
+        "date": "2024-06-19"
     },
     {
         "title": "No No-JavaScript",
@@ -2006,7 +2006,7 @@
         },
         "excerpt": "I’m blogging this quick tip because the old technique is so ingrained I keep forgetting there is a new…",
         "url": "https://dbushell.com/2024/06/22/no-no-javascript/",
-        "date": "June 26, 2024 at 02:46PM"
+        "date": "2024-06-26"
     },
     {
         "title": "Consent, LLM scrapers, and poisoning the well",
@@ -2016,7 +2016,7 @@
         },
         "excerpt": " remember feeling numb learning that my writing had been sucked up by OpenAI. It came out of nowhere and was done without my permission or consent. I have a…",
         "url": "https://ericwbailey.website/published/consent-llm-scrapers-and-poisoning-the-well/",
-        "date": "June 26, 2024 at 11:32PM"
+        "date": "2024-06-26"
     },
     {
         "title": "Quick Trick: Using border-image to Apply and Overlay Gradient",
@@ -2026,7 +2026,7 @@
         },
         "excerpt": "I was watching Kevin Powell and Adam Argyle rapidfire through 23 CSS features. They are all cool tricks, but one stood out to me. Even as an extreme CSS…",
         "url": "https://frontendmasters.com/blog/quick-trick-using-border-image-to-apply-and-overlay-gradient/",
-        "date": "June 26, 2024 at 11:54PM"
+        "date": "2024-06-26"
     },
     {
         "title": "Every website and web app should have a service worker",
@@ -2036,7 +2036,7 @@
         },
         "excerpt": "A service worker is a special type of JavaScript file that acts like middleware for your site. Today, I want to talk about why every website and web app should…",
         "url": "https://gomakethings.com/every-website-and-web-app-should-have-a-service-worker/",
-        "date": "July 4, 2024 at 07:14PM"
+        "date": "2024-07-04"
     },
     {
         "title": "Google Spam",
@@ -2046,7 +2046,7 @@
         },
         "excerpt": "Robots accessing this content must agree to the copyright license terms at https://dbushell.com/copyright/ and ignore all…",
         "url": "https://dbushell.com/2024/07/03/google-spam/",
-        "date": "July 7, 2024 at 06:12PM"
+        "date": "2024-07-07"
     },
     {
         "title": "Feature detect CSS @property support",
@@ -2056,7 +2056,7 @@
         },
         "excerpt": "Today on Mastodon, Nils asked how to detect support for @property. While in theory you could use @supports at-rule() for this, in practice you can’t because it…",
         "url": "https://www.bram.us/2024/07/03/feature-detect-css-property-support/",
-        "date": "July 7, 2024 at 06:17PM"
+        "date": "2024-07-07"
     },
     {
         "title": "Vivaldi is quite good",
@@ -2066,7 +2066,7 @@
         },
         "excerpt": "Last year, I wrote about how all web browsers kind of suck. Every single one has turned into an AI-and-ad-driven piece of garbage. Amazing garbage that does…",
         "url": "https://gomakethings.com/vivaldi-is-quite-good/",
-        "date": "July 9, 2024 at 10:16PM"
+        "date": "2024-07-09"
     },
     {
         "title": "Highlighting Blogging on Mastodon",
@@ -2076,7 +2076,7 @@
         },
         "excerpt": "In what looks like a very smart move, the team at Mastodon just released a very nice new feature for media organizations, journalists and bloggers: when someone…",
         "url": "https://matthiasott.com/notes/highlighting-blogging-on-mastodon/",
-        "date": "July 9, 2024 at 10:19PM"
+        "date": "2024-07-09"
     },
     {
         "title": "Surprising Facts About New CSS Selectors",
@@ -2086,7 +2086,7 @@
         },
         "excerpt": "I went down a bit of a rabbit-hole recently learning about CSS Nesting , specifically regarding the new & selector. I heard that it behaves like the :is()…",
         "url": "https://cloudfour.com/thinks/surprising-facts-about-new-css-selectors/",
-        "date": "July 11, 2024 at 04:23PM"
+        "date": "2024-07-11"
     },
     {
         "title": "OKLCH for better color in the browser",
@@ -2096,7 +2096,7 @@
         },
         "excerpt": "Something that has always bugged me about CSS is the dullness of most gradients. You’d have this beautiful idea for your design, set up the gradient in your…",
         "url": "https://www.learnwithjason.dev/blog/oklch-better-color-css-browser/",
-        "date": "July 12, 2024 at 07:55PM"
+        "date": "2024-07-12"
     },
     {
         "title": "Feature detect CSS @starting-style support",
@@ -2106,7 +2106,7 @@
         },
         "excerpt": "The other day on Mastodon, Ryan wondered how hey can detect support for @starting-style. While in theory you could use @supports at-rule() for this, in practice…",
         "url": "https://www.bram.us/2024/07/11/feature-detect-css-starting-style-support/",
-        "date": "July 14, 2024 at 05:41PM"
+        "date": "2024-07-14"
     },
     {
         "title": "Is AI part and parcel of web dev?",
@@ -2116,7 +2116,7 @@
         },
         "excerpt": "Over the last year+ I've seen AI quickly increase its dominance in the social feeds I follow. I know I'm in an echo chamber, but it feels like working on the…",
         "url": "https://remysharp.com/2024/07/12/is-ai-part-and-parcel-of-web-dev",
-        "date": "July 14, 2024 at 05:43PM"
+        "date": "2024-07-14"
     },
     {
         "title": "Poisoning the AI well",
@@ -2126,7 +2126,7 @@
         },
         "excerpt": "AI is shit. There is no nuance to this for me. It steals other people’s work without permission, washes away copyright and attribution, and makes shit up. Most…",
         "url": "https://gomakethings.com/poisoning-the-ai-well/",
-        "date": "July 14, 2024 at 05:45PM"
+        "date": "2024-07-14"
     },
     {
         "title": "Helping to get quality code into production as an interaction designer",
@@ -2136,7 +2136,7 @@
         },
         "excerpt": "My notes on how interaction designers can work with software developers and testers on agile delivery teams. I shared this earlier in the week and wanted to…",
         "url": "https://www.benjystanton.co.uk/blog/helping-to-get-quality-code-into-production-as-an-interaction-designer/",
-        "date": "July 17, 2024 at 09:40AM"
+        "date": "2024-07-17"
     },
     {
         "title": "HTML & CSS for a One-Time Password Input",
@@ -2146,7 +2146,7 @@
         },
         "excerpt": "You know those One Time Password inputs? Typically 4 or 6 numbers, something like: Well I came across an article by Phuoc Nguyen about them called Build an OTP…",
         "url": "https://chriscoyier.net/2023/12/04/html-css-for-a-one-time-password-input/",
-        "date": "July 17, 2024 at 09:43AM"
+        "date": "2024-07-17"
     },
     {
         "title": "No JavaScript, No Problem",
@@ -2156,7 +2156,7 @@
         },
         "excerpt": "Last week, I pushed a big update to the Lean Web Club that removed all JavaScript dependencies. While most of the platform was server-rendered HTML stuff, some…",
         "url": "https://gomakethings.com/no-javascript-no-problem/",
-        "date": "July 17, 2024 at 09:45AM"
+        "date": "2024-07-17"
     },
     {
         "title": "Forms without an accessible name are not exposed as ARIA landmarks",
@@ -2166,7 +2166,7 @@
         },
         "excerpt": "Suppose you want to be a good web citizen; you use semantic and accessible HTML. Elements \"leading places\" are a elements, your navigation lives in a nav…",
         "url": "https://www.stefanjudis.com/today-i-learned/forms-require-an-accessible-name/",
-        "date": "July 20, 2024 at 08:30AM"
+        "date": "2024-07-20"
     },
     {
         "title": "You probably dont need HTML imports",
@@ -2176,7 +2176,7 @@
         },
         "excerpt": "For years, advocates of the lean web have lamented that there’s no such thing as HTML imports—me included. But turns out, you probably don’t actually need them…",
         "url": "https://gomakethings.com/you-probably-dont-need-html-imports/",
-        "date": "July 20, 2024 at 09:17AM"
+        "date": "2024-07-20"
     },
     {
         "title": "The many ways to hide things in the DOM",
@@ -2186,7 +2186,7 @@
         },
         "excerpt": "A few weeks ago in one of my YouTube videos, I used the [hidden] attribute to hide and show some elements in the DOM. One of my subscribers mentioned that they…",
         "url": "https://gomakethings.com/the-many-ways-to-hide-things-in-the-dom/",
-        "date": "July 21, 2024 at 06:09PM"
+        "date": "2024-07-21"
     },
     {
         "title": "Be Careful Using ‘Grid’",
@@ -2196,7 +2196,7 @@
         },
         "excerpt": "Be careful when using the word grid on its own. Be certain you have chosen the term that accurately describes the pattern you want. If this…",
         "url": "https://adrianroselli.com/2024/07/be-careful-using-grid.html",
-        "date": "July 23, 2024 at 08:54AM"
+        "date": "2024-07-23"
     },
     {
         "title": "Building a Custom Filter for Eleventy Collections",
@@ -2206,7 +2206,7 @@
         },
         "excerpt": "Collections and lists are a wonderful thing, and filters simply make them better. On this website, the first use case for a filterable collection was my whisky…",
         "url": "https://ttntm.me/blog/building-a-custom-filter-for-eleventy-collections/",
-        "date": "July 23, 2024 at 09:06AM"
+        "date": "2024-07-23"
     },
     {
         "title": "Quick Tip: How to Animate Text Gradients and Patterns in CSS",
@@ -2216,7 +2216,7 @@
         },
         "excerpt": "In this quick tip, we’ll show how easy it is to animate a background gradient with CSS. In a recent article, we showed how to set a background gradient on text…",
         "url": "https://www.sitepoint.com/css-animate-text-gradients-patterns/",
-        "date": "July 24, 2024 at 10:24PM"
+        "date": "2024-07-24"
     },
     {
         "title": "Communication Practices for Increasing UX Maturity",
@@ -2226,7 +2226,7 @@
         },
         "excerpt": "Improve your organization’s UX maturity by increasing UX awareness and knowledge through purposeful UX-related communication…",
         "url": "https://www.nngroup.com/articles/communication-practices/",
-        "date": "July 24, 2024 at 10:35PM"
+        "date": "2024-07-24"
     },
     {
         "title": "5 CSS snippets every front-end developer should know in 2024",
@@ -2236,7 +2236,7 @@
         },
         "excerpt": "Toolbelt worthy, powerful, and stable CSS you can use today. Adam Argyle GitHub Glitch Homepage I believe every front-end developer should know :has() is more…",
         "url": "https://web.dev/articles/5-css-snippets-every-front-end-developer-should-know-in-2024",
-        "date": "July 25, 2024 at 10:20AM"
+        "date": "2024-07-25"
     },
     {
         "title": "Three modern CSS properties your website must have",
@@ -2246,7 +2246,7 @@
         },
         "excerpt": "1. Scroll-margin Ever used an anchor link on a webpage, trying to find something, but got totally lost? It happens way too often. Usually the target elements…",
         "url": "https://bejamas.io/hub/guides/modern-css-properties-your-website-must-have",
-        "date": "July 25, 2024 at 07:58PM"
+        "date": "2024-07-25"
     },
     {
         "title": "Web content, the social contract and copyrights",
@@ -2256,7 +2256,7 @@
         },
         "excerpt": "I just updated the footer of this site. This is how it looks now. I'm going all corporate and legally official and stuff. Yeah — I hate it, too. You probably…",
         "url": "https://www.stefanjudis.com/blog/web-content-and-copyrights/",
-        "date": "July 25, 2024 at 08:03PM"
+        "date": "2024-07-25"
     },
     {
         "title": "The other shoe dropping on 'AI' and office work",
@@ -2266,7 +2266,7 @@
         },
         "excerpt": "From Burnout to Balance: AI-Enhanced Work Models for the Future Nearly half (47%) of workers using AI say they have no idea how to achieve the productivity…",
         "url": "https://www.baldurbjarnason.com/2024/the-other-ai-shoe-dropping/",
-        "date": "July 29, 2024 at 10:40PM"
+        "date": "2024-07-29"
     },
     {
         "title": "A modern CMS",
@@ -2276,7 +2276,7 @@
         },
         "excerpt": "I absolutely love static site generators. But their biggest weakness (when using them for clients and non-technical folks) is their lack of integrated CMS…",
         "url": "https://gomakethings.com/a-modern-cms/",
-        "date": "July 29, 2024 at 10:53PM"
+        "date": "2024-07-29"
     },
     {
         "title": "Losing is part of being a designer",
@@ -2286,7 +2286,7 @@
         },
         "excerpt": "Last Sunday I took a break from being a designer to play in the tennis men’s open singles finals. Not at Wimbledon. At my local club in North…",
         "url": "https://adamsilver.io/blog/losing-is-part-of-being-a-designer/",
-        "date": "July 30, 2024 at 07:39PM"
+        "date": "2024-07-30"
     },
     {
         "title": "Rebuilding The Web",
@@ -2296,7 +2296,7 @@
         },
         "excerpt": "What’s going on, Internet? This one has been bouncing around my head for months now, and I’ve had this draft open for the past three weeks…",
         "url": "https://flamedfury.com/posts/rebuilding-the-web/",
-        "date": "July 30, 2024 at 07:44PM"
+        "date": "2024-07-30"
     },
     {
         "title": "Using Figma variables for breakpoints",
@@ -2306,7 +2306,7 @@
         },
         "excerpt": "The hunt to find more use cases for local variables. At this point in 2023, almost all UX UI designers…",
         "url": "https://uxdesign.cc/using-figma-variables-for-breakpoints-eff321435306",
-        "date": "July 30, 2024 at 07:51PM"
+        "date": "2024-07-30"
     },
     {
         "title": "Why you need a killer web design proposal and how to write one",
@@ -2316,7 +2316,7 @@
         },
         "excerpt": "Buy the Killer Proposals template Proposals can also be effective selling tools, answering clients’ questions and encouraging them to hire you. Your goal should…",
         "url": "https://stuffandnonsense.co.uk/blog/why-you-need-a-killer-web-design-proposal-and-how-to-write-one",
-        "date": "July 31, 2024 at 08:34PM"
+        "date": "2024-07-31"
     },
     {
         "title": "Instability",
@@ -2326,7 +2326,7 @@
         },
         "excerpt": "I’ve been thinking a lot about how the web is changing. Here’s Nilay Patel: There’s a theory I’ve had for a long time that I’ve been calling “Google Zero” — my…",
         "url": "https://robinrendle.com/notes/instability/",
-        "date": "July 31, 2024 at 08:44PM"
+        "date": "2024-07-31"
     },
     {
         "title": "Displays May Be Ultra-Wide, But That Doesn't Mean Your Web Page Should Be",
@@ -2336,7 +2336,7 @@
         },
         "excerpt": "Chances are, you’ve likely visited a website whose design incorporates the full width of the browser. You may have noticed the content wasn’t easy to digest as…",
         "url": "https://martech.zone/optimal-web-page-width/",
-        "date": "August 1, 2024 at 07:31PM"
+        "date": "2024-08-01"
     },
     {
         "title": "Cascade Layers are useless",
@@ -2346,7 +2346,7 @@
         },
         "excerpt": "Cascade Layers are useless if you don‘t understand the problems they solve and use them in combination with other solutions that tackle…",
         "url": "https://www.matuzo.at/blog/2023/cascade-layers-are-useless",
-        "date": "August 4, 2024 at 09:23AM"
+        "date": "2024-08-04"
     },
     {
         "title": "Offloading JavaScript With Custom Properties",
@@ -2356,7 +2356,7 @@
         },
         "excerpt": "Sometimes a web development client doesn’t know quite what they want. Trying to guess is…",
         "url": "https://heydonworks.com/article/offloading-javascript-with-custom-properties/",
-        "date": "August 4, 2024 at 09:29AM"
+        "date": "2024-08-04"
     },
     {
         "title": "Just Build Websites",
@@ -2366,7 +2366,7 @@
         },
         "excerpt": "Here’s something you might not know about me: I like to play golf. As such, I follow a couple of golf-related brands on social media as a guilty pleasure. The…",
         "url": "https://blog.jim-nielsen.com/2024/just-build-websites/",
-        "date": "August 5, 2024 at 07:05PM"
+        "date": "2024-08-05"
     },
     {
         "title": "Own Your Web – Issue 15: Home Sweet Home",
@@ -2376,7 +2376,7 @@
         },
         "excerpt": "Let’s talk about the first thing many of your visitors will see and thus one of the most important places on any personal website: the home page. “The…",
         "url": "https://buttondown.email/ownyourweb/archive/issue-15/",
-        "date": "August 5, 2024 at 07:11PM"
+        "date": "2024-08-05"
     },
     {
         "title": "Bye bye build steps",
@@ -2386,7 +2386,7 @@
         },
         "excerpt": "I’m removing all build steps from all of my websites. I’m just so damn sick of having to install NPM scripts and run CLI commands every time I want to update my…",
         "url": "https://gomakethings.com/bye-bye-build-steps/",
-        "date": "August 7, 2024 at 09:06AM"
+        "date": "2024-08-07"
     },
     {
         "title": "Vanilla CSS and efficiencies over Sass",
@@ -2396,7 +2396,7 @@
         },
         "excerpt": "I wrote about how I ditched my Sass build step for vanilla CSS. As part of that process, I ended up refactoring a lot of code in a way that made it…",
         "url": "https://gomakethings.com/vanilla-css-and-efficiencies-over-sass/",
-        "date": "August 7, 2024 at 02:47PM"
+        "date": "2024-08-07"
     },
     {
         "title": "Highlight Text When a User Scrolls Down to That Piece of Text",
@@ -2406,7 +2406,7 @@
         },
         "excerpt": "I was reading a great post on Lene Saile’s blog and noticed a cool little design feature on her site that highlights a line of text once you scroll to it…",
         "url": "https://frontendmasters.com/blog/highlight-text-when-a-user-scrolls-down-to-that-piece-of-text/",
-        "date": "August 8, 2024 at 07:47PM"
+        "date": "2024-08-08"
     },
     {
         "title": "Design Patterns that Encourage Junk Data",
@@ -2416,7 +2416,7 @@
         },
         "excerpt": "A post from Remy on Mastodon recently got me thinking: Been picking up some of the jsbin archive work. Today, there's currently 62 millions bins stored. The…",
         "url": "https://css-irl.info/design-patterns-that-encourage-junk-data/",
-        "date": "August 8, 2024 at 07:55PM"
+        "date": "2024-08-08"
     },
     {
         "title": "A feed for everything and everything in a feed",
@@ -2426,7 +2426,7 @@
         },
         "excerpt": "At the moment my site has 6 different feeds. 5 RSS feeds, an ICS feeds and JSON versions of the 5 RSS feeds. I was asked how they're put together and, well…",
         "url": "https://coryd.dev/posts/2024/a-feed-for-everything-and-everything-in-a-feed/",
-        "date": "August 11, 2024 at 08:15AM"
+        "date": "2024-08-11"
     },
     {
         "title": "Flat files and data portability",
@@ -2436,7 +2436,7 @@
         },
         "excerpt": "The more I work with flat files, the more I love them over a traditional database setup. Let’s dig in! What is flat file storage? A flat is just a file you can…",
         "url": "https://gomakethings.com/flat-files-and-data-portability/",
-        "date": "August 11, 2024 at 08:16AM"
+        "date": "2024-08-11"
     },
     {
         "title": "Struggle and process",
@@ -2446,7 +2446,7 @@
         },
         "excerpt": "The way I’ve seen great work made isn’t using any sort of design process. It’s skipping steps when we deem them unnecessary. It’s doing them out of order just…",
         "url": "https://robinrendle.com/notes/struggle-and-process/",
-        "date": "August 11, 2024 at 08:21AM"
+        "date": "2024-08-11"
     },
     {
         "title": "My Failed Personal Site Redesign",
@@ -2456,7 +2456,7 @@
         },
         "excerpt": "tfw when you have an idea for a personal website redesign, and then you build it, and then you hate it, and then you have to decide whether to ship it anyway or…",
         "url": "https://blog.jim-nielsen.com/2024/my-failed-peronsal-site-redesign/",
-        "date": "August 15, 2024 at 10:55PM"
+        "date": "2024-08-15"
     },
     {
         "title": "The area element",
@@ -2466,7 +2466,7 @@
         },
         "excerpt": "If you’ve never killed a Tamagotchi, you’ve probably never used an <area> element. Like Tamagotchis, <area> elements used to be all the rage…",
         "url": "https://heydonworks.com/article/the-area-element/",
-        "date": "August 15, 2024 at 11:00PM"
+        "date": "2024-08-15"
     },
     {
         "title": "How to detect when attributes change on a Web Component",
@@ -2476,7 +2476,7 @@
         },
         "excerpt": "Yesterday, we looked at the Web Component lifecycle. While Web Components don’t have data reactivity, one of the lifecycle methods built into the Web Component…",
         "url": "https://gomakethings.com/how-to-detect-when-attributes-change-on-a-web-component/",
-        "date": "August 15, 2024 at 11:14PM"
+        "date": "2024-08-15"
     },
     {
         "title": "How to avoid optional form fields with a conditional reveal",
@@ -2486,7 +2486,7 @@
         },
         "excerpt": "The first rule of form design is to only ask for information you actually need to give users a good experience. But sometimes asking for…",
         "url": "https://adamsilver.io/blog/how-to-avoid-optional-form-fields-with-a-conditional-reveal/",
-        "date": "August 16, 2024 at 11:17PM"
+        "date": "2024-08-16"
     },
     {
         "title": "font-size Limbo",
@@ -2496,7 +2496,7 @@
         },
         "excerpt": "One point from Alvaro Montoro's CSS One-Liners post triggered me. Increase the text size body size…",
         "url": "https://sebastianlaube.de/en/blog/font-size-limbo",
-        "date": "August 16, 2024 at 11:18PM"
+        "date": "2024-08-16"
     },
     {
         "title": "What about searching flat files?",
@@ -2506,7 +2506,7 @@
         },
         "excerpt": "On Friday, I wrote about why I love using flat text files instead of a database for my projects. One of the more common questions I got was how I search for…",
         "url": "https://gomakethings.com/what-about-searching-flat-files/",
-        "date": "August 17, 2024 at 09:56PM"
+        "date": "2024-08-17"
     },
     {
         "title": "Things to Do Before Asking “Is This Accessible?”",
@@ -2516,7 +2516,7 @@
         },
         "excerpt": "It is not uncommon for someone to message, call, email, or carrier pigeon me to ask if something is accessible. They almost invariably want a…",
         "url": "https://adrianroselli.com/2024/08/things-to-do-before-asking-is-this-accessible.html",
-        "date": "August 17, 2024 at 09:59PM"
+        "date": "2024-08-17"
     },
     {
         "title": "80 / 20 accessibility",
@@ -2526,7 +2526,7 @@
         },
         "excerpt": "Many people are confronted with the topic of web accessibility for the first time as a result of the EAA (European Accessibility Act) (why this conftontation…",
         "url": "https://marcus.io/blog/80-20-accessibility",
-        "date": "August 18, 2024 at 10:23AM"
+        "date": "2024-08-18"
     },
     {
         "title": "heading-anchors Web Component",
@@ -2536,7 +2536,7 @@
         },
         "excerpt": "A long time ago, I wrote an article on how to add anchor links to headings in Jekyll. It got a fair amount of interest, and I was pretty pleased with the code I…",
         "url": "https://darn.es/heading-anchors-web-component/",
-        "date": "August 21, 2024 at 10:10AM"
+        "date": "2024-08-21"
     },
     {
         "title": "10 Figma Keyboard Shortcuts: A Cheat Sheet for UX Designers",
@@ -2546,7 +2546,7 @@
         },
         "excerpt": "As a UX Designer, working efficiently is always a priority—and leveraging the full power of your design tools can help. Figma offers a plethora of keyboard…",
         "url": "https://designlab.com/blog/10-figma-keyboard-shortcuts-a-cheat-sheet-for-ux-designers",
-        "date": "August 21, 2024 at 10:14AM"
+        "date": "2024-08-21"
     },
     {
         "title": "Blog Posts vs. Social Posts",
@@ -2556,7 +2556,7 @@
         },
         "excerpt": "From Emil Kowalski’s newsletter (my Feedbin cache for your convenience): I started writing more blog posts recently. I like it because it's different than X…",
         "url": "https://blog.jim-nielsen.com/2024/blog-vs-social-posts/",
-        "date": "August 22, 2024 at 08:48AM"
+        "date": "2024-08-22"
     },
     {
         "title": "The aside element",
@@ -2566,7 +2566,7 @@
         },
         "excerpt": "If you’re reading these HTML element guides alphabetically, you will have already read about <article> and learned what a sectioning element is.…",
         "url": "https://heydonworks.com/article/the-aside-element/",
-        "date": "August 28, 2024 at 07:02PM"
+        "date": "2024-08-28"
     },
     {
         "title": "New Workflow for Publishing Notes: Content in Dropbox, Code in GitHub",
@@ -2576,7 +2576,7 @@
         },
         "excerpt": "I recently changed my workflow around authoring and publishing my site notes.jim-nielsen.com. Here’s the rundown. Before Pretty standard JAMstack type stuff.…",
         "url": "https://blog.jim-nielsen.com/2024/notes-site-via-content-in-dropbox/",
-        "date": "August 28, 2024 at 10:02PM"
+        "date": "2024-08-28"
     },
     {
         "title": "Paragraphs",
@@ -2586,7 +2586,7 @@
         },
         "excerpt": "Consider the following: I am a paragraph. I am also a paragraph. You might hate it, but I'm a paragraph too. Even I am a paragraph. Though I'm a list item as…",
         "url": "https://www.scottohara.me/blog/2024/08/29/paragraphs.html",
-        "date": "August 29, 2024 at 07:22PM"
+        "date": "2024-08-29"
     },
     {
         "title": "Dynamic Importing with Eleventy",
@@ -2596,7 +2596,7 @@
         },
         "excerpt": "After organising Eleventy filters, shortcodes etc I had an idea to tidy the code even more and make it dynamic. I wanted to automatically import any new…",
         "url": "https://www.trovster.com/blog/2024/08/dynamic-importing-with-eleventy",
-        "date": "August 30, 2024 at 09:57PM"
+        "date": "2024-08-30"
     },
     {
         "title": "The secret inside One Million Checkboxes",
@@ -2606,7 +2606,7 @@
         },
         "excerpt": "A few days into making One Million Checkboxes I thought I’d been hacked. What was that doing in my database? A few hours later I was tearing up, proud of some…",
         "url": "http://eieio.games/essays/the-secret-in-one-million-checkboxes/",
-        "date": "August 30, 2024 at 09:57PM"
+        "date": "2024-08-30"
     },
     {
         "title": "Gardening and code",
@@ -2616,7 +2616,7 @@
         },
         "excerpt": "There’s a section of my yard where not much grows. We tried to get turf grass to grow for years. Wasted a ton of time, money, and resources on seeds, water,…",
         "url": "https://gomakethings.com/gardening-and-code/",
-        "date": "August 30, 2024 at 09:58PM"
+        "date": "2024-08-30"
     },
     {
         "title": "Hourly Billing Is Stopping Your Growth",
@@ -2626,7 +2626,7 @@
         },
         "excerpt": "Do you want to earn more, work less and be a more fulfilled freelancer?",
         "url": "https://www.kyleprinsloo.com/articles/stop-billing-hourly",
-        "date": "September 1, 2024 at 07:45PM"
+        "date": "2024-09-01"
     },
     {
         "title": "Organising Eleventy Filters, Shortcodes and more…",
@@ -2636,7 +2636,7 @@
         },
         "excerpt": "I work a lot with the Laravel framework, which scaffolds much of your initial setup and has conventions for where code should be stored. Starting a brand new…",
         "url": "https://www.trovster.com/blog/2024/08/organising-eleventy-filters-shortcodes-and-more",
-        "date": "September 1, 2024 at 08:23PM"
+        "date": "2024-09-01"
     },
     {
         "title": "Sanding UI",
@@ -2646,7 +2646,7 @@
         },
         "excerpt": "One of the ways I like to do development is to build something, click around a ton, make tweaks, click around more, more tweaks, more clicks, etc., until I…",
         "url": "https://blog.jim-nielsen.com/2024/sanding-ui/",
-        "date": "September 4, 2024 at 09:29PM"
+        "date": "2024-09-04"
     },
     {
         "title": "Different ways to use “--patch” in Git",
@@ -2656,7 +2656,7 @@
         },
         "excerpt": "I’ve written previously about using --patch to interactively stage changes. But did you know that you can use --patch (aka -p) to similar effect with other Git…",
         "url": "https://tekin.co.uk/2024/08/the-many-uses-for-git-patch",
-        "date": "September 4, 2024 at 09:36PM"
+        "date": "2024-09-04"
     },
     {
         "title": "Personal Websites Are As Vulnerable As Us",
@@ -2666,7 +2666,7 @@
         },
         "excerpt": "I look at some people’s personal websites and think, “Stupendous! If I ever reach that zenith of personal web design, I will call it quits.” Then I read a post…",
         "url": "https://blog.jim-nielsen.com/2024/personal-website-vulnerability/",
-        "date": "September 5, 2024 at 10:04PM"
+        "date": "2024-09-05"
     },
     {
         "title": "Popover API is Here",
@@ -2676,7 +2676,7 @@
         },
         "excerpt": "The Popover API has support across browsers now, and apparently the new way to say that is “landed in Baseline”, albeit as “newly available” rather than “widely…",
         "url": "https://frontendmasters.com/blog/popover-api-is-here/",
-        "date": "September 5, 2024 at 10:38PM"
+        "date": "2024-09-05"
     },
     {
         "title": "Basic accessibility mistakes I often see in audits",
@@ -2686,7 +2686,7 @@
         },
         "excerpt": "When I start working with new consulting clients , one of the first things I like to do is an audit of their existing site. I’m primarily looking for…",
         "url": "https://gomakethings.com/basic-accessibility-mistakes-i-often-see-in-audits/",
-        "date": "September 6, 2024 at 07:07PM"
+        "date": "2024-09-06"
     },
     {
         "title": "Auto Layout in Figma: to use or not to use?",
@@ -2696,7 +2696,7 @@
         },
         "excerpt": "Lately, I’ve been thinking a lot about the debate around auto layout in Figma. On one side, you’ve got designers who say skipping auto layout makes their work…",
         "url": "https://rafaltomal.ck.page/posts/auto-layout-in-figma-to-use-or-not-to-use",
-        "date": "September 17, 2024 at 03:05PM"
+        "date": "2024-09-17"
     },
     {
         "title": "Good forms",
@@ -2706,7 +2706,7 @@
         },
         "excerpt": "Brian LeRoux posted a few thoughts about forms and the idea of a “good form” resonated with me so I dogpiled some of my own thoughts and experiences on it.…",
         "url": "https://daverupert.com/2024/09/good-forms/",
-        "date": "September 17, 2024 at 03:09PM"
+        "date": "2024-09-17"
     },
     {
         "title": "Animating height with only CSS",
@@ -2716,7 +2716,7 @@
         },
         "excerpt": "I love ditching JavaScript for HTML and CSS whenever I can. It’s a core part of the Lean Web Club ethos. In particular, one of my favorite sets of HTML elements…",
         "url": "https://gomakethings.com/animating-height-with-only-css/",
-        "date": "October 1, 2024 at 04:27PM"
+        "date": "2024-10-01"
     },
     {
         "title": "Removing link underline styles between icons and text",
@@ -2726,7 +2726,7 @@
         },
         "excerpt": "I recently made a little update to my site with a blogroll that includes the linked site’s favicon. I think it’s good to have that icon be clickable, so I…",
         "url": "https://chriskirknielsen.com/blog/remove-link-underline-styling-between-icon-and-text/",
-        "date": "October 1, 2024 at 04:32PM"
+        "date": "2024-10-01"
     },
     {
         "title": "Should form labels be wrapped or separate?",
@@ -2736,7 +2736,7 @@
         },
         "excerpt": "Several times this year, I’ve answered variations of the following question: Is it strictly necessary for form fields and labels to have for/id association, or…",
         "url": "https://www.tpgi.com/should-form-labels-be-wrapped-or-separate/",
-        "date": "October 3, 2024 at 11:02AM"
+        "date": "2024-10-03"
     },
     {
         "title": "The role of Web Components in your site or app",
@@ -2746,7 +2746,7 @@
         },
         "excerpt": "Last week, Ryan Carniato, the guy who made SolidJS, wrote an article about how Web Components are not the future. The nicest thing I can say about it is that…",
         "url": "https://gomakethings.com/the-role-of-web-components-in-your-site-or-app/",
-        "date": "October 3, 2024 at 11:05AM"
+        "date": "2024-10-03"
     },
     {
         "title": "Putting the “Person” in “Personal Website”",
@@ -2756,7 +2756,7 @@
         },
         "excerpt": "The other day I saw a meme that went something like this: Isn’t it crappy how basic human activities like singing, dancing, and making art have been turned into…",
         "url": "https://blog.jim-nielsen.com/2024/person-in-personal-website/",
-        "date": "October 5, 2024 at 09:46AM"
+        "date": "2024-10-05"
     },
     {
         "title": "Going beyond pixels and (r)ems in CSS",
@@ -2766,7 +2766,7 @@
         },
         "excerpt": "Relative length units based on font - iO tech_hub   I will base this article on a list found at MDN as a reference but will add some extra upcoming things in the mix later on. The idea is that this is more than…",
         "url": "https://techhub.iodigital.com/articles/going-beyond-pixels-and-rems-in-css/relative-length-units-based-on-font",
-        "date": "October 16, 2024 at 06:29PM"
+        "date": "2024-10-16"
     },
     {
         "title": "A 4-step framework for crafting meaningful designs",
@@ -2776,7 +2776,7 @@
         },
         "excerpt": "Creating a successful design doesn't have to feel like wandering through a maze. There's a proven design…",
         "url": "https://uxdesign.cc/a-4-step-framework-for-crafting-meaningful-designs-ea9fca9b39b8",
-        "date": "October 20, 2024 at 10:51AM"
+        "date": "2024-10-20"
     },
     {
         "title": "As little code as possible",
@@ -2786,7 +2786,7 @@
         },
         "excerpt": "That should be the goal when writing code. As little of it as possible. I don’t mean in the code-golf, how-short-can-I-make-this-line-of-code kind of way…",
         "url": "https://gomakethings.com/as-little-code-as-possible/",
-        "date": "October 23, 2024 at 07:36AM"
+        "date": "2024-10-23"
     },
     {
         "title": "Top 10 Graphic Design Trends For 2024",
@@ -2796,7 +2796,7 @@
         },
         "excerpt": "As we navigate through 2024, the world of graphic design is buzzing with new and exciting trends that are reshaping the industry. This year has brought a lively…",
         "url": "https://graphicmama.com/blog/graphic-design-trends-2024/",
-        "date": "October 25, 2024 at 01:32PM"
+        "date": "2024-10-25"
     },
     {
         "title": "Getting Started With Style Dictionary",
@@ -2806,7 +2806,7 @@
         },
         "excerpt": "Design Tokens have become a widely-adopted method to store design decisions (such as colours, typography, spacing, border-radius, and other visual properties) across products, applications, and websites.",
         "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-1.html",
-        "date": "October 29, 2024 at 10:38PM"
+        "date": "2024-10-29"
     },
     {
         "title": "What Else Can We Do With Design Tokens?",
@@ -2816,7 +2816,7 @@
         },
         "excerpt": "Design Tokens are a solution in Design System that allow teams to define and use their design…",
         "url": "https://alwaystwisted.com/articles/what-else-can-we-do-with-design-tokens.html",
-        "date": "October 29, 2024 at 10:41PM"
+        "date": "2024-10-29"
     },
     {
         "title": "Outputting to Different Formats with Style Dictionary",
@@ -2826,7 +2826,7 @@
         },
         "excerpt": "In this article we will go through the other 'built-in' formats that are available, how to set them up, what they are for, and what they would look like.",
         "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-2.html",
-        "date": "November 1, 2024 at 01:20PM"
+        "date": "2024-11-01"
     },
     {
         "title": "Web Components and FOUC",
@@ -2836,7 +2836,7 @@
         },
         "excerpt": " My preferred style of authoring Web Components is to start with existing HTML and enhance it once the Web Component loads. For example, if I were building a…",
         "url": "https://gomakethings.com/web-components-and-fouc/",
-        "date": "November 1, 2024 at 01:32PM"
+        "date": "2024-11-01"
     },
     {
         "title": "Doing what’s required: Indicating mandatory fields in an accessible way",
@@ -2846,7 +2846,7 @@
         },
         "excerpt": "When filling in a form—be it signing up for a newsletter or applying for a credit card—you must provide a minimum…",
         "url": "https://www.tpgi.com/doing-whats-required-indicating-mandatory-fields-in-an-accessible-way/",
-        "date": "November 4, 2024 at 10:50PM"
+        "date": "2024-11-04"
     },
     {
         "title": "A CSS project boilerplate",
@@ -2856,7 +2856,7 @@
         },
         "excerpt": "When it comes to the core of CSS stuff, we do things very much the same each time at the studio. The output varies project-to-project, but the core principles…",
         "url": "https://piccalil.li/blog/a-css-project-boilerplate/",
-        "date": "November 9, 2024 at 07:04PM"
+        "date": "2024-11-09"
     },
     {
         "title": "How SVG Line Animation Works",
@@ -2866,7 +2866,7 @@
         },
         "excerpt": "I bet all of you have seen that little trick where an SVG path is animated to look like it’s drawing itself. It’s super cool. Jake Archibald pioneered the…",
         "url": "https://css-tricks.com/svg-line-animation-works/",
-        "date": "November 12, 2024 at 07:14PM"
+        "date": "2024-11-12"
     },
     {
         "title": "View transitions: Handling aspect ratio changes",
@@ -2876,7 +2876,7 @@
         },
         "excerpt": "This post assumes some knowledge of view transitions. If you're looking for a from-scratch intro to the feature, see this article. When folks ask me for help…",
         "url": "https://jakearchibald.com/2024/view-transitions-handling-aspect-ratio-changes/",
-        "date": "November 12, 2024 at 07:21PM"
+        "date": "2024-11-12"
     },
     {
         "title": "Playing with Infinity in CSS ",
@@ -2886,7 +2886,7 @@
         },
         "excerpt": "CSS has an infinity constant. When I first learned about this, my brain lit up with all kinds of absurd possibilities. Let’s discuss! There might even be some…",
         "url": "https://codersblock.com/blog/playing-with-infinity-in-css/",
-        "date": "November 17, 2024 at 04:49PM"
+        "date": "2024-11-17"
     },
     {
         "title": "Eleventy Transform speeds local development...a lot!",
@@ -2896,7 +2896,7 @@
         },
         "excerpt": "Ever since the Eleventy v3.0.0 came out and the new Eleventy Image plugin came out…",
         "url": "https://www.bobmonsour.com/posts/fast-as-hell/",
-        "date": "November 25, 2024 at 08:03AM"
+        "date": "2024-11-25"
     },
     {
         "title": "Syndicating to Bluesky",
@@ -2906,7 +2906,7 @@
         },
         "excerpt": "Back then my approach to syndicating to Bluesky was to piggy-back off my micro.blog account (which is really just the RSS feed of my notes): Micro.blog can also…",
         "url": "https://adactio.com/journal/21570",
-        "date": "November 25, 2024 at 08:05AM"
+        "date": "2024-11-25"
     },
     {
         "title": "Never half-ass two things",
@@ -2916,7 +2916,7 @@
         },
         "excerpt": "One alpha and one discovery I've finished my first sprint of being split between 2 services this week. I'm already feeling like it's not the most efficient use…",
         "url": "https://www.benjystanton.co.uk/blog/never-half-ass-two-things/",
-        "date": "November 27, 2024 at 11:35PM"
+        "date": "2024-11-27"
     },
     {
         "title": "Asking the right questions to frame the problem",
@@ -2926,7 +2926,7 @@
         },
         "excerpt": "Framing the problem is vital for designers. We need to be relentlessly talking about the core benefits that a product or service delivers, and why. I’ve found…",
         "url": "https://benholliday.com/2015/07/28/frame-the-problem/",
-        "date": "November 27, 2024 at 11:44PM"
+        "date": "2024-11-27"
     },
     {
         "title": "How to usability test your product (if you want bad UX)",
@@ -2936,7 +2936,7 @@
         },
         "excerpt": "On Friday, I met up with a friend for lunch. The day before, he’d been a research participant to taste-test 4 different brands of Jaffa cake…",
         "url": "https://adamsilver.io/blog/how-to-usability-test-your-product-if-you-want-bad-ux/",
-        "date": "December 2, 2024 at 06:50PM"
+        "date": "2024-12-02"
     },
     {
         "title": "How to Conduct a Design Audit in 2023: A Beginner’s Guide",
@@ -2946,7 +2946,7 @@
         },
         "excerpt": "Have you ever wished there was a way to determine if your website’s UX/UI design is delivering the value it’s supposed to? Enter: The design audit. A website…",
         "url": "https://designlab.com/blog/how-to-conduct-a-design-audit",
-        "date": "December 2, 2024 at 06:53PM"
+        "date": "2024-12-02"
     },
     {
         "title": "Using the Popover API for HTML Tooltips Can it be done?",
@@ -2956,7 +2956,7 @@
         },
         "excerpt": "This plucky front-end developer intends to find out. Can we do it? We looked at the Popover API and how it’s made it’s way across all browsers…",
         "url": "https://frontendmasters.com/blog/using-the-popover-api-for-html-tooltips/",
-        "date": "December 3, 2024 at 07:46PM"
+        "date": "2024-12-03"
     },
     {
         "title": "Using the ':not()' pseudo-class to remove styles from ':last-child'",
@@ -2966,7 +2966,7 @@
         },
         "excerpt": "I was re-designing the footer for my blog when I added a…",
         "url": "https://blog.stephaniestimac.com/posts/2024/12/not-pseudo-class/",
-        "date": "December 3, 2024 at 07:52PM"
+        "date": "2024-12-03"
     },
     {
         "title": "Turn off AI features by default (to reduce their climate impact)",
@@ -2976,7 +2976,7 @@
         },
         "excerpt": "Generative AI features have a large climate impact and water consumption. We can weigh that impact against those features' benefits, but what if they are left…",
         "url": "https://hidde.blog/please-make-ai-opt-in/",
-        "date": "December 4, 2024 at 08:16AM"
+        "date": "2024-12-04"
     },
     {
         "title": "Royal Mail? More like Royal FAIL",
@@ -2986,7 +2986,7 @@
         },
         "excerpt": "Last week my friend, Rachael got married. I ordered her a gift using MoonPig and arranged delivery for Tuesday (the day she’d arrive back). But…",
         "url": "https://adamsilver.io/blog/royal-mail-more-like-royal-fail/",
-        "date": "December 4, 2024 at 08:23AM"
+        "date": "2024-12-04"
     },
     {
         "title": "bluesky-replies Web Component",
@@ -2996,7 +2996,7 @@
         },
         "excerpt": "It's great to see the Web Components community grow on Bluesky. To help nurture it, I created a custom feed for Web Components as a topic if you're interested…",
         "url": "https://darn.es/bluesky-replies-web-component/",
-        "date": "December 6, 2024 at 09:16PM"
+        "date": "2024-12-06"
     },
     {
         "title": "Cool People Link to Text Fragments",
@@ -3006,7 +3006,7 @@
         },
         "excerpt": "Hyperlinks are cool. They’re what make the web, The Web. You know what’s…",
         "url": "https://dbushell.com/2024/12/05/url-fragment-text-directives/",
-        "date": "December 6, 2024 at 09:19PM"
+        "date": "2024-12-06"
     },
     {
         "title": "A Design Tokens Workflow (part 3) - Beyond JSON: Exploring File Formats for Design Tokens",
@@ -3016,7 +3016,7 @@
         },
         "excerpt": "Discover how to go beyond JSON and explore alternative file formats for design tokens in Style Dictionary. Learn to use YAML, JSON5, HJSON, and W3C-compliant…",
         "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-3.html",
-        "date": "December 7, 2024 at 11:55PM"
+        "date": "2024-12-07"
     },
     {
         "title": "A Design Tokens Workflow (part 4) - Converting Tokens with Style Dictionary",
@@ -3026,7 +3026,7 @@
         },
         "excerpt": "Learn how to transform Design Tokens for web, Android, iOS, and beyond with Style Dictionary. This guide covers key and value conversions, platform-specific naming…",
         "url": "https://alwaystwisted.com/articles/a-design-tokens-workflow-part-4.html",
-        "date": "December 7, 2024 at 11:55PM"
+        "date": "2024-12-07"
     },
     {
         "title": "Don’t Use aria-label on Static Text Elements",
@@ -3036,6 +3036,126 @@
         },
         "excerpt": "Don’t use the aria-label or aria-labelledby attributes on <div>s, <span>s, or other elements representing static/noninteractive text-level…",
         "url": "https://benmyers.dev/blog/dont-use-aria-label-on-static-text-elements/",
-        "date": "December 8, 2024 at 07:24PM"
+        "date": "2024-12-08"
+    },
+    {
+        "title": "Responsive design is dead. Long live fluid design!",
+        "author": {
+            "name": "Cristian Ghita",
+            "url": "https://x.com/indikadesign"
+        },
+        "excerpt": "I’ve been thinking a lot about this lately. For years, responsive design has been our go-to solution for…",
+        "url": "https://medium.com/design-bootcamp/responsive-design-is-dead-long-live-fluid-design-5c1609a8bf33",
+        "date": "2025-01-03"
+    },
+    {
+        "title": "Every token is a feature",
+        "author": {
+            "name": "Dave Rupert",
+            "url": "https://daverupert.com/"
+        },
+        "excerpt": "I’m in the middle of a design tokens project and I thought I’d share something I’m learning that is probably obvious to everyone else; every design token is a…",
+        "url": "https://daverupert.com/2024/12/every-token-is-a-feature/",
+        "date": "2025-01-03"
+    },
+    {
+        "title": "Custom attributes in Web Components",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "One of my favorite ways to customize Web Components is with custom attributes. Since writing that last article, I’ve gotten some questions around using custom…",
+        "url": "https://gomakethings.com/custom-attributes-in-web-components/",
+        "date": "2025-01-07"
+    },
+    {
+        "title": "Default Apps 2024",
+        "author": {
+            "name": "Stefan Judis",
+            "url": "https://www.stefanjudis.com/"
+        },
+        "excerpt": "There've been some folks sharing their 2024 default apps; let me join the fun! Heads up! Some of this post's links are affiliate links. If this rubs you the…",
+        "url": "https://www.stefanjudis.com/blog/default-apps-2024/",
+        "date": "2025-01-07"
+    },
+    {
+        "title": "Slash Pages?",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://chriscoyier.net/"
+        },
+        "excerpt": "Sometimes I look at this list of “slash pages” and I’m like ughkgh I love these, I should do like all of them. Then something stops me and I think I’ve figured…",
+        "url": "https://chriscoyier.net/2025/01/04/slash-pages/",
+        "date": "2025-01-07"
+    },
+    {
+        "title": "More ways to instantiate Web Components",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Last week, we looked at different ways to setup the HTML in a Web Component. One of the challenges with running your code in the constructor() is that sometimes…",
+        "url": "https://gomakethings.com/more-ways-to-instantiate-web-components/",
+        "date": "2025-01-08"
+    },
+    {
+        "title": "A quick and easy guide to Markdown",
+        "author": {
+            "name": "Andy Bell",
+            "url": "https://piccalil.li/author/andy-bell/"
+        },
+        "excerpt": "This guide is designed to help everyone with Markdown, even if they have never written it before. It is deliberately simple. There’s links to further resources…",
+        "url": "https://piccalil.li/blog/a-quick-and-easy-guide-to-markdown/",
+        "date": "2025-01-08"
+    },
+    {
+        "title": "Anchor Positioning and the Popover API for a JS-Free Site Menu",
+        "author": {
+            "name": "Michelle Barker",
+            "url": "https://css-irl.info/"
+        },
+        "excerpt": "Anchor positioning in CSS enables us to position an element relative to an anchor element anywhere on the page. Prior to this we could only position an element…",
+        "url": "https://css-irl.info/anchor-positioning-and-the-popover-api/",
+        "date": "2025-01-09"
+    },
+    {
+        "title": "The wrong way to do Web Components",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "There’s not really a “wrong” way to build Web Components. But there are some approaches that are, in my opinion, antithetical to the spirit of them, and maybe…",
+        "url": "https://gomakethings.com/the-wrong-way-to-do-web-components/",
+        "date": "2025-01-13"
+    },
+    {
+        "title": "Five Basic Things About JavaScript That Will Help Non JavaScript-Focused Web Designers",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://chriscoyier.net/"
+        },
+        "excerpt": "Let’s say you don’t know JavaScript. Like, at all. You haven’t needed it. You’re a web designer and you’re focused largely on UI and UX. Your skills with design…",
+        "url": "https://frontendmasters.com/blog/5-things-designers-can-do-with-javascript/",
+        "date": "2025-01-13"
+    },
+    {
+        "title": "Gotchas in Naming CSS View Transitions",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "I’m playing with making cross-document view transitions work on this blog. Nothing fancy. Mostly copying how Dave Rupert does it on his site where you get a…",
+        "url": "https://blog.jim-nielsen.com/2025/view-transition-name-gotchas/",
+        "date": "2025-01-14"
+    },
+    {
+        "title": "Using an 11ty Shortcode to craft a custom CSS pipeline",
+        "author": {
+            "name": "Matt Hobbs",
+            "url": "https://nooshu.com/"
+        },
+        "excerpt": "I know I'm still a bit of a 11ty n00b, so I hope this isn't frowned upon in the community, but on rebuilding my blog using 11ty, I decided not to use the…",
+        "url": "https://nooshu.com/blog/2025/01/12/using-an-11ty-shortcode-to-craft-a-custom-css-pipeline/",
+        "date": "2025-01-15"
     }
 ]
