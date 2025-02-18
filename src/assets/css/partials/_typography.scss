@@ -190,7 +190,7 @@ p {
   &.lead a {
     color: var(--off-black);
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   &.no-margin {
@@ -321,18 +321,6 @@ q q:after {
   content: close-quote;
 }
 
-.text {
-  &--center {
-    text-align: center;
-  }
-  &--left {
-    text-align: left;
-  }
-  &--right {
-    text-align: right;
-  }
-}
-
 hr {
   border-color: var(--orange);
   margin-bottom: 2.4rem;
@@ -353,8 +341,4 @@ details {
   & > * {
     margin-left: 2rem;
   }
-}
-
-.uppercase {
-  text-transform: uppercase;
 }

@@ -34,7 +34,7 @@ The loft conversion project is finished... well almost, the contractors are done
 
 Looking forward to making use of it once we've decorated it all!
 
-<div class="u-center"><img class="u-block u-auto-width" src="https://res.cloudinary.com/juanfernandes/image/upload/v1657353099/loft-conversion.jpg" loading="lazy" width="1024" height="361" alt="Photos collage of our loft conversion showing a new staircase and two rooms."></div>
+<div class="u-center"><img class="u-block u-width-auto" src="https://res.cloudinary.com/juanfernandes/image/upload/v1657353099/loft-conversion.jpg" loading="lazy" width="1024" height="361" alt="Photos collage of our loft conversion showing a new staircase and two rooms."></div>
 
 The outside entertainment area which was also finished this year has now had the electrics done and two patio heaters installed. I now just need to finish building the kitchen area.
 

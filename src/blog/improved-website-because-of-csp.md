@@ -53,6 +53,6 @@ I also removed the image slider from portfolio projects. The images now are show
 
 ## The result?
 
-<div class="u-center"><img class="u-block u-auto-width" src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto/fireworks.jpg" loading="lazy" width="520" height="215" alt="Shows the results of a Chromium Lighthouse test on my website"></div>
+<div class="u-center"><img class="u-block u-width-auto" src="https://res.cloudinary.com/juanfernandes/q_auto,f_auto/fireworks.jpg" loading="lazy" width="520" height="215" alt="Shows the results of a Chromium Lighthouse test on my website"></div>
 
 I enjoyed it this - now my website fully complies with very secure CSPs. It's more secure, has better performance and better for users. Win win.

@@ -45,8 +45,11 @@
   border-width: 0;
 }
 
-.u-auto-width {
+.u-width-auto {
   width: auto;
+}
+.u-width-max-80 {
+  max-width: 80%;
 }
 .u-mb-0 {
   margin-bottom: 0 !important;
@@ -135,4 +138,23 @@
 
 .rotate-180 {
   transform: rotate(180deg);
+}
+
+.u-uppercase {
+  text-transform: uppercase;
+}
+
+.u-text {
+  &--center {
+    text-align: center;
+  }
+  &--left {
+    text-align: left;
+  }
+  &--right {
+    text-align: right;
+  }
+  &--bold {
+    font-weight: bold;
+  }
 }
