@@ -5,7 +5,7 @@
   "intro": {
     "class": "sml",
     "heading": "Notes",
-    "subheading": "Short posts, photos, thoughts about code, design and personal stuff"
+    "subheading": "Short posts about code & design"
   },
   "bodyClass": "blog"
 }

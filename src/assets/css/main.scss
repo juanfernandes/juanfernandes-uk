@@ -305,7 +305,6 @@ nav {
 
   &__heading {
     color: var(--off-black);
-    font-size: 40px;
     font-size: 4rem;
     font-weight: 300;
     line-height: 1.125;
@@ -313,13 +312,10 @@ nav {
 
     &--large {
       display: block;
-      font-size: 40px;
-      font-size: 4rem;
       font-weight: bold;
 
       @media only screen and (min-width: 60em) {
-        font-size: 80px;
-        font-size: 8rem;
+        font-size: 6rem;
       }
     }
   }
@@ -339,10 +335,6 @@ nav {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
-    .intro__heading {
-      color: var(--white);
-    }
   }
 
   &--code-img {
@@ -351,7 +343,7 @@ nav {
 
   &__content {
     margin: 0 auto;
-    max-width: 64em;
+    max-width: 76em;
     padding: 0 1em;
 
     @media only screen and (min-width: 40em) { // 640
@@ -555,7 +547,7 @@ footer {
 
   .container {
     background: linear-gradient(to bottom, transparent 0%, transparent 10%, rgba(0, 0, 0, .5) 100%) repeat scroll 0% 0% transparent;
-    padding: 100px 0;
+    padding: 60px 0;
   }
 
   .copyright {
@@ -949,7 +941,8 @@ footer > .container > .sixteen {
 .books,
 .links,
 .blogroll,
-.colophon {
+.colophon,
+.u-content-gap {
   padding: 54px 0;
 }
 
@@ -989,12 +982,6 @@ footer > .container > .sixteen {
 
     .intro__heading--large {
       margin-bottom: 0;
-    }
-
-    .intro__content {
-      @media only screen and (min-width: 40em) { // 640
-        padding: 12em 1em;
-      }
     }
   }
 
