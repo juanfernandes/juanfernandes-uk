@@ -14,7 +14,32 @@
               <div class="ten cols">
                 <p>If you're looking to start a project or give your existing website a fresh new look, make an enquiry about front-end web development services or find out about availability, please use the form below.</p>
 
-                <script data-letterbirduser="juanfernandes" src="https://letterbird.co/embed/v1.js"></script>
+                {# <form action="https://formail.dev/submit/j57da08x8qqtafmka2yng64ghh7ap3gp" method="POST"> #}
+                 <form id="contact" class="form-horizontal" method="post" role="form" action="FormMail.cgi" method="post">
+                  <div class="control-group">
+                    <label class="control-label" for="name">Your name: <span class="required">*</span></label>
+                    <div class="controls">
+                      <input type="text" id="name" name="name" class="input input--xxlarge" required>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label class="control-label" for="email">Your email address: <span class="required">*</span></label>
+                    <div class="controls">
+                      <input type="email" id="email" name="email" class="input input--xxlarge" required>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <label for="message" class="control-label">Your message: <span class="required">*</span></label>
+                    <div class="controls">
+                      <textarea id="message" name="message" cols="30" rows="5" required></textarea>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="controls">
+                      <button class="button button--cta u-width-auto" type="submit">Send</button>
+                    </div>
+                  </div>
+                </form>
               </div>
 
               <div class="six cols">
