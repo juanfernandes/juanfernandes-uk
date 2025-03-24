@@ -1,12 +1,12 @@
 #!/usr/bin/perl
 ##############################################################################
-# FormMail                        Version 1.92x                              #
-# Copyright 1995-2002 Matt Wright mattw@scriptarchive.com                    #
-# Created 06/09/95                Last Modified 04/21/02                     #
+# FormMail                        Version 1.93                               #
+# Copyright 1995-2009 Matt Wright mattw@scriptarchive.com                    #
+# Created 1995-06-09              Last Modified 2009-07-14                   #
 # Matt's Script Archive, Inc.:    http://www.scriptarchive.com/              #
 ##############################################################################
 # COPYRIGHT NOTICE                                                           #
-# Copyright 1995-2002 Matthew M. Wright  All Rights Reserved.                #
+# Copyright 1995-2009 Matthew M. Wright  All Rights Reserved.                #
 #                                                                            #
 # FormMail may be used and modified free of charge by anyone so long as this #
 # copyright notice and the comments above remain intact.  By using this      #
@@ -21,7 +21,8 @@
 # in any other medium. In all cases copyright and header must remain intact. #
 ##############################################################################
 # ACCESS CONTROL FIX: Peter D. Thompson Yezek                                #
-#                     http://www.securityfocus.com/archive/1/62033           #
+# XSS + REDIRECT FIX: Francesco Ongaro, Giovanni Pellerano & Antonio Parata  #
+#   v1.93             http://www.ush.it/team/ush/hack-formmail_192/adv.txt   #
 ##############################################################################
 # Define Variables                                                           #
 #      Detailed Information Found In README File.                            #
@@ -30,20 +31,19 @@
 # system. The flags -i and -t should be passed to sendmail in order to       #
 # have it ignore single dots on a line and to read message for recipients    #
 
-$mailprog = '/usr/sbin/sendmail -i -t -odb';
+$mailprog = '/usr/lib/sendmail -i -t';
 
 # @referers allows forms to be located only on servers which are defined     #
-# in this field.  This security fix from the last version which allowed      #
-# anyone on any server to use your FormMail script on their web site.        #
+# in this field.  This is a security fix to prevent others from using your   #
+# FormMail script on their web site.                                         #
 
-@referers = ( $ENV{HTTP_HOST}, $ENV{SERVER_NAME}, scalar(getpwuid $<) );
+@referers = ('juanfernandes.uk');
 
 # @recipients defines the e-mail addresses or domain names that e-mail can   #
 # be sent to.  This must be filled in correctly to prevent SPAM and allow    #
 # valid addresses to receive e-mail.  Read the documentation to find out how #
 # this variable works!!!  It is EXTREMELY IMPORTANT.                         #
-
-@recipients = &fill_recipients('juanfernandes.uk');
+@recipients = &fill_recipients(@referers);
 
 # ACCESS CONTROL FIX: Peter D. Thompson Yezek                                #
 # @valid_ENV allows the sysadmin to define what environment variables can    #
@@ -51,15 +51,6 @@ $mailprog = '/usr/sbin/sendmail -i -t -odb';
 # the problem reported at http://www.securityfocus.com/bid/1187              #
 
 @valid_ENV = ('REMOTE_HOST','REMOTE_ADDR','REMOTE_USER','HTTP_USER_AGENT');
-
-# Stealth tweak: set $stealth=1 and an invalid referrer will raise a 404     #
-# error. You don't want this if you have to use a system that actually can't #
-# set a referrer.                                                            #
-
-$stealth=0;
-
-# NOTE: This is version 1.92x, a third-party modification that fixes more    #
-# security holes. Do NOT replace this with version 1.92.                     #
 
 # Done                                                                       #
 ##############################################################################
@@ -96,26 +87,14 @@ sub check_url {
 
     if ($ENV{'HTTP_REFERER'}) {
         foreach $referer (@referers) {
-            if ($ENV{'HTTP_REFERER'} =~m{
-                  ^                  # Start of string
-                  https?://          # HTTP or HTTPS
-                  (?: [^\@]* \@ ) ?  # There could be a username
-                  (?: [\w\.\-]* )    # Domain fragments
-                  $referer          
-                  (?: / | $ )        # End of (the domain part of) the URL.
-            }ix) {
+            if ($ENV{'HTTP_REFERER'} =~ m|https?://([^/]*)$referer|i) {
                 $check_referer = 1;
                 last;
             }
         }
     }
     else {
-        if($stealth) {
-          print "Status: 404 Not Found\n\n";
-          exit;
-        } else {
-          $check_referer = 1;
-        }
+        $check_referer = 1;
     }
 
     # If the HTTP_REFERER was invalid, send back an error.                   #
@@ -248,6 +227,18 @@ sub check_required {
         &error('invalid_headers');
     }
 
+    # Fix XSS + HTTP Header Injection for v1.93
+    foreach $lfield ('redirect', 'return_link_url') {
+        # Strip new lines
+        $Config{$lfield} =~ s/(\n|\r)//mg;
+
+        # Only allow certain handlers to avoid javascript:/data: tricks
+        if ($Config{$lfield} !~ /^\s*\// &&
+            $Config{$lfield} !~ /^\s*(http|https|ftp):\/\//) {
+            $Config{$lfield} = '';
+        }
+    }
+
     if (!$Config{'recipient'}) {
         if (!defined(%Form)) { &error('bad_referer') }
         else                 { &error('no_recipient') }
@@ -255,10 +246,9 @@ sub check_required {
     else {
         # This block of code requires that the recipient address end with    #
         # a valid domain or e-mail address as defined in @recipients.        #
-        $valid_recipient = 0;
         foreach $send_to (split(/,/,$Config{'recipient'})) {
             foreach $recipient (@recipients) {
-                if ($send_to =~ /^$recipient$/i) {
+                if ($send_to =~ /$recipient$/i) {
                     push(@send_to,$send_to); last;
                 }
             }
@@ -397,7 +387,7 @@ sub return_html {
         # Print the page footer.                                             #
         print <<"(END HTML FOOTER)";
         <hr size=1 width=75%><p> 
-        <center><font size=-1><a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.92 &copy; 1995 - 2002  Matt Wright<br>
+        <center><font size=-1><a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.93 &copy; 1995 - 2009  Matt Wright<br>
 A Free Product of <a href="http://www.scriptarchive.com/">Matt's Script Archive, Inc.</a></font></center>
         </body>
        </html>
@@ -410,7 +400,7 @@ sub send_mail {
     local($print_config,$key,$sort_order,$sorted_field,$env_report);
 
     # Open The Mail Program
-    open(MAIL,"|$mailprog 1>&2");
+    open(MAIL,"|$mailprog");
 
     print MAIL "To: $Config{'recipient'}\n";
     print MAIL "From: $Config{'email'} ($Config{'realname'})\n";
@@ -523,10 +513,13 @@ sub fill_recipients {
 
     foreach $domain (@domains) {
         if ($domain =~ /^\d+\.\d+\.\d+\.\d+$/) {
-            push(@return_recips,'[\w\-\.]+\@\[' . "\Q$domain\E" . '\]');
+            $domain =~ s/\./\\\./g;
+            push(@return_recips,'^[\w\-\.]+\@\[' . $domain . '\]');
         }
         else {
-            push(@return_recips,'[\w\-\.]+\@'."\Q$domain\E");
+            $domain =~ s/\./\\\./g;
+            $domain =~ s/\-/\\\-/g;
+            push(@return_recips,'^[\w\-\.]+\@' . $domain);
         }
     }
 
@@ -596,7 +589,7 @@ Content-type: text/html
 
      Add <tt>'$host'</tt> to your <tt><b>\@referers</b></tt> array.<hr size=1>
      <center><font size=-1>
-      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.92 &copy; 1995 - 2002  Matt Wright<br>
+      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.93 &copy; 1995 - 2009  Matt Wright<br>
       A Free Product of <a href="http://www.scriptarchive.com/">Matt's Script Archive, Inc.</a>
      </font></center>
     </td></tr>
@@ -612,7 +605,7 @@ Content-type: text/html
 
 <html>
  <head>
-  <title>FormMail v1.92</title>
+  <title>FormMail v1.93</title>
  </head>
  <body bgcolor=#FFFFFF text=#000000>
   <center>
@@ -620,8 +613,8 @@ Content-type: text/html
     <tr><th><font size=+2>FormMail</font></th></tr>
    </table>
    <table border=0 width=600 bgcolor=#CFCFCF>
-    <tr><th><tt><font size=+1>Copyright 1995 - 2002 Matt Wright<br>
-        Version 1.92 - Released April 21, 2002<br>
+    <tr><th><tt><font size=+1>Copyright 1995 - 2009 Matt Wright<br>
+        Version 1.93 - Released June 25, 2009<br>
         A Free Product of <a href="http://www.scriptarchive.com/">Matt's Script Archive,
         Inc.</a></font></tt></th></tr>
    </table>
@@ -651,7 +644,7 @@ Content-type: text/html
      <tt>method=</tt> statement is in upper case and matches <tt>GET</tt> or <tt>POST</tt>.<p>
 
      <center><font size=-1>
-      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.92 &copy; 1995 - 2002  Matt Wright<br>
+      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.93 &copy; 1995 - 2009  Matt Wright<br>
       A Free Product of <a href="http://www.scriptarchive.com/">Matt's Script Archive, Inc.</a>
      </font></center>
     </td></tr>
@@ -682,7 +675,7 @@ Content-type: text/html
      found in the <a href="http://www.scriptarchive.com/readme/formmail.html">README</a> file.<hr size=1>
 
      <center><font size=-1>
-      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.92 &copy; 1995 - 2002  Matt Wright<br>
+      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.93 &copy; 1995 - 2009  Matt Wright<br>
       A Free Product of <a href="http://www.scriptarchive.com/">Matt's Script Archive, Inc.</a>
      </font></center>
     </td></tr>
@@ -713,7 +706,7 @@ Content-type: text/html
      found in the <a href="http://www.scriptarchive.com/readme/formmail.html">README</a> file.<hr size=1>
 
      <center><font size=-1>
-      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.92 &copy; 1995 - 2002  Matt Wright<br>
+      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.93 &copy; 1995 - 2009  Matt Wright<br>
       A Free Product of <a href="http://www.scriptarchive.com/">Matt's Script Archive, Inc.</a>
      </font></center>
     </td></tr>
@@ -753,7 +746,7 @@ $missing_field_list
      These fields must be filled in before you can successfully submit the form.<p>
      Please use your browser's back button to return to the form and try again.<hr size=1>
      <center><font size=-1>
-      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.92 &copy; 1995 - 2002  Matt Wright<br>
+      <a href="http://www.scriptarchive.com/formmail.html">FormMail</a> V1.93 &copy; 1995 - 2009  Matt Wright<br>
       A Free Product of <a href="http://www.scriptarchive.com/">Matt's Script Archive, Inc.</a>
      </font></center>
     </td></tr>
