@@ -30,12 +30,8 @@
   display: inline-block;
 }
 .u-center {
-  display: flex;
+  align-items: center;
   justify-content: center;
-
-    > * {
-      align-items: center;
-    }
 }
 .u-vert-center {
   align-items: center;
@@ -50,6 +46,9 @@
 }
 .u-width-max-80 {
   max-width: 80%;
+}
+.u-width-max-content {
+  width: max-content;
 }
 .u-mb-0 {
   margin-bottom: 0 !important;

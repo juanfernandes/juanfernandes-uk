@@ -161,6 +161,12 @@
   }
 }
 
+.grid-3-col {
+  @media only screen and (min-width: 40em) {/* 640 */
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .grid-8-4 {
   display: grid;
 
