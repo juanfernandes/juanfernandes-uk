@@ -1192,16 +1192,26 @@ footer > .container > .sixteen {
   Contact
 */
 
-.form-horizontal {
-  width: 100%;
-}
+.contact-options {
+  display: grid;
+  gap: 2rem;
 
-@media only screen and (min-width: 40em) { // 640
-  .form-horizontal {
-    width: 50%;
+  @media only screen and (min-width: 40em) {/* 640 */
+    gap: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  a {
+    &:hover,
+    &:focus {
+      fill: var(--orange);
+    }
+  }
+  a[href^="tel:"] {
+    cursor: pointer;
+    pointer-events: auto;
   }
 }
-
 /*
   Block
 */

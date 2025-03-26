@@ -21,8 +21,6 @@
         <small>Posted on <time class="dt-published" datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>, by <a href="/about/" rel="author">Juan Fernandes</a> in {% for item in tags %}<a href="/tags/{{ item }}/" class="p-category">{{ item }}</a> {% endfor %}</small>
       </p>
     </article>
-
-    {% include 'webmentions.njk' %}
   </div>
 </div>
 {% endblock %}

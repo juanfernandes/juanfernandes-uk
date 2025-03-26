@@ -1,9 +1,0 @@
----
-pagination:
-  data: possums
-  size: 1
-  alias: possum
-permalink: "possums/{{ possum.name | slugify }}/"
----
-
-{{ possum.name }} is {{ possum.age }} years old
