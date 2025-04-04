@@ -1752,7 +1752,7 @@
         "title": "The Times You Need A Custom @property Instead Of A CSS Variable",
         "author": {
             "name": "Preethi Sam",
-            "url": "https://x.com/rpsthecoder"
+            "url": "https://bsky.app/profile/preethisam.bsky.social"
         },
         "excerpt": "The Times You Need A Custom @property Instead Of A CSS Variable About The Author Preethi is a web developer and writer. She jots down mostly on…",
         "url": "https://www.smashingmagazine.com/2024/05/times-need-custom-property-instead-css-variable/",
@@ -3157,5 +3157,115 @@
         "excerpt": "I know I'm still a bit of a 11ty n00b, so I hope this isn't frowned upon in the community, but on rebuilding my blog using 11ty, I decided not to use the…",
         "url": "https://nooshu.com/blog/2025/01/12/using-an-11ty-shortcode-to-craft-a-custom-css-pipeline/",
         "date": "2025-01-15"
+    },
+    {
+        "title": "Best Practices for Optimizing Images",
+        "author": {
+            "name": "Tammy Everts",
+            "url": "https://webperf.social/@tammy"
+        },
+        "excerpt": "Our 10 most popular web performance articles of 2024 core web vitals javascript performance budgets metrics We love writing articles and blog posts that help…",
+        "url": "https://www.speedcurve.com/blog/best-practices-for-optimizing-images",
+        "date": "2025-01-15"
+    },
+    {
+        "title": "CSS light-dark()",
+        "author": {
+            "name": "Mayank",
+            "url": "https://mayank.co/"
+        },
+        "excerpt": "light-dark() makes it easy to build websites that respect the user's preferred color scheme while also providing the ability to override the color scheme…",
+        "url": "https://12daysofweb.dev/2024/css-light-dark/",
+        "date": "2025-01-19"
+    },
+    {
+        "title": "Adding a Copy Button to Code Blocks",
+        "author": {
+            "name": "Tom",
+            "url": "https://ttntm.me/"
+        },
+        "excerpt": "Copying code from code blocks, without having to manually select it all first, is very handy convenience feature. But despite having published a ton of code…",
+        "url": "https://ttntm.me/blog/adding-a-copy-button-to-code-blocks/",
+        "date": "2025-01-20"
+    },
+    {
+        "title": "Don’t Wrap Figure in a Link",
+        "author": {
+            "name": "Adrian Roselli",
+            "url": "https://adrianroselli.com/"
+        },
+        "excerpt": "In my post Brief Note on Figure and Figcaption Support I demonstrate how, when encountering a figure with a screen reader, you won’t hear…",
+        "url": "https://adrianroselli.com/2025/01/dont-wrap-figure-in-a-link.html",
+        "date": "2025-01-20"
+    },
+    {
+        "title": "Every dependency is a potential vulnerability ",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Every piece of code is a potential vulnerability, really. Not just dependencies. But code that you don’t own, that’s outside your control, is particularly…",
+        "url": "https://gomakethings.com/every-dependency-is-a-potential-vulnerability/",
+        "date": "2025-01-22"
+    },
+    {
+        "title": "The Times You Need A Custom @property Instead Of A CSS Variable",
+        "author": {
+            "name": "Preethi Sam",
+            "url": "https://bsky.app/profile/preethisam.bsky.social"
+        },
+        "excerpt": "he Times You Need A Custom @property Instead Of A CSS Variable About The Author Preethi is a web developer and writer. She jots down mostly on…",
+        "url": "https://www.smashingmagazine.com/2024/05/times-need-custom-property-instead-css-variable/",
+        "date": "2025-01-22"
+    },
+    {
+        "title": "Securing Buy-In for Your Design System: A Lifecycle Approach",
+        "author": {
+            "name": "Nezar Mansour",
+            "url": "https://www.supernova.io/"
+        },
+        "excerpt": "Securing Buy-In for Your Design System: A Lifecycle Approach Discover how to secure stakeholder buy-in for a design system at every stage, from pre-building to…",
+        "url": "https://www.supernova.io/blog/securing-buy-in-for-your-design-system-a-lifecycle-approach",
+        "date": "2025-01-22"
+    },
+    {
+        "title": "Investigating INP issues",
+        "author": {
+            "name": "Stefan Judis",
+            "url": "https://www.stefanjudis.com/"
+        },
+        "excerpt": "I've been doing some client performance work lately. It's a Next.js project, and it looks like Google's INP update has punished it. Organic search rankings are…",
+        "url": "https://www.stefanjudis.com/blog/investigating-inp-issues/",
+        "date": "2025-01-28"
+    },
+    {
+        "title": "Cool URIs Don’t Change — But Humans Do",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "Here are two ideas at odds with each other: You should have human-friendly URIs Cool URIs don’t change If a slug is going to be human-friendly…",
+        "url": "https://blog.jim-nielsen.com/2024/cool-uris-and-humans/",
+        "date": "2025-01-28"
+    },
+    {
+        "title": "Filters",
+        "author": {
+            "name": "Jeremy Keith",
+            "url": "https://adactio.com/"
+        },
+        "excerpt": "My phone rang today. I didn’t recognise the number so although I pressed the big button to answer the call, I didn’t say anything. I didn’t say anything because…",
+        "url": "https://adactio.com/journal/21241",
+        "date": "2025-01-28"
+    },
+    {
+        "title": "Decline of web craftsmanship",
+        "author": {
+            "name": "Dan Davies",
+            "url": "https://www.dan-davies.co.uk/"
+        },
+        "excerpt": "Decline of web craftsmanship 27th June 2024 I was thinking back to the old days of a time where I spent a great deal of time creating a design and…",
+        "url": "https://www.dan-davies.co.uk/decline-of-web-craftsmanship",
+        "date": "2025-01-29"
     }
 ]
