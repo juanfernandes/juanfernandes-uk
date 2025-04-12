@@ -3267,5 +3267,155 @@
         "excerpt": "Decline of web craftsmanship 27th June 2024 I was thinking back to the old days of a time where I spent a great deal of time creating a design and…",
         "url": "https://www.dan-davies.co.uk/decline-of-web-craftsmanship",
         "date": "2025-01-29"
+    },
+    {
+        "title": "Accessibility in Design Systems: A Comprehensive Approach Through Documentation and Assets",
+        "author": {
+            "name": "Cintia Romero",
+            "url": "https://cintiaromero.com/"
+        },
+        "excerpt": "Get inspired by Gestalt's documentation approach to help you develop an accessibility mindset that can be scaled effectively through your design system…",
+        "url": "https://www.supernova.io/blog/accessibility-in-design-systems-a-comprehensive-approach-through-documentation-and-assets",
+        "date": "2025-02-04"
+    },
+    {
+        "title": "Not so short note on aria-label usage",
+        "author": {
+            "name": "Steve F",
+            "url": "https://html5accessibility.com/stuff/author/stevef/"
+        },
+        "excerpt": "An audience with Dr David Swallow wherein he outlines the existential threat to native labeling mechanisms posed by the use of aria-label…",
+        "url": "https://html5accessibility.com/stuff/2024/05/22/not-so-short-note-on-aria-label-usage-big-table-edition/",
+        "date": "2025-02-04"
+    },
+    {
+        "title": "Opinions for Writing Good CSS",
+        "author": {
+            "name": "Andrew Walpole",
+            "url": "https://andrewwalpole.com/"
+        },
+        "excerpt": "CSS can be hard and frustrating for beginners. The nature of the language is so different from traditional programming languages. While it’s easy to learn the…",
+        "url": "https://andrewwalpole.com/blog/opinions-for-writing-good-css/",
+        "date": "2025-02-06"
+    },
+    {
+        "title": "“Dots” Custom Element (aka Web Component)",
+        "author": {
+            "name": "David Bushell",
+            "url": "https://dbushell.com/"
+        },
+        "excerpt": "Please accept my half-hearted apology for the awkward title. Web Components are hot right now but the name is considered harmful according to Mayank. I think…",
+        "url": "https://dbushell.com/2024/06/12/docs-custom-element-web-component/",
+        "date": "2025-02-06"
+    },
+    {
+        "title": "Organising NPM Build Scripts",
+        "author": {
+            "name": "Trevor Morris",
+            "url": "https://www.trovster.com"
+        },
+        "excerpt": "I recently took an existing codebase and ported it over to Eleventy. The main purpose was to recreate the website with existing markdown files and CSS. Creating…",
+        "url": "https://www.trovster.com/blog/2024/06/organising-npm-build-scripts",
+        "date": "2025-02-10"
+    },
+    {
+        "title": "Why toggle switches suck (and what to do instead)",
+        "author": {
+            "name": "Adam Silver",
+            "url": "https://adamsilver.io/"
+        },
+        "excerpt": "A couple of weeks ago I appeared as a guest on the Complimentary podcast hosted by Katie Langerman and Anthony Hobday. One of the topics that we…",
+        "url": "https://adamsilver.io/blog/why-toggle-switches-suck-and-what-to-do-instead/",
+        "date": "2025-02-10"
+    },
+    {
+        "title": "Simple, fast build tooling with live reload for a non-framework website",
+        "author": {
+            "name": "Alistair Shepherd",
+            "url": "https://www.alistairshepherd.uk/"
+        },
+        "excerpt": "Simple, fast build tooling with live reload for a non-framework website I found a nice build tooling setup that can be integrated into…",
+        "url": "https://www.alistairshepherd.uk/writing/simple-build-tooling/",
+        "date": "2025-02-11"
+    },
+    {
+        "title": "Why are my live regions not working?",
+        "author": {
+            "name": "Patrick H. Lauke",
+            "url": "https://www.splintered.co.uk/"
+        },
+        "excerpt": "Why are my live regions not working? Posted on Wednesday, 1 May 2024 by Patrick H. Lauke in Design and development Live regions have a reputation for being…",
+        "url": "https://tetralogical.com/blog/2024/05/01/why-are-my-live-regions-not-working/",
+        "date": "2025-02-11"
+    },
+    {
+        "title": "Anchor Links and How to Make Them Awesome",
+        "author": {
+            "name": "Will Boyd",
+            "url": "https://codersblock.com/"
+        },
+        "excerpt": "Anchor links (also called jump links) are an easy way to provide in-page navigation. For example, a table of contents could use anchor links to take readers…",
+        "url": "https://codersblock.com/blog/anchor-links-and-how-to-make-them-awesome/",
+        "date": "2025-02-12"
+    },
+    {
+        "title": "Proxying an Image CDN with Cloudflare workers",
+        "author": {
+            "name": "Alistair Shepherd",
+            "url": "https://www.alistairshepherd.uk/"
+        },
+        "excerpt": "Proxying an Image CDN with Cloudflare workers A short intro and code on how you can use Cloudflare workers on Cloudflare's free tier to proxy an…",
+        "url": "https://www.alistairshepherd.uk/writing/cloudflare-worker-image-proxy/",
+        "date": "2025-02-12"
+    },
+    {
+        "title": "The anchor element",
+        "author": {
+            "name": "Heydon Pickering",
+            "url": "https://heydonworks.com/"
+        },
+        "excerpt": "First alphabetically and first in importance is the HTML <a> element. The <a> element is what makes the World Wide Web a Web…",
+        "url": "https://heydonworks.com/article/the-anchor-element/",
+        "date": "2025-02-12"
+    },
+    {
+        "title": "Manual ’till it hurts",
+        "author": {
+            "name": "Jeremy Keith",
+            "url": "https://adactio.com/"
+        },
+        "excerpt": "I’ve been going buildless—or as Brad crudely puts it, raw-dogging websites on a few projects recently. Not just obviously simple things like Clearleft’s Browser…",
+        "url": "https://adactio.com/journal/21397",
+        "date": "2025-02-13"
+    },
+    {
+        "title": "Relative Color Syntax — Basic Use Case",
+        "author": {
+            "name": "Chris Coyier",
+            "url": "https://frontendmasters.com/"
+        },
+        "excerpt": "As of last month, Firefox 128’s support of the relative color syntax means we’ve now got support across the board. I’m excited about that as it’s an extremely…",
+        "url": "https://frontendmasters.com/blog/relative-color-syntax-basic-use-cases/",
+        "date": "2025-02-20"
+    },
+    {
+        "title": "Iterative Building and Decision Making",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "Imagine you’re driving a dirt road and you come to a fork. Which way do you go, left or right? This decision is much easier to make if you’ve been traveling…",
+        "url": "https://blog.jim-nielsen.com/2024/iterative-building-and-decision-making/",
+        "date": "2025-02-24"
+    },
+    {
+        "title": "The article element",
+        "author": {
+            "name": "Heydon Pickering",
+            "url": "https://heydonworks.com/"
+        },
+        "excerpt": "It was a sunny day (in the Southern Hemisphere, possibly?) in October 2014 when HTML5 was officially released. I remember it like it was…",
+        "url": "https://heydonworks.com/article/the-article-element/",
+        "date": "2025-02-24"
     }
 ]
