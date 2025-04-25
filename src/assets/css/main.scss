@@ -793,6 +793,14 @@ footer > .container > .sixteen {
     display: block;
     margin: 0 auto;
     width: 245px;
+    filter: grayscale(1);
+    opacity: .8;
+    transition: all .25s cubic-bezier(.25, .46, .45, .94) 0s;
+
+    &:hover {
+      filter: grayscale(0);
+      opacity: 1;
+    }
   }
 }
 

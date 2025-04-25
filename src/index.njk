@@ -1,9 +1,28 @@
 {% extends 'layouts/base.njk' %}
 
 {% block main %}
-        {% include 'components/homepage-intro.njk' %}
-        {% include 'components/recent-work.njk' %}
-        {% include 'components/latest-post.njk' %}
-        {% include 'components/testimonial.njk' %}
-        {% include 'components/worked-with.njk' %}
+  {% include 'components/homepage-intro.njk' %}
+  {% include 'components/recent-work.njk' %}
+  {% include 'components/latest-post.njk' %}
+  {% include 'components/testimonial.njk' %}
+  <section class="companies">
+    <div class="content">
+      <h2 class="alpha / content__heading">{{ businesses.title }}</h2>
+      <div class="client-list">
+        <div class="client">
+          <img class="client__logo" src="{{ site.cloudinary_url }}f_auto/work/clients/in-tend.jpg" alt="in-tend" loading="lazy" width="490" height="340">
+        </div>
+        <div class="client">
+          <img class="client__logo" src="{{ site.cloudinary_url }}f_auto/work/clients/intelliflo.jpg" alt="intelliflo" loading="lazy" width="490" height="340">
+        </div>
+        <div class="client">
+          <img class="client__logo" src="{{ site.cloudinary_url }}f_auto/work/clients/defra.jpg" alt="Department for Environment Food &amp; Rural Affairs" loading="lazy" width="490" height="340">
+        </div>
+        <div class="client">
+          <img class="client__logo" src="{{ site.cloudinary_url }}f_auto/work/clients/cmi-2x.jpg" alt="Chartered Management Institute" loading="lazy" width="490" height="340">
+        </div>
+      </div>
+      <a class="u-mt-4" href="/work/#companies">See all companies</a>
+    </div>
+  </section>
 {% endblock %}

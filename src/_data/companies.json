@@ -40,7 +40,7 @@
     "alt": "Virgin Wines"
   },
   {
-    "img": "mclaren-2x.jpg",
+    "img": "mclaren.jpg",
     "alt": "McLaren"
   },
   {
@@ -106,5 +106,57 @@
   {
     "img": "ihg-2x.jpg",
     "alt": "IHG"
+  },
+  {
+    "img": "in-tend.jpg",
+    "alt": "in-tend"
+  },
+  {
+    "img": "property-with-potential.jpg",
+    "alt": "Propery With Potential"
+  },
+  {
+    "img": "gratuu.jpg",
+    "alt": "Gratuu"
+  },
+  {
+    "img": "arrival-lifts.jpg",
+    "alt": "Arrival Lifts"
+  },
+  {
+    "img": "the-national-college.jpg",
+    "alt": "The National College"
+  },
+  {
+    "img": "defra.jpg",
+    "alt": "Department for Environment Food & Rural Affairs"
+  },
+  {
+    "img": "dfe.jpg",
+    "alt": "Department for Education"
+  },
+  {
+    "img": "rbs.jpg",
+    "alt": "RBS"
+  },
+  {
+    "img": "tesco-bank.jpg",
+    "alt": "TESCO Bank"
+  },
+  {
+    "img": "tui.jpg",
+    "alt": "TUI"
+  },
+  {
+    "img": "stw.jpg",
+    "alt": "Surbiton Tyre & Wheel"
+  },
+  {
+    "img": "intelliflo.jpg",
+    "alt": "intelliflo"
+  },
+  {
+    "img": "molo.jpg",
+    "alt": "molo"
   }
 ]
