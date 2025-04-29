@@ -1,0 +1,55 @@
+{
+  "title": "Money Alive Integration",
+  "description": ".",
+  "keywords": "",
+  "meta": {
+    "ogTitle": "Money Alive Integration",
+    "ogDesc": "",
+    "lang": "https://www.juanfernandes.uk/work/intelliflo/money-alive"
+  },
+  "intro": {
+    "class": "",
+    "heading": "Money Alive",
+    "subheading": ""
+  },
+  "details": {
+    "client": "intelliflo",
+    "role": "UX Designer",
+    "tech": "Figma",
+    "url": ""
+  },
+  "project": {
+    "heading": "Money Alive Integration",
+    "brief": "<p>Using Figma, I designed and integrated a dashboard component within the existing interface to display available videos and track user progress on previously watched content. I created a cohesive video library experience with dedicated screens for exploring new and existing videos, complete with progress indicators. To enhance usability, I also designed a custom video player, search and filtering functionality, and both list and grid views for flexible content browsing.</p>"
+  },
+  "images": [
+    {
+      "img": "intelliflo/money-alive/1.1-PFP-New_Videos_Dashboard",
+      "alt": "Personal Finance Portal Dashboard"
+    },
+    {
+      "img": "intelliflo/money-alive/2-PFP-New_Videos_Dashboard-overlay",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/money-alive/3.1-PFP-New_Videos_Dashboard-overlay-alt",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/money-alive/1-PFP-Videos-List_View",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/money-alive/2.1-PFP-Videos-List_View-Video_Overlay",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/money-alive/3-PFP-Videos-Grid_View",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/money-alive/4-PFP-Videos-Grid_View-Video_Overlay",
+      "alt": ""
+    }
+  ]
+}

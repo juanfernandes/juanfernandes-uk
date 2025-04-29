@@ -3,7 +3,6 @@
 img {
   display: block;
   height: auto;
-  // margin-bottom: 24px;
   max-width: 100%;
 
   &--rounded {
@@ -66,16 +65,15 @@ figure {
   flex-direction: column;
 
   img {
-    margin-bottom: 1em;
+    margin-bottom: 2rem;
   }
 
   figcaption {
     color: var(--off-black);
     font-style: italic;
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: normal;
-    margin-bottom: 2em;
+    margin-bottom: 4rem;
 
     > * {
       margin: 0;

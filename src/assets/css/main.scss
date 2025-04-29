@@ -834,10 +834,22 @@ footer > .container > .sixteen {
 
   &__images img {
     border: 1px solid var(--orange);
+    transition: transform ease-in-out 0.3s;
+    
+    @media only screen and (min-width: 64em) {
+      &:hover {
+        transform: scale(1.5);
+      }
+    }
   }
 
   &__images img:not(:last-of-type) {
     margin-bottom: 4rem;
+  }
+
+  &__images figure {
+    align-items: flex-start;
+    margin: 0;
   }
 
   &__meta {
@@ -915,9 +927,9 @@ footer > .container > .sixteen {
 
 @media only screen and (min-width: 40em) { // 640
   .project__heading {
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto;
     position: relative;
-    width: 400px;
+    width: 460px;
   }
 
   .nav--portfolio {
@@ -934,12 +946,6 @@ footer > .container > .sixteen {
   .nav--portfolio .nav--portfolio__controls {
     float: right;
     margin-top: 7px;
-  }
-}
-
-@media only screen and (min-width: 56.250em) { /* 900  */
-  .project__heading {
-    width: auto;
   }
 }
 

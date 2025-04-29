@@ -1,0 +1,56 @@
+{
+  "title": "Bulk Secure Messaging",
+  "description": ".",
+  "keywords": "",
+  "meta": {
+    "ogTitle": "Bulk Secure Messaging",
+    "ogDesc": "",
+    "lang": "https://www.juanfernandes.uk/work/intelliflo/secure-messaging"
+  },
+  "intro": {
+    "class": "",
+    "heading": "Secure Messaging",
+    "subheading": ""
+  },
+  "details": {
+    "client": "intelliflo",
+    "role": "UX Designer",
+    "tech": "Figma",
+    "url": ""
+  },
+  "project": {
+    "heading": "Bulk Secure Messaging",
+    "brief": "<p>Designed intuitive screens that enable users to send secure messages in bulk. Users can easily search for clients using the existing search functionality or download a pre-formatted template to populate with their recipient list. Once uploaded, the list seamlessly integrates into the workflow, allowing for efficient and streamlined bulk message delivery.</p>"
+  },
+  "images": [
+    {
+      "img": "intelliflo/secure-messaging/1-Secure_Messaging",
+      "description": "test",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/secure-messaging/2-New_Bulk_Secure_Message",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/secure-messaging/3-New_Client_List",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/secure-messaging/4-Download_Template",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/secure-messaging/5-Import_Template",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/secure-messaging/6-Import_Summary",
+      "alt": ""
+    },
+    {
+      "img": "intelliflo/secure-messaging/7-Delete_Message",
+      "alt": ""
+    }
+  ]
+}
