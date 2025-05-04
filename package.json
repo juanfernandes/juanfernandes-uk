@@ -6,7 +6,7 @@
     "eleventy": "npx eleventy",
     "watch:eleventy": "eleventy --quiet --serve",
     "start": "npm-run-all watch:*",
-    "build": "npm run sass && npx eleventy"
+    "build": "eleventy"
   },
   "repository": {
     "type": "git",
