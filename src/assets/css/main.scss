@@ -185,13 +185,6 @@ $module: 'social-icons';
       border-color: var(--orange);
     }
 
-    @media only screen and (min-width: 40em) { // 640
-      top: -8px;
-    }
-    @media only screen and (min-width: 60em) { // 960
-      top: -12px;
-    }
-
     background: url("https://res.cloudinary.com/juanfernandes/image/upload/v1580308000/juanfernandes-logo.svg") no-repeat;
     background-size: 60px 60px;
     display: block;
@@ -200,6 +193,13 @@ $module: 'social-icons';
     outline: none;
     text-indent: -999em;
     width: 60px;
+
+    @media only screen and (min-width: 40em) { // 640
+      top: -8px;
+    }
+    @media only screen and (min-width: 60em) { // 960
+      top: -12px;
+    }
 
     @media only screen and (min-width: 40em) { // 640
       background-size: 80px 80px;
@@ -238,13 +238,15 @@ nav {
     width: 100%;
 
     .nav__item {
+      padding: 20px 4px;
+
       &:first-child {
         padding-left: 0
       }
       &:last-child {
         padding-right: 0;
       }
-      padding: 20px 4px;
+
       @media only screen and (min-width: 40em) { // 640
         padding: 20px 6px;
       }
@@ -258,12 +260,6 @@ nav {
         font-weight: 700;
         font-size: 12px;
         font-size: 1.2rem;
-
-        @media only screen and (min-width: 60em) { // 960
-          font-size: 14px;
-          font-size: 1.4rem;
-        }
-
         letter-spacing: 0.075em;
         text-decoration: none;
         text-transform: uppercase;
@@ -274,6 +270,11 @@ nav {
           color: var(--dark-grey);
           border-bottom: 4px solid var(--orange);
           padding-bottom: 2px;
+        }
+        
+        @media only screen and (min-width: 60em) { // 960
+          font-size: 14px;
+          font-size: 1.4rem;
         }
       }
 
