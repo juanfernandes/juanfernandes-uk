@@ -1,16 +1,17 @@
-@use "partials/reset";
-@use "partials/typography";
-@use "partials/buttons";
-@use "partials/forms";
-@use "partials/grid";
-@use "partials/images";
-@use "partials/lists";
-@use "partials/tables";
-@use "partials/avatar";
-@use "partials/announcement";
-@use "partials/alert";
+@use "partials/_reset";
+@use "partials/_typography";
+@use "partials/_buttons";
+@use "partials/_forms";
+@use "partials/_grid";
+@use "partials/_images";
+@use "partials/_lists";
+@use "partials/_tables";
+@use "partials/_avatar";
+@use "partials/_announcement";
+@use "partials/_alert";
 @use "partials/_pagination";
 @use "partials/_utilities";
+@use "partials/_position";
 
 // @import "partials/_fluid-media";
 // @import "partials/_breadcrumb";

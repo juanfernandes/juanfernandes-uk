@@ -487,6 +487,12 @@ nav {
       grid-template-columns: 3fr 1fr;
       grid-gap: 2em;
 
+      .testimonial__quote {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
       &:nth-child(2n) {
         grid-template-columns: 1fr 3fr;
 
@@ -507,6 +513,7 @@ nav {
 
       blockquote {
         border: 0;
+        padding: 0;
         position: relative;
       }
 

@@ -117,9 +117,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(rssPlugin)
   eleventyConfig.addPlugin(syntaxHighlight)
 
-  // Watch
-  // eleventyConfig.addWatchTarget('./src/assets/css/')
-
+  // Sass
   eleventyConfig.addTemplateFormats('scss')
 
   return {

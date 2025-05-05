@@ -4,7 +4,7 @@
   "description": "Personal website of Juan Fernandes",
   "scripts": {
     "eleventy": "npx eleventy",
-    "watch:eleventy": "eleventy --quiet --serve",
+    "watch:eleventy": "eleventy --serve",
     "start": "npm-run-all watch:*",
     "build": "eleventy"
   },
