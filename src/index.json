@@ -9,11 +9,11 @@
   },
 	"intro": {
 		"class": "home",
-		"heading": "Juan Fernandes",
-		"subheading": "Freelance Website Designer",
+		"heading": "Designing simple, human-centered digital experiences for everyday problem solvers.",
+		"subheading": "",
 		"cta": {
       "url": "/work/",
-      "text": "View my work"
+      "text": "View Work"
     }
   },
   "recentWork": [

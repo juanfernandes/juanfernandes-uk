@@ -23,8 +23,10 @@ h6 a {
 
 h1,
 .alpha {
-  font-size: 3.6rem;
-  line-height: 1.33333;
+  @media only screen and (min-width: 40em) {
+    font-size: 4rem !important;
+    line-height: 1.33333 !important;
+  }
 }
 
 h2,

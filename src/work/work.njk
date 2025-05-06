@@ -1,6 +1,17 @@
 {% extends 'layouts/base.njk' %}
 
 {% block main %}
+        <section class="section section--intro section--dark" id="content">
+          <div class="content">
+            <p class="alpha">A selection of recent design and development projects for clients across education, e-commerce, automotive, and SaaS. I specialise in crafting responsive, accessible websites and UI components that perform beautifully across devices and feel effortless to use.</p>
+            {% if intro.cta %}
+            <div class="actions u-mt-4">
+              <a class="button--cta" href="{{ intro.cta.url }}">{{ intro.cta.text }}</a>
+            </div>
+            {% endif %}
+          </div>
+        </section>
+
         <section class="work">
           <div class="content" id="content">
             <h2 class="content__heading">Work I've Done</h2>

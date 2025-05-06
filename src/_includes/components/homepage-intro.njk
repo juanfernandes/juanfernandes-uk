@@ -1,5 +1,10 @@
         <section class="section section--intro" id="content">
           <div class="content">
-            <p>Hey, I'm Juan &mdash; a freelance website designer with over 15 years of experience. I design &amp; develop responsive websites using industry best practices and standards.</p>
+            <p class="alpha">I specialise in intuitive interfaces, clear design systems, and scalable UI that supports small business success and accessibility for all.</p>
+            {% if intro.cta %}
+            <div class="actions u-mt-4">
+              <a class="button--cta" href="{{ intro.cta.url }}">{{ intro.cta.text }}</a>
+            </div>
+            {% endif %}
           </div>
         </section>
