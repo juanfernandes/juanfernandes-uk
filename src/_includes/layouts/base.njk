@@ -5,11 +5,16 @@
 {% endif %}
 
 <!doctype html>
-  <html class="no-js" lang="en">
-  <head>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if title == 'Home' %}{{ site.meta.title }}{% else %}{{ pageTitle }}{% endif %}</title>
+    <link rel="stylesheet" href="/assets/css/global.css">
     <meta name="description" content="{{ description }}" />
     <meta name="keywords" content="{{ keywords }}" />
+
     <meta name="twitter:site" content="{{ site.meta.ogTwitter }}" />
     <meta name="twitter:url" property="og:url" content="{{ currentUrl }}">
     <meta name="twitter:title" property="og:title" content="{{ title }}">
@@ -23,10 +28,6 @@
     {% endif %}
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta http-equiv="cleartype" content="on">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="{{ site.generator }}">
     <meta property="fediverse:creator" content="@juanfernandes@indieweb.social" />
     <link rel="canonical" href="{{ currentUrl }}" />
@@ -42,7 +43,6 @@
     {% for item in site.socials %}
     <link href="{{ item.url }}" rel="me" />
     {% endfor %}
-    <link rel="stylesheet" href="/assets/css/global.css">
   </head>
 
   <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>
