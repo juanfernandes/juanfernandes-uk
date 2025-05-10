@@ -10,11 +10,7 @@
 	"intro": {
 		"class": "home",
 		"heading": "Designing simple, human-centered digital experiences for everyday problem solvers.",
-		"subheading": "",
-		"cta": {
-      "url": "/work/",
-      "text": "View Work"
-    }
+		"subheading": ""
   },
   "recentWork": [
     {
@@ -36,26 +32,24 @@
       "link": "surbiton-tyre-wheel",
       "img": "surbiton-tyre-wheel-recent",
       "name": "Surbiton Tyre and Wheel"
+    }
+  ],
+  "workedWith": [
+    {
+      "img": "in-tend",
+      "alt": "in-tend"
     },
     {
-      "link": "property-with-potential",
-      "img": "property-with-potential-recent",
-      "name": "Property With Potential"
+      "img": "intelliflo",
+      "alt": "intelliflo"
     },
     {
-      "link": "lusso-prestige",
-      "img": "lusso-prestige-recent",
-      "name": "Lusso Prestige"
+      "img": "defra",
+      "alt": "Department for Environment Food &amp; Rural Affairs"
     },
     {
-      "link": "mclaren",
-      "img": "mclaren-project-recent",
-      "name": "McLaren Automotive"
-    },
-    {
-      "link": "landrover",
-      "img": "landrover-project-recent",
-      "name": "Approved Used Vehicle Search"
+      "img": "cmi-2x",
+      "alt": "Chartered Management Institute"
     }
   ],
   "businesses": {

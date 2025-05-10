@@ -49,7 +49,7 @@ intro:
 
 <div id="want-to-read">
   <h2 class="section-heading">Want to Read</h2>
-  <div class="bookshelf u-mb-0">
+  <div class="bookshelf">
   {% for book in books | sort(attribute='title') %}
     {% if book.status == "toRead" %}
       <div class="book">
@@ -63,4 +63,25 @@ intro:
     {% endif %}
   {% endfor %}
   </div>
+</div>
+
+<div id="summarised">
+  <h2 class="section-heading">Summaries</h2>
+  {% for yearRead, book in summaries | groupby("yearRead") | dictsort | reverse %}
+  {% if yearRead %}
+    <h3>{{ yearRead }}</h3>
+    <div class="bookshelf u-mb-0">
+      {% for book in summaries | sort(attribute='title') %}
+      <div class="book">
+        <a href="{{ book.url }}" aria-label="{{ book.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ book.img }}" alt="{{ book.title }}" width="180" height="276"></a>
+        <div class="details">
+          <h3>{{ book.title }}</h3>
+          {% if book.subtitle %}<span class="subtitle">{{ book.subtitle }}</span>{% endif %}
+          <span class="author">{{ book.author }}</span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% endfor %}
 </div>
