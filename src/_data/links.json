@@ -3417,5 +3417,85 @@
         "excerpt": "It was a sunny day (in the Southern Hemisphere, possibly?) in October 2014 when HTML5 was officially released. I remember it like it was…",
         "url": "https://heydonworks.com/article/the-article-element/",
         "date": "2025-02-24"
+    },
+    {
+        "title": "How to add links with a keyboard shortcut in Sublime Text",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": " Last week, I wrote about my Sublime Text setup. I write in markdown a lot. And one thing that’s been missing for me from Sublime is the ability to add a link to…",
+        "url": "https://gomakethings.com/how-to-add-links-with-a-keyboard-shortcut-in-sublime-text/",
+        "date": "2025-04-15"
+    },
+    {
+        "title": "Fine-tuning Text Inputs",
+        "author": {
+            "name": "Garrett Dimon",
+            "url": "https://garrettdimon.com/"
+        },
+        "excerpt": "When building or using HTML forms, we often layer in a variety of additional elements like labels, help text, validation, and JavaScript behaviors…",
+        "url": "https://garrettdimon.com/journal/posts/fine-tuning-text-inputs",
+        "date": "2025-04-19"
+    },
+    {
+        "title": "How to redesign a website: step by step guide",
+        "author": {
+            "name": "Jennifer Pelegrin",
+            "url": "https://www.justinmind.com/blog/author/jennifer-pelegrin/"
+        },
+        "excerpt": "Is it time for a website redesign? It’s not just about updating the look - it’s about improving…",
+        "url": "https://www.justinmind.com/web-design/website-redesign",
+        "date": "2025-04-24"
+    },
+    {
+        "title": "Double-Pagination in Eleventy",
+        "author": {
+            "name": "Christopher Kirk-Nielsen",
+            "url": "https://chriskirknielsen.com/"
+        },
+        "excerpt": "So I recently converted a French blog of mine to Eleventy from a Hugo-powered one (which itself was previously a WordPress…), as one does on a…",
+        "url": "https://chriskirknielsen.com/blog/double-pagination-in-eleventy/",
+        "date": "2025-04-24"
+    },
+    {
+        "title": "User journey mapping: guide with tools and examples",
+        "author": {
+            "name": "Jennifer Pelegrin",
+            "url": "https://www.justinmind.com/blog/author/jennifer-pelegrin/"
+        },
+        "excerpt": "User journey maps help us navigate the sometimes choppy waters…",
+        "url": "https://www.justinmind.com/ux-design/user-journey-map",
+        "date": "2025-05-07"
+    },
+    {
+        "title": "Customising checkbox question pages with the GOV.UK Prototype Kit and Nunjucks",
+        "author": {
+            "name": "Benjy Stanton",
+            "url": "https://www.benjystanton.co.uk/"
+        },
+        "excerpt": "I've been doing some more prototyping this week, using the excellent GOV.UK Prototype Kit. I needed to recreate a checkbox…",
+        "url": "https://www.benjystanton.co.uk/blog/customising-checkbox-question-pages-with-the-gov.uk-prototype-kit-and-nunjucks/",
+        "date": "2025-05-07"
+    },
+    {
+        "title": "Processes and rules make code review less intimidating",
+        "author": {
+            "name": "Stefan Judis",
+            "url": "https://www.stefanjudis.com/"
+        },
+        "excerpt": "Code reviews are, by nature, intimidating. Sometimes even brutal. If you've been in…",
+        "url": "https://www.stefanjudis.com/blog/processes-and-rules-make-code-review-less-intimidating/",
+        "date": "2025-05-13"
+    },
+    {
+        "title": "Prompting the Wrong Question",
+        "author": {
+            "name": "Jim Nielsen",
+            "url": "https://blog.jim-nielsen.com/"
+        },
+        "excerpt": "So there I am, working on a bug exclusive to Safari (we’ve all been there). I can’t figure it out so I ask AI, “Hey, this piece of code is not working in…",
+        "url": "https://blog.jim-nielsen.com/2024/prompting-the-wrong-question/",
+        "date": "2025-05-13"
     }
 ]

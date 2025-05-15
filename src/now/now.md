@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2025-04-04T08:00:00
+date: 2025-05-15T08:30:00
 class: now
 intro:
   heading: Now
@@ -12,12 +12,12 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
-* My children and I have finally moved into our new home. The move was horrendous - the buying & selling process is equally as bad. But we're in and still have loads of boxes to unpack!
+* We're pretty much settled in the new house. Still have lots of things that don't have a place in our new home. Planning a cabin/summerhouse/shed combo so I can and office and a shed.
 
 ## Watching
 
-* **[The Walk-In](https://www.themoviedb.org/tv/210664-the-walk-in "The Walk-In")**  
-Forced to flee the UK and go into hiding in the 1990’s when he became a mole from within the BNP, Matthew Collins returned to Britain to make a new life for himself. As Collins works with young white men in the fight against radicalisation.
+* **[House](https://www.themoviedb.org/tv/1408-house "House")**  
+Dr. Gregory House, a drug-addicted, unconventional, misanthropic medical genius, leads a team of diagnosticians at the fictional Princeton–Plainsboro Teaching Hospital in New Jersey.
 
 * **[Dexter](https://www.themoviedb.org/tv/1405-dexter "Dexter")**  
 Rewatch: Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.
