@@ -1,5 +1,14 @@
 const path = require('node:path')
 const sass = require('sass')
+const markdownIt = require('markdown-it')
+const markdownItAttrs = require('markdown-it-attrs')
+
+const markdownItOptions = {
+  html: true,
+  breaks: true,
+  linkify: true
+}
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
 
 // Import filters
 const rssPlugin = require('@11ty/eleventy-plugin-rss')
@@ -8,6 +17,8 @@ const dateFilter = require('./src/_filters/date-filter')
 const w3DateFilter = require('./src/_filters/w3-date-filter')
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.setLibrary('md', markdownLib)
+
   eleventyConfig.addExtension('scss', {
     outputFileExtension: 'css',
 

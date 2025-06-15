@@ -2,7 +2,7 @@
 layout: page
 title: Now
 permalink: "/now/"
-date: 2025-05-15T08:30:00
+date: 2025-06-15T15:30:00
 class: now
 intro:
   heading: Now
@@ -12,10 +12,12 @@ keywords: now, freelance website designer, frontend developer, reading, watching
 
 ---
 ## Personal
-* We're pretty much settled in the new house. Still have lots of things that don't have a place in our new home. Planning a cabin/summerhouse/shed combo so I can and office and a shed.
+* Been doing lots of work on the garden. Have been building a side gate from scratch using wood I've got laying around. Nearly done now, just need to finish the frame and the get some strong hinges to hang the gate.
+
+## Projexts
+I've been building a Printful‑powered e‑commerce site with 11ty and Stripe integration, and I've just [written a blog post](/blog/building-a-printful‑powered-ecommerce-site/) about what I have done so far. 
 
 ## Watching
-
 * **[House](https://www.themoviedb.org/tv/1408-house "House")**  
 Dr. Gregory House, a drug-addicted, unconventional, misanthropic medical genius, leads a team of diagnosticians at the fictional Princeton–Plainsboro Teaching Hospital in New Jersey.
 

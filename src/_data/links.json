@@ -3497,5 +3497,175 @@
         "excerpt": "So there I am, working on a bug exclusive to Safari (we’ve all been there). I can’t figure it out so I ask AI, “Hey, this piece of code is not working in…",
         "url": "https://blog.jim-nielsen.com/2024/prompting-the-wrong-question/",
         "date": "2025-05-13"
+    },
+    {
+        "title": "Styling web components",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "One of the more common questions I get around Web Components is how to style them. The Shadow DOM is a big part of why Web Components are often hard to style.…",
+        "url": "https://gomakethings.com/styling-web-components/",
+        "date": "2025-05-19"
+    },
+    {
+        "title": "Creating Design System-Friendly Snowflakes with Utility Classes",
+        "author": {
+            "name": "Stuart Robson",
+            "url": "https://alwaystwisted.com/"
+        },
+        "excerpt": "Whilst I was helping EMBL in creating a new Design System based on a brand…",
+        "url": "https://alwaystwisted.com/articles/creating-design-system-friendly-snowflakes-with-utility-classes.html",
+        "date": "2025-05-19"
+    },
+    {
+        "title": "::pseudo-elements?",
+        "author": {
+            "name": "David Bushell",
+            "url": "https://dbushell.com/"
+        },
+        "excerpt": "I’ve given it some thought and I’m going to say it. I don’t like pseudo-elements.",
+        "url": "https://dbushell.com/2025/05/23/pseudo-elements/",
+        "date": "2025-05-28"
+    },
+    {
+        "title": "Modern layouts with CSS",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "As I continue to build out my HTML-focused UI library, one of the things I’ve been deep in-the-weeds on recently is modern approaches to layout…",
+        "url": "https://gomakethings.com/modern-layouts-with-css/",
+        "date": "2025-05-28"
+    },
+    {
+        "title": "CSS logical properties",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "Today, I wanted to talk about CSS logical properties, a newer (and arguably better) way to define properties that are directional in nature. Let’s dig in! The…",
+        "url": "https://gomakethings.com/css-logical-properties/",
+        "date": "2025-05-28"
+    },
+    {
+        "title": "More myself online",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "It’s really surprising how many fully remote jobs require mandatory, several-times-a-year travel under the pretense that “face-to-face time is really important…",
+        "url": "https://gomakethings.com/more-myself-online/",
+        "date": "2025-05-29"
+    },
+    {
+        "title": "The problem with good design",
+        "author": {
+            "name": "Adam Silver",
+            "url": "https://adamsilver.io/"
+        },
+        "excerpt": "Last week I ran a Form Design Mastery live call with the UX team at Multiverse. Various members of the team shared their designs for me to review…",
+        "url": "https://adamsilver.io/blog/the-problem-with-good-design/",
+        "date": "2025-05-29"
+    },
+    {
+        "title": "Naming conventions for CSS classes",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "I’m working on a UI library for people who love HTML and modern CSS, and one of the many details I’m currently sweating is naming conventions for CSS classes…",
+        "url": "https://gomakethings.com/naming-conventions-for-css-classes/",
+        "date": "2025-05-30"
+    },
+    {
+        "title": "How to write error messages that actually help users rather than frustrate them",
+        "author": {
+            "name": "Amy Hupe",
+            "url": "https://amyhupe.co.uk/"
+        },
+        "excerpt": "One of the most consistently neglected parts of today’s user experiences is our handling of errors. We’re so busy designing the happy paths through our products…",
+        "url": "https://piccalil.li/blog/how-to-write-error-messages-that-actually-help-users-rather-than-frustrate-them/",
+        "date": "2025-05-30"
+    },
+    {
+        "title": "My Figma design system",
+        "author": {
+            "name": "Adham Dannaway",
+            "url": "https://www.adhamdannaway.com/"
+        },
+        "excerpt": "Why I created the design system I’ve been pushing pixels since 2005 and have studied hundreds of design systems over the years, even before they were called…",
+        "url": "https://www.adhamdannaway.com/portfolio/figma-design-system",
+        "date": "2025-06-01"
+    },
+    {
+        "title": ":nth-next-sibling? No need.",
+        "author": {
+            "name": "Chris Kirk-Nielsen",
+            "url": "https://chriskirknielsen.com/"
+        },
+        "excerpt": "Yesterday, I discovered a new wish I had in CSS: when selecting the next few siblings of an element, instead of having to do…",
+        "url": "https://chriskirknielsen.com/blog/nth-next-sibling-no-need/",
+        "date": "2025-06-04"
+    },
+    {
+        "title": "Worrying about the future of interaction design",
+        "author": {
+            "name": "Benjy Stanton",
+            "url": "https://www.benjystanton.co.uk/"
+        },
+        "excerpt": "A weeknote starting 9 September 2024. This post from Steve Messer got me thinking about the future of interaction design again this week. With the rise of tools…",
+        "url": "https://www.benjystanton.co.uk/blog/worrying-about-the-future-of-interaction-design/",
+        "date": "2025-06-04"
+    },
+    {
+        "title": "Limitation Breeds Creativity: A Study in Composition with Custom Properties",
+        "author": {
+            "name": "Michelle Barker",
+            "url": "https://css-irl.info/"
+        },
+        "excerpt": "It’s been a little while since I’ve played around with making creative stuff with CSS just for fun. My trip to State of the Browser conference at the weekend…",
+        "url": "https://css-irl.info/limitation-breeds-creativity/",
+        "date": "2025-06-04"
+    },
+    {
+        "title": "Optimize for optionality and build towards checkpoints",
+        "author": {
+            "name": "Sebastian De Deyne",
+            "url": "https://sebastiandedeyne.com/"
+        },
+        "excerpt": "In a project management-themed Hackers Incorporated episode, Adam Wathan introduced derisking projects with save points. The entire episode is definitely worth…",
+        "url": "https://sebastiandedeyne.com/optimize-for-optionality-and-build-towards-checkpoints",
+        "date": "2025-06-08"
+    },
+    {
+        "title": "The order of accessible name computation steps",
+        "author": {
+            "name": "Stefan Judis",
+            "url": "https://www.stefanjudis.com/"
+        },
+        "excerpt": "I try to be a good web citizen, and keep things accessible. Now, I'm no expert, but there are some things web developers should check at least: Do images have…",
+        "url": "https://www.stefanjudis.com/today-i-learned/the-order-of-accessible-name-computation-steps/",
+        "date": "2025-06-08"
+    },
+    {
+        "title": "Building Search Index with Eleventy",
+        "author": {
+            "name": "Ariel Salminen",
+            "url": "https://arielsalminen.com/"
+        },
+        "excerpt": "One of the features that I’m quite happy about on my new website is the built-in search functionality and how the search index gets built for it. You can test…",
+        "url": "https://arielsalminen.com/2025/building-search-index-with-eleventy/",
+        "date": "2025-06-11"
+    },
+    {
+        "title": "The world we're designing",
+        "author": {
+            "name": "Chris Ferdinandi",
+            "url": "https://gomakethings.com/"
+        },
+        "excerpt": "On the topic of craft and web development, over on Bluesky Kameron Hurley shared this excerpt from the book Stolen Focus… One day, James Williams—the former…",
+        "url": "https://gomakethings.com/the-world-were-designing/",
+        "date": "2025-06-11"
     }
 ]

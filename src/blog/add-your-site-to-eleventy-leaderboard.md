@@ -17,6 +17,7 @@ date: 2020-12-09T23:00:00Z
 tags:
 - eleventy
 - ssg
+- 11ty
 ---
 
 <p class="lead">The Eleventy (11ty) leaderboard benchmarks websites built with Eleventy over time.</p>
