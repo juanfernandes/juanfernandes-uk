@@ -1,27 +1,23 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "/v1579162295/trianglify.png"
-title: 'Monthly Notes: November 2020'
-description: Don't you hate when you go from having no work to then having way too
-  much work and it starts pilling up on you? That was November for me.
+title: "Monthly Notes: November 2020"
+description: "Don't you hate when you go from having no work to then having way too
+  much work and it starts pilling up on you? That was November for me."
 keywords:
-- corporation tax
-- bounce back loan
-- articles
-- podcasts
-- learning
-- contract
-- freelance web designer
-- monthly notes
-date: 2020-12-04T00:00:00.000+00:00
+  - corporation tax
+  - bounce back loan
+  - articles
+  - podcasts
+  - learning
+  - contract
+  - freelance web designer
+  - monthly notes
+date: 2020-12-04T00:00:00Z
 tags:
-- notes
-- monthly-notes
-tweetId: ''
-
+  - monthly-notes
 ---
-**Don't you hate when you go from having no work to then having way too much work and it starts pilling up on you? That was November for me.**
+Don't you hate when you go from having no work to then having way too much work and it starts pilling up on you? That was November for me.{.lead}
 
 ## Work
 

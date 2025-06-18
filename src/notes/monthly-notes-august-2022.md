@@ -1,8 +1,7 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: August 2022'
+title: "Monthly Notes: August 2022"
 description: "August saw quite a lot of change for my family and me. We've switched to a mostly plant-based diet and have also started to venture into minimalism."
 keywords:
   - listening
@@ -17,11 +16,8 @@ keywords:
 date: 2022-09-13T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-tweetId: ''
-
 ---
-August saw quite a lot of change for my family and me. We've switched to a mostly plant-based diet and have also started to venture into minimalism.
+August saw quite a lot of change for my family and me. We've switched to a mostly plant-based diet and have also started to venture into minimalism.{.lead}
 
 ## Work
 Been involved in a redesign project of one of the company's products - but not only are we doing a redesign, but the devs are also rebuilding the application to use Micro frontends and turn everything into components.

@@ -1,28 +1,24 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #4'
-description: It's been another tiring week, but I felt it went by fairly quickly.
+title: "Weeknotes #4"
+description: "It's been another tiring week, but I felt it went by fairly quickly.
   Tiring because I did about ten hours of driving this week to my new contract. But
-  I made some progress on my freelance project.
+  I made some progress on my freelance project."
 keywords:
-- week notes
-- weeknotes
-- notes
-- contract
-- work
-- freelance
-- online shop
-- e-commerce
-- contract
-- contracting
-postImage: "/v1579162295/og.jpg"
-date: 2019-03-03T15:30:01.236+00:00
-tags:
-- notes
-
+  - week notes
+  - weeknotes
+  - notes
+  - contract
+  - work
+  - freelance
+  - online shop
+  - e-commerce
+  - contract
+  - contracting
+date: 2019-03-03T15:30:01Z
 ---
-It's been another tiring week, but I felt it went by fairly quickly.
+It's been another tiring week, but I felt it went by fairly quickly.{.lead}
 
 Tiring because I did about ten hours of driving this week to my new contract. It's in Lowestoft and it takes me about an hour and 10 mins each way. I will only have to do this for a couple of weeks  - after that, I will work remotely three days a week.
 

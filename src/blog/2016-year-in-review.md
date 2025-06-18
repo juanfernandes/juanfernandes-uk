@@ -1,17 +1,17 @@
 ---
-layout: layouts/post.njk
-title: '2016: Year in review'
-description: My first ever year in review post, let's see how it went! 2016 was not a great year, in general for a lot of reasons
+layout: "post"
+title: "2016: Year in review"
+description: "My first ever year in review post, let's see how it went! 2016 was not a great year, in general for a lot of reasons"
 keywords:
-- personal
+  - personal
+  - year-in-review
 postImage: "/v1579162296/nduplkyrxqu-elena-prokofyeva-min.jpg"
-date: 2017-01-09T15:30:18.863+00:00
+date: 2017-01-09T15:30:18Z
 tags:
-- year-in-review
-- personal
-
+  - year-in-review
+  - personal
 ---
-They must have liked me at G2G3 Digital, because they offered me a permanent role, which I gladly accepted, but working out of their London office, instead of Sheffield. But shortly after this, Capita, who owned G2G3, bought another agency and G2G3 was no more, we became OrangeBus. Ninety percent of the Sheffield staff were made redundant. :(
+They must have liked me at G2G3 Digital, because they offered me a permanent role, which I gladly accepted, but working out of their London office, instead of Sheffield. But shortly after this, Capita, who owned G2G3, bought another agency and G2G3 was no more, we became OrangeBus. Ninety percent of the Sheffield staff were made redundant. :({.lead}
 
 In September, a colleague and I got to work on an awesome project - a hi-fidelity prototype proof of concept app for [GlobeCast](https://www.globecast.com/ "GlobeCast"). This was a really quick turnaround project, but I got a chance to implement a basic ServiceWorker script so that the app would work offline. I plan on doing a case study for the GlobeCast work.
 

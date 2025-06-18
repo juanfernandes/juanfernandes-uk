@@ -1,11 +1,10 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #17'
-description: >-
-  Another bank holiday week but it was a very busy weekend. Second week at my
+title: "Weeknotes #17"
+description: "Another bank holiday week but it was a very busy weekend. Second week at my
   new contract. I'm really getting behind on week notes, so this week I have
-  published two in order to keep up to date.
+  published two in order to keep up to date."
 keywords:
   - contract
   - freelance
@@ -16,12 +15,9 @@ keywords:
   - permanent work
   - GIT
   - git rebase
-postImage: "/v1579162295/og.jpg"
-date: 2019-06-04T07:01:26.370Z
-tags:
-  - notes
+date: 2019-06-04T07:01:26Z
 ---
-Another bank holiday week but it was a very busy weekend. Second week at my new contract. I'm really getting behind on week notes, so this week I have published two in order to keep up to date.
+Another bank holiday week but it was a very busy weekend. Second week at my new contract. I'm really getting behind on week notes, so this week I have published two in order to keep up to date.{.lead}
 
 ## Work
 It was my second week at my new contract and it was a busy one. There were quite a few GIT related issues - even I had some. I wasn't able to push a brand up to the repo after I had rebased it, couldn't work out why then I remembered you're supposed to ```git push --force-with-lease``` if the branch already exists in the remote repo.

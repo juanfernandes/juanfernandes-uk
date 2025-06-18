@@ -1,7 +1,6 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: August 2024"
 description: "Developing an ecommerce site for my daughter's clothing brand. I recently saw The Roots, De La Soul and The Pharcyde at Dreamland Margate, which was great. Unfortunately, an elderly driver hit my car in a Tesco car park. The house had two viewings, but no bids at auction."
 keywords:
@@ -13,11 +12,8 @@ keywords:
 date: 2024-09-05T12:00:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-
-<p class="lead">Developing an ecommerce site for my daughter's clothing brand. I recently saw The Roots, De La Soul and The Pharcyde at Dreamland Margate, which was great. Unfortunately, an elderly driver hit my car in a Tesco car park. The house had two viewings, but no bids at auction.</p>
+Developing an ecommerce site for my daughter's clothing brand. I recently saw The Roots, De La Soul and The Pharcyde at Dreamland Margate, which was great. Unfortunately, an elderly driver hit my car in a Tesco car park. The house had two viewings, but no bids at auction.{.lead}
 
 ## Projects
 - I've been working on an ecommerce website for my daughter's clothing brand. Still early stages. I decided to use [YourNextStore](https://yournextstore.com/) to get me started with a Next.js and Stripe solution. It's a bit limited compared to using something like Snipcart, but it's enough for this project.

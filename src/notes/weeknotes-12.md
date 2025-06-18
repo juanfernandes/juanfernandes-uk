@@ -1,11 +1,9 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #12'
-description: >-
-  Short week at work due to the bank holidays in the UK. First time working from
-  home in this contract. I should really make some notes during the week to make
-  writing weeknotes easier.
+title: "Weeknotes #12"
+description: "Short week at work due to the bank holidays in the UK. First time working from home in this contract. I should really make some notes during the week to make
+  writing weeknotes easier."
 keywords:
   - weeknotes
   - week notes
@@ -14,12 +12,9 @@ keywords:
   - department for education
   - interaction designer
   - freelance web designer
-postImage: "/v1579162295/og.jpg"
-date: 2019-04-29T05:54:31.902Z
-tags:
-  - notes
+date: 2019-04-29T05:54:31Z
 ---
-Short week at work due to the bank holidays in the UK. First time working from home in this contract. I should really make some notes during the week to make writing weeknotes easier.
+Short week at work due to the bank holidays in the UK. First time working from home in this contract. I should really make some notes during the week to make writing weeknotes easier.{.lead}
 
 ## Work
 

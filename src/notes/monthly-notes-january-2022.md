@@ -1,23 +1,20 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: January 2022'
-description: Wowsers January flew by. I started the year with a detox. Set a reading goal of 10 books - only managed four last year...
+title: "Monthly Notes: January 2022"
+description: "Wowsers January flew by. I started the year with a detox. Set a reading goal of 10 books - only managed four last year..."
 keywords:
-- listening
-- watching
-- personal
-- freelance
-- work
+  - listening
+  - watching
+  - personal
+  - freelance
+  - work
 date: 2022-02-12T00:00:00Z
 tags:
-- monthly-notes
-- notes
+  - monthly-notes
 tweetId: "1492565442153615368"
-
 ---
-Wowsers January flew by. I started the year with a detox. Set a reading goal of ten books - I only managed four last year. I am planning on reading at least two articles a day and auto-tweet links to them.
+Wowsers January flew by. I started the year with a detox. Set a reading goal of ten books - I only managed four last year. I am planning on reading at least two articles a day and auto-tweet links to them.{.lead}
 
 I'm aiming to keep up with my monthly notes, as I only managed about six months last year. I plan on making these quicker to read and thus more of a short-form list notes instead - in the hopes it will also be quicker for me to get them written and posted.
 

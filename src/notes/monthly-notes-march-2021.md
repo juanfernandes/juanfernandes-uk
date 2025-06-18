@@ -1,27 +1,24 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: March 2021'
-description: March has been a busy month with me going back to permanent employment
+title: "Monthly Notes: March 2021"
+description: "March has been a busy month with me going back to permanent employment
   and starting a new job at intelliflo. Finishing my last contract. Finishing a freelance
-  project and starting another one.
+  project and starting another one."
 keywords:
-- tailwindcss
-- alpine js
-- alpinejs
-- tailwind css
-- 11ty
-- eleventy
-- monthly notes
-- notes
-- permanent employment
-- freelance
+  - tailwindcss
+  - alpine js
+  - alpinejs
+  - tailwind css
+  - 11ty
+  - eleventy
+  - monthly notes
+  - notes
+  - permanent employment
+  - freelance
 date: 2021-04-04T23:00:00Z
 tags:
-- monthly-notes
-- notes
-
+  - monthly-notes
 ---
 March has been a busy month with me going back to permanent employment and starting a new job at intelliflo. Finishing my last contract. Finishing a freelance project and starting another one.
 

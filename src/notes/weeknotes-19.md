@@ -1,11 +1,10 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #19'
-description: >-
-  I'm sounding like a broken record, but it has been yet another slow week.
+title: "Weeknotes #19"
+description: "I'm sounding like a broken record, but it has been yet another slow week.
   We're still having some GIT related issues - not me personally, but we're also
-  completely redoing our build process so that has caused some expected issues.
+  completely redoing our build process so that has caused some expected issues."
 keywords:
   - freelance
   - web designer
@@ -18,12 +17,9 @@ keywords:
   - gpg
   - gnu privacy guard
   - fish shell
-postImage: "/v1579162295/og.jpg"
-date: 2019-06-18T19:49:39.610Z
-tags:
-  - notes
+date: 2019-06-18T19:49:39Z
 ---
-I'm sounding like a broken record, but it has been yet another slow week at work. We're still having some GIT related issues - not me personally, and we're also completely redoing our build process so that has caused some expected issues.
+I'm sounding like a broken record, but it has been yet another slow week at work. We're still having some GIT related issues - not me personally, and we're also completely redoing our build process so that has caused some expected issues.{.lead}
 
 ## Freelance
 This week I decided to set up [GPG](https://gnupg.org/ "Gnu Privary Guard") to sign my GIT commits - just because I saw a talk about it by [Ric Harvey](https://x.com/ric__harvey "Ric Harvey on Twitter") at the [Colchester Digital conference](https://colchesterdigital.org.uk/conference/ "Colchester Digital Conference"). Someone at work asked me why I go through the hassle of setting this up; I said that by spending my spare time doing something like this - next time I get a contract that requires me to sign my git commits, I'll either be ready to do with my own laptop or at least know how to get it set up on a new machine.

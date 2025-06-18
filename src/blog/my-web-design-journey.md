@@ -1,10 +1,8 @@
 ---
-layout: layouts/post.njk
-title: My Web Design Journey
-description: >-
-  I want you to know about my past, my journey as a website designer and how I
-  can help you. I thought I’d write a post about how I got started as a website
-  designer and eventually becoming a freelance website designer.
+layout: "post"
+title: "My Web Design Journey"
+description: "I want you to know about my past, my journey as a website designer and how I can help you. I thought I’d write a post about how I got started as a website
+  designer and eventually becoming a freelance website designer."
 keywords:
   - web
   - design
@@ -14,12 +12,12 @@ keywords:
   - web design
   - freelance website designer
   - freelance web designer
-postImage: /v1579162296/lnlimzqrqm3emnrrnv1wimg7726.jpg
-date: 2017-06-08T08:00:29.329Z
+postImage: "/v1579162296/lnlimzqrqm3emnrrnv1wimg7726.jpg"
+date: 2017-06-08T08:00:29Z
 tags:
   - personal
 ---
-I want you to know about my past, my journey as a website designer and how I can help you. I thought I’d write a post about how I got started as a website designer and eventually becoming a freelance website designer.
+I want you to know about my past, my journey as a website designer and how I can help you. I thought I’d write a post about how I got started as a website designer and eventually becoming a freelance website designer.{.lead}
 
 ## How it all started
 

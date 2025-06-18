@@ -1,21 +1,16 @@
 ---
-layout: layouts/post.njk
-postImage: /v1579162295/og.jpg
-introClass: intro--sml
-title: Native disclosure element works in Instapaper app
-description: Reading an article about the native HTML disclosure element (details
-  + summary) and was pleased to see that it works in the Instapaper app
+layout: "post"
+title: "Native disclosure element works in Instapaper app"
+description: "Reading an article about the native HTML disclosure element (details
+  + summary) and was pleased to see that it works in the Instapaper app"
 keywords:
-- Instapaper
-- native disclosure widget
-- details and summary
-- Scott O'Hara
-- a11y
-- accessibility
+  - Instapaper
+  - native disclosure widget
+  - details and summary
+  - Scott O'Hara
+  - a11y
+  - accessibility
 date: 2020-02-07T00:00:00Z
-tags:
-- notes
-
 ---
 Reading an article by Scott O'Hara, I was surprised to see the summary and details working perfectly in the Instapaper app on Android. Yay for native disclosure widgets.
 

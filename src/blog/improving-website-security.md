@@ -1,25 +1,24 @@
 ---
-layout: post
-title: Improving Website Security
-description: Since WebPageTest.org started testing website security, I wanted to learn more about it & figure out how to improve my website security using headers on Netlify
+layout: "post"
+title: "Improving Website Security"
+description: "Since WebPageTest.org started testing website security, I wanted to learn more about it & figure out how to improve my website security using headers on Netlify"
 keywords:
-- eleventy
-- 11ty
-- website security
-- security headers
-- web security
-- netlify
-customPostImg: intro--code-img
-postImage: v1579162296/computer-18363301920-1.jpg
-date: 2020-11-20T16:00:00.000+00:00
+  - eleventy
+  - 11ty
+  - website security
+  - security headers
+  - web security
+  - netlify
+customPostImg: "intro--code-img"
+postImage: "v1579162296/computer-18363301920-1.jpg"
+date: 2020-11-20T16:00:00Z
 tags:
-- eleventy
-- ssg
-- website-security
-- netlify
-
+  - eleventy
+  - ssg
+  - website-security
+  - netlify
 ---
-Ever since I converted my website to Eleventy - from PHP - I have been obsessively working ton improving its performance.
+Ever since I converted my website to Eleventy - from PHP - I have been obsessively working ton improving its performance.{.lead}
 
 One well-known tool that I use for checking website performance is [WebPageTest.org](https://www.webpagetest.org/ "Test your website performance") and they recently added a new metric to test for - security.
 

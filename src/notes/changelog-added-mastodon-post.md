@@ -1,6 +1,5 @@
 ---
-layout: post
-postImage: "/v1579162295/trianglify.png"
+layout: "post"
 title: "Changelog: Added mastodon-post Web Component"
 description: "Added mastodon-post web component to encourage users to discuss the post on mastodon."
 keywords:
@@ -10,11 +9,8 @@ keywords:
   - web dev
   - blogroll
 date: 2024-02-26T00:00:00Z
-edited:
 tags:
-  - notes
   - changelog
-shareLink: ""
 ---
 ## Added mastodon-post Web Component
 Since I'm no longer using Twitter all that much and pretty much spend all my time on Mastodon, my blog posts don't get many web mentions. When I saw that [David Darnes](https://mastodon.design/@daviddarnes) created a [`mastodon-post` web component](https://darn.es/mastodon-post-web-component/) - I thought this was a perfect time to get into web components!

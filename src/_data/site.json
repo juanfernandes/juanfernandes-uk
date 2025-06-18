@@ -97,17 +97,16 @@
       "url": "/work/"
     },
     {
-      "label": "Juan Fernandes - Freelance Website Designer",
-      "class": "logo",
-      "url": "/"
-    },
-    {
       "label": "Blog",
       "url": "/blog/"
     },
     {
       "label": "Notes",
       "url": "/notes/"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact/"
     }
   ],
   "footerlinks": [

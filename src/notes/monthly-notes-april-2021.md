@@ -1,31 +1,28 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: April 2021'
-description: Busy month adjusting to being a permanent employee again and finishing
-  off freelance work. New de-googled Android mobile phone
+title: "Monthly Notes: April 2021"
+description: "Busy month adjusting to being a permanent employee again and finishing
+  off freelance work. New de-googled Android mobile phone"
 keywords:
-- FLoC opt-out
-- FLoC network
-- tailwindcss
-- eleventy
-- gratuu
-- inside ir35
-- ir35
-- ir35 contract
-- de-googled android
-- de-googled phone
-- e foundation
-- e OS
-- fairphone 3+
+  - FLoC opt-out
+  - FLoC network
+  - tailwindcss
+  - eleventy
+  - gratuu
+  - inside ir35
+  - ir35
+  - ir35 contract
+  - de-googled android
+  - de-googled phone
+  - e foundation
+  - e OS
+  - fairphone 3+
 date: 2021-05-05T23:00:00Z
 tags:
-- monthly-notes
-- notes
-
+  - monthly-notes
 ---
-Busy month adjusting to being a permanent employee again and finishing off freelance work. New de-googled Android mobile phone.
+Busy month adjusting to being a permanent employee again and finishing off freelance work. New de-googled Android mobile phone.{.lead}
 
 ## Freelance
 - Got a new web design client - Gratuu.com have asked me to design and build them a brand new website

@@ -1,8 +1,7 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: March 2023'
+title: "Monthly Notes: March 2023"
 description: "I only realised March was over about one week into April so that's why this post is so late."
 keywords:
   - listening
@@ -13,11 +12,8 @@ keywords:
 date: 2023-04-08T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-tweetId: ''
-
 ---
-<p class="lead">I only realised March was over about one week into April so that's why this post is so late.</p>
+I only realised March was over about one week into April so that's why this post is so late.{.lead}
 
 ## Personal
 - Bought an Apple Watch (the SE model) as My Garmin watch stopped working. Quite enjoying the way it works with my iPhone and MacBook Pro

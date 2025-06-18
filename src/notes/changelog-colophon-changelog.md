@@ -1,6 +1,5 @@
 ---
-layout: post
-postImage: "/v1579162295/trianglify.png"
+layout: "post"
 title: "Changelog: Added changelog page"
 description: "Moved changelog and git commit history to its own changelog page."
 keywords:
@@ -10,12 +9,9 @@ keywords:
   - web dev
   - changelog
   - indieweb
-date: 2024-05-24T11:30:00Z
-edited: 
+date: 2024-05-24T11:30:00Z 
 tags:
-  - notes
   - changelog
-shareLink: ""
 ---
 ## Changelog: Added a Changelog page
 

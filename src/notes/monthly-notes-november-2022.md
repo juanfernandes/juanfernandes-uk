@@ -1,9 +1,8 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: November 2022'
-description: A very slow month, which is normal as we approach Christmas. I turned 41 this month. Also, some personal stuff has happened, and I'm not ready to talk about yet, but It's why this post is so late.
+title: "Monthly Notes: November 2022"
+description: "A very slow month, which is normal as we approach Christmas. I turned 41 this month. Also, some personal stuff has happened, and I'm not ready to talk about yet, but It's why this post is so late."
 keywords:
   - listening
   - watching
@@ -13,11 +12,8 @@ keywords:
 date: 2022-12-14T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-tweetId: ''
-
 ---
-<p class="lead">A very slow month, which is normal as we approach Christmas. I turned 41 this month. Also, some personal stuff has happened, and I'm not ready to talk about yet, but It's why this post is so late.</p>
+A very slow month, which is normal as we approach Christmas. I turned 41 this month. Also, some personal stuff has happened, and I'm not ready to talk about yet, but It's why this post is so late.{.lead}
 
 ## Personal
 - We had a weekend trip to Liverpool for a martial arts tournament - Kuk Sool Won, where my wife did her final testing and promoted to a black belt.

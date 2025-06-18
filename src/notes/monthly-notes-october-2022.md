@@ -1,8 +1,7 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: October 2022'
+title: "Monthly Notes: October 2022"
 description: "Another slow month with work and on the personal side of things again. I guess that's normal now that I'm not doing contract work, there's less going on."
 keywords:
   - listening
@@ -13,11 +12,8 @@ keywords:
 date: 2022-11-11T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-tweetId: ''
-
 ---
-<p class="lead">Another slow month with work and on the personal side of things again. I guess that's normal now that I'm not doing contract work, there's less going on.</p>
+Another slow month with work and on the personal side of things again. I guess that's normal now that I'm not doing contract work, there's less going on.{.lead}
 
 ## Work
 - Lots of small bug fixes and pixel wrangling ready for an internal launch of the project I've been working on. It slowed down after the launch, and we're now starting to focus on building new features again.

@@ -1,28 +1,25 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "/v1579162295/og.jpg"
-title: 'March 2020: Monthly Notes'
-description: 'Better late than never I guess? So March has been the longest Monday
+title: "March 2020: Monthly Notes"
+description: "Better late than never I guess? So March has been the longest Monday
   ever! I was in lockdown two weeks before the government told us to do so, just because
   I could work from home, so I did because I didn''t want to risk going into a large
-  open office. '
+  open office."
 keywords:
-- coronavirus
-- lemanoosh
-- cmi
-- signet
-- front-end contractor
-- monthly notes
-- notes
-- march monthly notes
-date: 2020-04-13T00:00:00+01:00
+  - coronavirus
+  - lemanoosh
+  - cmi
+  - signet
+  - front-end contractor
+  - monthly notes
+  - notes
+  - march monthly notes
+date: 2020-04-13T00:00:00Z
 tags:
-- notes
-- monthly-notes
+  - monthly-notes
 ---
-Better late than never I guess? So March has been the longest Monday ever! I was in lockdown two weeks before the government told us to do so, just because I could work from home, so I did because I didn't want to risk going into a large open office. It's not how I thought working from home full time would be like.
-
+Better late than never I guess? So March has been the longest Monday ever! I was in lockdown two weeks before the government told us to do so, just because I could work from home, so I did because I didn't want to risk going into a large open office. It's not how I thought working from home full time would be like.{.lead}
 
 ## Work
 My contract at CMI was due to end on the 27th March and my new contract, going back to Signet, was due to start on the Monday, but unfortunately due to coronavirus, all contractors at Signet were cancelled and most of their tech team was furloughed as Signet had to close their high street stores.

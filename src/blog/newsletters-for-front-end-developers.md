@@ -1,12 +1,10 @@
 ---
-layout: layouts/post.njk
-title: Newsletters for Front-end developers
-description: >-
-  Because there is so much content and noise on the web about development theses
-  days, its difficult to find great ressources - its also very easy to miss
+layout: "post"
+title: "Newsletters for Front-end developers"
+description: "Because there is so much content and noise on the web about development theses days, its difficult to find great ressources - its also very easy to miss
   hearing about new software or new techniques via social media. Newsletters are
   still a great way to keep up with all thats happening in our industry and
-  front end development.
+  front end development."
 keywords:
   - newsletters
   - newsletter
@@ -28,13 +26,13 @@ keywords:
   - UX Booth
   - Web Tools Weekly
   - WebAIM
-customPostImg: 'intro--code-img'
-postImage: 'v1579162296/computer-18363301920-1.jpg'
-date: 2016-11-29T17:30:47.013Z
+customPostImg: "intro--code-img"
+postImage: "v1579162296/computer-18363301920-1.jpg"
+date: 2016-11-29T17:30:47Z
 tags:
   - development
 ---
-Because there is so much content and noise on the web about development theses days, it's difficult to find great resources - it's also very easy to miss hearing about new software or new techniques via social media, and I find newsletters to be a great way of keeping up with the latest.
+Because there is so much content and noise on the web about development theses days, it's difficult to find great resources - it's also very easy to miss hearing about new software or new techniques via social media, and I find newsletters to be a great way of keeping up with the latest.{.lead}
 
 You don’t have to read every single article in every single newsletter, but what you will find is that some links repeat across newsletters, so you know it's worth reading it then.
 

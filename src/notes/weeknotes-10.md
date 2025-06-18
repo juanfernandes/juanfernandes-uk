@@ -1,11 +1,9 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #10'
-description: >-
-  This weeks 'weeknotes' is being posted a bit later than usual. I was supposed
-  to write it on the train up to Manchester on Sunday evening, but I still can't
-  get used to working on a laptop on the train.
+title: "Weeknotes #10"
+description: "This weeks 'weeknotes' is being posted a bit later than usual. I was supposed to write it on the train up to Manchester on Sunday evening, but I still can't
+  get used to working on a laptop on the train."
 keywords:
   - podcasts
   - podcast
@@ -20,12 +18,9 @@ keywords:
   - weeknotes
   - the office
   - Straight Off the Boat
-postImage: "/v1579162295/og.jpg"
-date: 2019-04-16T07:50:46.847Z
-tags:
-  - notes
+date: 2019-04-16T07:50:00Z
 ---
-This weeks 'weeknotes' is being posted a bit later than usual. I was supposed to write it on the train up to Manchester on Sunday evening, but I still can't get used to working on a laptop on the train.
+This weeks 'weeknotes' is being posted a bit later than usual. I was supposed to write it on the train up to Manchester on Sunday evening, but I still can't get used to working on a laptop on the train.{.lead}
 
 Since returning my phone for repair and being reset to factory settings (I knew this was going to happen) I lost the podcasts I had subscribed to and the progress - I assumed it would have been backed up - but it wasn't. I've now signed up for an account with the Podcast Republic app I use, so this won't happen again and am back to listening to podcasts on my long commutes to Manchester.
 

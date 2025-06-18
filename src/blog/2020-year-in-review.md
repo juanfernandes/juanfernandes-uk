@@ -1,21 +1,19 @@
 ---
-layout: layouts/post.njk
+layout: "post"
 postImage: "farm-field.jpg"
-title: '2020: Year in review'
-description: Worldwide pandemic, bullshit politics, white supremacists, racists, Brexit & a whole bunch of rubbish I won't get into
+title: "2020: Year in review"
+description: "Worldwide pandemic, bullshit politics, white supremacists, racists, Brexit & a whole bunch of rubbish I won't get into"
 keywords:
-- covid-19
-- pandemic
-- year in review
-- '2020'
-customPostImg: ''
+  - covid-19
+  - pandemic
+  - year in review
+  - "2020"
 date: 2021-02-05T00:00:00Z
 tags:
-- year-in-review
-- personal
-
+  - year-in-review
+  - personal
 ---
-Twenty-Twenty wasn't a good year for a lot of people - except perhaps for Jeff Bezos and all those who profited from the pandemic. I almost didn't bother doing a review, but felt I owed it to myself and use it as an opportunity to highlight the good things that happened, despite all that went on.
+Twenty-Twenty wasn't a good year for a lot of people - except perhaps for Jeff Bezos and all those who profited from the pandemic. I almost didn't bother doing a review, but felt I owed it to myself and use it as an opportunity to highlight the good things that happened, despite all that went on.{.lead}
 
 The year of the worldwide pandemic, bullshit politics, white supremacists, racists, Brexit and a whole bunch of rubbish I won't get into - it's fair to say we won't be forgetting 2020 in a hurry.
 

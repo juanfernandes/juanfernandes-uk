@@ -1,24 +1,20 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #1'
-description: >-
-  My first #weeknotes. I really like the idea of these - just like the yearly
+title: "Weeknotes #1"
+description: "My first #weeknotes. I really like the idea of these - just like the yearly
   reviews - so why not a weekly review.  I'm hoping this will help me, not only
   with getting into the habit of writing but also make my weeks more productive
-  as I look back and see what did and didn't work well.
+  as I look back and see what did and didn't work well."
 keywords:
   - weeknotes
   - freelance
   - contract
   - front-end
   - developer
-postImage: "/v1579162295/og.jpg"
-date: 2019-02-09T17:00:21.815Z
-tags:
-  - notes
+date: 2019-02-09T17:00:00Z
 ---
-My first [#weeknotes](https://weeknot.es/ "Weeknotes"). I really like the idea of these - just like the yearly reviews - so why not a weekly review.
+My first [#weeknotes](https://weeknot.es/ "Weeknotes"). I really like the idea of these - just like the yearly reviews - so why not a weekly review.{.lead}
 
 I’m hoping this will help me, not only with getting into the habit of writing but also make my weeks more productive as I look back and see what did and didn’t work well.
 

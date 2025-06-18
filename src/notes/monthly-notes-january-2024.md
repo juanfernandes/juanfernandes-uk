@@ -1,8 +1,7 @@
 ---
-layout: 'post'
+layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: January 2024'
+title: "Monthly Notes: January 2024"
 description: "Pretty slow start to the year - which is a good thing considering the year I've just had. Trying to get on with my new life but still one big tie to my ex which is the house."
 keywords:
   - listening
@@ -13,10 +12,8 @@ keywords:
 date: 2024-02-16T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-<p class="lead">Pretty slow start to the year - which is a good thing considering the year I've just had. Trying to get on with my new life but still one big tie to my ex which is the house.</p>
+Pretty slow start to the year - which is a good thing considering the year I've just had. Trying to get on with my new life but still one big tie to my ex which is the house.{.lead}
 
 ## Work
 - The Head of UX has started at my company and they are my new boss. I was going to say the 'new' head of UX, but we've never had one. It's great that the company is finally wanting to change and start thinking about the user first.

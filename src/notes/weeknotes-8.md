@@ -1,11 +1,9 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #8'
-description: >-
-  This week started with me handing in my notice at my then-current contract. I
-  felt very guilty about ending my contract early, I managed 5 weeks out of 12 -
-  it's the first time I have ever had to end a contract early.
+title: "Weeknotes #8"
+description: "This week started with me handing in my notice at my then-current contract. I felt very guilty about ending my contract early, I managed 5 weeks out of 12 -
+  it's the first time I have ever had to end a contract early."
 keywords:
   - contract
   - freelance
@@ -15,12 +13,9 @@ keywords:
   - interaction designer
   - dxw
   - department for education
-postImage: "/v1579162295/og.jpg"
-date: 2019-04-03T07:49:30.880Z
-tags:
-  - notes
+date: 2019-04-03T07:49:30Z
 ---
-This week started with me handing in my notice. I felt very guilty about ending my contract early, I managed 5 out of 12 weeks - it's the first time I have ever had to end a contract early.
+This week started with me handing in my notice. I felt very guilty about ending my contract early, I managed 5 out of 12 weeks - it's the first time I have ever had to end a contract early.{.lead}
 
 Booked hotel and train ticket for Manchester for my next contract and part of me was feeling anxious. What if this doesn't work out, I'll be out of pocket and jobless - my mind kept repeating.
 

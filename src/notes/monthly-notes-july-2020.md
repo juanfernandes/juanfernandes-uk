@@ -1,26 +1,24 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "/v1579162295/og.jpg"
-title: 'Monthly Notes: July 2020'
-description: July has been a bit slow going as I slowly get back into web development,
+title: "Monthly Notes: July 2020"
+description: "July has been a bit slow going as I slowly get back into web development,
   now that the homeschooling has ended and I'm cooking a lot less as my wife has now
   finished work. I'm still looking for my next contract, but I do have some potential
-  freelance projects coming up shortly. Things are looking up.
+  freelance projects coming up shortly. Things are looking up."
 keywords:
-- logitech mx vertical
-- logitech mx master
-- couch to 5k
-- herman miller aeron
-- autonomous ergo chair 2
-- contract frontend developer
-- freelance web designer
-date: 2020-08-03T00:00:00+01:00
+  - logitech mx vertical
+  - logitech mx master
+  - couch to 5k
+  - herman miller aeron
+  - autonomous ergo chair 2
+  - contract frontend developer
+  - freelance web designer
+date: 2020-08-03T00:00:00Z
 tags:
-- notes
-- monthly-notes
+  - monthly-notes
 ---
-July has been a bit slow going as I slowly get back into web development, now that the homeschooling has ended and I'm cooking a lot less as my wife has now finished work.
+July has been a bit slow going as I slowly get back into web development, now that the homeschooling has ended and I'm cooking a lot less as my wife has now finished work.{.lead}
 
 I'm still looking for my next contract, but I do have some potential freelance projects coming up shortly. Things are looking up.
 

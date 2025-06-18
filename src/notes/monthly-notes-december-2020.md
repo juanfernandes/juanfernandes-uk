@@ -1,27 +1,23 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "/src/assets/imgs/og.jpg"
-title: 'Monthly Notes: December 2020'
-description: Not a very busy month as the year comes to an end and things slow down
+title: "Monthly Notes: December 2020"
+description: "Not a very busy month as the year comes to an end and things slow down
   ready for the Christmas break. Spent quite a bit of time working on improving my
-  website by forcing myself to adhere to my strict Content Security Policies.
+  website by forcing myself to adhere to my strict Content Security Policies."
 keywords:
-- website improvement
-- csp
-- content security policies
-- notes
-- personal notes
-- work
-- monthly notes
-date: 2021-01-04T00:00:00.000+00:00
+  - website improvement
+  - csp
+  - content security policies
+  - notes
+  - personal notes
+  - work
+  - monthly notes
+date: 2021-01-04T00:00:00Z
 tags:
-- monthly-notes
-- notes
-tweetId: ''
-
+  - monthly-notes
 ---
-**Not a very busy month as the year comes to an end and things slow down ready for the Christmas break. Spent quite a bit of time working on improving my website by forcing myself to adhere to my strict Content Security Policies.**
+Not a very busy month as the year comes to an end and things slow down ready for the Christmas break. Spent quite a bit of time working on improving my website by forcing myself to adhere to my strict Content Security Policies.{.lead}
 
 ## Work
 

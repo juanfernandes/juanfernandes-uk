@@ -1,25 +1,25 @@
 ---
-layout: post
-postImage: ''
+layout: "post"
 title: "Building a Printful‑powered e‑commerce site with 11ty and Stripe"
-description: "Building a small online merch store using Eleventy (11ty), Printful’s API, and Stripe"
+description: "A behind-the-scenes look at how I built a fast, modern e‑commerce site using 11ty, Printful, and Stripe. Learn how to fetch product data, auto-generate category pages, and create a lightweight cart and checkout experience—without a CMS."
 keywords:
-- 11ty
-- eleventy
-- printful
-- stripe
-- ecommerce
-- SSG
-- static
+  - 11ty
+  - eleventy
+  - printful
+  - stripe
+  - ecommerce
+  - SSG
+  - static
 customPostImg: "--post"
 date: 2025-06-13T19:00:00Z
 tags:
-- eleventy
-- ssg
-- printful
-- stripe
-- ecommerce
+  - eleventy
+  - ssg
+  - printful
+  - stripe
+  - ecommerce
 tweetId: "1934259977503355104"
+shareLink: "https://indieweb.social/@juanfernandes/114687901032102661"
 ---
 As someone who loves clean, static-generated sites, I recently decided to challenge myself: could I build a small online merch store using [Eleventy (11ty)](https://www.11ty.dev/), Printful’s API, and Stripe—while keeping the setup simple and JavaScript‑free in the templates? Turns out… yes, and it's been pretty fun! 🎉{.lead}
 

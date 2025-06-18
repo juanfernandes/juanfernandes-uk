@@ -1,26 +1,25 @@
 ---
-layout: post
-title: Add your site to the Eleventy Leaderboards
-description: This is a quick tip showing you how to add your eleventy built website
-  to the Eleventy leaderboards
+layout: "post"
+title: "Add your site to the Eleventy Leaderboards"
+description: "This is a quick tip showing you how to add your eleventy built website
+  to the Eleventy leaderboards"
 keywords:
-- performance
-- leaderboard
-- 11ty leaderboard
-- sites built with 11ty
-- performance benchmarks
-- eleventy
-- 11ty
-customPostImg: intro--code-img
-postImage: 'v1579162296/computer-18363301920-1.jpg'
+  - performance
+  - leaderboard
+  - 11ty leaderboard
+  - sites built with 11ty
+  - performance benchmarks
+  - eleventy
+  - 11ty
+customPostImg: "intro--code-img"
+postImage: "v1579162296/computer-18363301920-1.jpg"
 date: 2020-12-09T23:00:00Z
 tags:
-- eleventy
-- ssg
-- 11ty
+  - eleventy
+  - ssg
+  - 11ty
 ---
-
-<p class="lead">The Eleventy (11ty) leaderboard benchmarks websites built with Eleventy over time.</p>
+The Eleventy (11ty) leaderboard benchmarks websites built with Eleventy over time.{.lead}
 
 TL;DR - You need to add your site via GitHub to the eleventy website repository and create a pull request for it to be included in the leaderboards.
 

@@ -1,28 +1,26 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "/v1579162295/og.jpg"
-title: 'January 2020: Monthly Notes'
-description: January has been a surprisingly busy month - it's normally a bit quieter
+title: "January 2020: Monthly Notes"
+description: "January has been a surprisingly busy month - it's normally a bit quieter
   than this. My contract was extended until the end of March - it was supposed to
   be just a 6-week contract until mid-January, so I had lined up some freelance work
-  to tide me over before starting a new contract.
+  to tide me over before starting a new contract."
 keywords:
-- freelance
-- elementor
-- beaver builder
-- wordpress page builders
-- wordpress
-- front-end
-- cmi
-- contract
-- monthly notes
+  - freelance
+  - elementor
+  - beaver builder
+  - wordpress page builders
+  - wordpress
+  - front-end
+  - cmi
+  - contract
+  - monthly notes
 date: 2020-02-10T00:00:00Z
 tags:
-- notes
-- monthly-notes
+  - monthly-notes
 ---
-January has been a surprisingly busy month - it's normally a bit quieter than this. My contract was extended until the end of March - it was supposed to be just a 6-week contract until mid-January, so I had lined up some freelance work to tide me over before starting a new contract.
+January has been a surprisingly busy month - it's normally a bit quieter than this. My contract was extended until the end of March - it was supposed to be just a 6-week contract until mid-January, so I had lined up some freelance work to tide me over before starting a new contract.{.lead}
 
 ## Work
 

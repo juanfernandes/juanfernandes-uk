@@ -1,7 +1,6 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: April 2024"
 description: "Oof, what a month. Huge improvement in lots of aspects. The house still has not sold or even had any interest - it seems we'll have no choice but opt for a cash buy out. Lots of changes at work and did some updates on my website."
 keywords:
@@ -13,10 +12,8 @@ keywords:
 date: 2024-05-15T16:45:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-<p class="lead">Oof, what a month. Huge improvement in lots of aspects. The house still has not sold or even had any interest - it seems we'll have no choice but opt for a cash buy out. Lots of changes at work and did some updates on my website.</p>
+Oof, what a month. Huge improvement in lots of aspects. The house still has not sold or even had any interest - it seems we'll have no choice but opt for a cash buy out. Lots of changes at work and did some updates on my website.{.lead}
 
 ## Work
 Still a lot of change in processes going on at work, as well as transitioning to being a UX designer instead of a Front-end Developer. At the same time, trying to educate the different teams on the role UX needs to play in the work being produced.

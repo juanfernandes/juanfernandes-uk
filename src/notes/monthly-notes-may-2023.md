@@ -1,8 +1,7 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: May 2023'
+title: "Monthly Notes: May 2023"
 description: "May did not end on a happy note, unfortunately. I’m now technically homeless, and I no longer have my dog."
 keywords:
   - listening
@@ -14,9 +13,8 @@ keywords:
 date: 2023-06-05T00:00:00Z
 tags:
   - monthly-notes
-  - notes
 ---
-<p class="lead">May did not end on a happy note, unfortunately. I’m now technically homeless, and I no longer have my dog.</p>
+May did not end on a happy note, unfortunately. I’m now technically homeless, and I no longer have my dog.{.lead}
 
 ## Work
 - Got to do some freelance work for one of my existing clients. They needed me to do some updates to their WordPress website. I did not build this website - it looks great visually, but working with it and WP was a nightmare

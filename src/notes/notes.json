@@ -7,5 +7,7 @@
     "heading": "Notes",
     "subheading": "Short posts about code & design"
   },
-  "bodyClass": "blog"
+  "bodyClass": "blog",
+  "postImage": "v1579162295/trianglify.png",
+  "tags": ["notes", "search"]
 }

@@ -1,23 +1,21 @@
 ---
-layout: layouts/post.njk
-title: Hello World! First blog post.
-description: >-
-  I’ve decided that 2016 is the year I start writing regular blog posts - and I
-  just about made it, 2017 is just around the corner. I’ve never properly done
+layout: "post"
+title: "Hello World! First blog post."
+description: "I’ve decided that 2016 is the year I start writing regular blog posts - and I just about made it, 2017 is just around the corner. I’ve never properly done
   it, I’ve written a few posts for my business websites’ blog but they came once
-  in a blue moon - not good, I know.
+  in a blue moon - not good, I know."
 keywords:
   - blogging
   - web developemnt
   - learning
   - javascript
   - css
-postImage: /v1579162296/photo-1415045550139-59b6fafc832f.jpg
-date: 2016-10-26T13:50:05.869Z
+postImage: "/v1579162296/photo-1415045550139-59b6fafc832f.jpg"
+date: 2016-10-26T13:50:05Z
 tags:
   - personal
 ---
-I’ve decided that 2016 is the year I start writing regular blog posts - and I just about made it, 2017 is just around the corner. I’ve never properly done it, I’ve written a few posts for my business websites’ blog but they came once in a blue moon - not good, I know.
+I’ve decided that 2016 is the year I start writing regular blog posts - and I just about made it, 2017 is just around the corner. I’ve never properly done it, I’ve written a few posts for my business websites’ blog but they came once in a blue moon - not good, I know.{.lead}
 
 ### Why Now
 

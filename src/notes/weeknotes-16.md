@@ -1,25 +1,20 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #16'
-description: >-
-  Started a new contract on Monday, working for Signet Jewellers aka H.Samuel
+title: "Weeknotes #16"
+description: "Started a new contract on Monday, working for Signet Jewellers aka H.Samuel
   and Ernest Jones based in Borehamwood, North London. It was a hell of a drive,
   but as usual, I drive to work Monday morning and then stay in the area until I
-  drive back on Fridays.
+  drive back on Fridays."
 keywords:
   - freelance
   - web designer
   - contract
   - boreamwood
   - north london
-  - ''
-postImage: "/v1579162295/og.jpg"
-date: 2019-05-30T06:32:37.499Z
-tags:
-  - notes
+date: 2019-05-30T06:32:37Z
 ---
-Started a new contract on Monday, working for Signet Jewellers aka H.Samuel and Ernest Jones based in Borehamwood, North London. It was a hell of a drive, but as usual, I drive to work Monday morning and then stay in the area until I drive back on Fridays.
+Started a new contract on Monday, working for Signet Jewellers aka H.Samuel and Ernest Jones based in Borehamwood, North London. It was a hell of a drive, but as usual, I drive to work Monday morning and then stay in the area until I drive back on Fridays.{.lead}
 
 ## Work
 Spent the first few days setting up my work PC and Dev environment - back to using Windows Windows (yuck!).  They use a lot of Microsoft products, so it makes sense for them to be on Windows.

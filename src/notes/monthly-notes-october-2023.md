@@ -1,8 +1,7 @@
 ---
-layout: 'post'
+layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: October 2023'
+title: "Monthly Notes: October 2023"
 description: "October - lots more upheaval on a personal level - but we had Halloween and the kids really enjoyed it. Started working on a new design for this website."
 keywords:
   - listening
@@ -13,10 +12,8 @@ keywords:
 date: 2024-01-24T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-<p class="lead">October - lots more upheaval on a personal level - but we had Halloween and the kids really enjoyed it. Started working on a new design for this website.</p>
+October - lots more upheaval on a personal level - but we had Halloween and the kids really enjoyed it. Started working on a new design for this website.{.lead}
 
 ## Projects
 - After migrating from Forestry.io over to [Tina CMS](https://tina.io/ "Tina CMS") managed to mess up the template I use for my streams - which are short posts that are auto shared to social media. Fixed this and a few minor buts too.

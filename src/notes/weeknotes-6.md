@@ -1,27 +1,22 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #6'
-description: >-
-  It's been another pretty uneventful week apart from all the wind we had here
+title: "Weeknotes #6"
+description: "It's been another pretty uneventful week apart from all the wind we had here
   in the east - we lost yet another water butt.  This week I didn't do any
   JavaScript learning and I've not managed to continue reading any of the books
   I've started. Managed to make some more progress with my freelance project.
-  Work-wise nothing much has changed or improved.
+  Work-wise nothing much has changed or improved."
 keywords:
   - javascript
   - freelance
   - contract
   - perch cms
-postImage: "/v1579162295/og.jpg"
-date: 2019-03-17T21:02:17.540Z
-tags:
-  - notes
+date: 2019-03-17T21:02:17Z
 ---
-It's been another pretty uneventful week apart from all the wind we had here in the east - we lost yet another water butt.
+It's been another pretty uneventful week apart from all the wind we had here in the east - we lost yet another water butt.{.lead}
 
 This week I didn't do any JavaScript learning and I've not managed to continue reading any of the books I've started. Managed to make some more progress with my freelance project. Work-wise nothing much has changed or improved.
-
 
 ## What went well
 

@@ -1,7 +1,6 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: March 2024"
 description: "I didn't make any notes for March, it seems, and looking back at the calendar it seems like nothing worthy of mentioning happened."
 keywords:
@@ -13,10 +12,8 @@ keywords:
 date: 2024-05-15T16:00:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-<p class="lead">I didn't make any notes for March, it seems, and looking back at the calendar it seems like nothing worthy of mentioning happened.</p>
+I didn't make any notes for March, it seems, and looking back at the calendar it seems like nothing worthy of mentioning happened.{.lead}
 
 ## Personal
 - It was my ex-wife's birthday - but she didn't reply to my message asking if she wanted the kids to come and see her. Birthday cards went in the bin.

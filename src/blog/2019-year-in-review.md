@@ -1,33 +1,32 @@
 ---
-layout: layouts/post.njk
-title: '2019: Year in review'
-description: Another year gone but it was a very good year both professionally and
-  personally, but there is room for improvement in twenty twenty.
+layout: "post"
+title: "2019: Year in review"
+description: "Another year gone but it was a very good year both professionally and
+  personally, but there is room for improvement in twenty twenty."
 keywords:
-- '2019'
-- year in review
-- javascript
-- static site generator
-- ssg
-- netlify
-- eleventy
-- netlifycms
-- nunjucks
-- ernest jones
-- h. samuelt
-- cmi
-- chartered management institute
-- contract
-- front-end developer
-- freelance
+  - "2019"
+  - year in review
+  - javascript
+  - static site generator
+  - ssg
+  - netlify
+  - eleventy
+  - netlifycms
+  - nunjucks
+  - ernest jones
+  - h. samuelt
+  - cmi
+  - chartered management institute
+  - contract
+  - front-end developer
+  - freelance
 postImage: "/v1579162296/sun_sea.jpg"
-date: 2020-01-05T13:54:38.480+00:00
+date: 2020-01-05T13:54:38Z
 tags:
-- year-in-review
-- personal
-
+  - year-in-review
+  - personal
 ---
-Another year gone but it was a very good year both professionally and personally, but there is room for improvement in twenty twenty.
+Another year gone but it was a very good year both professionally and personally, but there is room for improvement in twenty twenty.{.lead}
 
 ## Work
 This year I had a total of 4 contracts which meant I was working for most of the year without any big gaps. It was a year of 'firsts' for me; it was the first time I ended a contract early; first time I returned to working with a previous client; first time I got to work as an interaction designer for GOV project using the GOV.UK Prototype Kit.

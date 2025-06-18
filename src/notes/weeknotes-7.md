@@ -1,12 +1,11 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #7'
-description: >-
-  Well, it was another uneventful and unproductive week - I've been distracted
-  all week. I've decided to finish my current contract early. I've never done
-  this and I have mixed feelings about it, but I know that I am not happy here
-  and I don't see it getting better.
+title: "Weeknotes #7"
+description: "Well, it was another uneventful and unproductive week - I've been distracted
+    all week. I've decided to finish my current contract early. I've never done
+    this and I have mixed feelings about it, but I know that I am not happy here
+    and I don't see it getting better."
 keywords:
   - front-end
   - developer
@@ -14,13 +13,9 @@ keywords:
   - contract
   - freelance
   - week notes
-  - ''
-postImage: "/v1579162295/og.jpg"
-date: 2019-03-24T09:00:49.135Z
-tags:
-  - notes
+date: 2019-03-24T09:00:49Z
 ---
-Well, it was another uneventful and unproductive week - I've been distracted all week.
+Well, it was another uneventful and unproductive week - I've been distracted all week.{.lead}
 
 ## Decisions
 I've decided to finish my current contract early. I've never done this and I have mixed feelings about it, but I know that I am not happy here and I don't see it getting better.

@@ -1,23 +1,19 @@
 ---
 layout: "post"
-postImage: "/v1579162295/og.jpg"
-title: Recording audio input from other apps
-description: Turns out that you can't easily recorded audio from one app to another
-  on a Mac, without some extra software and changing some preferences
+title: "Recording audio input from other apps"
+description: "Turns out that you can't easily recorded audio from one app to another
+  on a Mac, without some extra software and changing some preferences"
 keywords:
-- minecraft
-- desktop audio
-- obs
-- recording
-- audio input
-- mac book pro
-- macbookpro
-date: 2020-07-03T00:00:00+01:00
-tags:
-- notes
-
+  - minecraft
+  - desktop audio
+  - obs
+  - recording
+  - audio input
+  - mac book pro
+  - macbookpro
+date: 2020-07-03T00:00:00Z
 ---
-I've been wanting to get back into recording gameplay, going to restart my Minecraft Let's Play series - but last time I did this, I was using a Toshiba laptop running on Ubuntu Linux.
+I've been wanting to get back into recording gameplay, going to restart my Minecraft Let's Play series - but last time I did this, I was using a Toshiba laptop running on Ubuntu Linux.{.lead}
 
 So I've been reconfiguring OBS and working out the best screen size and testing sound... and for some reason, OBS was not recording the game sounds, it said Desktop Audio is disabled.
 

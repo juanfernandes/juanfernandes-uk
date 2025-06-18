@@ -1,10 +1,9 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #14'
-description: >-
-  Not much happened this week. The handover process is well underway and there
-  if not much left now to handover. It was my last full week in Manchester.
+title: "Weeknotes #14"
+description: "Not much happened this week. The handover process is well underway and there
+  if not much left now to handover. It was my last full week in Manchester."
 keywords:
   - freelance
   - contract
@@ -12,12 +11,9 @@ keywords:
   - developer
   - interaction
   - designer
-postImage: "/v1579162295/og.jpg"
-date: 2019-05-13T17:33:44.747Z
-tags:
-  - notes
+date: 2019-05-13T17:33:44Z
 ---
-Not much happened this week. The handover process is well underway and there if not much left now to handover. It was my last full week in Manchester.
+Not much happened this week. The handover process is well underway and there if not much left now to handover. It was my last full week in Manchester.{.lead}
 
 ## Work
 This week was my last full week in Manchester working in the Department for Education offices with the dxw team.

@@ -1,13 +1,11 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #15'
-description: >-
-  This weeknotes is late again due to having a weekend without being in front of
-  a screen, most of it - my youngest child had been begging me to jump on the
+title: "Weeknotes #15"
+description: "This weeknotes is late again due to having a weekend without being in front of a screen, most of it - my youngest child had been begging me to jump on the
   Minecraft server so we could play together. This week was my last with DXW and
   DfE (only 2 days) and the rest of the week was spent working on my own website
-  and on my freelance project.
+  and on my freelance project."
 keywords:
   - freelance web designer
   - suffolk
@@ -19,12 +17,9 @@ keywords:
   - dxw
   - dfe
   - department for education
-postImage: "/v1579162295/og.jpg"
-date: 2019-05-22T07:19:15.478Z
-tags:
-  - notes
+date: 2019-05-22T07:19:15Z
 ---
-This weeknotes is late again due to having a weekend without being in front of a screen, most of it - my youngest child had been begging me to jump on the Minecraft server so we could play together. This week was my last with DXW and DfE (only 2 days) and the rest of the week was spent working on my own website and on my freelance project.
+This weeknotes is late again due to having a weekend without being in front of a screen, most of it - my youngest child had been begging me to jump on the Minecraft server so we could play together. This week was my last with DXW and DfE (only 2 days) and the rest of the week was spent working on my own website and on my freelance project.{.lead}
 
 ## Work
 Very short week as I only worked two days - my last with the Department for Education as my replacement is now settled in and up to speed with the project.

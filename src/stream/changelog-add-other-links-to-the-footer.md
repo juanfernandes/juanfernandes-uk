@@ -1,18 +1,15 @@
 ---
-layout: layouts/post.njk
-postImage: v1579162295/trianglify.png
-title: 'Changelog: Add other links to the footer'
-description: Saw a tweet about how websites with RSS should have a link to it in the header to save digging into code to find it, after a tiny footer redesign I added mine
+layout: "post"
+title: "Changelog: Add other links to the footer"
+description: "Saw a tweet about how websites with RSS should have a link to it in the header to save digging into code to find it, after a tiny footer redesign I added mine"
 keywords:
-- website update
-- changelog
-- notes
-date: 2021-08-02T23:00:00.000+00:00
+  - website update
+  - changelog
+  - notes
+date: 2021-08-02T23:00:00Z
 tags:
-- notes
-- changelog
+  - changelog
 tweetId: "1422503960225763328"
-
 ---
 Saw a tweet about how websites with RSS should have a link to it in the header to save digging into code to find it and I also hate that, but I also didn't have any links to my RSS feed.
 

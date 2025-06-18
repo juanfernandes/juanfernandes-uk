@@ -1,13 +1,14 @@
 ---
-title: Blogroll
-layout: page-sidebar
-class: blogroll
+title: "Blogroll"
+layout: "page-sidebar"
+class: "blogroll"
 rssUrlTitle: "All RSS feeds"
 rssUrl: "/blogroll/feeds.xml"
 intro:
-  class: sml
+  class: "sml"
+tags:
+  - search
 ---
-
 <div class="links-grid">
   {% for blog in blogroll %}
   <a href="{{ blog.url }}" class="link-card">

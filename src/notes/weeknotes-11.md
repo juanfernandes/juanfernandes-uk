@@ -1,21 +1,15 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #11'
-description: >-
-  Another short week notes this week due to a short week and a long bank holiday
-  weekend that I spent with friends and family and no screens.
+title: "Weeknotes #11"
+description: "Another short week notes this week due to a short week and a long bank holiday weekend that I spent with friends and family and no screens."
 keywords:
   - freelance web designer
   - interaction designer
   - GOVUK prototype kit
-  - ''
-postImage: "/v1579162295/og.jpg"
-date: 2019-04-24T13:59:20.649Z
-tags:
-  - notes
+date: 2019-04-24T13:59:20Z
 ---
-Another short week notes this week due to a short week and a long bank holiday weekend that I spent with friends and family and no screens.
+Another short week notes this week due to a short week and a long bank holiday weekend that I spent with friends and family and no screens.{.lead}
 
 ## Work
 Spent another full week in Manchester working on with the Department for Education. Finished converting an alpha PHP prototype to the GOVUK Prototype kit. This prototype has two journeys for different users and I got the last of the two finished this week. Next week I can start working with the service designer to start making changes ready for beta testing.

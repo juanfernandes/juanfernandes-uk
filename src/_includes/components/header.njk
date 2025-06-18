@@ -1,11 +1,15 @@
       <header class="page__header">
         <nav role="navigation" aria-label="Global site navigation">
           <ul class="nav--main" role="list">
+            <li>
+              <a class="logo" href="/"><svg width="40" height="40" aria-hidden="true" focusable="false"><use xlink:href="#logo" /></svg><span class="visuallyhidden">Juan Fernandes</span></a>
+            </li>
             {%- for item in site.navigation -%}
             <li class="nav__item">
               <a class="{{ item.class }}" href="{{ item.url }}"{% if page.url == item.url %} aria-current="true"{% endif %}>{{ item.label }}</a>
             </li>
             {%- endfor -%}
+            <li><button class="button--search" id="search-toggle" aria-label="Open search"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M18 10c0-4.41-3.59-8-8-8s-8 3.59-8 8 3.59 8 8 8c1.85 0 3.54-.63 4.9-1.69l5.1 5.1L21.41 20l-5.1-5.1A8 8 0 0 0 18 10M4 10c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6"/></svg></button>{% include 'components/search.njk' %}</li>
           </ul>
         </nav>
       </header>

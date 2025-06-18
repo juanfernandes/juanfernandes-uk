@@ -1,12 +1,10 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #13'
-description: >-
-  This week started the handover process to my replacement at the Department for
-  Education, as well as making a lot more progress to the prototype. Got a new
+title: "Weeknotes #13"
+description: "This week started the handover process to my replacement at the Department for Education, as well as making a lot more progress to the prototype. Got a new
   contract lined up to start pretty much as soon as I finish my current one,
-  which is a first and I have finally made nsome time to work on my own website.
+  which is a first and I have finally made nsome time to work on my own website."
 keywords:
   - weeknotes
   - interaction designer
@@ -16,12 +14,9 @@ keywords:
   - contract front-end developer
   - GOVUK prototype kit
   - department for education
-postImage: "/v1579162295/og.jpg"
-date: 2019-05-06T08:34:06.816Z
-tags:
-  - notes
+date: 2019-05-06T08:34:06Z
 ---
-This week started the handover process to my replacement at the Department for Education, as well as making a lot more progress to the prototype. Got a new contract lined up to start pretty much as soon as I finish my current one, which is a first and I have finally made nsome time to work on my own website.
+This week started the handover process to my replacement at the Department for Education, as well as making a lot more progress to the prototype. Got a new contract lined up to start pretty much as soon as I finish my current one, which is a first and I have finally made nsome time to work on my own website.{.lead}
 
 ## Work
 Had a phone interview for a job I originally applied for some time in March. I hadn't heard back so just assumed they didn't want to see me, I then worked at Hoseasons and then the Department for Education - the recruiter was in touch last week to say they were still looking to hire but had delayed the hiring process until now.

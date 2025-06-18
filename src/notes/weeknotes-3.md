@@ -1,22 +1,18 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #3'
-description: >-
-  This week has been a busy one - with the housework and a new freelance
+title: "Weeknotes #3"
+description: "This week has been a busy one - with the housework and a new freelance
   project. There's been a lot of furniture moving around while the new carpets
-  were fitted.
+  were fitted."
 keywords:
   - weeknotes
   - freelance
   - front-end
   - developer
-postImage: "/v1579162295/og.jpg"
-date: 2019-02-24T21:26:04.610Z
-tags:
-  - notes
+date: 2019-02-24T21:26:04Z
 ---
-This week has been a busy one - with the housework and a new freelance project.
+This week has been a busy one - with the housework and a new freelance project.{.lead}
 
 There's been a lot of furniture moving around while the new carpets were fitted. While all this was going on I started working on a new freelance project - an online shop being added to an existing website using Perch CMS and the Perch Shop app.
 

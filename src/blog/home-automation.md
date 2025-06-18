@@ -1,7 +1,7 @@
 ---
-layout: layouts/post.njk
-title: Home Automation
-description: 'In this post, I talk about my adventures with home automation. Basic stuff as simple as using Alexa to switch on a lamp or lights in a room'
+layout: "post"
+title: "Home Automation"
+description: "In this post, I talk about my adventures with home automation. Basic stuff as simple as using Alexa to switch on a lamp or lights in a room"
 keywords:
   - home automation
   - alexa
@@ -13,12 +13,11 @@ keywords:
   - vera
   - fibaro
   - aeotec
-postImage: /v1579162296/trianglify.png
-date: 2019-02-28T20:34:55.519Z
+date: 2019-02-28T20:34:55Z
 tags:
   - personal
 ---
-In this post, I'm going to talk about my adventures with home automation. It may sound negative, but I'm just painting a true picture of what I discovered.
+In this post, I'm going to talk about my adventures with home automation. It may sound negative, but I'm just painting a true picture of what I discovered.{.lead}
 
 When I say home automation - I mean basic home automation - I'm talking about using Alexa to do simple things - like switching on a lamp or lights in a room.
 

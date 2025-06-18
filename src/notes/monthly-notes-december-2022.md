@@ -1,9 +1,8 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: December 2022'
-description: Pretty much did nothing the whole of December and some of you who follow me on social media will know why.
+title: "Monthly Notes: December 2022"
+description: "Pretty much did nothing the whole of December and some of you who follow me on social media will know why."
 keywords:
   - listening
   - watching
@@ -13,11 +12,8 @@ keywords:
 date: 2023-01-06T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-tweetId: ''
-
 ---
-<p class="lead">Pretty much did nothing the whole of December and some of you who follow me on social media will know why. I will explain why December 2022 was the worst month of my life in my Year In Review post coming soon.</p>
+Pretty much did nothing the whole of December and some of you who follow me on social media will know why. I will explain why December 2022 was the worst month of my life in my Year In Review post coming soon.{.lead}
 
 ## 📺 Watching
 - [Guillermo del Toro's Cabinet of Curiosities](https://www.themoviedb.org/tv/83659-guillermo-del-toro-s-cabinet-of-curiosities "Guillermo del Toro's Cabinet of Curiosities")
