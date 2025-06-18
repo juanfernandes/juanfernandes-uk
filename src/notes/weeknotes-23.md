@@ -1,22 +1,17 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #23'
-description: >-
-  As my current contract gets busier and we head towards a huge deadline, I'm a
-  lot more tired in the evenings, so the last thing I want to do when I get to
-  the hotel and get back on my computer and do some work or write a blog post.
+title: "Weeknotes #23"
+description: "As my current contract gets busier and we head towards a huge deadline, I'm a lot more tired in the evenings, so the last thing I want to do when I get to
+  the hotel and get back on my computer and do some work or write a blog post."
 keywords:
   - freelance
   - contract
   - front-end developer
   - web designer
-postImage: "/v1579162295/og.jpg"
-date: 2019-09-14T09:24:47.298Z
-tags:
-  - notes
+date: 2019-09-14T09:24:47Z
 ---
-As my current contract gets busier and we head towards a huge deadline, I'm a lot more tired in the evenings, so the last thing I want to do when I get to the hotel and get back on my computer and do some work or write a blog post.
+As my current contract gets busier and we head towards a huge deadline, I'm a lot more tired in the evenings, so the last thing I want to do when I get to the hotel and get back on my computer and do some work or write a blog post.{.lead}
 
 Thinking about moving these to 'quarterlies' instead. Attempting to schedule writing these on the weekends to see if I can continue with the weeknotes, if not I'll try quarterlies as I may have more to write as well.
 

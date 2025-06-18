@@ -1,9 +1,8 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: January 2023'
-description: January has been pretty quiet, and again I've not done much other than turn up for work, do some work and then spend the evening in my room watching TV on my own.
+title: "Monthly Notes: January 2023"
+description: "January has been pretty quiet, and again I've not done much other than turn up for work, do some work and then spend the evening in my room watching TV on my own."
 keywords:
   - listening
   - watching
@@ -13,13 +12,10 @@ keywords:
 date: 2023-01-06T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-tweetId: ''
-
 ---
-<p class="lead">January has been pretty quiet, and again I've not done much other than turn up for work, do some work and then spend the evening in my room watching TV on my own.</p>
+January has been pretty quiet, and again I've not done much other than turn up for work, do some work and then spend the evening in my room watching TV on my own.{.lead}
 
-<p class="lead">I still haven't written about why December 2022 was the worst month of my life. It's the hardest Year In Review I've had to write so far.</p>
+I still haven't written about why December 2022 was the worst month of my life. It's the hardest Year In Review I've had to write so far.{.lead}
 
 ## 📖 Reading
 - [Twenty Twenty-Two](https://daverupert.com/2022/12/twenty-twenty-two/ "Twenty Twenty-Two")

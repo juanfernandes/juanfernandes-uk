@@ -1,8 +1,7 @@
 ---
-layout: 'post'
+layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: August 2023'
+title: "Monthly Notes: August 2023"
 description: "August was a VERY expensive month for me - what with getting the car back and getting it back on the road (MOT, tax & insurance) as well as paying for a mortgage advisor and mortgage."
 keywords:
   - listening
@@ -13,10 +12,8 @@ keywords:
 date: 2023-10-21T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-<p class="lead">August was a VERY expensive month for me - what with getting the car back and getting it back on the road (MOT, tax & insurance) as well as paying for a mortgage advisor and mortgage.</p>
+August was a VERY expensive month for me - what with getting the car back and getting it back on the road (MOT, tax & insurance) as well as paying for a mortgage advisor and mortgage.{.lead}
 
 ## Projects
 - With AI being a hot topic at the moment, a few posts popped up on my social feeds talking about how AI bots have had free rein to learn from anyone's content on the internet without any form of attribution to original content creators. So I blocked AI bots on my website as well as the Googlebot because well I don't like them and their search engine is now rubbish

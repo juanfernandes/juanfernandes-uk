@@ -1,12 +1,11 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #20'
-description: >-
-  After a bit of an unscheduled break, my weeknotes are back. You may notice
+title: "Weeknotes #20"
+description: "After a bit of an unscheduled break, my weeknotes are back. You may notice
   that weeknotes are no longer showing on the blog index - after some feedback,
   I decided it didn't make sense to clutter the blog with notes. They have taken
-  over because I've not been writing much of anything else.
+  over because I've not been writing much of anything else."
 keywords:
   - weeknotes
   - blog
@@ -17,12 +16,9 @@ keywords:
   - web design
   - cloudinary
   - Netlify
-postImage: "/v1579162295/og.jpg"
-date: 2019-07-15T20:45:28.098Z
-tags:
-  - notes
+date: 2019-07-15T20:45:28Z
 ---
-After a bit of an unscheduled break, my weeknotes are back. You may notice that weeknotes are no longer showing on the blog index - after some feedback, I decided it didn't make sense to clutter the blog with notes. They have taken over because I've not been writing much of anything else.
+After a bit of an unscheduled break, my weeknotes are back. You may notice that weeknotes are no longer showing on the blog index - after some feedback, I decided it didn't make sense to clutter the blog with notes. They have taken over because I've not been writing much of anything else.{.lead}
 
 ## Work
 I've been busy building components for the new header for one of the brands. I've been creating the new search component. Just working on the HTML, SCSS and some JavaScript - but I'm going to need some help from the team to improve my JS.

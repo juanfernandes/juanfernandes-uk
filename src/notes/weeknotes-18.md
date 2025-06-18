@@ -1,11 +1,10 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #18'
-description: >-
-  Bit of a slow week at work while we wait for the new UX Designer to get
+title: "Weeknotes #18"
+description: "Bit of a slow week at work while we wait for the new UX Designer to get
   acquainted with the business and produce some designs for the Front-end
-  Developers to produce.
+  Developers to produce."
 keywords:
   - website
   - designer
@@ -19,12 +18,9 @@ keywords:
   - Heart Internet
   - the website of doom
   - website hosting
-postImage: "/v1579162295/og.jpg"
-date: 2019-06-12T20:05:02.488Z
-tags:
-  - notes
+date: 2019-06-12T20:05:02Z
 ---
-Bit of a slow week at work while we wait for the new UX Designer to get acquainted with the business and produce some designs for the Front-end Developers to produce.
+Bit of a slow week at work while we wait for the new UX Designer to get acquainted with the business and produce some designs for the Front-end Developers to produce.{.lead}
 
 ## Work
 This week my main focus was on creating a 'getting started' guide on creating a new component within our Fractal based component library. Got that finished and ready for review. It's interesting how much you forget about when it's not documented, even though the process here is new to me.

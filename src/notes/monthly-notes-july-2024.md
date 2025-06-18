@@ -1,7 +1,6 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: July 2024"
 description: "It's been a quiet month, with summer approaching and my eldest daughter nearly done with her GCSEs. I haven't worked on any major projects, just some minor fixes on this website. My house is now listed for sale through a digital auction, similar to eBay for houses—waiting to see how that turns out."
 keywords:
@@ -13,11 +12,9 @@ keywords:
 date: 2024-09-04T12:00:00Z
 tags:
   - monthly-notes
-  - notes
 shareLink: "https://indieweb.social/@juanfernandes/113083706577306193"
 ---
-
-<p class="lead">Another quiet month. Summer is just round the corner and my eldest is finishing her GCSEs soon.</p>
+Another quiet month. Summer is just round the corner and my eldest is finishing her GCSEs soon.{.lead}
 
 ## Projects
 - No work on projects - minor fixes on this website

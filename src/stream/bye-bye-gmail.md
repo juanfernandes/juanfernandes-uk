@@ -1,19 +1,15 @@
 ---
-layout: layouts/post.njk
-postImage: v1579162295/trianglify.png
-title: Bye  Bye Gmail
-description: That's it - I have finally deleted my Gmail account. I've been using
+layout: "post"
+title: "Bye Bye Gmail"
+description: "That's it - I have finally deleted my Gmail account. I've been using
   a self-hosted email address for a year now and slowly switching email addresses
-  on websites I still use.
+  on websites I still use."
 keywords:
-- gmail
-- google
-- privacy
-- privacy control
+  - gmail
+  - google
+  - privacy
+  - privacy control
 date: 2021-03-05T00:00:00Z
-tags:
-- notes
-
 ---
 That's it - I have finally deleted my Gmail account. I've been using a self-hosted email address for a year now and slowly switching email addresses on websites I still use.
 

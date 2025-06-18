@@ -1,8 +1,7 @@
 ---
-layout: 'post'
+layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: December 2023'
+title: "Monthly Notes: December 2023"
 description: "I planned on doing lots of work on the new version of this website over the Christmas holidays, but then I bought loads of beers instead. Had a great Christmas and went to Nottingham for a hip hop concert."
 keywords:
   - listening
@@ -13,10 +12,8 @@ keywords:
 date: 2024-02-10T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-<p class="lead">I planned on doing lots of work on the new version of this website over the Christmas holidays, but then I bought loads of beers instead. Had a great Christmas and went to Nottingham for a hip hop concert.</p>
+I planned on doing lots of work on the new version of this website over the Christmas holidays, but then I bought loads of beers instead. Had a great Christmas and went to Nottingham for a hip hop concert.{.lead}
 
 ## Work
 - The front end team is now the UX Design team, and we are now part of the product team. We had a product team get together in one of our London offices. It was great to meet my new boss, the head of UX, and also meet a load of people I've only met via Zoom.

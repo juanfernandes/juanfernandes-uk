@@ -1,8 +1,7 @@
 ---
-layout: 'post'
+layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: July 2023'
+title: "Monthly Notes: July 2023"
 description: "July has been a much better month. It's been a month since I moved out of my home and started living in a rented flat. Got to see the Red Hot Chilli Peppers live in London."
 keywords:
   - listening
@@ -13,9 +12,8 @@ keywords:
 date: 2023-08-18T00:00:00Z
 tags:
   - monthly-notes
-  - notes
 ---
-<p class="lead">July has been a much better month. It's been a month since I moved out of my home and started living in a rented flat. Got to see the Red Hot Chilli Peppers live in London.</p>
+July has been a much better month. It's been a month since I moved out of my home and started living in a rented flat. Got to see the Red Hot Chilli Peppers live in London.{.lead}
 
 ## Work
 - There is a lot of behind the scenes changes happening at work, all for the best, including moving to a SAFe (which is an agile framework) - that's the boring bit though, but this does mean we are slowly starting to do design work FIRST, rather than after changes have gone live! As part of this I've had a job title change to UI/UX Designer (was UI Frontend Developer) and on a sad note, our team has been split and put into different agile teams, but we are now all part of the Product team instead of development.

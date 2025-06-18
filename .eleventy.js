@@ -15,6 +15,7 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const dateFilter = require('./src/_filters/date-filter')
 const w3DateFilter = require('./src/_filters/w3-date-filter')
+const searchIndex = require('./src/_filters/searchIndex.js')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib)
@@ -51,6 +52,7 @@ module.exports = function (eleventyConfig) {
   // Filters
   eleventyConfig.addFilter('dateFilter', dateFilter)
   eleventyConfig.addFilter('w3DateFilter', w3DateFilter)
+  eleventyConfig.addFilter('searchIndex', searchIndex)
 
   eleventyConfig.addFilter('randomItem', (arr) => {
     arr.sort(() => {
@@ -123,6 +125,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('page-sidebar', 'layouts/page-sidebar.njk')
   eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
   eleventyConfig.addLayoutAlias('stream', 'layouts/stream.njk')
+  eleventyConfig.addLayoutAlias('image', 'layouts/image.njk')
 
   // Plugins
   eleventyConfig.addPlugin(rssPlugin)

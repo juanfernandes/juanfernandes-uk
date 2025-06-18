@@ -1,22 +1,20 @@
 ---
-layout: layouts/post.njk
-title: Website Design Process - working with me
-description: >-
-  This is my website design process. In this blog post I detail my process from
-  initial client contact to the end of a project.
+layout: "post"
+title: "Website Design Process - working with me"
+description: "This is my website design process. In this blog post I detail my process from initial client contact to the end of a project."
 keywords:
   - website
   - design
   - process
   - hiring a website design
   - working with a web designer
-postImage: /v1579162296/webdesign-work-in-progresspicjumbo.comhnck7775.jpg
-date: 2017-05-02T14:00:43.729Z
+postImage: "/v1579162296/webdesign-work-in-progresspicjumbo.comhnck7775.jpg"
+date: 2017-05-02T14:00:43Z
 tags:
   - business
   - freelance
 ---
-In this blog post, I'm going to break down my process from initial client query to project completion.
+In this blog post, I'm going to break down my process from initial client query to project completion.{.lead}
 
 Have you ever wondered what it is like to work with a website designer? Does it stop you hiring one because you don't know how they work - what if your ways of working don't align with theirs?
 

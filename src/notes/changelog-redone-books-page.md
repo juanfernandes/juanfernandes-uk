@@ -1,6 +1,5 @@
 ---
-layout: post
-postImage: "/v1579162295/trianglify.png"
+layout: "post"
 title: "Changelog: Redone books page"
 description: "I've changed my books page to now include books I want to read."
 keywords:
@@ -11,9 +10,7 @@ keywords:
   - changelog
   - indieweb
 date: 2024-05-28T18:00:00Z
-edited: 
 tags:
-  - notes
   - changelog
 shareLink: "https://indieweb.social/@juanfernandes/112529645938386227"
 ---

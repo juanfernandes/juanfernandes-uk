@@ -1,27 +1,26 @@
 ---
-layout: post
-title: How I improved my website because of Content Security Policies
+layout: "post"
+title: "How I improved my website because of Content Security Policies"
 description: "Last month I delved into security headers including Content Security Policies and added a bunch of them to my website. As a result this has improved my website"
 keywords:
-- performance
-- content security policies
-- csp
-- website performance
-- secure website
-- improved website
-- eleventy
-- 11ty
-customPostImg: intro--code-img
+  - performance
+  - content security policies
+  - csp
+  - website performance
+  - secure website
+  - improved website
+  - eleventy
+  - 11ty
+customPostImg: "intro--code-img"
 postImage: 'v1579162296/computer-18363301920-1.jpg'
 date: 2021-01-08T23:00:00Z
 tags:
-- eleventy
-- ssg
-- performance
-- csp
+  - eleventy
+  - ssg
+  - performance
+  - csp
 ---
-
-<p class="lead">Last month I delved into security headers including Content Security Policies and added a bunch of them to my website. I did this to learn more about website security and improve my websites' security.</p>
+Last month I delved into security headers including Content Security Policies and added a bunch of them to my website. I did this to learn more about website security and improve my websites' security.{.lead}
 
 But I learnt that I had inadvertently broken some things on my site - this wasn't obvious because I have a cobbled together ServiceWorker which meant I didn't see the things that had stopped working - namely images and sliders.
 

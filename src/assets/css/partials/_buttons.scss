@@ -51,6 +51,15 @@ button {
   }
 }
 
+.button--search {
+  background: transparent;
+  border: none;
+  display: block;
+  padding: 0;
+  height: 24px;
+  width: 24px;
+}
+
 /* Fix for odd Mozilla border & padding issues */
 button::-moz-focus-inner,
 input::-moz-focus-inner {

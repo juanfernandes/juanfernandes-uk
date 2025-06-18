@@ -1,8 +1,8 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Monthly Notes: November 2019'
-description: ' November saw the end of my contract at Signet and the start of a new contract at the Chartered Management Institute (CMI). I have worked with them before and they asked to come back to help them with a new project.'
+title: "Monthly Notes: November 2019"
+description: "November saw the end of my contract at Signet and the start of a new contract at the Chartered Management Institute (CMI). I have worked with them before and they asked to come back to help them with a new project."
 keywords:
   - freelance web designer
   - contract front-end developer
@@ -13,14 +13,11 @@ keywords:
   - javascript
   - wordpress
   - beaver builder
-postImage: /v1579162295/og.jpg
-date: 2019-12-09T10:25:49.932Z
+date: 2019-12-09T10:25:40Z
 tags:
-  - notes
   - monthly-notes
 ---
-
-November saw the end of my contract at Signet and the start of a new contract at the [Chartered Management Institute (CMI)](https://www.managers.org.uk "Chartered Management Institute (CMI)"). I have worked with them before and they asked to come back to help them with a new project.
+November saw the end of my contract at Signet and the start of a new contract at the [Chartered Management Institute (CMI)](https://www.managers.org.uk "Chartered Management Institute (CMI)"). I have worked with them before and they asked to come back to help them with a new project.{.lead}
 
 ## Work
 - Last week of November saw me starting a new contract with a company I have previously worked with. This is a first for me in the 4 and a bit years I've been contracting - that I've been asked to return to a company. They had been trying to get me back for a few months, but every time they got in touch, my contract at the time had been extended.

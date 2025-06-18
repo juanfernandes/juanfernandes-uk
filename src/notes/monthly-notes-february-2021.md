@@ -1,27 +1,24 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: February 2021'
-description: February was quite a busy month work-wise. Finishing the Property with
+title: "Monthly Notes: February 2021"
+description: "February was quite a busy month work-wise. Finishing the Property with
   Prospect website as well as finishing and presenting the design for the new Surbiton
-  Tyre and Wheels website
+  Tyre and Wheels website"
 keywords:
-- surbiton tyre and wheels
-- property with prospect
-- work
-- freelance
-- monthly notes
-- notes
-- intelliflo
-- new job
+  - surbiton tyre and wheels
+  - property with prospect
+  - work
+  - freelance
+  - monthly notes
+  - notes
+  - intelliflo
+  - new job
 date: 2021-03-05T00:00:00Z
 tags:
-- monthly-notes
-- notes
-
+  - monthly-notes
 ---
-February was quite a busy month work-wise. Finishing the Property with Prospect website as well as finishing and presenting the design for the new Surbiton Tyre and Wheels website.
+February was quite a busy month work-wise. Finishing the Property with Prospect website as well as finishing and presenting the design for the new Surbiton Tyre and Wheels website.{.lead}
 
 ## Work
 

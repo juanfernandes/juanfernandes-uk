@@ -1,15 +1,15 @@
 ---
-layout: page
-title: Now
-permalink: "/now/"
-date: 2025-06-15T15:30:00
-class: now
+layout: "page"
+title: "Now"
+description: "Read about what I'm currently up to"
+date: 2025-06-15T15:30:00Z
+class: "now"
 intro:
-  heading: Now
-  subheading: What I'm currently up to
-description: Read about what I'm currently up to
-keywords: now, freelance website designer, frontend developer, reading, watching, work
-
+  heading: "Now"
+  subheading: "What I'm currently up to"
+keywords: "now, freelance website designer, frontend developer, reading, watching, work"
+tags:
+  - search
 ---
 ## Personal
 * Been doing lots of work on the garden. Have been building a side gate from scratch using wood I've got laying around. Nearly done now, just need to finish the frame and the get some strong hinges to hang the gate.

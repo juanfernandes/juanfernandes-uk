@@ -1,7 +1,6 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: February 2024"
 description: "Celebrated my one-year anniversary with my girlfriend, my eldest visiting sixth form college, and the house was relisted for sale with new estate agents."
 keywords:
@@ -13,10 +12,8 @@ keywords:
 date: 2024-05-14T17:00:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-<p class="lead">Celebrated my one-year anniversary with my girlfriend, my eldest visiting sixth form college, and the house was relisted for sale with new estate agents.</p>
+Celebrated my one-year anniversary with my girlfriend, my eldest visiting sixth form college, and the house was relisted for sale with new estate agents.{.lead}
 
 ## Personal
 - My girlfriend and I celebrated our 1-year anniversary by going out to our favourite restaurant

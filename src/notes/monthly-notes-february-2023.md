@@ -1,8 +1,7 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: February 2023'
+title: "Monthly Notes: February 2023"
 description: "Well, February was definitely an improvement for me. Better focused at work and actually got some work done. Started dating someone and it's going well. The house is now listed for sale and have got a mortgage in principle. Things are a lot better now."
 keywords:
   - listening
@@ -13,11 +12,8 @@ keywords:
 date: 2023-03-08T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-tweetId: ''
-
 ---
-<p class="lead">Well, February was definitely an improvement for me. Better focused at work and actually got some work done. Started dating someone and it's going well. The house is now listed for sale and have got a mortgage in principle. Things are a lot better now.</p>
+Well, February was definitely an improvement for me. Better focused at work and actually got some work done. Started dating someone and it's going well. The house is now listed for sale and have got a mortgage in principle. Things are a lot better now.{.lead}
 
 ## Work
 - Been re-designing a secure messaging UI to make it look more like a chat app. It has been a fun design ticket to work on, I'm now just going through feedback and making some changes.

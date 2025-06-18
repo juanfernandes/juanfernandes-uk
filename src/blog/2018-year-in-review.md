@@ -1,34 +1,33 @@
 ---
-layout: layouts/post.njk
-title: '2018: Year in review'
-description: Twenty eighteen year in review post where I talk about what went well
-  and what didn't go so well. Covering some work and personal stuff.
+layout: "post"
+title: "2018: Year in review"
+description: "Twenty eighteen year in review post where I talk about what went well
+  and what didn't go so well. Covering some work and personal stuff."
 keywords:
-- '2018'
-- twenty
-- eighteen
-- year in review
-- year
-- review
-- front-end developer
-- front-end
-- developer
-- designer
-- UX
-- UI
-- react
-- gatsby js
-- vue js
-- eleventy
-- static site generator
+  - "2018"
+  - twenty
+  - eighteen
+  - year in review
+  - year
+  - review
+  - front-end developer
+  - front-end
+  - developer
+  - designer
+  - UX
+  - UI
+  - react
+  - gatsby js
+  - vue js
+  - eleventy
+  - static site generator
 postImage: "/v1579162296/bawdsey-2018.jpg"
-date: 2019-01-03T17:30:47.682+00:00
+date: 2019-01-03T17:30:47Z
 tags:
-- year-in-review
-- personal
-
+  - year-in-review
+  - personal
 ---
-Twenty Eighteen was a good year for me, but not so good for the UK, USA or politics, but we won't talk too much about that here!
+Twenty Eighteen was a good year for me, but not so good for the UK, USA or politics, but we won't talk too much about that here!{.lead}
 
 I made it point of avoiding politics in 2018 and will continue to do so in 2019 - be it on social media or in real life. I can't change what politicians want to do and I don't know enough about it, so it just infuriates me.
 

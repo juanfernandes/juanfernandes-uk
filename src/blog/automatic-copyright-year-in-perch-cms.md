@@ -1,10 +1,8 @@
 ---
-layout: layouts/post.njk
-title: Automatic copyright year in Perch CMS
-description: >-
-  How to auto update your copyright year with Perch CMS. In this short blog post
-  I share a small code snippet that you can add to automatically update your
-  copyright year.
+layout: "post"
+title: "Automatic copyright year in Perch CMS"
+description: "How to auto update your copyright year with Perch CMS. In this short blog post I share a small code snippet that you can add to automatically update your
+  copyright year."
 keywords:
   - cms
   - content management system
@@ -12,13 +10,13 @@ keywords:
   - auto update copyright year
   - perch
   - grabaperch
-customPostImg: 'intro--code-img'
-postImage: 'v1579162296/computer-18363301920-1.jpg'
-date: 2017-02-06T08:30:22.891Z
+customPostImg: "intro--code-img"
+postImage: "v1579162296/computer-18363301920-1.jpg"
+date: 2017-02-06T08:30:22Z
 tags:
   - development
 ---
-One of the things I still get asked to do a lot by clients, ones that don't have a site that is managed by a CMS - is to update their copyright year on the footer.
+One of the things I still get asked to do a lot by clients, ones that don't have a site that is managed by a CMS - is to update their copyright year on the footer.{.lead}
 
 Now, this is fairly easy to do using PHP on its own, just using this line of code:
 

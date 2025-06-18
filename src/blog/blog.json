@@ -6,5 +6,7 @@
     "heading": "Blog",
     "subheading": "Thoughts, Code and more"
   },
-  "bodyClass": "blog"
+  "bodyClass": "blog",
+  "postImage": "/v1579162296/trianglify.png",
+  "tags": ["post", "search"]
 }

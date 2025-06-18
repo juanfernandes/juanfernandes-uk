@@ -1,7 +1,7 @@
 ---
-layout: layouts/post.njk
-title: Tools I Use
-description: 'Love posts that show what designers & developers use to do their job – so I thought I’d post my own'
+layout: "post"
+title: "Tools I Use"
+description: "Love posts that show what designers & developers use to do their job – so I thought I’d post my own"
 keywords:
   - sublime text 3
   - iterm 2
@@ -21,8 +21,7 @@ keywords:
   - franz
   - simplenote
   - oneplus 5t
-postImage: /v1579162296/trianglify.png
-date: 2018-11-12T18:00:16.113Z
+date: 2018-11-12T18:00:16Z
 tags:
   - personal
 ---

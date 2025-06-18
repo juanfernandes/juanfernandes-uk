@@ -1,27 +1,26 @@
 ---
-layout: layouts/post.njk
-title: Exploring the benefits of HTTP2
-description: Since this website is hosted on Netlify & they serve websites using the HTTP/2 protocol I've started exploring the benefits of it
+layout: "post"
+title: "Exploring the benefits of HTTP2"
+description: "Since this website is hosted on Netlify & they serve websites using the HTTP/2 protocol I've started exploring the benefits of it"
 keywords:
-- "#MayThe4thBeWithYou"
-- vanilla javascript
-- JavaScript
-- jQuery
-- partial
-- http/2 protocol
-- HTTP/2
-- static site generator
-- nunjucks
-- eleventy
-- jamstack
-customPostImg: 'intro--code-img'
-postImage: 'v1579162296/computer-18363301920-1.jpg'
-date: 2020-05-03T23:00:00.000+00:00
+  - "#MayThe4thBeWithYou"
+  - vanilla javascript
+  - JavaScript
+  - jQuery
+  - partial
+  - http/2 protocol
+  - HTTP/2
+  - static site generator
+  - nunjucks
+  - eleventy
+  - jamstack
+customPostImg: "intro--code-img"
+postImage: "v1579162296/computer-18363301920-1.jpg"
+date: 2020-05-03T23:00:00Z
 tags:
-- development
-
+  - development
 ---
-Now that this website is hosted on [Netlify](https://www.netlify.com) and they serve websites using the [HTTP/2 protocol](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_2) I've started exploring the benefits of it and what I need to change to take advantage of those benefits.
+Now that this website is hosted on [Netlify](https://www.netlify.com) and they serve websites using the [HTTP/2 protocol](https://developer.mozilla.org/en-US/docs/Glossary/HTTP_2) I've started exploring the benefits of it and what I need to change to take advantage of those benefits.{.lead}
 
 > HTTP/2 is a major revision of the HTTP network protocol. The primary goals for HTTP/2 are to reduce latency by enabling full request and response multiplexing, minimize protocol overhead via efficient compression of HTTP header fields, and add support for request prioritization and server push.  - MDN Web Docs
 

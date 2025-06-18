@@ -1,7 +1,7 @@
 ---
-layout: layouts/post.njk
-title: Keeping track of tasks
-description: Been thinking about how I keep track of changes requested by clients outside of project work. I maintain websites I've built as well as websites I host
+layout: "post"
+title: "Keeping track of tasks"
+description: "Been thinking about how I keep track of changes requested by clients outside of project work. I maintain websites I've built as well as websites I host"
 keywords:
   - freelance
   - business
@@ -9,13 +9,12 @@ keywords:
   - trello
   - task management
   - clients
-postImage: /v1579162296/trianglify.png
-date: 2019-03-08T16:15:33.391Z
+date: 2019-03-08T16:15:33Z
 tags:
   - business
   - freelance
 ---
-I've been thinking about how I keep track of changes requested by clients, outside of project work. Since I maintain websites I've built as well as websites I inherited and host, I often get requests for minor changes, fixes or updates.
+I've been thinking about how I keep track of changes requested by clients, outside of project work. Since I maintain websites I've built as well as websites I inherited and host, I often get requests for minor changes, fixes or updates.{.lead}
 
 The problem I have with these is that they tend to arrive either via email, phone call or even via Messenger and then I lose track of these requests - because these tools were not designed for tracking changes.
 

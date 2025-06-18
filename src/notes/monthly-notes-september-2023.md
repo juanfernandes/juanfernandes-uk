@@ -1,8 +1,7 @@
 ---
-layout: 'post'
+layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: September 2023'
+title: "Monthly Notes: September 2023"
 description: "Not a busy month, but wish it was less stressful. Managed to work on my personal website, which was a good a distraction."
 keywords:
   - listening
@@ -13,10 +12,8 @@ keywords:
 date: 2023-10-22T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-<p class="lead">Not a busy month, but wish it was less stressful. Managed to work on my personal website, which was a good a distraction.</p>
+Not a busy month, but wish it was less stressful. Managed to work on my personal website, which was a good a distraction.{.lead}
 
 ## Projects
 - Finally got round to removing Forestry CMS and replacing it with Tina CMS - Forestry was discontinued, so I had to remove it and found that Tina CMS was the perfect replacement - also it's made by the same people.

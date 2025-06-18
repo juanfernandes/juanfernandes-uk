@@ -1,8 +1,7 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: April 2023'
+title: "Monthly Notes: April 2023"
 description: "Been feeling a lot better about my personal situation, celebrated a 2-month anniversary with my girlfriend. Went bowling with my children, and my eldest celebrated turning fifteen."
 keywords:
   - listening
@@ -13,9 +12,8 @@ keywords:
 date: 2023-06-02T00:00:00Z
 tags:
   - monthly-notes
-  - notes
 ---
-<p class="lead">Been feeling a lot better about my personal situation, celebrated a 2-month anniversary with my girlfriend. Went bowling with my children, and my eldest celebrated turning fifteen.</p>
+Been feeling a lot better about my personal situation, celebrated a 2-month anniversary with my girlfriend. Went bowling with my children, and my eldest celebrated turning fifteen.{.lead}
 
 ## Work
 Nothing much happening at work, and I've had enough, so it's time to move on. I handed in my notice and have to work a three-month notice period. I'll be sad to leave my team, but I'm no good to anyone if I'm not motivated at work.

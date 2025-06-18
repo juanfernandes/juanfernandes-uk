@@ -1,8 +1,7 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: September 2022'
+title: "Monthly Notes: September 2022"
 description: "Bit of a slow month. I started working on a Books section on my website and worked on a complex membership table build."
 keywords:
   - listening
@@ -14,11 +13,8 @@ keywords:
 date: 2022-10-13T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-tweetId: ''
-
 ---
-<p class="lead">Bit of a slow month. I started working on a Books section on my website and worked on a complex membership table build.</p>
+Bit of a slow month. I started working on a Books section on my website and worked on a complex membership table build.{.lead}
 
 ## Work
 - I spent some time building a complex membership table build and am planning a blog post about it. I was not able to replicate the designers vision 100% - I got pretty close. I wonder if other web designers would have solved it the same way.

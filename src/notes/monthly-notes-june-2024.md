@@ -1,7 +1,6 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: June 2024"
 description: "Short update for June as I'm behind on writing these and not much has been happening in my life at the moment - which isn't a bad thing."
 keywords:
@@ -13,11 +12,9 @@ keywords:
 date: 2024-09-03T17:00:00Z
 tags:
   - monthly-notes
-  - notes
 shareLink: "https://indieweb.social/@juanfernandes/113078988968710156"
 ---
-
-<p class="lead">Short update for June as I'm behind on writing these and not much has been happening in my life at the moment - which isn't a bad thing.</p>
+Short update for June as I'm behind on writing these and not much has been happening in my life at the moment - which isn't a bad thing.{.lead}
 
 ## Projects
 - Re-worked my [work](/work/ "Work") section quite a bit and added new work projects

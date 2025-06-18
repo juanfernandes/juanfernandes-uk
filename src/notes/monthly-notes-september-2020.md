@@ -1,21 +1,19 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "/v1579162295/trianglify.png"
-title: 'Monthly Notes: September 2020'
-description: September flew by. Not much to report as it was a quiet month on the
+title: "Monthly Notes: September 2020"
+description: "September flew by. Not much to report as it was a quiet month on the
   work and personal fronts. Launched a new client website and a got personal achievement
-  too.
+  too."
 keywords:
-- front-end developer contractor
-- project proposal
-- couch to 5k
-date: 2020-10-05T00:00:00+01:00
+  - front-end developer contractor
+  - project proposal
+  - couch to 5k
+date: 2020-10-05T00:00:00Z
 tags:
-- notes
-- monthly-notes
+  - monthly-notes
 ---
-September flew by. Not much to report as it was a quiet month on the work and personal fronts. Launched a new client website and a got personal achievement too.
+September flew by. Not much to report as it was a quiet month on the work and personal fronts. Launched a new client website and a got personal achievement too.{.lead}
 
 ## Work
 - Still no luck on the job front, I'm now considering going back to permanent work

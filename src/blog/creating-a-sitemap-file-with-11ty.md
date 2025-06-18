@@ -1,26 +1,24 @@
 ---
-layout: 'post'
-title: 'Creating a Sitemap file with Eleventy'
-description: 'This is a quick tip showing how I created a sitemap.xml file using Eleventy that will automatically update itself when you create new pages'
+layout: "post"
+title: "Creating a Sitemap file with Eleventy"
+description: "This is a quick tip showing how I created a sitemap.xml file using Eleventy that will automatically update itself when you create new pages"
 keywords:
-- sitemap
-- sitemap xml
-- seo
-- eleventy
-- 11ty
-customPostImg: 'intro--code-img'
-postImage: 'v1579162296/computer-18363301920-1.jpg'
-date: 2020-10-23T00:00:00+01:00
+  - sitemap
+  - sitemap xml
+  - seo
+  - eleventy
+  - 11ty
+customPostImg: "intro--code-img"
+postImage: "v1579162296/computer-18363301920-1.jpg"
+date: 2020-10-23T00:00:00Z
 tags:
-- eleventy
-- seo
-- ssg
+  - eleventy
+  - seo
+  - ssg
 ---
-
-This is a quick tip showing how I created a ```sitemap.xml``` file using [Eleventy](https://www.11ty.dev "Eleventy - the simpler static site generator") that will automatically update itself when you create new pages.
+This is a quick tip showing how I created a ```sitemap.xml``` file using [Eleventy](https://www.11ty.dev "Eleventy - the simpler static site generator") that will automatically update itself when you create new pages.{.lead}
 
 You need a sitemap to make it easier for search engines to index your website - but you can also inform them about how often pages are updated, when they were last updated and the priority level for each page.
-
 
 ## What is a sitemap.xml file?
 

@@ -1,12 +1,11 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Monthly Notes #1: October'
-description:
-  I struggled to keep up with writing weekly notes since I cut my days at the
+title: "Monthly Notes #1: October"
+description: "I struggled to keep up with writing weekly notes since I cut my days at the
   office down to just three and they felt like they were the same thing every
   week and I didn't have much to write every week - so I am not trying a monthly
-  note. We'll see how I get on with this schedule.
+  note. We'll see how I get on with this schedule."
 keywords:
   - month notes
   - october
@@ -24,13 +23,11 @@ keywords:
   - aj bell
   - youinvest
   - pensions
-postImage: /v1579162295/og.jpg
-date: 2019-11-02T19:53:06.448Z
+date: 2019-11-02T19:53:06Z
 tags:
-  - notes
   - monthly-notes
 ---
-I struggled to keep up with writing weekly notes since I cut my days at the office down to just three, this meant I had less time to write and they also started to feel a bit repetitive every week and I didn't have much to write - so I am now trying monthly notes. We'll see how I get on with this schedule.
+I struggled to keep up with writing weekly notes since I cut my days at the office down to just three, this meant I had less time to write and they also started to feel a bit repetitive every week and I didn't have much to write - so I am now trying monthly notes. We'll see how I get on with this schedule.{.lead}
 
 
 ## Work

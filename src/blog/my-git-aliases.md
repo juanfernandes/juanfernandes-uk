@@ -1,25 +1,23 @@
 ---
-layout: layouts/post.njk
-title: My Git Aliases
-description: Quick post to share my Git aliases. I love seeing other developers' aliases
+layout: "post"
+title: "My Git Aliases"
+description: "Quick post to share my Git aliases. I love seeing other developers' aliases
   - a lot of mine have been copied from others. So I thought I'd share mine - in the
-  hopes someone will find it useful.
+  hopes someone will find it useful."
 keywords:
-- git
-- alias
-- aliases
-- developer
-- development
-- bash
-- fish
-- bashrc
-postImage: "/v1579162296/trianglify.png"
-date: 2019-01-31T16:05:36.740+00:00
+    - git
+    - alias
+    - aliases
+    - developer
+    - development
+    - bash
+    - fish
+    - bashrc
+date: 2019-01-31T16:05:36Z
 tags:
-- development
-
+    - development
 ---
-I use Git via the command line and have always used it that way ever since it was introduced at a company I worked at a few years ago.
+I use Git via the command line and have always used it that way ever since it was introduced at a company I worked at a few years ago.{.lead}
 
 But soon after using it Git for a few days, I started disliking the repetitiveness of the commands - so I did some googling and found that I could create shortcuts (aliases) in Bash.
 

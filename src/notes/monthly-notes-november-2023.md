@@ -1,8 +1,7 @@
 ---
-layout: 'post'
+layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: November 2023'
+title: "Monthly Notes: November 2023"
 description: "Lots of personal stuff happened this month and this meant I've not had any time to work on any side projects and nothing worth mentioning has happened at work, so it's a short monthly note."
 keywords:
   - listening
@@ -13,10 +12,8 @@ keywords:
 date: 2024-02-07T00:00:00Z
 tags:
   - monthly-notes
-  - notes
-shareLink: ""
 ---
-<p class="lead">Lots of personal stuff happened this month and this meant I've not had any time to work on any side projects and nothing worth mentioning has happened at work, so it's a short monthly note.</p>
+Lots of personal stuff happened this month and this meant I've not had any time to work on any side projects and nothing worth mentioning has happened at work, so it's a short monthly note.{.lead}
 
 ## Personal
 - I've been wanting to get a pick-up truck for a long time now, and since I live in the countryside which floods a lot, plus we get snow drifts - it makes sense to own one, and I finally got a Ford Ranger Limited. I traded the family car - a Ford Edge - which was chosen by the ex-wife, so I didn't want it in my life any more.

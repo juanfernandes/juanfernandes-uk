@@ -1,8 +1,7 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: July 2022'
+title: "Monthly Notes: July 2022"
 description: "July was a bit of a slow month work-wise, both freelance and permanent - although I'm not actively looking for new freelance work"
 keywords:
   - listening
@@ -17,9 +16,7 @@ keywords:
 date: 2022-09-06T00:00:00Z
 tags:
   - monthly-notes
-  - notes
 tweetId: '1546052879412240384'
-
 ---
 Yes this is very late. Sorry. July was a bit of a slow month work-wise, both freelance and permanent - although I'm not actively looking for new freelance work.
 

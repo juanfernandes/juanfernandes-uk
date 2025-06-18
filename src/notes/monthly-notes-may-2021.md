@@ -1,25 +1,22 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: May 2021'
-description: Another short notes post for this month. Been busy at my new permanent
+title: "Monthly Notes: May 2021"
+description: "Another short notes post for this month. Been busy at my new permanent
   job at intelliflo - learning the ropes and how to be a permanent employee again.
   Plus freelance work. I've had my google free phone now for over a month and I finally
-  got round to adding some new features to my website.
+  got round to adding some new features to my website."
 keywords:
-- serviceworker
-- webmentions
-- freelance
-- personal notes
-- notes
-- monthly notes
+  - serviceworker
+  - webmentions
+  - freelance
+  - personal notes
+  - notes
+  - monthly notes
 date: 2021-06-09T23:00:00Z
 tags:
-- notes
 - monthly-notes
 tweetId: "1402900693565022212"
-
 ---
 Another short notes post for this month. Been busy at my new permanent job at intelliflo - learning the ropes and how to be a permanent employee again. Plus freelance work. I've had my google free phone now for over a month and I finally got round to adding some new features to my website.
 

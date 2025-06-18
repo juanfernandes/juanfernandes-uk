@@ -1,21 +1,20 @@
 ---
-layout: layouts/post.njk
-title: Using Defer to improve performance
-description: Using Defer to improve the performance of my website by only loading
-  JavaScript and CSS on a per component/partial basis.
+layout: "post"
+title: "Using Defer to improve performance"
+description: "Using Defer to improve the performance of my website by only loading
+  JavaScript and CSS on a per component/partial basis."
 keywords:
-- javascript
-- vanilla javascript
-- defer javascript
-customPostImg: 'intro--code-img'
-postImage: 'v1579162296/computer-18363301920-1.jpg'
-date: 2020-08-04T00:00:00+01:00
+  - javascript
+  - vanilla javascript
+  - defer javascript
+customPostImg: "intro--code-img"
+postImage: "v1579162296/computer-18363301920-1.jpg"
+date: 2020-08-04T00:00:00Z
 tags:
-- development
-- javascript
-
+  - development
+  - javascript
 ---
-In my last post, [Exploring the benefits of HTTP2](https://www.juanfernandes.uk/blog/exploring-the-benefits-of-http-2/ "Exploring the benefits of HTTP2"), I wrote about removing jQuery and my `global.min.js` files in favour of loading JavaScript on a per component or partial basis, so only when that component is included on a page it then loads the needed JavaScript code and library.
+In my last post, [Exploring the benefits of HTTP2](https://www.juanfernandes.uk/blog/exploring-the-benefits-of-http-2/ "Exploring the benefits of HTTP2"), I wrote about removing jQuery and my `global.min.js` files in favour of loading JavaScript on a per component or partial basis, so only when that component is included on a page it then loads the needed JavaScript code and library.{.lead}
 
 Which lead me to look into Defer in JavaScript as another way to improve performance.
 

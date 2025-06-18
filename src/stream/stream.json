@@ -7,5 +7,8 @@
     "heading": "Stream",
     "subheading": "Social media posts about web design, development and personal stuff"
   },
-  "bodyClass": "blog"
+  "bodyClass": "blog",
+  "introClass": "intro--sml",
+  "tags": ["stream", "notes", "search"],
+  "postImage": "v1579162295/trianglify.png"
 }

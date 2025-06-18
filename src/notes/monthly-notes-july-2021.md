@@ -1,29 +1,26 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: July 2021'
-description: July was a bit of a mixed bag of events and feelings, including having
-  my second covid jab, celebrating our 18th wedding anniversary and more...
+title: "Monthly Notes: July 2021"
+description: "July was a bit of a mixed bag of events and feelings, including having
+  my second covid jab, celebrating our 18th wedding anniversary and more..."
 keywords:
-- trezor
-- crypto
-- NFT art
-- NFT
-- listening
-- watching
-- sides
-- personal
-- freelance
-- work
-date: 2021-08-04T23:00:00.000+00:00
+  - trezor
+  - crypto
+  - NFT art
+  - NFT
+  - listening
+  - watching
+  - sides
+  - personal
+  - freelance
+  - work
+date: 2021-08-04T23:00:00Z
 tags:
-- monthly-notes
-- notes
+  - monthly-notes
 tweetId: "1423228658941050880"
-
 ---
-July was a bit of a mixed bag of events and feelings, including having my second covid jab, celebrating our 18th wedding anniversary and also our first restaurant visit in nearly two years.
+July was a bit of a mixed bag of events and feelings, including having my second covid jab, celebrating our 18th wedding anniversary and also our first restaurant visit in nearly two years.{.lead}
 
 ## Work
 

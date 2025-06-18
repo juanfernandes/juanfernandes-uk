@@ -1,23 +1,22 @@
 ---
-layout: layouts/post.njk
-title: '2017: Year in review'
-description: My 2017 year in review post - what went well, what didn't go so well.
-  I look into work, health, personal and look ahead for 2018.
+layout: "post"
+title: "2017: Year in review"
+description: "My 2017 year in review post - what went well, what didn't go so well.
+  I look into work, health, personal and look ahead for 2018."
 keywords:
-- year in review
-- '2017'
-- twenty seventeen
-- work
-- contracts
-- health
+  - year in review
+  - '2017'
+  - twenty seventeen
+  - work
+  - contracts
+  - health
 postImage: "/v1579162296/suffolk-coast-2017.jpg"
-date: 2018-01-09T13:21:53.341+00:00
+date: 2018-01-09T13:21:53Z
 tags:
-- year-in-review
-- personal
-
+  - year-in-review
+  - personal
 ---
-Last year was the first time I wrote a year in review post and I've been looking forward to reviewing twenty-seventeen.
+Last year was the first time I wrote a year in review post and I've been looking forward to reviewing twenty-seventeen.{.lead}
 
 It was a good year for me, work-wise and personally. I got more contract work experience - two contracts and I also landed a freelance client website.
 

@@ -1,8 +1,7 @@
 ---
-layout: 'post'
+layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: June 2023'
+title: "Monthly Notes: June 2023"
 description: "June was a really shit month. I lost my best friend. The relationship between my ex-wife went from amicable to hostile, which forced me to move out."
 keywords:
   - listening
@@ -15,9 +14,8 @@ keywords:
 date: 2023-08-17T00:00:00Z
 tags:
   - monthly-notes
-  - notes
 ---
-<p class="lead">June was a really shit month. I lost my best friend. The relationship between my ex-wife went from amicable to hostile, which forced me to move out.</p>
+June was a really shit month. I lost my best friend. The relationship between my ex-wife went from amicable to hostile, which forced me to move out.{.lead}
 
 ## Personal
 

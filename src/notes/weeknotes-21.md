@@ -1,11 +1,9 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #21'
-description: >-
-  Work on the new header continues for one of the brands and the pressure is on
-  to get it finished within this sprint.  More work on my own website and some
-  tinkering with our new car.
+title: "Weeknotes #21"
+description: "Work on the new header continues for one of the brands and the pressure is on to get it finished within this sprint. More work on my own website and some
+  tinkering with our new car."
 keywords:
   - weeknotes
   - freelance
@@ -15,10 +13,7 @@ keywords:
   - dash cam
   - discord
   - minecraft
-postImage: "/v1579162295/og.jpg"
-date: 2019-07-24T05:00:56.146Z
-tags:
-  - notes
+date: 2019-07-24T05:00:56Z
 ---
 ## Work
 Work on the new header continues for one of the brands and the pressure is on to get it finished within this sprint.

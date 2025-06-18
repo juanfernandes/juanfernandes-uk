@@ -1,22 +1,22 @@
 ---
-layout: page
-title: About
-description: About Juan Fernandes - a Freelance website designer based in Woodbridge
-  Suffolk UK
-keywords: responsive website design, website design for small businesses, affordable
+layout: "page"
+title: "About"
+description: "About Juan Fernandes - a Freelance website designer based in Woodbridge
+  Suffolk UK"
+keywords: "responsive website design, website design for small businesses, affordable
   website design, website design company suffolk uk, website design company woodbridge
   uk, website designer suffolk uk, freelance website designer suffolk uk, responsive
-  web design, design, web design, cms, perch, wordpress, local, suffolk uk
-permalink: "/about/index.html"
-class: about
+  web design, design, web design, cms, perch, wordpress, local, suffolk uk"
+class: "about"
 intro:
-  class: sml
-  heading: About me
-  subheading: Freelance Frontend Developer
+  class: "sml"
+  heading: "About me"
+  subheading: "Freelance Frontend Developer"
   cta:
     url: "/contact/"
-    text: Work with me
-
+    text: "Work with me"
+tags:
+  - search
 ---
 I'm an enthusiastic and experienced website designer who enjoys using HTML, CSS and vanilla JavaScript to develop and implement stylish, responsive and user friendly websites that incorporate the latest technology and trends. I have a keen eye for detail and work closely with customers to achieve their vision.
 

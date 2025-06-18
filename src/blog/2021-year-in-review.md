@@ -1,21 +1,19 @@
 ---
-layout: layouts/post.njk
-postImage: ''
-title: " 2021: Year in review"
-description: 2021 was a year of firsts for the family & I after a few years of covid, including our first restaurant outing & also our first UK break since before covid
+layout: "post"
+title: "2021: Year in review"
+description: "2021 was a year of firsts for the family & I after a few years of covid, including our first restaurant outing & also our first UK break since before covid"
 keywords:
-- covid
-- '2021'
-- year in review
+  - covid
+  - "2021"
+  - year in review
 customPostImg: "--post"
 date: 2022-02-06T00:00:00Z
 tags:
-- personal
-- year-in-review
+  - personal
+  - year-in-review
 tweetId: "1490380329806438402"
-
 ---
-Twenty Twenty One was a year of firsts for the family and I after a few years of covid. Including our first restaurant outing and also our first UK break since before covid started. Apart from that, it was an uneventful year - which is not a bad thing. I hope you had a great year.
+Twenty Twenty One was a year of firsts for the family and I after a few years of covid. Including our first restaurant outing and also our first UK break since before covid started. Apart from that, it was an uneventful year - which is not a bad thing. I hope you had a great year.{.lead}
 
 ## Personal
 

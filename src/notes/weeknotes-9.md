@@ -1,11 +1,10 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #9'
-description: >-
-  This week I was in Manchester for my new contract. I was only there for two
+title: "Weeknotes #9"
+description: "This week I was in Manchester for my new contract. I was only there for two
   days for the project kick off and tech setup. Monday and Tuesday was a blur. I
-  couldn't focus on anything.
+  couldn't focus on anything."
 keywords:
   - freelance
   - web
@@ -17,12 +16,9 @@ keywords:
   - interaction designer
   - ruby on rails
   - front-end
-postImage: "/v1579162295/og.jpg"
-date: 2019-04-07T14:57:04.628Z
-tags:
-  - notes
+date: 2019-04-07T14:57:04Z
 ---
-This week I was in Manchester for my new contract. I was only there for two days for the project kick off and tech setup.
+This week I was in Manchester for my new contract. I was only there for two days for the project kick off and tech setup.{.lead}
 
 Monday and Tuesday was a blur. I couldn't focus on anything. I did some of my freelance work. Friday was pretty much spent on the train coming back from Manchester.
 

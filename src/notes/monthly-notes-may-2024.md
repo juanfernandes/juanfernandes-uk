@@ -1,7 +1,6 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "v1579162295/trianglify.png"
 title: "Monthly Notes: May 2024"
 description: "Pretty uneventful month which is never a bad thing. Spent some time adding more content to my website and did quite a bit of dev work on it too. Went into the work office and also went to the UEFA Women's Cup Final"
 keywords:
@@ -13,10 +12,9 @@ keywords:
 date: 2024-07-17T10:00:00Z
 tags:
   - monthly-notes
-  - notes
 shareLink: "https://indieweb.social/@juanfernandes/112801336788018393"
 ---
-<p class="lead">Pretty uneventful month, which is never a bad thing. Spent some time adding more content to my website and did quite a bit of dev work on it too. Went into the work office and also went to the UEFA Women's Cup Final.</p>
+Pretty uneventful month, which is never a bad thing. Spent some time adding more content to my website and did quite a bit of dev work on it too. Went into the work office and also went to the UEFA Women's Cup Final.{.lead}
 
 ## Work
 - Popped into the intelliflo office in Wimbledon for a day of UX team meetings

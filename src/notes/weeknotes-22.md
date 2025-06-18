@@ -1,11 +1,10 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-title: 'Weeknotes #22'
-description: >-
-  This weeknotes has been in my drafts for a few weeks now. It only takes
+title: "Weeknotes #22"
+description: "This weeknotes has been in my drafts for a few weeks now. It only takes
   getting busy at work, for writing weeknotes to fall off the radar. I need to
-  find a way of fitting this into my routine.
+  find a way of fitting this into my routine."
 keywords:
   - static site generator
   - 11ty
@@ -16,12 +15,9 @@ keywords:
   - php
   - perch cms
   - site rebuild
-postImage: "/v1579162295/og.jpg"
-date: 2019-08-29T06:12:57.905Z
-tags:
-  - notes
+date: 2019-08-29T06:12:57Z
 ---
-This weeknotes has been in my drafts for a few weeks now. It only takes getting busy at work, for writing weeknotes to fall off the radar. I need to find a way of fitting this into my routine.
+This weeknotes has been in my drafts for a few weeks now. It only takes getting busy at work, for writing weeknotes to fall off the radar. I need to find a way of fitting this into my routine.{.lead}
 
 ## Updates
 

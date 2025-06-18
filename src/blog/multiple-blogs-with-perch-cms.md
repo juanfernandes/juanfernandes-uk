@@ -1,9 +1,8 @@
 ---
-layout: layouts/post.njk
-title: Multiple blogs with Perch CMS
-description: >-
-  Short post to show how you can create multiple blogs using the Perch CMS and
-  the blog app using sections.
+layout: "post"
+title: "Multiple blogs with Perch CMS"
+description: "Short post to show how you can create multiple blogs using the Perch CMS and
+    the blog app using sections."
 keywords:
   - perch
   - cms
@@ -12,13 +11,13 @@ keywords:
   - blog app
   - multiple blogs with perch
   - multiple blogs
-customPostImg: 'intro--code-img'
-postImage: 'v1579162296/computer-18363301920-1.jpg'
-date: 2019-03-13T13:00:08.995Z
+customPostImg: "intro--code-img"
+postImage: "v1579162296/computer-18363301920-1.jpg"
+date: 2019-03-13T13:00:08Z
 tags:
   - development
 ---
-An existing client asked me to move their blog from /self-help/blog/ to the root of the website - but they wanted to keep the self-help blog, as well as having a blog for general posts and a blog for media related articles, ie press releases etc.
+An existing client asked me to move their blog from /self-help/blog/ to the root of the website - but they wanted to keep the self-help blog, as well as having a blog for general posts and a blog for media related articles, ie press releases etc.{.lead}
 
 I wondered if the perch blog app had a built-in way of doing this - it does but not in the way I thought it would. It does have `perch_blog_section()` which allows you to output a blog section onto a page.
 

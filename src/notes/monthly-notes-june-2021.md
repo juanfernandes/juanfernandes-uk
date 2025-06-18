@@ -1,22 +1,19 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: June 2021'
-description: Not much to note for the month of June. Been busy with my permanent job
-  and working to get the new Surbiton Tyre  and Wheel website finished.
+title: "Monthly Notes: June 2021"
+description: "Not much to note for the month of June. Been busy with my permanent job
+  and working to get the new Surbiton Tyre  and Wheel website finished."
 keywords:
-- intelliflo
-- skateboarding
-- first covid jab
-- freelance
-- frontend UI developer
+  - intelliflo
+  - skateboarding
+  - first covid jab
+  - freelance
+  - frontend UI developer
 date: 2021-07-02T23:00:00Z
 tags:
-- monthly-notes
-- notes
+  - monthly-notes
 tweetId: "1411294679174369284"
-
 ---
 Not much to note for the month of June. Been busy with my permanent job and working to get the new Surbiton Tyre  and Wheel website finished.
 

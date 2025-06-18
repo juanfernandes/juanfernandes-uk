@@ -1,26 +1,22 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: "/v1579162295/og.jpg"
-title: 'April & May 2020: Monthly Notes'
-description: I've now been in lockdown for about sixty days and I'm struggling with
+title: "April & May 2020: Monthly Notes"
+description: "I've now been in lockdown for about sixty days and I'm struggling with
   lack of routine and schedule. As much as I try to stick to a schedule, it's hard,
   with everyone at home all the time - their routines and schedules get in the way
-  of mine.
+  of mine."
 keywords:
-- "#onefixaday"
-- DIY
-- personal
-- notes
-- monthly notes
-- frontend developer
-- contract
-date: 2020-06-03T00:00:00+01:00
-tags:
-- notes
-
+  - "#onefixaday"
+  - DIY
+  - personal
+  - notes
+  - monthly notes
+  - frontend developer
+  - contract
+date: 2020-06-03T00:00:00Z
 ---
-I've now been in lockdown for about sixty days and I'm struggling with lack of routine and schedule. As much as I try to stick to a schedule, it's hard, with everyone at home all the time - their routines and schedules get in the way of mine. Having to also be the head chef and head dishwasher, cooking for six people every evening, has taken its toll. But we are ok, we are all well and staying home, apart from my wife who does our weekly shop as well as having to go to work at school every 4th week.
+I've now been in lockdown for about sixty days and I'm struggling with lack of routine and schedule. As much as I try to stick to a schedule, it's hard, with everyone at home all the time - their routines and schedules get in the way of mine. Having to also be the head chef and head dishwasher, cooking for six people every evening, has taken its toll. But we are ok, we are all well and staying home, apart from my wife who does our weekly shop as well as having to go to work at school every 4th week.{.lead}
 
 ## Work
 

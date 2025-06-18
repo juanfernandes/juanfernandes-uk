@@ -1,27 +1,26 @@
 ---
-layout: layouts/post.njk
-title: Adding SVG icons to a sprite with Perch CMS
-description: Allow a Perch CMS user to add SVG icons to an SVG sprite and use them
+layout: "post"
+title: "Adding SVG icons to a sprite with Perch CMS"
+description: "Allow a Perch CMS user to add SVG icons to an SVG sprite and use them
   through out the website. Usually, SVG sprites are created by a developer/designer
   when building a website and then never revisited unless the site has a redesign.
   The creation of a sprite is likely to be an automated process using a task runner
-  like Grunt or Gulp JS.
+  like Grunt or Gulp JS."
 keywords:
-- svg
-- icons
-- sprite
-- perch
-- cms
-- front-end
-- development
-customPostImg: intro--code-img
-postImage: v1579162296/computer-18363301920-1.jpg
-date: 2016-12-09T09:00:17.495+00:00
+  - svg
+  - icons
+  - sprite
+  - perch
+  - cms
+  - front-end
+  - development
+customPostImg: "intro--code-img"
+postImage: "v1579162296/computer-18363301920-1.jpg"
+date: 2016-12-09T09:00:17Z
 tags:
 - development
-
 ---
-I wanted to be able to allow a CMS user to add an SVG icon to a sites' SVG Sprite.
+I wanted to be able to allow a CMS user to add an SVG icon to a sites' SVG Sprite.{.lead}
 
 An SVG sprite is the new way of doing image sprites, like the old way of doing CSS image sprites - where you would put all your icons on one image files then use CSS to position that image to show the icon you needed, this is essentially the same thing, but instead it's a list of SVG icons that can be used throughout a site.
 

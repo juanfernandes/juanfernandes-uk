@@ -1,24 +1,20 @@
 ---
 layout: "post"
 eleventyExcludeFromCollections: true
-postImage: v1579162295/trianglify.png
-title: 'Monthly Notes: February 2022'
-description: Very short update for this month. Mostly personal updates, a lot of articles read and some freelance work
+title: "Monthly Notes: February 2022"
+description: "Very short update for this month. Mostly personal updates, a lot of articles read and some freelance work"
 keywords:
-- listening
-- watching
-- personal
-- freelance
-- work
+  - listening
+  - watching
+  - personal
+  - freelance
+  - work
 date: 2022-04-12T00:00:00Z
 tags:
-- monthly-notes
-- notes
+  - monthly-notes
 tweetId: "1514222066970599426"
-
 ---
-
-Very short update for this month. Mostly personal updates, a lot of articles read and some freelance work. (Took me a while to get this posted.)
+Very short update for this month. Mostly personal updates, a lot of articles read and some freelance work. (Took me a while to get this posted.){.lead}
 
 ## Freelance
 - Continued work on the redesign and rebuild of the [Arrival Lift Services](https://www.arrival-lifts.co.uk "Arrival Lift Services") website
