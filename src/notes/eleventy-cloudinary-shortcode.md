@@ -21,5 +21,3 @@ I made a thing. I've created a shortcode for [@eleventy](https://fosstodon.org/@
 With a bit of help from [@FrankTldr](https://mobile.twitter.com/FrankTldr "Frank Taillandier") at Forestry in identifying the solution, I set off and created it.
 
 [https://github.com/juanfernandes/eleventy-plugin-cloudinary](https://github.com/juanfernandes/eleventy-plugin-cloudinary "Eleventy Cloudinary Shortcode")
-
-    {% cloudinaryImage "imagename.jpg", "q_auto,f_auto", "alt text" %}

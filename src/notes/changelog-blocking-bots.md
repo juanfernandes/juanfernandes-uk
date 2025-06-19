@@ -23,35 +23,36 @@ I don't care about being 'found' on search engines these days, as I don't need i
 
 Here's my robots.txt file:
 
-    # www.robotstxt.org
+```
+# www.robotstxt.org
 
-    User-agent: GPTBot
-    Disallow: /
+User-agent: GPTBot
+Disallow: /
 
-    User-agent: ChatGPT-User
-    Disallow: /
+User-agent: ChatGPT-User
+Disallow: /
 
-    User-agent: googlebot
-    Disallow: /
+User-agent: googlebot
+Disallow: /
 
-    User-agent: Google-Extended
-    Disallow: /
+User-agent: Google-Extended
+Disallow: /
 
-    User-agent: yandex
-    Disallow: /
+User-agent: yandex
+Disallow: /
 
-    User-agent: redditbot
-    Disallow: /
+User-agent: redditbot
+Disallow: /
 
-    User-agent: bingbot
-    Disallow: /
+User-agent: bingbot
+Disallow: /
 
-    User-agent: CCBot
-    Disallow: /
+User-agent: CCBot
+Disallow: /
 
-    User-agent: Omgilibot
-    Disallow: /
-
+User-agent: Omgilibot
+Disallow: /
+```
 
 ### Sources
 - [Permission - Jeremy Keith](https://adactio.com/journal/20315 "Permission - Jeremy Keith")
