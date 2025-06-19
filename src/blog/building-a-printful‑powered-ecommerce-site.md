@@ -10,7 +10,6 @@ keywords:
   - ecommerce
   - SSG
   - static
-customPostImg: "--post"
 date: 2025-06-13T19:00:00Z
 tags:
   - eleventy
@@ -22,8 +21,6 @@ tweetId: "1934259977503355104"
 shareLink: "https://indieweb.social/@juanfernandes/114687901032102661"
 ---
 As someone who loves clean, static-generated sites, I recently decided to challenge myself: could I build a small online merch store using [Eleventy (11ty)](https://www.11ty.dev/), Printful’s API, and Stripe—while keeping the setup simple and JavaScript‑free in the templates? Turns out… yes, and it's been pretty fun! 🎉{.lead}
-
----
 
 ## 🧱 1. Fetching products from Printful
 
@@ -40,8 +37,6 @@ My site’s product data lives fully in `src/_data/products.js`. Here's the proc
 This makes the page templates super easy—they just loop over `products` or filter them by `product.category`.
 
 I made sure the category names are consistent—`t-shirts`, `hoodies`, `stickers`, and a new one, `hats`. If the product name contains the word **Hat**, it'll now correctly be picked up as `"hats"`, not mis‑grouped in "Other".
-
----
 
 ## 📂 2. Generating category and product pages with Eleventy
 
@@ -109,8 +104,6 @@ permalink: "/products/{{ category | slugify }}/index.html"
 
 Here, `categoriesFlat.js` under `_data/` returns a list of unique category slugs. Eleventy then auto-generates a directory for each one—now including `hats`.
 
----
-
 ## 🛒 3. Cart, variant selection, checkout with Stripe
 
 On each product page, a `select` lets you choose the variant (size, colour). I added JavaScript to swap the preview image and update the price using `Intl.NumberFormat`:
@@ -126,8 +119,6 @@ priceEl.textContent = formatter.format(variant.price);
 
 Finally, hitting **Checkout** sends the cart contents to a Vercel function (`/api/checkout.js`), which builds a Stripe Checkout session and returns a URL for redirection.
 
----
-
 ## 🧠 Lessons & Takeaways
 
 * **Eleventy + Printful = a flexible JAMstack store** — no server, no CMS, just simple JS and APIs.
@@ -135,14 +126,11 @@ Finally, hitting **Checkout** sends the cart contents to a Vercel function (`/ap
 * **Pagination:** Eleventy makes it easy to generate multiple category pages with minimal code.
 * **UX polish:** Small touches like clean titles (`productName – siteTitle`) and formatted currency add a layer of professionalism.
 
----
-
 ## Next Steps
 
 * Add product descriptions with a Markdown file fallback.
 * Show variant options dynamically on listings (e.g. “Available in XS–XL”).
 * Add size guides or shipping info with data‑driven modals.
 * Clean up code and publish on a public repo.
----
 
 If you’re interested in helping me test, extend it, or make it even more dynamic—just drop me a line.
