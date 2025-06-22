@@ -4,7 +4,7 @@
         <section class="testimonials testimonials--page">
           <div class="content">
             {% for item in testimonials %}
-            <div class="testimonial">
+            <div class="testimonial"{% if item.id %} id="{{ item.id  }}"{% endif %}>
               <div class="testimonial__quote">
                 <blockquote>
                   <p>{{ item.quote | safe }}</p>
