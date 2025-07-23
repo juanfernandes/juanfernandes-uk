@@ -14,7 +14,7 @@ tags:
 ## Personal
 * Been doing lots of work on the garden. Have been building a side gate from scratch using wood I've got laying around. Nearly done now, just need to finish the frame and the get some strong hinges to hang the gate.
 
-## Projexts
+## Projects
 I've been building a Printful‑powered e‑commerce site with 11ty and Stripe integration, and I've just [written a blog post](/blog/building-a-printful‑powered-ecommerce-site/) about what I have done so far. 
 
 ## Watching
