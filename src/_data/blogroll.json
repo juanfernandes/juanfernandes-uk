@@ -182,8 +182,7 @@
   {
     "name": "Jeremy Wagner",
     "url": "https://jeremy.codes",
-    "feed": "https://jeremy.codes/rss.xml",
-    "icon": "https://jlwagner.net/img/icons/apple-touch-icon-57x57.png"
+    "feed": "https://jeremy.codes/rss.xml"
   },
   {
     "name": "Jérôme Coupé",
@@ -267,7 +266,7 @@
     "name": "Nic Chan",
     "url": "https://www.nicchan.me/",
     "feed": "https://www.nicchan.me/feed.xml",
-    "icon": "https://www.nicchan.me/static/favicon.png"
+    "icon": "https://www.nicchan.me/favicon.svg"
   },
   {
     "name": "Remy Sharp",
@@ -333,13 +332,13 @@
     "name": "Set Studio",
     "url": "https://set.studio/",
     "feed": "https://set.studio/feed.xml",
-    "icon": "https://set.studio/wp-content/themes/set-studio-v1/images/favicons/apple-touch-icon.png"
+    "icon": "https://set.studio/favicons/favicon-96x96.png"
   },
   {
     "name": "Simone Silvestroni",
     "url": "https://minutestomidnight.co.uk/",
     "feed": "https://minutestomidnight.co.uk/feed.xml",
-    "icon": "https://minutestomidnight.co.uk/assets/images/favicons/favicon.svg"
+    "icon": "https://minutestomidnight.co.uk/favicon.ico"
   },
   {
     "name": "Sophie Koonin",

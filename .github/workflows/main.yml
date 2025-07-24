@@ -29,11 +29,15 @@ jobs:
           restore-keys: |
             11ty-${{ runner.os }}
             ${{ runner.os }}-11ty
-            
+    
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run the script to append new links to JSON
+        run: node scripts/appendToJSON.js
+
       - name: Build website
-        run: |
-          npm install
-          npm run build
+        run: npm run build
 
       - name: Deploy website to server
         uses: easingthemes/ssh-deploy@v5.0.3

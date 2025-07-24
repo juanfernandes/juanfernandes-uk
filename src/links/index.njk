@@ -24,21 +24,19 @@ tags:
     <div class="row">
       <div class="twelve cols">
         <p class="lead">This is a curated list of articles I've read and have shared online as I believe they are worth sharing. I aim to update this list on a weekly basis. You can keep up to date with all the links I share by revisiting this page, or alternately, you can subscribe to the RSS feed for links.</p>
-        <p class="dt-published">Updated on: <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time></p>
-
+        
         <hr>
 
-        {%- for link in pagination.items %}
+        {%- for item in pagination.items %}
         <div class="link">
           <div class="link__details">
-            <h3><a href="{{ link.url }}">{{ link.title }}</a></h3>
-            {% if link.excerpt %}<p>{{ link.excerpt }}</p>{% endif %}
+            <h3><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h3>
+            {% if item.content %}<p>{{ item.content }}</p>{% endif %}
+            {% if item.date %}
             <div class="link__meta">
-              {% if link.author %}<span>Author: <a href="{{ link.author.url }}" class="link__author u-inline-block">{{ link.author.name }}</a></span>{% endif %}
-              {% if link.date %}
-              <span class="link__date">Read on: {{ link.date | dateFilter }}</span>
-              {% endif %}
+              <span class="link__date">Read on: {{ item.date | dateFilter }}</span>
             </div>
+            {% endif %}
           </div>
         </div>
         {% endfor -%}
@@ -97,7 +95,7 @@ tags:
 
         <hr>
 
-        {% include 'components/featured-authors.njk' %}
+        <a href="/blogroll/">Authors I follow</a>
       </div>
 
     </div>
