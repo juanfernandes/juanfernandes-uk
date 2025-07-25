@@ -34,7 +34,7 @@ jobs:
         run: npm install
 
       - name: Run the script to append new links to JSON
-        run: node scripts/appendToJSON.js
+        run: node src/_data/appendToJSON.js
 
       - name: Build website
         run: npm run build
