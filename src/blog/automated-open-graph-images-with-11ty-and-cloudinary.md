@@ -14,7 +14,7 @@ keywords:
   - eleventy
   - 11ty
 customPostImg: "intro--code-img"
-postImage: "v1579162296/computer-18363301920-1.jpg"
+postImage: "/v1579162296/computer-18363301920-1.jpg"
 date: 2020-09-23T00:00:00Z
 tags:
   - opengraph
