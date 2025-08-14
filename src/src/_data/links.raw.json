@@ -36,6 +36,12 @@
     "date": "2025-07-29T10:01:38.000Z"
   },
   {
+    "title": "We migrated our site to Eleventy and increased performance by 24% | Etch Software Studio",
+    "url": "https://etch.co/blog/we-migrated-our-site-to-eleventy-and-increased-performance-by-24-percent",
+    "content": "How choosing the right tool for the job led to faster load times and fewer dependencies.\nOur little content site etch.co was built with Next.js until we…",
+    "date": "2025-07-28T23:27:14.000Z"
+  },
+  {
     "title": "Building my new website: A modern approach to font fallbacks with font property adjustments - Nic Chan",
     "url": "https://www.nicchan.me/blog/building-my-new-website-part-6-font-fallbacks/",
     "content": "This is a post in a series about building my new website, check out the previous post in this series. A note from the present day Hi, it’s present-day Nic here.…",
@@ -46,12 +52,6 @@
     "url": "https://joeldare.com/why-im-writing-pure-html-and-css-in-2025",
     "content": "Imagine a web page that loads instantly, deploys effortlessly, and never needs a security update. I’m using pure HTML and CSS to accomplish all that and to…",
     "date": "2025-07-28T18:34:24.000Z"
-  },
-  {
-    "title": "We migrated our site to Eleventy and increased performance by 24% | Etch Software Studio",
-    "url": "https://etch.co/blog/we-migrated-our-site-to-eleventy-and-increased-performance-by-24-percent",
-    "content": "How choosing the right tool for the job led to faster load times and fewer dependencies.\nOur little content site etch.co was built with Next.js until we…",
-    "date": "2025-07-28T23:27:14.000Z"
   },
   {
     "title": "Getting the index in a for...of loop",

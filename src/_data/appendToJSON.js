@@ -1,61 +1,108 @@
-const axios = require('axios')
-const RSSParser = require('rss-parser')
-const fs = require('fs')
-const path = require('path')
+/* Append Instapaper "liked" items into src/_data/links.raw.json
+   - Normalises date -> ISO 8601
+   - De-dupes by URL
+   - Keeps newest -> oldest
+*/
+const fs = require("fs");
+const path = require("path");
+const axios = require("axios");
+const RSSParser = require("rss-parser");
 
-// URL of your Instapaper RSS feed
-const rssUrl = 'https://www.instapaper.com/starred/rss/644253/FzH81iaEJdLENYr6qVBpZx9Go'
-// Path to your JSON file
-const jsonFilePath = path.join(__dirname, 'links.json') // Adjust the path if necessary
+// 1) Config
+const RSS_URL =
+  process.env.INSTAPAPER_RSS_URL ||
+  "https://www.instapaper.com/starred/rss/644253/FzH81iaEJdLENYr6qVBpZx9Go"; // <-- your feed or set ENV
+const RAW_JSON_PATH = path.join(__dirname, "..", "src", "_data", "links.raw.json");
 
-// Function to fetch and parse the RSS feed
-async function fetchRSS () {
-  const parser = new RSSParser()
+// 2) Helpers
+function toIso(val) {
+  if (!val) return new Date().toISOString();
+  const s = String(val).trim();
+  let t = Date.parse(s);
+  if (!Number.isNaN(t)) return new Date(t).toISOString();
+
+  // Handle YYYY-MM-DD explicitly (treat as UTC midnight)
+  const m = s.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (m) return new Date(`${m[1]}-${m[2]}-${m[3]}T00:00:00Z`).toISOString();
+
+  // Fallback: now
+  return new Date().toISOString();
+}
+
+function toTimestamp(iso) {
+  const t = Date.parse(iso);
+  return Number.isNaN(t) ? Number.NEGATIVE_INFINITY : t;
+}
+
+function readJsonSafe(p) {
   try {
-    const response = await axios.get(rssUrl)
-    const feed = await parser.parseString(response.data)
-    return feed.items
-  } catch (error) {
-    console.error('Error fetching RSS feed:', error)
-    return []
+    if (!fs.existsSync(p)) return [];
+    const raw = fs.readFileSync(p, "utf8");
+    const json = JSON.parse(raw);
+    return Array.isArray(json) ? json : [];
+  } catch {
+    return [];
   }
 }
 
-// Function to append new links to the JSON file
-async function appendLinksToJSON () {
-  const newArticles = await fetchRSS()
-  if (!newArticles.length) {
-    console.log('No new articles found.')
-    return
-  }
-
-  // Read the existing JSON file (or initialize an empty array if it doesn't exist)
-  const existingLinks = fs.existsSync(jsonFilePath)
-    ? JSON.parse(fs.readFileSync(jsonFilePath, 'utf8'))
-    : []
-
-  // Filter out articles that are already in the existing JSON (based on the URL)
-  const newLinks = newArticles.filter(item => {
-    return !existingLinks.some(link => link.url === item.link) // Compare by URL
-  })
-
-  if (newLinks.length) {
-    // Extracting relevant information including content and formatted ISO date
-    const updatedLinks = newLinks.map(item => ({
-      title: item.title,
-      url: item.link,
-      content: item['content:encoded'] || item.content || '', // Using content if available
-      date: new Date(item.pubDate).toISOString() // Formatting pubDate as ISO 8601 date
-    }))
-
-    // Append new links to the existing links
-    const allLinks = [...existingLinks, ...updatedLinks]
-    fs.writeFileSync(jsonFilePath, JSON.stringify(allLinks, null, 2), 'utf8')
-    console.log('Links appended successfully')
-  } else {
-    console.log('No new links to append.')
-  }
+function writeJsonPretty(p, data) {
+  fs.mkdirSync(path.dirname(p), { recursive: true });
+  fs.writeFileSync(p, JSON.stringify(data, null, 2), "utf8");
 }
 
-// Run the function to append new links
-appendLinksToJSON()
+// 3) Fetch + parse RSS
+async function fetchInstapaperItems() {
+  const parser = new RSSParser();
+  const res = await axios.get(RSS_URL);
+  const feed = await parser.parseString(res.data);
+
+  // Map to your canonical shape
+  const mapped = (feed.items || []).map((item) => {
+    const url = item.link?.trim();
+    return {
+      title: (item.title || "").trim(),
+      url,
+      // Instapaper often includes HTML snippet in `content` or `content:encoded`
+      content: item["content:encoded"] || item.content || "",
+      date: toIso(item.pubDate || item.isoDate), // normalise to ISO 8601
+    };
+  });
+
+  // Filter out anything without a URL
+  return mapped.filter((x) => !!x.url);
+}
+
+// 4) Merge, de-dupe, sort
+async function run() {
+  const existing = readJsonSafe(RAW_JSON_PATH).map((i) => ({
+    ...i,
+    // normalise legacy dates on read
+    date: toIso(i.date || i.isoDate || i.pubDate || i.readAt || i.createdAt),
+  }));
+
+  const latest = await fetchInstapaperItems();
+
+  // Build a map by URL (newest wins)
+  const byUrl = new Map();
+
+  // Start with existing
+  for (const i of existing) byUrl.set(i.url, i);
+
+  // Overlay latest (so we can pick up any content/date changes)
+  for (const n of latest) byUrl.set(n.url, n);
+
+  // Back to array
+  const merged = Array.from(byUrl.values())
+    // final sort: newest -> oldest
+    .sort((a, b) => toTimestamp(b.date) - toTimestamp(a.date));
+
+  writeJsonPretty(RAW_JSON_PATH, merged);
+  console.log(
+    `✅ links.raw.json updated: ${merged.length} items (top date: ${merged[0]?.date || "n/a"})`
+  );
+}
+
+run().catch((err) => {
+  console.error("❌ appendToJSON failed:", err?.message || err);
+  process.exit(1);
+});
