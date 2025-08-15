@@ -2,7 +2,7 @@ name: "11ty: Build and Deploy"
 
 on:
   schedule:
-    - cron: 0 2/6 * * *
+    - cron: 0 0 * * *
   push:
     branches:
       - main
