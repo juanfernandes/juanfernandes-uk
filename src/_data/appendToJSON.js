@@ -11,8 +11,9 @@ const RSSParser = require("rss-parser");
 // 1) Config
 const RSS_URL =
   process.env.INSTAPAPER_RSS_URL ||
-  "https://www.instapaper.com/starred/rss/644253/FzH81iaEJdLENYr6qVBpZx9Go"; // <-- your feed or set ENV
-const RAW_JSON_PATH = path.join(__dirname, "..", "src", "_data", "links.raw.json");
+  "https://www.instapaper.com/starred/rss/644253/FzH81iaEJdLENYr6qVBpZx9Go";
+const RAW_JSON_PATH = path.join(__dirname, "links.raw.json");
+
 
 // 2) Helpers
 function toIso(val) {
