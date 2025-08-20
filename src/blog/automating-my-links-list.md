@@ -12,6 +12,8 @@ tags:
   - eleventy
   - ssg
   - json
+tweetId: "1958105889900019834"
+shareLink: "https://indieweb.social/@juanfernandes/115060493410357517"
 ---
 How I automated my Instapaper “liked” articles into a clean, sorted JSON feed for my 11ty site — with date normalization, HTML stripping, and deduplication, all running daily via GitHub Actions.{.lead}
 

@@ -12,15 +12,16 @@ $module: 'social-icons';
   a {
     border: none;
     display: block;
+    height: 32px;
+    width: 32px;
   }
 
   .#{$module}__icon {
     display: inline-block;
 
-    svg,
-    use {
-      height: 38px;
-      width: 38px;
+    svg {
+      height: 32px;
+      width: 32px;
       fill: var(--white);
       transition: fill 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
     }
@@ -40,15 +41,10 @@ $module: 'social-icons';
       gap: 1rem;
       justify-content: center;
       margin-top: 2rem;
-
-      @media only screen and (min-width: 40em) {
-        max-height: 48px;
-      }
     }
 
     .#{$module}__icon {
-      svg,
-      use {
+      svg {
         fill: var(--off-black);
         stroke: var(--off-black);
       }
@@ -56,8 +52,8 @@ $module: 'social-icons';
       a {
         &:hover use,
         &:focus use {
-          fill: var(--orange);
-          stroke: var(--orange);
+          fill: var(--off-white);
+          stroke: var(--off-white);
         }
       }
     }
@@ -85,8 +81,7 @@ $module: 'social-icons';
   flex-direction: column;
   align-items: center;
 
-  //460
-  @media only screen and (min-width: 44.500em) { // 712
+  @media only screen and (min-width: 44.500em) {
     flex-direction: row;
     justify-content: space-evenly;
   }
@@ -543,12 +538,12 @@ footer {
     display: block;
     font-size: 1.4rem;
     border-top: 2px solid var(--black);
-    padding-top: 50px;
+    padding-top: 60px;
     text-align: center;
     margin: 0 auto;
 
     p {
-      margin-bottom: 1rem;
+      margin-bottom: .4rem;
     }
     p:last-of-type {
       margin-bottom: 0;
