@@ -1,51 +1,39 @@
+// .eleventy.cjs  (CommonJS, no Promises)
+
 const path = require('node:path')
 const sass = require('sass')
 const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
 
-const markdownItOptions = {
-  html: true,
-  breaks: true,
-  linkify: true
-}
-const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
-
-// Import filters
+// Plugins (CJS)
 const rssPlugin = require('@11ty/eleventy-plugin-rss')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
-const dateFilter = require('./src/_filters/date-filter')
-const w3DateFilter = require('./src/_filters/w3-date-filter')
-const searchIndex = require('./src/_filters/searchIndex.js')
+
+// Local filters (now CJS .cjs files)
+const dateFilter = require('./src/_filters/date-filter.cjs')
+const w3DateFilter = require('./src/_filters/w3-date-filter.cjs')
+const searchIndex = require('./src/_filters/searchIndex.cjs')
+
+const markdownLib = markdownIt({ html: true, breaks: true, linkify: true })
+  .use(markdownItAttrs)
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary('md', markdownLib)
 
+  // SCSS
   eleventyConfig.addExtension('scss', {
     outputFileExtension: 'css',
-
-    // opt-out of Eleventy Layouts
     useLayouts: false,
-
     compile: async function (inputContent, inputPath) {
-      let parsed = path.parse(inputPath)
-      // Don’t compile file names that start with an underscore
-      if (parsed.name.startsWith('_')) {
-        return
-      }
+      const parsed = path.parse(inputPath)
+      if (parsed.name.startsWith('_')) return
 
-      let result = sass.compileString(inputContent, {
-        loadPaths: [
-          parsed.dir || '.',
-          this.config.dir.includes
-        ]
+      const result = sass.compileString(inputContent, {
+        loadPaths: [parsed.dir || '.', this.config.dir.includes]
       })
 
-      // Map dependencies for incremental builds
       this.addDependencies(inputPath, result.loadedUrls)
-
-      return async (data) => {
-        return result.css
-      }
+      return async () => result.css
     }
   })
 
@@ -55,18 +43,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('searchIndex', searchIndex)
 
   eleventyConfig.addFilter('randomItem', (arr) => {
-    arr.sort(() => {
-      return 0.5 - Math.random()
-    })
+    arr.sort(() => 0.5 - Math.random())
     return arr.slice(0, 1)
   })
 
-  // Custom filter to find the current book
-  eleventyConfig.addNunjucksFilter('findCurrentBook', function (books) {
-    return books.find(book => book.current)
-  })
+  eleventyConfig.addNunjucksFilter('findCurrentBook', (books) =>
+    books.find(b => b.current)
+  )
 
-  // Pass through
+  // Passthrough
   eleventyConfig.addPassthroughCopy('README.md')
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
   eleventyConfig.addPassthroughCopy('src/assets/js')
@@ -83,63 +68,51 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('.well-known/')
   eleventyConfig.addPassthroughCopy('src/Juan_Fernandes-CV.pdf')
 
-  eleventyConfig.addCollection('posts', function (collection) {
-    return collection.getFilteredByGlob('./src/blog/*.md')
-  })
-  eleventyConfig.addCollection('notes', function (collection) {
-    return collection.getFilteredByGlob('./src/notes/*.md')
-  })
-  eleventyConfig.addCollection('stream', function (collection) {
-    return collection.getFilteredByGlob('./src/stream/*.md')
-  })
-  eleventyConfig.addCollection('photos', (api) => {
-    return api
-      .getFilteredByGlob('src/photos/*.md') // adjust path if needed
-      .sort((a, b) => b.date - a.date) // NEWEST first
-  })
-  eleventyConfig.addCollection('design', function (collection) {
-    return collection.getFilteredByTag('design')
-  })
-  eleventyConfig.addCollection('changelog', function (collection) {
-    return collection.getFilteredByTag('changelog')
-  })
-  eleventyConfig.addCollection('tagsList', (collectionApi) => {
+  // Collections
+  eleventyConfig.addCollection('posts', (c) => c.getFilteredByGlob('./src/blog/*.md'))
+  eleventyConfig.addCollection('notes', (c) => c.getFilteredByGlob('./src/notes/*.md'))
+  eleventyConfig.addCollection('stream', (c) => c.getFilteredByGlob('./src/stream/*.md'))
+  eleventyConfig.addCollection('photos', (api) =>
+    api.getFilteredByGlob('src/photos/*.md').sort((a, b) => b.date - a.date)
+  )
+  eleventyConfig.addCollection('design', (c) => c.getFilteredByTag('design'))
+  eleventyConfig.addCollection('changelog', (c) => c.getFilteredByTag('changelog'))
+  eleventyConfig.addCollection('tagsList', (c) => {
     const tagsSet = new Set()
-    collectionApi.getAll().forEach((item) => {
+    c.getAll().forEach((item) => {
       if (!item.data.tags) return
       item.data.tags.forEach((tag) => tagsSet.add(tag))
     })
     return tagsSet
   })
 
-  // Universal Shortcodes
+  // Shortcodes
   eleventyConfig.cloudinaryCloudName = 'juanfernandes'
-  eleventyConfig.addShortcode('cloudinaryImage', function (path, transforms, alt) {
-    return `<img src="https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/${transforms}/${path}" alt="${alt}">`
-  })
-
-  eleventyConfig.addShortcode('fyi', function (content) {
-    return `<aside class="fyi"><p>${content}</p></aside>`
-  })
-
-  // Layout aliases
-  eleventyConfig.addLayoutAlias('base', 'layouts/base.njk')
-  eleventyConfig.addLayoutAlias('page', 'layouts/page.njk')
-  eleventyConfig.addLayoutAlias('page-sidebar', 'layouts/page-sidebar.njk')
-  eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
-  eleventyConfig.addLayoutAlias('stream', 'layouts/stream.njk')
-  eleventyConfig.addLayoutAlias('image', 'layouts/image.njk')
+  eleventyConfig.addShortcode('cloudinaryImage', (imgPath, transforms, alt) =>
+    `<img src="https://res.cloudinary.com/${eleventyConfig.cloudinaryCloudName}/${transforms}/${imgPath}" alt="${alt}">`
+  )
+  eleventyConfig.addShortcode('fyi', (content) =>
+    `<aside class="fyi"><p>${content}</p></aside>`
+  )
 
   // Plugins
   eleventyConfig.addPlugin(rssPlugin)
   eleventyConfig.addPlugin(syntaxHighlight)
-
-  // Sass
   eleventyConfig.addTemplateFormats('scss')
+
+  // Layout aliases
+  eleventyConfig.addLayoutAlias('base', 'base.njk')
+  eleventyConfig.addLayoutAlias('page', 'page.njk')
+  eleventyConfig.addLayoutAlias('page-sidebar', 'page-sidebar.njk')
+  eleventyConfig.addLayoutAlias('post', 'post.njk')
+  eleventyConfig.addLayoutAlias('stream', 'stream.njk')
+  eleventyConfig.addLayoutAlias('image', 'image.njk')
 
   return {
     dir: {
       input: 'src',
+      includes: '_includes',
+      layouts: '_includes/layouts',
       output: 'dist'
     },
     passthroughFileCopy: true,

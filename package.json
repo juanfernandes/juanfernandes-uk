@@ -4,10 +4,10 @@
   "description": "Personal website of Juan Fernandes",
   "type": "module",
   "scripts": {
-    "eleventy": "npx eleventy",
-    "watch:eleventy": "eleventy --serve",
+    "eleventy": "npx eleventy --config=.eleventy.cjs",
+    "watch:eleventy": "eleventy --config=.eleventy.cjs --serve",
     "start": "npm-run-all watch:*",
-    "build": "eleventy"
+    "build": "eleventy --config=.eleventy.cjs"
   },
   "repository": {
     "type": "git",

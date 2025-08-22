@@ -48,7 +48,6 @@ function excerpt (text) {
     .substring(0, 140) // Only 140 first chars
     .trim()
 }
-
 module.exports = function searchIndex (collection) {
   const search = collection
     .filter(page => !page.data.excludeFromSearch)
