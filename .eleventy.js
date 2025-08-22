@@ -70,6 +70,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('README.md')
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
   eleventyConfig.addPassthroughCopy('src/assets/js')
+  eleventyConfig.addPassthroughCopy('src/photos/content/photos')
   eleventyConfig.addPassthroughCopy('src/robots.txt')
   eleventyConfig.addPassthroughCopy('src/humans.txt')
   eleventyConfig.addPassthroughCopy('src/site.webmanifest')
@@ -91,8 +92,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection('stream', function (collection) {
     return collection.getFilteredByGlob('./src/stream/*.md')
   })
-  eleventyConfig.addCollection('photos', function (collection) {
-    return collection.getFilteredByGlob('./src/photos/*.md')
+  eleventyConfig.addCollection('photos', (api) => {
+    return api
+      .getFilteredByGlob('src/photos/*.md') // adjust path if needed
+      .sort((a, b) => b.date - a.date) // NEWEST first
   })
   eleventyConfig.addCollection('design', function (collection) {
     return collection.getFilteredByTag('design')

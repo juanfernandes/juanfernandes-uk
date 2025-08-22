@@ -39,53 +39,7 @@ tags:
         </div>
         {% endfor -%}
 
-      {% if pagination.href.next or pagination.href.previous %}
-        <nav class="pagination" aria-label="Pagination links">
-          <div class="flex">
-            {% if page.url != pagination.href.first %}
-            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12V7l-7 5 7 5zm7-5-7 5 7 5z"/></svg>
-            <a href="{{ pagination.href.first }}">First</a>
-            {% else %}
-            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12V7l-7 5 7 5zm7-5-7 5 7 5z"/></svg>
-            <span class="epsilon">First</span>
-            {% endif %}
-            {% if pagination.href.previous %}
-              <svg aria-hidden="true" focusable="false" class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
-              <a href="{{ pagination.href.previous }}{{ paginationAnchor }}" data-direction="backwards">
-                <span class="epsilon">Newer</span>
-              </a>
-              {% else %}
-              <svg aria-hidden="true" focusable="false" class="rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
-              <span class="epsilon">Newer</span>
-            {% endif %}
-          </div>
-          <div class="pagination__pages">
-            <span class="epsilon">
-            {%- for pageEntry in pagination.pages %}
-              {% if page.url == pagination.hrefs[ loop.index0 ] %}{{ loop.index }} of {{ pagination.pages.length }}{% endif %}
-            {%- endfor %}
-            </span>
-          </div>
-          <div class="flex">
-            {% if pagination.href.next %}
-              <a href="{{ pagination.href.next }}{{ paginationAnchor }}" data-direction="forwards">
-                <span class="epsilon">Older</span>
-              </a>
-              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
-              {% else %}
-              <span class="epsilon">Older</span>
-              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M7 6v12l10-6z"/></svg>
-            {% endif %}
-            {% if page.url != pagination.href.last %}
-            <a href="{{ pagination.href.last }}">Last</a>
-            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m19 12-7-5v10zM5 7v10l7-5z"/></svg>
-            {% else %}
-            <span class="epsilon">Last</span>
-            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m19 12-7-5v10zM5 7v10l7-5z"/></svg>
-            {% endif %}
-          </div>
-        </nav>
-      {% endif %}
+        {% include 'components/pagination.njk' %}
       </div>
 
       <div class="sidebar meta / four cols">

@@ -2,22 +2,35 @@ name: "11ty: Build and Deploy"
 
 on:
   schedule:
-    - cron: 0 0 * * *
+    - cron: "0 0 * * *" # nightly
   push:
-    branches:
-      - main
+    branches: [ main ]
+    paths:
+      # ⬇️ Optional Step 3: only run on pushes that touch photos or the workflow itself
+      - 'src/photos/**'
+      - 'content/photos/**'
+      - '.github/workflows/**'
+      # keep these if your build depends on them:
+      - '.eleventy.js'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'src/_data/**'
 
 jobs:
   build-and-deploy:
     name: "11ty: Build and Deploy"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          node-version: lts/*
-          cache: "npm"
+          fetch-depth: 0  # needed to diff changed files
+
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
 
       - uses: actions/cache/restore@v4
         id: cache
@@ -29,7 +42,7 @@ jobs:
           restore-keys: |
             11ty-${{ runner.os }}
             ${{ runner.os }}-11ty
-    
+
       - name: Install dependencies
         run: npm install
 
@@ -38,6 +51,32 @@ jobs:
 
       - name: Build website
         run: npm run build
+
+      # ⬇️ Create list of changed files for this push (safe fallback for first commits)
+      - name: Get changed files
+        id: diff
+        run: |
+          BEFORE="${{ github.event.before }}"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            BEFORE="$(git rev-list --max-parents=0 HEAD | tail -n1)"
+          fi
+          git diff --name-only "$BEFORE" "${{ github.sha }}" > changed-files.txt
+          echo "Changed files:"
+          cat changed-files.txt || true
+
+      # ⬇️ Cross-post any new/changed photos to Pixelfed
+      - name: Cross-post new photos to Pixelfed
+        if: success()
+        env:
+          PIXELFED_BASE_URL: ${{ secrets.PIXELFED_BASE_URL }}
+          PIXELFED_ACCESS_TOKEN: ${{ secrets.PIXELFED_ACCESS_TOKEN }}
+        run: |
+          # Only run if our photos folders had changes
+          if grep -E '^(src/photos/|content/photos/).*\.(jpe?g|png|webp)$' changed-files.txt >/dev/null 2>&1; then
+            node src/assets/js/pixelfed-sync.js changed-files.txt
+          else
+            echo "No changed photos detected, skipping Pixelfed sync."
+          fi
 
       - name: Deploy website to server
         uses: easingthemes/ssh-deploy@v5.0.3

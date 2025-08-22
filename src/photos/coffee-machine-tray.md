@@ -1,7 +1,7 @@
 ---
 layout: "image"
 title: "Coffee Machine Tray"
-postImage: "/IMG_20200203_083316__01_dbejxb.jpg"
+postImage: "coffee-machine-tray.jpg"
 alt: "Photo of a silver coffee machine on a wooden tray"
 description: "Couldn't find a wooden tray the right size for my coffee machine so
   I built one using wood from a pallet."

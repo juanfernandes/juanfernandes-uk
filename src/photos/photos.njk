@@ -1,5 +1,15 @@
 ---
 title: Photos
+
+pagination:
+  data: collections.photos
+  size: 4
+  alias: pagePhotos
+
+permalink: "/photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+
+eleventyExcludeFromCollections: true
+tags: []
 ---
 
 {% extends 'layouts/base.njk' %}
@@ -8,13 +18,15 @@ title: Photos
   <div class="container">
     <div class="content content--wide" id="content">
       <div class="post-list post-list--cards">
-        {%- for post in collections.photos | reverse -%}
+        {% for post in pagePhotos %}
         <a class="card" href="{{ post.url }}">
-          <img class="card__img" src="{{ site.cloudinary_url }}w_320,f_auto/{{ post.data.postImage }}" alt="{{ post.data.alt }}" width="320" loading="lazy">
+          <img class="card__img" src="/photos/content/photos/{{ post.data.postImage }}" alt="{{ post.data.alt }}" width="320" loading="lazy">
           <span class="card__title">{{ post.data.title }}</span>
         </a>
-        {%- endfor -%}
+        {% endfor %}
       </div>
+
+      {% include 'components/pagination.njk' %}
     </div>
   </div>
 {% endblock %}
