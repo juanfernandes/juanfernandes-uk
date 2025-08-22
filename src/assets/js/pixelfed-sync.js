@@ -10,7 +10,7 @@ if (!fs.existsSync(changedListPath)) {
 }
 
 // Exact dir + image extensions
-const reDir = /^src\/photos\/content\/photos\//i
+const reDir = /^photos\/content\/photos\//i
 const reExt = /\.(jpe?g|png|webp)$/i
 
 const files = fs.readFileSync(changedListPath, 'utf8')
