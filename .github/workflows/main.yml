@@ -72,7 +72,7 @@ jobs:
           PIXELFED_ACCESS_TOKEN: ${{ secrets.PIXELFED_ACCESS_TOKEN }}
         run: |
           # Only run if our photos folders had changes
-          if grep -E '^(src/photos/|content/photos/).*\.(jpe?g|png|webp)$' changed-files.txt >/dev/null 2>&1; then
+          if grep -E '^(photos/content/photos/).*\.(jpe?g|png|webp)$' changed-files.txt >/dev/null 2>&1; then
             node src/assets/js/pixelfed-sync.js changed-files.txt
           else
             echo "No changed photos detected, skipping Pixelfed sync."
