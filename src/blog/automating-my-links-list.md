@@ -61,7 +61,7 @@ Why? Because Eleventy treats `.js` and `.json` files in `_data` differently — 
 
 ---
 
-### Step 3: The append script (`appendToJSON.js`)
+### Step 3: The append script (`appendToJSON.cjs`)
 
 The script does the heavy lifting:
 
@@ -119,7 +119,7 @@ This guarantees that pagination always starts with the most recent items.
 
 My GitHub Action now:
 
-1. Runs `appendToJSON.js` to update `links.raw.json`
+1. Runs `appendToJSON.cjs` to update `links.raw.json`
 2. Builds the site with Eleventy
 3. Deploys the updated site
 
