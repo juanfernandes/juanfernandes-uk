@@ -9,7 +9,7 @@ on:
       # Only run on pushes that touch your photos, the workflow, or key build files
       - 'src/photos/content/photos/**'
       - '.github/workflows/**'
-      - '.eleventy.js'
+      - '.eleventy.cjs'
       - 'package.json'
       - 'package-lock.json'
       - 'src/_data/**'
