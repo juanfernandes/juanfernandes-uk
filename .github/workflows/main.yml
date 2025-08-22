@@ -74,7 +74,7 @@ jobs:
           set -e
           echo "Checking for changed photos…"
           # Exact folder + extensions (case-insensitive)
-          if grep -iE '^src/photos/content/photos/.*\.(jpe?g|png|webp)$' changed-files.txt >/dev/null 2>&1; then
+          if grep -iE '^photos/content/photos/.*\.(jpe?g|png|webp)$' changed-files.txt >/dev/null 2>&1; then
             echo "Photos changed, running sync…"
             node src/assets/js/pixelfed-sync.js changed-files.txt
           else
