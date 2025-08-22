@@ -8,5 +8,5 @@ keywords:
   - hike
   - peak district
   - peaks
-date: 2025-08-22T17:30:00Z
+date: "2025-08-22T17:30:00Z"
 ---
