@@ -1,5 +1,23 @@
 [
   {
+    "title": "Semantic classes > BEM",
+    "url": "https://gomakethings.com/semantic-classes-bem/",
+    "content": "For years, I’ve used a BEM-like approach to authoring my CSS. With Kelp, I decided to go a different direction and use semantic classes. The result has been a…",
+    "date": "2025-08-26T22:52:24.000Z"
+  },
+  {
+    "title": "Balancing Text In CSS",
+    "url": "https://ishadeed.com/article/balancing-text-css/",
+    "content": "Almost two years ago, I published an article about text-wrap: balance and how useful it is. I thought about revisiting the topic with a more solid exploration…",
+    "date": "2025-08-22T19:07:38.000Z"
+  },
+  {
+    "title": "Underlines and line height",
+    "url": "https://adactio.com/journal/22085",
+    "content": "I was thinking about something I wrote yesterday when I was talking about styling underlines on links: For a start, you can adjust the distance of the underline…",
+    "date": "2025-08-22T18:58:03.000Z"
+  },
+  {
     "title": "How I set up a fake web design company to test an idea",
     "url": "https://stuffandnonsense.co.uk/blog/how-i-set-up-a-fake-web-design-company-to-test-an-idea",
     "content": "Blog and all that malarkey August 7th, 2025 Over the past two years, I’ve noticed a significant drop-off in the number of enquiries from local(ish) businesses…",
