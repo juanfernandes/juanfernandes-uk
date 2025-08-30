@@ -15,6 +15,12 @@
   "tags": ["search"],
   "works": [
     {
+      "name": "Website redesign and relaunch",
+      "client": "Multi Creative Media",
+      "img": "mcm-project",
+      "link": "/work/mcm/"
+    },
+    {
       "name": "New Responsive Website Build",
       "client": "The National College",
       "img": "neg-project",
@@ -67,12 +73,6 @@
       "client": "Tom Hartley JNR",
       "img": "tomhartleyjnr-project",
       "link": "tomhartleyjnr"
-    },
-    {
-      "name": "New Website",
-      "client": "Fourpoints",
-      "img": "fourpoints-project",
-      "link": "/work/fourpoints/"
     }
   ]
 }

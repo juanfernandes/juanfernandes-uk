@@ -1,11 +1,11 @@
 {
   "title": "Multi Creative Media",
-  "description": "",
+  "description": "Website redesign and relaunch for my own creative agency - Multi Creative Media",
   "keywords": "HTML, CSS, TAILWIND, JS, Modern Redesign, web design, web development, responsive, website",
   "meta": {
-    "ogTitle": "",
-    "ogDesc": "",
-    "lang": "https://www.juanfernandes.uk/work/"
+    "ogTitle": "Multi Creative Media Website Design",
+    "ogDesc": "Website redesign and relaunch for my own creative agency - Multi Creative Media",
+    "lang": "https://www.juanfernandes.uk/work/mcm"
   },
   "intro": {
     "class": "",
@@ -19,7 +19,7 @@
     "url": "https://www.multicreativemedia.co.uk"
   },
   "project": {
-    "heading": "Website redesign and relaunch for my own creative agency.",
+    "heading": "Website redesign and relaunch for my own creative agency",
     "brief": "<h4>🎯 The Challenge</h4><p>Multi Creative Media had been running for several years, but the website no longer reflected the direction or quality of the work being delivered. The brand needed a fresh, modern identity that would communicate professionalism, creativity, and trustworthiness while still feeling approachable to small businesses.</p><p>The goal was to create a digital presence that could:</p><ul><li>Showcase a portfolio of client work</li><li>Explain services clearly (web design, UX, hosting, branding)</li><li>Act as a lead-generation tool to attract new clients</li><li>Align with the updated brand identity (new logo, colour palette, and tone of voice)</li></ul><h4>🛠️ My Approach</h4><p> I designed and built the new Multi Creative Media website from the ground up, starting with a brand refresh. Using Figma, I explored modern typography, a bold new colour palette (#F97D65 as the signature brand colour), and clean layouts that highlight visuals over text.</p><p>The site was built with performance and maintainability in mind, ensuring it loads quickly and works seamlessly across devices. Content was restructured around the services clients ask about most often, and the portfolio section was expanded to tell more engaging project stories.</p><p>The design emphasises clarity and simplicity:</p><ul><li>Clear calls to action on every page</li><li>Tiered pricing options for web and hosting services</li><li>Mobile-first responsive layouts</li><li>Cohesive brand identity across the website and social media touchpoints</li></ul><h4>📱 Outcomes</h4><p>The new Multi Creative Media site positions the brand as both approachable and professional. It provides potential clients with a clear understanding of services, builds credibility through case studies, and makes it easy to get in touch.</p><p>The relaunch has already led to positive feedback and re-engagement from past clients, while also setting a strong foundation for expanding into new areas such as hosting and smart home technology.</p>"
   },
   "images": [
