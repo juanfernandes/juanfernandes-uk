@@ -1,5 +1,29 @@
 [
   {
+    "title": "“Your” vs “My” in user interfaces",
+    "url": "https://adamsilver.io/blog/your-vs-my-in-user-interfaces/",
+    "content": "29 August 2025 When referring to the user’s stuff, which is better out of these: “My account” or “Your account”? “My orders” or “Your orders”? “My cases” or…",
+    "date": "2025-09-16T23:01:54.000Z"
+  },
+  {
+    "title": "Just use HTML",
+    "url": "https://gomakethings.com/just-use-html/",
+    "content": "I’ve worked on so many projects recently that were more complicated than they needed to be because they used JavaScript to generate HTML. JavaScript is… Slower…",
+    "date": "2025-09-16T22:59:34.000Z"
+  },
+  {
+    "title": "Conditional favicon in Eleventy using passthrough copy | chriskirknielsen",
+    "url": "https://chriskirknielsen.com/blog/conditional-favicon-with-eleventy-passthrough-copy/",
+    "content": "Let’s see if I can make this short and sweet… okay so you may be like me and jump between the local build and the live (or “production”) versions of your…",
+    "date": "2025-09-12T22:48:54.000Z"
+  },
+  {
+    "title": "What the Internet Was Like in 1999",
+    "url": "https://cybercultural.com/p/internet-1999/",
+    "content": "In 1999, Microsoft vanquishes Netscape in the browser war, Google starts to show up competing search engines, Blogger launches, and Napster loudly arrives to…",
+    "date": "2025-09-12T22:40:40.000Z"
+  },
+  {
     "title": "Semantic classes > BEM",
     "url": "https://gomakethings.com/semantic-classes-bem/",
     "content": "For years, I’ve used a BEM-like approach to authoring my CSS. With Kelp, I decided to go a different direction and use semantic classes. The result has been a…",

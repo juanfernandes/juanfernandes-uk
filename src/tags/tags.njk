@@ -15,7 +15,7 @@ permalink: tags/{{ tag }}/
   <div class="intro__content">
     <h1 class="intro__heading">
       {% if tag %}
-      <span class="intro__heading--large">Posts tagged: “{{ tag }}”</span>
+      <span class="intro__heading--large">Posts tagged: “{{ tag | safe }}”</span>
       {% else %}
       <span class="intro__heading--large">Archive</span>
       All the blog posts

@@ -28,21 +28,24 @@
     {% endif %}
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="generator" content="{{ site.generator }}">
-    <meta property="fediverse:creator" content="@juanfernandes@indieweb.social" />
+
     <link rel="canonical" href="{{ currentUrl }}" />
     <link rel="alternate" hreflang="en-GB" href="{{ currentUrl }}" />
     <link rel="alternate" type="application/rss+xml" title="Blog posts from JuanFernandes.uk" href="https://www.juanfernandes.uk/rss/feed.xml">
+    <meta name="generator" content="{{ site.generator }}">
+
     <link rel="dns-prefetch" href="https://res.cloudinary.com">
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="icon" href="{{ cloudinary_url }}/favicon.ico">
     <link rel="icon" href="{{ cloudinary_url }}/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="{{ cloudinary_url }}/apple-touch-icon.png">
     <meta name="theme-color" content="#F89820">
+    
     <link rel="manifest" href="/site.webmanifest" crossorigin="use-credentials">
     {% for item in site.socials %}
     <link href="{{ item.url }}" rel="me" />
     {% endfor %}
+    <meta property="fediverse:creator" content="@juanfernandes@indieweb.social" />
   </head>
 
   <body{% if bodyClass %} class="{{ bodyClass }}"{% endif %}>

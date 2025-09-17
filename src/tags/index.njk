@@ -1,0 +1,30 @@
+---
+title: Tags
+bodyClass: blog
+intro:
+  class: tags
+permalink: tags/
+---
+{% extends 'layouts/blog.njk' %}
+
+{% block intro %}
+<div class="intro intro--sml" style="background-image: url('{{ introImage }}'')">
+  <div class="intro__content">
+    <h1 class="intro__heading">
+      <span class="intro__heading--large">Tags</span>
+    </h1>
+  </div>
+</div>
+{% endblock %}
+
+{% block main %}
+<div class="content">
+  <div class="tags-list">
+    <div class="tags tags--lrg">
+    {% for tag in collections.tagsList %}
+      <a href="/tags/{{tag}}">{{tag}}</a>
+    {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}

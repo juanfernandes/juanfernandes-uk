@@ -103,6 +103,22 @@ li p {
       color: var(--white);
     }
   }
+
+  &--lrg {
+    gap: 1.4rem;
+    justify-content: center;
+
+    a {
+      font-size: 1.8rem;
+      line-height: 1;
+      padding: 6px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.tags-list {
+  padding: 54px 0;
 }
 
 .tags--inline {
