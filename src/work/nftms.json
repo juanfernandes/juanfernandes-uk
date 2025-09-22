@@ -1,0 +1,55 @@
+{
+  "title": "NFT Merch Shop",
+  "description": "NFT Merch Shop is an ecommerce platform where NFT collectors can seamlessly convert their digital assets into physical merchandise — t-shirts, hoodies, posters, etc.",
+  "keywords": "HTML, CSS, TAILWIND, JS, Modern Redesign, web design, web development, responsive, website",
+  "meta": {
+    "ogTitle": "NFT Merch Shop",
+    "ogDesc": "",
+    "lang": "https://www.juanfernandes.uk/work/"
+  },
+  "intro": {
+    "class": "",
+    "heading": "NFT Merch Shop",
+    "subheading": ""
+  },
+  "details": {
+    "client": "Self-initiated (NFT Merch Shop)",
+    "role": "Front-end developer / Designer",
+    "tech": "HTML 11TY CSS TAILWIND JS Printful REST API Stripe Checkout Vercel  localStorage",
+    "url": "https://nftms.vercel.app"
+  },
+  "project": {
+    "heading": "Building a Printful-powered JAMstack store with 11ty & Stripe",
+    "brief": "<h4>🧩 Project Summary</h4> <p>I set out to prove a simple idea: could a small online merch store run on a clean, static-generated site—powered by Eleventy (11ty), Printful’s API for products/fulfilment, and Stripe for payments—while keeping templates lean and essentially JavaScript-free? The answer was yes. The result is a fast, tidy JAMstack shop that fetches product data at build time and hands off orders to Stripe/Printful.</p><h4>🎯 The Challenge</h4> <p>Deliver a “no CMS, no server” storefront that still feels full-featured: pull products and variants from Printful, generate category + product pages in 11ty, keep category naming consistent, and add just enough client-side JS for variant switching, cart storage, and price formatting—then finish with a smooth Stripe Checkout hand-off.</p><h4>🛠️ My Approach</h4><ol><li><strong>Product ingestion & caching</strong><ul><li>At build, fetch `/store/products` from Printful, then fetch variants for each product.</li><li>Generate stable slugs (slugify + small MD5), derive categories via `getCategoryFromName(...)`, and cache the full dataset to `cache/products.json` for simple, fast templates.</li></ul></li><li><strong>Page generation in Eleventy</strong><ul><li>Expose the products array globally (`src/_data/products.js`) and render an index that loops products and builds a unique category list with friendly display names.</li><li>Use Eleventy pagination to auto-generate `/products/{category}/` pages, backed by a `_data/categoriesFlat.js` list.</li></ul></li><li><strong>Category hygiene</strong><ul><li>Normalise names—`t-shirts`, `hoodies`, `stickers`, plus a new `hats` category—so items like “Hat” don’t get mis-grouped.</li></ul></li><li><strong>Variants, cart, and checkout</strong><ul><li>On product pages, a `</select>` controls variant (size/colour), swaps the preview image, and updates price via `Intl.NumberFormat`.</li><li>“Add to Cart” writes to `localStorage`, with the header icon reading the cart for a live count.</li><li>“Checkout” posts the cart to a Vercel function (`/api/checkout.js`) that creates a Stripe Checkout session and returns the redirect URL.</li></ul></li></ol><h4>📱 Outcomes</h4><ul><li><strong>Lean, fast storefront</strong> with no traditional server or CMS—just 11ty, small JS, and APIs.</li><li><strong>Accurate taxonomy</strong> prevents mis-grouping and keeps listings tidy</li><li><strong>Simple UX touches</strong>—clean page titles and currency formatting—add polish without bloat.</li><li><strong>Seamless checkout</strong>: client-side cart → serverless function → Stripe Checkout → Printful fulfilment.</li></ul><h4>💡 Why This Matters</h4><p>For small, experimental merch lines, this stack keeps costs and complexity low while staying flexible: rebuild to refresh products, add categories with data, and scale fulfilment via Printful—without dragging in a heavy framework or custom CMS.</p><h4>🧭 Next Steps</h4><ul><li>Add product descriptions with Markdown fallback.</li><li>Surface variant ranges on listings (e.g., “Available XS–XL”).</li><li>Add size guides / shipping info via data-driven modals.</li><li>Code cleanup and publish a public repo.</li></ul>"
+  },
+  "images": [
+    {
+      "img": "Home_NFT-Merch-Shop",
+      "alt": "NFT Merch Shop Homepage"
+    },
+    {
+      "img": "products_NFT-Merch-Shop",
+      "alt": "NFT Merch Shop Products Category"
+    },
+    {
+      "img": "All_Products_NFT-Merch-Shop",
+      "alt": "NFT Merch Shop All Products"
+    },
+    {
+      "img": "Cart_NFT-Merch-Shop",
+      "alt": "NFT Merch Shop Cart"
+    },
+    {
+      "img": "Product-page_NFT-Merch-Shop",
+      "alt": "NFT Merch Shop Product Page"
+    },
+    {
+      "img": "About_NFT-Merch-Shope",
+      "alt": "NFT Merch Shop About Page"
+    },
+    {
+      "img": "FAQs_NFT-Merch-Shop",
+      "alt": "NFT Merch Shop FAQs Page"
+    }
+  ]
+}

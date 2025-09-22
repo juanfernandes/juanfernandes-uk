@@ -15,6 +15,12 @@
   "tags": ["search"],
   "works": [
     {
+      "name": "Printful-powered JAMstack store with 11ty & Stripe",
+      "client": "NFT Merch Shop",
+      "img": "nftms-project",
+      "link": "/work/nftms/"
+    },
+    {
       "name": "Website redesign and relaunch",
       "client": "Multi Creative Media",
       "img": "mcm-project",
@@ -55,12 +61,6 @@
       "client": "Lusso Prestige",
       "img": "lusso-prestige-project",
       "link": "/work/lusso-prestige/"
-    },
-    {
-      "name": "Responsive Forms",
-      "client": "McLaren",
-      "img": "mclaren-project",
-      "link": "/work/mclaren/"
     },
     {
       "name": "Used Vehicle Search",

@@ -15,6 +15,11 @@
   "tags": ["search"],
   "recentWork": [
     {
+      "link": "nftms",
+      "img": "nftms-recent",
+      "name": "NFT Merch Shop"
+    },
+    {
       "link": "mcm",
       "img": "mcm-recent",
       "name": "Multi Creative Media"
@@ -23,11 +28,6 @@
       "link": "neg",
       "img": "neg-recent",
       "name": "The National College"
-    },
-    {
-      "link": "gratuu",
-      "img": "gratuu-recent",
-      "name": "Gratuu"
     },
     {
       "link": "surbiton-tyre-wheel",

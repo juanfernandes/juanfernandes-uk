@@ -1,7 +1,7 @@
 ---
 nav:
   next: neg
-  previous: 
+  previous: nftms
 ---
 
 {% extends 'layouts/base.njk' %}
@@ -16,17 +16,17 @@ nav:
 
               <div class="grid-8-4 gap-4">
                 <div>
-                  <h3 class="project__sub-heading">Brief</h3>
+                  <h3 class="project__sub-heading">📝 Brief</h3>
                   {{ project.brief | safe }}
                 </div>
                 <div>
-                  <h3 class="project__sub-heading">Details</h3>
+                  <h3 class="project__sub-heading">📑 Details</h3>
                   {% include 'components/work-meta.njk' %}
                 </div>
               </div>
 
             {% if images %}
-              <h3 class="project__sub-heading project__sub-heading--full">Result</h3>
+              <h3 class="project__sub-heading project__sub-heading--full">🏆 Result</h3>
               {% include 'components/work-images.njk' %}
             {% endif %}
 
