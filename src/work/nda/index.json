@@ -18,19 +18,19 @@
       "name": "New Website",
       "client": "In-tend",
       "img": "intend-web-project",
-      "link": "/work/nda/in-tend/new-website"
+      "link": "in-tend/new-website"
     },
     {
       "name": "Money Alive Integration",
       "client": "Intelliflo",
       "img": "ma-project",
-      "link": "/work/nda/intelliflo/money-alive"
+      "link": "intelliflo/money-alive"
     },
     {
       "name": "Bulk Secure Messaging",
       "client": "Intelliflo",
       "img": "bsm-project",
-      "link": "/work/nda/intelliflo/secure-messaging"
+      "link": "intelliflo/secure-messaging"
     }
   ]
 }
