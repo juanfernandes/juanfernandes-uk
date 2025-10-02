@@ -1,0 +1,51 @@
+{
+  "title": "SO5 Clothing Case Study | Custom eCommerce Store with YourNextStore",
+  "description": "Case study: How I built SO5 Clothing’s online store using YourNextStore. Featuring custom size guides, product descriptions, and brand-focused design improvements to launch a professional streetwear brand.",
+  "keywords": "so5 clothing, so5 clothing case study, custom ecommerce store, clothing brand website, fashion ecommerce site, yournextstore, next.js ecommerce, printful stripe integration, streetwear brand online shop, custom size guides ecommerce",
+  "meta": {
+    "ogTitle": "SO5 Clothing Case Study | Custom eCommerce Store with YourNextStore",
+    "ogDesc": "Case study: How I built SO5 Clothing’s online store using YourNextStore. Featuring custom size guides, product descriptions, and brand-focused design improvements to launch a professional streetwear brand.",
+    "lang": "https://www.juanfernandes.uk/work/"
+  },
+  "intro": {
+    "class": "",
+    "heading": "SO5 Clothing",
+    "subheading": ""
+  },
+  "details": {
+    "client": "Natasha Fernandes",
+    "role": "Front-end Developer",
+    "tech": "React JS, Next.js, Stripe, Printful, Tailwind CSS",
+    "url": "https://www.so5-clothing.com"
+  },
+  "project": {
+    "heading": "Custom eCommerce Store Build",
+    "summary": "<p>I built an eCommerce site for SO5 Clothing, my daughter’s new fashion brand. Using the open-source YourNextStore framework as a foundation, I customised the platform with brand-focused design updates and features tailored for apparel sales.</p>",
+    "challenge": "<p>The main challenge was creating a site that was both quick to launch and easy to maintain, while still feeling unique to SO5 Clothing.</p><p>The base YourNextStore setup provides solid eCommerce functionality, but lacked certain features essential for an apparel brand, like consistent product descriptions and size guides across categories.</p><p>I also needed to ensure the site reflected the identity of SO5 Clothing, rather than looking like a generic template.</p>",
+    "approach": "<p>I started with YourNextStore’s tech stack:</p><ul><li>Next.js for a fast, modern React-based frontend</li><li>Stripe for payments</li><li>Printful for print-on-demand fulfilment</li><li>Tailwind CSS for styling and layouts</li></ul><p>From there, I introduced key customisations:</p><ul><li><strong>Category-based descriptions</strong> – All T-shirts, hoodies, and other product types display default descriptive text, making product pages more polished and informative without requiring manual copywriting for every single item.</li><li><strong>Size guides</strong> – Added sizing tables per product category, ensuring customers have the right information to order confidently.</li><li><strong>Design customisations</strong> – Tweaked the layout, styling, and brand presentation to better represent SO5’s identity.</li></ul>",
+    "outcomes": "<p>The site is live and ready for SO5 Clothing’s launch. While early days, the brand now has a professional storefront that:</p><ul><li>Provides customers with consistent product details and size guidance</li><li>Is built to scale as more products and categories are added</li><li>Uses a proven, secure eCommerce stack while still feeling unique</li></ul>",
+    "why": "<p>For a new clothing brand, first impressions are everything. A polished website that looks professional and answers customer questions (like product sizing) builds trust from day one.</p><p>By customising an open-source eCommerce base, I was able to save time while still tailoring the site to SO5 Clothing’s needs — setting the brand up with a platform it can grow with.</p>"
+  },
+  "images": [
+    {
+      "img": "SO5-Clothing_homepage",
+      "alt": "SO5 Clothing Homepage"
+    },
+    {
+      "img": "SO5-Clothing_Product",
+      "alt": "SO5 Clothing Product Page"
+    },
+    {
+      "img": "SO5-Clothing_Category",
+      "alt": "SO5 Clothing Category Page"
+    },
+    {
+      "img": "SO5-Clothing_Shopping-Cart",
+      "alt": "SO5 Clothing Shopping Cart"
+    },
+    {
+      "img": "SO5-Clothing_Checkout",
+      "alt": "SO5 Clothing Checkout"
+    }
+  ]
+}

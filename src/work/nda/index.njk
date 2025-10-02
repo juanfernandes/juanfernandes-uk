@@ -16,7 +16,7 @@
           <div class="content" id="content">
             <h2 class="content__heading">Work I've Done</h2>
             <div class="grid-6-6">
-              {% for item in works %}
+              {% for item in ndaWorks %}
               <div>
                 <figure class="effect">
                   <img src="{{ site.cloudinary_url }}f_auto/work/projects/{{ item.img }}" alt="{{ item.client }}" loading="lazy" width="586" height="384">
@@ -29,7 +29,7 @@
               {% endfor %}
           </div>
           <div class="actions u-mt-4 u-flex u-center">
-            <a class="button--cta" href="/work/archive/">View archived work</a>
+            <a class="button--cta" href="/work/">View all work</a>
           </div>
         </section>
 

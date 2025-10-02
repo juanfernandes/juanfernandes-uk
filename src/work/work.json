@@ -15,6 +15,18 @@
   "tags": ["search"],
   "works": [
     {
+      "name": "Custom eCommerce Store Build",
+      "client": "SO5 Clothing",
+      "img": "so5-project",
+      "link": "/work/so5-clothing/"
+    },
+    {
+      "name": "Bookmark manager built with React",
+      "client": "BKMRKS",
+      "img": "bkmrks-project",
+      "link": "/work/bkmrks/"
+    },
+    {
       "name": "Printful-powered JAMstack store with 11ty & Stripe",
       "client": "NFT Merch Shop",
       "img": "nftms-project",
@@ -61,18 +73,6 @@
       "client": "Lusso Prestige",
       "img": "lusso-prestige-project",
       "link": "/work/lusso-prestige/"
-    },
-    {
-      "name": "Used Vehicle Search",
-      "client": "Land Rover",
-      "img": "landrover-project",
-      "link": "/work/landrover/"
-    },
-    {
-      "name": "Responsive Website",
-      "client": "Tom Hartley JNR",
-      "img": "tomhartleyjnr-project",
-      "link": "tomhartleyjnr"
     }
   ]
 }

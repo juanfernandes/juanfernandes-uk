@@ -1,4 +1,6 @@
 ---
+workRoot: /work/
+
 nav:
   next: property-with-potential
   previous: gratuu
@@ -15,10 +17,7 @@ nav:
               {% include 'components/work-nav.njk' %}
 
               <div class="grid-8-4 gap-4">
-                <div>
-                  <h3 class="project__sub-heading">📝 Brief</h3>
-                  {{ project.brief | safe }}
-                </div>
+              {% include 'components/work-brief.njk' %}
                 <div>
                   <h3 class="project__sub-heading">📑 Details</h3>
                   {% include 'components/work-meta.njk' %}

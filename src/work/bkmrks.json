@@ -1,0 +1,43 @@
+{
+  "title": "BKMRKS",
+  "description": "Bookmark manager built with React",
+  "keywords": "Bookmarks manager, React, Next.js, TypeScript, JSON",
+  "meta": {
+    "ogTitle": "BKMRKS",
+    "ogDesc": "",
+    "lang": "https://www.juanfernandes.uk/work/bkmrks/"
+  },
+  "intro": {
+    "class": "",
+    "heading": "",
+    "subheading": ""
+  },
+  "details": {
+    "client": "Self-initiated (BKMRKS)",
+    "role": "Front-end developer & Designer",
+    "tech": "React, Next.js, TypeScript, JSON",
+    "url": "https://bkmrks.vercel.app"
+  },
+  "project": {
+    "heading": "Bookmark manager built with React",
+    "summary": "<p>Bkmrks is a personal project: a lightweight, modern bookmark manager built with React, Next.js App Router, and TypeScript. I designed and developed it to scratch my own itch—organising bookmarks in a clean, minimal way without relying on browser extensions. The app supports tagging, search, and optional cloud sync with Supabase, making it both flexible and portable.</p>",
+    "challenge": "<p>Browser bookmark tools are either too basic or too bloated. I wanted a solution that:</p><ul><li>Works as a static-friendly app (so it can be hosted anywhere, even shared hosting).</li><li>Lets me import/export bookmarks via JSON.</li><li>Stays accessible and responsive, not just functional.</li><li>Provides optional cloud sync without being locked into a platform.</li></ul>",
+    "approach": "<p>I treated Bkmrks as a product design + engineering exercise, not just a coding side project:</p><ul><li>Tech stack: Next.js App Router, React, TypeScript, Tailwind CSS, shadcn/ui, and optional Supabase integration.</li><li>Data model: JSON-first, with schema validation via Zod, so the app works offline or self-hosted.</li><li>Features:<ul><li>Tagging and search for quick filtering.</li><li>Import/export bookmarks as JSON.</li><li>Supabase sync for those who want multi-device storage.</li><li>Architecture: Built around feature modules for scalability, with unit and integration testing (Vitest + Playwright).</li><li>Accessibility: Semantic HTML, keyboard navigation, ARIA patterns, and reduced-motion fallbacks baked in.</li></ul></li></ul>",
+    "outcomes": "<p>The result is a fast, minimal, and user-friendly bookmark manager that runs on almost any hosting setup. It demonstrates:</p><ul><li>My ability to design, build, and ship a full product independently.</li><li>Strong skills in modern React/TypeScript development.</li><li>A product-focused mindset, balancing usability, performance, and maintainability.</li></ul><p>Bkmrks now lives as a personal tool I use daily, and a showcase of my front-end craft, design system thinking, and product sensibility.</p>",
+    "why": "<p>Bkmrks is more than just a side project: it’s proof that I can take an idea from concept to production, applying the same rigor I use with client work. It highlights my strengths in:</p><ul><li>Modern frontend engineering (React, Next.js, TypeScript).</li><li>Product thinking (usability, accessibility, and feature prioritisation).</li><li>Independent ownership (building something end-to-end, tested and deployed).</li></ul>"
+  },
+  "images": [
+    {
+      "img": "BKMRKS-homepage",
+      "alt": "BKMRKS Homepage"
+    },
+    {
+      "img": "BKMRKS-add",
+      "alt": "BKMRKS Add Bookmark"
+    },
+    {
+      "img": "BKMRKS-edit",
+      "alt": "BKMRKS Edit Bookmark"
+    }
+  ]
+}

@@ -8,22 +8,29 @@
     "lang": "https://www.juanfernandes.uk/work/"
   },
   "intro": {
-    "class": "NDA work",
-    "heading": "Portfolio",
-    "subheading": "A selection of my latest work"
+    "class": "work",
+    "heading": "NDA Work",
+    "subheading": ""
   },
-  "intelliflowork": [
+  "tags": ["search"],
+  "ndaWorks": [
+    {
+      "name": "New Website",
+      "client": "In-tend",
+      "img": "intend-web-project",
+      "link": "/work/nda/in-tend/new-website"
+    },
     {
       "name": "Money Alive Integration",
-      "client": "intelliflo",
+      "client": "Intelliflo",
       "img": "ma-project",
-      "link": "/work/intelliflo/money-alive"
+      "link": "/work/nda/intelliflo/money-alive"
     },
     {
       "name": "Bulk Secure Messaging",
-      "client": "intelliflo",
+      "client": "Intelliflo",
       "img": "bsm-project",
-      "link": "/work/intelliflo/secure-messaging"
+      "link": "/work/nda/intelliflo/secure-messaging"
     }
   ]
 }

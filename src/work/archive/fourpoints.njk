@@ -1,7 +1,9 @@
 ---
+workRoot: /work/archive/
+
 nav:
   next: landrover
-  previous: lusso-prestige
+  previous:
 ---
 
 {% extends 'layouts/base.njk' %}
@@ -27,6 +29,7 @@ nav:
 
                   <h3 class="project__sub-heading">Requirements</h3>
                   {{ project.requirements | safe }}
+
                 </div>
               </div>
             </div>

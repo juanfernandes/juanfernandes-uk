@@ -1,5 +1,47 @@
 [
   {
+    "title": "UX Design Patterns - A Step-By-Step Guide - Digital Present",
+    "url": "https://digitalpresent.io/ux-design-patterns/",
+    "content": "UX design patents are elements that you can reuse and utilize to solve usability problems when designing the user experience of your website or app. Unlike UI…",
+    "date": "2025-09-26T23:06:13.000Z"
+  },
+  {
+    "title": "What are OKLCH colors?",
+    "url": "https://jakub.kr/components/oklch-colors?utm_campaign=Issue-621&utm_medium=RSS&utm_source=CSS-Weekly",
+    "content": "oklch is a newer color model that is designed to be perceptually uniform. This means that colors are much more accurate in terms of how humans perceive them and…",
+    "date": "2025-09-25T21:45:52.000Z"
+  },
+  {
+    "title": "My plugin for Markdown-It: CodeWrap | chriskirknielsen",
+    "url": "https://chriskirknielsen.com/blog/markdown-it-codewrap/",
+    "content": "28 May 2023 My plugin for Markdown-It: CodeWrap Table of Contents I’ve just released a plugin for Markdown-It. I wanted to have tighter control over how my code…",
+    "date": "2025-09-25T21:39:53.000Z"
+  },
+  {
+    "title": "Let’s see Paul Allen’s CSS Reset",
+    "url": "https://dbushell.com/2025/09/12/css-reset/",
+    "content": "Friday 12 Sept 2025 Play Synthesised Audio CSS “resets” are boilerplate code designed to remove or normalize browser defaults. They provide solid foundation to…",
+    "date": "2025-09-23T15:55:55.000Z"
+  },
+  {
+    "title": "DIY Netlify",
+    "url": "https://gomakethings.com/diy-netlify/",
+    "content": "Today, I wanted to share how I built my own DIY Netlify that I use to host over a dozen sites for just $10/month, with way more control and much faster build…",
+    "date": "2025-09-23T15:36:04.000Z"
+  },
+  {
+    "title": "Prevent scrollbar jump",
+    "url": "https://gomakethings.com/prevent-scrollbar-jump/",
+    "content": "With modal components, it’s common/expected to prevent the background from scrolling. However, if your page was long enough that there were visible scrollbars,…",
+    "date": "2025-09-23T15:29:22.000Z"
+  },
+  {
+    "title": "A tiny bit-o-CSS for Stable Scrollbar Gutters—zachleat.com",
+    "url": "https://www.zachleat.com/web/stable-scrollbar-gutters/",
+    "content": "I have my operating system configured to use visible scrollbars, a feature prominently elevated in macOS’ System Settings high enough that it would seem to…",
+    "date": "2025-09-22T22:33:57.000Z"
+  },
+  {
     "title": "“Your” vs “My” in user interfaces",
     "url": "https://adamsilver.io/blog/your-vs-my-in-user-interfaces/",
     "content": "29 August 2025 When referring to the user’s stuff, which is better out of these: “My account” or “Your account”? “My orders” or “Your orders”? “My cases” or…",

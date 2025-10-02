@@ -1,0 +1,67 @@
+{
+  "title": "New In-tend Website",
+  "description": ".",
+  "keywords": "",
+  "meta": {
+    "ogTitle": "New In-tend Website",
+    "ogDesc": "",
+    "lang": "https://www.juanfernandes.uk/work/nda/in-tend/new-website/"
+  },
+  "intro": {
+    "class": "",
+    "heading": "New Website",
+    "subheading": ""
+  },
+  "details": {
+    "client": "In-tend",
+    "role": "UX Designer",
+    "tech": "Figma",
+    "url": ""
+  },
+  "project": {
+    "heading": "New In-tend Website",
+    "summary": "<p>In-Tend is a software provider specialising in e-procurement solutions used by universities, governments, and large organisations. I worked with their team to redesign and modernise their marketing website, creating a more intuitive and professional digital presence that reflects the quality of their platform. My role combined UX design, prototyping, and front-end development, translating user flows into polished, production-ready pages.</p>",
+    "challenge": "<p>The existing website had grown outdated, with inconsistent design patterns and limited responsiveness across devices. The challenge was to:</p><ul><li>Unify the brand identity across pages and sections.</li><li>Create a modern, mobile-friendly experience that would appeal to enterprise buyers.</li><li>Introduce a flexible design system to scale future content and campaigns.</li><li>Ensure the site was accessible and performant, meeting WCAG standards and loading quickly.</li></ul>",
+    "approach": "<p>I approached the project as both a designer and front-end engineer:</p><ul><li>Prototyping & UX: Created wireframes and interactive prototypes to refine page layouts and user journeys.</li><li>Design system: Defined reusable components (buttons, cards, forms, navigation) in Figma, later implemented in code.</li><li>Front-end build: Delivered responsive, semantic HTML5/CSS3/JavaScript templates, focusing on accessibility, performance, and maintainability.</li><li>Collaboration: Worked in sprints with In-Tend’s internal team, iterating quickly and validating design decisions with stakeholders.</li></ul>",
+    "outcomes": "<p>The new In-Tend website launched with:</p><ul><li>A clean, modern interface that better communicates trust and professionalism.</li><li>Consistent design patterns through a lightweight design system.</li><li>Fully responsive templates optimised for mobile, tablet, and desktop.</li><li>Improved accessibility and Core Web Vitals performance, creating a smoother experience for users.</li><li>A flexible foundation that allows In-Tend’s team to extend and maintain the site more easily.</li></ul>",
+    "why": "<p>The redesign not only refreshed In-Tend’s online presence but also delivered a scalable framework for future growth. By bridging design thinking with front-end execution, I helped their team reduce inconsistencies, improve usability, and ensure the website reflects the reliability of their e-procurement products.</p>"
+  },
+  "images": [
+    {
+      "img": "in-tend_homepage.png",
+      "alt": "In-tend Homepage"
+    },
+    {
+      "img": "in-tend_buyers.png",
+      "alt": "In-tend Buyers"
+    },
+    {
+      "img": "in-tend_suppliers.png",
+      "alt": "In-tend Suppliers"
+    },
+    {
+      "img": "in-tend_solutions.png",
+      "alt": "In-tend Solutions"
+    },
+    {
+      "img": "in-tend_product.png",
+      "alt": "In-tend Product"
+    },
+    {
+      "img": "in-tend_webinar.png",
+      "alt": "In-tend Webinars"
+    },
+    {
+      "img": "in-tend_webinar-register.png",
+      "alt": "In-tend Webinar Register"
+    },
+    {
+      "img": "in-tend_contact.png",
+      "alt": "In-tend Webinar Contact"
+    },
+    {
+      "img": "in-tend_legal-notice.png",
+      "alt": "In-tend Webinar Legal Notice"
+    }
+  ]
+}

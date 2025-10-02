@@ -5,7 +5,7 @@
   "meta": {
     "ogTitle": "NFT Merch Shop",
     "ogDesc": "",
-    "lang": "https://www.juanfernandes.uk/work/"
+    "lang": "https://www.juanfernandes.uk/work/nftms/"
   },
   "intro": {
     "class": "",
@@ -14,7 +14,7 @@
   },
   "details": {
     "client": "Self-initiated (NFT Merch Shop)",
-    "role": "Front-end developer / Designer",
+    "role": "Front-end developer & Designer",
     "tech": "HTML 11TY CSS TAILWIND JS Printful REST API Stripe Checkout Vercel  localStorage",
     "url": "https://nftms.vercel.app"
   },

@@ -1,0 +1,29 @@
+                <div>
+                  <h3 class="project__sub-heading">📝 Brief</h3>
+                  {{ project.brief | safe }}
+
+                  {% if project.summary %}
+                  <h4>🧩 Project Summary</h4>
+                  {{ project.summary | safe }}
+                  {% endif %}
+
+                  {% if project.challenge %}
+                  <h4>🎯 The Challenge</h4>
+                  {{ project.challenge | safe }}
+                  {% endif %}
+
+                  {% if project.approach %}
+                  <h4>🛠️ My Approach</h4>
+                  {{ project.approach | safe }}
+                  {% endif %}
+
+                  {% if project.outcomes %}
+                  <h4>📱 Outcomes</h4>
+                  {{ project.outcomes | safe }}
+                  {% endif %}
+
+                  {% if project.why %}
+                  <h4>💡 Why This Matters</h4>
+                  {{ project.why | safe }}
+                  {% endif %}
+                </div>

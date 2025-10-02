@@ -20,7 +20,11 @@
   },
   "project": {
     "heading": "",
-    "brief": "<h4>Objective:</h4> <h4>Scope of Work:</h4><h4>Deliverables:</h4>"
+    "summary": "<p></p>",
+    "challenge": "<p></p><ul><li></li></ul>",
+    "approach": "<p></p><ul><li></li></ul>",
+    "outcomes": "<p></p><ul><li></li></ul>",
+    "why": "<p></p>"
   },
   "testimonial": {
     "quote": "",

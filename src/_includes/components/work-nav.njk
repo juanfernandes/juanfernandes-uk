@@ -2,7 +2,7 @@
 
                 <ul class="nav--portfolio__all">
                   <li>
-                    <a href="/work/" title="All Projects">
+                    <a href="{{ workRoot }}" title="All Projects">
                       <svg aria-hidden="true"><use xlink:href="#svg-dash" /></svg>
                     </a>
                   </li>
@@ -11,7 +11,7 @@
                 <ul class="nav--portfolio__controls">
                 {% if nav.previous %}
                   <li class="nav--portfolio__prev">
-                    <a href="/work/{{ nav.previous }}" data-direction="backwards" title="Previous Project">
+                    <a href="{{ workRoot }}{{ nav.previous }}" data-direction="backwards" title="Previous Project">
                       <svg aria-hidden="true"><use xlink:href="#svg-prev-arrow" /></svg>
                     </a>
                   </li>
@@ -22,7 +22,7 @@
                 {% endif %}
                 {% if nav.next %}
                   <li class="nav--portfolio__next">
-                    <a href="/work/{{ nav.next }}" title="Next Project" data-direction="forwards">
+                    <a href="{{ workRoot }}{{ nav.next }}" title="Next Project" data-direction="forwards">
                       <svg aria-hidden="true"><use xlink:href="#svg-nxt-arrow" /></svg>
                     </a>
                   </li>

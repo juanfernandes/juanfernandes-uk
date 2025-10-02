@@ -1,9 +1,9 @@
 ---
-workRoot: /work/
+workRoot: /work/nda/
 
 nav:
-  next: surbiton-tyre-wheel
-  previous: arrival-lifts
+  next: intelliflo/secure-messaging
+  previous: 
 ---
 
 {% extends 'layouts/base.njk' %}
@@ -17,7 +17,10 @@ nav:
               {% include 'components/work-nav.njk' %}
 
               <div class="grid-8-4 gap-4">
-              {% include 'components/work-brief.njk' %}
+                <div>
+                  <h3 class="project__sub-heading">📝 Brief</h3>
+                  {{ project.brief | safe }}
+                </div>
                 <div>
                   <h3 class="project__sub-heading">📑 Details</h3>
                   {% include 'components/work-meta.njk' %}
