@@ -6,6 +6,9 @@ keywords:
   - 11ty
   - instapaper
   - json
+intro:
+  heading:
+  subheading:
 customPostImg: "intro--code-img"
 date: 2025-08-20T10:00:00Z
 tags:

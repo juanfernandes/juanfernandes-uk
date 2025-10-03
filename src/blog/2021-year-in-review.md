@@ -6,6 +6,9 @@ keywords:
   - covid
   - "2021"
   - year in review
+intro:
+  heading:
+  subheading:
 customPostImg: "--post"
 date: 2022-02-06T00:00:00Z
 tags:

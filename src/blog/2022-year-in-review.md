@@ -5,6 +5,9 @@ description: "This year in review post has been really difficult to write (and w
 keywords:
   - "2022"
   - year in review
+intro:
+  heading:
+  subheading:
 customPostImg: "--post"
 date: 2023-08-14T00:00:00Z
 tags:

@@ -17,6 +17,9 @@ tags:
   - printful
   - stripe
   - ecommerce
+intro:
+  heading:
+  subheading:
 tweetId: "1934259977503355104"
 shareLink: "https://indieweb.social/@juanfernandes/114687901032102661"
 ---

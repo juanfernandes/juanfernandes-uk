@@ -8,6 +8,9 @@ keywords:
   - pandemic
   - year in review
   - "2020"
+intro:
+  heading:
+  subheading:
 date: 2021-02-05T00:00:00Z
 tags:
   - year-in-review

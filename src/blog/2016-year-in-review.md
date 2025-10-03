@@ -2,6 +2,9 @@
 layout: "post"
 title: "2016: Year in review"
 description: "My first ever year in review post, let's see how it went! 2016 was not a great year, in general for a lot of reasons"
+intro:
+  heading:
+  subheading:
 keywords:
   - personal
   - year-in-review

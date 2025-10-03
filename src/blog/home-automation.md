@@ -13,6 +13,9 @@ keywords:
   - vera
   - fibaro
   - aeotec
+intro:
+  heading:
+  subheading:
 date: 2019-02-28T20:34:55Z
 tags:
   - personal

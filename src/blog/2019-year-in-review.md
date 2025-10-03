@@ -20,6 +20,9 @@ keywords:
   - contract
   - front-end developer
   - freelance
+intro:
+  heading:
+  subheading:
 postImage: "/v1579162296/sun_sea.jpg"
 date: 2020-01-05T13:54:38Z
 tags:

@@ -8,6 +8,9 @@ keywords:
   - contracts
   - inside ir35 contract
   - outside ir35 contract
+intro:
+  heading:
+  subheading:
 date: 2021-04-26T23:00:00Z
 tweetId: '1386963102256832513'
 tags:

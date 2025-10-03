@@ -1,21 +1,22 @@
 ---
 layout: "post"
 title: "My Git Aliases"
-description: "Quick post to share my Git aliases. I love seeing other developers' aliases
-  - a lot of mine have been copied from others. So I thought I'd share mine - in the
-  hopes someone will find it useful."
+description: "Quick post to share my Git aliases. I love seeing other developers' aliases - a lot of mine have been copied from others. So I thought I'd share mine - in the hopes someone will find it useful."
 keywords:
-    - git
-    - alias
-    - aliases
-    - developer
-    - development
-    - bash
-    - fish
-    - bashrc
+  - git
+  - alias
+  - aliases
+  - developer
+  - development
+  - bash
+  - fish
+  - bashrc
+intro:
+  heading:
+  subheading:
 date: 2019-01-31T16:05:36Z
 tags:
-    - development
+  - development
 ---
 I use Git via the command line and have always used it that way ever since it was introduced at a company I worked at a few years ago.{.lead}
 

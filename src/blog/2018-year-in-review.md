@@ -21,6 +21,9 @@ keywords:
   - vue js
   - eleventy
   - static site generator
+intro:
+  heading:
+  subheading:
 postImage: "/v1579162296/bawdsey-2018.jpg"
 date: 2019-01-03T17:30:47Z
 tags:

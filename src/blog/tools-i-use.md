@@ -21,6 +21,9 @@ keywords:
   - franz
   - simplenote
   - oneplus 5t
+intro:
+  heading:
+  subheading:
 date: 2018-11-12T18:00:16Z
 tags:
   - personal

@@ -4,7 +4,8 @@
 <div class="intro intro--sml intro--post{% if customPostImg %} {{ customPostImg }}{% endif %}">
   <div class="intro__content">
     <h1 class="intro__heading">
-      <span class="intro__heading--large">{{ title }}</span>
+      <span class="intro__heading--large">{% if intro.heading %}{{ intro.heading }}{% else %}{{ title }}{% endif %}</span>
+      {{ intro.subheading }}
     </h1>
   </div>
 </div>
