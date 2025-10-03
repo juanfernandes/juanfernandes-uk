@@ -1,5 +1,17 @@
 [
   {
+    "title": "Going Buildless",
+    "url": "https://mxb.dev/blog/buildless/",
+    "content": "The year is 2005. You're blasting a pirated mp3 of \"Feel Good Inc\" and chugging vanilla coke while updating your website. It’s just a simple change, so you log…",
+    "date": "2025-10-03T11:36:11.000Z"
+  },
+  {
+    "title": "Basic keyboard shortcut support for focused links",
+    "url": "https://ericwbailey.website/published/basic-keyboard-shortcut-support-for-focused-links/",
+    "content": "This is one of those cases where circumstances at my job led to needing to document expected behavior in order to create “synthetic” links via JavaScript.…",
+    "date": "2025-10-03T11:27:32.000Z"
+  },
+  {
     "title": "UX Design Patterns - A Step-By-Step Guide - Digital Present",
     "url": "https://digitalpresent.io/ux-design-patterns/",
     "content": "UX design patents are elements that you can reuse and utilize to solve usability problems when designing the user experience of your website or app. Unlike UI…",
