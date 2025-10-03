@@ -15,24 +15,24 @@
   "tags": ["search"],
   "recentWork": [
     {
-      "link": "nftms",
+      "link": "so5-clothing/",
+      "img": "so5-recent",
+      "name": "SO5 Clothing"
+    },
+    {
+      "link": "bkmrks/",
+      "img": "bkmrks-recent",
+      "name": "BKMRKS"
+    },
+    {
+      "link": "nftms/",
       "img": "nftms-recent",
       "name": "NFT Merch Shop"
     },
     {
-      "link": "mcm",
+      "link": "mcm/",
       "img": "mcm-recent",
       "name": "Multi Creative Media"
-    },
-    {
-      "link": "neg",
-      "img": "neg-recent",
-      "name": "The National College"
-    },
-    {
-      "link": "surbiton-tyre-wheel",
-      "img": "surbiton-tyre-wheel-recent",
-      "name": "Surbiton Tyre and Wheel"
     }
   ],
   "workedWith": [
