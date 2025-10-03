@@ -5,8 +5,8 @@ description: "A behind-the-scenes look at how I built BKMRKS, a lightweight book
 intro:
   heading: Building BKMRKS
   subheading: Simple Bookmarks Manager
-keywords: bkmrks, bookmarks manager, self-hosted bookmarks, simple bookmarks app, build your own bookmarks manager, next.js project, juan fernandes blog, lightweight web app, personal project case study
-date: 2025-10-02T22:00:00Z
+keywords: "bkmrks, bookmarks manager, self-hosted bookmarks, simple bookmarks app, build your own bookmarks manager, next.js project, juan fernandes blog, lightweight web app, personal project case study"
+date: 2025-10-03T13:00:00Z
 tags:
   - Next.js
   - ReactJS

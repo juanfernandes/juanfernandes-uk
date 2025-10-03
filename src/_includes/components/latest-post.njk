@@ -5,7 +5,7 @@
               <div class="post">
                 <h2 class="section-heading">Blog</h2>
                 {% set post = collections.posts | last %}
-                <h3>{{ post.data.title }}</h3>
+                <h3>{% if post.data.intro.heading %}{{ post.data.intro.heading }}{% else %}{{ post.data.title }}{% endif %}</h3>
                 <time class="dt-published" datetime="{{ post.date | w3DateFilter }}">{{ post.date | dateFilter }}</time>
 
                 <p class="lead">{{ post.data.description }}</p>
