@@ -5,15 +5,14 @@ on:
     - cron: "0 0 * * *" # nightly
   push:
     branches: [ main ]
-    
+
   pull_request:
     branches: [ main ]
 
 jobs:
   # ----------------------------------------------------------
-  # Dry-run deploy preview on PRs (no changes on the server).
-  # Note: Secrets are not exposed to PRs from forks, so the
-  # SSH step is skipped unless the PR is from the same repo.
+  # Dry-run deploy preview on PRs (no server changes).
+  # Skips for forked PRs (no secrets available there anyway).
   # ----------------------------------------------------------
   deploy-dry-run:
     name: "11ty: Deploy (dry run on PR)"
@@ -64,9 +63,9 @@ jobs:
           git diff --name-only "$BEFORE" "${{ github.sha }}" > changed-files.txt || true
           echo "Changed files:"; cat changed-files.txt || true
 
-      # Skip Pixelfed on PRs to avoid side effects
+      # Skip for forked PRs (no secrets). No 'secrets' in if: expression.
       - name: Dry-run deploy (no server changes)
-        if: ${{ github.event.pull_request.head.repo.full_name == github.repository && secrets.CPANEL_SSH_KEY }}
+        if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
         uses: easingthemes/ssh-deploy@v5.0.3
         env:
           SSH_PRIVATE_KEY: ${{ secrets.CPANEL_SSH_KEY }}
@@ -76,7 +75,7 @@ jobs:
           REMOTE_USER: ${{ secrets.CPANEL_USER }}
           TARGET: ${{ secrets.CPANEL_TARGET }}
           EXCLUDE: ".git*, .github*, node_modules*, src*"
-          # -n / --dry-run previews changes; --delete shows which files would be removed
+          # Preview changes; show deletions too
           ARGS: "-rlgoDzvc -i --delete --dry-run"
 
       - uses: actions/cache/save@v4
@@ -132,7 +131,7 @@ jobs:
           set -e
           git fetch --prune --unshallow || true
           BEFORE="${{ github.event.before }}"
-          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+          if [ -z "$BEFORE" ] || [ "$BEORE" = "0000000000000000000000000000000000000000" ]; then
             BEFORE="$(git rev-parse HEAD~1)"
           fi
           echo "Diffing from $BEFORE to ${{ github.sha }}"
@@ -148,7 +147,8 @@ jobs:
         run: |
           set -e
           echo "Checking for changed photos…"
-          if grep -iE '^photos/content/photos/.*\.(jpe?g|png|webp)$' changed-files.txt >/dev/null 2>&1; then
+          # Match your repo path: src/photos/...
+          if grep -iE '^src/photos/content/photos/.*\.(jpe?g|png|webp)$' changed-files.txt >/dev/null 2>&1; then
             echo "Photos changed, running sync…"
             node src/assets/js/pixelfed-sync.js changed-files.txt
           else
