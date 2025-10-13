@@ -15,12 +15,6 @@
   "tags": ["search"],
   "ndaWorks": [
     {
-      "name": "New Website",
-      "client": "In-tend",
-      "img": "intend-web-project",
-      "link": "in-tend/new-website"
-    },
-    {
       "name": "Money Alive Integration",
       "client": "Intelliflo",
       "img": "ma-project",
