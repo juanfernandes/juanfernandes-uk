@@ -1,5 +1,11 @@
 [
   {
+    "title": "Creating reusable code",
+    "url": "https://gomakethings.com/creating-reusable-code/",
+    "content": "Daily Tips Something I’ve seeing more and more of with my clients is code that’s repeated in multiple places, but written in a way that it has to be manually…",
+    "date": "2025-10-09T12:39:08.000Z"
+  },
+  {
     "title": "Going Buildless",
     "url": "https://mxb.dev/blog/buildless/",
     "content": "The year is 2005. You're blasting a pirated mp3 of \"Feel Good Inc\" and chugging vanilla coke while updating your website. It’s just a simple change, so you log…",
