@@ -54,6 +54,7 @@ module.exports = function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy('README.md')
   eleventyConfig.addPassthroughCopy('src/assets/imgs')
+  eleventyConfig.addPassthroughCopy('src/now/images')
   eleventyConfig.addPassthroughCopy('src/assets/js')
   eleventyConfig.addPassthroughCopy('src/photos/content/photos')
   eleventyConfig.addPassthroughCopy('src/robots.txt')

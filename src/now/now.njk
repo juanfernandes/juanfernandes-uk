@@ -1,0 +1,35 @@
+
+<h2>Personal</h2>
+<ul>
+  <li>Finally finished putting the 8x8 shed together. Have moved all tools and DIY machines into it. I also built a workbench with storage and some storage shelving for garden tools etc.</li>
+</ul>
+
+<h2>Projects</h2>
+<ul>
+  <li>I've got a few projects on the go - but the one that's had my main focus is essentially a tool that scrapes the Companies House API for newly incorporated companies.</li>
+</ul>
+
+<h2>Watching</h2>
+<h3>Series</h3>
+<ul class="watchlist">
+{% for item in watching %}
+<li class="item">
+  <div class="item__image">
+    <img width="100" height="150" src="{{ item.img }}" alt="{{ item.name }}">
+  </div>
+  <div class="item__content">
+    <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
+    <p>{{ item.description }}</p>
+  </div>
+</li>
+{% endfor %}
+</ul>
+
+<h2>Reading</h2>
+
+<h3>Books</h3>
+<ul>
+  <li><a href="https://bookwyrm.social/book/73015/s/everythings-eventual">Everything's Eventual by Stephen King</a></li>
+</ul>
+
+<h3>Articles</h3>

@@ -2,7 +2,7 @@
 
 {% block main %}
 <div class="{{ class }}">
-  <div class="content" id="content">
+  <div class="content{% if page.url == "/now/" %} content--slim{% endif %}" id="content">
 
     {{ content | safe }}
 

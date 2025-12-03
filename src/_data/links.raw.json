@@ -1,5 +1,29 @@
 [
   {
+    "title": "Review your own git pull requests",
+    "url": "https://gomakethings.com/review-your-own-git-pull-requests/",
+    "content": "Daily Tips Last week, I wrote about my experience working with the team at Cloud Four, and in particular some of their great practices around PR management.…",
+    "date": "2025-11-17T10:22:00.000Z"
+  },
+  {
+    "title": "Styling External Links Using :has and an Attribute Selector",
+    "url": "https://tylergaw.com/blog/has-attribute-external-links/",
+    "content": "No doubt this has been written about before, but I used this approach yesterday and it’s cool so I’m writing about it too. Like any good website, I have a pile…",
+    "date": "2025-11-08T16:05:38.000Z"
+  },
+  {
+    "title": "Don’t be afraid of a long list of radio buttons (and why I broke this UX law)",
+    "url": "https://adamsilver.io/blog/dont-be-afraid-of-a-long-list-of-radio-buttons/",
+    "content": "19 May 2024 Last week I posted this on LinkedIn: I tell my students to avoid select boxes. Because it’s often better to go for radios. But they often say “But…",
+    "date": "2025-11-08T16:02:39.000Z"
+  },
+  {
+    "title": "Just use a button",
+    "url": "https://gomakethings.com/just-use-a-button/",
+    "content": "Daily Tips One of the weirdest “debates” I seem to perpetually have with framework-enthusiastic developers is whether or not a <div> is “just as good” as a…",
+    "date": "2025-11-03T22:36:53.000Z"
+  },
+  {
     "title": "Creating reusable code",
     "url": "https://gomakethings.com/creating-reusable-code/",
     "content": "Daily Tips Something I’ve seeing more and more of with my clients is code that’s repeated in multiple places, but written in a way that it has to be manually…",

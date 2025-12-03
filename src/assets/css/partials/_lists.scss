@@ -131,3 +131,23 @@ li p {
     }
   }
 }
+
+.watchlist {
+  .item {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      font-weight: 600;
+      font-size: 1.8rem;
+    }
+
+    p {
+      margin-top: 1rem;
+    }
+
+    img {
+      max-width: 100px;
+    }
+  }
+}

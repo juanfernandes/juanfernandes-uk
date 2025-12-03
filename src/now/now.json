@@ -1,0 +1,23 @@
+{
+  "title": "Now",
+  "description": "Read about what I'm currently up to",
+  "keywords": "now, freelance website designer, frontend developer, reading, watching, work",
+  "layout": "page",
+  "date": "2025-12-03T08:30:00Z",
+  "class": "now",
+  "intro": {
+    "class": "sml",
+    "heading": "Now",
+    "subheading": "What I'm currently up to"
+  },
+  "postImage": "v1579162295/trianglify.png",
+  "tags": ["now", "search"],
+  "watching": [
+    {
+      "link": "https://www.themoviedb.org/tv/70485-mr-mercedes",
+      "name": "Mr Mercedes",
+      "img": "images/mr-mercedes.jpg",
+      "description": "A demented serial killer taunts a retired police detective with a series of lurid letters and emails, forcing the ex-cop to undertake a private, and potentially felonious, crusade to bring the killer to justice before he can strike again."
+    }
+  ]
+}
