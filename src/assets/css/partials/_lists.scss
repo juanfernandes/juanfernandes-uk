@@ -117,6 +117,13 @@ li p {
   }
 }
 
+  .tag {
+    border-radius: 8px;
+    border: 1px solid var(--orange);
+    font-size: 1.4rem;
+    padding: 2px 6px;
+  }
+
 .tags-list {
   padding: 54px 0;
 }

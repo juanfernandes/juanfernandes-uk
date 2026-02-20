@@ -1,0 +1,38 @@
+---
+layout: page
+title: Albums
+bodyClass: music
+pagination:
+  data: lastfmRecent.weekTopAlbums
+  size: 50
+  alias: items
+permalink: "/music/albums/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+
+<div class="grid grid-9-3 gap-2">
+  <div>
+    <h2>All Albums (this week)</h2>
+
+    <nav>
+      <span>← <a href="/music/">Back to music</a></span>
+    </nav>
+
+    <ol start="{{ pagination.pageNumber * pagination.size + 1 }}">
+      {% for a in items %}
+        <li>{{ a.album }} - {{ a.artist }} · <span class="tag">{{ a.plays }} plays</span></li>
+      {% endfor %}
+    </ol>
+
+    {% include 'components/pagination.njk' %}
+  </div>
+
+  <div class="sidebar meta">
+    <h3 class="heading">This week</h3>
+    {% if lastfmRecent.weekSummary %}
+    <p>
+      I’ve listened to 
+      <strong>{{ lastfmRecent.weekSummary.albums }}</strong> albums this week.
+    </p>
+    {% endif %}
+  </div>
+</div>

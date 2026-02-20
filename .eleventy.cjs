@@ -14,10 +14,13 @@ const dateFilter = require('./src/_filters/date-filter.cjs')
 const w3DateFilter = require('./src/_filters/w3-date-filter.cjs')
 const searchIndex = require('./src/_filters/searchIndex.cjs')
 
+require('dotenv').config()
+
 const markdownLib = markdownIt({ html: true, breaks: true, linkify: true })
   .use(markdownItAttrs)
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addFilter('head', (arr, n = 10) => (arr || []).slice(0, n))
   eleventyConfig.setLibrary('md', markdownLib)
 
   // SCSS
