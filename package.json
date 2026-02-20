@@ -25,10 +25,11 @@
   "homepage": "https://www.juanfernandes.uk",
   "devDependencies": {
     "@11ty/eleventy": "latest",
+    "@11ty/eleventy-fetch": "^5.1.1",
     "@11ty/eleventy-plugin-rss": "latest",
     "@11ty/eleventy-plugin-syntaxhighlight": "latest",
     "check-html-links": "^0.2.4",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "lodash": "^4.17.21",
     "luxon": "^1.26.0",
     "node-fetch": "^2.6.1",
