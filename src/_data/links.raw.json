@@ -1,5 +1,11 @@
 [
   {
+    "title": "The :has() CSS pseudo-class",
+    "url": "https://gomakethings.com/the-has-css-pseudo-class/",
+    "content": "Daily Tips I finally got a chance to work with the :has() CSS pseudo-class as part of Kelp, my UI library for people who love HTML. Today, I wanted to quickly…",
+    "date": "2026-02-21T17:18:27.000Z"
+  },
+  {
     "title": "An aspect ratio CSS utility class",
     "url": "https://gomakethings.com/an-aspect-ratio-css-utility-class/",
     "content": "Daily Tips I’ve been full-steam ahead building a UI library for people who love HTML, powered by modern CSS and Web Components. I’ll be launching a proper…",

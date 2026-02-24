@@ -1,0 +1,50 @@
+---
+layout: page
+title: Music stats
+permalink: /music/stats/
+---
+
+<h1>Music stats</h1>
+
+<p><a href="/music/">← Back to music</a></p>
+
+<section>
+  <h2>All-time uniques</h2>
+
+  {% if musicAllTimeStats and musicAllTimeStats.updatedAt %}
+    <p>
+      <strong>{{ musicAllTimeStats.artists }}</strong> artists ·
+      <strong>{{ musicAllTimeStats.albums }}</strong> albums ·
+      <strong>{{ musicAllTimeStats.tracks }}</strong> tracks
+    </p>
+    <p><small>Last updated: {{ musicAllTimeStats.updatedAt }}</small></p>
+  {% else %}
+    <p>No all-time stats yet. Run the “music-alltime-stats” workflow once.</p>
+  {% endif %}
+</section>
+
+<section>
+  <h2>This week</h2>
+
+  {% if lastfmRecent and lastfmRecent.weekSummary %}
+    <p>
+      <strong>{{ lastfmRecent.weekSummary.artists }}</strong> artists ·
+      <strong>{{ lastfmRecent.weekSummary.albums }}</strong> albums ·
+      <strong>{{ lastfmRecent.weekSummary.tracks }}</strong> tracks
+    </p>
+
+    {% if lastfmRecent.weekSummary.genres and lastfmRecent.weekSummary.genres.length %}
+      <p>
+        <small>
+          Mostly: {{ lastfmRecent.weekSummary.genres | join(", ") }}
+        </small>
+      </p>
+    {% endif %}
+  {% else %}
+    {% if lastfmRecent and lastfmRecent.error %}
+      <p><strong>{{ lastfmRecent.error }}</strong></p>
+    {% else %}
+      <p>No weekly data available.</p>
+    {% endif %}
+  {% endif %}
+</section>

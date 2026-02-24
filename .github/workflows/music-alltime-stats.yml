@@ -1,0 +1,36 @@
+name: Update music all-time stats
+
+on:
+  schedule:
+    # Daily at 02:20 UTC (pick any time)
+    - cron: "20 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Update all-time stats JSON
+        run: node scripts/update-music-alltime-stats.cjs
+        env:
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_USER: ${{ secrets.LASTFM_USER }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/_data/musicAllTimeStats.json
+          git diff --staged --quiet || git commit -m "chore(music): update all-time stats"
+          git push
