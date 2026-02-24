@@ -14,24 +14,30 @@ permalink: "/music/artists/{% if pagination.pageNumber > 0 %}page/{{ pagination.
     <h2>All Artists (this week)</h2>
 
     <nav>
-      <span>← <a href="/music/">Back to music</a></span>
+      <div class="nav--inline">
+        <span>← <a href="/music/">Back to music</a></span>
+      </div>
     </nav>
 
-    <ol start="{{ pagination.pageNumber * pagination.size + 1 }}">
+    <ol class="music-list" start="{{ pagination.pageNumber * pagination.size + 1 }}">
       {% for a in items %}
-        <li>{{ a.name }} · <span class="tag">{{ a.plays }} plays</span></li>
+        <li class="list-item">{{ a.name }} · <span class="tag">{{ a.plays }} plays</span></li>
       {% endfor %}
     </ol>
-
     {% include 'components/pagination.njk' %}
   </div>
+  
   <div class="sidebar meta">
-    <h3 class="heading">This week</h3>
     {% if lastfmRecent.weekSummary %}
+    <h3 class="heading">This week</h3>
     <p>
       I’ve listened to 
       <strong>{{ lastfmRecent.weekSummary.artists }}</strong> artists this week.
     </p>
     {% endif %}
+    <h3 class="heading">All-time</h3>
+    <ul class="list-style-none">
+      <li><strong>{{ musicAllTimeStats.artists }}</strong> artists</li>
+    </ul>
   </div>
 </div>

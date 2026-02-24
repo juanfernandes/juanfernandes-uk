@@ -8,33 +8,35 @@ bodyClass: music
 {% block main %}
 <div class="container">
   <div class="content" id="content">
-    <p class="lead">This week's music listening...</p>
+    <p class="lead">I listen to a lot of music. It shapes my mood, my focus, and most of my late-night coding sessions. Some weeks it’s wall-to-wall metal, other weeks it’s stripped-back singer-songwriter. This page is a living snapshot of what’s been in rotation — and how that rotation evolves.</p>
+
     <div class="grid grid-9-3 gap-2">
       <div>
-        {% if lastfmRecent.error %}
-          <p><strong>{{ lastfmRecent.error }}</strong></p>
+      {% if lastfmRecent.error %}
 
-        {% else %}
+        <p><strong>{{ lastfmRecent.error }}</strong></p>
 
-          {% if lastfmRecent.nowPlaying %}
-            <section>
-              <h2>Now playing</h2>
-              <p>
-                <a href="{{ lastfmRecent.nowPlaying.url }}">{{ lastfmRecent.nowPlaying.name }}</a>
-                — {{ lastfmRecent.nowPlaying.artist["#text"] }}
-              </p>
-            </section>
-          {% endif %}
+       {% else %}
+
+        {% if lastfmRecent.nowPlaying %}
+        <section>
+          <h2>Now playing</h2>
+          <p>
+            <a href="{{ lastfmRecent.nowPlaying.url }}">{{ lastfmRecent.nowPlaying.name }}</a>
+            — {{ lastfmRecent.nowPlaying.artist["#text"] }}
+          </p>
+        </section>
+        {% endif %}
 
         <div class="grid-6-6">
           <section>
             <h2>Top 10 Tracks</h2>
-            <ol>
+            <ol class="music-list">
               {% for t in lastfmRecent.weekTopTracks | head(10) %}
-                <li>
-                  <span class="u-block">{{ t.name }} - {{ t.artist }}</span>
-                  <span class="tag">{{ t.plays }} plays</span>
-                </li>
+              <li class="list-item">
+                <span class="list-item-name">{{ t.name }} - {{ t.artist }}</span>
+                <span class="tag">{{ t.plays }} plays</span>
+              </li>
               {% endfor %}
             </ol>
             <span><a href="/music/tracks/">View all tracks</a> →</span>
@@ -42,13 +44,12 @@ bodyClass: music
 
           <section>
             <h2>Top 10 Artists</h2>
-
-            <ol>
+            <ol class="music-list">
               {% for a in lastfmRecent.weekTopArtists | head(10) %}
-                <li>
-                  <span class="u-block">{{ a.name }}</span>
-                  <span class="tag">{{ a.plays }} plays</span>
-                </li>
+              <li class="list-item">
+                <span class="list-item-name">{{ a.name }}</span>
+                <span class="tag">{{ a.plays }} plays</span>
+              </li>
               {% endfor %}
             </ol>
 
@@ -59,44 +60,52 @@ bodyClass: music
           <h2>Top 10 Albums</h2>
           <div class="music-grid">
             {% for a in lastfmRecent.weekTopAlbumsTop10 %}
-              <article class="music-card">
-                {% if a.image %}
-                  <img src="{{ a.image }}" alt="{{ a.album }} by {{ a.artist }}" loading="lazy">
+            <article class="music-card">
+              {% if a.image %}
+                <img class="music-card__img" src="{{ a.image }}" alt="{{ a.album }} by {{ a.artist }}" loading="lazy">
+              {% else %}
+                <div class="music-card__placeholder">♪</div>
+              {% endif %}
+
+              <h3 class="music-card__heading">
+                {% if a.url %}
+                  <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.album }}</a>
                 {% else %}
-                  <div class="music-placeholder">♪</div>
+                  {{ a.album }}
                 {% endif %}
+              </h3>
 
-                <h4>
-                  {% if a.url %}
-                    <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.album }}</a>
-                  {% else %}
-                    {{ a.album }}
-                  {% endif %}
-                </h4>
-
-                <span class="u-block">{{ a.artist }}</span>
+              <div class="music-card__meta">
+                <p>{{ a.artist }}</p>
                 <span class="tag">{{ a.plays }} plays</span>
-              </article>
+              </div>
+            </article>
             {% endfor %}
           </div>
 
           <span><a href="/music/albums/">View all albums</a> →</span>
         </section>
-
         {% endif %}
       </div>
       <div class="sidebar meta">
-        <h3 class="heading">This week</h3>
         {% if lastfmRecent.weekSummary %}
-          <p>
-            I’ve listened to 
-            <strong>{{ lastfmRecent.weekSummary.artists }}</strong> artists, 
-            <strong>{{ lastfmRecent.weekSummary.albums }}</strong> albums and 
-            <strong>{{ lastfmRecent.weekSummary.tracks }}</strong> tracks this week.
-            Most of that has been 
-            {{ lastfmRecent.weekSummary.genres | join(", ") }}.
-          </p>
+        <h3 class="heading">This week</h3>
+        <p>
+          I’ve listened to 
+          <strong>{{ lastfmRecent.weekSummary.artists }}</strong> artists, 
+          <strong>{{ lastfmRecent.weekSummary.albums }}</strong> albums and 
+          <strong>{{ lastfmRecent.weekSummary.tracks }}</strong> tracks this week.
+          Most of that has been 
+          {{ lastfmRecent.weekSummary.genres | join(", ") }}.
+        </p>
         {% endif %}
+
+        <h3 class="heading">All-time</h3>
+        <ul class="list-style-none">
+          <li><strong>{{ musicAllTimeStats.artists }}</strong> artists</li>
+          <li><strong>{{ musicAllTimeStats.albums }}</strong> albums</li>
+          <li><strong>{{ musicAllTimeStats.tracks }}</strong> tracks</li>
+        </ul>
       </div>
     </div>
   </div>
