@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
 
       - name: Update all-time stats JSON
-        run: node scripts/update-music-alltime-stats.cjs
+        run: node src/_data/update-music-alltime-stats.cjs
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
           LASTFM_USER: ${{ secrets.LASTFM_USER }}
