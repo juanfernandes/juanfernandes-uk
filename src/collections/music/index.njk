@@ -1,0 +1,66 @@
+---
+layout: page
+title: Music
+permalink: /collections/music/
+---
+
+<h2>The Collection</h2>
+<p>
+  <strong>{{ music.stats.total }}</strong> items ·
+  <strong>{{ music.stats.vinylCount }}</strong> vinyl ·
+  <strong>{{ music.stats.cdCount }}</strong> CDs
+</p>
+
+{% if music.folders and music.folders.length %}
+  <p>
+    <strong>Folders:</strong>
+    {% for f in music.folders %}
+      <a href="#folder-{{ f | slug }}">{{ f }}</a>{% if not loop.last %} · {% endif %}
+    {% endfor %}
+  </p>
+{% endif %}
+
+{% for folder, items in music.byFolder %}
+  <h3 id="folder-{{ folder | slug }}">{{ folder }}</h3>
+
+  <div class="music-grid">
+    {% for r in items %}
+      <article class="music-card">
+        <div class="music-thumb">
+          {% if r.cover %}
+            {% if r.url %}<a href="{{ r.url }}" aria-label="{{ r.artist }} — {{ r.title }}" target="_blank">{% endif %}
+              <img src="{{ r.cover }}" alt="{{ r.artist }} — {{ r.title }}" loading="lazy">
+            {% if r.url %}</a>{% endif %}
+          {% else %}
+            <span class="music-meta">No cover</span>
+          {% endif %}
+        </div>
+
+        <div class="music-body">
+          <p class="music-title">
+            {% if r.url %}
+              <a href="{{ r.url }}" target="_blank">{{ r.artist }} — {{ r.title }}</a>
+            {% else %}
+              {{ r.artist }} — {{ r.title }}
+            {% endif %}
+          </p>
+
+          <p class="music-meta">
+            {% if r.year %}{{ r.year }}{% endif %}
+            {% if r.label %}{% if r.year %} · {% endif %}{{ r.label }}{% endif %}
+          </p>
+
+          {% if r.format %}
+            <p class="music-meta">{{ r.format }}</p>
+          {% endif %}
+
+          <span class="badge">{{ r.media }}</span>
+
+          {% if r.notes %}
+            <p class="music-meta">{{ r.notes }}</p>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+{% endfor %}

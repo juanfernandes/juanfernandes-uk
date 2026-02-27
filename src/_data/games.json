@@ -1,12 +1,26 @@
 {
   "items": [
     {
-      "name": "The Legend of Zelda: Tears of the Kingdom",
-      "platform": "Switch",
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "platform": "Nintendo Switch",
       "status": "owned",
       "playStatus": "completed",
       "acquiredOn": "2023-05-12",
-      "notes": ""
+      "releaseYear": 2023,
+      "notes": "",
+      "url": "",
+      "cover": ""
+    },
+    {
+      "title": "Elden Ring",
+      "platform": "PlayStation 5",
+      "status": "wanted",
+      "playStatus": "unplayed",
+      "acquiredOn": "",
+      "releaseYear": 2022,
+      "notes": "",
+      "url": "",
+      "cover": ""
     }
   ]
 }
