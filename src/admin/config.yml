@@ -53,7 +53,7 @@ collections:
               - label: "Artists"
                 name: "artists"
                 widget: "list"
-                field: { label: "Artist", name: "artist", widget: "string" }
+                field: { label: "Artist", name: "value", widget: "string" }
               - { label: "Venue", name: "venue", widget: "string", required: false }
               - { label: "City", name: "city", widget: "string", required: false }
               - { label: "Country", name: "country", widget: "string", required: false }
@@ -65,3 +65,76 @@ collections:
                 fields:
                   - { label: "Setlist.fm", name: "setlistFm", widget: "string", required: false }
                   - { label: "Tickets", name: "tickets", widget: "string", required: false }
+
+  - name: "lego"
+    label: "LEGO"
+    files:
+      - name: "lego"
+        label: "LEGO collection (lego.json)"
+        file: "src/_data/lego.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.status}} — {{fields.setNumber}} — {{fields.name}}"
+            fields:
+              - { label: "Status", name: "status", widget: "select", options: ["owned", "wanted"], default: "owned" }
+              - { label: "Set number", name: "setNumber", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Theme", name: "theme", widget: "string" }
+              - { label: "Subtheme", name: "subtheme", widget: "string", required: false }
+              - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+              - { label: "Pieces", name: "pieces", widget: "number", value_type: "int", required: false }
+              - { label: "Built", name: "built", widget: "boolean", required: false, default: false }
+              - { label: "Acquired on", name: "acquiredOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false, required: false }
+              - { label: "Image URL", name: "image", widget: "string", required: false }
+              - { label: "Link URL", name: "url", widget: "string", required: false }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+
+  - name: "games"
+    label: "Games"
+    files:
+      - name: "games"
+        label: "Games collection (games.json)"
+        file: "src/_data/games.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.status}} — {{fields.platform}} — {{fields.title}}"
+            fields:
+              - { label: "Status", name: "status", widget: "select", options: ["owned", "wanted"], default: "owned" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Platform", name: "platform", widget: "string", default: "PC", required: true }
+              - { label: "Play status", name: "playStatus", widget: "select", options: ["unplayed", "playing", "completed", "abandoned", "wishlist"], default: "unplayed", required: false }
+              - { label: "Release year", name: "releaseYear", widget: "number", value_type: "int", required: false }
+              - { label: "Acquired on", name: "acquiredOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false, required: false }
+              - { label: "Cover URL", name: "cover", widget: "string", required: false }
+              - { label: "Link URL", name: "url", widget: "string", required: false }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
+
+  - name: "music"
+    label: "Music"
+    files:
+      - name: "music"
+        label: "Music collection (music.json)"
+        file: "src/_data/music.json"
+        format: "json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.media}} — {{fields.folder}} — {{fields.artist}} — {{fields.title}}"
+            fields:
+              - { label: "Media", name: "media", widget: "select", options: ["vinyl", "cd"], default: "vinyl" }
+              - { label: "Folder", name: "folder", widget: "string", required: true }
+              - { label: "Artist", name: "artist", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Label", name: "label", widget: "string", required: false }
+              - { label: "Format", name: "format", widget: "string", required: false }
+              - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+              - { label: "Discogs URL", name: "url", widget: "string", required: false }
+              - { label: "Cover URL", name: "cover", widget: "string", required: false }
+              - { label: "Notes", name: "notes", widget: "text", required: false }
