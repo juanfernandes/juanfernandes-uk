@@ -1,0 +1,8 @@
+{% if years and years.length %}
+  <p>
+    Years:
+    {% for y in years %}
+      <a href="{{ base }}/year/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
+    {% endfor %}
+  </p>
+{% endif %}

@@ -1,0 +1,9 @@
+{
+  "entries": [
+    { "type": "movie", "tmdbId": 603, "watchedOn": "2026-02-20", "rating": 4.5, "rewatch": false },
+    { "type": "movie", "tmdbId": 603, "watchedOn": "2026-02-20", "rating": 4.5, "rewatch": false },
+
+    { "type": "tv", "tmdbId": 1396, "watchedOn": "2026-02-18", "season": 1, "episode": 1, "rating": 5 },
+    { "type": "tv", "tmdbId": 1396, "watchedOn": "2026-02-19", "season": 1, "episode": 2 }
+  ]
+}

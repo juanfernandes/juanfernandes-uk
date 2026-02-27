@@ -1,0 +1,23 @@
+---
+layout: page
+title: TV (episodes)
+permalink: /logs/watching/tv/
+---
+
+<h1>TV (episodes)</h1>
+
+<p>
+  Years:
+  {% for y in watch.years %}
+    {% if watch.tvByYear[y] %}<a href="/logs/watching/tv/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}{% endif %}
+  {% endfor %}
+</p>
+
+<div class="media-grid">
+  {% for ep in watch.tvEpisodes %}
+    {% set item = ep %}
+    {% include "partials/media-card.njk" %}
+  {% endfor %}
+</div>
+
+{% include "components/tmdb-attribution.njk" %}

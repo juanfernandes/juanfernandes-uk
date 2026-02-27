@@ -1,0 +1,112 @@
+---
+layout: page
+title: Logs
+permalink: /logs/
+---
+
+<h1>Logs</h1>
+
+<nav class="logs-nav" aria-label="Log sections">
+  <ul>
+    <li><a href="/logs/listening/">Listening</a></li>
+    <li><a href="/logs/watching/">Watching</a></li>
+    <li><a href="/logs/reading/">Reading</a></li>
+    <li><a href="/logs/concerts/">Concerts</a></li>
+  </ul>
+</nav>
+
+{% set latestFilm = watch.movies[0] %}
+{% set latestEp = watch.tvEpisodes[0] %}
+{% set latestGig = concerts.entries[0] %}
+
+<div class="logs-dashboard">
+  <section class="logs-card">
+    <h2><a href="/logs/watching/">Watching</a></h2>
+
+    <p class="logs-kpis">
+      <span><strong>{{ watch.stats.totalMovies }}</strong> films</span>
+      <span>·</span>
+      <span><strong>{{ watch.stats.totalEpisodes }}</strong> episodes</span>
+      <span>·</span>
+      <span><strong>{{ watch.stats.totalShows }}</strong> shows</span>
+    </p>
+
+    <div class="logs-latest">
+      <h3>Latest film</h3>
+      {% if latestFilm %}
+        <p>
+          <a href="{{ latestFilm.tmdbUrl }}">{{ latestFilm.title }}</a>
+          <span class="logs-muted">— {{ latestFilm.watchedOn }}</span>
+          {% if latestFilm.rating %}<span class="logs-muted"> · ★ {{ latestFilm.rating }}/5</span>{% endif %}
+        </p>
+      {% else %}
+        <p class="logs-muted">No films logged yet.</p>
+      {% endif %}
+    </div>
+
+    <div class="logs-latest">
+      <h3>Latest TV episode</h3>
+      {% if latestEp %}
+        <p>
+          <a href="{{ latestEp.tmdbUrl }}">{{ latestEp.show }}</a>
+          <span class="logs-muted">— S{{ latestEp.season }}E{{ latestEp.episode }} — {{ latestEp.watchedOn }}</span>
+          {% if latestEp.rating %}<span class="logs-muted"> · ★ {{ latestEp.rating }}/5</span>{% endif %}
+        </p>
+      {% else %}
+        <p class="logs-muted">No TV episodes logged yet.</p>
+      {% endif %}
+    </div>
+
+    <p class="logs-links">
+      <a href="/logs/watching/films/">Browse films</a>
+      <span class="logs-muted">·</span>
+      <a href="/logs/watching/tv/">Browse TV</a>
+    </p>
+  </section>
+
+  <section class="logs-card">
+    <h2><a href="/logs/concerts/">Concerts</a></h2>
+
+    <p class="logs-kpis">
+      <span><strong>{{ concerts.stats.totalConcerts }}</strong> gigs</span>
+      <span>·</span>
+      <span><strong>{{ concerts.stats.totalArtists }}</strong> artists</span>
+      <span>·</span>
+      <span><strong>{{ concerts.stats.totalVenues }}</strong> venues</span>
+    </p>
+
+    <div class="logs-latest">
+      <h3>Most recent gig</h3>
+      {% if latestGig %}
+        <p>
+          <span class="logs-muted">{{ latestGig.date }} —</span>
+          <strong>{{ latestGig.artists | join(", ") }}</strong>
+          <span class="logs-muted">— {{ latestGig.venue }}{% if latestGig.city %}, {{ latestGig.city }}{% endif %}</span>
+        </p>
+        {% if latestGig.links and latestGig.links.setlistFm %}
+          <p class="logs-links"><a href="{{ latestGig.links.setlistFm }}">Setlist</a></p>
+        {% endif %}
+      {% else %}
+        <p class="logs-muted">No concerts logged yet.</p>
+      {% endif %}
+    </div>
+
+    {% if concerts.years and concerts.years.length %}
+      <p class="logs-years">
+        {% for y in concerts.years %}
+          <a href="/logs/concerts/year/{{ y }}/">{{ y }}</a>{% if not loop.last %}<span class="logs-muted"> · </span>{% endif %}
+        {% endfor %}
+      </p>
+    {% endif %}
+  </section>
+
+  <section class="logs-card">
+    <h2><a href="/logs/listening/">Listening</a></h2>
+    <p class="logs-muted">Next: add “latest track” + month stats.</p>
+  </section>
+
+  <section class="logs-card">
+    <h2><a href="/logs/reading/">Reading</a></h2>
+    <p class="logs-muted">Next: add “currently reading” + “last finished”.</p>
+  </section>
+</div>

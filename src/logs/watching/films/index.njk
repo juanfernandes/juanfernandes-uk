@@ -1,0 +1,23 @@
+---
+layout: page
+title: Films
+permalink: /logs/watching/films/
+---
+
+<h1>Films</h1>
+
+<p>
+  Years:
+  {% for y in watch.years %}
+    {% if watch.moviesByYear[y] %}<a href="/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}{% endif %}
+  {% endfor %}
+</p>
+
+<div class="media-grid">
+  {% for film in watch.movies %}
+    {% set item = film %}
+    {% include "partials/media-card.njk" %}
+  {% endfor %}
+</div>
+
+{% include "components/tmdb-attribution.njk" %}

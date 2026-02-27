@@ -1,0 +1,20 @@
+---
+layout: page
+pagination:
+  data: concerts.years
+  size: 1
+  alias: year
+permalink: "/logs/concerts/year/{{ year }}/"
+title: "Concerts — {{ year }}"
+---
+
+<h1>Concerts — {{ year }}</h1>
+
+<ul>
+  {% for gig in (concerts.byYear[year] or []) %}
+    <li>
+      {{ gig.date }} — <strong>{{ gig.artists | join(", ") }}</strong>
+      — {{ gig.venue }}, {{ gig.city }}
+    </li>
+  {% endfor %}
+</ul>
