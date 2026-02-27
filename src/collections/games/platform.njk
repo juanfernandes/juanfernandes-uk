@@ -1,0 +1,17 @@
+---
+layout: page
+pagination:
+  data: games.platforms
+  size: 1
+  alias: platform
+permalink: "/collections/games/platform/{{ platform | slug }}/"
+title: "Games — {{ platform }}"
+---
+
+<h1>Games — {{ platform }}</h1>
+
+<ul>
+  {% for item in games.byPlatform[platform] %}
+    <li>{{ item.name }} — {{ item.playStatus }} ({{ item.status }})</li>
+  {% endfor %}
+</ul>

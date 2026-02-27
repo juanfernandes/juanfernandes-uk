@@ -1,0 +1,24 @@
+---
+layout: page
+pagination:
+  data: watch.years
+  size: 1
+  alias: year
+permalink: "/logs/watching/tv/{{ year }}/"
+title: "TV — {{ year }}"
+---
+
+<h1>TV — {{ year }}</h1>
+
+<ul>
+  {% for ep in (watch.tvByYear[year] or []) %}
+    <li>
+      <a href="{{ ep.tmdbUrl }}">{{ ep.show }}</a>
+      — S{{ ep.season }}E{{ ep.episode }}
+      — {{ ep.watchedOn }}
+      {% if ep.rating %} — {{ ep.rating }}/5{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+{% include "components/tmdb-attribution.njk" %}

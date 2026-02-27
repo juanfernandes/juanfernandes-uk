@@ -1,0 +1,67 @@
+backend:
+  name: github
+  repo: juanfernandes/juanfernandes-uk
+  branch: main
+
+media_folder: "src/assets/uploads"
+public_folder: "/assets/uploads"
+
+media_library:
+  name: uploadcare
+  config:
+    publicKey: demopublickey
+
+publish_mode: simple
+
+collections:
+  - name: "watchlog"
+    label: "Watch Log"
+    files:
+      - name: "watchlog"
+        label: "watchlog.json"
+        file: "src/_data/watchlog.json"
+        format: "json"
+        fields:
+          - label: "Entries"
+            name: "entries"
+            widget: "list"
+            summary: "{{fields.type}} — {{fields.tmdbId}} — {{fields.watchedOn}}"
+            fields:
+              - { label: "Type", name: "type", widget: "select", options: ["movie", "tv"] }
+              - { label: "TMDb ID", name: "tmdbId", widget: "number", value_type: "int" }
+              - { label: "Watched on", name: "watchedOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+              - { label: "Rating (0-5)", name: "rating", widget: "number", required: false, value_type: "float", min: 0, max: 5, step: 0.5 }
+              - { label: "Rewatch", name: "rewatch", widget: "boolean", required: false, default: false }
+              - { label: "Season (TV)", name: "season", widget: "number", required: false, value_type: "int", min: 1 }
+              - { label: "Episode (TV)", name: "episode", widget: "number", required: false, value_type: "int", min: 1 }
+              - { label: "Notes", name: "notes", widget: "string", required: false }
+
+  - name: "concerts"
+    label: "Concerts"
+    files:
+      - name: "concerts"
+        label: "concerts.json"
+        file: "src/_data/concerts.json"
+        format: "json"
+        fields:
+          - label: "Entries"
+            name: "entries"
+            widget: "list"
+            summary: "{{fields.date}} — {{fields.artists}} — {{fields.venue}}"
+            fields:
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+              - label: "Artists"
+                name: "artists"
+                widget: "list"
+                field: { label: "Artist", name: "artist", widget: "string" }
+              - { label: "Venue", name: "venue", widget: "string", required: false }
+              - { label: "City", name: "city", widget: "string", required: false }
+              - { label: "Country", name: "country", widget: "string", required: false }
+              - { label: "Notes", name: "notes", widget: "string", required: false }
+              - label: "Links"
+                name: "links"
+                widget: "object"
+                required: false
+                fields:
+                  - { label: "Setlist.fm", name: "setlistFm", widget: "string", required: false }
+                  - { label: "Tickets", name: "tickets", widget: "string", required: false }

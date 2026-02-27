@@ -1728,3 +1728,81 @@ footer > .container > .sixteen {
     width: 100%;
   }
 }
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.5rem;
+}
+
+.media-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+/* Logs Dashboard */
+
+.logs-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1rem;
+  padding: 0;
+  margin: 0 0 1.5rem;
+  list-style: none;
+}
+
+.logs-nav a {
+  text-decoration: none;
+}
+
+.logs-dashboard {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 780px) {
+  .logs-dashboard {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.logs-card {
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 12px;
+  padding: 1rem;
+  background: rgba(255,255,255,.6);
+}
+
+.logs-card h2 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 1.15rem;
+}
+
+.logs-card h2 a {
+  text-decoration: none;
+}
+
+.logs-kpis {
+  margin: 0 0 1rem;
+  line-height: 1.4;
+}
+
+.logs-latest h3 {
+  margin: 1rem 0 .35rem;
+  font-size: .95rem;
+}
+
+.logs-latest p {
+  margin: 0;
+}
+
+.logs-links,
+.logs-years {
+  margin: 1rem 0 0;
+}
+
+.logs-muted {
+  opacity: .75;
+}
