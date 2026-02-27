@@ -24,21 +24,68 @@ function lastfmUrl(method, params = {}) {
   return url.toString();
 }
 
-async function fetchJson(url) {
-  const res = await fetch(url, {
-    headers: { "User-Agent": "juanfernandes.uk (all-time stats)" }
-  });
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  return res.json();
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+function isRetryableStatus(status) {
+  return status === 429 || (status >= 500 && status <= 599);
+}
+
+/**
+ * Fetch JSON with retries + exponential backoff.
+ * Last.fm can throw intermittent 500s on deep pages.
+ */
+async function fetchJson(url, { retries = 6, baseDelayMs = 600 } = {}) {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const res = await fetch(url, {
+      headers: { "User-Agent": "juanfernandes.uk (all-time stats)" }
+    });
+
+    if (res.ok) return res.json();
+
+    const status = res.status;
+
+    // Try to capture a small snippet for debugging (don’t spam logs)
+    let snippet = "";
+    try {
+      snippet = (await res.text()).slice(0, 200);
+    } catch {}
+
+    const retryable = isRetryableStatus(status);
+    const lastAttempt = attempt === retries;
+
+    if (!retryable || lastAttempt) {
+      throw new Error(`HTTP ${status} for ${url}${snippet ? `\n${snippet}` : ""}`);
+    }
+
+    const jitter = Math.floor(Math.random() * 250);
+    const delay = baseDelayMs * Math.pow(2, attempt) + jitter;
+
+    console.log(
+      `[lastfm] HTTP ${status} (attempt ${attempt + 1}/${retries + 1}) — retrying in ${delay}ms`
+    );
+    await sleep(delay);
+  }
+
+  throw new Error(`Exhausted retries for ${url}`);
 }
 
 async function countAllPages({ method, listPath, attrPath }) {
   // listPath: e.g. ["toptracks","track"]
   // attrPath: e.g. ["toptracks","@attr"]
-  const limit = 1000; // Last.fm supports limits; if they cap lower, it'll still work.
+
+  // 1000 can work, but big payloads + rapid paging increases 500s.
+  // 500 is a good compromise; adjust if you want.
+  const limit = 500;
+
   let page = 1;
   let totalPages = 1;
   let totalCount = 0;
+
+  // If Last.fm is flaky mid-run, stop early rather than failing the whole build.
+  let failures = 0;
+  const MAX_FAILURES = 2;
 
   while (page <= totalPages) {
     const url = lastfmUrl(method, {
@@ -48,7 +95,23 @@ async function countAllPages({ method, listPath, attrPath }) {
       page
     });
 
-    const data = await fetchJson(url);
+    let data;
+    try {
+      data = await fetchJson(url);
+      failures = 0;
+    } catch (err) {
+      failures += 1;
+      console.error(`[lastfm] Failed page ${page}/${totalPages} for ${method}: ${err.message}`);
+
+      if (failures >= MAX_FAILURES) {
+        console.error(`[lastfm] Too many failures. Stopping early at page ${page}.`);
+        break;
+      }
+
+      // brief pause before trying next loop iteration (or you could retry same page)
+      await sleep(1500);
+      continue;
+    }
 
     // Read list
     let list = data;
@@ -63,8 +126,8 @@ async function countAllPages({ method, listPath, attrPath }) {
     totalCount += items.length;
     page += 1;
 
-    // Small delay to be polite / reduce chance of rate limiting
-    await new Promise((r) => setTimeout(r, 150));
+    // Polite pacing (also reduces intermittent 500s)
+    await sleep(350);
   }
 
   return totalCount;
