@@ -1,0 +1,26 @@
+<article class="media-card">
+  {% if item.posterPath %}
+    <a href="{{ item.tmdbUrl }}">
+      <img
+        src="https://image.tmdb.org/t/p/w342{{ item.posterPath }}"
+        alt="{{ item.title or item.show }}"
+        loading="lazy"
+      />
+    </a>
+  {% endif %}
+
+  <div class="media-card__body">
+    <h3 class="media-card__title">
+      <a href="{{ item.tmdbUrl }}">{{ item.title or item.show }}</a>
+    </h3>
+
+    {% if item.season %}
+      <p class="media-card__meta">S{{ item.season }}E{{ item.episode }}</p>
+    {% endif %}
+
+    <p class="media-card__meta">
+      {{ item.watchedOn }}
+      {% if item.rating %} · ★ {{ item.rating }}/5{% endif %}
+    </p>
+  </div>
+</article>

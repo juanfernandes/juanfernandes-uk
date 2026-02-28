@@ -1,0 +1,132 @@
+---
+layout: page
+title: Games
+permalink: /collections/games/
+---
+
+<h1>Games collection</h1>
+
+<p>
+  <strong>{{ games.stats.ownedCount }}</strong> owned ·
+  <strong>{{ games.stats.wantedCount }}</strong> wanted ·
+  <strong>{{ games.stats.platformsCount }}</strong> platforms ·
+  <strong>{{ games.stats.playingCount }}</strong> playing ·
+  <strong>{{ games.stats.unplayedCount }}</strong> unplayed ·
+  <strong>{{ games.stats.completedCount }}</strong> completed
+</p>
+
+<style>
+  .platform-nav { margin: 1rem 0 2rem; line-height: 1.8; }
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0 2rem;
+  }
+  .game-card {
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .game-thumb {
+    aspect-ratio: 16 / 9;
+    background: rgba(0,0,0,.06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .game-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .game-body { padding: 0.85rem 0.9rem; }
+  .game-title { margin: 0 0 0.35rem; font-weight: 700; line-height: 1.25; }
+  .game-meta { margin: 0; font-size: 0.95rem; opacity: 0.85; }
+  .game-badges { margin-top: 0.6rem; display:flex; flex-wrap:wrap; gap:0.4rem; }
+  .badge {
+    font-size: 0.85rem;
+    padding: 0.15rem 0.45rem;
+    border: 1px solid rgba(0,0,0,.18);
+    border-radius: 999px;
+    opacity: 0.9;
+    white-space: nowrap;
+    text-transform: capitalize;
+  }
+</style>
+
+<h2>Owned</h2>
+
+{% if games.platforms and games.platforms.length %}
+  <div class="platform-nav">
+    <strong>Platforms:</strong>
+    {% for p in games.platforms %}
+      <a href="#platform-{{ p | slug }}">{{ p }}</a>{% if not loop.last %} · {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% for platform, items in games.byPlatform %}
+  <h3 id="platform-{{ platform | slug }}">{{ platform }}</h3>
+
+  <div class="games-grid">
+    {% for g in items %}
+      <article class="game-card">
+        <div class="game-thumb">
+          {% if g.cover %}
+            {% if g.url %}<a href="{{ g.url }}" aria-label="{{ g.title }}">{% endif %}
+              <img src="{{ g.cover }}" alt="{{ g.title }} cover" loading="lazy">
+            {% if g.url %}</a>{% endif %}
+          {% else %}
+            <span class="game-meta">No cover</span>
+          {% endif %}
+        </div>
+
+        <div class="game-body">
+          <p class="game-title">
+            {% if g.url %}
+              <a href="{{ g.url }}">{{ g.title }}</a>
+            {% else %}
+              {{ g.title }}
+            {% endif %}
+          </p>
+
+          <p class="game-meta">
+            {% if g.releaseYear %}{{ g.releaseYear }}{% endif %}
+          </p>
+
+          <div class="game-badges">
+            <span class="badge">{{ g.playStatus }}</span>
+          </div>
+
+          {% if g.notes %}
+            <p class="game-meta" style="margin-top:.6rem">{{ g.notes }}</p>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+{% endfor %}
+
+<h2>Wanted</h2>
+
+{% if games.wanted.length == 0 %}
+  <p>Nothing on the wanted list right now.</p>
+{% endif %}
+
+{% if games.platformsWanted and games.platformsWanted.length %}
+  <div class="platform-nav">
+    <strong>Platforms:</strong>
+    {% for p in games.platformsWanted %}
+      <a href="#platform-wanted-{{ p | slug }}">{{ p }}</a>{% if not loop.last %} · {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% for platform, items in games.byPlatformWanted %}
+  <h3 id="platform-wanted-{{ platform | slug }}">{{ platform }}</h3>
+  <ul>
+    {% for g in items %}
+      <li>
+        {% if g.url %}<a href="{{ g.url }}">{{ g.title }}</a>{% else %}{{ g.title }}{% endif %}
+        {% if g.releaseYear %} ({{ g.releaseYear }}){% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+{% endfor %}

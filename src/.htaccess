@@ -889,3 +889,7 @@ FileETag None
 </IfModule>
 
 RewriteRule ^notes\/changelog\-colophon\-chnagelog\/$ "https\:\/\/www\.juanfernandes\.uk\/notes\/changelog\-colophon\-changelog\/" [R=301,L]
+
+Redirect 301 /music/ /logs/listening/
+Redirect 301 /books/ /logs/reading/
+Redirect 301 /watch/ /logs/watching/

@@ -1,0 +1,52 @@
+---
+layout: page
+title: Watch log
+permalink: /logs/watching/
+---
+
+<h1>Watch log</h1>
+
+<p><a href="/logs/watching/films/">Films</a> · <a href="/logs/watching/tv/">TV</a></p>
+
+<p>
+  {{ watch.stats.totalMovies }} films · 
+  {{ watch.stats.totalEpisodes }} episodes · 
+  {{ watch.stats.totalShows }} shows
+</p>
+
+<h2>Films</h2>
+<p>
+  Browse:
+  {% for y in watch.years %}
+    {% if watch.moviesByYear[y] %}<a href="/watching/films/{{ y }}/">{{ y }}</a> {% endif %}
+  {% endfor %}
+</p>
+<ul>
+  {% for item in watch.movies | slice(0, 12) %}
+    <li>
+      <a href="{{ item.tmdbUrl }}">{{ item.title }}</a>
+      — {{ item.watchedOn }}
+      {% if item.rating %} — {{ item.rating }}/5{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>TV (episodes)</h2>
+<p>
+  Browse:
+  {% for y in watch.years %}
+    {% if watch.tvByYear[y] %}<a href="/logs/watching/tv/{{ y }}/">{{ y }}</a> {% endif %}
+  {% endfor %}
+</p>
+<ul>
+  {% for ep in watch.tvEpisodes | slice(0, 12) %}
+    <li>
+      <a href="{{ ep.tmdbUrl }}">{{ ep.show }}</a>
+      — S{{ ep.season }}E{{ ep.episode }}
+      — {{ ep.watchedOn }}
+      {% if ep.rating %} — {{ ep.rating }}/5{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+{% include "components/tmdb-attribution.njk" %}

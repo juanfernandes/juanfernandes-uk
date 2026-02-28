@@ -1,0 +1,23 @@
+---
+layout: page
+pagination:
+  data: watch.years
+  size: 1
+  alias: year
+permalink: "/logs/watching/films/{{ year }}/"
+title: "Films — {{ year }}"
+---
+
+<h1>Films — {{ year }}</h1>
+
+<ul>
+  {% for item in (watch.moviesByYear[year] or []) %}
+    <li>
+      <a href="{{ item.tmdbUrl }}">{{ item.title }}</a>
+      — {{ item.watchedOn }}
+      {% if item.rating %} — {{ item.rating }}/5{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+{% include "components/tmdb-attribution.njk" %}
