@@ -20,6 +20,15 @@
       "venue": "Utilita Arena Birmingham",
       "city": "Birmingham",
       "country": "UK"
+    },
+    {
+      "artists": [
+        "Wu Tang Clan & NAS"
+      ],
+      "date": "2026-02-28",
+      "venue": "OVO Hydeo",
+      "city": "Glasgow",
+      "country": "UK"
     }
   ]
 }
