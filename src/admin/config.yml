@@ -3,6 +3,12 @@ backend:
   repo: juanfernandes/juanfernandes-uk
   branch: main
 
+site_url: https://www.juanfernandes.uk
+
+logo:
+  src: https://www.juanfernandes.uk/assets/imgs/logo.svg
+  show_in_header: true
+
 media_folder: "src/assets/uploads"
 public_folder: "/assets/uploads"
 
