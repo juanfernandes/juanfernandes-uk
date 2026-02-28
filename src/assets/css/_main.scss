@@ -1711,19 +1711,25 @@ footer > .container > .sixteen {
 
   .music-card__img {
     aspect-ratio: 1 / 1;
-    border-radius: 8px;
+    border-radius: 8px 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     object-fit: cover;
     width: 100%;
   }
   .music-card__heading {
-    line-height: 1.2;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  .music-card__heading,
+  .music-card__meta {
+    padding: 1rem;
   }
   .music-card__placeholder {
     align-items: center;
     aspect-ratio: 1 / 1;
-    background: #111;
-    border-radius: 8px;
-    color: #fff;
+    background: var(--off-black);
+    border-radius: 8px 0 0;
+    color: var(--white);
     display: flex;
     font-size: 2rem;
     justify-content: center;
@@ -1744,9 +1750,19 @@ footer > .container > .sixteen {
   object-fit: cover;
   display: block;
 }
-.music-body { padding: 0.85rem 0.9rem; }
-.music-title { margin: 0 0 0.35rem; font-weight: 700; line-height: 1.25; }
-.music-meta { margin: 0; font-size: 0.95rem; opacity: 0.85; }
+.music-body { 
+  padding: 0.85rem 0.9rem; 
+}
+.music-title { 
+  margin: 0 0 0.35rem;
+  font-weight: 700;
+  line-height: 1.25; 
+}
+.music-meta { 
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
 .badge {
   display: inline-block;
   margin-top: .6rem;

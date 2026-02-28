@@ -16,9 +16,11 @@ tags:
 ---
 ## Changelog: New Music Section
 
-I’ve added a new **Music** section to the site.
+**Update**: Fixed the link to the music page
 
-It pulls directly from my Last.fm data and shows what I’ve been listening to each week — including top tracks, albums and artists. The landing page gives a snapshot of the current rotation, while individual pages let you browse the full lists (now paginated).
+I’ve added a new ~~Music~~ **Listening** section to the site.
+
+It pulls directly from my [Last.fm](https://www.last.fm/user/juanfernandes) data and shows what I’ve been listening to each week — including top tracks, albums and artists. The landing page gives a snapshot of the current rotation, while individual pages let you browse the full lists (now paginated).
 
 I’ve also added a stats page that tracks both this week’s listening and my all-time unique artists, albums and tracks. It’s updated automatically, so the numbers should stay current without any manual updates.
 
@@ -26,4 +28,4 @@ This is something I’ve wanted to build for a while — part curiosity, part ac
 
 More improvements to come.
 
-Check out my [Music](/music/ "Music") page.
+Check out my [Listening](/logs/listening/ "Listening") page.
