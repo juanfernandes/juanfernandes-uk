@@ -5,7 +5,7 @@ backend:
 
 site_url: https://www.juanfernandes.uk
 
-base_url: https://decap-cms-oauth-iota.vercel.app/callback
+base_url: https://decap-cms-oauth-iota.vercel.app
 auth_endpoint: auth
 
 logo:
