@@ -2,11 +2,10 @@ backend:
   name: github
   repo: juanfernandes/juanfernandes-uk
   branch: main
+  base_url: https://decap-cms-oauth-iota.vercel.app
+  auth_endpoint: auth
 
 site_url: https://www.juanfernandes.uk
-
-base_url: https://decap-cms-oauth-iota.vercel.app
-auth_endpoint: auth
 
 logo:
   src: https://www.juanfernandes.uk/assets/imgs/logo.svg
