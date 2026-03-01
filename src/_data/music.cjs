@@ -39,7 +39,7 @@ function sortRecord(a, b) {
 }
 
 module.exports = async function () {
-  const raw = require("./music.json");
+  const raw = require("./musicData.json");
   const items = Array.isArray(raw?.items) ? raw.items : [];
 
   const all = items.map(normalise).filter((r) => r.artist || r.title).sort(sortRecord);

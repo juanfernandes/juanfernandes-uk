@@ -48,8 +48,8 @@ collections:
     label: "Concerts"
     files:
       - name: "concerts"
-        label: "concerts.json"
-        file: "src/_data/concerts.json"
+        label: "Concerts"
+        file: "src/_data/concertsData.json"
         format: "json"
         fields:
           - label: "Entries"
@@ -78,8 +78,8 @@ collections:
     label: "LEGO"
     files:
       - name: "lego"
-        label: "LEGO collection (lego.json)"
-        file: "src/_data/lego.json"
+        label: "LEGO Collection"
+        file: "src/_data/legoData.json"
         format: "json"
         fields:
           - label: "Items"
@@ -104,8 +104,8 @@ collections:
     label: "Games"
     files:
       - name: "games"
-        label: "Games collection (games.json)"
-        file: "src/_data/games.json"
+        label: "Games Collection"
+        file: "src/_data/gamesData.json"
         format: "json"
         fields:
           - label: "Items"
@@ -127,8 +127,8 @@ collections:
     label: "Music"
     files:
       - name: "music"
-        label: "Music collection (music.json)"
-        file: "src/_data/music.json"
+        label: "Music Collection"
+        file: "src/_data/musicData.json"
         format: "json"
         fields:
           - label: "Items"

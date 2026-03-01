@@ -43,7 +43,7 @@ function sortSets(a, b) {
 }
 
 module.exports = async function () {
-  const raw = require("./lego.json");
+  const raw = require("./legoData.json");
   const items = Array.isArray(raw?.items) ? raw.items : [];
 
   const all = items.map(normalise);

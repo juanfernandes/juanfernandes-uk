@@ -34,7 +34,7 @@ function groupByVenue(entries) {
 
 module.exports = async function () {
   // Expecting: src/_data/concerts.json => { "entries": [ ... ] }
-  const data = require("./concerts.json");
+  const data = require("./concertsData.json");
   const raw = Array.isArray(data?.entries) ? data.entries : [];
 
   // Normalize + sort
