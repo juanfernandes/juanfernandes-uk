@@ -7,7 +7,70 @@
       ],
       "venue": "London Stadium",
       "city": "London",
-      "country": "United Kingdom"
+      "country": "United Kingdom",
+      "links": {
+        "setlistFm": "https://www.setlist.fm/setlist/iron-maiden/2025/london-stadium-london-england-b53d956.html"
+      }
+    },
+    {
+      "date": "2025-04-07",
+      "artists": [
+        "Skunk Anansie"
+      ],
+      "venue": "The Nick Rayns LCR, UEA",
+      "city": "Norwich",
+      "country": "United Kingdom",
+      "links": {
+        "setlistFm": "https://www.setlist.fm/setlist/skunk-anansie/2025/nick-rayns-lcr-uea-norwich-england-b502516.html"
+      }
+    },
+    {
+      "date": "2025-02-07",
+      "artists": [
+        "Papa Roach"
+      ],
+      "venue": "OVO Arena Wembley",
+      "city": "London",
+      "country": "United Kingdom",
+      "links": {
+        "setlistFm": "https://www.setlist.fm/setlist/papa-roach/2025/ovo-arena-wembley-london-england-1b57658c.html"
+      }
+    },
+    {
+      "date": "2023-12-16",
+      "artists": [
+        "Ice Cube + Cypress Hill + Obie Trice"
+      ],
+      "venue": "Motorpoint Arena Nottingham",
+      "city": "Nottingham",
+      "country": "United Kingdom",
+      "links": {
+        "setlistFm": "https://www.setlist.fm/setlist/ice-cube/2023/motorpoint-arena-nottingham-england-73ae1671.html"
+      }
+    },
+    {
+      "artists": [
+        "Red Hot Chili Peppers"
+      ],
+      "venue": "Tottenham Hotspur Stadium",
+      "city": "London",
+      "country": "United Kingdom",
+      "date": "2023-07-21",
+      "links": {
+        "setlistFm": "https://www.setlist.fm/setlist/red-hot-chili-peppers/2023/tottenham-hotspur-stadium-london-england-3ba4b860.html"
+      }
+    },
+    {
+      "date": "2023-06-12",
+      "artists": [
+        "Wu-Tang Clan & Nas"
+      ],
+      "venue": "OVO Hydro",
+      "country": "United Kingdom",
+      "city": "Glasgow",
+      "links": {
+        "setlistFm": "https://www.setlist.fm/setlist/wutang-clan/2023/the-ovo-hydro-glasgow-scotland-3ba6d89c.html"
+      }
     }
   ]
 }
