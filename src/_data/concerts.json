@@ -1,25 +1,4 @@
 {
   "entries": [
-    {
-      "date": "2025-06-28",
-      "artists": [
-        "Iron Maiden"
-      ],
-      "venue": "London Stadium",
-      "city": "London",
-      "country": "UK",
-      "links": {
-        "setlistFm": "https://www.setlist.fm/setlist/iron-maiden/2025/london-stadium-london-england-b53d956.html"
-      }
-    },
-    {
-      "artists": [
-        "Wu Tang Clan & NAS"
-      ],
-      "date": "2026-02-28",
-      "venue": "OVO Hydeo",
-      "city": "Glasgow",
-      "country": "UK"
-    }
   ]
 }
