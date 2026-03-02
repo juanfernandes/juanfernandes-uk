@@ -1684,7 +1684,6 @@ footer > .container > .sixteen {
 }
 .music-grid {
   display: grid;
-  // grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.5rem;
   margin: 1.5rem 0;
@@ -1803,111 +1802,175 @@ footer > .container > .sixteen {
   text-decoration: none;
 }
 
-.logs-dashboard {
+// .logs-dashboard {
+//   display: grid;
+//   grid-template-columns: 1fr;
+//   gap: 1rem;
+// }
+
+// @media (min-width: 780px) {
+//   .logs-dashboard {
+//     grid-template-columns: repeat(2, minmax(0, 1fr));
+//   }
+// }
+
+// .logs-card {
+//   border: 1px solid rgba(0,0,0,.12);
+//   border-radius: 12px;
+//   padding: 1rem;
+//   background: rgba(255,255,255,.6);
+// }
+
+// .logs-card h2 {
+//   margin-top: 0;
+//   margin-bottom: .5rem;
+//   font-size: 1.15rem;
+// }
+
+// .logs-card h2 a {
+//   text-decoration: none;
+// }
+
+// .logs-kpis {
+//   margin: 0 0 1rem;
+//   line-height: 1.4;
+// }
+
+// .logs-latest h3 {
+//   margin: 1rem 0 .35rem;
+//   font-size: .95rem;
+// }
+
+// .logs-latest p {
+//   margin: 0;
+// }
+
+// .logs-links,
+// .logs-years {
+//   margin: 1rem 0 0;
+// }
+
+// .logs-muted {
+//   opacity: .75;
+// }
+
+.lego-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem;
+  margin: 1rem 0 2rem;
 }
-
-@media (min-width: 780px) {
-  .logs-dashboard {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-.logs-card {
+.lego-card {
   border: 1px solid rgba(0,0,0,.12);
   border-radius: 12px;
+  overflow: hidden;
+  background: var(--surface, transparent);
+}
+.lego-thumb {
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 1rem;
-  background: rgba(255,255,255,.6);
-}
 
-.logs-card h2 {
-  margin-top: 0;
-  margin-bottom: .5rem;
-  font-size: 1.15rem;
+  a {
+    border: none;
+  }
 }
-
-.logs-card h2 a {
-  text-decoration: none;
+.lego-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
-
-.logs-kpis {
-  margin: 0 0 1rem;
-  line-height: 1.4;
+.lego-body {
+  padding: 0.85rem 0.9rem;
 }
-
-.logs-latest h3 {
-  margin: 1rem 0 .35rem;
-  font-size: .95rem;
+.lego-title {
+  margin: 0 0 0.35rem;
+  font-weight: 700;
+  line-height: 1.25;
 }
-
-.logs-latest p {
+.lego-meta {
   margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+.lego-badges {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.lego-badge {
+  font-size: 0.85rem;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid rgba(0,0,0,.18);
+  border-radius: 999px;
+  opacity: 0.9;
+  white-space: nowrap;
 }
 
-.logs-links,
-.logs-years {
-  margin: 1rem 0 0;
+.dash-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
 }
+.dash-card {
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 14px;
+  padding: 1rem 1rem 0.9rem;
 
-.logs-muted {
-  opacity: .75;
-}
-
-  .lego-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 1rem;
-    margin: 1rem 0 2rem;
+  p {
+    margin-bottom: 1.2rem;
   }
-  .lego-card {
-    border: 1px solid rgba(0,0,0,.12);
-    border-radius: 12px;
-    overflow: hidden;
-    background: var(--surface, transparent);
-  }
-  .lego-thumb {
-    aspect-ratio: 4 / 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
 
+  .dash-title {
     a {
-      border: none;
+      font-size: 2.4rem;
     }
   }
-  .lego-thumb img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .lego-body {
-    padding: 0.85rem 0.9rem;
-  }
-  .lego-title {
-    margin: 0 0 0.35rem;
-    font-weight: 700;
-    line-height: 1.25;
-  }
-  .lego-meta {
-    margin: 0;
-    font-size: 0.95rem;
-    opacity: 0.85;
-  }
-  .lego-badges {
-    margin-top: 0.6rem;
+
+  .dash-stats {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.4rem;
+    gap: .4rem;
+    margin: .6rem 0 0;
+    padding: 0;
+    list-style: none;
   }
-  .lego-badge {
-    font-size: 0.85rem;
-    padding: 0.15rem 0.45rem;
+
+  .pill {
+    display: inline-block;
+    font-size: .85rem;
+    padding: .15rem .5rem;
     border: 1px solid rgba(0,0,0,.18);
     border-radius: 999px;
-    opacity: 0.9;
+    opacity: .95;
     white-space: nowrap;
   }
+
+  .dash-actions {
+    // margin-top: .85rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+  }
+
+  .dash-latest {
+    margin-top: .9rem;
+    padding-top: .85rem;
+    border-top: 1px solid rgba(0,0,0,.10);
+  }
+
+  .dash-latest h3 {
+    margin: 0 0 .35rem;
+    font-size: 1rem;
+  }
+
+  .dash-muted { 
+    opacity: .8;
+    margin-bottom: 0;
+  }
+}

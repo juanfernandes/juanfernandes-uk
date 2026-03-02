@@ -5,10 +5,10 @@ pagination:
   size: 1
   alias: year
 permalink: "/logs/concerts/year/{{ year }}/"
-title: "Concerts — {{ year }}"
+title: Concerts
 ---
 
-<h1>Concerts — {{ year }}</h1>
+<h2>Concerts - {{ year }}</h2>
 
 <ul>
   {% for gig in (concerts.byYear[year] or []) %}

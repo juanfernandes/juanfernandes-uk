@@ -1,5 +1,5 @@
 --- 
-title: "Books"
+title: "Reading"
 layout: "page-sidebar"
 class: "books"
 intro:
@@ -32,7 +32,7 @@ tags:
   <h2 class="section-heading">Read</h2>
   {% for yearRead, book in books | groupby("yearRead") | dictsort | reverse %}
   {% if yearRead %}
-    <h3>{{ yearRead }}</h3>
+    <h3 id="year-{{ yearRead }}">{{ yearRead }}</h3>
     <div class="bookshelf">
       {% for book in book | sort(attribute='title') %}
       <div class="book">

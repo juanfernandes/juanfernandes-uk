@@ -15,10 +15,10 @@ function normalise(item) {
     pieces: toInt(item?.pieces),
     status: status === "wanted" ? "wanted" : "owned",
     built: Boolean(item?.built),
-    acquiredOn: item?.acquiredOn ? String(item.acquiredOn) : "",
-    image: item?.image ? String(item.image) : "",
-    url: item?.url ? String(item.url) : "",
-    notes: item?.notes ? String(item.notes) : ""
+    acquiredOn: item?.acquiredOn ? String(item.acquiredOn).trim() : "",
+    image: item?.image ? String(item.image).trim() : "",
+    url: item?.url ? String(item.url).trim() : "",
+    notes: item?.notes ? String(item.notes).trim() : ""
   };
 }
 
@@ -28,6 +28,25 @@ function groupBy(items, key) {
     (acc[v] ??= []).push(item);
     return acc;
   }, {});
+}
+
+function dateKey(s) {
+  if (!s || typeof s !== "string") return 0;
+  const m = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return 0;
+  return Number(m[1] + m[2] + m[3]);
+}
+
+function latestByDate(items, field) {
+  if (!Array.isArray(items) || items.length === 0) return null;
+
+  // Prefer an item with a real date; fall back to first item if none have dates yet.
+  const dated = items
+    .slice()
+    .sort((a, b) => dateKey(b[field]) - dateKey(a[field]))
+    .find((x) => !!x[field]);
+
+  return dated || items[0] || null;
 }
 
 function sortSets(a, b) {
@@ -60,11 +79,16 @@ module.exports = async function () {
   const byThemeWanted = groupBy(wanted, "theme");
   const themesWanted = Object.keys(byThemeWanted).sort((a, b) => a.localeCompare(b));
 
+  const latestOwned = latestByDate(owned, "acquiredOn");
+  const latestWanted = wanted[0] || null;
+
   return {
     updatedAt: new Date().toISOString(),
     all,
     owned,
     wanted,
+    latestOwned,
+    latestWanted,
     stats: {
       ownedCount: owned.length,
       wantedCount: wanted.length,

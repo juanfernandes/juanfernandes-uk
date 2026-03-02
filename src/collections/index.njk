@@ -1,0 +1,121 @@
+---
+layout: page
+title: Collections
+permalink: /collections/
+---
+
+{% set latestLego = lego.latestOwned %}
+{% set latestGame = games.latestOwned %}
+{% set latestRecord = music.latestAdded %}
+
+<h2>Collections Dashboard</h2>
+
+<p class="lead">A curated record of the things I collect — what I own, what I’m building, and what’s still on the wishlist.</p>
+
+<nav class="logs-nav" aria-label="Log sections">
+  <ul>
+    <li><a href="/collections/lego/">Lego</a></li>
+    <li><a href="/collections/games/">Games</a></li>
+    <li><a href="/collections/music/">Music</a></li>
+  </ul>
+</nav>
+
+<div class="dash-grid">
+
+  <section class="dash-card">
+    <h3 class="dash-title"><a href="/collections/lego/">Lego</a></h3>
+    <p class="dash-meta">Sets I own, want, and what’s built.</p>
+
+    <ul class="dash-stats">
+      <li class="pill">{{ lego.stats.ownedCount }} owned</li>
+      <li class="pill">{{ lego.stats.wantedCount }} wanted</li>
+      <li class="pill">{{ lego.stats.ownedPieces }} pieces</li>
+      {% if lego.stats.builtCount is defined %}<li class="pill">{{ lego.stats.builtCount }} built</li>{% endif %}
+    </ul>
+
+    <div class="dash-latest">
+      <h4>Latest owned set</h4>
+      {% if latestLego %}
+        <div>
+          <p>{% if latestLego.url %}<a href="{{ latestLego.url }}"><strong>{{ latestLego.setNumber }} — {{ latestLego.name }}</strong></a>{% else %}<strong>{{ latestLego.setNumber }} — {{ latestLego.name }}</strong>{% endif %}</p>
+        </div>
+        <div>
+          <p class="dash-meta"><span class="dash-muted">{{ latestLego.theme }}</span>
+          {% if latestLego.acquiredOn %}<span class="dash-muted"> · {{ latestLego.acquiredOn }}</span>{% endif %}</p>
+        </div>
+      {% else %}
+        <p class="dash-muted">No LEGO sets added yet.</p>
+      {% endif %}
+    </div>
+
+    <div class="dash-actions">
+      <span><a href="/collections/lego/">View Lego</a> →</span>
+    </div>
+  </section>
+
+  <section class="dash-card">
+    <h3 class="dash-title"><a href="/collections/games/">Games</a></h3>
+    <p class="dash-meta">Owned + wanted games, grouped by platform.</p>
+
+    <ul class="dash-stats">
+      <li class="pill">{{ games.stats.ownedCount }} owned</li>
+      <li class="pill">{{ games.stats.wantedCount }} wanted</li>
+      <li class="pill">{{ games.stats.platformsCount }} platforms</li>
+      <li class="pill">{{ games.stats.playingCount }} playing</li>
+    </ul>
+
+    <div class="dash-latest">
+      <h4>Latest owned game</h4>
+      {% if latestGame %}
+        <p><strong>{{ latestGame.title }}</strong></p>
+        <p class="dash-meta">
+          <span class="dash-muted">{{ latestGame.platform }}</span>
+          {% if latestGame.acquiredOn %}<span class="dash-muted"> · {{ latestGame.acquiredOn }}</span>{% endif %}
+          {% if latestGame.playStatus %}<span class="dash-muted"> · {{ latestGame.playStatus }}</span>{% endif %}
+        </p>
+        {% if latestGame.url %}
+          <div class="dash-actions"><a href="{{ latestGame.url }}">Link</a></div>
+        {% endif %}
+      {% else %}
+        <p class="dash-muted">No games added yet.</p>
+      {% endif %}
+    </div>
+
+    <div class="dash-actions">
+      <span><a href="/collections/games/">View Games</a> →</span>
+    </div>
+  </section>
+
+  <section class="dash-card">
+    <h3 class="dash-title"><a href="/collections/music/">Music</a></h3>
+    <p class="dash-meta">Physical collection (vinyl now, CDs later), grouped by folder.</p>
+
+    <ul class="dash-stats">
+      <li class="pill">{{ music.stats.total }} items</li>
+      <li class="pill">{{ music.stats.vinylCount }} vinyl</li>
+      <li class="pill">{{ music.stats.cdCount }} CDs</li>
+      {% if music.folders %}<li class="pill">{{ music.folders.length }} folders</li>{% endif %}
+    </ul>
+
+    <div class="dash-latest">
+      <h4>Latest added</h4>
+      {% if latestRecord %}
+        <div>
+          <p>{% if latestRecord.url %}<a href="{{ latestRecord.url }}"><strong>{{ latestRecord.artist }} — {{ latestRecord.title }}</strong></a>
+          {% else %}
+          <strong>{{ latestRecord.artist }} — {{ latestRecord.title }}</strong>{% endif %}</p>
+        </div>
+        <div>
+          <p class="dash-meta"><span class="dash-muted">{{ latestRecord.folder }}</span>
+          {% if latestRecord.addedOn %}<span class="dash-muted"> · {{ latestRecord.addedOn }}</span>{% endif %}
+          {% if latestRecord.addedOn %}<span class="dash-muted"> · {{ latestRecord.addedOn }}</span>{% endif %}
+          {% if latestRecord.media %}<span class="dash-muted"> · {{ latestRecord.media }}</span>{% endif %}</p>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="dash-actions">
+      <span><a href="/collections/music/">View Music</a> →</span>
+    </div>
+  </section>
+</div>

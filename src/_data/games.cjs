@@ -13,11 +13,11 @@ function normalise(item) {
     platform: String(item?.platform || "Unknown").trim() || "Unknown",
     status: status === "wanted" ? "wanted" : "owned",
     playStatus: playStatus || "unplayed",
-    acquiredOn: item?.acquiredOn ? String(item.acquiredOn) : "",
+    acquiredOn: item?.acquiredOn ? String(item.acquiredOn).trim() : "",
     releaseYear: toInt(item?.releaseYear),
-    notes: item?.notes ? String(item.notes) : "",
-    url: item?.url ? String(item.url) : "",
-    cover: item?.cover ? String(item.cover) : ""
+    notes: item?.notes ? String(item.notes).trim() : "",
+    url: item?.url ? String(item.url).trim() : "",
+    cover: item?.cover ? String(item.cover).trim() : ""
   };
 }
 
@@ -29,9 +29,27 @@ function groupBy(items, key) {
   }, {});
 }
 
+function dateKey(s) {
+  if (!s || typeof s !== "string") return 0;
+  const m = s.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (!m) return 0;
+  return Number(m[1] + m[2] + m[3]);
+}
+
+function latestByDate(items, field) {
+  if (!Array.isArray(items) || items.length === 0) return null;
+
+  const dated = items
+    .slice()
+    .sort((a, b) => dateKey(b[field]) - dateKey(a[field]))
+    .find((x) => !!x[field]);
+
+  return dated || items[0] || null;
+}
+
 function sortGame(a, b) {
   // Play status priority for owned, then title
-  const rank = { playing: 0, unplayed: 1, completed: 2, abandoned: 3 };
+  const rank = { playing: 0, unplayed: 1, completed: 2, abandoned: 3, wishlist: 4 };
   const ra = rank[a.playStatus] ?? 9;
   const rb = rank[b.playStatus] ?? 9;
   if (ra !== rb) return ra - rb;
@@ -53,6 +71,8 @@ module.exports = async function () {
   const byPlatformWanted = groupBy(wanted, "platform");
   const platformsWanted = Object.keys(byPlatformWanted).sort((a, b) => a.localeCompare(b));
 
+  const latestOwned = latestByDate(owned, "acquiredOn");
+
   const stats = {
     ownedCount: owned.length,
     wantedCount: wanted.length,
@@ -67,6 +87,7 @@ module.exports = async function () {
     all,
     owned,
     wanted,
+    latestOwned,
     byPlatform,
     platforms,
     byPlatformWanted,

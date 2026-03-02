@@ -136,6 +136,7 @@ collections:
             widget: "list"
             summary: "{{fields.media}} — {{fields.folder}} — {{fields.artist}} — {{fields.title}}"
             fields:
+              - { label: "Added on", name: "addedOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false, required: false }
               - { label: "Media", name: "media", widget: "select", options: ["vinyl", "cd"], default: "vinyl" }
               - { label: "Folder", name: "folder", widget: "string", required: true }
               - { label: "Artist", name: "artist", widget: "string" }
