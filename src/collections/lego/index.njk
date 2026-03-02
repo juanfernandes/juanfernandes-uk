@@ -1,10 +1,10 @@
 ---
 layout: page
-title: LEGO
+title: Lego
 permalink: /collections/lego/
 ---
 
-<h1>LEGO collection</h1>
+<h2>Lego Collection</h2>
 
 <p>
   <strong>{{ lego.stats.ownedCount }}</strong> owned ·
@@ -14,7 +14,7 @@ permalink: /collections/lego/
   <strong>{{ lego.stats.unbuiltCount }}</strong> unbuilt
 </p>
 
-<h2>Owned</h2>
+<h3>Owned</h3>
 
 {% if lego.themesOwned and lego.themesOwned.length %}
   <p>
@@ -26,7 +26,7 @@ permalink: /collections/lego/
 {% endif %}
 
 {% for theme, sets in lego.byThemeOwned %}
-  <h3 id="theme-owned-{{ theme | slug }}">{{ theme }}</h3>
+  <h4 id="theme-owned-{{ theme | slug }}">{{ theme }}</h4>
 
   <div class="lego-grid">
     {% for s in sets %}
@@ -71,14 +71,14 @@ permalink: /collections/lego/
   </div>
 {% endfor %}
 
-<h2>Wanted</h2>
+<h3>Wanted</h3>
 
 {% if lego.wanted.length == 0 %}
   <p>Nothing on the wanted list right now.</p>
 {% endif %}
 
 {% for theme, sets in lego.byThemeWanted %}
-  <h3>{{ theme }}</h3>
+  <h4>{{ theme }}</h4>
 
   <div class="lego-grid">
     {% for s in sets %}

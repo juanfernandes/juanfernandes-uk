@@ -3,7 +3,7 @@
     {
       "pieces": 1164,
       "theme": "Ideas",
-      "setNumber": "21336-1",
+      "setNumber": "21336",
       "name": "The Office",
       "url": "https://brickset.com/sets/21336-1/The-Office",
       "status": "owned",
@@ -14,7 +14,7 @@
     {
       "pieces": 958,
       "theme": "Technic",
-      "setNumber": "42099-1",
+      "setNumber": "42099",
       "name": "4x4 X-Treme Off-Roader",
       "url": "https://brickset.com/sets/42099-1/4x4-X-Treme-Off-Roader",
       "status": "owned",
@@ -42,6 +42,105 @@
       "status": "owned",
       "image": "https://images.brickset.com/sets/images/42127-1.jpg?202109211242",
       "year": 2022,
+      "built": true
+    },
+    {
+      "pieces": 775,
+      "theme": "Star Wars",
+      "setNumber": "75186",
+      "name": "The Arrowhead",
+      "url": "https://brickset.com/sets/75186-1/The-Arrowhead",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/images/75186-1.jpg?201705170344",
+      "year": 2017,
+      "built": true
+    },
+    {
+      "pieces": 1414,
+      "theme": "Star Wars",
+      "setNumber": "75212",
+      "name": "Kessel Run Millennium Falcon",
+      "url": "https://brickset.com/sets/75212-1/Kessel-Run-Millennium-Falcon",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/large/75212-1.jpg?201804091041",
+      "year": 2018,
+      "built": true
+    },
+    {
+      "pieces": 77,
+      "theme": "Star Wars",
+      "setNumber": "75237",
+      "name": "TIE Fighter Attack",
+      "url": "https://brickset.com/sets/75237-1/TIE-Fighter-Attack",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/large/75237-1.jpg?201812140830",
+      "year": 2019,
+      "built": true
+    },
+    {
+      "pieces": 556,
+      "theme": "Ghostbusters",
+      "setNumber": "75828",
+      "name": "Ecto-1 & 2",
+      "url": "https://brickset.com/sets/75828-1/Ecto-1-2",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/large/75828-1.jpg?201602050422",
+      "year": 2016,
+      "built": true
+    },
+    {
+      "pieces": 1466,
+      "theme": "Technic",
+      "setNumber": "42154",
+      "name": "2022 Ford GT",
+      "url": "https://brickset.com/sets/42154-1/2022-Ford-GT",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/large/42154-1.jpg?202301011222",
+      "year": 2023,
+      "built": true
+    },
+    {
+      "pieces": 1326,
+      "theme": "Ideas",
+      "setNumber": "21328",
+      "name": "Seinfeld",
+      "url": "https://brickset.com/sets/21328-1/Seinfeld",
+      "status": "wanted",
+      "image": "https://images.brickset.com/sets/large/21328-1.jpg?202106181022",
+      "year": 2021,
+      "built": false
+    },
+    {
+      "pieces": 1077,
+      "theme": "Technic",
+      "setNumber": "42111",
+      "name": "Dom's Dodge Charger",
+      "url": "https://brickset.com/sets/42111-1/Dom-s-Dodge-Charger",
+      "status": "wanted",
+      "image": "https://images.brickset.com/sets/large/42111-1.jpg?202003310248",
+      "year": 2020,
+      "built": false
+    },
+    {
+      "pieces": 579,
+      "theme": "Technic",
+      "setNumber": "42093",
+      "name": "Chevrolet Corvette ZR1",
+      "url": "https://brickset.com/sets/42093-1/Chevrolet-Corvette-ZR1",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/large/42093-1.jpg?201812041022",
+      "year": 2019,
+      "built": true
+    },
+    {
+      "pieces": 897,
+      "theme": "Technic",
+      "setNumber": "42212",
+      "name": "Ferrari FXX K",
+      "url": "https://brickset.com/sets/42212-1/Ferrari-FXX-K",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/large/42212-1.jpg?202501081039",
+      "year": 2025,
       "built": true
     }
   ]
