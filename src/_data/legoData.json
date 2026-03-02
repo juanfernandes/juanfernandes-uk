@@ -1,18 +1,48 @@
 {
   "items": [
     {
-      "setNumber": "21327",
-      "name": "Typewriter",
+      "pieces": 1164,
       "theme": "Ideas",
-      "subtheme": "",
-      "year": 2021,
-      "pieces": 2079,
+      "setNumber": "21336-1",
+      "name": "The Office",
+      "url": "https://brickset.com/sets/21336-1/The-Office",
       "status": "owned",
-      "built": true,
-      "acquiredOn": "2024-02-10",
-      "image": "",
-      "url": "https://brickset.com/sets/21327-1/Typewriter",
-      "notes": ""
+      "image": "https://images.brickset.com/sets/images/21336-1.jpg?202207150238",
+      "year": 2024,
+      "built": true
+    },
+    {
+      "pieces": 958,
+      "theme": "Technic",
+      "setNumber": "42099-1",
+      "name": "4x4 X-Treme Off-Roader",
+      "url": "https://brickset.com/sets/42099-1/4x4-X-Treme-Off-Roader",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/images/42099-1.jpg?201907130955",
+      "year": 2019,
+      "built": true
+    },
+    {
+      "pieces": 1677,
+      "theme": "Technic",
+      "setNumber": "42125",
+      "name": "Ferrari 488 GTE AF Corse #51",
+      "url": "https://brickset.com/sets/42125-1/Ferrari-488-GTE-AF-Corse-51",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/images/42125-1.jpg?202009130612",
+      "year": 2021,
+      "built": true
+    },
+    {
+      "pieces": 1360,
+      "theme": "Technic",
+      "setNumber": "42127",
+      "name": "The Batman - Batmobile",
+      "url": "https://brickset.com/sets/42127-1/The-Batman-Batmobile",
+      "status": "owned",
+      "image": "https://images.brickset.com/sets/images/42127-1.jpg?202109211242",
+      "year": 2022,
+      "built": true
     }
   ]
 }
