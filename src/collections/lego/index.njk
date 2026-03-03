@@ -28,21 +28,21 @@ permalink: /collections/lego/
 {% for theme, sets in lego.byThemeOwned %}
   <h4 id="theme-owned-{{ theme | slug }}">{{ theme }}</h4>
 
-  <div class="lego-grid">
+  <div class="media-grid">
     {% for s in sets %}
-      <article class="lego-card">
-        <div class="lego-thumb">
+      <article class="media-card">
+        <div class="media-thumb u-p-1 u-pb-0">
           {% if s.image %}
             {% if s.url %}<a href="{{ s.url }}" aria-label="{{ s.setNumber }} {{ s.name }}">{% endif %}
               <img src="{{ s.image }}" alt="{{ s.setNumber }} {{ s.name }}" loading="lazy">
             {% if s.url %}</a>{% endif %}
           {% else %}
-            <span class="lego-meta">No image</span>
+            <span class="media-meta">No image</span>
           {% endif %}
         </div>
 
-        <div class="lego-body">
-          <p class="lego-title">
+        <div class="media-body">
+          <p class="media-title">
             {% if s.url %}
               <a href="{{ s.url }}">
                 {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
@@ -52,19 +52,21 @@ permalink: /collections/lego/
             {% endif %}
           </p>
 
-          <p class="lego-meta">
+          <p class="media-meta">
             {% if s.year %}{{ s.year }}{% else %}Year unknown{% endif %}
             {% if s.pieces %} · {{ s.pieces }} pcs{% endif %}
           </p>
 
-          <div class="lego-badges">
+          {% if s.qtyOwned or s.subtheme %}
+          <div class="media-badges">
             {% if s.qtyOwned and s.qtyOwned > 1 %}
-              <span class="lego-badge">Qty owned: {{ s.qtyOwned }}</span>
+              <span class="media-badge">Qty owned: {{ s.qtyOwned }}</span>
             {% endif %}
             {% if s.subtheme %}
-              <span class="lego-badge">{{ s.subtheme }}</span>
+              <span class="media-badge">{{ s.subtheme }}</span>
             {% endif %}
           </div>
+          {% endif %}
         </div>
       </article>
     {% endfor %}
@@ -80,43 +82,45 @@ permalink: /collections/lego/
 {% for theme, sets in lego.byThemeWanted %}
   <h4>{{ theme }}</h4>
 
-  <div class="lego-grid">
+  <div class="media-grid">
     {% for s in sets %}
-      <article class="lego-card">
-        <div class="lego-thumb">
+      <article class="media-card">
+        <div class="media-thumb">
           {% if s.image %}
             {% if s.url %}<a href="{{ s.url }}" aria-label="{{ s.setNumber }} {{ s.name }}">{% endif %}
               <img src="{{ s.image }}" alt="{{ s.setNumber }} {{ s.name }}" loading="lazy">
             {% if s.url %}</a>{% endif %}
           {% else %}
-            <span class="lego-meta">No image</span>
+            <span class="media-meta">No image</span>
           {% endif %}
         </div>
 
-        <div class="lego-body">
-          <p class="lego-title">
+        <div class="media-body">
+          <p class="media-title">
             {% if s.url %}
-              <a href="{{ s.url }}">
-                {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
-              </a>
+            <a href="{{ s.url }}">
+              {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
+            </a>
             {% else %}
               {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
             {% endif %}
           </p>
 
-          <p class="lego-meta">
+          <p class="media-meta">
             {% if s.year %}{{ s.year }}{% else %}Year unknown{% endif %}
             {% if s.pieces %} · {{ s.pieces }} pcs{% endif %}
           </p>
 
-          <div class="lego-badges">
+          {% if s.qtyWanted or s.subtheme %}
+          <div class="media-badges">
             {% if s.qtyWanted and s.qtyWanted > 1 %}
-              <span class="lego-badge">Qty wanted: {{ s.qtyWanted }}</span>
+              <span class="badge">Qty wanted: {{ s.qtyWanted }}</span>
             {% endif %}
             {% if s.subtheme %}
-              <span class="lego-badge">{{ s.subtheme }}</span>
+              <span class="badge">{{ s.subtheme }}</span>
             {% endif %}
           </div>
+          {% endif %}
         </div>
       </article>
     {% endfor %}

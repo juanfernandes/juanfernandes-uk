@@ -87,6 +87,149 @@
       "notes": "",
       "url": "https://thegamesdb.net/game.php?id=108266",
       "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108266-1.jpg"
+    },
+    {
+      "title": "Donkey Kong Country 3: Dixie Kong's Double Trouble",
+      "platform": "Super Nintendo (SNES)",
+      "status": "wanted",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 2016,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=73922",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/73922-1.jpg"
+    },
+    {
+      "title": "Earthworm Jim",
+      "platform": "Super Nintendo (SNES)",
+      "status": "wanted",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1994,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=997",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/997-2.jpg"
+    },
+    {
+      "title": "Earthworm Jim 2",
+      "platform": "Super Nintendo (SNES)",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1996,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=2896",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/2896-1.jpg"
+    },
+    {
+      "title": "Killer Instinct",
+      "platform": "Super Nintendo (SNES)",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1995,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=114186",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/114186-1.jpg"
+    },
+    {
+      "title": "Sonic The Hedgehog 2",
+      "platform": "Sega Mega Drive",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1992,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=129893",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/129893-1.jpg"
+    },
+    {
+      "title": "NBA Live 95",
+      "platform": "Sega Mega Drive",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1994,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=28043",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/28043-1.jpg"
+    },
+    {
+      "title": "Street Fighter II: Special Champion Edition",
+      "platform": "Sega Mega Drive",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1993,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=5543",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/5543-1.jpg"
+    },
+    {
+      "title": "Fifa Soccer 96",
+      "platform": "Sega Mega Drive",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1996,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=108707",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108707-1.jpg"
+    },
+    {
+      "title": "NBA Live 95",
+      "platform": "Super Nintendo (SNES)",
+      "status": "wanted",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1994,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=293",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/293-1.jpg"
+    },
+    {
+      "title": "Mortal Kombat II",
+      "platform": "Super Nintendo (SNES)",
+      "status": "wanted",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1994,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=108230",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108230-1.jpg"
+    },
+    {
+      "title": "Mortal Kombat 3",
+      "platform": "Super Nintendo (SNES)",
+      "status": "wanted",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1995,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=2825",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/2825-1.jpg"
+    },
+    {
+      "title": "Starwing",
+      "platform": "Super Nintendo (SNES)",
+      "status": "wanted",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1993,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=92989",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/92989-1.jpg"
+    },
+    {
+      "title": "Street Fighter Alpha 2",
+      "platform": "Super Nintendo (SNES)",
+      "status": "wanted",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1996,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=3269",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/3269-1.jpg"
     }
   ]
 }

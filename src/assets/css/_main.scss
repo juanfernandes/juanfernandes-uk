@@ -1687,92 +1687,53 @@ footer > .container > .sixteen {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1.5rem;
   margin: 1.5rem 0;
-}
 
-.music-card {
-  border: 1px solid rgba(0,0,0,.12);
-  border-radius: 12px;
-  overflow: hidden;
+  .music-card {
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 12px;
+    overflow: hidden;
 
-  &:hover {
-    transform: translateY(-4px);
-  }
+    &:hover {
+      transform: translateY(-4px);
+    }
 
-  p {
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-  }
+    p {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
 
-  .tag {
-    font-size: 1.2rem;
-    white-space: nowrap;
-  }
+    .tag {
+      font-size: 1.2rem;
+      white-space: nowrap;
+    }
 
-  .music-card__img {
-    aspect-ratio: 1 / 1;
-    border-radius: 8px 0 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-    object-fit: cover;
-    width: 100%;
+    .music-card__img {
+      aspect-ratio: 1 / 1;
+      border-radius: 8px 0 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+      object-fit: cover;
+      width: 100%;
+    }
+    .music-card__heading {
+      line-height: 1;
+      margin-bottom: 0;
+    }
+    .music-card__heading,
+    .music-card__meta {
+      padding: 1rem;
+    }
+    .music-card__placeholder {
+      align-items: center;
+      aspect-ratio: 1 / 1;
+      background: var(--off-black);
+      border-radius: 8px 0 0;
+      color: var(--white);
+      display: flex;
+      font-size: 2rem;
+      justify-content: center;
+      width: 100%;
+    }
   }
-  .music-card__heading {
-    line-height: 1;
-    margin-bottom: 0;
-  }
-  .music-card__heading,
-  .music-card__meta {
-    padding: 1rem;
-  }
-  .music-card__placeholder {
-    align-items: center;
-    aspect-ratio: 1 / 1;
-    background: var(--off-black);
-    border-radius: 8px 0 0;
-    color: var(--white);
-    display: flex;
-    font-size: 2rem;
-    justify-content: center;
-    width: 100%;
-  }
-}
-
-.music-thumb {
-  aspect-ratio: 1 / 1;
-  background: rgba(0,0,0,.06);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.music-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.music-body { 
-  padding: 0.85rem 0.9rem; 
-}
-.music-title { 
-  margin: 0 0 0.35rem;
-  font-weight: 700;
-  line-height: 1.25; 
-}
-.music-meta { 
-  margin: 0;
-  font-size: 0.95rem;
-  opacity: 0.85;
-}
-.badge {
-  display: inline-block;
-  margin-top: .6rem;
-  font-size: 0.85rem;
-  padding: 0.15rem 0.45rem;
-  border: 1px solid rgba(0,0,0,.18);
-  border-radius: 999px;
-  opacity: 0.9;
-  white-space: nowrap;
-  text-transform: uppercase;
-  letter-spacing: .04em;
 }
 
 .media-grid {
@@ -1800,115 +1761,6 @@ footer > .container > .sixteen {
 
 .logs-nav a {
   text-decoration: none;
-}
-
-// .logs-dashboard {
-//   display: grid;
-//   grid-template-columns: 1fr;
-//   gap: 1rem;
-// }
-
-// @media (min-width: 780px) {
-//   .logs-dashboard {
-//     grid-template-columns: repeat(2, minmax(0, 1fr));
-//   }
-// }
-
-// .logs-card {
-//   border: 1px solid rgba(0,0,0,.12);
-//   border-radius: 12px;
-//   padding: 1rem;
-//   background: rgba(255,255,255,.6);
-// }
-
-// .logs-card h2 {
-//   margin-top: 0;
-//   margin-bottom: .5rem;
-//   font-size: 1.15rem;
-// }
-
-// .logs-card h2 a {
-//   text-decoration: none;
-// }
-
-// .logs-kpis {
-//   margin: 0 0 1rem;
-//   line-height: 1.4;
-// }
-
-// .logs-latest h3 {
-//   margin: 1rem 0 .35rem;
-//   font-size: .95rem;
-// }
-
-// .logs-latest p {
-//   margin: 0;
-// }
-
-// .logs-links,
-// .logs-years {
-//   margin: 1rem 0 0;
-// }
-
-// .logs-muted {
-//   opacity: .75;
-// }
-
-.lego-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 2rem;
-}
-.lego-card {
-  border: 1px solid rgba(0,0,0,.12);
-  border-radius: 12px;
-  overflow: hidden;
-  background: var(--surface, transparent);
-}
-.lego-thumb {
-  aspect-ratio: 4 / 3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-
-  a {
-    border: none;
-  }
-}
-.lego-thumb img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.lego-body {
-  padding: 0.85rem 0.9rem;
-}
-.lego-title {
-  margin: 0 0 0.35rem;
-  font-weight: 700;
-  line-height: 1.25;
-}
-.lego-meta {
-  margin: 0;
-  font-size: 0.95rem;
-  opacity: 0.85;
-}
-.lego-badges {
-  margin-top: 0.6rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-.lego-badge {
-  font-size: 0.85rem;
-  padding: 0.15rem 0.45rem;
-  border: 1px solid rgba(0,0,0,.18);
-  border-radius: 999px;
-  opacity: 0.9;
-  white-space: nowrap;
 }
 
 .dash-grid {
@@ -1952,7 +1804,6 @@ footer > .container > .sixteen {
   }
 
   .dash-actions {
-    // margin-top: .85rem;
     display: flex;
     flex-wrap: wrap;
     gap: .6rem;
@@ -1974,3 +1825,61 @@ footer > .container > .sixteen {
     margin-bottom: 0;
   }
 }
+
+  .platform-nav { margin: 1rem 0 2rem; line-height: 1.8; }
+  .media-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin: 1rem 0 2rem;
+  }
+  .media-card {
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,.12);
+    overflow: hidden;
+  }
+  .media-thumb {
+    align-items: center;
+    aspect-ratio: 16 / 9;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+  }
+  .media-thumb img { 
+    display: block;
+    height: 100%; 
+    object-fit: cover; 
+    width: 100%; 
+  }
+  .media-thumb a {
+    border: none;
+  }
+  .media-body { 
+    padding: 0.85rem 0.9rem; 
+  }
+  .media-title { 
+    margin: 0 0 0.35rem; 
+    font-weight: 700; 
+    line-height: 1.25;
+  }
+  .media-meta { 
+    margin: 0; 
+    font-size: 0.95rem; 
+    opacity: 0.85;
+  }
+  .media-badges { 
+    margin-top: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+
+    .badge {
+      font-size: 0.85rem;
+      padding: 0.15rem 0.45rem;
+      border: 1px solid rgba(0,0,0,.18);
+      border-radius: 999px;
+      opacity: 0.9;
+      white-space: nowrap;
+      text-transform: capitalize;
+    }
+  }
