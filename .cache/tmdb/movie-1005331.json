@@ -1,0 +1,63 @@
+{
+  "adult": false,
+  "backdrop_path": "/rhc8Mtuo3Kh8CndnlmTNMF8o9pU.jpg",
+  "belongs_to_collection": null,
+  "budget": 47000000,
+  "genres": [
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 28,
+      "name": "Action"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81476963",
+  "id": 1005331,
+  "imdb_id": "tt21382296",
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_title": "Carry-On",
+  "overview": "An airport security officer races to outsmart a mysterious traveler forcing him to let a dangerous item slip onto a Christmas Eve flight.",
+  "popularity": 6.9031,
+  "poster_path": "/sjMN7DRi4sGiledsmllEw5HJjPy.jpg",
+  "production_companies": [
+    {
+      "id": 119245,
+      "logo_path": "/6F45uVsKpNYANcWvplyhgIFezFU.png",
+      "name": "Dylan Clark Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 7,
+      "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+      "name": "DreamWorks Pictures",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2024-12-05",
+  "revenue": 0,
+  "runtime": 120,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "Every holiday season, millions travel safely by air. This Christmas will be different.",
+  "title": "Carry-On",
+  "video": false,
+  "vote_average": 6.891,
+  "vote_count": 2633
+}

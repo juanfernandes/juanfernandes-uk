@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Watch log
+title: Watching
 permalink: /logs/watching/
 ---
 
-<h1>Watch log</h1>
+<h2>Watch log</h2>
 
 <p><a href="/logs/watching/films/">Films</a> · <a href="/logs/watching/tv/">TV</a></p>
 
@@ -14,11 +14,11 @@ permalink: /logs/watching/
   {{ watch.stats.totalShows }} shows
 </p>
 
-<h2>Films</h2>
+<h3>Films</h3>
 <p>
   Browse:
   {% for y in watch.years %}
-    {% if watch.moviesByYear[y] %}<a href="/watching/films/{{ y }}/">{{ y }}</a> {% endif %}
+    {% if watch.moviesByYear[y] %}<a href="/logs/watching/films/{{ y }}/">{{ y }}</a> {% endif %}
   {% endfor %}
 </p>
 <ul>
@@ -31,7 +31,7 @@ permalink: /logs/watching/
   {% endfor %}
 </ul>
 
-<h2>TV (episodes)</h2>
+<h3>Television</h3>
 <p>
   Browse:
   {% for y in watch.years %}

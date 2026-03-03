@@ -1,0 +1,61 @@
+{
+  "adult": false,
+  "backdrop_path": "/fnbWrDx8w8Reau4F1tFqoGuGmDZ.jpg",
+  "belongs_to_collection": null,
+  "budget": 0,
+  "genres": [
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81774713",
+  "id": 1426776,
+  "imdb_id": "tt32550101",
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_title": "STRAW",
+  "overview": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
+  "popularity": 11.4607,
+  "poster_path": "/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
+  "production_companies": [
+    {
+      "id": 3096,
+      "logo_path": "/fkZTZ4veYYr3lwr2riVrVAOfeqD.png",
+      "name": "Tyler Perry Studios",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2025-06-05",
+  "revenue": 0,
+  "runtime": 105,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "This is her last.",
+  "title": "STRAW",
+  "video": false,
+  "vote_average": 7.732,
+  "vote_count": 923
+}

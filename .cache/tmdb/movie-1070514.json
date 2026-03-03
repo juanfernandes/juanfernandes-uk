@@ -1,0 +1,63 @@
+{
+  "adult": false,
+  "backdrop_path": "/bD8ftQIovUjCAIA6OVVuquHtLWH.jpg",
+  "belongs_to_collection": null,
+  "budget": 0,
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 27,
+      "name": "Horror"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81464329",
+  "id": 1070514,
+  "imdb_id": "tt20672534",
+  "origin_country": [
+    "JP"
+  ],
+  "original_language": "ja",
+  "original_title": "ゾン100～ゾンビになるまでにしたい100のこと～",
+  "overview": "Bullied by his boss, worked around the clock, he's nothing more than a corporate drone. All it takes is a zombie outbreak for him to finally feel alive!",
+  "popularity": 1.9129,
+  "poster_path": "/hV5S6D56BPZ27FSaVEojkvViS3N.jpg",
+  "production_companies": [
+    {
+      "id": 12386,
+      "logo_path": "/oxvw2Mrq3GcTxFc2mlT7E5tpek7.png",
+      "name": "Robot Communications",
+      "origin_country": "JP"
+    },
+    {
+      "id": 203381,
+      "logo_path": null,
+      "name": "Plus One Entertainment",
+      "origin_country": "JP"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "JP",
+      "name": "Japan"
+    }
+  ],
+  "release_date": "2023-08-03",
+  "revenue": 0,
+  "runtime": 129,
+  "spoken_languages": [
+    {
+      "english_name": "Japanese",
+      "iso_639_1": "ja",
+      "name": "日本語"
+    }
+  ],
+  "status": "Released",
+  "tagline": "When zombies flooded the town, a bright light shined into my dark life!",
+  "title": "Zom 100: Bucket List of the Dead",
+  "video": false,
+  "vote_average": 6.581,
+  "vote_count": 606
+}

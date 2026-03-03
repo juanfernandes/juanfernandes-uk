@@ -1,0 +1,84 @@
+{
+  "adult": false,
+  "backdrop_path": "/61MrK5U4w4MVL1vfwoG12zYPJ8B.jpg",
+  "belongs_to_collection": {
+    "id": 1129084,
+    "name": "Nobody Collection",
+    "poster_path": "/zwELreUw3SvkzWbPGxFReaGBPzo.jpg",
+    "backdrop_path": "/jNxcPaz5OT3A3PqTgQevwe8pVh8.jpg"
+  },
+  "budget": 16000000,
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    }
+  ],
+  "homepage": "https://www.nobody.movie",
+  "id": 615457,
+  "imdb_id": "tt7888964",
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_title": "Nobody",
+  "overview": "Hutch Mansell, a suburban dad, overlooked husband, nothing neighbor — a \"nobody.\" When two thieves break into his home one night, Hutch's unknown long-simmering rage is ignited and propels him on a brutal path that will uncover dark secrets he fought to leave behind.",
+  "popularity": 13.9494,
+  "poster_path": "/oBgWY00bEFeZ9N25wWVyuQddbAo.jpg",
+  "production_companies": [
+    {
+      "id": 121470,
+      "logo_path": "/zvJFu1C6gB80A98n6IGXBvMtgVl.png",
+      "name": "87North Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 86647,
+      "logo_path": "/jefZmEJlxUAkuuwkH9CHQchgmJX.png",
+      "name": "OPE Partners",
+      "origin_country": "US"
+    },
+    {
+      "id": 123230,
+      "logo_path": null,
+      "name": "Eighty Two Films",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "release_date": "2021-03-18",
+  "revenue": 57512470,
+  "runtime": 91,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "Russian",
+      "iso_639_1": "ru",
+      "name": "Pусский"
+    },
+    {
+      "english_name": "Spanish",
+      "iso_639_1": "es",
+      "name": "Español"
+    }
+  ],
+  "status": "Released",
+  "tagline": "Never underestimate a nobody.",
+  "title": "Nobody",
+  "video": false,
+  "vote_average": 7.888,
+  "vote_count": 8082
+}

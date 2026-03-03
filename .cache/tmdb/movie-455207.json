@@ -1,0 +1,95 @@
+{
+  "adult": false,
+  "backdrop_path": "/7tTCnQcKzUkabDV3BJMe7LIzlEs.jpg",
+  "belongs_to_collection": null,
+  "budget": 30000000,
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 10749,
+      "name": "Romance"
+    }
+  ],
+  "homepage": "http://crazyrichasiansmovie.com",
+  "id": 455207,
+  "imdb_id": "tt3104988",
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_title": "Crazy Rich Asians",
+  "overview": "An American-born Chinese economics professor accompanies her boyfriend to Singapore for his best friend's wedding, only to get thrust into the lives of Asia's rich and famous.",
+  "popularity": 4.2529,
+  "poster_path": "/1XxL4LJ5WHdrcYcihEZUCgNCpAW.jpg",
+  "production_companies": [
+    {
+      "id": 124283,
+      "logo_path": "/s0pkrY33hW7VQgnqzhLhbIVg0F4.png",
+      "name": "SK Global Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 5420,
+      "logo_path": "/dlW4Kh5dNieKNURnymsu57y6fMf.png",
+      "name": "Color Force",
+      "origin_country": "US"
+    },
+    {
+      "id": 107897,
+      "logo_path": "/etLApUoJoD853bluxamsZOLlWII.png",
+      "name": "Ivanhoe Pictures",
+      "origin_country": "US"
+    },
+    {
+      "id": 174,
+      "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+      "name": "Warner Bros. Pictures",
+      "origin_country": "US"
+    },
+    {
+      "id": 128493,
+      "logo_path": null,
+      "name": "Starlight Culture Entertainment Group",
+      "origin_country": "HK"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    },
+    {
+      "iso_3166_1": "HK",
+      "name": "Hong Kong"
+    }
+  ],
+  "release_date": "2018-08-15",
+  "revenue": 238539198,
+  "runtime": 121,
+  "spoken_languages": [
+    {
+      "english_name": "Cantonese",
+      "iso_639_1": "cn",
+      "name": "广州话 / 廣州話"
+    },
+    {
+      "english_name": "Mandarin",
+      "iso_639_1": "zh",
+      "name": "普通话"
+    },
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Released",
+  "tagline": "The only thing crazier than love is family.",
+  "title": "Crazy Rich Asians",
+  "video": false,
+  "vote_average": 7.053,
+  "vote_count": 3912
+}
