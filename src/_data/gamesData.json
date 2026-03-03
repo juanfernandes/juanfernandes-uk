@@ -1,26 +1,92 @@
 {
   "items": [
     {
-      "title": "The Legend of Zelda: Tears of the Kingdom",
-      "platform": "Nintendo Switch",
+      "title": "Mortal Kombat",
+      "platform": "Super Nintendo (SNES)",
       "status": "owned",
-      "playStatus": "completed",
-      "acquiredOn": "2023-05-12",
-      "releaseYear": 2023,
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1993,
       "notes": "",
-      "url": "",
-      "cover": ""
+      "url": "https://thegamesdb.net/game.php?id=108229",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108229-1.jpg"
     },
     {
-      "title": "Elden Ring",
-      "platform": "PlayStation 5",
-      "status": "wanted",
-      "playStatus": "unplayed",
+      "title": "Street Fighter II",
+      "platform": "Super Nintendo (SNES)",
+      "status": "owned",
+      "playStatus": "",
       "acquiredOn": "",
-      "releaseYear": 2022,
+      "releaseYear": 1992,
       "notes": "",
-      "url": "",
-      "cover": ""
+      "url": "https://thegamesdb.net/game.php?id=108260",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108260-1.jpg"
+    },
+    {
+      "title": "Street Fighter II Turbo",
+      "platform": "Super Nintendo (SNES)",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1993,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=2538",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/2538-1.jpg"
+    },
+    {
+      "title": "Donkey Kong Country",
+      "platform": "Super Nintendo (SNES)",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1994,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=108212",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108212-1.jpg"
+    },
+    {
+      "title": "Super Mario All-Stars",
+      "platform": "Super Nintendo (SNES)",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1993,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=108265",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108265-1.jpg"
+    },
+    {
+      "title": "Super Mario World 2: Yoshi's Island",
+      "platform": "Super Nintendo (SNES)",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1995,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=108268",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108268-1.jpg"
+    },
+    {
+      "title": "Super Mario World",
+      "platform": "Super Nintendo (SNES)",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1991,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=108267",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108267-1.jpg"
+    },
+    {
+      "title": "Super Mario Kart",
+      "platform": "Super Nintendo (SNES)",
+      "status": "owned",
+      "playStatus": "",
+      "acquiredOn": "",
+      "releaseYear": 1992,
+      "notes": "",
+      "url": "https://thegamesdb.net/game.php?id=108266",
+      "cover": "https://cdn.thegamesdb.net/images/thumb/boxart/front/108266-1.jpg"
     }
   ]
 }
