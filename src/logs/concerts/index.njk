@@ -3,18 +3,75 @@ layout: page
 title: Concerts
 permalink: /logs/concerts/
 ---
+<p class="lead">A log of the gigs I’ve been to — the dates, venues, and artists that made them memorable. There’s something different about hearing music live, and this page is a small archive of those nights and the places they happened.</p>
 
-<h2>Concerts</h2>
+{% set latestGig = concerts.entries[0] %}
 
-{% set years = concerts.years %}
-{% set base = "/logs/concerts" %}
-{% include "components/year-nav.njk" %}
+<p class="logs-kpis">
+  <span><strong>{{ concerts.stats.totalConcerts }}</strong> gigs</span>
+  <span>·</span>
+  <span><strong>{{ concerts.stats.totalArtists }}</strong> artists</span>
+  <span>·</span>
+  <span><strong>{{ concerts.stats.totalVenues }}</strong> venues</span>
+</p>
 
-<ul>
+<div class="media-grid">
+  <section class="media-card">
+    <div class="media-body">
+      <h3 class="">Most recent</h3>
+      <p class="media-muted">The latest gig logged.</p>
+      {% if latestGig %}
+        <p class="media-title">
+          <span class="media-muted">{{ latestGig.date }} —</span>
+          <strong>{{ latestGig.artists | join(", ") }}</strong>
+        </p>
+        <p class="media-meta">
+          {{ latestGig.venue }}{% if latestGig.city %}, {{ latestGig.city }}{% endif %}
+          {% if latestGig.country %}<span class="media-muted"> · {{ latestGig.country }}</span>{% endif %}
+        </p>
+
+        <p class="media-actions">
+          {% if latestGig.links and latestGig.links.setlistFm %}
+            <a href="{{ latestGig.links.setlistFm }}">Setlist.fm</a>
+          {% endif %}
+          {% if latestGig.links and latestGig.links.tickets %}
+            <a href="{{ latestGig.links.tickets }}">Tickets</a>
+          {% endif %}
+          {% if latestGig.notes %}
+          <div class="media-badges">
+            <span class="media-badge">has notes</span>
+          </div>
+          {% endif %}
+        </p>
+      {% else %}
+        <p class="media-muted">No concerts logged yet.</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="media-card">
+    <div class="media-body">
+      <h3>Browse by year</h3>
+      <p class="media-muted">Jump to a year archive.</p>
+
+      {% set years = concerts.years %}
+      {% set base = "/logs/concerts" %}
+      {% include "components/year-nav.njk" %}
+    </div>
+  </section>
+</div>
+
+<h2>All concerts</h2>
+
+<ul class="media-list">
   {% for gig in concerts.entries %}
     <li>
-      {{ gig.date }} — <strong>{{ gig.artists | join(", ") }}</strong>
-      — {{ gig.venue }}, {{ gig.city }}
+      <strong>{{ gig.artists | join(", ") }}</strong>
+      <span class="media-muted">— {{ gig.date }}</span>
+      <span class="media-muted">— {{ gig.venue }}{% if gig.city %}, {{ gig.city }}{% endif %}</span>
+      {% if gig.links and gig.links.setlistFm %}
+        <span class="media-muted"> · <a href="{{ gig.links.setlistFm }}">setlist</a></span>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>

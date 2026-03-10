@@ -1867,6 +1867,13 @@ footer > .container > .sixteen {
     font-size: 0.95rem; 
     opacity: 0.85;
   }
+  .media-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: .55rem;
+  }
   .media-badges { 
     margin-top: 0.6rem;
     display: flex;
