@@ -7312,6 +7312,14 @@
       "watchedOn": "2026-03-10",
       "season": 2,
       "episode": 5
+    },
+    {
+      "rewatch": false,
+      "tmdbId": 106379,
+      "type": "tv",
+      "watchedOn": "2026-03-10",
+      "season": 2,
+      "episode": 6
     }
   ]
 }
