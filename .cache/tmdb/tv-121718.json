@@ -1,0 +1,103 @@
+{
+  "adult": false,
+  "backdrop_path": "/tvt0tNVUdQLZoabP5B7n4VRGrWf.jpg",
+  "created_by": [],
+  "episode_run_time": [],
+  "first_air_date": "2021-03-25",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.peacocktv.com/watch/asset/tv/john-wayne-gacy-devil-in-disguise/6713218129274915112",
+  "id": 121718,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2021-03-25",
+  "last_episode_to_air": {
+    "id": 2823379,
+    "name": "It Never Ends",
+    "overview": "Questions about the Gacy case linger 40 years later, as does the fallout from his terrible crimes.",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2021-03-25",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 52,
+    "season_number": 1,
+    "show_id": 121718,
+    "still_path": "/nFlszm8Kii8FJzIVfW28q2IdnRS.jpg"
+  },
+  "name": "John Wayne Gacy: Devil in Disguise",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 3353,
+      "logo_path": "/gIAcGTjKKr0KOHL5s4O36roJ8p7.png",
+      "name": "Peacock",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 6,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "John Wayne Gacy: Devil in Disguise",
+  "overview": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
+  "popularity": 1.0854,
+  "poster_path": "/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
+  "production_companies": [
+    {
+      "id": 162351,
+      "logo_path": "/pcbWKao4b7WTn2USrfgDjxahVN6.png",
+      "name": "NBC News Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 154462,
+      "logo_path": "/b50HZtBl1ANTbHwu7PJmSAccZk1.png",
+      "name": "Witchcraft Motion Picture Company",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2021-03-25",
+      "episode_count": 6,
+      "id": 187760,
+      "name": "Miniseries",
+      "overview": "",
+      "poster_path": "/jSxfUA5RMze0tQxBxFEVQn9jeiH.jpg",
+      "season_number": 1,
+      "vote_average": 0
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Straight from the killer's mouth.",
+  "type": "Miniseries",
+  "vote_average": 6.854,
+  "vote_count": 24
+}
