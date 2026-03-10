@@ -1,5 +1,11 @@
 [
   {
+    "title": "My favorite way to write code in 2026 (on becoming a TDD addict)",
+    "url": "https://gomakethings.com/my-favorite-way-to-write-code-in-2026-on-becoming-a-tdd-addict/",
+    "content": "Daily Tips I’ve hated writing JavaScript tests for pretty my whole career. That thing where you plan a component, write some code, iterate it a whole bunch…",
+    "date": "2026-03-10T14:42:03.000Z"
+  },
+  {
     "title": "The :has() CSS pseudo-class",
     "url": "https://gomakethings.com/the-has-css-pseudo-class/",
     "content": "Daily Tips I finally got a chance to work with the :has() CSS pseudo-class as part of Kelp, my UI library for people who love HTML. Today, I wanted to quickly…",

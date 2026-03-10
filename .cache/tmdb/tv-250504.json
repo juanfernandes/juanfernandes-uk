@@ -1,0 +1,124 @@
+{
+  "adult": false,
+  "backdrop_path": "/ylW0m5UztyyL4YFu8EC6usUHLF.jpg",
+  "created_by": [
+    {
+      "id": 1961940,
+      "credit_id": "691209041c6955a1a5ce8bd2",
+      "name": "Gabe Rotter",
+      "original_name": "Gabe Rotter",
+      "gender": 2,
+      "profile_path": "/hCmljQJCJJ5XLbxLlZZt1KrUdB6.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2025-11-13",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81427733",
+  "id": 250504,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2025-11-13",
+  "last_episode_to_air": {
+    "id": 6448999,
+    "name": "The Last Word",
+    "overview": "Backed into a corner, Aggie must use all her wits to keep her world from crashing down — and place all her trust in an unlikely ally.",
+    "vote_average": 6.3,
+    "vote_count": 13,
+    "air_date": "2025-11-13",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 55,
+    "season_number": 1,
+    "show_id": 250504,
+    "still_path": "/vUYVc5gqvIEJpjUlMEXKHIvFqXj.jpg"
+  },
+  "name": "The Beast in Me",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 8,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "The Beast in Me",
+  "overview": "A famous author is pulled into a twisted mind game with her rich, powerful new neighbor — who might be a murderer.",
+  "popularity": 10.4524,
+  "poster_path": "/jxf7JCfIMvGONWTNUIJ068sFixK.jpg",
+  "production_companies": [
+    {
+      "id": 65126,
+      "logo_path": null,
+      "name": "Conaco",
+      "origin_country": "US"
+    },
+    {
+      "id": 236166,
+      "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+      "name": "20th Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 10850,
+      "logo_path": null,
+      "name": "Teakwood Lane Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 280449,
+      "logo_path": null,
+      "name": "Overall Production",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2025-11-13",
+      "episode_count": 8,
+      "id": 385988,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": "/jxf7JCfIMvGONWTNUIJ068sFixK.jpg",
+      "season_number": 1,
+      "vote_average": 6.7
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Pain needs a partner.",
+  "type": "Miniseries",
+  "vote_average": 7.115,
+  "vote_count": 204
+}
