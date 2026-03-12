@@ -1,0 +1,118 @@
+{
+  "adult": false,
+  "backdrop_path": "/mPsf0GVm115YOrNn0EyLnqPRpcv.jpg",
+  "created_by": [
+    {
+      "id": 1323533,
+      "credit_id": "68571ae41a06a10d28a462ed",
+      "name": "Matt Charman",
+      "original_name": "Matt Charman",
+      "gender": 2,
+      "profile_path": "/ypEg7WnK0vrHp19sHYTGEGrCP3i.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2025-08-21",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10768,
+      "name": "War & Politics"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81696688",
+  "id": 248937,
+  "in_production": false,
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "last_air_date": "2025-08-21",
+  "last_episode_to_air": {
+    "id": 6328382,
+    "name": "Episode 5",
+    "overview": "A state of emergency is declared across the country. With the military in control, Dalton must find who's behind it all before it's too late.",
+    "vote_average": 3.6,
+    "vote_count": 14,
+    "air_date": "2025-08-21",
+    "episode_number": 5,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 47,
+    "season_number": 1,
+    "show_id": 248937,
+    "still_path": "/zsoU6EFDtM7V7Pew6nXxzR8diiW.jpg"
+  },
+  "name": "Hostage",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 5,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "Hostage",
+  "overview": "When the British prime minister's husband is kidnapped and the French president starts receiving threats, both leaders must face an impossible choice.",
+  "popularity": 4.7371,
+  "poster_path": "/ghcxxmSLByYyFLAL8TNWmAel1Ym.jpg",
+  "production_companies": [
+    {
+      "id": 169386,
+      "logo_path": "/jdVj9osjd6074X1wXdQwklwU1ww.png",
+      "name": "Binocular Productions",
+      "origin_country": "GB"
+    },
+    {
+      "id": 272037,
+      "logo_path": "/sENGznXHkTzh2u9QWEKaAmsYZG5.png",
+      "name": "TeamAkers Productions",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2025-08-21",
+      "episode_count": 5,
+      "id": 383502,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": "/k6d2inimw6XVSYErS7LsQ83DMhT.jpg",
+      "season_number": 1,
+      "vote_average": 4.2
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "French",
+      "iso_639_1": "fr",
+      "name": "Français"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "I will not negotiate. I will not be held...",
+  "type": "Miniseries",
+  "vote_average": 6.648,
+  "vote_count": 88
+}

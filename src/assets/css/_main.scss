@@ -1736,31 +1736,27 @@ footer > .container > .sixteen {
   }
 }
 
-.media-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 1.5rem;
-}
-
-.media-card img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-
 /* Logs Dashboard */
 
-.logs-nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .75rem 1rem;
-  padding: 0;
-  margin: 0 0 1.5rem;
-  list-style: none;
-}
+.dash-nav {
+  margin-bottom: 24px;
 
-.logs-nav a {
-  text-decoration: none;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    gap: .6rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .dash-grid {
@@ -1780,7 +1776,10 @@ footer > .container > .sixteen {
 
   .dash-title {
     a {
+      align-items: center;
+      display: inline-flex;
       font-size: 2.4rem;
+      gap: .6rem;
     }
   }
 
@@ -1826,18 +1825,34 @@ footer > .container > .sixteen {
   }
 }
 
-  .platform-nav { margin: 1rem 0 2rem; line-height: 1.8; }
+.platform-nav { margin: 1rem 0 2rem; line-height: 1.8; }
+
+.media-card {
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 12px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    border-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  &__body {
+    padding: 1rem;
+  }
+
+  &__title {
+    line-height: 1;
+  }
+}
   .media-grid {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    margin: 1rem 0 2rem;
   }
-  .media-card {
-    border-radius: 12px;
-    border: 1px solid rgba(0,0,0,.12);
-    overflow: hidden;
-  }
+
   .media-thumb {
     align-items: center;
     aspect-ratio: 16 / 9;
@@ -1890,3 +1905,188 @@ footer > .container > .sixteen {
       text-transform: capitalize;
     }
   }
+
+  .tv-groups {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.25rem;
+    
+    @media only screen and (min-width: 48em) {
+      grid-template-columns: 6fr 6fr;
+    }
+  }
+  .tv-card {
+    border: 1px solid rgba(0,0,0,.12);
+    border-radius: 14px;
+    padding: 1rem;
+  }
+  .tv-header {
+    display: grid;
+    gap: .9rem;
+    align-items: start;
+    margin-bottom: 0;
+
+    @media only screen and (min-width: 23.438em) {
+      grid-template-columns: 72px 1fr;
+    }
+  }
+  .tv-poster {
+    aspect-ratio: 2 / 3;
+    background: rgba(0,0,0,.06);
+    border-radius: 10px;
+    overflow: hidden;
+
+    @media only screen and (min-width: 23.438em) {
+      width: 72px;
+    }
+  }
+  .tv-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .tv-title {
+    margin: 0 0 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+
+    a {
+      font-size: 2rem;
+    }
+  }
+  .tv-meta {
+    margin: 0;
+    opacity: .85;
+  }
+  .tv-seasons {
+    display: grid;
+    gap: .9rem;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .tv-season {
+    border-top: 1px solid rgba(0,0,0,.08);
+    padding-top: .8rem;
+
+    summary {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin: 0 0 .45rem;
+      font-size: 1rem;
+    }
+  }
+  .tv-episodes {
+    cursor: default;
+    display: grid;
+    gap: .45rem;
+    list-style: none;
+    margin: 1rem 0 0 1.8rem;
+    padding: 0;
+
+    li {
+      line-height: 1.4;
+    }
+  }
+  .tv-badge {
+    display: inline-block;
+    font-size: .85rem;
+    padding: .1rem .45rem;
+    border: 1px solid rgba(0,0,0,.18);
+    border-radius: 999px;
+    opacity: .95;
+    white-space: nowrap;
+  }
+
+
+.watch-grid {
+  display: grid;
+  // grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: 4fr 4fr 4fr;
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+.watch-card {
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 14px;
+  padding: 1rem;
+
+  h2 { 
+    margin: 0 0 .5rem;
+  }
+
+  .watch-muted { 
+    margin-bottom: 0;
+    opacity: .8; 
+  }
+
+  .watch-latest {
+    margin-top: .8rem;
+    padding-top: .8rem;
+    border-top: 1px solid rgba(0,0,0,.10);
+  }
+
+  .watch-row {
+    display: grid;
+    grid-template-columns: 74px 1fr;
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .watch-poster {
+    width: 74px;
+    aspect-ratio: 2 / 3;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(0,0,0,.06);
+  }
+  
+  .watch-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .watch-title {
+    margin: 0 0 1.4rem;
+    line-height: 1.2;
+  }
+  .watch-meta {
+    margin: 0;
+    opacity: .85;
+  }
+  .watch-links {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+  }
+  .watch-years {
+    margin: .6rem 0 0;
+    font-size: .95rem;
+
+    a { 
+      white-space: nowrap;
+    }
+  }
+
+  .watch-list {
+    display: grid;
+    gap: .6rem;
+    list-style: none;
+    margin: .9rem 0 0;
+    padding: 0;
+  }
+  .watch-badge {
+    border-radius: 999px;
+    border: 1px solid rgba(0,0,0,.18);
+    display: inline-block;
+    font-size: 1.2rem;
+    opacity: .95;
+    padding: .1rem .45rem;
+    white-space: nowrap;
+  }
+}

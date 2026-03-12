@@ -1,6 +1,6 @@
 {
   "adult": false,
-  "backdrop_path": "/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+  "backdrop_path": "/40Wtp7kMG6mZ4d5T1jfrd8qrvD4.jpg",
   "belongs_to_collection": {
     "id": 2150,
     "name": "Shrek Collection",
@@ -39,7 +39,7 @@
   "original_language": "en",
   "original_title": "Shrek",
   "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
-  "popularity": 25.793,
+  "popularity": 27.8326,
   "poster_path": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
   "production_companies": [
     {
@@ -81,6 +81,6 @@
   "tagline": "The greatest fairy tale never told.",
   "title": "Shrek",
   "video": false,
-  "vote_average": 7.8,
-  "vote_count": 18451
+  "vote_average": 7.757,
+  "vote_count": 18478
 }

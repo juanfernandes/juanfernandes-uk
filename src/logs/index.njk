@@ -8,15 +8,6 @@ permalink: /logs/
 
 <p class="lead">A record of the media I consume and the experiences that stick with me — films watched, episodes finished, music played, books read, and gigs attended. Each log builds a small timeline of the things that have held my attention over time.</p>
 
-<nav class="logs-nav" aria-label="Log sections">
-  <ul>
-    <li><a href="/logs/listening/">Listening</a></li>
-    <li><a href="/logs/watching/">Watching</a></li>
-    <li><a href="/logs/reading/">Reading</a></li>
-    <li><a href="/logs/concerts/">Concerts</a></li>
-  </ul>
-</nav>
-
 {% set latestFilm = watch.movies[0] %}
 {% set latestEp = watch.tvEpisodes[0] %}
 {% set latestGig = concerts.entries[0] %}
@@ -27,7 +18,12 @@ permalink: /logs/
 
 <div class="dash-grid">
   <section class="dash-card">
-    <h3 class="dash-title"><a href="/logs/watching/">Watching</a></h3>
+    <h3 class="dash-title">
+      <a href="/logs/watching/">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-tv" /></svg>
+        <span>Watching</span>
+      </a>
+    </h3>
 
     <ul class="dash-stats">
       <li class="pill"><strong>{{ watch.stats.totalMovies }}</strong> films</li>
@@ -69,13 +65,18 @@ permalink: /logs/
   </section>
 
   <section class="dash-card">
-    <h3 class="dash-title"><a href="/logs/concerts/">Concerts</a></h3>
+    <h3 class="dash-title">
+      <a href="/logs/concerts/">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-ticket" /></svg>
+        <span>Concerts</span>
+      </a>
+    </h3>
 
     <ul class="dash-stats">
       <li class="pill"><strong>{{ concerts.stats.totalConcerts }}</strong> gigs</li>
       <li class="pill"><strong>{{ concerts.stats.totalArtists }}</strong> artists</li>
       <li class="pill"><strong>{{ concerts.stats.totalVenues }}</strong> venues</li>
-    </li>
+    </ul>
 
     <div class="dash-latest">
       <h4>Most recent gig</h4>
@@ -103,13 +104,18 @@ permalink: /logs/
   </section>
 
   <section class="dash-card">
-    <h3 class="dash-title"><a href="/logs/listening/">Listening</a></h3>
+    <h3 class="dash-title">
+      <a href="/logs/listening/">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-music" /></svg>
+        <span>Listening</span>
+      </a>
+    </h3>
 
     <ul class="dash-stats">
       <li class="pill"><strong>{{ (lastfmRecent.weekTopArtistsTop10 or []).length }}</strong> artists (week)</li>
       <li class="pill"><strong>{{ (lastfmRecent.weekTopAlbumsTop10 or []).length }}</strong> albums (week)</li>
       <li class="pill"><strong>{{ (lastfmRecent.weekTopTracksTop10 or []).length }}</strong> tracks (week)</li>
-    </li>
+    </ul>
 
     {% set latestTrack = (lastfmRecent.recentTracks and lastfmRecent.recentTracks[0]) or null %}
 
@@ -145,13 +151,18 @@ permalink: /logs/
   </section>
 
   <section class="dash-card">
-    <h3 class="dash-title"><a href="/logs/reading/">Reading</a></h3>
+    <h3 class="dash-title">
+      <a href="/logs/reading/">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-book" /></svg>
+        <span>Reading</span>
+      </a>
+    </h3>
 
     <ul class="dash-stats">
       <li class="pill"><strong>{{ reading.stats.currentlyReading }}</strong> reading</li>
       <li class="pill"><strong>{{ reading.stats.finished }}</strong> finished</li>
       <li class="pill"><strong>{{ reading.stats.toRead }}</strong> to read</li>
-    </li>
+    </ul>
 
     <div class="dash-latest">
       <h4>Currently reading</h4>
@@ -181,14 +192,6 @@ permalink: /logs/
         <p class="dash-muted">No finished books logged yet.</p>
       {% endif %}
     </div>
-
-{#     {% if reading.years and reading.years.length %}
-      <p class="dash-years">
-        {% for y in reading.years %}
-          <a href="/logs/reading/#year-{{ y }}">{{ y }}</a>{% if not loop.last %}<span class="dash-muted"> · </span>{% endif %}
-        {% endfor %}
-      </p>
-    {% endif %} #}
 
     <div class="dash-actions">
       <span><a href="/logs/reading/">Open reading log</a> →</span>

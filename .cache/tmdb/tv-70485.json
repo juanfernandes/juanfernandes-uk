@@ -1,0 +1,160 @@
+{
+  "adult": false,
+  "backdrop_path": "/diYVGzRSAJpOCE5Avd5ZKBFUepi.jpg",
+  "created_by": [
+    {
+      "id": 59650,
+      "credit_id": "598aa94e925141329e02329e",
+      "name": "David E. Kelley",
+      "original_name": "David E. Kelley",
+      "gender": 2,
+      "profile_path": "/rn8r38XqBV4yNhm9AJY93i9Jf6m.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2017-08-09",
+  "genres": [
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "http://start.att.net/exclusive/audience/mr-mercedes/",
+  "id": 70485,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2019-11-12",
+  "last_episode_to_air": {
+    "id": 1968857,
+    "name": "Burning Man",
+    "overview": "Hodges gets an unexpected call. Pete has a plan. Morris starts to feel the heat.",
+    "vote_average": 6,
+    "vote_count": 10,
+    "air_date": "2019-11-12",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 58,
+    "season_number": 3,
+    "show_id": 70485,
+    "still_path": "/osJjvDjw3bgCByqHifnHbWgjx2x.jpg"
+  },
+  "name": "Mr. Mercedes",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 251,
+      "logo_path": "/tmhbFiRpgJFSmza9GTQam8ICyHp.png",
+      "name": "Audience",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 30,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Mr. Mercedes",
+  "overview": "A demented serial killer taunts a retired police detective with a series of lurid letters and emails, forcing the ex-cop to undertake a private, and potentially felonious, crusade to bring the killer to justice before he can strike again.",
+  "popularity": 18.6817,
+  "poster_path": "/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
+  "production_companies": [
+    {
+      "id": 55027,
+      "logo_path": "/c4nfaihSe2948dIRYioKIgxGzO1.png",
+      "name": "David E. Kelley Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 12292,
+      "logo_path": "/5J93SHsuvIV32AE9oSbMi02pqw9.png",
+      "name": "Temple Hill Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 267876,
+      "logo_path": null,
+      "name": "Nomadicfilm",
+      "origin_country": "US"
+    },
+    {
+      "id": 22702,
+      "logo_path": "/l4eSl1sbXdzgBtMkxdTUIGzAJX6.png",
+      "name": "Sonar Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 56663,
+      "logo_path": "/6Yf7cKVDcBRB5MePQaP2ldOHiWR.png",
+      "name": "AT&T",
+      "origin_country": "US"
+    },
+    {
+      "id": 11073,
+      "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
+      "name": "Sony Pictures Television",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2017-08-09",
+      "episode_count": 10,
+      "id": 85628,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/jq8RyL2fhdS5FCvEufhers9yxUJ.jpg",
+      "season_number": 1,
+      "vote_average": 6.7
+    },
+    {
+      "air_date": "2018-08-22",
+      "episode_count": 10,
+      "id": 104044,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/21gSChFiZT1ke7QSOoQjmLx7EU5.jpg",
+      "season_number": 2,
+      "vote_average": 6.5
+    },
+    {
+      "air_date": "2019-09-10",
+      "episode_count": 10,
+      "id": 130096,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": "/hTmpEcVMC49YqVdf4sXUz49L62Q.jpg",
+      "season_number": 3,
+      "vote_average": 6.6
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Don’t let him inside your head.",
+  "type": "Scripted",
+  "vote_average": 7.147,
+  "vote_count": 371
+}

@@ -1,0 +1,122 @@
+{
+  "adult": false,
+  "backdrop_path": "/n4hJLZmBG8kZccNn7bNgBDsVQ6a.jpg",
+  "created_by": [
+    {
+      "id": 1661862,
+      "credit_id": "68f0218497a06ff5c7e2b79b",
+      "name": "William Oldroyd",
+      "original_name": "William Oldroyd",
+      "gender": 2,
+      "profile_path": "/e3cJeIVKozF9tCPfGoJVi066VTO.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2026-01-08",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81662954",
+  "id": 259731,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2026-01-08",
+  "last_episode_to_air": {
+    "id": 6665657,
+    "name": "Episode 6",
+    "overview": "As the case comes to a close, Jack and Anna must reckon with the sins of the past — and the brutal consequences in the present.",
+    "vote_average": 5.094,
+    "vote_count": 32,
+    "air_date": "2026-01-08",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 40,
+    "season_number": 1,
+    "show_id": 259731,
+    "still_path": "/iw6hFVQ8ItYOGS4excmauXnyEI5.jpg"
+  },
+  "name": "HIS & HERS",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 6,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "HIS & HERS",
+  "overview": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
+  "popularity": 17.1821,
+  "poster_path": "/vRXw6fUD9B4RhMoTvhcJcnHYIMP.jpg",
+  "production_companies": [
+    {
+      "id": 181874,
+      "logo_path": "/crrgXvLhDO9c57HYrbO4H58Vxmb.png",
+      "name": "Fifth Season",
+      "origin_country": "US"
+    },
+    {
+      "id": 83210,
+      "logo_path": "/5aYKTLP4Kw75wOZ9AHIFc1HpkN0.png",
+      "name": "Freckle Films",
+      "origin_country": "US"
+    },
+    {
+      "id": 197821,
+      "logo_path": "/7Di681ml6mBfrWPA8o34cgSdwoe.png",
+      "name": "Viva Maude",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2026-01-08",
+      "episode_count": 6,
+      "id": 403464,
+      "name": "Limited Series",
+      "overview": "Reclusive former news anchor Anna Andrews becomes obsessed with a murder case in her hometown. Her estranged husband, Detective Jack Harper, suspicious of her involvement, puts Anna in the crosshairs of his investigation.",
+      "poster_path": "/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
+      "season_number": 1,
+      "vote_average": 4.9
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Two sides. One killer secret.",
+  "type": "Miniseries",
+  "vote_average": 7.284,
+  "vote_count": 331
+}

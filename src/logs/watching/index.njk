@@ -3,15 +3,9 @@ layout: page
 title: Watching
 permalink: /logs/watching/
 ---
+{% include "components/dash-nav.njk" %}
 
 <p class="lead">A log of the films and television I’ve watched — from single movie nights to full seasons of shows. It tracks when I watched them, what stood out, and occasionally how much I enjoyed them.</p>
-
-<nav class="logs-nav" aria-label="Watching sections">
-  <ul>
-    <li><a href="/logs/watching/films/">Films</a></li>
-    <li><a href="/logs/watching/tv/">TV</a></li>
-  </ul>
-</nav>
 
 {% set latestFilm = watch.movies[0] %}
 {% set latestEp = watch.tvEpisodes[0] %}
@@ -23,82 +17,6 @@ permalink: /logs/watching/
   <span>·</span>
   <span><strong>{{ watch.stats.totalShows }}</strong> shows</span>
 </p>
-
-<style>
-  .watch-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1rem;
-    margin: 1.25rem 0 2rem;
-  }
-  .watch-card {
-    border: 1px solid rgba(0,0,0,.12);
-    border-radius: 14px;
-    padding: 1rem;
-  }
-  .watch-card h2 { margin: 0 0 .5rem; }
-  .watch-muted { opacity: .8; }
-  .watch-latest {
-    margin-top: .8rem;
-    padding-top: .8rem;
-    border-top: 1px solid rgba(0,0,0,.10);
-  }
-  .watch-row {
-    display: grid;
-    grid-template-columns: 54px 1fr;
-    gap: .75rem;
-    align-items: start;
-  }
-  .watch-poster {
-    width: 54px;
-    aspect-ratio: 2 / 3;
-    border-radius: 10px;
-    overflow: hidden;
-    background: rgba(0,0,0,.06);
-  }
-  .watch-poster img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .watch-title {
-    margin: 0 0 .2rem;
-    font-weight: 800;
-    line-height: 1.2;
-  }
-  .watch-meta {
-    margin: 0;
-    opacity: .85;
-  }
-  .watch-links {
-    margin-top: .7rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: .6rem;
-  }
-  .watch-years {
-    margin: .6rem 0 0;
-    font-size: .95rem;
-  }
-  .watch-years a { white-space: nowrap; }
-  .watch-list {
-    list-style: none;
-    padding: 0;
-    margin: .9rem 0 0;
-    display: grid;
-    gap: .6rem;
-  }
-  .watch-badge {
-    display: inline-block;
-    font-size: .85rem;
-    padding: .1rem .45rem;
-    border: 1px solid rgba(0,0,0,.18);
-    border-radius: 999px;
-    opacity: .95;
-    white-space: nowrap;
-  }
-</style>
 
 <div class="watch-grid">
   <section class="watch-card">
@@ -120,9 +38,10 @@ permalink: /logs/watching/
               {% if latestFilm.year %}<span class="watch-muted"> ({{ latestFilm.year }})</span>{% endif %}
             </p>
             <p class="watch-meta">
-              <span class="watch-muted">{{ latestFilm.watchedOn }}</span>
-              {% if latestFilm.rating %} · <span class="watch-badge">★ {{ latestFilm.rating }}/5</span>{% endif %}
-              {% if latestFilm.rewatch %} · <span class="watch-badge">rewatch</span>{% endif %}
+              <span class="watch-muted">{{ latestFilm.watchedOn | dateFilter }}</span>
+            </p>
+            <p class="watch-meta">
+              {% if latestFilm.rating %}<span class="watch-badge">★ {{ latestFilm.rating }}/5</span>{% endif %}{% if latestFilm.rewatch %} · <span class="watch-badge">Rewatch</span>{% endif %}
             </p>
           </div>
         </div>
@@ -130,13 +49,6 @@ permalink: /logs/watching/
         <p class="watch-muted">No films logged yet.</p>
       {% endif %}
     </div>
-
-    <p class="watch-years">
-      <strong>Browse:</strong>
-      {% for y in watch.years %}
-        {% if watch.moviesByYear[y] %}<a href="/logs/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %}<span class="watch-muted"> · </span>{% endif %}{% endif %}
-      {% endfor %}
-    </p>
 
     <ul class="watch-list">
       {% for item in watch.movies | slice(0, 8) %}
@@ -148,9 +60,9 @@ permalink: /logs/watching/
       {% endfor %}
     </ul>
 
-    <p class="watch-links">
+    <div class="watch-links">
       <a href="/logs/watching/films/">Browse all films →</a>
-    </p>
+    </div>
   </section>
 
   <section class="watch-card">
@@ -158,7 +70,7 @@ permalink: /logs/watching/
     <p class="watch-muted">Episode-level log and show counts.</p>
 
     <div class="watch-latest">
-      <h3 class="watch-title">Latest TV episode</h3>
+      <h3 class="watch-title">Latest episode</h3>
       {% if latestEp %}
         <div class="watch-row">
           <div class="watch-poster">
@@ -172,24 +84,27 @@ permalink: /logs/watching/
               {% if latestEp.year %}<span class="watch-muted"> ({{ latestEp.year }})</span>{% endif %}
             </p>
             <p class="watch-meta">
-              <span class="watch-muted">S{{ latestEp.season }}E{{ latestEp.episode }}</span>
-              <span class="watch-muted"> · {{ latestEp.watchedOn }}</span>
-              {% if latestEp.rating %} · <span class="watch-badge">★ {{ latestEp.rating }}/5</span>{% endif %}
-              {% if latestEp.rewatch %} · <span class="watch-badge">rewatch</span>{% endif %}
+              <span class="watch-muted">Season {{ latestEp.season }} Episode {{ latestEp.episode }}</span>
             </p>
+            <p class="watch-meta">
+              <span class="watch-muted">{{ latestEp.watchedOn | dateFilter }}</span>
+            </p>
+            {% if latestEp.rating %}
+            <p class="watch-meta">
+              <span class="watch-badge">★ {{ latestEp.rating }}/5</span>
+            </p>
+            {% endif %}
+            {% if latestEp.rewatch %}
+            <p class="watch-meta">
+              <span class="watch-badge">Rewatch</span>
+            </p>
+            {% endif %}
           </div>
         </div>
       {% else %}
         <p class="watch-muted">No TV episodes logged yet.</p>
       {% endif %}
     </div>
-
-    <p class="watch-years">
-      <strong>Browse:</strong>
-      {% for y in watch.years %}
-        {% if watch.tvByYear[y] %}<a href="/logs/watching/tv/{{ y }}/">{{ y }}</a>{% if not loop.last %}<span class="watch-muted"> · </span>{% endif %}{% endif %}
-      {% endfor %}
-    </p>
 
     <ul class="watch-list">
       {% for ep in watch.tvEpisodes | slice(0, 8) %}
@@ -201,11 +116,10 @@ permalink: /logs/watching/
       {% endfor %}
     </ul>
 
-    <p class="watch-links">
+    <div class="watch-links">
       <a href="/logs/watching/tv/">Browse all TV →</a>
-    </p>
+    </div>
   </section>
-
 </div>
 
 {% include "components/tmdb-attribution.njk" %}

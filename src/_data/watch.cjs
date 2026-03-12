@@ -39,12 +39,15 @@ async function tmdbGet(type, id, apiKey) {
   return data;
 }
 
-const yearFromISO = (d) => String(d).slice(0, 4);
-const sortByWatchedDesc = (a, b) => (a.watchedOn > b.watchedOn ? -1 : a.watchedOn < b.watchedOn ? 1 : 0);
+const yearFromISO = (d) => String(d || "").slice(0, 4);
+
+const sortByWatchedDesc = (a, b) =>
+  a.watchedOn > b.watchedOn ? -1 : a.watchedOn < b.watchedOn ? 1 : 0;
 
 function groupByYear(items) {
   return items.reduce((acc, item) => {
     const y = yearFromISO(item.watchedOn);
+    if (!y) return acc;
     (acc[y] ??= []).push(item);
     return acc;
   }, {});
@@ -52,33 +55,50 @@ function groupByYear(items) {
 
 function groupTvByShowThenSeason(tvEpisodes) {
   const out = {};
+
   for (const ep of tvEpisodes) {
     const key = String(ep.tmdbId);
-    out[key] ??= { show: ep.show, tmdbUrl: ep.tmdbUrl, seasons: {} };
+
+    out[key] ??= {
+      show: ep.show,
+      tmdbUrl: ep.tmdbUrl,
+      poster: ep.poster || "",
+      year: ep.year || null,
+      seasons: {}
+    };
+
     (out[key].seasons[ep.season] ??= []).push(ep);
   }
-  for (const k of Object.keys(out)) {
-    for (const s of Object.keys(out[k].seasons)) {
-      out[k].seasons[s].sort((a, b) => (a.episode ?? 0) - (b.episode ?? 0));
+
+  for (const showId of Object.keys(out)) {
+    for (const seasonNum of Object.keys(out[showId].seasons)) {
+      out[showId].seasons[seasonNum].sort((a, b) => {
+        if ((a.watchedOn || "") > (b.watchedOn || "")) return -1;
+        if ((a.watchedOn || "") < (b.watchedOn || "")) return 1;
+        return (a.episode || 0) - (b.episode || 0);
+      });
     }
   }
+
   return out;
 }
 
 module.exports = async function () {
   const apiKey = process.env.TMDB_API_KEY;
-  if (!apiKey) throw new Error("Missing TMDB_API_KEY env var (set locally and in GitHub Secrets).");
+  if (!apiKey) {
+    throw new Error("Missing TMDB_API_KEY env var (set locally and in GitHub Secrets).");
+  }
 
   const watchlog = require("./watchlog.json").entries || [];
   const moviesRaw = watchlog.filter((x) => x.type === "movie");
   const tvRaw = watchlog.filter((x) => x.type === "tv");
 
-  const uniqueMovieIds = [...new Set(moviesRaw.map((x) => x.tmdbId))];
-  const uniqueTvIds = [...new Set(tvRaw.map((x) => x.tmdbId))];
+  const uniqueMovieIds = [...new Set(moviesRaw.map((x) => x.tmdbId).filter(Boolean))];
+  const uniqueTvIds = [...new Set(tvRaw.map((x) => x.tmdbId).filter(Boolean))];
 
   const [movieMetaPairs, tvMetaPairs] = await Promise.all([
     Promise.all(uniqueMovieIds.map(async (id) => [id, await tmdbGet("movie", id, apiKey)])),
-    Promise.all(uniqueTvIds.map(async (id) => [id, await tmdbGet("tv", id, apiKey)])),
+    Promise.all(uniqueTvIds.map(async (id) => [id, await tmdbGet("tv", id, apiKey)]))
   ]);
 
   const movieMeta = Object.fromEntries(movieMetaPairs);
@@ -86,24 +106,30 @@ module.exports = async function () {
 
   const movies = moviesRaw
     .map((x) => {
-      const m = movieMeta[x.tmdbId];
+      const m = movieMeta[x.tmdbId] || {};
       return {
         ...x,
-        title: m?.title,
-        posterPath: m?.poster_path,
-        tmdbUrl: `https://www.themoviedb.org/movie/${x.tmdbId}`,
+        title: x.title || m.title || "",
+        year: x.year || (m.release_date ? Number(String(m.release_date).slice(0, 4)) : null),
+        poster:
+          x.poster ||
+          (m.poster_path ? `https://image.tmdb.org/t/p/w342${m.poster_path}` : ""),
+        tmdbUrl: x.tmdbUrl || `https://www.themoviedb.org/movie/${x.tmdbId}`
       };
     })
     .sort(sortByWatchedDesc);
 
   const tvEpisodes = tvRaw
     .map((x) => {
-      const s = tvMeta[x.tmdbId];
+      const s = tvMeta[x.tmdbId] || {};
       return {
         ...x,
-        show: s?.name,
-        posterPath: s?.poster_path,
-        tmdbUrl: `https://www.themoviedb.org/tv/${x.tmdbId}`,
+        show: x.show || s.name || "",
+        year: x.year || (s.first_air_date ? Number(String(s.first_air_date).slice(0, 4)) : null),
+        poster:
+          x.poster ||
+          (s.poster_path ? `https://image.tmdb.org/t/p/w342${s.poster_path}` : ""),
+        tmdbUrl: x.tmdbUrl || `https://www.themoviedb.org/tv/${x.tmdbId}`
       };
     })
     .sort(sortByWatchedDesc);
@@ -111,11 +137,16 @@ module.exports = async function () {
   const moviesByYear = groupByYear(movies);
   const tvByYear = groupByYear(tvEpisodes);
 
+  const tvGrouped = groupTvByShowThenSeason(tvEpisodes);
+
+  const tvGroupedByYear = {};
+  for (const y of Object.keys(tvByYear)) {
+    tvGroupedByYear[y] = groupTvByShowThenSeason(tvByYear[y]);
+  }
+
   const years = [...new Set([...Object.keys(moviesByYear), ...Object.keys(tvByYear)])]
     .sort()
     .reverse();
-
-  const tvGrouped = groupTvByShowThenSeason(tvEpisodes);
 
   const totalMovies = movies.length;
   const totalEpisodes = tvEpisodes.length;
@@ -125,13 +156,14 @@ module.exports = async function () {
     movies,
     tvEpisodes,
     tvGrouped,
+    tvGroupedByYear,
     moviesByYear,
     tvByYear,
     years,
     stats: {
       totalMovies,
       totalEpisodes,
-      totalShows,
-    },
+      totalShows
+    }
   };
 };

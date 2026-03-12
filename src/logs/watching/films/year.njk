@@ -7,8 +7,9 @@ pagination:
 permalink: "/logs/watching/films/{{ year }}/"
 title: "Films — {{ year }}"
 ---
+{% include "components/dash-nav.njk" %}
 
-<h1>Films — {{ year }}</h1>
+<h2>Films — {{ year }}</h2>
 
 <ul>
   {% for item in (watch.moviesByYear[year] or []) %}

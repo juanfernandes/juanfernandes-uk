@@ -5,20 +5,105 @@ pagination:
   size: 1
   alias: year
 permalink: "/logs/watching/tv/{{ year }}/"
-title: "TV — {{ year }}"
+eleventyComputed:
+  title: "Television — {{ year }}"
 ---
+<span>Watching → Television → 2024</span>
 
-<h1>TV — {{ year }}</h1>
+{% include "components/dash-nav.njk" %}
 
-<ul>
-  {% for ep in (watch.tvByYear[year] or []) %}
-    <li>
-      <a href="{{ ep.tmdbUrl }}">{{ ep.show }}</a>
-      — S{{ ep.season }}E{{ ep.episode }}
-      — {{ ep.watchedOn }}
-      {% if ep.rating %} — {{ ep.rating }}/5{% endif %}
-    </li>
+<h2>TV watched in {{ year }}</h2>
+
+<p class="logs-muted">A show-first view of the TV episodes I logged in {{ year }}.</p>
+
+<p class="logs-kpis">
+  <span><strong>{{ (watch.tvByYear[year] or []) | length }}</strong> episodes</span>
+</p>
+
+<p class="logs-years">
+  {% for y in watch.years %}
+    {% if watch.tvByYear[y] %}
+      <a href="/logs/watching/tv/{{ y }}/">{{ y }}</a>{% if not loop.last %}<span class="logs-muted"> · </span>{% endif %}
+    {% endif %}
   {% endfor %}
-</ul>
+</p>
+
+{% set grouped = watch.tvGroupedByYear[year] or {} %}
+
+<div class="tv-groups">
+  {% for showId, bucket in grouped %}
+    {% set latestSeason = 0 %}
+    {% set latestEpisode = 0 %}
+    {% set latestDate = "" %}
+    {% set episodeCount = 0 %}
+    {% set seasonCount = 0 %}
+
+    {% for seasonNum, episodes in bucket.seasons %}
+      {% set seasonCount = seasonCount + 1 %}
+      {% set episodeCount = episodeCount + (episodes | length) %}
+      {% for ep in episodes %}
+        {% if ep.watchedOn > latestDate %}
+          {% set latestDate = ep.watchedOn %}
+          {% set latestSeason = ep.season %}
+          {% set latestEpisode = ep.episode %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    <details class="tv-card">
+      <summary class="tv-header">
+        <div class="tv-poster">
+          {% if bucket.poster %}
+            <img src="{{ bucket.poster }}" alt="Poster for {{ bucket.show }}" loading="lazy">
+          {% endif %}
+        </div>
+
+        <div>
+          <h3 class="tv-title">
+            {% if bucket.tmdbUrl %}
+              <a href="{{ bucket.tmdbUrl }}">{{ bucket.show }}</a>
+            {% else %}
+              {{ bucket.show }}
+            {% endif %}
+            {% if bucket.year %}<span class="logs-muted"> ({{ bucket.year }})</span>{% endif %}
+          </h3>
+
+          <p class="tv-meta">
+            <span><strong>{{ episodeCount }}</strong> episodes logged in {{ year }}</span>
+            <span class="logs-muted"> · </span>
+            <span><strong>{{ seasonCount }}</strong> seasons</span>
+          </p>
+
+          {% if latestDate %}
+            <p class="tv-meta">
+              Latest watched:
+              <span class="tv-badge">S{{ latestSeason }}E{{ latestEpisode }}</span>
+              <span class="logs-muted"> · {{ latestDate }}</span>
+            </p>
+          {% endif %}
+        </div>
+      </summary>
+
+      <div class="tv-seasons">
+        {% for seasonNum, episodes in bucket.seasons %}
+          <details class="tv-season">
+            <summary>Season {{ seasonNum }}</summary>
+
+            <ul class="tv-episodes">
+              {% for ep in episodes %}
+                <li>
+                  <span class="logs-muted">S{{ ep.season }}E{{ ep.episode }}</span>
+                  <span class="logs-muted"> — {{ ep.watchedOn }}</span>
+                  {% if ep.rating %}<span class="logs-muted"> · ★ {{ ep.rating }}/5</span>{% endif %}
+                  {% if ep.rewatch %}<span class="logs-muted"> · rewatch</span>{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </details>
+        {% endfor %}
+      </div>
+    </details>
+  {% endfor %}
+</div>
 
 {% include "components/tmdb-attribution.njk" %}

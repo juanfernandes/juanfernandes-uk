@@ -42,14 +42,20 @@ function lastfmUrl(method, params = {}) {
   return url.toString();
 }
 
-async function fetchJsonCached(url, { duration = "7d" } = {}) {
-  return EleventyFetch(url, {
-    duration,
-    type: "json",
-    fetchOptions: {
-      headers: { "User-Agent": "juanfernandes.uk (Eleventy)" }
-    }
-  });
+async function fetchJsonCached(url, { duration = "7d", fallback = null } = {}) {
+  try {
+    return await EleventyFetch(url, {
+      duration,
+      type: "json",
+      fetchOptions: {
+        headers: { "User-Agent": "juanfernandes.uk (Eleventy)" }
+      }
+    });
+  } catch (err) {
+    console.warn(`[lastfmRecent] Fetch failed for ${url}`);
+    console.warn(`[lastfmRecent] ${err.message}`);
+    return fallback;
+  }
 }
 
 module.exports = async function () {
@@ -67,7 +73,26 @@ module.exports = async function () {
     limit: 1000
   });
 
-  const data = await fetchJsonCached(recentUrl, { duration: "2h" });
+  const data = await fetchJsonCached(recentUrl, {
+    duration: "2h",
+    fallback: { recenttracks: { track: [] } }
+  });
+
+  if (!data?.recenttracks?.track) {
+    return {
+      weekSummary: {
+        artists: 0,
+        albums: 0,
+        tracks: 0,
+        genres: []
+      },
+      weekTopArtists: [],
+      weekTopAlbums: [],
+      weekTopTracks: [],
+      weekTopAlbumsTop10: [],
+      tracks: []
+    };
+  }
 
   const rawTracks = data?.recenttracks?.track ?? [];
 
@@ -81,7 +106,8 @@ module.exports = async function () {
       url: t?.url || null,
       uts: Number(t?.date?.uts)
     }))
-    .filter((t) => t.artist && t.name);
+    .filter((t) => t.artist && t.name)
+    .sort((a, b) => (b.uts || 0) - (a.uts || 0));
 
   // ---- Unique counts ----
   const uniqueArtists = new Set(tracks.map((t) => t.artist));
@@ -132,7 +158,10 @@ module.exports = async function () {
   const genreCounts = {};
   for (const artist of topArtistsForTags) {
     const tagsUrl = lastfmUrl("artist.getTopTags", { artist });
-    const tagData = await fetchJsonCached(tagsUrl, { duration: "7d" });
+    const tagData = await fetchJsonCached(tagsUrl, {
+      duration: "7d",
+      fallback: { toptags: { tag: [] } }
+    });
 
     const tags = tagData?.toptags?.tag?.slice(0, 3) ?? [];
     for (const tag of tags) {
@@ -152,23 +181,24 @@ module.exports = async function () {
 
   const weekTopAlbumsTop10 = await Promise.all(
     top10AlbumsBase.map(async (al) => {
-      try {
-        const infoUrl = lastfmUrl("album.getInfo", {
-          artist: al.artist,
-          album: al.album,
-          autocorrect: 1
-        });
-        const info = await fetchJsonCached(infoUrl, { duration: "7d" });
-        const album = info?.album;
+      const infoUrl = lastfmUrl("album.getInfo", {
+        artist: al.artist,
+        album: al.album,
+        autocorrect: 1
+      });
 
-        return {
-          ...al,
-          url: album?.url || null,
-          image: pickLastFmImage(album?.image) // URL string or null
-        };
-      } catch (e) {
-        return { ...al, url: null, image: null };
-      }
+      const info = await fetchJsonCached(infoUrl, {
+        duration: "7d",
+        fallback: { album: null }
+      });
+
+      const album = info?.album;
+
+      return {
+        ...al,
+        url: album?.url || null,
+        image: pickLastFmImage(album?.image)
+      };
     })
   );
 

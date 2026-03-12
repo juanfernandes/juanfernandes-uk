@@ -1,0 +1,118 @@
+{
+  "adult": false,
+  "backdrop_path": "/znwchNfU5Vr2RNbxnI2iVIxVeMD.jpg",
+  "created_by": [
+    {
+      "id": 2544703,
+      "credit_id": "665a200214f4ee416d8e4bf4",
+      "name": "Mae Martin",
+      "original_name": "Mae Martin",
+      "gender": 3,
+      "profile_path": "/jlIZDpIm4jRfz2TuaHcRKiiuDo0.jpg"
+    }
+  ],
+  "episode_run_time": [
+    44
+  ],
+  "first_air_date": "2025-09-25",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81236299",
+  "id": 255859,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2025-09-25",
+  "last_episode_to_air": {
+    "id": 6417667,
+    "name": "Leap",
+    "overview": "Evelyn desperately tries to regain control. Abbie, Leila and Rory set their escape plan in motion. Alex discovers his purpose.",
+    "vote_average": 6.429,
+    "vote_count": 7,
+    "air_date": "2025-09-25",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 40,
+    "season_number": 1,
+    "show_id": 255859,
+    "still_path": "/8xGLrnAKQxHPIcvM4n0vQOZebLW.jpg"
+  },
+  "name": "Wayward",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 8,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "CA"
+  ],
+  "original_language": "en",
+  "original_name": "Wayward",
+  "overview": "A small-town cop suspects that the local school for troubled teens — and its dangerously charismatic founder — may not be all it seems.",
+  "popularity": 8.8499,
+  "poster_path": "/t6bk8g9DsITWZXwnw9jrA9RDdCB.jpg",
+  "production_companies": [
+    {
+      "id": 169682,
+      "logo_path": "/dSajIaySHCYM1jsxFVg7lypSATH.png",
+      "name": "Sphère Média",
+      "origin_country": "CA"
+    },
+    {
+      "id": 269661,
+      "logo_path": "/nJFGimEKDmLeALa9OQQavmwAZTZ.png",
+      "name": "Objective Fiction",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "CA",
+      "name": "Canada"
+    },
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2025-09-25",
+      "episode_count": 8,
+      "id": 396477,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": "/5aNad9yvHHzZnOt8aFKjv5VzQbP.jpg",
+      "season_number": 1,
+      "vote_average": 7.2
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "We think you'll be very happy here.",
+  "type": "Miniseries",
+  "vote_average": 6.257,
+  "vote_count": 138
+}

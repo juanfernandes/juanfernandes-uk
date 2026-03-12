@@ -1,0 +1,139 @@
+{
+  "adult": false,
+  "backdrop_path": "/wIoxMHbyUJnx5Fm9tI26hIYGI1D.jpg",
+  "created_by": [
+    {
+      "id": 2199,
+      "credit_id": "6806dbd26e1a769e81ee78ed",
+      "name": "Scott Frank",
+      "original_name": "Scott Frank",
+      "gender": 2,
+      "profile_path": "/xoaCq1717lTUl89dHU4WdO1BM2L.jpg"
+    },
+    {
+      "id": 2636904,
+      "credit_id": "68525949217d4026ee87ba93",
+      "name": "Chandni Lakhani",
+      "original_name": "Chandni Lakhani",
+      "gender": 1,
+      "profile_path": "/idRFUBGkpObtlAaAwhYlkxQfq3X.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2025-05-29",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81487660",
+  "id": 245703,
+  "in_production": true,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2025-05-29",
+  "last_episode_to_air": {
+    "id": 6153384,
+    "name": "Episode 9",
+    "overview": "A decades-old recording helps all the clues to fall into place. But as the pressure rises — in and out of the chamber — can Carl get there in time?",
+    "vote_average": 8.1,
+    "vote_count": 26,
+    "air_date": "2025-05-29",
+    "episode_number": 9,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 72,
+    "season_number": 1,
+    "show_id": 245703,
+    "still_path": "/zsociJsIRIMBswesTnMnkBQVwMT.jpg"
+  },
+  "name": "Dept. Q",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 9,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "GB",
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Dept. Q",
+  "overview": "A brash but brilliant cop becomes head of a new police department, where he leads an unlikely team of misfits in solving Edinburgh's cold cases.",
+  "popularity": 8.2342,
+  "poster_path": "/h60alybJNgGGfPUbGGUXMXOoFvB.jpg",
+  "production_companies": [
+    {
+      "id": 5340,
+      "logo_path": "/zHQ48Hg1In6SJB7WWCqVBfWsSwv.png",
+      "name": "Left Bank Pictures",
+      "origin_country": "GB"
+    },
+    {
+      "id": 109793,
+      "logo_path": null,
+      "name": "Flitcraft",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    },
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2025-05-29",
+      "episode_count": 9,
+      "id": 377881,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/iDsD1SJzdFNtP7247VY1dad8hbQ.jpg",
+      "season_number": 1,
+      "vote_average": 7.9
+    },
+    {
+      "air_date": null,
+      "episode_count": 0,
+      "id": 493536,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 2,
+      "vote_average": 0
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Returning Series",
+  "tagline": "Not all causes are lost.",
+  "type": "Scripted",
+  "vote_average": 7.902,
+  "vote_count": 363
+}

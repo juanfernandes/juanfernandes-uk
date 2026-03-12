@@ -1,0 +1,116 @@
+{
+  "adult": false,
+  "backdrop_path": "/agb1wCw2FX0RUqBfio8YUy7sF44.jpg",
+  "created_by": [
+    {
+      "id": 137923,
+      "credit_id": "5941808ac3a368625701cdff",
+      "name": "Patrick Harbinson",
+      "original_name": "Patrick Harbinson",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    45
+  ],
+  "first_air_date": "2017-06-12",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 10768,
+      "name": "War & Politics"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://www.itv.com/hub/fearless",
+  "id": 72289,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2017-07-17",
+  "last_episode_to_air": {
+    "id": 1328140,
+    "name": "Episode 6",
+    "overview": "",
+    "vote_average": 7.7,
+    "vote_count": 3,
+    "air_date": "2017-07-17",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 45,
+    "season_number": 1,
+    "show_id": 72289,
+    "still_path": "/4eU5KecLJ0YxvcLwodqqe8mWZuX.jpg"
+  },
+  "name": "Fearless",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 9,
+      "logo_path": "/oz9pjTHnBUmlju8OkaTymhKbh6C.png",
+      "name": "ITV1",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 6,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "Fearless",
+  "overview": "Emma Banville, a human rights lawyer known for defending lost causes, sets out to prove the innocence of Kevin Russell, who was convicted for the murder of a school girl 14 years earlier.",
+  "popularity": 2.1151,
+  "poster_path": "/iqs7TM6sffX70TEri957KOINeqU.jpg",
+  "production_companies": [
+    {
+      "id": 5100,
+      "logo_path": "/utZoiSvzfUPQMK3WmKgLTemHOOQ.png",
+      "name": "Mammoth Screen",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2017-06-12",
+      "episode_count": 6,
+      "id": 89366,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/wkN0YTjV5YnYFhY6nXJloBiRQPA.jpg",
+      "season_number": 1,
+      "vote_average": 7.7
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Read between the lies.",
+  "type": "Scripted",
+  "vote_average": 6.7,
+  "vote_count": 37
+}

@@ -4,9 +4,13 @@
       "rewatch": false,
       "type": "tv",
       "tmdbId": 106379,
+      "tmdbUrl": "https://www.themoviedb.org/tv/106379",
       "watchedOn": "2026-03-09",
       "season": 2,
-      "episode": 4
+      "episode": 4,
+      "poster": "https://image.tmdb.org/t/p/w342/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+      "year": 2024,
+      "show": "Fallout"
     },
     {
       "rewatch": false,
@@ -19,25 +23,37 @@
       "rewatch": false,
       "type": "tv",
       "tmdbId": 106379,
+      "tmdbUrl": "https://www.themoviedb.org/tv/106379",
       "watchedOn": "2026-03-08",
       "season": 2,
-      "episode": 3
+      "episode": 3,
+      "poster": "https://image.tmdb.org/t/p/w342/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+      "year": 2024,
+      "show": "Fallout"
     },
     {
       "rewatch": false,
       "type": "tv",
       "tmdbId": 106379,
+      "tmdbUrl": "https://www.themoviedb.org/tv/106379",
       "watchedOn": "2026-03-07",
       "season": 2,
-      "episode": 2
+      "episode": 2,
+      "poster": "https://image.tmdb.org/t/p/w342/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+      "year": 2024,
+      "show": "Fallout"
     },
     {
       "rewatch": false,
       "type": "tv",
       "tmdbId": 106379,
+      "tmdbUrl": "https://www.themoviedb.org/tv/106379",
       "watchedOn": "2026-03-05",
       "season": 2,
-      "episode": 1
+      "episode": 1,
+      "poster": "https://image.tmdb.org/t/p/w342/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+      "year": 2024,
+      "show": "Fallout"
     },
     {
       "season": 3,

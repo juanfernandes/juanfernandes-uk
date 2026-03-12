@@ -1,0 +1,112 @@
+{
+  "adult": false,
+  "backdrop_path": "/3Db72d9iOZlnMQ2hspoNeIsXcom.jpg",
+  "created_by": [
+    {
+      "id": 1219965,
+      "credit_id": "67dfd325b8e0fea93407dadf",
+      "name": "Mike Bullen",
+      "original_name": "Mike Bullen",
+      "gender": 0,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2023-05-10",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://10play.com.au/north-shore/",
+  "id": 226267,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2023-06-14",
+  "last_episode_to_air": {
+    "id": 4496822,
+    "name": "Episode 6",
+    "overview": "What happened the night Sophie died is finally revealed, but Max and Meg must decide how best to serve justice.",
+    "vote_average": 7,
+    "vote_count": 2,
+    "air_date": "2023-06-14",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 44,
+    "season_number": 1,
+    "show_id": 226267,
+    "still_path": "/3NleEb2rbrI7RNj5g5pbNiSEB5E.jpg"
+  },
+  "name": "North Shore",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 38,
+      "logo_path": "/cUq4tWKFvubij22k2v3gGu0cniX.png",
+      "name": "10",
+      "origin_country": "AU"
+    }
+  ],
+  "number_of_episodes": 6,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "AU"
+  ],
+  "original_language": "en",
+  "original_name": "North Shore",
+  "overview": "When the 19-year-old daughter of a UK politician is found dead in Sydney Harbour, cultures clash as a British and an Australian detective team up to solve a complex murder mystery. But this international investigation will expose more than murder, as the two detectives begin to uncover a conspiracy with political consequences.",
+  "popularity": 1.3279,
+  "poster_path": "/8EwbJS9G5utrEspbIeaXk0l5QVn.jpg",
+  "production_companies": [
+    {
+      "id": 175504,
+      "logo_path": "/wwIc8APHfYjHlhxi0CFx1ZkNoaM.png",
+      "name": "Beach Road Pictures",
+      "origin_country": "AU"
+    },
+    {
+      "id": 7584,
+      "logo_path": "/eGkfvvyf4fJTvBUR1xt1669IPA3.png",
+      "name": "Screen Australia",
+      "origin_country": "AU"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "AU",
+      "name": "Australia"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2023-05-10",
+      "episode_count": 6,
+      "id": 340448,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/vZ3UXUXSdCfnbHHlf4ZmQl8fPEH.jpg",
+      "season_number": 1,
+      "vote_average": 6.7
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "A mother. A mystery. A murder.",
+  "type": "Miniseries",
+  "vote_average": 6.6,
+  "vote_count": 24
+}
