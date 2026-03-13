@@ -3,13 +3,13 @@ layout: page
 title: Films
 permalink: /logs/watching/films/
 ---
-
+{% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
 <p>
   Years:
   {% for y in watch.years %}
-    {% if watch.moviesByYear[y] %}<a href="/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}{% endif %}
+    {% if watch.moviesByYear[y] %}<a href="/logs/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}{% endif %}
   {% endfor %}
 </p>
 

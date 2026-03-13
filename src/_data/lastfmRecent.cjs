@@ -66,6 +66,31 @@ module.exports = async function () {
   const now = Math.floor(Date.now() / 1000);
   const oneWeekAgo = now - 7 * 24 * 60 * 60;
 
+  // --- Latest overall track (not week-limited) ---
+  const latestUrl = lastfmUrl("user.getrecenttracks", {
+    user: USER,
+    limit: 2
+  });
+
+  const latestData = await fetchJsonCached(latestUrl, {
+    duration: "15m",
+    fallback: { recenttracks: { track: [] } }
+  });
+
+  const latestRawTracks = latestData?.recenttracks?.track ?? [];
+
+  const latestTrack =
+    latestRawTracks
+      .map((t) => ({
+        name: t?.name || null,
+        artist: t?.artist?.["#text"] || null,
+        album: t?.album?.["#text"] || null,
+        url: t?.url || null,
+        uts: t?.date?.uts ? Number(t.date.uts) : null,
+        isNowPlaying: String(t?.["@attr"]?.nowplaying || "").toLowerCase() === "true"
+      }))
+      .find((t) => t.name && t.artist) || null;
+
   // --- Recent tracks (this week) ---
   const recentUrl = lastfmUrl("user.getrecenttracks", {
     user: USER,
@@ -80,6 +105,7 @@ module.exports = async function () {
 
   if (!data?.recenttracks?.track) {
     return {
+      latestTrack,
       weekSummary: {
         artists: 0,
         albums: 0,
@@ -97,7 +123,6 @@ module.exports = async function () {
   const rawTracks = data?.recenttracks?.track ?? [];
 
   const tracks = rawTracks
-    // only tracks with timestamps (now playing has no date)
     .filter((t) => t?.date?.uts && Number(t.date.uts) >= oneWeekAgo)
     .map((t) => ({
       name: t?.name || null,
@@ -109,14 +134,12 @@ module.exports = async function () {
     .filter((t) => t.artist && t.name)
     .sort((a, b) => (b.uts || 0) - (a.uts || 0));
 
-  // ---- Unique counts ----
   const uniqueArtists = new Set(tracks.map((t) => t.artist));
   const uniqueAlbums = new Set(
     tracks.map((t) => `${t.artist}|||${(t.album || "").trim()}`)
   );
   const uniqueTracks = new Set(tracks.map((t) => `${t.artist}|||${t.name}`));
 
-  // ---- Top artists / albums / tracks (by play count over the week) ----
   const artistPlays = {};
   const albumPlays = {};
   const trackPlays = {};
@@ -133,7 +156,6 @@ module.exports = async function () {
     trackPlays[trackKey] = (trackPlays[trackKey] || 0) + 1;
   }
 
-  // Full ranked lists for the week (cap high enough to effectively be "all")
   const weekTopArtists = topNFromCountMap(artistPlays, 5000).map(
     ([name, plays]) => ({
       name,
@@ -151,8 +173,6 @@ module.exports = async function () {
     return { artist, name, plays };
   });
 
-  // ---- Genres (tags) based on top artists ----
-  // Keep it lightweight: only get tags for top 5 artists
   const topArtistsForTags = weekTopArtists.slice(0, 5).map((a) => a.name);
 
   const genreCounts = {};
@@ -176,7 +196,6 @@ module.exports = async function () {
     .slice(0, 5)
     .map(([name]) => name);
 
-  // ---- Enrich top 10 ALBUMS with images (cached 7 days) ----
   const top10AlbumsBase = weekTopAlbums.slice(0, 10);
 
   const weekTopAlbumsTop10 = await Promise.all(
@@ -203,22 +222,17 @@ module.exports = async function () {
   );
 
   return {
+    latestTrack,
     weekSummary: {
       artists: uniqueArtists.size,
       albums: uniqueAlbums.size,
       tracks: uniqueTracks.size,
       genres: topGenres
     },
-
-    // Full lists (for paginated pages)
     weekTopArtists,
     weekTopAlbums,
     weekTopTracks,
-
-    // Enriched top 10 albums (use on /music/ landing page)
     weekTopAlbumsTop10,
-
-    // weekly scrobbles (timestamped) — useful if you still want "recent this week"
     tracks
   };
 };

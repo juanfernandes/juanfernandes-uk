@@ -58,6 +58,11 @@ button {
   padding: 0;
   height: 24px;
   width: 24px;
+
+  &:hover svg,
+  &:foucs svg {
+    fill: var(--orange);
+  }
 }
 
 /* Fix for odd Mozilla border & padding issues */

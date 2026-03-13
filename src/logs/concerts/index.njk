@@ -3,10 +3,10 @@ layout: page
 title: Concerts
 permalink: /logs/concerts/
 ---
+{% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
 <p class="lead">A log of the gigs I’ve been to — the dates, venues, and artists that made them memorable. There’s something different about hearing music live, and this page is a small archive of those nights and the places they happened.</p>
-
 
 {% set latestGig = concerts.entries[0] %}
 
@@ -21,12 +21,12 @@ permalink: /logs/concerts/
 <div class="media-grid">
   <section class="media-card">
     <div class="media-body">
-      <h3 class="">Most recent</h3>
+      <h3>Most recent</h3>
       <p class="media-muted">The latest gig logged.</p>
       {% if latestGig %}
         <p class="media-title">
-          <span class="media-muted">{{ latestGig.date }} —</span>
-          <strong>{{ latestGig.artists | join(", ") }}</strong>
+          <strong>{{ latestGig.artists | join(", ") }}</strong> —
+          <span class="media-muted">{{ latestGig.date | dateFilter }}</span>
         </p>
         <p class="media-meta">
           {{ latestGig.venue }}{% if latestGig.city %}, {{ latestGig.city }}{% endif %}
@@ -64,13 +64,13 @@ permalink: /logs/concerts/
   </section>
 </div>
 
-<h2>All concerts</h2>
+<h2 class="u-mt-2">All concerts</h2>
 
 <ul class="media-list">
   {% for gig in concerts.entries %}
     <li>
       <strong>{{ gig.artists | join(", ") }}</strong>
-      <span class="media-muted">— {{ gig.date }}</span>
+      <span class="media-muted">— {{ gig.date | dateFilter }}</span>
       <span class="media-muted">— {{ gig.venue }}{% if gig.city %}, {{ gig.city }}{% endif %}</span>
       {% if gig.links and gig.links.setlistFm %}
         <span class="media-muted"> · <a href="{{ gig.links.setlistFm }}">setlist</a></span>

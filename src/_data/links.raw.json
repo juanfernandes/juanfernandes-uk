@@ -1,5 +1,11 @@
 [
   {
+    "title": "Eleventy: How to Work Around the “git Last Modified” Performance Bottleneck · Jens Oliver Meiert",
+    "url": "https://meiert.com/blog/eleventy-git-last-modified/",
+    "content": "Eleventy: How to Work Around the “git Last Modified” Performance Bottleneck Published on Feb 26, 2026, filed under development, performance. (Share this post,…",
+    "date": "2026-03-12T23:40:11.000Z"
+  },
+  {
     "title": "My favorite way to write code in 2026 (on becoming a TDD addict)",
     "url": "https://gomakethings.com/my-favorite-way-to-write-code-in-2026-on-becoming-a-tdd-addict/",
     "content": "Daily Tips I’ve hated writing JavaScript tests for pretty my whole career. That thing where you plan a component, write some code, iterate it a whole bunch…",

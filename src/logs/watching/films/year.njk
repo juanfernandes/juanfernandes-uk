@@ -5,11 +5,13 @@ pagination:
   size: 1
   alias: year
 permalink: "/logs/watching/films/{{ year }}/"
-title: "Films — {{ year }}"
+eleventyComputed:
+  title: "Films — {{ year }}"
 ---
+{% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
-<h2>Films — {{ year }}</h2>
+<h2>Films watched in {{ year }}</h2>
 
 <ul>
   {% for item in (watch.moviesByYear[year] or []) %}

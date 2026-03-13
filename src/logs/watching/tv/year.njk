@@ -8,8 +8,7 @@ permalink: "/logs/watching/tv/{{ year }}/"
 eleventyComputed:
   title: "Television — {{ year }}"
 ---
-<span>Watching → Television → 2024</span>
-
+{% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
 <h2>TV watched in {{ year }}</h2>

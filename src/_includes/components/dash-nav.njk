@@ -1,24 +1,44 @@
-<nav class="dash-nav" aria-label="Log sections">
+{% set current = page.url %}
+<nav class="dash-nav">
   <ul>
+    {% if section == "logs" %}
     <li>
       <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-dash-2" /></svg>
       <a href="/logs/">Dashboard</a>
     </li>
-    <li>
-      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-music" /></svg>
-      <a href="/logs/listening/">Listening</a>
-    </li>
-    <li>
+    <li{% if current == '/logs/watching/' %} class="active"{% endif %}>
       <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-tv" /></svg>
       <a href="/logs/watching/">Watching</a>
     </li>
-    <li>
+    <li{% if current == '/logs/listening/' %} class="active"{% endif %}>
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-music" /></svg>
+      <a href="/logs/listening/">Listening</a>
+    </li>
+    <li{% if current == '/logs/reading/' %} class="active"{% endif %}>
       <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-book" /></svg>
       <a href="/logs/reading/">Reading</a>
     </li>
-    <li>
+    <li{% if current == '/logs/concerts' %} class="active"{% endif %}>
       <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-ticket" /></svg>
       <a href="/logs/concerts/">Concerts</a>
     </li>
+    {% elseif section == "collections" %}
+    <li>
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-dash-2" /></svg>
+      <a href="/collections/">Dashboard</a>
+    </li>
+    <li{% if current == '/collections/lego/' %} class="active"{% endif %}>
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-brick" /></svg>
+      <a href="/collections/lego/">Lego</a>
+    </li>
+    <li{% if current == '/collections/games/' %} class="active"{% endif %}>
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-controller" /></svg>
+      <a href="/collections/games/">Games</a>
+    </li>
+    <li{% if current == '/collections/music/' %} class="active"{% endif %}>
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-disc" /></svg>
+      <a href="/collections/music/">Music</a>
+    </li>
+    {% endif %}
   </ul>
 </nav>

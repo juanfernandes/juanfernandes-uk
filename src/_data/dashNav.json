@@ -1,0 +1,16 @@
+{
+  "logs": [
+    { "title": "Dashboard", "url": "/logs/" },
+    { "title": "Listening", "url": "/logs/listening/" },
+    { "title": "Watching", "url": "/logs/watching/" },
+    { "title": "Reading", "url": "/logs/reading/" },
+    { "title": "Concerts", "url": "/logs/concerts/" }
+  ],
+  "collections": [
+    { "title": "Dashboard", "url": "/collections/" },
+    { "title": "LEGO", "url": "/collections/lego/" },
+    { "title": "Games", "url": "/collections/games/" },
+    { "title": "Music", "url": "/collections/music/" },
+    { "title": "Books", "url": "/collections/books/" }
+  ]
+}

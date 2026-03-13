@@ -3,8 +3,8 @@ layout: page
 title: Lego
 permalink: /collections/lego/
 ---
-
-<h2>Collection</h2>
+{% set section = section or "collections" %}
+{% include "components/dash-nav.njk" %}
 
 <p>
   <strong>{{ lego.stats.ownedCount }}</strong> owned ·

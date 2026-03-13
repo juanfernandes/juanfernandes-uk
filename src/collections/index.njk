@@ -8,22 +8,18 @@ permalink: /collections/
 {% set latestGame = games.latestOwned %}
 {% set latestRecord = music.latestAdded %}
 
-<h2>Collections Dashboard</h2>
+<h2>Dashboard</h2>
 
 <p class="lead">A curated record of the things I collect — what I own, what I’m building, and what’s still on the wishlist.</p>
 
-<nav class="logs-nav" aria-label="Log sections">
-  <ul>
-    <li><a href="/collections/lego/">Lego</a></li>
-    <li><a href="/collections/games/">Games</a></li>
-    <li><a href="/collections/music/">Music</a></li>
-  </ul>
-</nav>
-
 <div class="dash-grid">
-
   <section class="dash-card">
-    <h3 class="dash-title"><a href="/collections/lego/">Lego</a></h3>
+    <h3 class="dash-title">
+      <a href="/collections/lego/">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-brick" /></svg>
+        <span>Lego</span>
+      </a>
+    </h3>
     <p class="dash-meta">Sets I own, want, and what’s built.</p>
 
     <ul class="dash-stats">
@@ -54,7 +50,12 @@ permalink: /collections/
   </section>
 
   <section class="dash-card">
-    <h3 class="dash-title"><a href="/collections/games/">Games</a></h3>
+    <h3 class="dash-title">
+      <a href="/collections/games/">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-controller" /></svg>
+        <span>Games</span>
+      </a>
+    </h3>
     <p class="dash-meta">Owned + wanted games, grouped by platform.</p>
 
     <ul class="dash-stats">
@@ -87,7 +88,12 @@ permalink: /collections/
   </section>
 
   <section class="dash-card">
-    <h3 class="dash-title"><a href="/collections/music/">Music</a></h3>
+    <h3 class="dash-title">
+      <a href="/collections/music/">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-disc" /></svg>
+        <span>Music</span>
+      </a>
+    </h3>
     <p class="dash-meta">Physical collection (vinyl now, CDs later), grouped by folder.</p>
 
     <ul class="dash-stats">

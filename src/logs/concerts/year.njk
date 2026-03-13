@@ -5,15 +5,18 @@ pagination:
   size: 1
   alias: year
 permalink: "/logs/concerts/year/{{ year }}/"
-title: Concerts
+eleventyComputed:
+  title: "Concerts — {{ year }}"
 ---
+{% set section = section or "logs" %}
+{% include "components/dash-nav.njk" %}
 
-<h2>Concerts - {{ year }}</h2>
+<h2>Concerts attended in {{ year }}</h2>
 
 <ul>
   {% for gig in (concerts.byYear[year] or []) %}
     <li>
-      {{ gig.date }} — <strong>{{ gig.artists | join(", ") }}</strong>
+      <strong>{{ gig.artists | join(", ") }}</strong> — {{ gig.date | dateFilter }}
       — {{ gig.venue }}, {{ gig.city }}
     </li>
   {% endfor %}
