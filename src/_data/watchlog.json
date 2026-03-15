@@ -7359,6 +7359,13 @@
       "tmdbId": 1229958,
       "watchedOn": "2026-03-12",
       "rating": 2
+    },
+    {
+      "rewatch": false,
+      "type": "movie",
+      "tmdbId": 571499,
+      "watchedOn": "2026-03-15",
+      "rating": 2
     }
   ]
 }
