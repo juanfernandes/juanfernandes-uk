@@ -7373,6 +7373,14 @@
       "tmdbId": 1591516,
       "watchedOn": "2026-03-15",
       "rating": 2.5
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 206492,
+      "watchedOn": "2026-03-16",
+      "season": 1,
+      "episode": 1
     }
   ]
 }
