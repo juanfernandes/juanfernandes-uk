@@ -29,7 +29,7 @@
     "id": 6527743,
     "name": "Episode 6",
     "overview": "Haunted by a devastating glimpse into the future, Arisu crumples under the pressure to save everyone. Will he, Usagi and the team make it to the exit?",
-    "vote_average": 6.815,
+    "vote_average": 6.8,
     "vote_count": 27,
     "air_date": "2025-09-25",
     "episode_number": 6,
@@ -58,7 +58,7 @@
   "original_language": "ja",
   "original_name": "今際の国のアリス",
   "overview": "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to win.",
-  "popularity": 25.5814,
+  "popularity": 32.0306,
   "poster_path": "/Ac8ruycRXzgcsndTZFK6ouGA0FA.jpg",
   "production_companies": [
     {
@@ -116,6 +116,6 @@
   "status": "Canceled",
   "tagline": "Life is a game, you should enjoy it more.",
   "type": "Scripted",
-  "vote_average": 8.107,
+  "vote_average": 8.1,
   "vote_count": 2622
 }

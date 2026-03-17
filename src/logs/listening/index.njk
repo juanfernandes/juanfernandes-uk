@@ -38,7 +38,7 @@ permalink: /logs/listening/
           </li>
           {% endfor %}
         </ol>
-        <span><a href="/music/tracks/">View all tracks</a> →</span>
+        <span><a href="/logs/listening/tracks/">View all tracks</a> →</span>
       </section>
 
       <section>
@@ -52,37 +52,39 @@ permalink: /logs/listening/
           {% endfor %}
         </ol>
 
-        <span><a href="/music/artists/">View all artists</a>→</span>
+        <span><a href="/logs/listening/artists/">View all artists</a>→</span>
       </section>
     </div>
     <section>
       <h2>Top 10 Albums</h2>
-      <div class="music-grid">
+      <div class="media-grid">
         {% for a in lastfmRecent.weekTopAlbumsTop10 %}
-        <article class="music-card">
+        <article class="media-card">
           {% if a.image %}
-            <img class="music-card__img" src="{{ a.image }}" alt="{{ a.album }} by {{ a.artist }}" loading="lazy">
+            <img class="media-card__poster media-card__poster-1-1" src="{{ a.image }}" alt="{{ a.album }} by {{ a.artist }}" loading="lazy">
           {% else %}
-            <div class="music-card__placeholder">♪</div>
+            <div class="media-card__placeholder">♪</div>
           {% endif %}
 
-          <h3 class="music-card__heading">
-            {% if a.url %}
-              <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.album }}</a>
-            {% else %}
-              {{ a.album }}
-            {% endif %}
-          </h3>
+          <div class="media-card__body">
+            <h3 class="media-card__title">
+              {% if a.url %}
+                <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.album }}</a>
+              {% else %}
+                {{ a.album }}
+              {% endif %}
+            </h3>
 
-          <div class="music-card__meta">
-            <p>{{ a.artist }}</p>
-            <span class="tag">{{ a.plays }} plays</span>
+            <div class="media-card__meta">
+              <span>{{ a.artist }}</span>
+              <span class="tag">{{ a.plays }} plays</span>
+            </div>
           </div>
         </article>
         {% endfor %}
       </div>
 
-      <span><a href="/music/albums/">View all albums</a> →</span>
+      <span><a href="/logs/listening/albums/">View all albums</a> →</span>
     </section>
     {% endif %}
   </div>

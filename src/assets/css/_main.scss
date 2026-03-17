@@ -73,7 +73,6 @@ $module: 'social-icons';
   }
 }//.social-icons
 
-
 .social {
   display: flex;
   grid-gap: 1em;
@@ -1682,61 +1681,63 @@ footer > .container > .sixteen {
     }
   }
 }
-.music-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.5rem;
-  margin: 1.5rem 0;
+// .music-grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+//   gap: 1.5rem;
+//   margin: 1.5rem 0;
 
-  .music-card {
-    border: 1px solid rgba(0,0,0,.12);
-    border-radius: 12px;
-    overflow: hidden;
+//   .music-card {
+//     border: 1px solid rgba(0,0,0,.12);
+//     border-radius: 12px;
+//     overflow: hidden;
 
-    &:hover {
-      transform: translateY(-4px);
-    }
+//     &:hover {
+//       transform: translateY(-4px);
+//     }
 
-    p {
-      font-size: 1.4rem;
-      margin-bottom: 1rem;
-    }
+//     p {
+//       font-size: 1.4rem;
+//       margin-bottom: 1rem;
+//     }
 
-    .tag {
-      font-size: 1.2rem;
-      white-space: nowrap;
-    }
+//     .tag {
+//       font-size: 1.2rem;
+//       white-space: nowrap;
+//     }
 
-    .music-card__img {
-      aspect-ratio: 1 / 1;
-      border-radius: 8px 0 0;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-      object-fit: cover;
-      width: 100%;
-    }
-    .music-card__heading {
-      line-height: 1;
-      margin-bottom: 0;
-    }
-    .music-card__heading,
-    .music-card__meta {
-      padding: 1rem;
-    }
-    .music-card__placeholder {
-      align-items: center;
-      aspect-ratio: 1 / 1;
-      background: var(--off-black);
-      border-radius: 8px 0 0;
-      color: var(--white);
-      display: flex;
-      font-size: 2rem;
-      justify-content: center;
-      width: 100%;
-    }
-  }
-}
+//     .music-card__img {
+//       aspect-ratio: 1 / 1;
+//       border-radius: 8px 0 0;
+//       border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+//       object-fit: cover;
+//       width: 100%;
+//     }
+//     .music-card__heading {
+//       line-height: 1;
+//       margin-bottom: 0;
+//     }
+//     .music-card__heading,
+//     .music-card__meta {
+//       padding: 1rem;
+//     }
+//     .music-card__placeholder {
+//       align-items: center;
+//       aspect-ratio: 1 / 1;
+//       background: var(--off-black);
+//       border-radius: 8px 0 0;
+//       color: var(--white);
+//       display: flex;
+//       font-size: 2rem;
+//       justify-content: center;
+//       width: 100%;
+//     }
+//   }
+// }
 
-/* Logs Dashboard */
+/*
+  Dashboard
+*/
 
 .dash-nav {
   margin-bottom: 24px;
@@ -1765,6 +1766,7 @@ footer > .container > .sixteen {
   gap: 1rem;
   margin: 1.25rem 0 2rem;
 }
+
 .dash-card {
   border: 1px solid rgba(0,0,0,.12);
   border-radius: 14px;
@@ -1831,34 +1833,173 @@ footer > .container > .sixteen {
   }
 }
 
-.platform-nav { margin: 1rem 0 2rem; line-height: 1.8; }
 
-.media-card {
-  border: 1px solid rgba(0,0,0,.12);
-  border-radius: 12px;
-  overflow: hidden;
+/*
+  Media Grid
+*/
+.media-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 
-  img {
-    width: 100%;
-    border-radius: 8px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+  &--2-col {
+    @media only screen and (min-width: 48em) {
+      grid-template-columns: 6fr 6fr;
+    }
   }
+}
 
+.media-grid .media-card {
+  &__poster {
+    background: rgba(0,0,0,.06);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px 0 0;
+    object-fit: cover;
+    width: 100%;
+  }
+  &__poster-1-1 {
+    aspect-ratio: 1 / 1;
+  }
+  &__poster-3-3 {
+    aspect-ratio: 2 / 3;
+  }
   &__body {
     padding: 1rem;
   }
+}
 
-  &__title {
-    line-height: 1;
+.media-grid--2-col {
+  .media-card {
+    padding: 1rem;
+
+    &__poster {
+      aspect-ratio: 2 / 3;
+      background: rgba(0,0,0,.06);
+      border-radius: 8px;
+      overflow: hidden;
+
+      @media only screen and (min-width: 23.438em) {
+        width: 72px;
+      }
+
+      img {
+        display: block;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+
+    &__body {
+      padding: 0;
+    }
   }
 }
-  .media-grid {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+
+.media-card {
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,.12);
+  overflow: hidden;
+  transition: all .3s ease-in-out;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-4px);
   }
 
+  &__header {
+    align-items: start;
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 0;
+
+    @media only screen and (min-width: 23.438em) {
+      grid-template-columns: 72px 1fr;
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    line-height: 1.4;
+  }
+  &__meta {
+    summary,
+    span { 
+      font-size: 1.2rem;
+      font-weight: normal;
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+    span:not(.tag) { 
+      display: block;
+    }
+    .tag {
+      display: inline-block;
+    }
+  }
+  &__placeholder {
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    background: var(--off-black);
+    border-radius: 8px 0 0;
+    color: var(--white);
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+.media-card__list {
+  display: grid;
+  gap: .9rem;
+  margin-left: 0;
+  margin-top: 1rem;
+  
+  .media-card__list-item {
+    border-top: 1px solid rgba(0,0,0,.08);
+    padding-top: .8rem;
+
+    summary {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin: 0 0 .45rem;
+      font-size: 1rem;
+    }
+    ul {
+      cursor: default;
+      display: grid;
+      gap: .45rem;
+      list-style: none;
+      margin: 1rem 0 0 1.8rem;
+      padding: 0;
+
+      li {
+        line-height: 1.4;
+      }
+    }
+  }
+}
+
+.media-years {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.tmdb-attrib {
+  margin-top: 2.4rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// games collection
+.platform-nav { margin: 1rem 0 2rem; line-height: 1.8; }
   .media-thumb {
     align-items: center;
     aspect-ratio: 16 / 9;
@@ -1883,11 +2024,7 @@ footer > .container > .sixteen {
     font-weight: 700; 
     line-height: 1.25;
   }
-  .media-meta { 
-    margin: 0; 
-    font-size: 0.95rem; 
-    opacity: 0.85;
-  }
+
   .media-list {
     list-style: none;
     padding: 0;
@@ -1912,108 +2049,12 @@ footer > .container > .sixteen {
     }
   }
 
-  .tv-groups {
-    display: grid;
-    gap: 1rem;
-    margin-top: 1.25rem;
-    
-    @media only screen and (min-width: 48em) {
-      grid-template-columns: 6fr 6fr;
-    }
-  }
-  .tv-card {
-    border: 1px solid rgba(0,0,0,.12);
-    border-radius: 14px;
-    padding: 1rem;
-  }
-  .tv-header {
-    display: grid;
-    gap: .9rem;
-    align-items: start;
-    margin-bottom: 0;
 
-    @media only screen and (min-width: 23.438em) {
-      grid-template-columns: 72px 1fr;
-    }
-  }
-  .tv-poster {
-    aspect-ratio: 2 / 3;
-    background: rgba(0,0,0,.06);
-    border-radius: 10px;
-    overflow: hidden;
-
-    @media only screen and (min-width: 23.438em) {
-      width: 72px;
-    }
-  }
-  .tv-poster img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
-  .tv-title {
-    margin: 0 0 1rem;
-    font-size: 2rem;
-    font-weight: 800;
-    line-height: 1.2;
-
-    a {
-      font-size: 2rem;
-    }
-  }
-  .tv-meta {
-    margin: 0;
-    opacity: .85;
-  }
-  .tv-seasons {
-    display: grid;
-    gap: .9rem;
-    margin-left: 0;
-    margin-top: 1rem;
-  }
-  .tv-season {
-    border-top: 1px solid rgba(0,0,0,.08);
-    padding-top: .8rem;
-
-    summary {
-      margin-bottom: 0;
-    }
-
-    h3 {
-      margin: 0 0 .45rem;
-      font-size: 1rem;
-    }
-  }
-  .tv-episodes {
-    cursor: default;
-    display: grid;
-    gap: .45rem;
-    list-style: none;
-    margin: 1rem 0 0 1.8rem;
-    padding: 0;
-
-    li {
-      line-height: 1.4;
-    }
-  }
-  .tv-badge {
-    display: inline-block;
-    font-size: .85rem;
-    padding: .1rem .45rem;
-    border: 1px solid rgba(0,0,0,.18);
-    border-radius: 999px;
-    opacity: .95;
-    white-space: nowrap;
-  }
-
-
+// Grid on Watching page
 .watch-grid {
   display: grid;
-  // grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  grid-template-columns: 4fr 4fr 4fr;
   gap: 1rem;
-  margin: 1.25rem 0 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
 }
 .watch-card {
   border: 1px solid rgba(0,0,0,.12);
@@ -2061,8 +2102,14 @@ footer > .container > .sixteen {
     line-height: 1.2;
   }
   .watch-meta {
-    margin: 0;
-    opacity: .85;
+    span { 
+      display: block;
+      font-size: 1.4rem;
+
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
   }
   .watch-links {
     margin: 0;

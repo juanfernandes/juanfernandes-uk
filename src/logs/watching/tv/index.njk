@@ -8,23 +8,20 @@ permalink: /logs/watching/tv/
 
 <p class="lead">A show-first view of what I’ve been watching, with seasons and episode history grouped together.</p>
 
-<p class="logs-kpis">
-  <span><strong>{{ watch.stats.totalEpisodes }}</strong> episodes</span>
-  <span>·</span>
-  <span><strong>{{ watch.stats.totalShows }}</strong> shows</span>
-</p>
+<p class="dash-kpis">I've watched a total of <strong>{{ watch.stats.totalEpisodes }}</strong> episodes and <strong>{{ watch.stats.totalShows }}</strong> shows.</p>
 
-{% if watch.years and watch.years.length %}
-  <p class="logs-years">
-    {% for y in watch.years %}
-      {% if watch.tvByYear[y] %}
-        <a href="/logs/watching/tv/{{ y }}/">{{ y }}</a>{% if not loop.last %}<span class="logs-muted"> · </span>{% endif %}
-      {% endif %}
-    {% endfor %}
-  </p>
+{% if watch.tvYears and watch.tvYears.length %}
+<div class="media-years">
+  <span>Years:</span>
+  {% for y in watch.tvYears %}
+    {% if watch.tvByYear[y] %}
+      <a href="/logs/watching/tv/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
 {% endif %}
 
-<div class="tv-groups">
+<div class="media-grid media-grid--2-col">
   {% for showId, bucket in watch.tvGrouped %}
     {% set latestSeason = 0 %}
     {% set latestEpisode = 0 %}
@@ -50,59 +47,7 @@ permalink: /logs/watching/tv/
       {% endfor %}
     {% endfor %}
 
-    <details class="tv-card">
-      <summary class="tv-header">
-        <div class="tv-poster">
-          {% if poster %}
-            <img src="{{ poster }}" alt="Poster for {{ bucket.show }}" loading="lazy">
-          {% endif %}
-        </div>
-
-        <div>
-          <h3 class="tv-title">
-            {% if bucket.tmdbUrl %}
-              <a href="{{ bucket.tmdbUrl }}">{{ bucket.show }}</a>
-            {% else %}
-              {{ bucket.show }}
-            {% endif %}
-            {% if year %}<span class="logs-muted"> ({{ year }})</span>{% endif %}
-          </h3>
-
-          <p class="tv-meta">
-            <span><strong>{{ episodeCount }}</strong> episodes logged</span>
-            <span class="logs-muted"> · </span>
-            <span><strong>{{ seasonCount }}</strong> seasons</span>
-          </p>
-
-          {% if latestDate %}
-            <p class="tv-meta">
-              Latest watched:
-              <span>S{{ latestSeason }}E{{ latestEpisode }}</span>
-              <span class="logs-muted"> · {{ latestDate }}</span>
-            </p>
-          {% endif %}
-        </div>
-      </summary>
-
-      <div class="tv-seasons">
-        {% for seasonNum, episodes in bucket.seasons %}
-          <details class="tv-season">
-            <summary>Season {{ seasonNum }}</summary>
-
-            <ul class="tv-episodes">
-              {% for ep in episodes %}
-                <li>
-                  <span class="logs-muted">S{{ ep.season }}E{{ ep.episode }}</span>
-                  <span class="logs-muted"> — {{ ep.watchedOn }}</span>
-                  {% if ep.rating %}<span class="logs-muted"> · ★ {{ ep.rating }}/5</span>{% endif %}
-                  {% if ep.rewatch %}<span class="logs-muted"> · rewatch</span>{% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          </details>
-        {% endfor %}
-      </div>
-    </details>
+    {% include "partials/media-card-details.njk" %}
   {% endfor %}
 </div>
 
