@@ -83,6 +83,36 @@ function groupTvByShowThenSeason(tvEpisodes) {
   return out;
 }
 
+function buildTvStatsByYear(tvByYear) {
+  const out = {};
+
+  for (const year of Object.keys(tvByYear)) {
+    const episodes = Array.isArray(tvByYear[year]) ? tvByYear[year] : [];
+    const shows = new Set(episodes.map((ep) => ep.tmdbId).filter(Boolean));
+
+    out[year] = {
+      episodes: episodes.length,
+      shows: shows.size
+    };
+  }
+
+  return out;
+}
+
+function buildMovieStatsByYear(moviesByYear) {
+  const out = {};
+
+  for (const year of Object.keys(moviesByYear)) {
+    const films = Array.isArray(moviesByYear[year]) ? moviesByYear[year] : [];
+
+    out[year] = {
+      films: films.length
+    };
+  }
+
+  return out;
+}
+
 module.exports = async function () {
   const apiKey = process.env.TMDB_API_KEY;
   if (!apiKey) {
@@ -136,6 +166,8 @@ module.exports = async function () {
 
   const moviesByYear = groupByYear(movies);
   const tvByYear = groupByYear(tvEpisodes);
+  const movieYears = Object.keys(moviesByYear).sort().reverse();
+  const tvYears = Object.keys(tvByYear).sort().reverse();
 
   const tvGrouped = groupTvByShowThenSeason(tvEpisodes);
 
@@ -143,6 +175,9 @@ module.exports = async function () {
   for (const y of Object.keys(tvByYear)) {
     tvGroupedByYear[y] = groupTvByShowThenSeason(tvByYear[y]);
   }
+
+  const tvStatsByYear = buildTvStatsByYear(tvByYear);
+  const movieStatsByYear = buildMovieStatsByYear(moviesByYear);
 
   const years = [...new Set([...Object.keys(moviesByYear), ...Object.keys(tvByYear)])]
     .sort()
@@ -157,8 +192,12 @@ module.exports = async function () {
     tvEpisodes,
     tvGrouped,
     tvGroupedByYear,
+    tvStatsByYear,
+    movieStatsByYear,
     moviesByYear,
     tvByYear,
+    movieYears,
+    tvYears,
     years,
     stats: {
       totalMovies,

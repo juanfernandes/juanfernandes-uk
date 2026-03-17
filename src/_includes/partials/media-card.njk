@@ -1,8 +1,9 @@
 <article class="media-card">
-  {% if item.posterPath %}
+  {% if item.poster %}
     <a href="{{ item.tmdbUrl }}">
       <img
-        src="https://image.tmdb.org/t/p/w342{{ item.posterPath }}"
+        class="media-card__poster media-card__poster-3-3"
+        src="{{ item.poster }}"
         alt="{{ item.title or item.show }}"
         loading="lazy"
       />
@@ -11,16 +12,22 @@
 
   <div class="media-card__body">
     <h3 class="media-card__title">
-      <a href="{{ item.tmdbUrl }}">{{ item.title or item.show }}</a>
+      <a href="{{ item.tmdbUrl }}" target="_blank" rel="noopener">{{ item.title or item.show }}</a> {% if item.year %}({{ item.year }}){% endif %}
     </h3>
 
+    <div class="media-card__meta">
     {% if item.season %}
-      <p class="media-card__meta">S{{ item.season }}E{{ item.episode }}</p>
+      <span>Season {{ item.season }} Episode {{ item.episode }}</span>
     {% endif %}
-
-    <p class="media-card__meta">
-      {{ item.watchedOn }}
-      {% if item.rating %} · ★ {{ item.rating }}/5{% endif %}
-    </p>
+    {% if item.watchedOn %}
+      <span>Watched on: {{ item.watchedOn | dateFilter }}</span>
+    {% endif %}
+    {% if item.rating %}
+      <span>Rated: ★ {{ item.rating }}/5</span>
+    {% endif %}
+    {% if item.rewatch %}
+      <span>Rewatch</span>
+    {% endif %}
+    </div>
   </div>
 </article>

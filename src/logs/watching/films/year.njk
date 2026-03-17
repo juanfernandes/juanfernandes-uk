@@ -1,7 +1,7 @@
 ---
 layout: page
 pagination:
-  data: watch.years
+  data: watch.movieYears
   size: 1
   alias: year
 permalink: "/logs/watching/films/{{ year }}/"
@@ -13,14 +13,23 @@ eleventyComputed:
 
 <h2>Films watched in {{ year }}</h2>
 
-<ul>
-  {% for item in (watch.moviesByYear[year] or []) %}
-    <li>
-      <a href="{{ item.tmdbUrl }}">{{ item.title }}</a>
-      — {{ item.watchedOn }}
-      {% if item.rating %} — {{ item.rating }}/5{% endif %}
-    </li>
+<p>A year-by-year view of the films I watched in {{ year }}.</p>
+
+<p class="dash-kpis">This year I've watched <strong>{{ (watch.movieStatsByYear[year] and watch.movieStatsByYear[year].films) or 0 }}</strong> films.</p>
+
+{% if watch.movieYears and watch.movieYears.length %}
+<div class="media-years">
+  <span>Years:</span>
+  {% for y in watch.movieYears %}
+    <a href="/logs/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
   {% endfor %}
-</ul>
+</div>
+{% endif %}
+
+<div class="media-grid">
+  {% for item in (watch.moviesByYear[year] or []) %}
+    {% include "partials/media-card.njk" %}
+  {% endfor %}
+</div>
 
 {% include "components/tmdb-attribution.njk" %}

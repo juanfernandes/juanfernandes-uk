@@ -6,12 +6,20 @@ permalink: /logs/watching/films/
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
-<p>
-  Years:
-  {% for y in watch.years %}
-    {% if watch.moviesByYear[y] %}<a href="/logs/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}{% endif %}
-  {% endfor %}
+<p class="lead">A film-first view of what I’ve been watching, with entries grouped by year.</p>
+
+<p class="dash-kpis">
+  <span>I've watched a total of <strong>{{ watch.stats.totalMovies }}</strong> films</span>
 </p>
+
+{% if watch.movieYears and watch.movieYears.length %}
+<div class="media-years">
+  <span>Years:</span>
+  {% for y in watch.movieYears %}
+    <a href="/logs/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
 
 <div class="media-grid">
   {% for film in watch.movies %}

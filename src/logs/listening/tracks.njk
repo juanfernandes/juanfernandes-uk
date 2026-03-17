@@ -6,7 +6,7 @@ pagination:
   data: lastfmRecent.weekTopTracks
   size: 50
   alias: items
-permalink: "/music/tracks/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+permalink: "/logs/listening/tracks/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
@@ -17,7 +17,7 @@ permalink: "/music/tracks/{% if pagination.pageNumber > 0 %}page/{{ pagination.p
 
     <nav>
       <div class="nav--inline">
-        <span>← <a href="/music/">Back to music</a></span>
+        <span>← <a href="/logs/listening/">Back to music</a></span>
       </div>
     </nav>
 
