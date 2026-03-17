@@ -2090,11 +2090,15 @@
     },
     {
       "media": "vinyl",
-      "addedOn": "2026-03-17",
-      "folder": "Rick/Metal",
       "artist": "System Of A Down",
+      "folder": "Rock",
+      "url": "https://www.discogs.com/release/12641837-System-Of-A-Down-Toxicity",
+      "label": "American Recordings",
+      "cover": "https://i.discogs.com/p1sUuQrzn9ZHXORh_eDtxwsMXY6TQs7mvXxWkHAMHjY/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjQx/ODM3LTE3NTk4ODU2/MjMtMjkwMi5qcGVn.jpeg",
+      "format": "Vinyl",
       "title": "Toxicity",
-      "format": "Vinyl"
+      "year": 2018,
+      "addedOn": "2026-03-17"
     }
   ]
 }
