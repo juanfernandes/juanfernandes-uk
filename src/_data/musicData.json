@@ -2099,6 +2099,18 @@
       "title": "Toxicity",
       "year": 2018,
       "addedOn": "2026-03-17"
+    },
+    {
+      "media": "vinyl",
+      "artist": "Nirvana",
+      "folder": "Rock",
+      "url": "https://www.discogs.com/release/769561-Nirvana-Nevermind",
+      "label": "DGC",
+      "cover": "https://i.discogs.com/3f5kfz6KkOWLg6l0CP6qgzXFwq081gZu9UalAVkD8Y0/rs:fit/g:sm/q:90/h:600/w:593/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc2OTU2/MS0xNjE2NTc4MzAw/LTQzNDYuanBlZw.jpeg",
+      "format": "Vinyl",
+      "title": "Nevermind",
+      "year": 1991,
+      "addedOn": "2026-03-17"
     }
   ]
 }
