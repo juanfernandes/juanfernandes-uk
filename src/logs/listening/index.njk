@@ -1,21 +1,20 @@
 ---
 layout: page
-title: Music
+title: Listening
 bodyClass: music
 permalink: /logs/listening/
 ---
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
-<p class="lead">A snapshot of the music I’ve been listening to recently. Pulled from my listening history, it highlights the artists, albums, and tracks that have been in regular rotation.</p>
 
 <div class="grid grid-9-3 gap-2">
   <div>
-  {% if lastfmRecent.error %}
-
+    <p class="lead">A snapshot of the music I’ve been listening to recently. Pulled from my listening history, it highlights the artists, albums, and tracks that have been in regular rotation.</p>
+    
+    {% if lastfmRecent.error %}
     <p><strong>{{ lastfmRecent.error }}</strong></p>
-
-   {% else %}
+    {% else %}
 
     {% if lastfmRecent.nowPlaying %}
     <section>

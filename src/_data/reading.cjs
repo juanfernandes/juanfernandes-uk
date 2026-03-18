@@ -4,7 +4,14 @@ function toInt(v) {
   return Number.isFinite(n) ? n : null;
 }
 
-function normalise(item) {
+function yearFromDateString(v) {
+  if (!v) return null;
+  const s = String(v).trim();
+  const m = s.match(/^(\d{4})/);
+  return m ? toInt(m[1]) : null;
+}
+
+function normaliseBook(item) {
   const statusRaw = String(item?.status || "").trim();
   const status = ["reading", "read", "toRead"].includes(statusRaw) ? statusRaw : "toRead";
 
@@ -12,14 +19,38 @@ function normalise(item) {
   const yearReadInt = yearRead && /^\d{4}$/.test(yearRead) ? toInt(yearRead) : null;
 
   return {
+    kind: "book",
     title: String(item?.title || "").trim(),
     subtitle: String(item?.subtitle || "").trim(),
     author: String(item?.author || "").trim(),
+    publication: "",
     img: String(item?.img || "").trim(),
     url: item?.url ? String(item.url).trim() : "",
     notes: item?.notes ? String(item.notes).trim() : "",
+    content: "",
     status,
-    yearRead: yearReadInt
+    yearRead: yearReadInt,
+    date: ""
+  };
+}
+
+function normaliseArticle(item) {
+  const date = String(item?.date || item?.isoDate || item?.pubDate || "").trim();
+  const yearRead = yearFromDateString(date);
+
+  return {
+    kind: "article",
+    title: String(item?.title || "").trim(),
+    subtitle: "",
+    author: "",
+    publication: "",
+    img: "",
+    url: item?.url ? String(item.url).trim() : "",
+    notes: "",
+    content: item?.content ? String(item.content).trim() : "",
+    status: "read",
+    yearRead,
+    date
   };
 }
 
@@ -37,55 +68,128 @@ function sortAlpha(a, b) {
   return (a.title || "").localeCompare(b.title || "");
 }
 
+function sortByYearDescThenAlpha(a, b) {
+  const ay = a.yearRead || 0;
+  const by = b.yearRead || 0;
+  if (ay !== by) return by - ay;
+  return sortAlpha(a, b);
+}
+
+function sortArticlesByDateDesc(a, b) {
+  const ad = Date.parse(a.date || "") || 0;
+  const bd = Date.parse(b.date || "") || 0;
+  return bd - ad;
+}
+
 module.exports = async function () {
-  // Your current file is an ARRAY, not { items: [...] }
-  const raw = require("./books.json");
-  const items = Array.isArray(raw) ? raw : [];
+  const rawBooks = require("./books.json");
+  const rawArticles = require("./links.cjs")();
 
-  const all = items.map(normalise).filter((b) => b.title);
+  const booksSource = Array.isArray(rawBooks) ? rawBooks : [];
+  const articlesSource = Array.isArray(rawArticles) ? rawArticles : [];
 
-  const current = all.filter((b) => b.status === "reading").sort(sortAlpha);
-  const finished = all.filter((b) => b.status === "read");
-  const toRead = all.filter((b) => b.status === "toRead").sort(sortAlpha);
+  const books = booksSource.map(normaliseBook).filter((b) => b.title);
+  const articles = articlesSource.map(normaliseArticle).filter((a) => a.title);
 
-  // Finished grouped by year (desc)
-  const finishedByYear = groupBy(
-    finished.filter((b) => b.yearRead),
+  const all = [...books, ...articles];
+
+  const currentBooks = books.filter((b) => b.status === "reading").sort(sortAlpha);
+
+  const finishedBooks = books.filter((b) => b.status === "read").sort(sortByYearDescThenAlpha);
+  const toReadBooks = books.filter((b) => b.status === "toRead").sort(sortAlpha);
+
+  const finishedArticles = articles.slice().sort(sortArticlesByDateDesc);
+
+  const finishedBooksByYear = groupBy(
+    finishedBooks.filter((b) => b.yearRead),
     (b) => String(b.yearRead)
   );
 
-  const years = Object.keys(finishedByYear).sort().reverse();
-  for (const y of years) {
-    finishedByYear[y].sort(sortAlpha);
+  const finishedArticlesByYear = groupBy(
+    finishedArticles.filter((a) => a.yearRead),
+    (a) => String(a.yearRead)
+  );
+
+  const years = [
+    ...new Set([
+      ...Object.keys(finishedBooksByYear),
+      ...Object.keys(finishedArticlesByYear)
+    ])
+  ].sort().reverse();
+
+  for (const y of Object.keys(finishedBooksByYear)) {
+    finishedBooksByYear[y].sort(sortAlpha);
   }
 
-  // If any "read" items don't have a year, keep them separate
-  const finishedNoYear = finished.filter((b) => !b.yearRead).sort(sortAlpha);
+  for (const y of Object.keys(finishedArticlesByYear)) {
+    finishedArticlesByYear[y].sort(sortArticlesByDateDesc);
+  }
+
+  const finishedNoYear = finishedBooks.filter((b) => !b.yearRead).sort(sortAlpha);
+
+  const statsByYear = {};
+  for (const y of years) {
+    const booksForYear = finishedBooksByYear[y] || [];
+    const articlesForYear = finishedArticlesByYear[y] || [];
+
+    statsByYear[y] = {
+      books: booksForYear.length,
+      articles: articlesForYear.length,
+      total: booksForYear.length + articlesForYear.length,
+      authors: new Set(booksForYear.map((b) => b.author).filter(Boolean)).size
+    };
+  }
+
+  const latestFinishedBook = finishedBooks[0] || null;
+  const latestFinishedArticle = finishedArticles[0] || null;
 
   const stats = {
     total: all.length,
-    currentlyReading: current.length,
-    finished: finished.length,
-    toRead: toRead.length
+    currentlyReading: currentBooks.length,
+    finishedBooks: finishedBooks.length,
+    finishedArticles: finishedArticles.length,
+    finished: finishedBooks.length + finishedArticles.length,
+    toRead: toReadBooks.length
   };
-
-  // Convenience "latest finished" (highest yearRead, then alpha)
-  const latestFinished =
-    finished
-      .filter((b) => b.yearRead)
-      .slice()
-      .sort((a, b) => (b.yearRead || 0) - (a.yearRead || 0) || sortAlpha(a, b))[0] || null;
 
   return {
     updatedAt: new Date().toISOString(),
+
     all,
-    current,
-    toRead,
-    finished,
-    finishedByYear,
+
+    books,
+    articles,
+
+    current: currentBooks,
+    currentBooks,
+
+    toRead: toReadBooks,
+    toReadBooks,
+
+    finishedBooks,
+    finishedArticles,
+    finished: [...finishedBooks, ...finishedArticles].sort((a, b) => {
+      const ay = a.yearRead || 0;
+      const by = b.yearRead || 0;
+      if (ay !== by) return by - ay;
+
+      const ad = Date.parse(a.date || "") || 0;
+      const bd = Date.parse(b.date || "") || 0;
+      if (ad !== bd) return bd - ad;
+
+      return sortAlpha(a, b);
+    }),
+
+    finishedBooksByYear,
+    finishedArticlesByYear,
     finishedNoYear,
+
     years,
-    latestFinished,
+    latestFinished: latestFinishedBook,
+    latestFinishedBook,
+    latestFinishedArticle,
+
+    statsByYear,
     stats
   };
 };

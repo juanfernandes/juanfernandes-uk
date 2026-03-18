@@ -893,3 +893,4 @@ RewriteRule ^notes\/changelog\-colophon\-chnagelog\/$ "https\:\/\/www\.juanferna
 Redirect 301 /music/ /logs/listening/
 Redirect 301 /books/ /logs/reading/
 Redirect 301 /watch/ /logs/watching/
+Redirect 301 /links/ /logs/reading/articles/

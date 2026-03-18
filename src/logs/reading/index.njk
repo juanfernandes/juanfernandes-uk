@@ -1,94 +1,188 @@
 --- 
 title: "Reading"
-layout: "page-sidebar"
-class: "books"
-intro:
-  class: "sml"
+layout: "page"
 tags:
   - search
 ---
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
-<p class="lead">A record of the books I’ve read and the ones I’m currently working through. Some stay with me longer than others, but this log keeps a timeline of what I’ve spent time reading.</p>
+{% set currentBook = reading.currentBooks[0] %}
+{% set latestFinishedBook = reading.latestFinishedBook %}
+{% set latestFinishedArticle = reading.latestFinishedArticle %}
 
-<div id="current">
-  <h2 class="section-heading">Currently Reading</h2>
-  {% set currentBook = books | findCurrentBook %}
-  <div class="bookshelf">
-    {% if currentBook %}
-    <div class="book">
-      <a href="{{ currentBook.url }}" aria-label="{{ currentBook.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ currentBook.img }}" alt="{{ currentBook.title }}" width="180" height="276"></a>
-      <div class="details">
-        <h3>{{ currentBook.title }}</h3>
-        {% if currentBook.subtitle %}
-        <span class="subtitle">{{ currentBook.subtitle }}</span>
-        {% endif %}
-        <span class="author">{{ currentBook.author }}</span>
-      </div>
+<div class="grid grid-9-3 gap-2">
+  <div>
+    <p class="lead">A running log of the books and articles I’ve read — from longer reads to quick finds, all captured in one place.</p>
+
+    <div class="watch-grid">
+      <section class="watch-card">
+        <h2><a href="/logs/reading/books/">Books</a></h2>
+        <p class="watch-muted">Current reads, finished books, and year-by-year browsing.</p>
+
+        <div class="watch-latest">
+          <h3 class="watch-title">Currently reading</h3>
+          {% if currentBook %}
+            <div class="watch-row">
+              {% if currentBook.img %}
+                <div class="watch-poster">
+                  <img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ currentBook.img }}" alt="{{ currentBook.title }}" width="180" height="276">
+                </div>
+              {% endif %}
+              <div>
+                <h4 class="watch-title">
+                  {% if currentBook.url %}
+                    <a href="{{ currentBook.url }}" target="_blank" rel="noopener">{{ currentBook.title }}</a>
+                  {% else %}
+                    {{ currentBook.title }}
+                  {% endif %}
+                </h4>
+
+                <div class="watch-meta">
+                  {% if currentBook.author %}
+                    <span>{{ currentBook.author }}</span>
+                  {% endif %}
+                  {% if currentBook.subtitle %}
+                    <span>{{ currentBook.subtitle }}</span>
+                  {% endif %}
+                </div>
+
+                {% if currentBook.notes %}
+                  <p class="watch-muted">{{ currentBook.notes }}</p>
+                {% endif %}
+              </div>
+            </div>
+          {% else %}
+            <p class="watch-muted">Nothing marked as currently reading.</p>
+          {% endif %}
+        </div>
+
+        <div class="watch-latest">
+          <h3 class="watch-title">Latest finished book</h3>
+          {% if latestFinishedBook %}
+            <div class="watch-row">
+              {% if latestFinishedBook.img %}
+                <div class="watch-poster">
+                  <img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ latestFinishedBook.img }}.jpg" alt="Cover for {{ latestFinishedBook.title }}" loading="lazy">
+                </div>
+              {% endif %}
+              <div>
+                <h4 class="watch-title">
+                  {% if latestFinishedBook.url %}
+                    <a href="{{ latestFinishedBook.url }}" target="_blank" rel="noopener">{{ latestFinishedBook.title }}</a>
+                  {% else %}
+                    {{ latestFinishedBook.title }}
+                  {% endif %}
+                </h4>
+
+                <div class="watch-meta">
+                  {% if latestFinishedBook.author %}
+                    <span>{{ latestFinishedBook.author }}</span>
+                  {% endif %}
+                  {% if latestFinishedBook.yearRead %}
+                    <span>Finished in {{ latestFinishedBook.yearRead }}</span>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          {% else %}
+            <p class="watch-muted">No finished books logged yet.</p>
+          {% endif %}
+        </div>
+
+        <ul class="watch-list">
+          {% for book in reading.finishedBooks | slice(0, 8) %}
+            <li>
+              {% if book.url %}
+                <a href="{{ book.url }}" target="_blank" rel="noopener">{{ book.title }}</a>
+              {% else %}
+                {{ book.title }}
+              {% endif %}
+              {% if book.author %}<span class="watch-muted">— {{ book.author }}</span>{% endif %}
+              {% if book.yearRead %}<span class="watch-muted"> · {{ book.yearRead }}</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+
+        <div class="watch-links">
+          <a href="/logs/reading/books/">Browse all books →</a>
+        </div>
+      </section>
+
+      <section class="watch-card">
+        <h2><a href="/logs/reading/articles/">Articles</a></h2>
+        <p class="watch-muted">Saved reading from around the web, sorted by date.</p>
+
+        <div class="watch-latest">
+          <h3 class="watch-title">Latest article</h3>
+          {% if latestFinishedArticle %}
+            <div class="">
+              <div>
+                <h4 class="watch-title">
+                  {% if latestFinishedArticle.url %}
+                    <a href="{{ latestFinishedArticle.url }}" target="_blank" rel="noopener">{{ latestFinishedArticle.title }}</a>
+                  {% else %}
+                    {{ latestFinishedArticle.title }}
+                  {% endif %}
+                </h4>
+
+                <div class="watch-meta">
+{#                   {% if latestFinishedArticle.yearRead %}
+                    <span>{{ latestFinishedArticle.yearRead }}</span>
+                  {% endif %} #}
+                  {% if latestFinishedArticle.date %}
+                    <span>Read on the {{ latestFinishedArticle.date | dateFilter }}</span>
+                  {% endif %}
+                </div>
+
+                {% if latestFinishedArticle.content %}
+                  <p class="watch-muted u-mt-1">{{ latestFinishedArticle.content }}</p>
+                {% endif %}
+              </div>
+            </div>
+          {% else %}
+            <p class="watch-muted">No articles logged yet.</p>
+          {% endif %}
+        </div>
+
+        <ul class="watch-list">
+          {% for article in reading.finishedArticles | slice(0, 8) %}
+            <li>
+              {% if article.url %}
+                <a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a>
+              {% else %}
+                {{ article.title }}
+              {% endif %}
+              {% if article.yearRead %}<span class="watch-muted">— {{ article.yearRead }}</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+
+        <div class="watch-links">
+          <a href="/logs/reading/articles/">Browse all articles →</a>
+        </div>
+      </section>
     </div>
-    {% else %}
-    <p>No current book found.</p>
-    {% endif %}
   </div>
-</div>
 
-<div id="read">
-  <h2 class="section-heading">Read</h2>
-  {% for yearRead, book in books | groupby("yearRead") | dictsort | reverse %}
-  {% if yearRead %}
-    <h3 id="year-{{ yearRead }}">{{ yearRead }}</h3>
-    <div class="bookshelf">
-      {% for book in book | sort(attribute='title') %}
-      <div class="book">
-        <a href="{{ book.url }}" aria-label="{{ book.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ book.img }}" alt="{{ book.title }}" width="180" height="276"></a>
-        <div class="details">
-          <h3>{{ book.title }}</h3>
-          {% if book.subtitle %}<span class="subtitle">{{ book.subtitle }}</span>{% endif %}
-          <span class="author">{{ book.author }}</span>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
+  <div class="sidebar meta">
+    <h3 class="heading">All-time</h3>
+    <p>
+      I’ve logged a total of
+      <strong>{{ reading.stats.finishedBooks }}</strong> books,
+      <strong>{{ reading.stats.finishedArticles }}</strong> articles,
+      and I currently have
+      <strong>{{ reading.stats.currentlyReading }}</strong> book{% if reading.stats.currentlyReading != 1 %}s{% endif %}
+      on the go.
+    </p>
+
+  {% if reading.years and reading.years.length %}
+  <h3 class="heading">Years</h3>
+  <p>
+    {% for y in reading.years %}
+      <a href="/logs/reading/books/#year-{{ y }}">{{ y }}</a>{% if not loop.last %} · {% endif %}
+    {% endfor %}
+  </p>
   {% endif %}
-  {% endfor %}
-</div>
-
-<div id="want-to-read">
-  <h2 class="section-heading">Want to Read</h2>
-  <div class="bookshelf">
-  {% for book in books | sort(attribute='title') %}
-    {% if book.status == "toRead" %}
-      <div class="book">
-        <a href="{{ book.url }}" aria-label="{{ book.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ book.img }}" alt="{{ book.title }}" width="180" height="276"></a>
-        <div class="details">
-          <h3>{{ book.title }}</h3>
-          {% if book.subtitle %}<span class="subtitle">{{ book.subtitle }}</span>{% endif %}
-          <span class="author">{{ book.author }}</span>
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
   </div>
-</div>
-
-<div id="summarised">
-  <h2 class="section-heading">Summaries</h2>
-  {% for yearRead, book in summaries | groupby("yearRead") | dictsort | reverse %}
-  {% if yearRead %}
-    <h3>{{ yearRead }}</h3>
-    <div class="bookshelf u-mb-0">
-      {% for book in summaries | sort(attribute='title') %}
-      <div class="book">
-        <a href="{{ book.url }}" aria-label="{{ book.title }}"><img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ book.img }}" alt="{{ book.title }}" width="180" height="276"></a>
-        <div class="details">
-          <h3>{{ book.title }}</h3>
-          {% if book.subtitle %}<span class="subtitle">{{ book.subtitle }}</span>{% endif %}
-          <span class="author">{{ book.author }}</span>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  {% endif %}
-  {% endfor %}
 </div>

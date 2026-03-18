@@ -120,8 +120,13 @@ module.exports = async function () {
   }
 
   const watchlog = require("./watchlog.json").entries || [];
-  const moviesRaw = watchlog.filter((x) => x.type === "movie");
-  const tvRaw = watchlog.filter((x) => x.type === "tv");
+  const moviesRaw = watchlog.filter(
+    (x) => x.type === "movie" || x.displayAs === "movie"
+  );
+
+  const tvRaw = watchlog.filter(
+    (x) => x.type === "tv" && x.displayAs !== "movie"
+  );
 
   const uniqueMovieIds = [...new Set(moviesRaw.map((x) => x.tmdbId).filter(Boolean))];
   const uniqueTvIds = [...new Set(tvRaw.map((x) => x.tmdbId).filter(Boolean))];
@@ -139,7 +144,7 @@ module.exports = async function () {
       const m = movieMeta[x.tmdbId] || {};
       return {
         ...x,
-        title: x.title || m.title || "",
+        title: x.title || m.title || m.name || "",
         year: x.year || (m.release_date ? Number(String(m.release_date).slice(0, 4)) : null),
         poster:
           x.poster ||

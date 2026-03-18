@@ -1,5 +1,11 @@
 [
   {
+    "title": "Why frontends fail when you approach them like a backend / Marijke Luttekes",
+    "url": "https://marijkeluttekes.dev/blog/articles/2026/03/16/why-frontends-fail-when-you-approach-them-like-a-backend/",
+    "content": "I will never forget the look on a contractor's face when he stared at a technically correct, but aesthetically disappointing dormer at our house. \"Everyone can…",
+    "date": "2026-03-17T21:45:07.000Z"
+  },
+  {
     "title": "Eleventy: How to Work Around the “git Last Modified” Performance Bottleneck · Jens Oliver Meiert",
     "url": "https://meiert.com/blog/eleventy-git-last-modified/",
     "content": "Eleventy: How to Work Around the “git Last Modified” Performance Bottleneck Published on Feb 26, 2026, filed under development, performance. (Share this post,…",

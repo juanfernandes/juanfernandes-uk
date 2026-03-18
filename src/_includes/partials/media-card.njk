@@ -1,13 +1,11 @@
 <article class="media-card">
   {% if item.poster %}
-    <a href="{{ item.tmdbUrl }}">
-      <img
-        class="media-card__poster media-card__poster-3-3"
-        src="{{ item.poster }}"
-        alt="{{ item.title or item.show }}"
-        loading="lazy"
-      />
-    </a>
+    <img
+      class="media-card__poster media-card__poster-3-3"
+      src="{{ item.poster }}"
+      alt="{{ item.title or item.show }}"
+      loading="lazy"
+    />
   {% endif %}
 
   <div class="media-card__body">

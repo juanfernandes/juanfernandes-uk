@@ -1,0 +1,48 @@
+--- 
+title: "Articles"
+description: "This is a curated list of articles I've read and have shared online as I believe they are worth sharing."
+layout: "page"
+rssUrlTitle: "RSS Feed for links"
+rssUrl: "/rss/links.xml"
+date: 2025-06-15T15:30:00Z
+intro:
+  class: "sml"
+pagination:
+  data: links
+  size: 10
+tags:
+  - search
+---
+{% set section = section or "logs" %}
+{% include "components/dash-nav.njk" %}
+
+<div class="grid grid-9-3 gap-2">
+  <div>
+    <p class="lead">This is a curated list of articles I've read and have shared online as I believe they are worth sharing. I aim to update this list on a weekly basis. You can keep up to date with all the links I share by revisiting this page, or alternately, you can subscribe to the RSS feed for links.</p>
+    
+    <hr>
+
+    {%- for item in pagination.items %}
+    <div class="link">
+      <div class="link__details">
+        <h3><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h3>
+        {% if item.content %}<p>{{ item.content }}</p>{% endif %}
+        {% if item.date %}
+        <div class="link__meta">
+          <span class="link__date">Read on: {{ item.date | dateFilter }}</span>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor -%}
+
+    {% include 'components/pagination.njk' %}
+  </div>
+  <div class="sidebar meta">
+    {% include 'components/bio.njk' %}
+
+    <hr>
+
+    <a href="/blogroll/">Authors I follow</a>
+  </div>
+</div>

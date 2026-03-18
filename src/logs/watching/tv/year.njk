@@ -11,48 +11,54 @@ eleventyComputed:
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
-<h2><strong>{{ (watch.tvByYear[year] or []) | length }}</strong> episodes watched in {{ year }}</h2>
+<div class="grid grid-9-3 gap-2">
+  <div>
+    <h2><strong>{{ (watch.tvByYear[year] or []) | length }}</strong> episodes watched in {{ year }}</h2>
 
-<p>A show-first view of the TV episodes I logged in {{ year }}.</p>
+    <p>A show-first view of the TV episodes I logged in {{ year }}.</p>
 
-<p class="dash-kpis">This year I've watched <strong>{{ watch.tvStatsByYear[year].episodes or 0 }}</strong> episodes and <strong>{{ watch.tvStatsByYear[year].shows or 0 }}</strong> shows.</p>
-
-{% if watch.tvYears and watch.tvYears.length %}
-<div class="media-years">
-  <span>Years:</span>
-  {% for y in watch.tvYears %}
-    {% if watch.tvByYear[y] %}
-      <a href="/logs/watching/tv/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
-    {% endif %}
-  {% endfor %}
-</div>
-{% endif %}
-
-{% set grouped = watch.tvGroupedByYear[year] or {} %}
-
-<div class="media-grid media-grid--2-col">
-  {% for showId, bucket in grouped %}
-    {% set latestSeason = 0 %}
-    {% set latestEpisode = 0 %}
-    {% set latestDate = "" %}
-    {% set episodeCount = 0 %}
-    {% set seasonCount = 0 %}
-
-    {% for seasonNum, episodes in bucket.seasons %}
-      {% set seasonCount = seasonCount + 1 %}
-      {% set episodeCount = episodeCount + (episodes | length) %}
-      {% for ep in episodes %}
-        {% if ep.watchedOn > latestDate %}
-          {% set latestDate = ep.watchedOn %}
-          {% set latestSeason = ep.season %}
-          {% set latestEpisode = ep.episode %}
+    {% if watch.tvYears and watch.tvYears.length %}
+    <div class="media-years">
+      <span>Years:</span>
+      {% for y in watch.tvYears %}
+        {% if watch.tvByYear[y] %}
+          <a href="/logs/watching/tv/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
         {% endif %}
       {% endfor %}
-    {% endfor %}
+    </div>
+    {% endif %}
 
-    {% include "partials/media-card-details.njk" %}
-    
-  {% endfor %}
+    {% set grouped = watch.tvGroupedByYear[year] or {} %}
+
+    <div class="media-grid media-grid--2-col">
+      {% for showId, bucket in grouped %}
+        {% set latestSeason = 0 %}
+        {% set latestEpisode = 0 %}
+        {% set latestDate = "" %}
+        {% set episodeCount = 0 %}
+        {% set seasonCount = 0 %}
+
+        {% for seasonNum, episodes in bucket.seasons %}
+          {% set seasonCount = seasonCount + 1 %}
+          {% set episodeCount = episodeCount + (episodes | length) %}
+          {% for ep in episodes %}
+            {% if ep.watchedOn > latestDate %}
+              {% set latestDate = ep.watchedOn %}
+              {% set latestSeason = ep.season %}
+              {% set latestEpisode = ep.episode %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+
+        {% include "partials/media-card-details.njk" %}
+        
+      {% endfor %}
+    </div>
+
+    {% include "components/tmdb-attribution.njk" %}
+  </div>
+  <div class="sidebar meta">
+    <h3 class="heading">This Year</h3>
+    <p>This year I've watched <strong>{{ watch.tvStatsByYear[year].episodes or 0 }}</strong> episodes and <strong>{{ watch.tvStatsByYear[year].shows or 0 }}</strong> shows.</p>
+  </div>
 </div>
-
-{% include "components/tmdb-attribution.njk" %}
