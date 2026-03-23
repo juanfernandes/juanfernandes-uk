@@ -7362,14 +7362,6 @@
     },
     {
       "rewatch": false,
-      "type": "tv",
-      "displayAs": "movie",
-      "tmdbId": 313338,
-      "watchedOn": "2026-03-10",
-      "rating": 2
-    },
-    {
-      "rewatch": false,
       "type": "movie",
       "tmdbId": 1591516,
       "watchedOn": "2026-03-15",
@@ -7412,6 +7404,14 @@
       "watchedOn": "2026-03-22",
       "season": 1,
       "episode": 3
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "displayAs": "movie",
+      "tmdbId": 313338,
+      "watchedOn": "2026-02-23",
+      "rating": 1.5
     }
   ]
 }
