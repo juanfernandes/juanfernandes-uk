@@ -1,0 +1,202 @@
+{
+  "adult": false,
+  "backdrop_path": "/uNvpN37f9HbvsDBQFhHU5m2EnVo.jpg",
+  "created_by": [
+    {
+      "id": 1226647,
+      "credit_id": "60e92ec1e62719002c95a3f0",
+      "name": "Graham Roland",
+      "original_name": "Graham Roland",
+      "gender": 2,
+      "profile_path": "/wrqRGS5KnEBWtNqOyHZ0en0JYN1.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2022-06-12",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://www.amc.com/shows/dark-winds--1053387",
+  "id": 128904,
+  "in_production": true,
+  "languages": [
+    "en",
+    "nv"
+  ],
+  "last_air_date": "2026-03-15",
+  "last_episode_to_air": {
+    "id": 6908852,
+    "name": "Shíká Nidanitáhą́ą́ (Those Who Were Searching for Me)",
+    "overview": "When Chee's new intel provides a clue to Vaggan's identity, Leaphorn enlists the FBI to help ambush the killer. Manuelito and Emma help Chee with his recovery from a close call while he is haunted by a specter from his past.",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2026-03-22",
+    "episode_number": 6,
+    "episode_type": "standard",
+    "production_code": "",
+    "runtime": 47,
+    "season_number": 4,
+    "show_id": 128904,
+    "still_path": "/dXsKUO8H2oujk4fimTaeXX8UyYY.jpg"
+  },
+  "name": "Dark Winds",
+  "next_episode_to_air": {
+    "id": 6908853,
+    "name": "Nániikai (We Came Back)",
+    "overview": "",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2026-03-29",
+    "episode_number": 7,
+    "episode_type": "standard",
+    "production_code": "",
+    "runtime": null,
+    "season_number": 4,
+    "show_id": 128904,
+    "still_path": null
+  },
+  "networks": [
+    {
+      "id": 174,
+      "logo_path": "/pmvRmATOCaDykE6JrVoeYxlFHw3.png",
+      "name": "AMC",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 28,
+  "number_of_seasons": 4,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Dark Winds",
+  "overview": "This psychological thriller follows two Navajo police officers, Leaphorn and Chee, in the 1970s Southwest as their search for clues in a grisly double murder case forces them to challenge their own spiritual beliefs and come to terms with the trauma of their pasts.",
+  "popularity": 61.2271,
+  "poster_path": "/kDlrMN0P9ByrEH2GoRbBFeZHbcf.jpg",
+  "production_companies": [
+    {
+      "id": 23242,
+      "logo_path": "/ucE6dN6pUPfZHH5JlXkq44TDUMS.png",
+      "name": "AMC Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 258227,
+      "logo_path": null,
+      "name": "Rolling Cactus",
+      "origin_country": "US"
+    },
+    {
+      "id": 258228,
+      "logo_path": null,
+      "name": "Eleventh Northwest",
+      "origin_country": "US"
+    },
+    {
+      "id": 258229,
+      "logo_path": null,
+      "name": "Startling Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 258230,
+      "logo_path": null,
+      "name": "Tina Elmo Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 258231,
+      "logo_path": null,
+      "name": "Fevre River Packet Company",
+      "origin_country": "US"
+    },
+    {
+      "id": 316,
+      "logo_path": "/AjLnvitW6m0n1wp3ElezITDDb4x.png",
+      "name": "Wildwood Enterprises",
+      "origin_country": "US"
+    },
+    {
+      "id": 185260,
+      "logo_path": null,
+      "name": "Wirthwhile TV",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-06-12",
+      "episode_count": 6,
+      "id": 201745,
+      "name": "Season 1",
+      "overview": "Leaphorn and Chee, two Navajo police officers in the 1970s Southwest, are forced to challenge their own spiritual beliefs when they search for clues in a double murder case.",
+      "poster_path": "/iNPeWrevIMhBbWMpoqDTBcHGaMu.jpg",
+      "season_number": 1,
+      "vote_average": 6.9
+    },
+    {
+      "air_date": "2023-07-30",
+      "episode_count": 6,
+      "id": 300364,
+      "name": "Season 2",
+      "overview": "Lt. Joe Leaphorn and Jim Chee find themselves in the high desert of Navajo Country chasing a killer who's turned his sights on them to protect a secret that rips open old wounds and challenges Leaphorn's moral and professional code. With the help of Sgt. Manuelito and Valencia County Sheriff Gordo Sena, Leaphorn and Chee must thwart their would-be assassin and restore balance not only to their own lives but to the reservation that depends on them.",
+      "poster_path": "/tWNR5NR0n0bNPGQBvq5aXODtfsA.jpg",
+      "season_number": 2,
+      "vote_average": 7.3
+    },
+    {
+      "air_date": "2025-03-09",
+      "episode_count": 8,
+      "id": 426202,
+      "name": "Season 3",
+      "overview": "Six months after the events of Season 2, Lt. Joe Leaphorn and Jim Chee investigate the disappearance of two boys, with only an abandoned bicycle and blood-stained patch of ground left in their wake. Meanwhile, Bernadette Manuelito attempts to settle into her new life 500 miles from home with the Border Patrol, but stumbles across a conspiracy involving human and drug smuggling with far-reaching implications.",
+      "poster_path": "/kDlrMN0P9ByrEH2GoRbBFeZHbcf.jpg",
+      "season_number": 3,
+      "vote_average": 7.1
+    },
+    {
+      "air_date": "2026-02-15",
+      "episode_count": 8,
+      "id": 481370,
+      "name": "Season 4",
+      "overview": "The fourth season focuses on the search for a missing Navajo girl, which takes Leaphorn, Chee and Manuelito from the safety of Navajo Nation to the gritty terrain of 1970s Los Angeles in a race against the clock to save her from an obsessive killer with ties to organized crime.",
+      "poster_path": "/guPa9hTEhUkm73BgFlMZ1cq6vJd.jpg",
+      "season_number": 4,
+      "vote_average": 5.8
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "Navajo",
+      "iso_639_1": "nv",
+      "name": ""
+    }
+  ],
+  "status": "Returning Series",
+  "tagline": "Justice has no boundaries.",
+  "type": "Scripted",
+  "vote_average": 7.5,
+  "vote_count": 177
+}

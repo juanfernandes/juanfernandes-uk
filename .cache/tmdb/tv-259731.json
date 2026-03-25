@@ -38,8 +38,8 @@
     "id": 6665657,
     "name": "Episode 6",
     "overview": "As the case comes to a close, Jack and Anna must reckon with the sins of the past — and the brutal consequences in the present.",
-    "vote_average": 5.152,
-    "vote_count": 33,
+    "vote_average": 5.279,
+    "vote_count": 34,
     "air_date": "2026-01-08",
     "episode_number": 6,
     "episode_type": "finale",
@@ -67,7 +67,7 @@
   "original_language": "en",
   "original_name": "HIS & HERS",
   "overview": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
-  "popularity": 18.2581,
+  "popularity": 17.1421,
   "poster_path": "/vRXw6fUD9B4RhMoTvhcJcnHYIMP.jpg",
   "production_companies": [
     {
@@ -117,6 +117,6 @@
   "status": "Ended",
   "tagline": "Two sides. One killer secret.",
   "type": "Miniseries",
-  "vote_average": 7.28,
-  "vote_count": 347
+  "vote_average": 7.286,
+  "vote_count": 357
 }
