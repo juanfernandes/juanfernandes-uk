@@ -7436,6 +7436,14 @@
       "watchedOn": "2026-03-25",
       "season": 1,
       "episode": 6
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 248126,
+      "watchedOn": "2026-03-26",
+      "season": 1,
+      "episode": 1
     }
   ]
 }
