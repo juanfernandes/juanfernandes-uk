@@ -14,32 +14,34 @@ permalink: /logs/concerts/
 
     <div class="media-grid">
       <section class="media-card">
-        <div class="media-body">
-          <h3>Most recent</h3>
-          <p class="media-muted">The latest gig logged.</p>
+        <div class="media-card__body">
+          <h2 class="media-card__heading">Most recent</h2>
+          <p class="media-card__muted">The latest gig logged.</p>
+
           {% if latestGig %}
+          <div class="media-card__latest">
             <p class="media-title">
               <strong>{{ latestGig.artists | join(", ") }}</strong> —
-              <span class="media-muted">{{ latestGig.date | dateFilter }}</span>
+              <span class="media-card__muted">{{ latestGig.date | dateFilter }}</span>
             </p>
-            <p class="media-meta">
-              {{ latestGig.venue }}{% if latestGig.city %}, {{ latestGig.city }}{% endif %}
-              {% if latestGig.country %}<span class="media-muted"> · {{ latestGig.country }}</span>{% endif %}
-            </p>
-
-            <p class="media-actions">
+            <div class="media-card__meta">
+              {% if latestGig.venue %}
+              <span>{{ latestGig.venue }}{% if latestGig.city %}, {{ latestGig.city }}{% endif %}</span>
+              {% endif %}
+              {% if latestGig.country %}
+              <span>{{ latestGig.country }}</span>
+              {% endif %}
               {% if latestGig.links and latestGig.links.setlistFm %}
-                <a href="{{ latestGig.links.setlistFm }}">Setlist.fm</a>
+              <span><a href="{{ latestGig.links.setlistFm }}">Setlist.fm</a></span>
               {% endif %}
               {% if latestGig.links and latestGig.links.tickets %}
-                <a href="{{ latestGig.links.tickets }}">Tickets</a>
+                <span><a href="{{ latestGig.links.tickets }}">Tickets</a></span>
               {% endif %}
               {% if latestGig.notes %}
-              <div class="media-badges">
-                <span class="media-badge">has notes</span>
-              </div>
+                <span class="tag">has notes</span>
               {% endif %}
-            </p>
+            </div>
+          </div>
           {% else %}
             <p class="media-muted">No concerts logged yet.</p>
           {% endif %}
@@ -47,13 +49,15 @@ permalink: /logs/concerts/
       </section>
 
       <section class="media-card">
-        <div class="media-body">
-          <h3>Browse by year</h3>
-          <p class="media-muted">Jump to a year archive.</p>
+        <div class="media-card__body">
+          <h2 class="media-card__heading">Browse by year</h2>
+          <p class="media-card__muted">Jump to a year archive.</p>
 
-          {% set years = concerts.years %}
-          {% set base = "/logs/concerts" %}
-          {% include "components/year-nav.njk" %}
+          <div class="media-card__list">
+            {% set years = concerts.years %}
+            {% set base = "/logs/concerts" %}
+            {% include "components/year-nav.njk" %}
+          </div>
         </div>
       </section>
     </div>

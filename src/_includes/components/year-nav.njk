@@ -1,8 +1,8 @@
 {% if years and years.length %}
-  <p>
-    Years:
+  <div class="media-years">
+    <span>Years:</span>
     {% for y in years %}
       <a href="{{ base }}/year/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
     {% endfor %}
-  </p>
+  </div>
 {% endif %}
