@@ -15,110 +15,106 @@ tags:
   <div>
     <p class="lead">A running log of the books and articles I’ve read — from longer reads to quick finds, all captured in one place.</p>
 
-    <div class="watch-grid">
-      <section class="watch-card">
-        <h2><a href="/logs/reading/books/">Books</a></h2>
-        <p class="watch-muted">Current reads, finished books, and year-by-year browsing.</p>
+    <div class="media-grid media-grid--2-col">
+      <section class="media-card">
+        <div class="media-card__body">
+          <h2 class="media-card__heading"><a href="/logs/reading/books/">Books</a></h2>
+          <p class="media-card__muted">A running log of the books I’ve read, bringing together titles that have informed my thinking, broadened my perspective, or simply been enjoyable to explore.</p>
 
-        <div class="watch-latest">
-          <h3 class="watch-title">Currently reading</h3>
-          {% if currentBook %}
-            <div class="watch-row">
-              {% if currentBook.img %}
-                <div class="watch-poster">
-                  <img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ currentBook.img }}" alt="{{ currentBook.title }}" width="180" height="276">
-                </div>
-              {% endif %}
-              <div>
-                <h4 class="watch-title">
-                  {% if currentBook.url %}
-                    <a href="{{ currentBook.url }}" target="_blank" rel="noopener">{{ currentBook.title }}</a>
-                  {% else %}
-                    {{ currentBook.title }}
-                  {% endif %}
-                </h4>
-
-                <div class="watch-meta">
-                  {% if currentBook.author %}
-                    <span>{{ currentBook.author }}</span>
-                  {% endif %}
-                  {% if currentBook.subtitle %}
-                    <span>{{ currentBook.subtitle }}</span>
-                  {% endif %}
-                </div>
-
-                {% if currentBook.notes %}
-                  <p class="watch-muted">{{ currentBook.notes }}</p>
+          <div class="media-card__latest">
+            <h3>Currently reading</h3>
+            {% if currentBook %}
+              <div class="media-card__header">
+                {% if currentBook.img %}
+                <img 
+                  src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ currentBook.img }}"
+                  alt="{{ currentBook.title }}"
+                  width="180"
+                  height="276"
+                  loading="lazy"
+                  class="media-card__poster media-card__poster-3-3"
+                >
                 {% endif %}
-              </div>
-            </div>
-          {% else %}
-            <p class="watch-muted">Nothing marked as currently reading.</p>
-          {% endif %}
-        </div>
+                <div>
+                  <h4 class="media-card__title">
+                    {% if currentBook.url %}
+                      <a href="{{ currentBook.url }}" target="_blank" rel="noopener">{{ currentBook.title }}</a>
+                    {% else %}
+                      {{ currentBook.title }}
+                    {% endif %}
+                  </h4>
 
-        <div class="watch-latest">
-          <h3 class="watch-title">Latest finished book</h3>
-          {% if latestFinishedBook %}
-            <div class="watch-row">
-              {% if latestFinishedBook.img %}
-                <div class="watch-poster">
-                  <img src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ latestFinishedBook.img }}.jpg" alt="Cover for {{ latestFinishedBook.title }}" loading="lazy">
-                </div>
-              {% endif %}
-              <div>
-                <h4 class="watch-title">
-                  {% if latestFinishedBook.url %}
-                    <a href="{{ latestFinishedBook.url }}" target="_blank" rel="noopener">{{ latestFinishedBook.title }}</a>
-                  {% else %}
-                    {{ latestFinishedBook.title }}
-                  {% endif %}
-                </h4>
+                  <div class="media-card__meta">
+                    {% if currentBook.author %}
+                    <span>{{ currentBook.author }}</span>
+                    {% endif %}
+                    {% if currentBook.subtitle %}
+                    <span>{{ currentBook.subtitle }}</span>
+                    {% endif %}
+                  </div>
 
-                <div class="watch-meta">
-                  {% if latestFinishedBook.author %}
-                    <span>{{ latestFinishedBook.author }}</span>
-                  {% endif %}
-                  {% if latestFinishedBook.yearRead %}
-                    <span>Finished in {{ latestFinishedBook.yearRead }}</span>
+                  {% if currentBook.notes %}
+                    <p class="media-card__muted">{{ currentBook.notes }}</p>
                   {% endif %}
                 </div>
               </div>
-            </div>
-          {% else %}
-            <p class="watch-muted">No finished books logged yet.</p>
-          {% endif %}
-        </div>
+            {% else %}
+              <p class="media-card__muted">Nothing marked as currently reading.</p>
+            {% endif %}
+          </div>
 
-        <ul class="watch-list">
-          {% for book in reading.finishedBooks | slice(0, 8) %}
-            <li>
-              {% if book.url %}
-                <a href="{{ book.url }}" target="_blank" rel="noopener">{{ book.title }}</a>
-              {% else %}
-                {{ book.title }}
-              {% endif %}
-              {% if book.author %}<span class="watch-muted">— {{ book.author }}</span>{% endif %}
-              {% if book.yearRead %}<span class="watch-muted"> · {{ book.yearRead }}</span>{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
+          <div class="media-card__latest">
+            <h3>Latest finished book</h3>
+            {% if latestFinishedBook %}
+              <div class="media-card__header">
+                {% if latestFinishedBook.img %}
+                  <img 
+                    src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ latestFinishedBook.img }}.jpg"
+                    alt="Cover for {{ latestFinishedBook.title }}"
+                    loading="lazy"
+                    class="media-card__poster media-card__poster-3-3"
+                  >
+                {% endif %}
+                <div>
+                  <h4 class="media-card__title">
+                    {% if latestFinishedBook.url %}
+                      <a href="{{ latestFinishedBook.url }}" target="_blank" rel="noopener">{{ latestFinishedBook.title }}</a>
+                    {% else %}
+                      {{ latestFinishedBook.title }}
+                    {% endif %}
+                  </h4>
 
-        <div class="watch-links">
-          <a href="/logs/reading/books/">Browse all books →</a>
+                  <div class="media-card__meta">
+                    {% if latestFinishedBook.author %}
+                      <span>{{ latestFinishedBook.author }}</span>
+                    {% endif %}
+                    {% if latestFinishedBook.yearRead %}
+                      <span>Finished in {{ latestFinishedBook.yearRead }}</span>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {% else %}
+              <p class="media-card__muted">No finished books logged yet.</p>
+            {% endif %}
+          </div>
+
+          <div class="media-card__links">
+            <a href="/logs/reading/books/">Browse all books →</a>
+          </div>
         </div>
       </section>
 
-      <section class="watch-card">
-        <h2><a href="/logs/reading/articles/">Articles</a></h2>
-        <p class="watch-muted">Saved reading from around the web, sorted by date.</p>
+      <section class="media-card">
+        <div class="media-card__body">
+          <h2 class="media-card__heading"><a href="/logs/reading/articles/">Articles</a></h2>
+          <p class="media-card__muted">Saved reading from around the web, bringing together articles and resources that have informed my thinking, sparked ideas, or been worth returning to later.</p>
 
-        <div class="watch-latest">
-          <h3 class="watch-title">Latest article</h3>
-          {% if latestFinishedArticle %}
-            <div class="">
+          <div class="media-card__latest">
+            <h3>Latest article</h3>
+            {% if latestFinishedArticle %}
               <div>
-                <h4 class="watch-title">
+                <h4 class="media-card__title">
                   {% if latestFinishedArticle.url %}
                     <a href="{{ latestFinishedArticle.url }}" target="_blank" rel="noopener">{{ latestFinishedArticle.title }}</a>
                   {% else %}
@@ -126,40 +122,24 @@ tags:
                   {% endif %}
                 </h4>
 
-                <div class="watch-meta">
-{#                   {% if latestFinishedArticle.yearRead %}
-                    <span>{{ latestFinishedArticle.yearRead }}</span>
-                  {% endif %} #}
+                <div class="media-card__meta">
                   {% if latestFinishedArticle.date %}
                     <span>Read on the {{ latestFinishedArticle.date | dateFilter }}</span>
                   {% endif %}
                 </div>
 
                 {% if latestFinishedArticle.content %}
-                  <p class="watch-muted u-mt-1">{{ latestFinishedArticle.content }}</p>
+                  <p class="media-card__muted u-mt-1">{{ latestFinishedArticle.content }}</p>
                 {% endif %}
               </div>
-            </div>
-          {% else %}
-            <p class="watch-muted">No articles logged yet.</p>
-          {% endif %}
-        </div>
+            {% else %}
+              <p class="media-card__muted">No articles logged yet.</p>
+            {% endif %}
+          </div>
 
-        <ul class="watch-list">
-          {% for article in reading.finishedArticles | slice(0, 8) %}
-            <li>
-              {% if article.url %}
-                <a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a>
-              {% else %}
-                {{ article.title }}
-              {% endif %}
-              {% if article.yearRead %}<span class="watch-muted">— {{ article.yearRead }}</span>{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-
-        <div class="watch-links">
-          <a href="/logs/reading/articles/">Browse all articles →</a>
+          <div class="media-card__links">
+            <a href="/logs/reading/articles/">Browse all articles →</a>
+          </div>
         </div>
       </section>
     </div>
@@ -175,14 +155,5 @@ tags:
       <strong>{{ reading.stats.currentlyReading }}</strong> book{% if reading.stats.currentlyReading != 1 %}s{% endif %}
       on the go.
     </p>
-
-  {% if reading.years and reading.years.length %}
-  <h3 class="heading">Years</h3>
-  <p>
-    {% for y in reading.years %}
-      <a href="/logs/reading/books/#year-{{ y }}">{{ y }}</a>{% if not loop.last %} · {% endif %}
-    {% endfor %}
-  </p>
-  {% endif %}
   </div>
 </div>

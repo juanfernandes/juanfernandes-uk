@@ -13,110 +13,109 @@ permalink: /logs/watching/
     {% set latestFilm = watch.movies[0] %}
     {% set latestEp = watch.tvEpisodes[0] %}
 
-    <div class="watch-grid">
-      <section class="watch-card">
-        <h2><a href="/logs/watching/films/">Films</a></h2>
-        <p class="watch-muted">Latest films and quick year browsing.</p>
+    <div class="media-grid media-grid--2-col">
+      <section class="media-card">
+        <div class="media-card__body">
+          <h2 class="media-card__heading"><a href="/logs/watching/films/">Films</a></h2>
+          <p class="media-card__muted">Latest films and quick year browsing.</p>
 
-        <div class="watch-latest">
-          <h3 class="watch-title">Latest film</h3>
-          {% if latestFilm %}
-            <div class="watch-row">
-              <div class="watch-poster">
-                {% if latestFilm.poster %}
-                  <img src="{{ latestFilm.poster }}" alt="Poster for {{ latestFilm.title }}" loading="lazy">
-                {% endif %}
-              </div>
-              <div>
-                <h4 class="watch-title">
-                  <a href="{{ latestFilm.tmdbUrl }}" target="_blank" rel="noopener">{{ latestFilm.title }}</a>
-                  {% if latestFilm.year %}<span class="watch-muted"> ({{ latestFilm.year }})</span>{% endif %}
-                </h4>
-                <div class="watch-meta">
-                  {% if latestFilm.watchedOn %}
-                  <span>Watched on: {{ latestFilm.watchedOn | dateFilter }}</span>
-                  {% endif %}
+          <div class="media-card__latest">
+            <h3>Latest film</h3>
+            {% if latestFilm %}
+              <div class="media-card__header">
+              {% if latestFilm.poster %}
+                <img
+                  src="{{ latestFilm.poster }}"
+                  alt="Poster for {{ latestFilm.title }}"
+                  loading="lazy"
+                  class="media-card__poster media-card__poster-3-3"
+                >
+              {% endif %}
+                <div>
+                  <h4 class="media-card__title">
+                    {% if latestFilm.tmdbUrl %}
+                      <a href="{{ latestFilm.tmdbUrl }}" target="_blank" rel="noopener">{{ latestFilm.title }}</a>
+                    {% if latestFilm.year %}<span class="media-card__muted"> ({{ latestFilm.year }})</span>{% endif %}
+                    {% else %}
+                      {{ latestFilm.title }}  {% if latestFilm.year %}<span class="media-card__muted"> ({{ latestFilm.year }})</span>{% endif %}
+                    {% endif %}
+                  </h4>
+                  <div class="media-card__meta">
+                    {% if latestFilm.watchedOn %}
+                    <span>Watched on: {{ latestFilm.watchedOn | dateFilter }}</span>
+                    {% endif %}
 
-                  {% if latestFilm.rating %}
-                  <span>Rated: ★ {{ latestFilm.rating }}/5</span>
-                  {% endif %}
+                    {% if latestFilm.rating %}
+                    <span>Rated: ★ {{ latestFilm.rating }}/5</span>
+                    {% endif %}
 
-                  {% if latestFilm.rewatch %}
-                  <span class="watch-badge">Rewatch</span>
-                  {% endif %}
+                    {% if latestFilm.rewatch %}
+                    <span class="tag">Rewatch</span>
+                    {% endif %}
+                  </div>
                 </div>
               </div>
-            </div>
-          {% else %}
-            <p class="watch-muted">No films logged yet.</p>
-          {% endif %}
-        </div>
+            {% else %}
+              <p class="media-card__muted">No films logged yet.</p>
+            {% endif %}
+          </div>
 
-        <ul class="watch-list">
-          {% for item in watch.movies | slice(0, 8) %}
-            <li>
-              <a href="{{ item.tmdbUrl }}" target="_blank" rel="noopener">{{ item.title }}</a>
-              <span class="watch-muted">— {{ item.watchedOn }}</span>
-              {% if item.rating %}<span class="watch-muted"> · ★ {{ item.rating }}/5</span>{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-
-        <div class="watch-links">
-          <a href="/logs/watching/films/">Browse all films →</a>
+          <div class="media-card__links">
+            <a href="/logs/watching/films/">Browse all films →</a>
+          </div>
         </div>
       </section>
-      <section class="watch-card">
-        <h2><a href="/logs/watching/tv/">TV</a></h2>
-        <p class="watch-muted">Episode-level log and show counts.</p>
 
-        <div class="watch-latest">
-          <h3 class="watch-title">Latest episode</h3>
-          {% if latestEp %}
-            <div class="watch-row">
-              {% if latestEp.poster %}
-              <div class="watch-poster">
-                  <img src="{{ latestEp.poster }}" alt="Poster for {{ latestEp.show }}" loading="lazy">
-              </div>
-              {% endif %}
-              <div>
-                <h4 class="watch-title">
-                  <a href="{{ latestEp.tmdbUrl }}" target="_blank" rel="noopener">{{ latestEp.show }}</a>
-                  {% if latestEp.year %}<span class="watch-muted"> ({{ latestEp.year }})</span>{% endif %}
-                </h4>
-                <div class="watch-meta">
-                  {% if latestEp.season %}
-                  <span>Season {{ latestEp.season }} Episode {{ latestEp.episode }}</span>
-                  {% endif %}
-                  {% if latestEp.watchedOn %}
-                  <span>Watched on: {{ latestEp.watchedOn | dateFilter }}</span>
-                  {% endif %}
-                  {% if latestEp.rating %}
-                  <span>★ {{ latestEp.rating }}/5</span>
-                  {% endif %}
-                  {% if latestEp.rewatch %}
-                  <span>Rewatch</span>
-                  {% endif %}
+      <section class="media-card">
+        <div class="media-card__body">
+          <h2 class="media-card__heading"><a href="/logs/watching/tv/">TV</a></h2>
+          <p class="media-card__muted">Episode-level log and show counts.</p>
+
+          <div class="media-card__latest">
+            <h3>Latest episode</h3>
+            {% if latestEp %}
+              <div class="media-card__header">
+                {% if latestEp.poster %}
+                <img
+                  src="{{ latestEp.poster }}"
+                  alt="Poster for {{ latestEp.show }}"
+                  loading="lazy"
+                  class="media-card__poster media-card__poster-3-3"
+                >
+                {% endif %}
+                <div>
+                  <h4 class="media-card__title">
+                    {% if latestEp.tmdbUrl %}
+                    <a href="{{ latestEp.tmdbUrl }}" target="_blank" rel="noopener">{{ latestEp.show }}</a>
+                    {% else %}
+                      {{ latestEp.show }}
+                    {% endif %}
+                    {% if latestEp.year %}<span class="watch-muted"> ({{ latestEp.year }})</span>{% endif %}
+                  </h4>
+                  <div class="media-card__meta">
+                    {% if latestEp.season %}
+                    <span>Season {{ latestEp.season }} Episode {{ latestEp.episode }}</span>
+                    {% endif %}
+                    {% if latestEp.watchedOn %}
+                    <span>Watched on: {{ latestEp.watchedOn | dateFilter }}</span>
+                    {% endif %}
+                    {% if latestEp.rating %}
+                    <span>★ {{ latestEp.rating }}/5</span>
+                    {% endif %}
+                    {% if latestEp.rewatch %}
+                    <span>Rewatch</span>
+                    {% endif %}
+                  </div>
                 </div>
               </div>
-            </div>
-          {% else %}
-            <p class="watch-muted">No TV episodes logged yet.</p>
-          {% endif %}
-        </div>
+            {% else %}
+              <p class="media-card__muted">No TV episodes logged yet.</p>
+            {% endif %}
+          </div>
 
-        <ul class="watch-list">
-          {% for ep in watch.tvEpisodes | slice(0, 8) %}
-            <li>
-              <a href="{{ ep.tmdbUrl }}" target="_blank" rel="noopener">{{ ep.show }}</a>
-              <span class="watch-muted">— S{{ ep.season }}E{{ ep.episode }} — {{ ep.watchedOn }}</span>
-              {% if ep.rating %}<span class="watch-muted"> · ★ {{ ep.rating }}/5</span>{% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-
-        <div class="watch-links">
-          <a href="/logs/watching/tv/">Browse all TV →</a>
+          <div class="media-card__links">
+            <a href="/logs/watching/tv/">Browse all TV →</a>
+          </div>
         </div>
       </section>
     </div>
