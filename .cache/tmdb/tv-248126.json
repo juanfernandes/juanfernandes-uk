@@ -1,0 +1,123 @@
+{
+  "adult": false,
+  "backdrop_path": "/b9dpWPRe334gViVcfwqKSL0ug5F.jpg",
+  "created_by": [],
+  "episode_run_time": [],
+  "first_air_date": "2024-03-20",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81562383",
+  "id": 248126,
+  "in_production": true,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2026-03-25",
+  "last_episode_to_air": {
+    "id": 6985096,
+    "name": "9/11/2001",
+    "overview": "The harrowing story of the 9/11 attacks, as told by NYPD first responders who rushed to Ground Zero and who still carry the weight of tragedy today.",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2026-03-25",
+    "episode_number": 5,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 65,
+    "season_number": 3,
+    "show_id": 248126,
+    "still_path": "/kzgfFbOYM8jcb0YcHZr8TtsYarR.jpg"
+  },
+  "name": "Homicide",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 15,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Homicide",
+  "overview": "Detectives and prosecutors revisit their most challenging homicide cases in this chilling true-crime docuseries.",
+  "popularity": 8.6878,
+  "poster_path": "/byh0uHyYoGjkPL9ULhLyAbnfTPX.jpg",
+  "production_companies": [
+    {
+      "id": 25545,
+      "logo_path": "/8Lqf0okunSPAwBBL08Ua1IRe1xi.png",
+      "name": "Wolf Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 146186,
+      "logo_path": "/6EnPCsWyaPdxu4jtHGhImQVV6GN.png",
+      "name": "Alfred Street Industries",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2024-03-20",
+      "episode_count": 5,
+      "id": 382154,
+      "name": "New York",
+      "overview": "Detectives, officers, and other members of the New York Police Department reveal just how ugly the city can be, sharing their recollections of some of their grisliest cases.",
+      "poster_path": "/byh0uHyYoGjkPL9ULhLyAbnfTPX.jpg",
+      "season_number": 1,
+      "vote_average": 7.6
+    },
+    {
+      "air_date": "2024-07-15",
+      "episode_count": 5,
+      "id": 398002,
+      "name": "Los Angeles",
+      "overview": "It may be known for sun, surf, sand, and star power, but Los Angeles County is also home to more than 9 million people — which means that the Los Angeles County Sheriff's Department is tasked with investigating a vast number of harrowing cases. Among these crimes are \"the most brutal and complicated murders.\"",
+      "poster_path": "/zjxXIy7NwTE5eIYrpYvercDGPsP.jpg",
+      "season_number": 2,
+      "vote_average": 7
+    },
+    {
+      "air_date": "2026-03-25",
+      "episode_count": 5,
+      "id": 502481,
+      "name": "New York: Season 2",
+      "overview": "",
+      "poster_path": "/4IAe7A73A4uoTqIofJGLUAjeiYa.jpg",
+      "season_number": 3,
+      "vote_average": 0
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Returning Series",
+  "tagline": "",
+  "type": "Documentary",
+  "vote_average": 7.08,
+  "vote_count": 25
+}

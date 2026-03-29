@@ -1,5 +1,17 @@
 [
   {
+    "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
+    "url": "https://blog.jim-nielsen.com/2025/href-value-possibilities/",
+    "content": "I’ve written previously about reloading a document using only HTML but that got me thinking: What are all the values you can put in an anchor tag’s href…",
+    "date": "2026-03-26T16:11:42.000Z"
+  },
+  {
+    "title": "Automatically wrapping CSS Grid",
+    "url": "https://gomakethings.com/automatically-wrapping-css-grid/",
+    "content": "Daily Tips Today, I wanted to share a fun little snippet of CSS I learned from my friend Stephanie Eckles awesome SmolCSS website. Let’s imagine you’ve got a…",
+    "date": "2026-03-26T16:07:22.000Z"
+  },
+  {
     "title": "Why frontends fail when you approach them like a backend / Marijke Luttekes",
     "url": "https://marijkeluttekes.dev/blog/articles/2026/03/16/why-frontends-fail-when-you-approach-them-like-a-backend/",
     "content": "I will never forget the look on a contractor's face when he stared at a technically correct, but aesthetically disappointing dormer at our house. \"Everyone can…",

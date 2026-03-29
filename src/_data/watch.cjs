@@ -54,12 +54,13 @@ function groupByYear(items) {
 }
 
 function groupTvByShowThenSeason(tvEpisodes) {
-  const out = {};
+  const grouped = {};
 
   for (const ep of tvEpisodes) {
     const key = String(ep.tmdbId);
 
-    out[key] ??= {
+    grouped[key] ??= {
+      tmdbId: ep.tmdbId,
       show: ep.show,
       tmdbUrl: ep.tmdbUrl,
       poster: ep.poster || "",
@@ -67,12 +68,12 @@ function groupTvByShowThenSeason(tvEpisodes) {
       seasons: {}
     };
 
-    (out[key].seasons[ep.season] ??= []).push(ep);
+    (grouped[key].seasons[ep.season] ??= []).push(ep);
   }
 
-  for (const showId of Object.keys(out)) {
-    for (const seasonNum of Object.keys(out[showId].seasons)) {
-      out[showId].seasons[seasonNum].sort((a, b) => {
+  for (const showId of Object.keys(grouped)) {
+    for (const seasonNum of Object.keys(grouped[showId].seasons)) {
+      grouped[showId].seasons[seasonNum].sort((a, b) => {
         if ((a.watchedOn || "") > (b.watchedOn || "")) return -1;
         if ((a.watchedOn || "") < (b.watchedOn || "")) return 1;
         return (a.episode || 0) - (b.episode || 0);
@@ -80,7 +81,16 @@ function groupTvByShowThenSeason(tvEpisodes) {
     }
   }
 
-  return out;
+  return Object.values(grouped).sort((a, b) => {
+    const aLatest = Math.max(
+      ...Object.values(a.seasons).flat().map((ep) => Date.parse(ep.watchedOn || "") || 0)
+    );
+    const bLatest = Math.max(
+      ...Object.values(b.seasons).flat().map((ep) => Date.parse(ep.watchedOn || "") || 0)
+    );
+
+    return bLatest - aLatest;
+  });
 }
 
 function buildTvStatsByYear(tvByYear) {
