@@ -86,6 +86,7 @@ module.exports = async function () {
         artist: t?.artist?.["#text"] || null,
         album: t?.album?.["#text"] || null,
         url: t?.url || null,
+        image: pickLastFmImage(t?.image),
         uts: t?.date?.uts ? Number(t.date.uts) : null,
         isNowPlaying: String(t?.["@attr"]?.nowplaying || "").toLowerCase() === "true"
       }))
@@ -113,6 +114,7 @@ module.exports = async function () {
         genres: []
       },
       weekTopArtists: [],
+      weekTopArtistsTop10: [],
       weekTopAlbums: [],
       weekTopTracks: [],
       weekTopAlbumsTop10: [],
@@ -129,6 +131,7 @@ module.exports = async function () {
       artist: t?.artist?.["#text"] || null,
       album: t?.album?.["#text"] || null,
       url: t?.url || null,
+      image: pickLastFmImage(t?.image),
       uts: Number(t?.date?.uts)
     }))
     .filter((t) => t.artist && t.name)
@@ -172,6 +175,30 @@ module.exports = async function () {
     const [artist, name] = key.split("|||");
     return { artist, name, plays };
   });
+
+  const topTrack = weekTopTracks[0] || null;
+  let weekTopTrackWithImage = null;
+
+  if (topTrack) {
+    const trackInfoUrl = lastfmUrl("track.getInfo", {
+      artist: topTrack.artist,
+      track: topTrack.name,
+      autocorrect: 1
+    });
+
+    const trackInfo = await fetchJsonCached(trackInfoUrl, {
+      duration: "7d",
+      fallback: { track: null }
+    });
+
+    const albumImage = pickLastFmImage(trackInfo?.track?.album?.image);
+
+    weekTopTrackWithImage = {
+      ...topTrack,
+      url: trackInfo?.track?.url || null,
+      image: albumImage
+    };
+  }
 
   const topArtistsForTags = weekTopArtists.slice(0, 5).map((a) => a.name);
 
@@ -221,8 +248,33 @@ module.exports = async function () {
     })
   );
 
+  const top10ArtistsBase = weekTopArtists.slice(0, 10);
+
+  const weekTopArtistsTop10 = await Promise.all(
+    top10ArtistsBase.map(async (artist) => {
+      const infoUrl = lastfmUrl("artist.getInfo", {
+        artist: artist.name,
+        autocorrect: 1
+      });
+
+      const info = await fetchJsonCached(infoUrl, {
+        duration: "7d",
+        fallback: { artist: null }
+      });
+
+      const artistInfo = info?.artist;
+
+      return {
+        ...artist,
+        url: artistInfo?.url || null,
+        image: pickLastFmImage(artistInfo?.image)
+      };
+    })
+  );
+
   return {
     latestTrack,
+    weekTopTrackWithImage,
     weekSummary: {
       artists: uniqueArtists.size,
       albums: uniqueAlbums.size,
@@ -230,6 +282,7 @@ module.exports = async function () {
       genres: topGenres
     },
     weekTopArtists,
+    weekTopArtistsTop10,
     weekTopAlbums,
     weekTopTracks,
     weekTopAlbumsTop10,

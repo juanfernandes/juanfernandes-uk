@@ -130,6 +130,7 @@ module.exports = async function () {
   }
 
   const watchlog = require("./watchlog.json").entries || [];
+
   const moviesRaw = watchlog.filter(
     (x) => x.type === "movie" || x.displayAs === "movie"
   );
@@ -138,8 +139,24 @@ module.exports = async function () {
     (x) => x.type === "tv" && x.displayAs !== "movie"
   );
 
-  const uniqueMovieIds = [...new Set(moviesRaw.map((x) => x.tmdbId).filter(Boolean))];
-  const uniqueTvIds = [...new Set(tvRaw.map((x) => x.tmdbId).filter(Boolean))];
+  // Fetch metadata based on the true TMDb type, not where it is displayed
+  const uniqueMovieIds = [
+    ...new Set(
+      watchlog
+        .filter((x) => x.type === "movie")
+        .map((x) => x.tmdbId)
+        .filter(Boolean)
+    )
+  ];
+
+  const uniqueTvIds = [
+    ...new Set(
+      watchlog
+        .filter((x) => x.type === "tv")
+        .map((x) => x.tmdbId)
+        .filter(Boolean)
+    )
+  ];
 
   const [movieMetaPairs, tvMetaPairs] = await Promise.all([
     Promise.all(uniqueMovieIds.map(async (id) => [id, await tmdbGet("movie", id, apiKey)])),
@@ -151,15 +168,22 @@ module.exports = async function () {
 
   const movies = moviesRaw
     .map((x) => {
-      const m = movieMeta[x.tmdbId] || {};
+      const meta = x.type === "tv" ? (tvMeta[x.tmdbId] || {}) : (movieMeta[x.tmdbId] || {});
+      const isTvSource = x.type === "tv";
+
       return {
         ...x,
-        title: x.title || m.title || m.name || "",
-        year: x.year || (m.release_date ? Number(String(m.release_date).slice(0, 4)) : null),
+        title: x.title || meta.title || meta.name || x.show || "",
+        show: x.show || meta.name || "",
+        year: x.year || (
+          isTvSource
+            ? (meta.first_air_date ? Number(String(meta.first_air_date).slice(0, 4)) : null)
+            : (meta.release_date ? Number(String(meta.release_date).slice(0, 4)) : null)
+        ),
         poster:
           x.poster ||
-          (m.poster_path ? `https://image.tmdb.org/t/p/w342${m.poster_path}` : ""),
-        tmdbUrl: x.tmdbUrl || `https://www.themoviedb.org/movie/${x.tmdbId}`
+          (meta.poster_path ? `https://image.tmdb.org/t/p/w342${meta.poster_path}` : ""),
+        tmdbUrl: x.tmdbUrl || `https://www.themoviedb.org/${isTvSource ? "tv" : "movie"}/${x.tmdbId}`
       };
     })
     .sort(sortByWatchedDesc);

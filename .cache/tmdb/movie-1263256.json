@@ -1,6 +1,6 @@
 {
   "adult": false,
-  "backdrop_path": "/stCEYCxA3SknIIne1H4LmaIJ8ii.jpg",
+  "backdrop_path": "/m7vBHmPQSokvN4hMQDxdJBdqAtJ.jpg",
   "belongs_to_collection": {
     "id": 1263259,
     "name": "Happy Gilmore Collection",
@@ -23,7 +23,7 @@
   "original_language": "en",
   "original_title": "Happy Gilmore 2",
   "overview": "Happy Gilmore isn't done with golf — not by a long shot. Since his retirement after his first Tour Championship win, Gilmore returns to finance his daughter's ballet classes.",
-  "popularity": 5.9141,
+  "popularity": 5.5437,
   "poster_path": "/nRwDPfYUzzzUQarfMxvPlasxzpL.jpg",
   "production_companies": [
     {
@@ -54,5 +54,5 @@
   "title": "Happy Gilmore 2",
   "video": false,
   "vote_average": 6.561,
-  "vote_count": 899
+  "vote_count": 908
 }

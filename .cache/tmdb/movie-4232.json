@@ -1,6 +1,6 @@
 {
   "adult": false,
-  "backdrop_path": "/4w6nQYAY0eb7B0VVRDXilXcgAUV.jpg",
+  "backdrop_path": "/vh7np635kDIcfO6x2Y9ElgLJsuI.jpg",
   "belongs_to_collection": {
     "id": 2602,
     "name": "Scream Collection",
@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "Scream",
   "overview": "A year after the murder of her mother, a teenage girl is terrorized by a masked killer who targets her and her friends by using scary movies as part of a deadly game.",
-  "popularity": 20.5491,
+  "popularity": 23.7602,
   "poster_path": "/lr9ZIrmuwVmZhpZuTCW8D9g0ZJe.jpg",
   "production_companies": [
     {
@@ -67,6 +67,6 @@
   "tagline": "Someone has taken their love of scary movies one step too far. Solving this mystery is going to be murder.",
   "title": "Scream",
   "video": false,
-  "vote_average": 7.426,
-  "vote_count": 7771
+  "vote_average": 7.429,
+  "vote_count": 7792
 }

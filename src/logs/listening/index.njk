@@ -7,97 +7,171 @@ permalink: /logs/listening/
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
+{% set latestTrack = lastfmRecent.latestTrack or null %}
 
 <div class="grid grid-9-3 gap-2">
   <div>
     <p class="lead">A snapshot of the music I’ve been listening to recently. Pulled from my listening history, it highlights the artists, albums, and tracks that have been in regular rotation.</p>
-    
+
     {% if lastfmRecent.error %}
-    <p><strong>{{ lastfmRecent.error }}</strong></p>
+      <p><strong>{{ lastfmRecent.error }}</strong></p>
     {% else %}
 
-    {% if lastfmRecent.nowPlaying %}
-    <section>
-      <h2>Now playing</h2>
-      <p>
-        <a href="{{ lastfmRecent.nowPlaying.url }}">{{ lastfmRecent.nowPlaying.name }}</a>
-        — {{ lastfmRecent.nowPlaying.artist["#text"] }}
-      </p>
-    </section>
-    {% endif %}
-
-    <div class="grid-6-6">
-      <section>
-        <h2>Top 10 Tracks</h2>
-        <ol class="music-list">
-          {% for t in lastfmRecent.weekTopTracks | head(10) %}
-          <li class="list-item">
-            <span class="list-item-name">{{ t.name }} - {{ t.artist }}</span>
-            <span class="tag">{{ t.plays }} plays</span>
-          </li>
-          {% endfor %}
-        </ol>
-        <span><a href="/logs/listening/tracks/">View all tracks</a> →</span>
-      </section>
-
-      <section>
-        <h2>Top 10 Artists</h2>
-        <ol class="music-list">
-          {% for a in lastfmRecent.weekTopArtists | head(10) %}
-          <li class="list-item">
-            <span class="list-item-name">{{ a.name }}</span>
-            <span class="tag">{{ a.plays }} plays</span>
-          </li>
-          {% endfor %}
-        </ol>
-
-        <span><a href="/logs/listening/artists/">View all artists</a>→</span>
-      </section>
-    </div>
-    <section>
-      <h2>Top 10 Albums</h2>
       <div class="media-grid">
-        {% for a in lastfmRecent.weekTopAlbumsTop10 %}
-        <article class="media-card">
-          {% if a.image %}
-            <img class="media-card__poster media-card__poster-1-1" src="{{ a.image }}" alt="{{ a.album }} by {{ a.artist }}" loading="lazy">
-          {% else %}
-            <div class="media-card__placeholder">♪</div>
-          {% endif %}
-
+        <section class="media-card">
           <div class="media-card__body">
-            <h3 class="media-card__title">
-              {% if a.url %}
-                <a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.album }}</a>
-              {% else %}
-                {{ a.album }}
-              {% endif %}
-            </h3>
+            <h2 class="media-card__heading"><a href="/logs/listening/tracks/">Tracks</a></h2>
+            <p class="media-card__muted">Latest listening and the tracks I’ve had on repeat this week.</p>
 
-            <div class="media-card__meta">
-              <span>{{ a.artist }}</span>
-              <span class="tag">{{ a.plays }} plays</span>
+            <div class="media-card__latest">
+              <h3>Latest track</h3>
+              {% if lastfmRecent.latestTrack %}
+                <div class="media-card__header">
+                {% if lastfmRecent.latestTrack.image %}
+                  <img
+                    src="{{ lastfmRecent.latestTrack.image }}"
+                    alt="{{ lastfmRecent.latestTrack.album }}"
+                    loading="lazy"
+                    class="media-card__poster media-card__poster-1-1"
+                  >
+                {% endif %}
+                  <div>
+                    <h4 class="media-card__title">
+                      {% if lastfmRecent.latestTrack.url %}
+                      <a href="{{ lastfmRecent.latestTrack.url }}" target="_blank" rel="noopener">
+                        {{ lastfmRecent.latestTrack.name }}
+                      </a>
+                      {% else %}
+                        {{ lastfmRecent.latestTrack.name }}
+                      {% endif %}
+                    </h4>
+
+                    <div class="media-card__meta">
+                      <span>{{ lastfmRecent.latestTrack.artist }}</span>
+
+                      {% if lastfmRecent.latestTrack.album %}
+                        <span>{{ lastfmRecent.latestTrack.album }}</span>
+                      {% endif %}
+
+                      {% if lastfmRecent.latestTrack.isNowPlaying %}
+                        <span class="tag">Now playing</span>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% else %}
+              <p class="media-card__muted">No recent tracks available.</p>
+            {% endif %}
+
+            <div class="media-card__links">
+              <a href="/logs/listening/tracks/">Browse all tracks →</a>
             </div>
           </div>
-        </article>
-        {% endfor %}
-      </div>
+        </section>
+        <section class="media-card">
+          <div class="media-card__body">
+            <h2 class="media-card__heading"><a href="/logs/listening/albums/">Albums</a></h2>
+            <p class="media-card__muted">The album that’s had the heaviest rotation this week.</p>
 
-      <span><a href="/logs/listening/albums/">View all albums</a> →</span>
-    </section>
+            {% set topAlbum = lastfmRecent.weekTopAlbumsTop10[0] %}
+
+            <div class="media-card__latest">
+              <h3>Top album this week</h3>
+              {% if topAlbum %}
+              <div class="media-card__header">
+                {% if topAlbum.image %}
+                <img
+                  src="{{ topAlbum.image }}"
+                  alt="{{ topAlbum.album }} by {{ topAlbum.artist }}"
+                  loading="lazy"
+                  class="media-card__poster media-card__poster-1-1"
+                >
+                {% endif %}
+                <div>
+                  <h4 class="media-card__title">
+                    {% if topAlbum.url %}
+                      <a href="{{ topAlbum.url }}" target="_blank" rel="noopener">
+                        {{ topAlbum.album }}
+                      </a>
+                    {% else %}
+                      {{ topAlbum.album }}
+                    {% endif %}
+                  </h4>
+
+                  <div class="media-card__meta">
+                    <span>{{ topAlbum.artist }}</span>
+                    <span>{{ topAlbum.plays }} plays this week</span>
+                  </div>
+                </div>
+              </div>
+              {% else %}
+              <p class="media-card__muted">No album data available this week.</p>
+              {% endif %}
+
+            <div class="media-card__links">
+              <a href="/logs/listening/albums/">Browse all albums →</a>
+            </div>
+          </div>
+        </section>
+        <section class="media-card">
+          <div class="media-card__body">
+            <h2 class="media-card__heading"><a href="/logs/listening/artists/">Artists</a></h2>
+            <p class="media-card__muted">The artists I’ve been returning to most over the last week.</p>
+
+            <div class="media-card__latest">
+              <h3>Top artist this week</h3>
+              {% set topArtist = lastfmRecent.weekTopArtistsTop10[0] %}
+              {% if topArtist %}
+                <div class="media-card__header">
+                  {% if topArtist.image %}
+                  <img
+                    src="{{ topArtist.image }}"
+                    alt="{{ topArtist.name }}"
+                    loading="lazy"
+                    class="media-card__poster media-card__poster-1-1"
+                  >
+                  {% endif %}
+                  <div>
+                    <h4 class="media-card__title">
+                      {% if topArtist.url %}
+                        <a href="{{ topArtist.url }}" target="_blank" rel="noopener">{{ topArtist.name }}</a>
+                      {% else %}
+                        {{ topArtist.name }}
+                      {% endif %}
+                    </h4>
+
+                    <div class="media-card__meta">
+                      <span>{{ topArtist.plays }} plays this week</span>
+                    </div>
+                  </div>
+                </div>
+              {% else %}
+                <p class="media-card__muted">No top artist available this week.</p>
+              {% endif %}
+            </div>
+
+            <div class="media-card__links">
+              <a href="/logs/listening/artists/">Browse all artists →</a>
+            </div>
+          </div>
+        </section>
+      </div>
     {% endif %}
   </div>
+
   <div class="sidebar meta">
     {% if lastfmRecent.weekSummary %}
-    <h3 class="heading">This week</h3>
-    <p>
-      I’ve listened to 
-      <strong>{{ lastfmRecent.weekSummary.artists }}</strong> artists, 
-      <strong>{{ lastfmRecent.weekSummary.albums }}</strong> albums and 
-      <strong>{{ lastfmRecent.weekSummary.tracks }}</strong> tracks this week.
-      Most of that has been 
-      {{ lastfmRecent.weekSummary.genres | join(", ") }}.
-    </p>
+      <h3 class="heading">This week</h3>
+      <p>
+        I’ve listened to
+        <strong>{{ lastfmRecent.weekSummary.artists }}</strong> artists,
+        <strong>{{ lastfmRecent.weekSummary.albums }}</strong> albums and
+        <strong>{{ lastfmRecent.weekSummary.tracks }}</strong> tracks this week.
+        {% if lastfmRecent.weekSummary.genres and lastfmRecent.weekSummary.genres.length %}
+          Most of that has been {{ lastfmRecent.weekSummary.genres | join(", ") }}.
+        {% endif %}
+      </p>
     {% endif %}
 
     <h3 class="heading">All-time</h3>
