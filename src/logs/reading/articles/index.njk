@@ -39,10 +39,38 @@ tags:
     {% include 'components/pagination.njk' %}
   </div>
   <div class="sidebar meta">
-    {% include 'components/bio.njk' %}
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-book" /></svg>
+      <span>Reading</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+        <li><a href="/logs/reading/books/">Books</a></li>
+        <li><a href="/logs/reading/articles/">Articles</a></li>
+      </ul>
+    </nav>
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      
+      <p>I’ve read a total of <strong>{{ reading.stats.finishedArticles }}</strong> articles.</p>
 
-    <hr>
+      <hr>
+      
+      <a href="/blogroll/">Authors I follow</a>
 
-    <a href="/blogroll/">Authors I follow</a>
+      {% if rssUrl %}
+      <div class="u-mt-2">
+        <a href="{{ rssUrl }}" class="u-border-none u-flex--inline u-vert-center">
+          <svg class="u-mr-1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#f89820" viewBox="0 0 16 16">
+            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+          </svg>
+          <span>{{ rssUrlTitle }}</span>
+        </a>
+      </div>
+      {% endif %}
+    </div>
   </div>
 </div>

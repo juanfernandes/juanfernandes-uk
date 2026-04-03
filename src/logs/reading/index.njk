@@ -146,14 +146,10 @@ tags:
   </div>
 
   <div class="sidebar meta">
-    <h3 class="heading">All-time</h3>
-    <p>
-      I’ve logged a total of
-      <strong>{{ reading.stats.finishedBooks }}</strong> books,
-      <strong>{{ reading.stats.finishedArticles }}</strong> articles,
-      and I currently have
-      <strong>{{ reading.stats.currentlyReading }}</strong> book{% if reading.stats.currentlyReading != 1 %}s{% endif %}
-      on the go.
-    </p>
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+    <p>I’ve logged a total of <strong>{{ reading.stats.finishedBooks }}</strong> books, <strong>{{ reading.stats.finishedArticles }}</strong> articles, and I currently have<strong>{{ reading.stats.currentlyReading }}</strong> book {% if reading.stats.currentlyReading != 1 %}s{% endif %} on the go.</p>
   </div>
 </div>

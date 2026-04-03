@@ -14,10 +14,9 @@ permalink: "/logs/listening/artists/{% if pagination.pageNumber > 0 %}page/{{ pa
 <div class="grid grid-9-3 gap-2">
   <div>
     <h2>All Artists (this week)</h2>
-
     <nav>
       <div class="nav--inline">
-        <span>← <a href="/listening/">Back to music</a></span>
+        <span>← <a href="/logs/listening/">Back to listening</a></span>
       </div>
     </nav>
 
@@ -26,20 +25,32 @@ permalink: "/logs/listening/artists/{% if pagination.pageNumber > 0 %}page/{{ pa
         <li class="list-item">{{ a.name }} · <span class="tag">{{ a.plays }} plays</span></li>
       {% endfor %}
     </ol>
+    
     {% include 'components/pagination.njk' %}
   </div>
   
   <div class="sidebar meta">
-    {% if lastfmRecent.weekSummary %}
-    <h3 class="heading">This week</h3>
-    <p>
-      I’ve listened to 
-      <strong>{{ lastfmRecent.weekSummary.artists }}</strong> artists this week.
-    </p>
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-music" /></svg>
+      <span>Listening</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+        <li><a href="/logs/listening/albums/">Albums</a></li>
+        <li><a href="/logs/listening/tracks/">Tracks</a></li>
+        <li><a href="/logs/listening/artists/">Artists</a></li>
+      </ul>
+    </nav>
+
+    {% if lastfmRecent.weekSummary or musicAllTimeStats.artists %}
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>This week I’ve listened to <strong>{{ lastfmRecent.weekSummary.artists }}</strong> artists.</p>
+      <p>I've listened to a total of <strong>{{ musicAllTimeStats.artists }}</strong> artists</p>
+    </div>
     {% endif %}
-    <h3 class="heading">All-time</h3>
-    <ul class="list-style-none">
-      <li><strong>{{ musicAllTimeStats.artists }}</strong> artists</li>
-    </ul>
   </div>
 </div>

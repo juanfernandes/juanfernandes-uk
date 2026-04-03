@@ -12,7 +12,7 @@ permalink: /logs/concerts/
 
     {% set latestGig = concerts.entries[0] %}
 
-    <div class="media-grid">
+    <div class="media-grid media-grid--2-col">
       <section class="media-card">
         <div class="media-card__body">
           <h2 class="media-card__heading">Most recent</h2>
@@ -53,10 +53,12 @@ permalink: /logs/concerts/
           <h2 class="media-card__heading">Browse by year</h2>
           <p class="media-card__muted">Jump to a year archive.</p>
 
-          <div class="media-card__list">
-            {% set years = concerts.years %}
-            {% set base = "/logs/concerts" %}
-            {% include "components/year-nav.njk" %}
+          <div class="media-card__latest">
+            <div class="media-card__list">
+              {% set years = concerts.years %}
+              {% set base = "/logs/concerts" %}
+              {% include "components/year-nav.njk" %}
+            </div>
           </div>
         </div>
       </section>
@@ -78,7 +80,10 @@ permalink: /logs/concerts/
     </ul>
   </div>
   <div class="sidebar meta">
-    <h3 class="heading">All-time</h3>
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+      <span>Stats</span>
+    </h3>
     <p>I've been to a total of <strong>{{ concerts.stats.totalConcerts }}</strong> concerts, to see <strong>{{ concerts.stats.totalArtists }}</strong> artists at <strong>{{ concerts.stats.totalVenues }}</strong> different venues.
     </p>
   </div>
