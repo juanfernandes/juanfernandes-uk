@@ -162,9 +162,11 @@ permalink: /logs/listening/
 
   <div class="sidebar meta">
     {% if lastfmRecent.weekSummary %}
-      <h3 class="heading">This week</h3>
-      <p>
-        I’ve listened to
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>This week I’ve listened to
         <strong>{{ lastfmRecent.weekSummary.artists }}</strong> artists,
         <strong>{{ lastfmRecent.weekSummary.albums }}</strong> albums and
         <strong>{{ lastfmRecent.weekSummary.tracks }}</strong> tracks this week.
@@ -173,12 +175,5 @@ permalink: /logs/listening/
         {% endif %}
       </p>
     {% endif %}
-
-    <h3 class="heading">All-time</h3>
-    <ul class="list-style-none">
-      <li><strong>{{ musicAllTimeStats.artists }}</strong> artists</li>
-      <li><strong>{{ musicAllTimeStats.albums }}</strong> albums</li>
-      <li><strong>{{ musicAllTimeStats.tracks }}</strong> tracks</li>
-    </ul>
   </div>
 </div>

@@ -90,9 +90,25 @@ permalink: /logs/watching/tv/
 
     {% include "components/tmdb-attribution.njk" %}
   </div>
-
+      
   <div class="sidebar meta">
-    <h3 class="heading">All-time</h3>
-    <p>I’ve watched a total of <strong>{{ watch.stats.totalEpisodes }}</strong> episodes and <strong>{{ watch.stats.totalShows }}</strong> shows.</p>
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-tv" /></svg> 
+      <span>Watching</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+        <li><a href="/logs/watching/films/">Films</a></li>
+        <li><a href="/logs/watching/tv/" class="active">Television</a></li>
+      </ul>
+    </nav>
+
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>I’ve watched a total of <strong>{{ watch.stats.totalEpisodes }}</strong> episodes and <strong>{{ watch.stats.totalShows }}</strong> shows.</p>
+    </div>
   </div>
 </div>

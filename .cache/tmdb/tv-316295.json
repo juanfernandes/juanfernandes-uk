@@ -1,0 +1,115 @@
+{
+  "adult": false,
+  "backdrop_path": "/eMoQ0fBysYIWx4HROKowEDk4iZ4.jpg",
+  "created_by": [],
+  "episode_run_time": [],
+  "first_air_date": "2026-03-27",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/82090519",
+  "id": 316295,
+  "in_production": false,
+  "languages": [
+    "es",
+    "en"
+  ],
+  "last_air_date": "2026-03-27",
+  "last_episode_to_air": {
+    "id": 7048788,
+    "name": "Episode 3",
+    "overview": "After years building her case, gathering statements and facing multiple disappointments, Gabrielle reaches Manuel's trial worn down but unwavering.",
+    "vote_average": 5,
+    "vote_count": 2,
+    "air_date": "2026-03-27",
+    "episode_number": 3,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 49,
+    "season_number": 1,
+    "show_id": 316295,
+    "still_path": "/hHzfx5mu4ZHChimSuixXpOnBPFH.jpg"
+  },
+  "name": "The Predator of Seville",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 3,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "ES",
+    "US"
+  ],
+  "original_language": "es",
+  "original_name": "El depredador de Sevilla",
+  "overview": "For years, Manuel Blanco was known among international students as “Manu White”, a friendly guide who organised cheap trips across Spain. But behind that image lay a far darker story. The case came to light when several young women began to connect experiences of abuse that had previously seemed unrelated.",
+  "popularity": 8.0545,
+  "poster_path": "/rKc3uZ2myruS1U6dU2Xj6vHrTuP.jpg",
+  "production_companies": [
+    {
+      "id": 115132,
+      "logo_path": null,
+      "name": "Newtral Media Audiovisual",
+      "origin_country": ""
+    },
+    {
+      "id": 29566,
+      "logo_path": "/wHbtRtUnXGNzX0riQIpq1fcgueq.png",
+      "name": "Atresmedia",
+      "origin_country": "ES"
+    }
+  ],
+  "production_countries": [],
+  "seasons": [
+    {
+      "air_date": null,
+      "episode_count": 3,
+      "id": 504548,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": "/hyNBeuFoEFZUjV09k0CGYhgFVxj.jpg",
+      "season_number": 0,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2026-03-27",
+      "episode_count": 3,
+      "id": 505581,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/nfBDRi2kPESUpjM4aRI3LUI8ihx.jpg",
+      "season_number": 1,
+      "vote_average": 5.6
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "Spanish",
+      "iso_639_1": "es",
+      "name": "Español"
+    },
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Documentary",
+  "vote_average": 0,
+  "vote_count": 0
+}

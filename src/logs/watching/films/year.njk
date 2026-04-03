@@ -6,30 +6,48 @@ pagination:
   alias: year
 permalink: "/logs/watching/films/{{ year }}/"
 eleventyComputed:
-  title: "Films — {{ year }}"
+  title: "Films watched in {{ year }}"
 ---
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
-<h2>Films watched in {{ year }}</h2>
+<div class="grid grid-9-3 gap-2">
+  <div>
+    {% if watch.movieYears and watch.movieYears.length %}
+    <div class="media-years">
+      <span>Years:</span>
+      {% for y in watch.movieYears %}
+        <a href="/logs/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
 
-<p>A year-by-year view of the films I watched in {{ year }}.</p>
+    <div class="media-grid">
+      {% for item in (watch.moviesByYear[year] or []) %}
+        {% include "partials/media-card.njk" %}
+      {% endfor %}
+    </div>
 
-<p class="dash-kpis">This year I've watched <strong>{{ (watch.movieStatsByYear[year] and watch.movieStatsByYear[year].films) or 0 }}</strong> films.</p>
+    {% include "components/tmdb-attribution.njk" %}
+  </div>
+  <div class="sidebar meta">
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-tv" /></svg> 
+      <span>Watching</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+        <li><a href="/logs/watching/films/">Films</a></li>
+        <li><a href="/logs/watching/tv/">Television</a></li>
+      </ul>
+    </nav>
 
-{% if watch.movieYears and watch.movieYears.length %}
-<div class="media-years">
-  <span>Years:</span>
-  {% for y in watch.movieYears %}
-    <a href="/logs/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
-  {% endfor %}
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>This year I've watched <strong>{{ (watch.movieStatsByYear[year] and watch.movieStatsByYear[year].films) or 0 }}</strong> films.</p>
+    </div>
+  </div>
 </div>
-{% endif %}
-
-<div class="media-grid">
-  {% for item in (watch.moviesByYear[year] or []) %}
-    {% include "partials/media-card.njk" %}
-  {% endfor %}
-</div>
-
-{% include "components/tmdb-attribution.njk" %}

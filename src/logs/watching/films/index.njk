@@ -6,26 +6,46 @@ permalink: /logs/watching/films/
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
-<p class="lead">A film-first view of what I’ve been watching, with entries grouped by year.</p>
+<div class="grid grid-9-3 gap-2">
+  <div>
+    <p class="lead">A film-first view of what I’ve been watching, with entries grouped by year.</p>
 
-<p class="dash-kpis">
-  <span>I've watched a total of <strong>{{ watch.stats.totalMovies }}</strong> films</span>
-</p>
+    {% if watch.movieYears and watch.movieYears.length %}
+    <div class="media-years">
+      <span>Years:</span>
+      {% for y in watch.movieYears %}
+        <a href="/logs/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
 
-{% if watch.movieYears and watch.movieYears.length %}
-<div class="media-years">
-  <span>Years:</span>
-  {% for y in watch.movieYears %}
-    <a href="/logs/watching/films/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
-  {% endfor %}
+    <div class="media-grid">
+      {% for film in watch.movies %}
+        {% set item = film %}
+        {% include "partials/media-card.njk" %}
+      {% endfor %}
+    </div>
+
+    {% include "components/tmdb-attribution.njk" %}
+  </div>
+  <div class="sidebar meta">
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-tv" /></svg> 
+      <span>Watching</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+        <li><a href="/logs/watching/films/">Films</a></li>
+        <li><a href="/logs/watching/tv/">Television</a></li>
+      </ul>
+    </nav>
+
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>I've watched a total of <strong>{{ watch.stats.totalMovies }}</strong> films</p>
+    </div>
+  </div>
 </div>
-{% endif %}
-
-<div class="media-grid">
-  {% for film in watch.movies %}
-    {% set item = film %}
-    {% include "partials/media-card.njk" %}
-  {% endfor %}
-</div>
-
-{% include "components/tmdb-attribution.njk" %}

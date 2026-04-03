@@ -55,6 +55,10 @@ module.exports = async function () {
   const byYear = groupByYear(entries, "date");
   const years = Object.keys(byYear).sort().reverse();
 
+  const totalsByYear = Object.fromEntries(
+    Object.entries(byYear).map(([year, gigs]) => [year, gigs.length])
+  );
+
   // Facets
   const byArtist = groupByArtist(entries);
   const artists = Object.keys(byArtist).sort((a, b) => a.localeCompare(b));
@@ -73,6 +77,7 @@ module.exports = async function () {
     entries,
     byYear,
     years,
+    totalsByYear,
     byArtist,
     artists,
     byVenue,

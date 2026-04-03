@@ -11,6 +11,8 @@ eleventyComputed:
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
+{% set grouped = watch.tvGroupedByYear[year] or [] %}
+
 <div class="grid grid-9-3 gap-2">
   <div>
     <h2><strong>{{ (watch.tvByYear[year] or []) | length }}</strong> episodes watched in {{ year }}</h2>
@@ -18,20 +20,16 @@ eleventyComputed:
     <p>A show-first view of the TV episodes I logged in {{ year }}.</p>
 
     {% if watch.tvYears and watch.tvYears.length %}
-    <div class="media-years">
-      <span>Years:</span>
-      {% for y in watch.tvYears %}
-        {% if watch.tvByYear[y] %}
+      <div class="media-years">
+        <span>Years:</span>
+        {% for y in watch.tvYears %}
           <a href="/logs/watching/tv/{{ y }}/">{{ y }}</a>{% if not loop.last %} · {% endif %}
-        {% endif %}
-      {% endfor %}
-    </div>
+        {% endfor %}
+      </div>
     {% endif %}
 
-    {% set grouped = watch.tvGroupedByYear[year] or {} %}
-
     <div class="media-grid media-grid--2-col">
-      {% for showId, bucket in grouped %}
+      {% for bucket in grouped %}
         {% set latestSeason = 0 %}
         {% set latestEpisode = 0 %}
         {% set latestDate = "" %}
@@ -50,15 +48,75 @@ eleventyComputed:
           {% endfor %}
         {% endfor %}
 
-        {% include "partials/media-card-details.njk" %}
-        
+        <details class="media-card">
+          <summary class="media-card__header">
+            {% if bucket.poster %}
+              <div class="media-card__poster">
+                <img src="{{ bucket.poster }}" alt="Poster for {{ bucket.show }}" loading="lazy">
+              </div>
+            {% endif %}
+
+            <div class="media-card__body">
+              <h3 class="media-card__title">
+                {% if bucket.tmdbUrl %}
+                  <a href="{{ bucket.tmdbUrl }}" target="_blank" rel="noopener">{{ bucket.show }}</a>
+                {% else %}
+                  {{ bucket.show }}
+                {% endif %}
+                {% if bucket.year %} ({{ bucket.year }}){% endif %}
+              </h3>
+
+              <div class="media-card__meta">
+                <span><strong>{{ seasonCount }}</strong> seasons · <strong>{{ episodeCount }}</strong> episodes watched</span>
+                {% if latestDate %}
+                  <span>Latest watched: Season {{ latestSeason }} Episode {{ latestEpisode }}</span>
+                  <span>Watched on: {{ latestDate | dateFilter }}</span>
+                {% endif %}
+              </div>
+            </div>
+          </summary>
+
+          <div class="media-card__list">
+            {% for seasonNum, episodes in bucket.seasons %}
+              <details class="media-card__list-item">
+                <summary>Season {{ seasonNum }}</summary>
+                <ul>
+                  {% for ep in episodes %}
+                    <li class="media-card__meta">
+                      <span>Season {{ ep.season }} Episode {{ ep.episode }} — {{ ep.watchedOn | dateFilter }}</span>
+                      {% if ep.rating %}<span>★ {{ ep.rating }}/5</span>{% endif %}
+                      {% if ep.rewatch %}<span>Rewatch</span>{% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </details>
+            {% endfor %}
+          </div>
+        </details>
       {% endfor %}
     </div>
 
     {% include "components/tmdb-attribution.njk" %}
   </div>
+
   <div class="sidebar meta">
-    <h3 class="heading">This Year</h3>
-    <p>This year I've watched <strong>{{ watch.tvStatsByYear[year].episodes or 0 }}</strong> episodes and <strong>{{ watch.tvStatsByYear[year].shows or 0 }}</strong> shows.</p>
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-tv" /></svg> 
+      <span>Watching</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+        <li><a href="/logs/watching/films/">Films</a></li>
+        <li><a href="/logs/watching/tv/" class="active">Television</a></li>
+      </ul>
+    </nav>
+    
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>This year I’ve watched <strong>{{ watch.tvStatsByYear[year].episodes or 0 }}</strong> episodes and <strong>{{ watch.tvStatsByYear[year].shows or 0 }}</strong> shows.</p>
+    </div>
   </div>
 </div>

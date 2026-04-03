@@ -1,5 +1,23 @@
 [
   {
+    "title": "The case for “old school” CSS",
+    "url": "https://chenhuijing.com/blog/the-case-for-old-school-css/",
+    "content": "Do people still write CSS in CSS files any more? I honestly don’t keep up with the trends as much as I did back when I started by career. Partly because I’ve…",
+    "date": "2026-04-02T22:42:54.000Z"
+  },
+  {
+    "title": "Designers, your excuse is gone. Stunning, animated and accessible. Yes, you can!",
+    "url": "https://annebovelett.eu/designers-your-excuse-is-gone-stunning-animated-and-accessible-yes-you-can/",
+    "content": "Designers, your excuse is gone. Stunning, animated and accessible. Yes, you can! By Anne-Mieke Bovelett on March 14, 2025Status: up to date The new GitHub…",
+    "date": "2026-04-02T22:34:28.000Z"
+  },
+  {
+    "title": "Simple website analytics with Goatcounter - Alistair Shepherd",
+    "url": "https://www.alistairshepherd.uk/writing/simple-website-analytics-with-goatcounter/",
+    "content": "24th March 2026Simple website analytics with Goatcounter I'm not a big fan of analytics and tracking on the web — I use ad and tracking blockers in my browser,…",
+    "date": "2026-03-30T22:40:34.000Z"
+  },
+  {
     "title": "A Few Things About the Anchor Element’s href You Might Not Have Known",
     "url": "https://blog.jim-nielsen.com/2025/href-value-possibilities/",
     "content": "I’ve written previously about reloading a document using only HTML but that got me thinking: What are all the values you can put in an anchor tag’s href…",

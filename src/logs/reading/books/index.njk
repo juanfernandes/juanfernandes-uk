@@ -93,26 +93,51 @@ tags:
     </div>
   </div>
   <div class="sidebar meta">
-    <h3 class="heading">All-time Stats</h3>
-    <p>I'm currently reading <strong>{{ reading.stats.currentlyReading }}</strong> book, have read <strong>{{ reading.stats.finished }}</strong> books and have <strong>{{ reading.stats.toRead }}</strong> to read.</p>
-
-    <h3 class="heading">Section Navigation</h3>
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-book" /></svg>
+      <span>Reading</span>
+    </h3>
     <nav>
       <ul class="u-flex u-flex-col">
-        <li><a href="#read">Read</a></li>
-        <li><a href="#want-to-read">Want To Read</a></li>
-        <li><a href="#summarised">Summaries</a></li>
-        <li><a href="#current">Currently Reading</a></li>
+        <li><a href="/logs/reading/books/">Books</a></li>
+        <li><a href="/logs/reading/articles/">Articles</a></li>
       </ul>
     </nav>
+
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-directions" /></svg>
+        <span>In this section</span>
+      </h3>
+      <nav>
+        <ul class="u-flex u-flex-col">
+          <li><a href="#read">Read</a></li>
+          <li><a href="#want-to-read">Want To Read</a></li>
+          <li><a href="#summarised">Summaries</a></li>
+          <li><a href="#current">Currently Reading</a></li>
+        </ul>
+      </nav>
+    </div>
     
     {% if reading.years and reading.years.length %}
-    <h3 class="heading">Years</h3>
-    <p>
-      {% for y in reading.years %}
-        <a href="/logs/reading/#year-{{ y }}">{{ y }}</a>{% if not loop.last %} · {% endif %}
-      {% endfor %}
-    </p>
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-cal-alt" /></svg>
+        <span>Years</span>
+      </h3>
+      <p>
+        {% for y in reading.years %}
+          <a href="/logs/reading/books/#year-{{ y }}">{{ y }}</a>{% if not loop.last %} · {% endif %}
+        {% endfor %}
+      </p>
+    </div>
     {% endif %}
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>I'm currently reading <strong>{{ reading.stats.currentlyReading }}</strong> book, have read <strong>{{ reading.stats.finished }}</strong> books and have <strong>{{ reading.stats.toRead }}</strong> to read.</p>
+    </div>
   </div>
 </div>

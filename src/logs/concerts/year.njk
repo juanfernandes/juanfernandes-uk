@@ -11,13 +11,30 @@ eleventyComputed:
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
 
-<h2>Concerts attended in {{ year }}</h2>
+<div class="grid grid-9-3 gap-2">
+  <div>
+    <h2>Concerts attended in {{ year }}</h2>
+    <nav>
+      <div class="nav--inline">
+        <span>← <a href="/logs/concerts/">Back to concerts</a></span>
+      </div>
+    </nav>
 
-<ul>
-  {% for gig in (concerts.byYear[year] or []) %}
-    <li>
-      <strong>{{ gig.artists | join(", ") }}</strong> — {{ gig.date | dateFilter }}
-      — {{ gig.venue }}, {{ gig.city }}
-    </li>
-  {% endfor %}
-</ul>
+    <ul>
+      {% for gig in (concerts.byYear[year] or []) %}
+        <li>
+          <strong>{{ gig.artists | join(", ") }}</strong> — {{ gig.date | dateFilter }}
+          — {{ gig.venue }}, {{ gig.city }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="sidebar meta">
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+      <span>Stats</span>
+    </h3>
+    <p>I attended <strong>{{ concerts.totalsByYear[year] or 0 }}</strong> concerts in {{ year }}.</p>
+    </p>
+  </div>
+</div>
