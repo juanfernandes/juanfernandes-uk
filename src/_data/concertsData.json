@@ -71,6 +71,18 @@
       "links": {
         "setlistFm": "https://www.setlist.fm/setlist/wutang-clan/2023/the-ovo-hydro-glasgow-scotland-3ba6d89c.html"
       }
+    },
+    {
+      "date": "2010-06-06",
+      "artists": [
+        "Rage Against The Machine"
+      ],
+      "links": {
+        "setlistFm": "https://www.setlist.fm/setlist/rage-against-the-machine/2010/finsbury-park-london-england-4bd4330a.html"
+      },
+      "city": "London",
+      "country": "United Kingdom",
+      "venue": "Finsbury Park"
     }
   ]
 }
