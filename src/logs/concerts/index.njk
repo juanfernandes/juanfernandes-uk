@@ -10,75 +10,53 @@ permalink: /logs/concerts/
   <div>
     <p class="lead">A log of the gigs I’ve been to — the dates, venues, and artists that made them memorable. There’s something different about hearing music live, and this page is a small archive of those nights and the places they happened.</p>
 
+    {% set years = concerts.years %}
+    {% set base = "/logs/concerts" %}
+    {% include "components/year-nav.njk" %}
+
     {% set latestGig = concerts.entries[0] %}
 
-    <div class="media-grid media-grid--2-col">
-      <section class="media-card">
-        <div class="media-card__body">
-          <h2 class="media-card__heading">Most recent</h2>
-          <p class="media-card__muted">The latest gig logged.</p>
-
-          {% if latestGig %}
-          <div class="media-card__latest">
-            <p class="media-title">
-              <strong>{{ latestGig.artists | join(", ") }}</strong> —
-              <span class="media-card__muted">{{ latestGig.date | dateFilter }}</span>
-            </p>
-            <div class="media-card__meta">
-              {% if latestGig.venue %}
-              <span>{{ latestGig.venue }}{% if latestGig.city %}, {{ latestGig.city }}{% endif %}</span>
-              {% endif %}
-              {% if latestGig.country %}
-              <span>{{ latestGig.country }}</span>
-              {% endif %}
-              {% if latestGig.links and latestGig.links.setlistFm %}
-              <span><a href="{{ latestGig.links.setlistFm }}">Setlist.fm</a></span>
-              {% endif %}
-              {% if latestGig.links and latestGig.links.tickets %}
-                <span><a href="{{ latestGig.links.tickets }}">Tickets</a></span>
-              {% endif %}
-              {% if latestGig.notes %}
-                <span class="tag">has notes</span>
-              {% endif %}
-            </div>
-          </div>
-          {% else %}
-            <p class="media-muted">No concerts logged yet.</p>
-          {% endif %}
-        </div>
-      </section>
-
-      <section class="media-card">
-        <div class="media-card__body">
-          <h2 class="media-card__heading">Browse by year</h2>
-          <p class="media-card__muted">Jump to a year archive.</p>
-
-          <div class="media-card__latest">
-            <div class="media-card__list">
-              {% set years = concerts.years %}
-              {% set base = "/logs/concerts" %}
-              {% include "components/year-nav.njk" %}
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <h2 class="u-mt-2">All concerts</h2>
-
-    <ul class="media-list">
+    <div class="media-grid">
+      <h2 class="visuallyhidden">All concerts</h2>
       {% for gig in concerts.entries %}
-        <li>
-          <strong>{{ gig.artists | join(", ") }}</strong>
-          <span class="media-muted">— {{ gig.date | dateFilter }}</span>
-          <span class="media-muted">— {{ gig.venue }}{% if gig.city %}, {{ gig.city }}{% endif %}</span>
-          {% if gig.links and gig.links.setlistFm %}
-            <span class="media-muted"> · <a href="{{ gig.links.setlistFm }}">setlist</a></span>
+      <article class="media-card">
+        <div class="media-card__body">
+          {% if gig.date %}
+          <div class="media-card__meta">
+            <span><time datetime="{{ gig.date }}">{{ gig.date | dateFilter }}</time></span>
+          </div>
           {% endif %}
-        </li>
+
+          {% if gig.artists %}
+          <h3 class="media-card__title">
+            {{ gig.artists | join(" + ") }}
+          </h3>
+          {% endif %}
+
+          {% if gig.venue or gig.city or gig.country %}
+          <div class="media-card__meta">
+            <span>{{ gig.venue }}{% if gig.city %}, {{ gig.city }}{% endif %}{% if gig.country %}, {{ gig.country }}{% endif %}</span>
+          </div>
+          {% endif %}
+
+          {% if gig.notes %}
+          <div class="media-card__notes">
+            <p>{{ gig.notes }}</p>
+          </div>
+          {% endif %}
+
+          {% if gig.links and gig.links.setlistFm %}
+          <div class="media-card__links">
+            <a href="{{ gig.links.setlistFm }}" target="_blank" rel="noopener">View setlist</a>
+          </div>
+          {% endif %}
+
+        </div>
+      </article>
       {% endfor %}
-    </ul>
+    </div>
   </div>
+
   <div class="sidebar meta">
     <h3 class="heading">
       <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>

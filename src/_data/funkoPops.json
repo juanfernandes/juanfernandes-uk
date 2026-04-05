@@ -1,0 +1,326 @@
+{
+  "collectionName": "Juan Funko Pops",
+  "source": "Extracted from Funko app screenshots supplied by user",
+  "extractedFrom": "Screenshots sorted Name: A-Z",
+  "summary": {
+    "totalItems": 17,
+    "exclusiveCount": 3,
+    "estimatedCollectionValueGBP": 333.12,
+    "franchises": {
+      "Back to the Future": {
+        "count": 1,
+        "itemIds": [
+          "back-to-the-future-dr-emmett-brown-62"
+        ]
+      },
+      "Cypress Hill": {
+        "count": 1,
+        "itemIds": [
+          "cypress-hill-dr-greenthumb"
+        ]
+      },
+      "DC Comics": {
+        "count": 4,
+        "itemIds": [
+          "dc-comics-batman",
+          "dc-comics-superman-1123",
+          "dc-comics-the-flash-1333",
+          "dc-comics-the-joker-dark-knight-36"
+        ]
+      },
+      "Evil Dead": {
+        "count": 1,
+        "itemIds": [
+          "evil-dead-ash"
+        ]
+      },
+      "IT": {
+        "count": 3,
+        "itemIds": [
+          "it-pennywise-classic",
+          "it-pennywise-without-make-up-876",
+          "it-shopkeeper-874"
+        ]
+      },
+      "Marvel": {
+        "count": 2,
+        "itemIds": [
+          "marvel-captain-america-1198",
+          "marvel-doctor-strange"
+        ]
+      },
+      "Notorious B.I.G.": {
+        "count": 1,
+        "itemIds": [
+          "notorious-b-i-g-notorious-b-i-g-45"
+        ]
+      },
+      "Star Wars": {
+        "count": 1,
+        "itemIds": [
+          "star-wars-dark-trooper-with-grogu-488"
+        ]
+      },
+      "The Office": {
+        "count": 1,
+        "itemIds": [
+          "the-office-dwight-schrute"
+        ]
+      },
+      "The Shining": {
+        "count": 1,
+        "itemIds": [
+          "the-shining-jack-torrance-456"
+        ]
+      },
+      "The Walking Dead": {
+        "count": 1,
+        "itemIds": [
+          "the-walking-dead-rick-grimes-306"
+        ]
+      }
+    }
+  },
+  "items": [
+    {
+      "name": "Ash",
+      "franchise": "Evil Dead",
+      "estimatedValueGBP": 4.75,
+      "exclusive": false,
+      "number": null,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "evil-dead-ash"
+    },
+    {
+      "name": "Batman",
+      "franchise": "DC Comics",
+      "estimatedValueGBP": 7.23,
+      "exclusive": false,
+      "number": null,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "dc-comics-batman"
+    },
+    {
+      "name": "Captain America",
+      "franchise": "Marvel",
+      "estimatedValueGBP": 161.49,
+      "exclusive": true,
+      "number": 1198,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "marvel-captain-america-1198"
+    },
+    {
+      "name": "Dark Trooper with Grogu",
+      "franchise": "Star Wars",
+      "estimatedValueGBP": 6.23,
+      "exclusive": true,
+      "number": 488,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "star-wars-dark-trooper-with-grogu-488"
+    },
+    {
+      "name": "Doctor Strange",
+      "franchise": "Marvel",
+      "estimatedValueGBP": 7.09,
+      "exclusive": false,
+      "number": null,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "marvel-doctor-strange"
+    },
+    {
+      "name": "Dr. Emmett Brown",
+      "franchise": "Back to the Future",
+      "estimatedValueGBP": 9.98,
+      "exclusive": false,
+      "number": 62,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "back-to-the-future-dr-emmett-brown-62"
+    },
+    {
+      "name": "Dr. Greenthumb",
+      "franchise": "Cypress Hill",
+      "estimatedValueGBP": 11.85,
+      "exclusive": false,
+      "number": null,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "cypress-hill-dr-greenthumb"
+    },
+    {
+      "name": "Dwight Schrute",
+      "franchise": "The Office",
+      "estimatedValueGBP": 11.57,
+      "exclusive": false,
+      "number": null,
+      "displayName": "Pop! Dwight Schrute",
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "the-office-dwight-schrute"
+    },
+    {
+      "name": "Jack Torrance",
+      "franchise": "The Shining",
+      "estimatedValueGBP": 16.53,
+      "exclusive": false,
+      "number": 456,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "the-shining-jack-torrance-456"
+    },
+    {
+      "name": "Notorious B.I.G.",
+      "franchise": "Notorious B.I.G.",
+      "estimatedValueGBP": 17.69,
+      "exclusive": false,
+      "number": 45,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "notorious-b-i-g-notorious-b-i-g-45"
+    },
+    {
+      "name": "Pennywise Classic",
+      "franchise": "IT",
+      "estimatedValueGBP": 10.76,
+      "exclusive": false,
+      "number": null,
+      "displayName": "Pop! Pennywise Classic - IT",
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "it-pennywise-classic"
+    },
+    {
+      "name": "Pennywise without make-up",
+      "franchise": "IT",
+      "estimatedValueGBP": 10.58,
+      "exclusive": false,
+      "number": 876,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "it-pennywise-without-make-up-876"
+    },
+    {
+      "name": "Rick Grimes",
+      "franchise": "The Walking Dead",
+      "estimatedValueGBP": 22.81,
+      "exclusive": false,
+      "number": 306,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "the-walking-dead-rick-grimes-306"
+    },
+    {
+      "name": "Shopkeeper",
+      "franchise": "IT",
+      "estimatedValueGBP": 5.91,
+      "exclusive": false,
+      "number": 874,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "it-shopkeeper-874"
+    },
+    {
+      "name": "Superman",
+      "franchise": "DC Comics",
+      "estimatedValueGBP": 10.01,
+      "exclusive": true,
+      "number": 1123,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "dc-comics-superman-1123"
+    },
+    {
+      "name": "The Flash",
+      "franchise": "DC Comics",
+      "estimatedValueGBP": 6.54,
+      "exclusive": false,
+      "number": 1333,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "dc-comics-the-flash-1333"
+    },
+    {
+      "name": "The Joker (Dark Knight)",
+      "franchise": "DC Comics",
+      "estimatedValueGBP": 12.1,
+      "exclusive": false,
+      "number": 36,
+      "owned": true,
+      "quantity": 1,
+      "source": "Funko app screenshots",
+      "currency": "GBP",
+      "image": null,
+      "notes": null,
+      "id": "dc-comics-the-joker-dark-knight-36"
+    }
+  ]
+}

@@ -1125,7 +1125,8 @@ footer > .container > .sixteen {
 
 .sidebar {
   border-top: 2px solid var(--orange);
-  height: 100vh;
+  height: fit-content;
+  min-height: 400px;
   position: -webkit-sticky;
   position: sticky;
   top: 4em;
@@ -2117,4 +2118,45 @@ footer > .container > .sixteen {
 //     padding: .1rem .45rem;
 //     white-space: nowrap;
 //   }
+// }
+
+
+// .concert-grid {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+//   gap: 1rem;
+// }
+
+// .concert-card {
+//   border: 1px solid var(--border-color, #2a2a2a);
+//   border-radius: 12px;
+//   padding: 1rem;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 0.75rem;
+// }
+
+// .concert-card__meta {
+//   font-size: 0.875rem;
+//   opacity: 0.75;
+// }
+
+// .concert-card__title {
+//   margin: 0;
+//   font-size: 1.125rem;
+//   line-height: 1.3;
+// }
+
+// .concert-card__venue,
+// .concert-card__notes,
+// .concert-card__links {
+//   margin: 0;
+// }
+
+// .concert-card__links a {
+//   text-decoration: none;
+// }
+
+// .concert-card__links a:hover {
+//   text-decoration: underline;
 // }
