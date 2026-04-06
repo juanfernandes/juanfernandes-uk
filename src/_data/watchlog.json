@@ -7491,6 +7491,14 @@
       "type": "movie",
       "tmdbId": 404378,
       "watchedOn": "2026-04-03"
+    },
+    {
+      "rewatch": false,
+      "tmdbId": 248126,
+      "watchedOn": "2026-04-06",
+      "type": "tv",
+      "season": 2,
+      "episode": 1
     }
   ]
 }
