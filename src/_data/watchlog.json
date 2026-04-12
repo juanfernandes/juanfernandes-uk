@@ -7531,6 +7531,12 @@
       "tmdbId": 316898,
       "season": 1,
       "episode": 4
+    },
+    {
+      "rewatch": false,
+      "type": "movie",
+      "tmdbId": 1290417,
+      "watchedOn": "2026-04-12"
     }
   ]
 }
