@@ -7499,6 +7499,14 @@
       "type": "tv",
       "season": 2,
       "episode": 1
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 316898,
+      "season": 1,
+      "episode": 1,
+      "watchedOn": "2026-04-10"
     }
   ]
 }
