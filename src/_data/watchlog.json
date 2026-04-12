@@ -7507,6 +7507,30 @@
       "season": 1,
       "episode": 1,
       "watchedOn": "2026-04-10"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 316898,
+      "watchedOn": "2026-04-10",
+      "season": 1,
+      "episode": 2
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 316898,
+      "watchedOn": "2026-04-10",
+      "season": 1,
+      "episode": 3
+    },
+    {
+      "rewatch": false,
+      "watchedOn": "2026-04-11",
+      "type": "tv",
+      "tmdbId": 316898,
+      "season": 1,
+      "episode": 4
     }
   ]
 }
