@@ -1,5 +1,17 @@
 [
   {
+    "title": "There’s no need to include ‘navigation’ in your navigation labels",
+    "url": "https://www.tempertemper.net/blog/theres-no-need-to-include-navigation-in-your-navigation-labels",
+    "content": "When you mark up your website, groups of links are probably going to be wrapped in <nav> elements. If you have more than one, you’re going to have to label each…",
+    "date": "2026-04-17T18:49:41.000Z"
+  },
+  {
+    "title": "box-shadow is no alternative to outline - Manuel Matuzovic",
+    "url": "https://matuzo.at/blog/2026/box-shadow-no-alternative-to-outline?fresh=1",
+    "content": "box-shadow is no alternative to outline posted on 15.04.2026 This post is part of a series called #WebAccessibilityFails, where I collect common issues I find…",
+    "date": "2026-04-17T18:46:36.000Z"
+  },
+  {
     "title": "A better non-modal dialog with the Popover API",
     "url": "https://fullystacked.net/a-better-dialog/",
     "content": "Mar 16, 2025 What’s wrong with show()? A non-modal dialog opened via the show() method has the following limitations: The dialog will not use the top layer. No…",

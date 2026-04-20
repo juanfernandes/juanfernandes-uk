@@ -1,0 +1,174 @@
+{
+  "adult": false,
+  "backdrop_path": "/f1Z5X3iCCKK5FGu5VvzPkXO7eOl.jpg",
+  "created_by": [
+    {
+      "id": 169061,
+      "credit_id": "58bf2418c3a36835bd000bdd",
+      "name": "David Shore",
+      "original_name": "David Shore",
+      "gender": 2,
+      "profile_path": "/5xVWN3KCGtGjGkEIrHqHrx8UikG.jpg"
+    },
+    {
+      "id": 17419,
+      "credit_id": "58bf242cc3a36835f0000b60",
+      "name": "Bryan Cranston",
+      "original_name": "Bryan Cranston",
+      "gender": 2,
+      "profile_path": "/npIIZJGSrcJIJ6yHdmbqO6Jzo5I.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2015-08-07",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.amazon.com/dp/B013488XFS",
+  "id": 64199,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2019-05-10",
+  "last_episode_to_air": {
+    "id": 1778796,
+    "name": "The Brooklyn Potash",
+    "overview": "Marius and the Bernhardt's take part in a con to free Julia. Marius and Lizzie square off as Julia's life hangs in the balance.",
+    "vote_average": 7.9,
+    "vote_count": 9,
+    "air_date": "2019-05-10",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 50,
+    "season_number": 3,
+    "show_id": 64199,
+    "still_path": "/kl9DHmeA4U1uILkKOPiHIU0UmOk.jpg"
+  },
+  "name": "Sneaky Pete",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 1024,
+      "logo_path": "/w7HfLNm9CWwRmAMU58udl2L7We7.png",
+      "name": "Prime Video",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 30,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Sneaky Pete",
+  "overview": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
+  "popularity": 14.0883,
+  "poster_path": "/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
+  "production_companies": [
+    {
+      "id": 20580,
+      "logo_path": "/oRR9EXVoKP9szDkVKlze5HVJS7g.png",
+      "name": "Amazon Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 65105,
+      "logo_path": null,
+      "name": "Nemofilms",
+      "origin_country": "US"
+    },
+    {
+      "id": 40480,
+      "logo_path": null,
+      "name": "Shore Z Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 11073,
+      "logo_path": "/wHs44fktdoj6c378ZbSWfzKsM2Z.png",
+      "name": "Sony Pictures Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 57023,
+      "logo_path": null,
+      "name": "Moonshot Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 121737,
+      "logo_path": null,
+      "name": "Exhibit A",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": null,
+      "episode_count": 1,
+      "id": 178476,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 0,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2015-08-07",
+      "episode_count": 10,
+      "id": 71496,
+      "name": "Season 1",
+      "overview": "A con man (Giovanni Ribisi) on the run from a vicious gangster (Bryan Cranston) takes cover from his past by assuming the identity of his prison cellmate, Pete, \"reuniting\" with Pete's estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he's trying to escape - and, just maybe, give him a taste of the loving family he's never had.",
+      "poster_path": "/4G3MatPTEmfoEFjByuN4P0waAEu.jpg",
+      "season_number": 1,
+      "vote_average": 8.2
+    },
+    {
+      "air_date": "2018-03-08",
+      "episode_count": 10,
+      "id": 98508,
+      "name": "Season 2",
+      "overview": "On the verge of starting fresh, Marius is dragged back into the role of Pete Murphy when two thugs-believing he's Pete-threaten to kill the Bernhardts if he doesn't take them to Pete's estranged mother and the millions she stole from their employer. Now Marius must tread a dangerous line to find her and protect the family, all while keeping up the Pete con.",
+      "poster_path": "/gK0EgspDCRlicAJXwAta2sIMJ7A.jpg",
+      "season_number": 2,
+      "vote_average": 8.1
+    },
+    {
+      "air_date": "2019-05-10",
+      "episode_count": 10,
+      "id": 121903,
+      "name": "Season 3",
+      "overview": "Who is Marius Josipovic? Marius himself would like to know. He's feeling a pull toward the Bernhardt family. But he's not part of the family. He's a con-man. The chance to become more like a normal human being is enticing. It also scares him to death. This season all the members of the Sneaky Pete family explore their identity. It's a dangerous journey. They could lose themselves or their lives.",
+      "poster_path": "/yQmF4ihjpz9p8o1A0xgEYAXj7Pf.jpg",
+      "season_number": 3,
+      "vote_average": 7.9
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "The Truth is Always Changing",
+  "type": "Scripted",
+  "vote_average": 7.5,
+  "vote_count": 399
+}

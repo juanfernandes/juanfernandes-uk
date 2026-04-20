@@ -1,0 +1,105 @@
+{
+  "adult": false,
+  "backdrop_path": "/80oigWVd0S0s3JQ0y49O4SA0fIv.jpg",
+  "created_by": [],
+  "episode_run_time": [
+    49
+  ],
+  "first_air_date": "2026-04-08",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81758532",
+  "id": 316898,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2026-04-08",
+  "last_episode_to_air": {
+    "id": 7055386,
+    "name": "I See That Girl in Third Person",
+    "overview": "A dramatic raid puts Sam behind bars, where he orchestrates a brazen kidnapping. With Christine's support, his ex-followers begin to rebuild their lives.",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2026-04-08",
+    "episode_number": 4,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 53,
+    "season_number": 1,
+    "show_id": 316898,
+    "still_path": "/4wqkEQSyfEsAmMETRNQaEOXJAqG.jpg"
+  },
+  "name": "Trust Me: The False Prophet",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 4,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Trust Me: The False Prophet",
+  "overview": "Chronicles the rise of Samuel Bateman, the self-proclaimed heir to Warren Jeffs’ Fundamentalist Church of Jesus Christ of Latter-Day Saints (FLDS), through the eyes of one couple who infiltrated his inner circle.",
+  "popularity": 12.528,
+  "poster_path": "/emukhfluHEAjj0oAPqwn4y6Reg.jpg",
+  "production_companies": [
+    {
+      "id": 37385,
+      "logo_path": "/y3FPjH0kunToOvzZyoOnNNBi6TI.png",
+      "name": "Ark Media",
+      "origin_country": "US"
+    },
+    {
+      "id": 6735,
+      "logo_path": "/pAQW38WU8ychBvYU2aGPTEbynEN.png",
+      "name": "Participant",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2026-04-08",
+      "episode_count": 4,
+      "id": 505814,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/19SbwVaGsqyfynQMTmB3nndmIQr.jpg",
+      "season_number": 1,
+      "vote_average": 0
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Miniseries",
+  "vote_average": 7.813,
+  "vote_count": 8
+}
