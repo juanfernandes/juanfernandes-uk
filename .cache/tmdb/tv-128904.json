@@ -34,38 +34,24 @@
     "en",
     "nv"
   ],
-  "last_air_date": "2026-03-22",
+  "last_air_date": "2026-04-05",
   "last_episode_to_air": {
-    "id": 6908852,
-    "name": "Shíká Nidanitáhą́ą́ (Those Who Were Searching for Me)",
-    "overview": "When Chee's new intel provides a clue to Vaggan's identity, Leaphorn enlists the FBI to help ambush the killer. Manuelito and Emma help Chee with his recovery from a close call while he is haunted by a specter from his past.",
-    "vote_average": 0,
-    "vote_count": 1,
-    "air_date": "2026-03-22",
-    "episode_number": 6,
-    "episode_type": "standard",
+    "id": 6908855,
+    "name": "Ni' Hodisxǫs (The Glittering World)",
+    "overview": "Leaphorn engages Vaggan in a battle of wills in order to and save himself and Billie from a grisly fate.",
+    "vote_average": 8,
+    "vote_count": 2,
+    "air_date": "2026-04-05",
+    "episode_number": 8,
+    "episode_type": "finale",
     "production_code": "",
-    "runtime": 47,
+    "runtime": 51,
     "season_number": 4,
     "show_id": 128904,
-    "still_path": "/dXsKUO8H2oujk4fimTaeXX8UyYY.jpg"
+    "still_path": "/A4gDRVjBvwAhz33LUE9nzyGMfco.jpg"
   },
   "name": "Dark Winds",
-  "next_episode_to_air": {
-    "id": 6908853,
-    "name": "Nániikai (We Came Back)",
-    "overview": "Leaphorn and Manuelito find themselves racing against the clock to save Billie from Vaggan; Chee recovers as he confronts the difficult truth about his past; Billie reconnects with a long-lost family member.",
-    "vote_average": 0,
-    "vote_count": 0,
-    "air_date": "2026-03-29",
-    "episode_number": 7,
-    "episode_type": "standard",
-    "production_code": "",
-    "runtime": 45,
-    "season_number": 4,
-    "show_id": 128904,
-    "still_path": "/t2EbwWFpuNIuDWA56LIOmn6cm7A.jpg"
-  },
+  "next_episode_to_air": null,
   "networks": [
     {
       "id": 174,
@@ -82,7 +68,7 @@
   "original_language": "en",
   "original_name": "Dark Winds",
   "overview": "This psychological thriller follows two Navajo police officers, Leaphorn and Chee, in the 1970s Southwest as their search for clues in a grisly double murder case forces them to challenge their own spiritual beliefs and come to terms with the trauma of their pasts.",
-  "popularity": 65.9531,
+  "popularity": 23.5877,
   "poster_path": "/kDlrMN0P9ByrEH2GoRbBFeZHbcf.jpg",
   "production_companies": [
     {
@@ -169,7 +155,7 @@
       "overview": "Six months after the events of Season 2, Lt. Joe Leaphorn and Jim Chee investigate the disappearance of two boys, with only an abandoned bicycle and blood-stained patch of ground left in their wake. Meanwhile, Bernadette Manuelito attempts to settle into her new life 500 miles from home with the Border Patrol, but stumbles across a conspiracy involving human and drug smuggling with far-reaching implications.",
       "poster_path": "/kDlrMN0P9ByrEH2GoRbBFeZHbcf.jpg",
       "season_number": 3,
-      "vote_average": 7.1
+      "vote_average": 7.2
     },
     {
       "air_date": "2026-02-15",
@@ -179,7 +165,7 @@
       "overview": "The fourth season focuses on the search for a missing Navajo girl, which takes Leaphorn, Chee and Manuelito from the safety of Navajo Nation to the gritty terrain of 1970s Los Angeles in a race against the clock to save her from an obsessive killer with ties to organized crime.",
       "poster_path": "/guPa9hTEhUkm73BgFlMZ1cq6vJd.jpg",
       "season_number": 4,
-      "vote_average": 5.8
+      "vote_average": 6.6
     }
   ],
   "spoken_languages": [
@@ -197,6 +183,6 @@
   "status": "Returning Series",
   "tagline": "Justice has no boundaries.",
   "type": "Scripted",
-  "vote_average": 7.511,
-  "vote_count": 179
+  "vote_average": 7.5,
+  "vote_count": 182
 }

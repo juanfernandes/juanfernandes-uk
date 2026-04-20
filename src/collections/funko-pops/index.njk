@@ -1,0 +1,61 @@
+---
+layout: page
+title: Funko Pops
+permalink: /collections/funko-pops/
+---
+{% set section = section or "collections" %}
+{% include "components/dash-nav.njk" %}
+
+<div class="grid grid-9-3 gap-2">
+  <div>
+    {% for group in funko.franchiseStats %}
+    <div class="u-mb-2">
+      <h2 class="gamma" id="{{ group.slug }}">{{ group.franchise }} <span>({{ group.total }})</span></h2>
+      <div class="media-grid">
+        {% for item in group.items %}
+        <div class="media-card">
+          {% if item.image %}
+          <div class="media-card__thumb media-card__poster-1-1">
+            <img src="/assets/imgs/collections/funko-pops/{{ item.image }}" alt="{{ item.name }} cover" loading="lazy">
+          </div>
+          {% endif %}
+          <div class="media-card__body">
+            <h3 class="media-card__title">{{ item.name }}{% if item.number %} — <span>#{{ item.number }}</span>{% endif %}</h3>
+            <div class="media-card__meta">
+              {% if item.exclusive %}<span>Exclusive</span>{% endif %}{% if item.estimatedValueGBP %}<span>£{{ item.estimatedValueGBP }}</span>{% endif %}{% if item.addedOn %}<span>Added on: {{ item.addedOn | dateFilter }}</span>{% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="sidebar meta">
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-directions" /></svg>
+      <span>In this section</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+        {% for group in funko.franchiseStats %}
+          <li>
+            <a href="#{{ group.slug }}">
+              {{ group.franchise }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+
+      <p>I own {{ funko.stats.total }} Funko Pops across {{ funko.stats.franchiseCount }} franchises with an estimated value of £{{ funko.stats.totalEstimatedValue }}</p>
+    </div>
+  </div>
+</div>

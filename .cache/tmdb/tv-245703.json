@@ -46,8 +46,8 @@
     "id": 6153384,
     "name": "Episode 9",
     "overview": "A decades-old recording helps all the clues to fall into place. But as the pressure rises — in and out of the chamber — can Carl get there in time?",
-    "vote_average": 8.1,
-    "vote_count": 26,
+    "vote_average": 8.155,
+    "vote_count": 29,
     "air_date": "2025-05-29",
     "episode_number": 9,
     "episode_type": "finale",
@@ -76,7 +76,7 @@
   "original_language": "en",
   "original_name": "Dept. Q",
   "overview": "A brash but brilliant cop becomes head of a new police department, where he leads an unlikely team of misfits in solving Edinburgh's cold cases.",
-  "popularity": 14.2479,
+  "popularity": 7.9399,
   "poster_path": "/8WdxigrmISyE84bxViHDX2hTI4T.jpg",
   "production_companies": [
     {
@@ -111,7 +111,7 @@
       "overview": "",
       "poster_path": "/iDsD1SJzdFNtP7247VY1dad8hbQ.jpg",
       "season_number": 1,
-      "vote_average": 7.9
+      "vote_average": 8
     },
     {
       "air_date": null,
@@ -134,6 +134,6 @@
   "status": "Returning Series",
   "tagline": "Not all causes are lost.",
   "type": "Scripted",
-  "vote_average": 7.896,
-  "vote_count": 374
+  "vote_average": 7.883,
+  "vote_count": 392
 }

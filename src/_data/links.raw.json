@@ -1,5 +1,17 @@
 [
   {
+    "title": "A better non-modal dialog with the Popover API",
+    "url": "https://fullystacked.net/a-better-dialog/",
+    "content": "Mar 16, 2025 What’s wrong with show()? A non-modal dialog opened via the show() method has the following limitations: The dialog will not use the top layer. No…",
+    "date": "2026-04-07T08:21:55.000Z"
+  },
+  {
+    "title": "Design Systems and Legos",
+    "url": "https://gomakethings.com/design-systems-and-legos/",
+    "content": "Daily Tips Last week, my friend Eric Bailey shared some thoughts on Design Systems on Bluesky… through a certain lens, a design system is just very expensive…",
+    "date": "2026-04-07T08:16:34.000Z"
+  },
+  {
     "title": "The case for “old school” CSS",
     "url": "https://chenhuijing.com/blog/the-case-for-old-school-css/",
     "content": "Do people still write CSS in CSS files any more? I honestly don’t keep up with the trends as much as I did back when I started by career. Partly because I’ve…",

@@ -6,123 +6,129 @@ permalink: /collections/lego/
 {% set section = section or "collections" %}
 {% include "components/dash-nav.njk" %}
 
-<p>
-  <strong>{{ lego.stats.ownedCount }}</strong> owned ·
-  <strong>{{ lego.stats.wantedCount }}</strong> wanted ·
-  <strong>{{ lego.stats.ownedPieces }}</strong> pieces (owned) ·
-  <strong>{{ lego.stats.builtCount }}</strong> built ·
-  <strong>{{ lego.stats.unbuiltCount }}</strong> unbuilt
-</p>
+<div class="grid grid-9-3 gap-2">
+  <div>
+    {% for theme, sets in lego.byThemeOwned %}
+      <h2 class="gamma" id="theme-owned-{{ theme | slug }}">{{ theme }}</h2>
 
-<h3>Owned</h3>
-
-{% if lego.themesOwned and lego.themesOwned.length %}
-  <p>
-    Themes:
-    {% for t in lego.themesOwned %}
-      <a href="#theme-owned-{{ t | slug }}">{{ t }}</a>{% if not loop.last %} · {% endif %}
-    {% endfor %}
-  </p>
-{% endif %}
-
-{% for theme, sets in lego.byThemeOwned %}
-  <h4 id="theme-owned-{{ theme | slug }}">{{ theme }}</h4>
-
-  <div class="media-grid">
-    {% for s in sets %}
-      <article class="media-card">
-        <div class="media-thumb u-p-1 u-pb-0">
-          {% if s.image %}
-            {% if s.url %}<a href="{{ s.url }}" aria-label="{{ s.setNumber }} {{ s.name }}">{% endif %}
+      <div class="media-grid u-mb-2">
+        {% for s in sets %}
+          <div class="media-card">
+            <div class="media-card__thumb">
+              {% if s.image %}
               <img src="{{ s.image }}" alt="{{ s.setNumber }} {{ s.name }}" loading="lazy">
-            {% if s.url %}</a>{% endif %}
-          {% else %}
-            <span class="media-meta">No image</span>
-          {% endif %}
-        </div>
+              {% else %}
+              <div class="media-card__meta">
+                <span>No image</span>
+              </div>
+              {% endif %}
+            </div>
 
-        <div class="media-body">
-          <p class="media-title">
-            {% if s.url %}
-              <a href="{{ s.url }}">
-                {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
-              </a>
-            {% else %}
-              {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
-            {% endif %}
-          </p>
+            <div class="media-card__body">
+              <h3 class="media-card__title">
+                {% if s.url %}
+                  <a href="{{ s.url }}">
+                    {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
+                  </a>
+                {% else %}
+                  {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
+                {% endif %}
+              </h3>
 
-          <p class="media-meta">
-            {% if s.year %}{{ s.year }}{% else %}Year unknown{% endif %}
-            {% if s.pieces %} · {{ s.pieces }} pcs{% endif %}
-          </p>
+              <div class="media-card__meta">
+                {% if s.year %}<span>{{ s.year }}{% else %}Year unknown</span>{% endif %}{% if s.pieces %}<span>{{ s.pieces }} pcs</span>{% endif %}
+              </div>
 
-          {% if s.qtyOwned or s.subtheme %}
-          <div class="media-badges">
-            {% if s.qtyOwned and s.qtyOwned > 1 %}
-              <span class="media-badge">Qty owned: {{ s.qtyOwned }}</span>
-            {% endif %}
-            {% if s.subtheme %}
-              <span class="media-badge">{{ s.subtheme }}</span>
-            {% endif %}
+              {% if s.qtyOwned or s.subtheme %}
+              <div class="media-card__badges">
+                {% if s.qtyOwned and s.qtyOwned > 1 %}
+                  <span class="tag">Qty owned: {{ s.qtyOwned }}</span>
+                {% endif %}
+                {% if s.subtheme %}
+                  <span class="tag">{{ s.subtheme }}</span>
+                {% endif %}
+              </div>
+              {% endif %}
+            </div>
           </div>
-          {% endif %}
-        </div>
-      </article>
+        {% endfor %}
+      </div>
+    {% endfor %}
+
+    <h2 class="gamma">Wanted</h2>
+
+    {% if lego.wanted.length == 0 %}
+      <p>Nothing on the wanted list right now.</p>
+    {% endif %}
+
+    {% for theme, sets in lego.byThemeWanted %}
+      <h2 class="gamma">{{ theme }}</h2>
+
+      <div class="media-grid u-mb-2">
+        {% for s in sets %}
+          <div class="media-card">
+            <div class="media-card__thumb">
+              {% if s.image %}
+              <img src="{{ s.image }}" alt="{{ s.setNumber }} {{ s.name }}" loading="lazy">
+              {% else %}
+              <div class="meta-card__meta">
+                <span>No image</span>
+              </div>
+              {% endif %}
+            </div>
+
+            <div class="media-card__body">
+              <h3 class="media-card__title">
+                {% if s.url %}
+                <a href="{{ s.url }}">
+                  {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
+                </a>
+                {% else %}
+                  {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
+                {% endif %}
+              </h3>
+
+              <div class="media-card__meta">
+                {% if s.year %}<span>{{ s.year }}{% else %}Year unknown</span>{% endif %}{% if s.pieces %}<span>{{ s.pieces }} pcs</span>{% endif %}
+              </div>
+
+              {% if s.qtyWanted or s.subtheme %}
+              <div class="media-card__badges">
+                {% if s.qtyWanted and s.qtyWanted > 1 %}
+                  <span class="tag">Qty wanted: {{ s.qtyWanted }}</span>
+                {% endif %}
+                {% if s.subtheme %}
+                  <span class="tag">{{ s.subtheme }}</span>
+                {% endif %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     {% endfor %}
   </div>
-{% endfor %}
+  <div class="sidebar meta">
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-directions" /></svg>
+      <span>In this section</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+      {% for t in lego.themesOwned %}
+        <li><a href="#theme-owned-{{ t | slug }}">{{ t }}</a>{% if not loop.last %}{% endif %}</li>
+      {% endfor %}
+      </ul>
+    </nav>
 
-<h3>Wanted</h3>
-
-{% if lego.wanted.length == 0 %}
-  <p>Nothing on the wanted list right now.</p>
-{% endif %}
-
-{% for theme, sets in lego.byThemeWanted %}
-  <h4>{{ theme }}</h4>
-
-  <div class="media-grid">
-    {% for s in sets %}
-      <article class="media-card">
-        <div class="media-thumb">
-          {% if s.image %}
-            {% if s.url %}<a href="{{ s.url }}" aria-label="{{ s.setNumber }} {{ s.name }}">{% endif %}
-              <img src="{{ s.image }}" alt="{{ s.setNumber }} {{ s.name }}" loading="lazy">
-            {% if s.url %}</a>{% endif %}
-          {% else %}
-            <span class="media-meta">No image</span>
-          {% endif %}
-        </div>
-
-        <div class="media-body">
-          <p class="media-title">
-            {% if s.url %}
-            <a href="{{ s.url }}">
-              {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
-            </a>
-            {% else %}
-              {{ s.setNumber or "Set" }} — {{ s.name or "Unknown set" }}
-            {% endif %}
-          </p>
-
-          <p class="media-meta">
-            {% if s.year %}{{ s.year }}{% else %}Year unknown{% endif %}
-            {% if s.pieces %} · {{ s.pieces }} pcs{% endif %}
-          </p>
-
-          {% if s.qtyWanted or s.subtheme %}
-          <div class="media-badges">
-            {% if s.qtyWanted and s.qtyWanted > 1 %}
-              <span class="badge">Qty wanted: {{ s.qtyWanted }}</span>
-            {% endif %}
-            {% if s.subtheme %}
-              <span class="badge">{{ s.subtheme }}</span>
-            {% endif %}
-          </div>
-          {% endif %}
-        </div>
-      </article>
-    {% endfor %}
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>I own a total of <strong>{{ lego.stats.ownedCount }}</strong> sets and I want 
+        <strong>{{ lego.stats.wantedCount }}</strong>. The total number of pieces owned is <strong>{{ lego.stats.ownedPieces }}</strong>.
+      </p>
+    </div>
   </div>
-{% endfor %}
+</div>

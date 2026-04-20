@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Warrior",
   "overview": "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament – a path that puts the fighter on a collision course with his estranged, older brother.",
-  "popularity": 6.3366,
+  "popularity": 6.0036,
   "poster_path": "/iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
   "production_companies": [
     {
@@ -41,7 +41,7 @@
       "id": 1001,
       "logo_path": null,
       "name": "Solaris Film",
-      "origin_country": "US"
+      "origin_country": "DE"
     },
     {
       "id": 12425,
@@ -71,5 +71,5 @@
   "title": "Warrior",
   "video": false,
   "vote_average": 7.844,
-  "vote_count": 4940
+  "vote_count": 4965
 }

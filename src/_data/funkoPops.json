@@ -1,9 +1,6 @@
 {
-  "collectionName": "Juan Funko Pops",
-  "source": "Extracted from Funko app screenshots supplied by user",
-  "extractedFrom": "Screenshots sorted Name: A-Z",
   "summary": {
-    "totalItems": 17,
+    "totalItems": 22,
     "exclusiveCount": 3,
     "estimatedCollectionValueGBP": 333.12,
     "franchises": {
@@ -43,10 +40,11 @@
         ]
       },
       "Marvel": {
-        "count": 2,
+        "count": 3,
         "itemIds": [
           "marvel-captain-america-1198",
-          "marvel-doctor-strange"
+          "marvel-doctor-strange",
+          "iron-man-model-1-1035"
         ]
       },
       "Notorious B.I.G.": {
@@ -78,6 +76,24 @@
         "itemIds": [
           "the-walking-dead-rick-grimes-306"
         ]
+      },
+      "Deadpool": {
+        "count": 1,
+        "itemIds": [
+          "deadpool-deadpool-thumbs-up-112"
+        ]
+      },
+      "Pokémon": {
+        "count": 1,
+        "itemIds": [
+          "pokemon-munchlax-885"
+        ]
+      },
+      "Carrie": {
+        "count": 1,
+        "itemIds": [
+          "carrie-carrie-bloody-1247"
+        ]
       }
     }
   },
@@ -87,12 +103,12 @@
       "franchise": "Evil Dead",
       "estimatedValueGBP": 4.75,
       "exclusive": false,
-      "number": null,
+      "number": 1142,
       "owned": true,
+      "addedOn": "2023-09-05",
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "evil-dead-ash.jpg",
       "notes": null,
       "id": "evil-dead-ash"
     },
@@ -101,12 +117,11 @@
       "franchise": "DC Comics",
       "estimatedValueGBP": 7.23,
       "exclusive": false,
-      "number": null,
+      "number": 1195,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "the-batman-batman.jpg",
       "notes": null,
       "id": "dc-comics-batman"
     },
@@ -118,9 +133,8 @@
       "number": 1198,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "captain-america.jpg",
       "notes": null,
       "id": "marvel-captain-america-1198"
     },
@@ -132,9 +146,8 @@
       "number": 488,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "dark-trooper-with-grogu.jpg",
       "notes": null,
       "id": "star-wars-dark-trooper-with-grogu-488"
     },
@@ -143,12 +156,11 @@
       "franchise": "Marvel",
       "estimatedValueGBP": 7.09,
       "exclusive": false,
-      "number": null,
+      "number": 651,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "doctor-strange.jpg",
       "notes": null,
       "id": "marvel-doctor-strange"
     },
@@ -160,9 +172,8 @@
       "number": 62,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "Back_to_the_Future-Glowing_Doc.jpg",
       "notes": null,
       "id": "back-to-the-future-dr-emmett-brown-62"
     },
@@ -171,12 +182,11 @@
       "franchise": "Cypress Hill",
       "estimatedValueGBP": 11.85,
       "exclusive": false,
-      "number": null,
+      "number": 266,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "cypress-hill-dr-greenthumb.jpg",
       "notes": null,
       "id": "cypress-hill-dr-greenthumb"
     },
@@ -185,13 +195,12 @@
       "franchise": "The Office",
       "estimatedValueGBP": 11.57,
       "exclusive": false,
-      "number": null,
+      "number": 871,
       "displayName": "Pop! Dwight Schrute",
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "the-office-dwight-schrute.jpg",
       "notes": null,
       "id": "the-office-dwight-schrute"
     },
@@ -203,9 +212,8 @@
       "number": 456,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "jack-torrance.jpg",
       "notes": null,
       "id": "the-shining-jack-torrance-456"
     },
@@ -217,9 +225,8 @@
       "number": 45,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "45-funko-pop-figure-notorious-b-i-g-notorious-b-i-g-born-again.jpg",
       "notes": null,
       "id": "notorious-b-i-g-notorious-b-i-g-45"
     },
@@ -231,10 +238,10 @@
       "number": null,
       "displayName": "Pop! Pennywise Classic - IT",
       "owned": true,
+      "addedOn": "2023-09-05",
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "pennywise.jpg",
       "notes": null,
       "id": "it-pennywise-classic"
     },
@@ -246,9 +253,8 @@
       "number": 876,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "pennywise-no-makeup.jpg",
       "notes": null,
       "id": "it-pennywise-without-make-up-876"
     },
@@ -260,9 +266,8 @@
       "number": 306,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "the-walkind-dead-rick-grimes.jpg",
       "notes": null,
       "id": "the-walking-dead-rick-grimes-306"
     },
@@ -274,9 +279,8 @@
       "number": 874,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "shopkeeper.jpg",
       "notes": null,
       "id": "it-shopkeeper-874"
     },
@@ -288,9 +292,8 @@
       "number": 1123,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "justice-league-superman.jpg",
       "notes": null,
       "id": "dc-comics-superman-1123"
     },
@@ -301,10 +304,10 @@
       "exclusive": false,
       "number": 1333,
       "owned": true,
+      "addedOn": "2023-11-26",
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "the-flash.jpg",
       "notes": null,
       "id": "dc-comics-the-flash-1333"
     },
@@ -316,11 +319,76 @@
       "number": 36,
       "owned": true,
       "quantity": 1,
-      "source": "Funko app screenshots",
       "currency": "GBP",
-      "image": null,
+      "image": "the-joker.jpg",
       "notes": null,
       "id": "dc-comics-the-joker-dark-knight-36"
+    },
+    {
+      "name": "Deadpool Thumbs Up",
+      "franchise": "Deadpool",
+      "estimatedValueGBP": 8,
+      "exclusive": false,
+      "number": 112,
+      "owned": true,
+      "quantity": 1,
+      "currency": "GBP",
+      "image": "deadpool-deadpool-thumbs-up.jpg",
+      "notes": null,
+      "id": "deadpool-deadpool-thumbs-up-112"
+    },
+    {
+      "name": "Munchlax",
+      "franchise": "Pokémon",
+      "estimatedValueGBP": 11.38,
+      "exclusive": false,
+      "number": 885,
+      "owned": true,
+      "quantity": 1,
+      "currency": "GBP",
+      "image": "pokemon-munchlax.jpg",
+      "notes": null,
+      "id": "pokemon-munchlax-885"
+    },
+    {
+      "name": "Pikachu",
+      "franchise": "Pokémon",
+      "estimatedValueGBP": 11.38,
+      "exclusive": false,
+      "number": 885,
+      "owned": true,
+      "quantity": 1,
+      "currency": "GBP",
+      "image": "pokemon-pikachu-pearlescent.jpg",
+      "notes": null,
+      "id": "pokemon-pikachu-353"
+    },
+    {
+      "name": "Carrie (Bloody)",
+      "franchise": "Carrie",
+      "estimatedValueGBP": 50.99,
+      "exclusive": false,
+      "number": 1247,
+      "owned": true,
+      "addedOn": "2023-09-05",
+      "quantity": 1,
+      "currency": "GBP",
+      "image": "carrie-carrie-bloody.jpg",
+      "notes": null,
+      "id": "carrie-carrie-bloody-1247"
+    },
+    {
+      "name": "Iron Man Model 1 Golden Armor",
+      "franchise": "Marvel",
+      "estimatedValueGBP": 10.99,
+      "exclusive": false,
+      "number": 1035,
+      "owned": true,
+      "quantity": 1,
+      "currency": "GBP",
+      "image": "marvel-comics-hall-of-armor-iron-man-model-1-golden-armor-gold-metallic.jpg",
+      "notes": null,
+      "id": "iron-man-model-1-1035"
     }
   ]
 }

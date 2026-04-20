@@ -5,64 +5,79 @@ permalink: /collections/music/
 ---
 {% set section = section or "collections" %}
 {% include "components/dash-nav.njk" %}
-<p>
-  <strong>{{ music.stats.total }}</strong> items ·
-  <strong>{{ music.stats.vinylCount }}</strong> vinyl ·
-  <strong>{{ music.stats.cdCount }}</strong> CDs
-</p>
 
-{% if music.folders and music.folders.length %}
-  <p>
-    <strong>Folders:</strong>
-    {% for f in music.folders %}
-      <a href="#folder-{{ f | slug }}">{{ f }}</a>{% if not loop.last %} · {% endif %}
-    {% endfor %}
-  </p>
-{% endif %}
+<div class="grid grid-9-3 gap-2">
+  <div>
+    {% for folder, items in music.byFolder %}
+    <section class="u-mb-2">
+      <h2 class="gamma" id="folder-{{ folder | slug }}">{{ folder }}</h2>
 
-{% for folder, items in music.byFolder %}
-  <h3 id="folder-{{ folder | slug }}">{{ folder }}</h3>
-
-  <div class="media-grid">
-    {% for r in items %}
-      <article class="media-card">
-        <div class="media-thumb">
-          {% if r.cover %}
-            {% if r.url %}<a href="{{ r.url }}" aria-label="{{ r.artist }} — {{ r.title }}" target="_blank">{% endif %}
+      <div class="media-grid">
+        {% for r in items %}
+          <div class="media-card">
+            <div class="media-card__poster media-card__poster-1-1">
+              {% if r.cover %}
               <img src="{{ r.cover }}" alt="{{ r.artist }} — {{ r.title }}" loading="lazy">
-            {% if r.url %}</a>{% endif %}
-          {% else %}
-            <span class="media-meta">No cover</span>
-          {% endif %}
-        </div>
+              {% else %}
+              <div class="media-card__meta">
+                <span>No cover</span>
+              </div>
+              {% endif %}
+            </div>
 
-        <div class="media-body">
-          <p class="media-title">
-            {% if r.url %}
-              <a href="{{ r.url }}" target="_blank">{{ r.artist }} — {{ r.title }}</a>
-            {% else %}
-              {{ r.artist }} — {{ r.title }}
-            {% endif %}
-          </p>
+            <div class="media-card__body">
+              <h3 class="media-card__title">
+                {% if r.url %}
+                  <a href="{{ r.url }}" target="_blank">{{ r.artist }} — {{ r.title }}</a>
+                {% else %}
+                  {{ r.artist }} — {{ r.title }}
+                {% endif %}
+              </h3>
 
-          <p class="media-meta">
-            {% if r.year %}{{ r.year }}{% endif %}
-            {% if r.label %}{% if r.year %} · {% endif %}{{ r.label }}{% endif %}
-          </p>
+              <div class="media-card__meta">
+                {% if r.year %}<span>{{ r.year }}</span>{% endif %}
+                {% if r.label %}<span>{{ r.label }}</span>{% endif %}
+                {# {% if r.format %}<span>{{ r.format }}</span>{% endif %} #}
+              </div>
 
-          {% if r.format %}
-            <p class="media-meta">{{ r.format }}</p>
-          {% endif %}
+              {% if r.notes %}
+              <div class="media-card__meta">
+                <p>{{ r.notes }}</p>
+              </div>
+              {% endif %}
 
-          <div class="media-badges">
-            <span class="badge">{{ r.media }}</span>
+              <div class="media-card__badges">
+                <span class="tag">{{ r.media }}</span>
+              </div>
+            </div>
           </div>
-
-          {% if r.notes %}
-            <p class="media-meta">{{ r.notes }}</p>
-          {% endif %}
-        </div>
-      </article>
+        {% endfor %}
+      </div>
+      
+    </section>
     {% endfor %}
   </div>
-{% endfor %}
+  <div class="sidebar meta">
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-directions" /></svg>
+      <span>In this section</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+        {% for f in music.folders %}
+        <li><a href="#folder-{{ f | slug }}">{{ f }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    {% if music.stats.total %}
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>I've own a total of <strong>{{  music.stats.total }}</strong> items, made up of <strong>{{ music.stats.vinylCount }}</strong> vinyls{% if music.stats.cdCount %} and <strong>{{ music.stats.cdCount }}</strong> CDs.{% else %}.{% endif %}</p>
+    </div>
+    {% endif %}
+  </div>
+</div>

@@ -42,8 +42,8 @@
     "id": 6468145,
     "name": "The Strip",
     "overview": "Winning might be overrated...",
-    "vote_average": 7.981,
-    "vote_count": 53,
+    "vote_average": 7.879,
+    "vote_count": 58,
     "air_date": "2026-02-03",
     "episode_number": 8,
     "episode_type": "finale",
@@ -71,7 +71,7 @@
   "original_language": "en",
   "original_name": "Fallout",
   "overview": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
-  "popularity": 47.5955,
+  "popularity": 42.4028,
   "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
   "production_companies": [
     {
@@ -134,7 +134,7 @@
       "overview": "What say you Ms MacLean?",
       "poster_path": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
       "season_number": 2,
-      "vote_average": 6.9
+      "vote_average": 7
     }
   ],
   "spoken_languages": [
@@ -147,6 +147,6 @@
   "status": "Returning Series",
   "tagline": "Let the end times roll.",
   "type": "Scripted",
-  "vote_average": 8.1,
-  "vote_count": 2684
+  "vote_average": 8.124,
+  "vote_count": 2727
 }

@@ -25,8 +25,8 @@
     "id": 6985096,
     "name": "9/11/2001",
     "overview": "The harrowing story of the 9/11 attacks, as told by NYPD first responders who rushed to Ground Zero and who still carry the weight of tragedy today.",
-    "vote_average": 0,
-    "vote_count": 0,
+    "vote_average": 6,
+    "vote_count": 1,
     "air_date": "2026-03-25",
     "episode_number": 5,
     "episode_type": "finale",
@@ -54,7 +54,7 @@
   "original_language": "en",
   "original_name": "Homicide",
   "overview": "Detectives and prosecutors revisit their most challenging homicide cases in this chilling true-crime docuseries.",
-  "popularity": 8.6878,
+  "popularity": 3.7136,
   "poster_path": "/byh0uHyYoGjkPL9ULhLyAbnfTPX.jpg",
   "production_companies": [
     {
@@ -85,7 +85,7 @@
       "overview": "Detectives, officers, and other members of the New York Police Department reveal just how ugly the city can be, sharing their recollections of some of their grisliest cases.",
       "poster_path": "/byh0uHyYoGjkPL9ULhLyAbnfTPX.jpg",
       "season_number": 1,
-      "vote_average": 7.6
+      "vote_average": 7.5
     },
     {
       "air_date": "2024-07-15",
@@ -105,7 +105,7 @@
       "overview": "",
       "poster_path": "/4IAe7A73A4uoTqIofJGLUAjeiYa.jpg",
       "season_number": 3,
-      "vote_average": 0
+      "vote_average": 6.4
     }
   ],
   "spoken_languages": [
@@ -118,6 +118,6 @@
   "status": "Returning Series",
   "tagline": "",
   "type": "Documentary",
-  "vote_average": 7.08,
-  "vote_count": 25
+  "vote_average": 7.077,
+  "vote_count": 26
 }
