@@ -7592,6 +7592,14 @@
       "tmdbId": 1317149,
       "watchedOn": "2026-04-19",
       "rating": 4
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "season": 1,
+      "episode": 7,
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-20"
     }
   ]
 }
