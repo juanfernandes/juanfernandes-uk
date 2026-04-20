@@ -10,20 +10,16 @@
   "budget": 45000000,
   "genres": [
     {
-      "id": 10751,
-      "name": "Family"
-    },
-    {
       "id": 16,
       "name": "Animation"
     },
     {
-      "id": 18,
-      "name": "Drama"
+      "id": 10751,
+      "name": "Family"
     },
     {
-      "id": 12,
-      "name": "Adventure"
+      "id": 18,
+      "name": "Drama"
     }
   ],
   "homepage": "http://movies.disney.com/the-lion-king",
@@ -35,7 +31,7 @@
   "original_language": "en",
   "original_title": "The Lion King",
   "overview": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
-  "popularity": 20.7223,
+  "popularity": 23.3093,
   "poster_path": "/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
   "production_companies": [
     {
@@ -71,6 +67,6 @@
   "tagline": "The greatest adventure of all is finding our place in the Circle of Life.",
   "title": "The Lion King",
   "video": false,
-  "vote_average": 8.253,
-  "vote_count": 19489
+  "vote_average": 8.252,
+  "vote_count": 19556
 }

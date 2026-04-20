@@ -1783,6 +1783,10 @@ footer > .container > .sixteen {
     padding-left: 0;
     margin-bottom: 1rem;
     list-style: none;
+
+    span {
+      display: block;
+    }
   }
 }
 
@@ -1804,9 +1808,12 @@ footer > .container > .sixteen {
 
 .media-grid .media-card {
   &__poster {
+    align-items: center;
     background: rgba(0,0,0,.06);
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 8px 0 0;
+    display: flex;
+    justify-content: center;
     object-fit: cover;
     width: 100%;
   }
@@ -1887,6 +1894,9 @@ footer > .container > .sixteen {
     font-size: 2rem;
     line-height: 1.4;
   }
+  &__thumb {
+    padding: 1rem 1rem 0 1rem;
+  }
   &__muted { 
     margin-bottom: 0;
     opacity: .8; 
@@ -1906,6 +1916,22 @@ footer > .container > .sixteen {
     }
     .tag {
       display: inline-block;
+    }
+  }
+  &__badges { 
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+
+    .tag {
+      font-size: 0.85rem;
+      padding: 0.15rem 0.45rem;
+      border: 1px solid rgba(0,0,0,.18);
+      border-radius: 999px;
+      opacity: 0.9;
+      white-space: nowrap;
+      text-transform: capitalize;
     }
   }
   &__latest {
@@ -1981,55 +2007,56 @@ footer > .container > .sixteen {
 }
 
 // games collection
-.platform-nav { margin: 1rem 0 2rem; line-height: 1.8; }
-.media-thumb {
-  align-items: center;
-  aspect-ratio: 16 / 9;
-  background: var(--white);
-  display: flex;
-  justify-content: center;
-}
-.media-thumb img { 
-  display: block;
-  height: 100%; 
-  object-fit: cover; 
-  width: 100%; 
-}
-.media-thumb a {
-  border: none;
-}
-.media-body { 
-  padding: 0.85rem 0.9rem; 
-}
-.media-title { 
-  margin: 0 0 0.35rem; 
-  font-weight: 700; 
-  line-height: 1.25;
-}
+// .platform-nav { margin: 1rem 0 2rem; line-height: 1.8; }
+// .media-thumb {
+//   align-items: center;
+//   aspect-ratio: 16 / 9;
+//   background: var(--white);
+//   display: flex;
+//   justify-content: center;
+// }
+// .media-thumb img { 
+//   display: block;
+//   height: 100%; 
+//   object-fit: cover; 
+//   width: 100%; 
+// }
+// .media-thumb a {
+//   border: none;
+//   width: 100%;
+// }
+// .media-body { 
+//   padding: 0.85rem 0.9rem; 
+// }
+// .media-title { 
+//   margin: 0 0 0.35rem; 
+//   font-weight: 700; 
+//   line-height: 1.25;
+// }
 
-.media-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  gap: .55rem;
-}
-.media-badges { 
-  margin-top: 0.6rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
+// .media-list {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+//   display: grid;
+//   gap: .55rem;
+// }
+// .media-badges { 
+//   margin-top: 0.6rem;
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 0.4rem;
 
-  .badge {
-    font-size: 0.85rem;
-    padding: 0.15rem 0.45rem;
-    border: 1px solid rgba(0,0,0,.18);
-    border-radius: 999px;
-    opacity: 0.9;
-    white-space: nowrap;
-    text-transform: capitalize;
-  }
-}
+//   .badge {
+//     font-size: 0.85rem;
+//     padding: 0.15rem 0.45rem;
+//     border: 1px solid rgba(0,0,0,.18);
+//     border-radius: 999px;
+//     opacity: 0.9;
+//     white-space: nowrap;
+//     text-transform: capitalize;
+//   }
+// }
 
 
 // Grid on Watching page

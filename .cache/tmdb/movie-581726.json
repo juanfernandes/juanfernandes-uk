@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "Infinite",
   "overview": "Evan McCauley has skills he never learned and memories of places he has never visited. Self-medicated and on the brink of a mental breakdown, a secret group that call themselves “Infinites” come to his rescue, revealing that his memories are real.",
-  "popularity": 6.6951,
+  "popularity": 6.4177,
   "poster_path": "/niw2AKHz6XmwiRMLWaoyAOAti0G.jpg",
   "production_companies": [
     {
@@ -71,14 +71,9 @@
   "runtime": 106,
   "spoken_languages": [
     {
-      "english_name": "English",
-      "iso_639_1": "en",
-      "name": "English"
-    },
-    {
-      "english_name": "Arabic",
-      "iso_639_1": "ar",
-      "name": "العربية"
+      "english_name": "Russian",
+      "iso_639_1": "ru",
+      "name": "Pусский"
     },
     {
       "english_name": "Indonesian",
@@ -86,19 +81,19 @@
       "name": "Bahasa indonesia"
     },
     {
-      "english_name": "Spanish",
-      "iso_639_1": "es",
-      "name": "Español"
-    },
-    {
       "english_name": "Italian",
       "iso_639_1": "it",
       "name": "Italiano"
     },
     {
-      "english_name": "Russian",
-      "iso_639_1": "ru",
-      "name": "Pусский"
+      "english_name": "Japanese",
+      "iso_639_1": "ja",
+      "name": "日本語"
+    },
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
     },
     {
       "english_name": "Tibetan",
@@ -106,15 +101,20 @@
       "name": "བོད་སྐད་།"
     },
     {
-      "english_name": "Japanese",
-      "iso_639_1": "ja",
-      "name": "日本語"
+      "english_name": "Spanish",
+      "iso_639_1": "es",
+      "name": "Español"
+    },
+    {
+      "english_name": "Arabic",
+      "iso_639_1": "ar",
+      "name": "العربية"
     }
   ],
   "status": "Released",
   "tagline": "Many lives. Unlimited potential.",
   "title": "Infinite",
   "video": false,
-  "vote_average": 6.562,
-  "vote_count": 2087
+  "vote_average": 6.561,
+  "vote_count": 2103
 }

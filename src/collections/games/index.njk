@@ -6,95 +6,109 @@ permalink: /collections/games/
 {% set section = section or "collections" %}
 {% include "components/dash-nav.njk" %}
 
-<p>
-  <strong>{{ games.stats.ownedCount }}</strong> owned ·
-  <strong>{{ games.stats.wantedCount }}</strong> wanted ·
-  <strong>{{ games.stats.platformsCount }}</strong> platforms ·
-  <strong>{{ games.stats.playingCount }}</strong> playing ·
-  <strong>{{ games.stats.unplayedCount }}</strong> unplayed ·
-  <strong>{{ games.stats.completedCount }}</strong> completed
-</p>
+<div class="grid grid-9-3 gap-2">
+  <div>
+  {% for platform, items in games.byPlatform %}
+    <h2 class="gamma" id="platform-{{ platform | slug }}">{{ platform }}</h2>
 
-<h3>Owned</h3>
-
-{% if games.platforms and games.platforms.length %}
-  <div class="platform-nav">
-    <p>
-      <strong>Platforms:</strong>
-    {% for p in games.platforms %}
-      <a href="#platform-{{ p | slug }}">{{ p }}</a>{% if not loop.last %} · {% endif %}
-    {% endfor %}
-    </p>
-  </div>
-{% endif %}
-
-{% for platform, items in games.byPlatform %}
-  <h4 id="platform-{{ platform | slug }}">{{ platform }}</h4>
-
-  <div class="media-grid">
-    {% for g in items %}
-      <article class="media-card">
-        <div class="media-thumb">
-          {% if g.cover %}
-            {% if g.url %}<a href="{{ g.url }}" aria-label="{{ g.title }}">{% endif %}
-              <img src="{{ g.cover }}" alt="{{ g.title }} cover" loading="lazy">
-            {% if g.url %}</a>{% endif %}
-          {% else %}
-            <span class="media-meta">No cover</span>
-          {% endif %}
+    <div class="media-grid u-mb-2">
+      {% for g in items %}
+      <div class="media-card">
+        <div>
+        {% if g.cover %}
+          <img class="media-card__poster media-card__poster-3-3" src="{{ g.cover }}" alt="{{ g.title }} cover" loading="lazy">
+        {% else %}
+        <div class="media-card__meta">
+          <span>No cover</span>
+        </div>
+        {% endif %}
         </div>
 
-        <div class="media-body">
-          <p class="media-title">
+        <div class="media-card__body">
+          <h3 class="media-card__title">
             {% if g.url %}
-              <a href="{{ g.url }}">{{ g.title }}</a>
+            <a href="{{ g.url }}">{{ g.title }}</a>
             {% else %}
-              {{ g.title }}
+            {{ g.title }}
             {% endif %}
-          </p>
+          </h3>
 
-          <p class="media-meta">
-            {% if g.releaseYear %}{{ g.releaseYear }}{% endif %}
-          </p>
+          <div class="media-card__meta">
+            {% if g.releaseYear %}<span>{{ g.releaseYear }}</span>{% endif %}
+            {% if g.notes %}<span>{{ g.notes }}</span>{% endif %}
+          </div>
 
+          {% if g.playStatus %}
           <div class="media-badges">
             <span class="badge">{{ g.playStatus }}</span>
           </div>
-
-          {% if g.notes %}
-            <p class="media-meta" style="margin-top:.6rem">{{ g.notes }}</p>
           {% endif %}
         </div>
-      </article>
-    {% endfor %}
-  </div>
-{% endfor %}
-
-<h3>Wanted</h3>
-
-{% if games.wanted.length == 0 %}
-  <p>Nothing on the wanted list right now.</p>
-{% endif %}
-
-{% if games.platformsWanted and games.platformsWanted.length %}
-  <div class="platform-nav">
-    <p>
-      <strong>Platforms:</strong>
-      {% for p in games.platformsWanted %}
-        <a href="#platform-wanted-{{ p | slug }}">{{ p }}</a>{% if not loop.last %} · {% endif %}
+      </div>
       {% endfor %}
-    </p>
-  </div>
-{% endif %}
+    </div>
+  {% endfor %}
+    <div>
+      <h3>Wanted</h3>
 
-{% for platform, items in games.byPlatformWanted %}
-  <h4 id="platform-wanted-{{ platform | slug }}">{{ platform }}</h4>
-  <ul>
-    {% for g in items %}
-      <li>
-        {% if g.url %}<a href="{{ g.url }}">{{ g.title }}</a>{% else %}{{ g.title }}{% endif %}
-        {% if g.releaseYear %} ({{ g.releaseYear }}){% endif %}
-      </li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+      {% if games.wanted.length == 0 %}
+        <p>Nothing on the wanted list right now.</p>
+      {% endif %}
+
+      {% if games.platformsWanted and games.platformsWanted.length %}
+        <div class="platform-nav">
+          <p>
+            <strong>Platforms:</strong>
+            {% for p in games.platformsWanted %}
+              <a href="#platform-wanted-{{ p | slug }}">{{ p }}</a>{% if not loop.last %} · {% endif %}
+            {% endfor %}
+          </p>
+        </div>
+      {% endif %}
+
+      {% for platform, items in games.byPlatformWanted %}
+        <h4 id="platform-wanted-{{ platform | slug }}">{{ platform }}</h4>
+        <ul class="media-card__list">
+          {% for g in items %}
+            <li class="media-card__list-item">
+              {% if g.url %}<a href="{{ g.url }}">{{ g.title }}</a>{% else %}{{ g.title }}{% endif %}
+              {% if g.releaseYear %} ({{ g.releaseYear }}){% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="sidebar meta">
+    {% if games.platforms and games.platforms.length %}
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-directions" /></svg>
+      <span>In this section</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+      {% for p in games.platforms %}
+        <li><a href="#platform-{{ p | slug }}">{{ p }}</a></li>
+      {% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
+
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+
+      <p>I own <strong>{{ games.stats.ownedCount }}</strong> games across <strong>{{ games.stats.platformsCount }}</strong> platforms, and have <strong>{{ games.stats.wantedCount }}</strong> in my wanted list.</p>
+      {% if games.stats.playingCount %}<p> I am currently playing <strong>{{ games.stats.playingCount }}</strong> games.</p>{% endif %}
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

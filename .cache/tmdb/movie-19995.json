@@ -10,16 +10,16 @@
   "budget": 237000000,
   "genres": [
     {
+      "id": 878,
+      "name": "Science Fiction"
+    },
+    {
       "id": 28,
       "name": "Action"
     },
     {
       "id": 12,
       "name": "Adventure"
-    },
-    {
-      "id": 878,
-      "name": "Science Fiction"
     }
   ],
   "homepage": "https://www.avatar.com/movies/avatar",
@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "Avatar",
   "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
-  "popularity": 26.3608,
+  "popularity": 33.5925,
   "poster_path": "/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
   "production_companies": [
     {
@@ -89,5 +89,5 @@
   "title": "Avatar",
   "video": false,
   "vote_average": 7.6,
-  "vote_count": 33647
+  "vote_count": 33763
 }

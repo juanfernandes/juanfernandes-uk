@@ -275,3 +275,7 @@ p {
 .cf:after {
   clear: both;
 }
+
+article + article {
+  margin-top: 1.6rem;
+}

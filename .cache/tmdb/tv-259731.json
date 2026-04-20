@@ -38,7 +38,7 @@
     "id": 6665657,
     "name": "Episode 6",
     "overview": "As the case comes to a close, Jack and Anna must reckon with the sins of the past — and the brutal consequences in the present.",
-    "vote_average": 5.279,
+    "vote_average": 5.3,
     "vote_count": 34,
     "air_date": "2026-01-08",
     "episode_number": 6,
@@ -67,8 +67,8 @@
   "original_language": "en",
   "original_name": "HIS & HERS",
   "overview": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
-  "popularity": 17.1421,
-  "poster_path": "/vRXw6fUD9B4RhMoTvhcJcnHYIMP.jpg",
+  "popularity": 12.6986,
+  "poster_path": "/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
   "production_companies": [
     {
       "id": 181874,
@@ -86,6 +86,24 @@
       "id": 197821,
       "logo_path": "/7Di681ml6mBfrWPA8o34cgSdwoe.png",
       "name": "Viva Maude",
+      "origin_country": "US"
+    },
+    {
+      "id": 286014,
+      "logo_path": null,
+      "name": "Small Wishes",
+      "origin_country": "US"
+    },
+    {
+      "id": 295031,
+      "logo_path": null,
+      "name": "Campout Productions",
+      "origin_country": ""
+    },
+    {
+      "id": 216765,
+      "logo_path": null,
+      "name": "Headhunter Films",
       "origin_country": "US"
     }
   ],
@@ -117,6 +135,6 @@
   "status": "Ended",
   "tagline": "Two sides. One killer secret.",
   "type": "Miniseries",
-  "vote_average": 7.286,
-  "vote_count": 357
+  "vote_average": 7.29,
+  "vote_count": 377
 }
