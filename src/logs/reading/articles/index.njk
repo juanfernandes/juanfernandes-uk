@@ -25,7 +25,7 @@ tags:
     {%- for item in pagination.items %}
     <div class="link">
       <div class="link__details">
-        <h3><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></h3>
+        <h3><a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
         {% if item.content %}<p>{{ item.content }}</p>{% endif %}
         {% if item.date %}
         <div class="link__meta">
