@@ -7600,6 +7600,14 @@
       "episode": 7,
       "tmdbId": 64199,
       "watchedOn": "2026-04-20"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-21",
+      "season": 1,
+      "episode": 8
     }
   ]
 }
