@@ -13,34 +13,34 @@ permalink: /logs/watching/
     {% set latestFilm = watch.movies[0] %}
     {% set latestEp = watch.tvEpisodes[0] %}
 
-    <div class="media-grid media-grid--2-col">
-      <section class="media-card">
-        <div class="media-card__body">
-          <h2 class="media-card__heading"><a href="/logs/watching/films/">Films</a></h2>
-          <p class="media-card__muted">Latest films and quick year browsing.</p>
+    <div class="dash-grid dash-grid--2-col">
+      <section class="dash-card">
+        <div class="dash-card__body">
+          <h2 class="dash-card__heading"><a href="/logs/watching/films/">Films</a></h2>
+          <p class="dash-card__muted">Latest films and quick year browsing.</p>
 
-          <div class="media-card__latest">
+          <div class="dash-card__latest">
             <h3>Latest film</h3>
             {% if latestFilm %}
-              <div class="media-card__header">
+              <div class="dash-card__header">
               {% if latestFilm.poster %}
                 <img
                   src="{{ latestFilm.poster }}"
                   alt="Poster for {{ latestFilm.title }}"
                   loading="lazy"
-                  class="media-card__poster media-card__poster-3-3"
+                  class="dash-card__poster dash-card__poster-3-3"
                 >
               {% endif %}
                 <div>
-                  <h4 class="media-card__title">
+                  <h4 class="dash-card__title">
                     {% if latestFilm.tmdbUrl %}
                       <a href="{{ latestFilm.tmdbUrl }}" target="_blank" rel="noopener">{{ latestFilm.title }}</a>
-                    {% if latestFilm.year %}<span class="media-card__muted"> ({{ latestFilm.year }})</span>{% endif %}
+                    {% if latestFilm.year %}<span class="dash-card__muted"> ({{ latestFilm.year }})</span>{% endif %}
                     {% else %}
-                      {{ latestFilm.title }}  {% if latestFilm.year %}<span class="media-card__muted"> ({{ latestFilm.year }})</span>{% endif %}
+                      {{ latestFilm.title }}  {% if latestFilm.year %}<span class="dash-card__muted"> ({{ latestFilm.year }})</span>{% endif %}
                     {% endif %}
                   </h4>
-                  <div class="media-card__meta">
+                  <div class="dash-card__meta">
                     {% if latestFilm.watchedOn %}
                     <span>Watched on: {{ latestFilm.watchedOn | dateFilter }}</span>
                     {% endif %}
@@ -56,35 +56,35 @@ permalink: /logs/watching/
                 </div>
               </div>
             {% else %}
-              <p class="media-card__muted">No films logged yet.</p>
+              <p class="dash-card__muted">No films logged yet.</p>
             {% endif %}
           </div>
 
-          <div class="media-card__links">
+          <div class="dash-card__links">
             <a href="/logs/watching/films/">Browse all films →</a>
           </div>
         </div>
       </section>
 
-      <section class="media-card">
-        <div class="media-card__body">
-          <h2 class="media-card__heading"><a href="/logs/watching/tv/">TV</a></h2>
-          <p class="media-card__muted">Episode-level log and show counts.</p>
+      <section class="dash-card">
+        <div class="dash-card__body">
+          <h2 class="dash-card__heading"><a href="/logs/watching/tv/">TV</a></h2>
+          <p class="dash-card__muted">Episode-level log and show counts.</p>
 
-          <div class="media-card__latest">
+          <div class="dash-card__latest">
             <h3>Latest episode</h3>
             {% if latestEp %}
-              <div class="media-card__header">
+              <div class="dash-card__header">
                 {% if latestEp.poster %}
                 <img
                   src="{{ latestEp.poster }}"
                   alt="Poster for {{ latestEp.show }}"
                   loading="lazy"
-                  class="media-card__poster media-card__poster-3-3"
+                  class="dash-card__poster dash-card__poster-3-3"
                 >
                 {% endif %}
                 <div>
-                  <h4 class="media-card__title">
+                  <h4 class="dash-card__title">
                     {% if latestEp.tmdbUrl %}
                     <a href="{{ latestEp.tmdbUrl }}" target="_blank" rel="noopener">{{ latestEp.show }}</a>
                     {% else %}
@@ -92,7 +92,7 @@ permalink: /logs/watching/
                     {% endif %}
                     {% if latestEp.year %}<span class="watch-muted"> ({{ latestEp.year }})</span>{% endif %}
                   </h4>
-                  <div class="media-card__meta">
+                  <div class="dash-card__meta">
                     {% if latestEp.season %}
                     <span>Season {{ latestEp.season }} Episode {{ latestEp.episode }}</span>
                     {% endif %}
@@ -109,11 +109,11 @@ permalink: /logs/watching/
                 </div>
               </div>
             {% else %}
-              <p class="media-card__muted">No TV episodes logged yet.</p>
+              <p class="dash-card__muted">No TV episodes logged yet.</p>
             {% endif %}
           </div>
 
-          <div class="media-card__links">
+          <div class="dash-card__links">
             <a href="/logs/watching/tv/">Browse all TV →</a>
           </div>
         </div>

@@ -15,16 +15,18 @@ tags:
   <div>
     <p class="lead">A running log of the books and articles I’ve read — from longer reads to quick finds, all captured in one place.</p>
 
-    <div class="media-grid media-grid--2-col">
-      <section class="media-card">
-        <div class="media-card__body">
-          <h2 class="media-card__heading"><a href="/logs/reading/books/">Books</a></h2>
-          <p class="media-card__muted">A running log of the books I’ve read, bringing together titles that have informed my thinking, broadened my perspective, or simply been enjoyable to explore.</p>
+    <div class="dash-grid dash-grid--2-col">
+      <section class="dash-card">
+        <div class="dash-card__content">
+          <div>
+            <h2 class="dash-card__title"><a href="/logs/reading/books/">Books</a></h2>
+            <p class="dash-card__muted">A running log of the books I’ve read, bringing together titles that have informed my thinking, broadened my perspective, or simply been enjoyable to explore.</p>
+          </div>
 
-          <div class="media-card__latest">
+          <div class="dash-card__latest">
             <h3>Currently reading</h3>
             {% if currentBook %}
-              <div class="media-card__header">
+              <div class="dash-card__header">
                 {% if currentBook.img %}
                 <img 
                   src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ currentBook.img }}"
@@ -36,7 +38,7 @@ tags:
                 >
                 {% endif %}
                 <div>
-                  <h4 class="media-card__title">
+                  <h4 class="dash-card__title">
                     {% if currentBook.url %}
                       <a href="{{ currentBook.url }}" target="_blank" rel="noopener">{{ currentBook.title }}</a>
                     {% else %}
@@ -44,7 +46,7 @@ tags:
                     {% endif %}
                   </h4>
 
-                  <div class="media-card__meta">
+                  <div class="dash-card__meta">
                     {% if currentBook.author %}
                     <span>{{ currentBook.author }}</span>
                     {% endif %}
@@ -54,90 +56,77 @@ tags:
                   </div>
 
                   {% if currentBook.notes %}
-                    <p class="media-card__muted">{{ currentBook.notes }}</p>
+                    <p class="dash-card__muted">{{ currentBook.notes }}</p>
                   {% endif %}
                 </div>
               </div>
             {% else %}
-              <p class="media-card__muted">Nothing marked as currently reading.</p>
+              <p class="dash-card__muted">Nothing marked as currently reading.</p>
             {% endif %}
-          </div>
 
-          <div class="media-card__latest">
-            <h3>Latest finished book</h3>
             {% if latestFinishedBook %}
-              <div class="media-card__header">
-                {% if latestFinishedBook.img %}
-                  <img 
-                    src="{{ site.cloudinary_url }}w_180,h_276,f_auto/books/{{ latestFinishedBook.img }}.jpg"
-                    alt="Cover for {{ latestFinishedBook.title }}"
-                    loading="lazy"
-                    class="media-card__poster media-card__poster-3-3"
-                  >
+            <h3 class="u-mt-2">Latest finished book</h3>
+            <div>
+              <h4 class="dash-card__title">
+                {% if latestFinishedBook.url %}
+                  <a href="{{ latestFinishedBook.url }}" target="_blank" rel="noopener">{{ latestFinishedBook.title }} - {% if latestFinishedBook.author %}{{ latestFinishedBook.author }}{% endif %}</a>
+                {% else %}
+                  {{ latestFinishedBook.title }} - {% if latestFinishedBook.author %}{{ latestFinishedBook.author }}{% endif %}
                 {% endif %}
-                <div>
-                  <h4 class="media-card__title">
-                    {% if latestFinishedBook.url %}
-                      <a href="{{ latestFinishedBook.url }}" target="_blank" rel="noopener">{{ latestFinishedBook.title }}</a>
-                    {% else %}
-                      {{ latestFinishedBook.title }}
-                    {% endif %}
-                  </h4>
+              </h4>
 
-                  <div class="media-card__meta">
-                    {% if latestFinishedBook.author %}
-                      <span>{{ latestFinishedBook.author }}</span>
-                    {% endif %}
-                    {% if latestFinishedBook.yearRead %}
-                      <span>Finished in {{ latestFinishedBook.yearRead }}</span>
-                    {% endif %}
-                  </div>
-                </div>
+              <div class="dash-card__meta">
+                {% if latestFinishedBook.yearRead %}
+                  <span>Finished in {{ latestFinishedBook.yearRead }}</span>
+                {% endif %}
               </div>
+            </div>
             {% else %}
-              <p class="media-card__muted">No finished books logged yet.</p>
+              <p>No finished books logged yet.</p>
             {% endif %}
           </div>
 
-          <div class="media-card__links">
+          <div class="dash-card__links">
             <a href="/logs/reading/books/">Browse all books →</a>
           </div>
         </div>
       </section>
 
-      <section class="media-card">
-        <div class="media-card__body">
-          <h2 class="media-card__heading"><a href="/logs/reading/articles/">Articles</a></h2>
-          <p class="media-card__muted">Saved reading from around the web, bringing together articles and resources that have informed my thinking, sparked ideas, or been worth returning to later.</p>
+      <section class="dash-card">
+        <div class="dash-card__content">
+          <div>
+            <h2 class="dash-card__title"><a href="/logs/reading/articles/">Articles</a></h2>
+            <p class="dash-card__muted">Saved reading from around the web, bringing together articles and resources that have informed my thinking, sparked ideas, or been worth returning to later.</p>
+          </div>
 
-          <div class="media-card__latest">
+          <div class="dash-card__latest">
             <h3>Latest article</h3>
             {% if latestFinishedArticle %}
-              <div>
-                <h4 class="media-card__title">
-                  {% if latestFinishedArticle.url %}
-                    <a href="{{ latestFinishedArticle.url }}" target="_blank" rel="noopener">{{ latestFinishedArticle.title }}</a>
-                  {% else %}
-                    {{ latestFinishedArticle.title }}
-                  {% endif %}
-                </h4>
+            <div>
+              <h4 class="dash-card__title">
+                {% if latestFinishedArticle.url %}
+                  <a href="{{ latestFinishedArticle.url }}" target="_blank" rel="noopener">{{ latestFinishedArticle.title }}</a>
+                {% else %}
+                  {{ latestFinishedArticle.title }}
+                {% endif %}
+              </h4>
 
-                <div class="media-card__meta">
-                  {% if latestFinishedArticle.date %}
-                    <span>Read on the {{ latestFinishedArticle.date | dateFilter }}</span>
-                  {% endif %}
-                </div>
-
-                {% if latestFinishedArticle.content %}
-                  <p class="media-card__muted u-mt-1">{{ latestFinishedArticle.content }}</p>
+              <div class="dash-card__meta">
+                {% if latestFinishedArticle.date %}
+                  <span>Read on the {{ latestFinishedArticle.date | dateFilter }}</span>
                 {% endif %}
               </div>
+
+              {% if latestFinishedArticle.content %}
+                <p class="u-mt-1">{{ latestFinishedArticle.content }}</p>
+              {% endif %}
+            </div>
             {% else %}
-              <p class="media-card__muted">No articles logged yet.</p>
+            <p>No articles logged yet.</p>
             {% endif %}
           </div>
 
-          <div class="media-card__links">
+          <div class="dash-card__links">
             <a href="/logs/reading/articles/">Browse all articles →</a>
           </div>
         </div>

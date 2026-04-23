@@ -1718,27 +1718,73 @@ footer > .container > .sixteen {
   @media only screen and (min-width: 48em) {
     grid-template-columns: repeat(auto-fill, minmax(242px, 1fr));
   }
+
+  &--2-col {
+    @media only screen and (min-width: 48em) {
+      grid-template-columns: 6fr 6fr;
+    }
+  }
 }
 
 .dash-card {
-  border: 1px solid rgba(0,0,0,.12);
   border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.12);
+  display: flex;
+  flex-direction: row;
   padding: 1rem 1rem 0.9rem;
+  transition: all .3s ease-in-out;
 
-  p {
-    margin-bottom: 1.2rem;
+  &:hover,
+  &:focus {
+    transform: translateY(-4px);
   }
 
-  .dash-title {
+  &__body {
+    width: 100%;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__header {
+    align-items: start;
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 0;
+
+    @media only screen and (min-width: 23.438em) {
+      grid-template-columns: 72px 1fr;
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    margin: 1rem 0 0;
+  }
+
+  &__heading {
+    margin: 0 0 1rem;
+    line-height: 1;
+
     a {
       align-items: center;
       display: inline-flex;
-      font-size: 2.4rem;
       gap: .6rem;
     }
   }
 
-  .dash-stats {
+  &__title {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin: 0 0 1rem;
+  }
+
+  &__stats {
     display: flex;
     flex-wrap: wrap;
     gap: .4rem;
@@ -1757,35 +1803,32 @@ footer > .container > .sixteen {
     white-space: nowrap;
   }
 
-  .dash-actions {
+  &__actions {
     display: flex;
     flex-wrap: wrap;
     gap: .6rem;
   }
 
-  .dash-latest {
+  &__latest {
     margin-top: .9rem;
     padding-top: .85rem;
     border-top: 1px solid rgba(0,0,0,.10);
+    flex-grow: 1;
   }
 
-  .dash-latest h3 {
-    margin: 0 0 .35rem;
-    font-size: 1rem;
-  }
-
-  .dash-muted { 
+  &__muted { 
     opacity: .8;
     margin-bottom: 0;
   }
 
-  .dash-meta {
+  &__meta {
     padding-left: 0;
     margin-bottom: 1rem;
     list-style: none;
 
     span {
       display: block;
+      font-size: 1.4rem;
     }
   }
 }

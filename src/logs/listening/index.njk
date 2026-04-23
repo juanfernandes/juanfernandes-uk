@@ -17,26 +17,28 @@ permalink: /logs/listening/
       <p><strong>{{ lastfmRecent.error }}</strong></p>
     {% else %}
 
-      <div class="media-grid">
-        <section class="media-card">
-          <div class="media-card__body">
-            <h2 class="media-card__heading"><a href="/logs/listening/tracks/">Tracks</a></h2>
-            <p class="media-card__muted">Latest listening and the tracks I’ve had on repeat this week.</p>
+      <div class="dash-grid">
+        <section class="dash-card">
+          <div class="dash-card__content">
+            <div>
+              <h2 class="dash-card__heading"><a href="/logs/listening/tracks/">Tracks</a></h2>
+              <p class="dash-card__muted">Latest listening and the tracks I’ve had on repeat this week.</p>
+            </div>
 
-            <div class="media-card__latest">
+            <div class="dash-card__latest">
               <h3>Latest track</h3>
               {% if lastfmRecent.latestTrack %}
-                <div class="media-card__header">
+                <div class="dash-card__header">
                 {% if lastfmRecent.latestTrack.image %}
                   <img
                     src="{{ lastfmRecent.latestTrack.image }}"
                     alt="{{ lastfmRecent.latestTrack.album }}"
                     loading="lazy"
-                    class="media-card__poster media-card__poster-1-1"
+                    class="dash-card__poster dash-card__poster-1-1"
                   >
                 {% endif %}
                   <div>
-                    <h4 class="media-card__title">
+                    <h4 class="dash-card__title">
                       {% if lastfmRecent.latestTrack.url %}
                       <a href="{{ lastfmRecent.latestTrack.url }}" target="_blank" rel="noopener">
                         {{ lastfmRecent.latestTrack.name }}
@@ -46,7 +48,7 @@ permalink: /logs/listening/
                       {% endif %}
                     </h4>
 
-                    <div class="media-card__meta">
+                    <div class="dash-card__meta">
                       <span>{{ lastfmRecent.latestTrack.artist }}</span>
 
                       {% if lastfmRecent.latestTrack.album %}
@@ -54,42 +56,46 @@ permalink: /logs/listening/
                       {% endif %}
 
                       {% if lastfmRecent.latestTrack.isNowPlaying %}
+                      <div class="media-card__badges">
                         <span class="tag">Now playing</span>
+                      </div>
                       {% endif %}
                     </div>
                   </div>
                 </div>
               </div>
             {% else %}
-              <p class="media-card__muted">No recent tracks available.</p>
+              <p class="dash-card__muted">No recent tracks available.</p>
             {% endif %}
 
-            <div class="media-card__links">
+            <div class="dash-card__links">
               <a href="/logs/listening/tracks/">Browse all tracks →</a>
             </div>
           </div>
         </section>
-        <section class="media-card">
-          <div class="media-card__body">
-            <h2 class="media-card__heading"><a href="/logs/listening/albums/">Albums</a></h2>
-            <p class="media-card__muted">The album that’s had the heaviest rotation this week.</p>
+        <section class="dash-card">
+          <div class="dash-card__content">
+            <div>
+              <h2 class="dash-card__heading"><a href="/logs/listening/albums/">Albums</a></h2>
+              <p class="dash-card__muted">The album that’s had the heaviest rotation this week.</p>
+            </div>
 
             {% set topAlbum = lastfmRecent.weekTopAlbumsTop10[0] %}
 
-            <div class="media-card__latest">
+            <div class="dash-card__latest">
               <h3>Top album this week</h3>
               {% if topAlbum %}
-              <div class="media-card__header">
+              <div class="dash-card__header">
                 {% if topAlbum.image %}
                 <img
                   src="{{ topAlbum.image }}"
                   alt="{{ topAlbum.album }} by {{ topAlbum.artist }}"
                   loading="lazy"
-                  class="media-card__poster media-card__poster-1-1"
+                  class="dash-card__poster dash-card__poster-1-1"
                 >
                 {% endif %}
                 <div>
-                  <h4 class="media-card__title">
+                  <h4 class="dash-card__title">
                     {% if topAlbum.url %}
                       <a href="{{ topAlbum.url }}" target="_blank" rel="noopener">
                         {{ topAlbum.album }}
@@ -99,41 +105,45 @@ permalink: /logs/listening/
                     {% endif %}
                   </h4>
 
-                  <div class="media-card__meta">
+                  <div class="dash-card__meta">
                     <span>{{ topAlbum.artist }}</span>
                     <span>{{ topAlbum.plays }} plays this week</span>
+                  </div>
                   </div>
                 </div>
               </div>
               {% else %}
-              <p class="media-card__muted">No album data available this week.</p>
+              <p class="dash-card__muted">No album data available this week.</p>
               {% endif %}
 
-            <div class="media-card__links">
+            <div class="dash-card__links">
               <a href="/logs/listening/albums/">Browse all albums →</a>
             </div>
           </div>
         </section>
-        <section class="media-card">
-          <div class="media-card__body">
-            <h2 class="media-card__heading"><a href="/logs/listening/artists/">Artists</a></h2>
-            <p class="media-card__muted">The artists I’ve been returning to most over the last week.</p>
 
-            <div class="media-card__latest">
+        <section class="dash-card">
+          <div class="dash-card__content">
+            <div>
+              <h2 class="dash-card__heading"><a href="/logs/listening/artists/">Artists</a></h2>
+              <p class="dash-card__muted">The artists I’ve been returning to most over the last week.</p>
+            </div>
+
+            <div class="dash-card__latest">
               <h3>Top artist this week</h3>
               {% set topArtist = lastfmRecent.weekTopArtistsTop10[0] %}
               {% if topArtist %}
-                <div class="media-card__header">
+                <div class="dash-card__header">
                   {% if topArtist.image %}
                   <img
                     src="{{ topArtist.image }}"
                     alt="{{ topArtist.name }}"
                     loading="lazy"
-                    class="media-card__poster media-card__poster-1-1"
+                    class="dash-card__poster dash-card__poster-1-1"
                   >
                   {% endif %}
                   <div>
-                    <h4 class="media-card__title">
+                    <h4 class="dash-card__title">
                       {% if topArtist.url %}
                         <a href="{{ topArtist.url }}" target="_blank" rel="noopener">{{ topArtist.name }}</a>
                       {% else %}
@@ -141,17 +151,17 @@ permalink: /logs/listening/
                       {% endif %}
                     </h4>
 
-                    <div class="media-card__meta">
+                    <div class="dash-card__meta">
                       <span>{{ topArtist.plays }} plays this week</span>
                     </div>
                   </div>
                 </div>
               {% else %}
-                <p class="media-card__muted">No top artist available this week.</p>
+                <p class="dash-card__muted">No top artist available this week.</p>
               {% endif %}
             </div>
 
-            <div class="media-card__links">
+            <div class="dash-card__links">
               <a href="/logs/listening/artists/">Browse all artists →</a>
             </div>
           </div>

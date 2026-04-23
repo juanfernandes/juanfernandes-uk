@@ -14,168 +14,186 @@ permalink: /collections/
 
 <div class="dash-grid">
   <section class="dash-card">
-    <h3 class="dash-title">
-      <a href="/collections/lego/">
-        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-brick" /></svg>
-        <span>Lego</span>
-      </a>
-    </h3>
-    <p class="dash-meta">A collection of sets owned and on the wishlist.</p>
-
-    <ul class="dash-stats">
-      <li class="pill">{{ lego.stats.ownedCount }} owned</li>
-      <li class="pill">{{ lego.stats.wantedCount }} wanted</li>
-      <li class="pill">{{ lego.stats.ownedPieces }} pieces</li>
-      {% if lego.stats.builtCount is defined %}<li class="pill">{{ lego.stats.builtCount }} built</li>{% endif %}
-    </ul>
-
-    <div class="dash-latest">
-      <h4>Latest owned set</h4>
-      {% if latestLego %}
-        <div>
-          <p><strong>{% if latestLego.url %}<a href="{{ latestLego.url }}">{{ latestLego.setNumber }} — {{ latestLego.name }}</a>{% else %}{{ latestLego.setNumber }} — {{ latestLego.name }}{% endif %}</strong></p>
-          <div class="dash-meta">
-            {% if latestLego.theme %}
-            <span>Theme: {{ latestLego.theme }}</span>
-            {% endif %}
-            {% if latestLego.acquiredOn %}
-            <span>Added on: {{ latestLego.acquiredOn | dateFilter }}</span>
-            {% endif %}
-          </div>
-        </div>
-      {% else %}
-        <p class="dash-muted">No LEGO sets added yet.</p>
-      {% endif %}
-    </div>
-
-    <div class="dash-actions">
-      <span><a href="/collections/lego/">View Lego</a> →</span>
-    </div>
-  </section>
-
-  <section class="dash-card">
-    <h3 class="dash-title">
-      <a href="/collections/games/">
-        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-controller" /></svg>
-        <span>Games</span>
-      </a>
-    </h3>
-    <p class="dash-meta">Owned + wanted games, grouped by platform.</p>
-
-    <ul class="dash-stats">
-      <li class="pill">{{ games.stats.ownedCount }} owned</li>
-      <li class="pill">{{ games.stats.wantedCount }} wanted</li>
-      <li class="pill">{{ games.stats.platformsCount }} platforms</li>
-      <li class="pill">{{ games.stats.playingCount }} playing</li>
-    </ul>
-
-    <div class="dash-latest">
-      <h4>Latest owned game</h4>
-      {% if latestGame %}
+    <div class="dash-card__content">
       <div>
-        <p><strong>{% if latestGame.url %}<a href="{{ latestGame.url }}">{{ latestGame.title }}</a>{% else %}{{ latestGame.title }}{% endif %}</strong></p>
-        <div class="dash-meta">
-          {% if latestGame.platform %}
-          <span>Platform: {{ latestGame.platform }}</span>
-          {% endif %}
-          {% if latestGame.playStatus %}
-          <span>Status: {{ latestGame.playStatus | capitalize }}</span>
-          {% endif %}
-          {% if latestGame.acquiredOn %}
-          <span>Added on: {{ latestGame.acquiredOn | dateFilter }}</span>
-          {% endif %}
-        </div>
+        <h3 class="dash-card__heading">
+          <a href="/collections/lego/">
+            <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-brick" /></svg>
+            <span>Lego</span>
+          </a>
+        </h3>
+        <p class="dash-card__meta">A collection of sets owned and on the wishlist.</p>
+
+        <ul class="dash-card__stats">
+          <li class="pill">{{ lego.stats.ownedCount }} owned</li>
+          <li class="pill">{{ lego.stats.wantedCount }} wanted</li>
+          <li class="pill">{{ lego.stats.ownedPieces }} pieces</li>
+          {% if lego.stats.builtCount is defined %}<li class="pill">{{ lego.stats.builtCount }} built</li>{% endif %}
+        </ul>
       </div>
-      {% else %}
-        <p class="dash-muted">No games added yet.</p>
-      {% endif %}
-    </div>
 
-    <div class="dash-actions">
-      <span><a href="/collections/games/">View Games</a> →</span>
+      <div class="dash-card__latest">
+        <h4>Latest owned set</h4>
+        {% if latestLego %}
+          <div>
+            <p><strong>{% if latestLego.url %}<a href="{{ latestLego.url }}">{{ latestLego.setNumber }} — {{ latestLego.name }}</a>{% else %}{{ latestLego.setNumber }} — {{ latestLego.name }}{% endif %}</strong></p>
+            <div class="dash-card__meta">
+              {% if latestLego.theme %}
+              <span>Theme: {{ latestLego.theme }}</span>
+              {% endif %}
+              {% if latestLego.acquiredOn %}
+              <span>Added on: {{ latestLego.acquiredOn | dateFilter }}</span>
+              {% endif %}
+            </div>
+          </div>
+        {% else %}
+          <p class="dash-card__muted">No LEGO sets added yet.</p>
+        {% endif %}
+      </div>
+
+      <div class="dash-card__actions">
+        <span><a href="/collections/lego/">View Lego</a> →</span>
+      </div>
+      
     </div>
   </section>
 
   <section class="dash-card">
-    <h3 class="dash-title">
-      <a href="/collections/music/">
-        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-disc" /></svg>
-        <span>Music</span>
-      </a>
-    </h3>
-    <p class="dash-meta">Physical collection (vinyl now, CDs later), grouped by folder.</p>
+    <div class="dash-card__content">
+      <div>
+        <h3 class="dash-card__heading">
+          <a href="/collections/games/">
+            <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-controller" /></svg>
+            <span>Games</span>
+          </a>
+        </h3>
+        <p class="dash-card__meta">Owned + wanted games, grouped by platform.</p>
 
-    <ul class="dash-stats">
-      <li class="pill">{{ music.stats.total }} items</li>
-      <li class="pill">{{ music.stats.vinylCount }} vinyl</li>
-      <li class="pill">{{ music.stats.cdCount }} CDs</li>
-      {% if music.folders %}<li class="pill">{{ music.folders.length }} folders</li>{% endif %}
-    </ul>
+        <ul class="dash-card__stats">
+          <li class="pill">{{ games.stats.ownedCount }} owned</li>
+          <li class="pill">{{ games.stats.wantedCount }} wanted</li>
+          <li class="pill">{{ games.stats.platformsCount }} platforms</li>
+          <li class="pill">{{ games.stats.playingCount }} playing</li>
+        </ul>
+      </div>
 
-    <div class="dash-latest">
-      <h4>Latest added</h4>
-      {% if latestRecord %}
+      <div class="dash-card__latest">
+        <h4>Latest owned game</h4>
+        {% if latestGame %}
         <div>
-          <p>{% if latestRecord.url %}<a href="{{ latestRecord.url }}"><strong>{{ latestRecord.artist }} — {{ latestRecord.title }}</strong></a>
-          {% else %}
-          <strong>{{ latestRecord.artist }} — {{ latestRecord.title }}</strong>{% endif %}</p>
-
-          <div class="dash-meta">
-            {% if latestRecord.folder %}
-            <span>Genre: {{ latestRecord.folder }}</span>
+          <p><strong>{% if latestGame.url %}<a href="{{ latestGame.url }}">{{ latestGame.title }}</a>{% else %}{{ latestGame.title }}{% endif %}</strong></p>
+          <div class="dash-card__meta">
+            {% if latestGame.platform %}
+            <span>Platform: {{ latestGame.platform }}</span>
             {% endif %}
-            {% if latestRecord.media %}
-            <span>Format: {{ latestRecord.media | capitalize }}</span>
+            {% if latestGame.playStatus %}
+            <span>Status: {{ latestGame.playStatus | capitalize }}</span>
             {% endif %}
-            {% if latestRecord.addedOn %}
-            <span>Added on: {{ latestRecord.addedOn | dateFilter }}</span>
+            {% if latestGame.acquiredOn %}
+            <span>Added on: {{ latestGame.acquiredOn | dateFilter }}</span>
             {% endif %}
           </div>
         </div>
-      {% endif %}
-    </div>
+        {% else %}
+          <p class="dash-card__muted">No games added yet.</p>
+        {% endif %}
+      </div>
 
-    <div class="dash-actions">
-      <span><a href="/collections/music/">View Music</a> →</span>
+      <div class="dash-card__actions">
+        <span><a href="/collections/games/">View Games</a> →</span>
+      </div>
+      
     </div>
   </section>
 
   <section class="dash-card">
-    <h3 class="dash-title">
-      <a href="/collections/funko-pops/">
-        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-box" /></svg>
-        <span>Funko Pops</span>
-      </a>
-    </h3>
-    <p class="dash-meta">My collection of Funko Pops from film, TV, comics, music & more.</p>
+    <div class="dash-card__content">
+      <div>
+        <h3 class="dash-card__heading">
+          <a href="/collections/music/">
+            <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-disc" /></svg>
+            <span>Music</span>
+          </a>
+        </h3>
+        <p class="dash-card__meta">Physical collection (vinyl now, CDs later), grouped by folder.</p>
 
-    <ul class="dash-stats">
-      <li class="pill">{{ funko.stats.total }} owned</li>
-      <li class="pill">{{ funko.stats.franchiseCount }} franchises</li>
-      <li class="pill">£{{ funko.stats.totalEstimatedValue }}</li>
-    </ul>
+        <ul class="dash-card__stats">
+          <li class="pill">{{ music.stats.total }} items</li>
+          <li class="pill">{{ music.stats.vinylCount }} vinyl</li>
+          <li class="pill">{{ music.stats.cdCount }} CDs</li>
+          {% if music.folders %}<li class="pill">{{ music.folders.length }} folders</li>{% endif %}
+        </ul>
+      </div>
 
-    <div class="dash-latest">
-      <h4>Latest owned figure</h4>
-      {% if funko.latestAdded %}
-        <div>
-          <p><strong>{{ funko.latestAdded.name }}</strong></p>
-          <div class="dash-meta">
-            {% if funko.latestAdded.franchise %}
-            <span>Franchise: {{ funko.latestAdded.franchise }}</span>
-            {% endif %}
-            {% if funko.latestAdded.addedOn %}
-            <span>Added on: {{ funko.latestAdded.addedOn | dateFilter }}</span>
-            {% endif %}
+      <div class="dash-card__latest">
+        <h4>Latest added</h4>
+        {% if latestRecord %}
+          <div>
+            <p>{% if latestRecord.url %}<a href="{{ latestRecord.url }}"><strong>{{ latestRecord.artist }} — {{ latestRecord.title }}</strong></a>
+            {% else %}
+            <strong>{{ latestRecord.artist }} — {{ latestRecord.title }}</strong>{% endif %}</p>
+
+            <div class="dash-card__meta">
+              {% if latestRecord.folder %}
+              <span>Genre: {{ latestRecord.folder }}</span>
+              {% endif %}
+              {% if latestRecord.media %}
+              <span>Format: {{ latestRecord.media | capitalize }}</span>
+              {% endif %}
+              {% if latestRecord.addedOn %}
+              <span>Added on: {{ latestRecord.addedOn | dateFilter }}</span>
+              {% endif %}
+            </div>
           </div>
-        </div>
-      {% else %}
-        <p class="dash-muted">No Funko Pops added yet.</p>
-      {% endif %}
-    </div>
+        {% endif %}
+      </div>
 
-    <div class="dash-actions">
-      <span><a href="/collections/funko-pops/">View Funko Pops</a> →</span>
+      <div class="dash-card__actions">
+        <span><a href="/collections/music/">View Music</a> →</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="dash-card">
+    <div class="dash-card__content">
+      <div>
+        <h3 class="dash-card__heading">
+          <a href="/collections/funko-pops/">
+            <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-box" /></svg>
+            <span>Funko Pops</span>
+          </a>
+        </h3>
+        <p class="dash-card__meta">My collection of Funko Pops from film, TV, comics, music & more.</p>
+
+        <ul class="dash-card__stats">
+          <li class="pill">{{ funko.stats.total }} owned</li>
+          <li class="pill">{{ funko.stats.franchiseCount }} franchises</li>
+          <li class="pill">£{{ funko.stats.totalEstimatedValue }}</li>
+        </ul>
+      </div>
+
+      <div class="dash-card__latest">
+        <h4>Latest owned figure</h4>
+        {% if funko.latestAdded %}
+          <div>
+            <p><strong>{{ funko.latestAdded.name }}</strong></p>
+            <div class="dash-card__meta">
+              {% if funko.latestAdded.franchise %}
+              <span>Franchise: {{ funko.latestAdded.franchise }}</span>
+              {% endif %}
+              {% if funko.latestAdded.addedOn %}
+              <span>Added on: {{ funko.latestAdded.addedOn | dateFilter }}</span>
+              {% endif %}
+            </div>
+          </div>
+        {% else %}
+          <p class="dash-card__muted">No Funko Pops added yet.</p>
+        {% endif %}
+      </div>
+
+      <div class="dash-card__actions">
+        <span><a href="/collections/funko-pops/">View Funko Pops</a> →</span>
+      </div>
     </div>
   </section>
 </div>
