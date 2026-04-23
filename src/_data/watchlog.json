@@ -1,6 +1,614 @@
 {
   "entries": [
     {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-22",
+      "season": 1,
+      "episode": 9
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-22",
+      "season": 1,
+      "episode": 10
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-21",
+      "season": 1,
+      "episode": 8
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "watchedOn": "2026-04-20",
+      "tmdbId": 64199,
+      "season": 1,
+      "episode": 6
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "season": 1,
+      "episode": 7,
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-20"
+    },
+    {
+      "rewatch": false,
+      "type": "movie",
+      "tmdbId": 1317149,
+      "watchedOn": "2026-04-19",
+      "rating": 4
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-15",
+      "season": 1,
+      "episode": 5
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-14",
+      "season": 1,
+      "episode": 4
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-13",
+      "season": 1,
+      "episode": 2
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 64199,
+      "watchedOn": "2026-04-13",
+      "season": 1,
+      "episode": 3
+    },
+    {
+      "rewatch": false,
+      "type": "movie",
+      "tmdbId": 1290417,
+      "watchedOn": "2026-04-12"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "watchedOn": "2026-04-12",
+      "season": 1,
+      "episode": 1,
+      "tmdbId": 64199
+    },
+    {
+      "rewatch": false,
+      "watchedOn": "2026-04-11",
+      "type": "tv",
+      "tmdbId": 316898,
+      "season": 1,
+      "episode": 4
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 316898,
+      "season": 1,
+      "episode": 1,
+      "watchedOn": "2026-04-10"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 316898,
+      "watchedOn": "2026-04-10",
+      "season": 1,
+      "episode": 2
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 316898,
+      "watchedOn": "2026-04-10",
+      "season": 1,
+      "episode": 3
+    },
+    {
+      "rewatch": false,
+      "tmdbId": 248126,
+      "watchedOn": "2026-04-06",
+      "type": "tv",
+      "season": 2,
+      "episode": 1
+    },
+    {
+      "rewatch": false,
+      "type": "movie",
+      "tmdbId": 404378,
+      "watchedOn": "2026-04-03"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-04-03",
+      "season": 9,
+      "episode": 24,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "watchedOn": "2026-04-03",
+      "displayAs": null,
+      "tmdbId": 248126,
+      "season": 1,
+      "episode": 5,
+      "type": "tv"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-04-02",
+      "season": 9,
+      "episode": 23,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 248126,
+      "watchedOn": "2026-04-02",
+      "season": 1,
+      "episode": 2
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 248126,
+      "watchedOn": "2026-04-02",
+      "season": 1,
+      "episode": 3
+    },
+    {
+      "rewatch": false,
+      "tmdbId": 248126,
+      "type": "tv",
+      "watchedOn": "2026-04-02",
+      "season": 1,
+      "episode": 4
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-04-01",
+      "season": 9,
+      "episode": 22,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-31",
+      "season": 9,
+      "episode": 21,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-30",
+      "season": 9,
+      "episode": 20,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-29",
+      "season": 9,
+      "episode": 19,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-28",
+      "season": 9,
+      "episode": 18,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-27",
+      "season": 9,
+      "episode": 17,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 316295,
+      "watchedOn": "2026-03-27",
+      "season": 1,
+      "episode": 1
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-26",
+      "season": 9,
+      "episode": 16,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 248126,
+      "watchedOn": "2026-03-26",
+      "season": 1,
+      "episode": 1
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-25",
+      "season": 9,
+      "episode": 15,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 128904,
+      "watchedOn": "2026-03-25",
+      "season": 1,
+      "episode": 5
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 128904,
+      "watchedOn": "2026-03-25",
+      "season": 1,
+      "episode": 6
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-24",
+      "season": 9,
+      "episode": 14,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 128904,
+      "watchedOn": "2026-03-24",
+      "season": 1,
+      "episode": 4
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-23",
+      "season": 9,
+      "episode": 13,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-22",
+      "season": 9,
+      "episode": 12,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 128904,
+      "watchedOn": "2026-03-22",
+      "season": 1,
+      "episode": 3
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-21",
+      "season": 9,
+      "episode": 11,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 128904,
+      "watchedOn": "2026-03-21",
+      "season": 1,
+      "episode": 2
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-20",
+      "season": 9,
+      "episode": 10,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "watchedOn": "2026-03-20",
+      "tmdbId": 128904,
+      "type": "tv",
+      "season": 1,
+      "episode": 1
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-19",
+      "season": 9,
+      "episode": 9,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-18",
+      "season": 9,
+      "episode": 8,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "movie",
+      "tmdbId": 1005342,
+      "watchedOn": "2026-03-17"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-17",
+      "season": 9,
+      "episode": 7,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-16",
+      "season": 9,
+      "episode": 6,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 206492,
+      "watchedOn": "2026-03-16",
+      "season": 1,
+      "episode": 1
+    },
+    {
+      "rewatch": false,
+      "type": "movie",
+      "tmdbId": 1591516,
+      "watchedOn": "2026-03-15",
+      "rating": 2.5
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-15",
+      "season": 9,
+      "episode": 5,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-14",
+      "season": 9,
+      "episode": 4,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-13",
+      "season": 9,
+      "episode": 3,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "movie",
+      "tmdbId": 1229958,
+      "watchedOn": "2026-03-12",
+      "rating": 2
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-12",
+      "season": 9,
+      "episode": 2,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 106379,
+      "watchedOn": "2026-03-12",
+      "season": 2,
+      "episode": 8
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-11",
+      "season": 9,
+      "episode": 1,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 106379,
+      "watchedOn": "2026-03-11",
+      "season": 2,
+      "episode": 7
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-10",
+      "season": 8,
+      "episode": 23,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "tmdbId": 106379,
+      "watchedOn": "2026-03-10",
+      "season": 2,
+      "episode": 5
+    },
+    {
+      "rewatch": false,
+      "tmdbId": 106379,
+      "type": "tv",
+      "watchedOn": "2026-03-10",
+      "season": 2,
+      "episode": 6
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-09",
+      "season": 8,
+      "episode": 22,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2026-03-09",
       "poster": "https://image.tmdb.org/t/p/w342/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
@@ -20,6 +628,18 @@
       "rating": 3
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-08",
+      "season": 8,
+      "episode": 21,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2026-03-08",
       "poster": "https://image.tmdb.org/t/p/w342/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
@@ -30,6 +650,18 @@
       "rewatch": false,
       "year": 2024,
       "show": "Fallout"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-07",
+      "season": 8,
+      "episode": 20,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 2,
@@ -44,6 +676,30 @@
       "show": "Fallout"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-06",
+      "season": 8,
+      "episode": 19,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-05",
+      "season": 8,
+      "episode": 18,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2026-03-05",
       "poster": "https://image.tmdb.org/t/p/w342/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
@@ -54,6 +710,30 @@
       "rewatch": false,
       "year": 2024,
       "show": "Fallout"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-04",
+      "season": 8,
+      "episode": 17,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-03",
+      "season": 8,
+      "episode": 16,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 3,
@@ -90,6 +770,42 @@
       "rewatch": false,
       "year": 2017,
       "show": "Absentia"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-02",
+      "season": 8,
+      "episode": 15,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-03-01",
+      "season": 8,
+      "episode": 14,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-28",
+      "season": 8,
+      "episode": 13,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 2,
@@ -248,6 +964,18 @@
       "show": "Absentia"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-27",
+      "season": 8,
+      "episode": 12,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2026-02-27",
       "poster": "https://image.tmdb.org/t/p/w342/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
@@ -282,6 +1010,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Absentia"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-26",
+      "season": 8,
+      "episode": 11,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 2,
@@ -296,6 +1036,18 @@
       "show": "Absentia"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-25",
+      "season": 8,
+      "episode": 10,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2026-02-25",
       "poster": "https://image.tmdb.org/t/p/w342/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
@@ -306,6 +1058,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Absentia"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-24",
+      "season": 8,
+      "episode": 9,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 2,
@@ -320,6 +1084,18 @@
       "show": "Absentia"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-23",
+      "season": 8,
+      "episode": 8,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-02-23",
       "poster": "https://image.tmdb.org/t/p/w342/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
@@ -330,6 +1106,26 @@
       "rewatch": false,
       "year": 2017,
       "show": "Absentia"
+    },
+    {
+      "rewatch": false,
+      "type": "tv",
+      "displayAs": "movie",
+      "tmdbId": 313338,
+      "watchedOn": "2026-02-23",
+      "rating": 1.5
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-22",
+      "season": 8,
+      "episode": 7,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -344,6 +1140,18 @@
       "show": "Absentia"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-21",
+      "season": 8,
+      "episode": 6,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-02-21",
       "poster": "https://image.tmdb.org/t/p/w342/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
@@ -354,6 +1162,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Absentia"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-20",
+      "season": 8,
+      "episode": 5,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -368,6 +1188,18 @@
       "show": "Absentia"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-19",
+      "season": 8,
+      "episode": 4,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-02-19",
       "poster": "https://image.tmdb.org/t/p/w342/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
@@ -378,6 +1210,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Absentia"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-18",
+      "season": 8,
+      "episode": 3,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -392,6 +1236,18 @@
       "show": "Absentia"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-17",
+      "season": 8,
+      "episode": 2,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-02-17",
       "poster": "https://image.tmdb.org/t/p/w342/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
@@ -402,6 +1258,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Absentia"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-16",
+      "season": 8,
+      "episode": 1,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -416,6 +1284,18 @@
       "show": "Absentia"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-15",
+      "season": 7,
+      "episode": 24,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-02-15",
       "poster": "https://image.tmdb.org/t/p/w342/t3yVaAlmCLBwbqTrKGcWHwuCmkh.jpg",
@@ -426,6 +1306,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Absentia"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-14",
+      "season": 7,
+      "episode": 23,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -440,6 +1332,66 @@
       "show": "Absentia"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-13",
+      "season": 7,
+      "episode": 22,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-12",
+      "season": 7,
+      "episode": 21,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-11",
+      "season": 7,
+      "episode": 20,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-10",
+      "season": 7,
+      "episode": 19,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-09",
+      "season": 7,
+      "episode": 18,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-02-09",
       "poster": "https://image.tmdb.org/t/p/w342/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
@@ -450,6 +1402,18 @@
       "rewatch": false,
       "year": 2021,
       "show": "John Wayne Gacy: Devil in Disguise"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-08",
+      "season": 7,
+      "episode": 17,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -464,6 +1428,18 @@
       "show": "John Wayne Gacy: Devil in Disguise"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-07",
+      "season": 7,
+      "episode": 16,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-02-07",
       "poster": "https://image.tmdb.org/t/p/w342/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
@@ -474,6 +1450,18 @@
       "rewatch": false,
       "year": 2021,
       "show": "John Wayne Gacy: Devil in Disguise"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-06",
+      "season": 7,
+      "episode": 15,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -488,6 +1476,18 @@
       "show": "John Wayne Gacy: Devil in Disguise"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-05",
+      "season": 7,
+      "episode": 14,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-02-05",
       "poster": "https://image.tmdb.org/t/p/w342/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
@@ -498,6 +1498,18 @@
       "rewatch": false,
       "year": 2021,
       "show": "John Wayne Gacy: Devil in Disguise"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-04",
+      "season": 7,
+      "episode": 13,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -512,6 +1524,126 @@
       "show": "John Wayne Gacy: Devil in Disguise"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-03",
+      "season": 7,
+      "episode": 12,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-02",
+      "season": 7,
+      "episode": 11,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-02-01",
+      "season": 7,
+      "episode": 10,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-31",
+      "season": 7,
+      "episode": 9,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-30",
+      "season": 7,
+      "episode": 8,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-29",
+      "season": 7,
+      "episode": 7,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-28",
+      "season": 7,
+      "episode": 6,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-27",
+      "season": 7,
+      "episode": 5,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-26",
+      "season": 7,
+      "episode": 4,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-25",
+      "season": 7,
+      "episode": 3,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-01-25",
       "poster": "https://image.tmdb.org/t/p/w342/jxf7JCfIMvGONWTNUIJ068sFixK.jpg",
@@ -522,6 +1654,18 @@
       "rewatch": false,
       "year": 2025,
       "show": "The Beast in Me"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-24",
+      "season": 7,
+      "episode": 2,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -547,6 +1691,18 @@
       "rating": 4
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-23",
+      "season": 7,
+      "episode": 1,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-01-23",
       "poster": "https://image.tmdb.org/t/p/w342/jxf7JCfIMvGONWTNUIJ068sFixK.jpg",
@@ -557,6 +1713,18 @@
       "rewatch": false,
       "year": 2025,
       "show": "The Beast in Me"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-22",
+      "season": 6,
+      "episode": 24,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -571,6 +1739,18 @@
       "show": "The Beast in Me"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-21",
+      "season": 6,
+      "episode": 23,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-01-21",
       "poster": "https://image.tmdb.org/t/p/w342/jxf7JCfIMvGONWTNUIJ068sFixK.jpg",
@@ -581,6 +1761,18 @@
       "rewatch": false,
       "year": 2025,
       "show": "The Beast in Me"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-20",
+      "season": 6,
+      "episode": 22,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -595,6 +1787,18 @@
       "show": "The Beast in Me"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-19",
+      "season": 6,
+      "episode": 21,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-01-19",
       "poster": "https://image.tmdb.org/t/p/w342/frKxKytEHIA2vXg4RAz14Sc0UmS.jpg",
@@ -617,6 +1821,18 @@
       "rewatch": false,
       "year": 2025,
       "show": "The Beast in Me"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-18",
+      "season": 6,
+      "episode": 20,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -643,6 +1859,18 @@
       "show": "The Beast in Me"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-17",
+      "season": 6,
+      "episode": 19,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-01-17",
       "poster": "https://image.tmdb.org/t/p/w342/nQzfgnvDQiBMdh1o7sPvZB6148R.jpg",
@@ -677,6 +1905,18 @@
       "rewatch": false,
       "year": 2026,
       "show": "HIS & HERS"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-16",
+      "season": 6,
+      "episode": 18,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -715,6 +1955,18 @@
       "show": "HIS & HERS"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-15",
+      "season": 6,
+      "episode": 17,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-01-15",
       "poster": "https://image.tmdb.org/t/p/w342/nQzfgnvDQiBMdh1o7sPvZB6148R.jpg",
@@ -749,6 +2001,18 @@
       "rewatch": false,
       "year": 2026,
       "show": "HIS & HERS"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-14",
+      "season": 6,
+      "episode": 16,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -787,6 +2051,18 @@
       "show": "HIS & HERS"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-13",
+      "season": 6,
+      "episode": 15,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-01-13",
       "poster": "https://image.tmdb.org/t/p/w342/frKxKytEHIA2vXg4RAz14Sc0UmS.jpg",
@@ -811,6 +2087,18 @@
       "show": "HIS & HERS"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-12",
+      "season": 6,
+      "episode": 14,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2026-01-12",
       "poster": "https://image.tmdb.org/t/p/w342/frKxKytEHIA2vXg4RAz14Sc0UmS.jpg",
@@ -833,6 +2121,714 @@
       "rewatch": false,
       "year": 2026,
       "show": "HIS & HERS"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-11",
+      "season": 6,
+      "episode": 13,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-10",
+      "season": 6,
+      "episode": 12,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-09",
+      "season": 6,
+      "episode": 11,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-08",
+      "season": 6,
+      "episode": 10,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-07",
+      "season": 6,
+      "episode": 9,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-06",
+      "season": 6,
+      "episode": 8,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-05",
+      "season": 6,
+      "episode": 7,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-04",
+      "season": 6,
+      "episode": 6,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-03",
+      "season": 6,
+      "episode": 5,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-02",
+      "season": 6,
+      "episode": 4,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2026-01-01",
+      "season": 6,
+      "episode": 3,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-31",
+      "season": 6,
+      "episode": 2,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-30",
+      "season": 6,
+      "episode": 1,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-29",
+      "season": 5,
+      "episode": 24,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-28",
+      "season": 5,
+      "episode": 23,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-27",
+      "season": 5,
+      "episode": 22,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-26",
+      "season": 5,
+      "episode": 21,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-25",
+      "season": 5,
+      "episode": 20,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-24",
+      "season": 5,
+      "episode": 19,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-23",
+      "season": 5,
+      "episode": 18,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-22",
+      "season": 5,
+      "episode": 17,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-21",
+      "season": 5,
+      "episode": 16,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-20",
+      "season": 5,
+      "episode": 15,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-19",
+      "season": 5,
+      "episode": 14,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-18",
+      "season": 5,
+      "episode": 13,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-17",
+      "season": 5,
+      "episode": 12,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-16",
+      "season": 5,
+      "episode": 11,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-15",
+      "season": 5,
+      "episode": 10,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-14",
+      "season": 5,
+      "episode": 9,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-13",
+      "season": 5,
+      "episode": 8,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-12",
+      "season": 5,
+      "episode": 7,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-11",
+      "season": 5,
+      "episode": 6,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-10",
+      "season": 5,
+      "episode": 5,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-09",
+      "season": 5,
+      "episode": 4,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-08",
+      "season": 5,
+      "episode": 3,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-07",
+      "season": 5,
+      "episode": 2,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-06",
+      "season": 5,
+      "episode": 1,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-05",
+      "season": 4,
+      "episode": 24,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-04",
+      "season": 4,
+      "episode": 23,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-03",
+      "season": 4,
+      "episode": 22,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-02",
+      "season": 4,
+      "episode": 21,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-12-01",
+      "season": 4,
+      "episode": 20,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-30",
+      "season": 4,
+      "episode": 19,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-29",
+      "season": 4,
+      "episode": 18,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-28",
+      "season": 4,
+      "episode": 17,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-27",
+      "season": 4,
+      "episode": 16,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-26",
+      "season": 4,
+      "episode": 15,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-25",
+      "season": 4,
+      "episode": 14,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-24",
+      "season": 4,
+      "episode": 13,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-23",
+      "season": 4,
+      "episode": 12,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-22",
+      "season": 4,
+      "episode": 11,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-21",
+      "season": 4,
+      "episode": 10,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-20",
+      "season": 4,
+      "episode": 9,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-19",
+      "season": 4,
+      "episode": 8,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-18",
+      "season": 4,
+      "episode": 7,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-17",
+      "season": 4,
+      "episode": 6,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-16",
+      "season": 4,
+      "episode": 5,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-15",
+      "season": 4,
+      "episode": 4,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-14",
+      "season": 4,
+      "episode": 3,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 3,
@@ -847,6 +2843,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-13",
+      "season": 4,
+      "episode": 2,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 3,
       "watchedOn": "2025-11-13",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -857,6 +2865,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-12",
+      "season": 4,
+      "episode": 1,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 3,
@@ -871,6 +2891,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-11",
+      "season": 3,
+      "episode": 24,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 3,
       "watchedOn": "2025-11-11",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -881,6 +2913,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-10",
+      "season": 3,
+      "episode": 23,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 3,
@@ -895,6 +2939,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-09",
+      "season": 3,
+      "episode": 22,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 3,
       "watchedOn": "2025-11-09",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -905,6 +2961,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-08",
+      "season": 3,
+      "episode": 21,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 3,
@@ -919,6 +2987,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-07",
+      "season": 3,
+      "episode": 20,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 3,
       "watchedOn": "2025-11-07",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -929,6 +3009,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-06",
+      "season": 3,
+      "episode": 19,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 3,
@@ -943,6 +3035,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-05",
+      "season": 3,
+      "episode": 18,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 3,
       "watchedOn": "2025-11-05",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -953,6 +3057,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-04",
+      "season": 3,
+      "episode": 17,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 2,
@@ -967,6 +3083,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-03",
+      "season": 3,
+      "episode": 16,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2025-11-03",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -977,6 +3105,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-02",
+      "season": 3,
+      "episode": 15,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 2,
@@ -1003,6 +3143,18 @@
       "show": "Alice in Borderland"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-11-01",
+      "season": 3,
+      "episode": 14,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2025-11-01",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -1025,6 +3177,18 @@
       "rewatch": false,
       "year": 2020,
       "show": "Alice in Borderland"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-31",
+      "season": 3,
+      "episode": 13,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 2,
@@ -1051,6 +3215,18 @@
       "show": "Alice in Borderland"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-30",
+      "season": 3,
+      "episode": 12,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2025-10-30",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -1073,6 +3249,18 @@
       "rewatch": false,
       "year": 2020,
       "show": "Alice in Borderland"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-29",
+      "season": 3,
+      "episode": 11,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 2,
@@ -1099,6 +3287,18 @@
       "show": "Alice in Borderland"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-28",
+      "season": 3,
+      "episode": 10,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2025-10-28",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -1121,6 +3321,18 @@
       "rewatch": false,
       "year": 2020,
       "show": "Alice in Borderland"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-27",
+      "season": 3,
+      "episode": 9,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 2,
@@ -1135,6 +3347,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-26",
+      "season": 3,
+      "episode": 8,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 2,
       "watchedOn": "2025-10-26",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -1145,6 +3369,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-25",
+      "season": 3,
+      "episode": 7,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1159,6 +3395,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-24",
+      "season": 3,
+      "episode": 6,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-10-24",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -1169,6 +3417,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-23",
+      "season": 3,
+      "episode": 5,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1183,6 +3443,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-22",
+      "season": 3,
+      "episode": 4,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-10-22",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -1193,6 +3465,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-21",
+      "season": 3,
+      "episode": 3,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1207,6 +3491,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-20",
+      "season": 3,
+      "episode": 2,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-10-20",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -1219,6 +3515,18 @@
       "show": "Mr. Mercedes"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-19",
+      "season": 3,
+      "episode": 1,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-10-19",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -1229,6 +3537,18 @@
       "rewatch": false,
       "year": 2017,
       "show": "Mr. Mercedes"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-18",
+      "season": 2,
+      "episode": 24,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1255,6 +3575,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-17",
+      "season": 2,
+      "episode": 23,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-10-17",
       "poster": "https://image.tmdb.org/t/p/w342/zZm3LidCf6Edv6yX3WMKo6KwICg.jpg",
@@ -1277,6 +3609,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-16",
+      "season": 2,
+      "episode": 22,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1315,6 +3659,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-15",
+      "season": 2,
+      "episode": 21,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-10-15",
       "poster": "https://image.tmdb.org/t/p/w342/t6bk8g9DsITWZXwnw9jrA9RDdCB.jpg",
@@ -1337,6 +3693,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-14",
+      "season": 2,
+      "episode": 20,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1363,6 +3731,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-13",
+      "season": 2,
+      "episode": 19,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-10-13",
       "poster": "https://image.tmdb.org/t/p/w342/t6bk8g9DsITWZXwnw9jrA9RDdCB.jpg",
@@ -1385,6 +3765,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-12",
+      "season": 2,
+      "episode": 18,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1411,6 +3803,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-11",
+      "season": 2,
+      "episode": 17,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-10-11",
       "poster": "https://image.tmdb.org/t/p/w342/t6bk8g9DsITWZXwnw9jrA9RDdCB.jpg",
@@ -1435,6 +3839,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-10",
+      "season": 2,
+      "episode": 16,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-10-10",
       "poster": "https://image.tmdb.org/t/p/w342/t6bk8g9DsITWZXwnw9jrA9RDdCB.jpg",
@@ -1457,6 +3873,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-09",
+      "season": 2,
+      "episode": 15,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1483,6 +3911,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-08",
+      "season": 2,
+      "episode": 14,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 8,
       "watchedOn": "2025-10-07",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1493,6 +3933,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-07",
+      "season": 2,
+      "episode": 13,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 8,
@@ -1507,6 +3959,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-06",
+      "season": 2,
+      "episode": 12,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 8,
       "watchedOn": "2025-10-05",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1517,6 +3981,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-05",
+      "season": 2,
+      "episode": 11,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 8,
@@ -1531,6 +4007,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-04",
+      "season": 2,
+      "episode": 10,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 8,
       "watchedOn": "2025-10-03",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1541,6 +4029,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-03",
+      "season": 2,
+      "episode": 9,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 8,
@@ -1555,6 +4055,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-02",
+      "season": 2,
+      "episode": 8,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 8,
       "watchedOn": "2025-10-01",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1565,6 +4077,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-10-01",
+      "season": 2,
+      "episode": 7,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 8,
@@ -1579,6 +4103,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-30",
+      "season": 2,
+      "episode": 6,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 8,
       "watchedOn": "2025-09-29",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1589,6 +4125,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-29",
+      "season": 2,
+      "episode": 5,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 8,
@@ -1603,6 +4151,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-28",
+      "season": 2,
+      "episode": 4,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 8,
       "watchedOn": "2025-09-27",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1613,6 +4173,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-27",
+      "season": 2,
+      "episode": 3,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 8,
@@ -1627,6 +4199,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-26",
+      "season": 2,
+      "episode": 2,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-25",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1639,6 +4223,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-25",
+      "season": 2,
+      "episode": 1,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-24",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1649,6 +4245,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-24",
+      "season": 1,
+      "episode": 24,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1675,6 +4283,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-23",
+      "season": 1,
+      "episode": 23,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-09-23",
       "poster": "https://image.tmdb.org/t/p/w342/yUBZVZnb1NaxofyOKgApMQHMjfy.jpg",
@@ -1697,6 +4317,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-22",
+      "season": 1,
+      "episode": 22,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1723,6 +4355,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-21",
+      "season": 1,
+      "episode": 21,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-09-21",
       "poster": "https://image.tmdb.org/t/p/w342/yUBZVZnb1NaxofyOKgApMQHMjfy.jpg",
@@ -1745,6 +4389,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-20",
+      "season": 1,
+      "episode": 20,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -1771,6 +4427,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-19",
+      "season": 1,
+      "episode": 19,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 1,
       "watchedOn": "2025-09-19",
       "poster": "https://image.tmdb.org/t/p/w342/yUBZVZnb1NaxofyOKgApMQHMjfy.jpg",
@@ -1795,6 +4463,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-18",
+      "season": 1,
+      "episode": 18,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-17",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1805,6 +4485,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-17",
+      "season": 1,
+      "episode": 17,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 7,
@@ -1819,6 +4511,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-16",
+      "season": 1,
+      "episode": 16,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-15",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1829,6 +4533,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-15",
+      "season": 1,
+      "episode": 15,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 7,
@@ -1843,6 +4559,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-14",
+      "season": 1,
+      "episode": 14,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-13",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1853,6 +4581,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-13",
+      "season": 1,
+      "episode": 13,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 7,
@@ -1867,6 +4607,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-12",
+      "season": 1,
+      "episode": 12,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-11",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1877,6 +4629,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-11",
+      "season": 1,
+      "episode": 11,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 7,
@@ -1891,6 +4655,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-10",
+      "season": 1,
+      "episode": 10,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-09",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1901,6 +4677,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-09",
+      "season": 1,
+      "episode": 9,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 7,
@@ -1915,6 +4703,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-08",
+      "season": 1,
+      "episode": 8,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-07",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1925,6 +4725,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-07",
+      "season": 1,
+      "episode": 7,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 7,
@@ -1939,6 +4751,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-06",
+      "season": 1,
+      "episode": 6,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-05",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1949,6 +4773,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-05",
+      "season": 1,
+      "episode": 5,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 7,
@@ -1963,6 +4799,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-04",
+      "season": 1,
+      "episode": 4,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 7,
       "watchedOn": "2025-09-03",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1973,6 +4821,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-03",
+      "season": 1,
+      "episode": 3,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 6,
@@ -1987,6 +4847,18 @@
       "show": "House"
     },
     {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-02",
+      "season": 1,
+      "episode": 2,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
+    },
+    {
       "season": 6,
       "watchedOn": "2025-09-01",
       "poster": "https://image.tmdb.org/t/p/w342/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
@@ -1997,6 +4869,18 @@
       "rewatch": false,
       "year": 2004,
       "show": "House"
+    },
+    {
+      "type": "tv",
+      "tmdbId": 1422,
+      "show": "The Middle",
+      "watchedOn": "2025-09-01",
+      "season": 1,
+      "episode": 1,
+      "rewatch": false,
+      "tmdbUrl": "https://www.themoviedb.org/tv/1422",
+      "year": 2009,
+      "poster": "https://image.tmdb.org/t/p/w342/u6FluiFx3ocVS0MgZszfpPKXT2p.jpg"
     },
     {
       "season": 1,
@@ -7320,310 +10204,6 @@
       "rewatch": false,
       "year": 2008,
       "show": "Season 1"
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 106379,
-      "watchedOn": "2026-03-10",
-      "season": 2,
-      "episode": 5
-    },
-    {
-      "rewatch": false,
-      "tmdbId": 106379,
-      "type": "tv",
-      "watchedOn": "2026-03-10",
-      "season": 2,
-      "episode": 6
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 106379,
-      "watchedOn": "2026-03-11",
-      "season": 2,
-      "episode": 7
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 106379,
-      "watchedOn": "2026-03-12",
-      "season": 2,
-      "episode": 8
-    },
-    {
-      "rewatch": false,
-      "type": "movie",
-      "tmdbId": 1229958,
-      "watchedOn": "2026-03-12",
-      "rating": 2
-    },
-    {
-      "rewatch": false,
-      "type": "movie",
-      "tmdbId": 1591516,
-      "watchedOn": "2026-03-15",
-      "rating": 2.5
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 206492,
-      "watchedOn": "2026-03-16",
-      "season": 1,
-      "episode": 1
-    },
-    {
-      "rewatch": false,
-      "type": "movie",
-      "tmdbId": 1005342,
-      "watchedOn": "2026-03-17"
-    },
-    {
-      "rewatch": false,
-      "watchedOn": "2026-03-20",
-      "tmdbId": 128904,
-      "type": "tv",
-      "season": 1,
-      "episode": 1
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 128904,
-      "watchedOn": "2026-03-21",
-      "season": 1,
-      "episode": 2
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 128904,
-      "watchedOn": "2026-03-22",
-      "season": 1,
-      "episode": 3
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "displayAs": "movie",
-      "tmdbId": 313338,
-      "watchedOn": "2026-02-23",
-      "rating": 1.5
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 128904,
-      "watchedOn": "2026-03-24",
-      "season": 1,
-      "episode": 4
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 128904,
-      "watchedOn": "2026-03-25",
-      "season": 1,
-      "episode": 5
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 128904,
-      "watchedOn": "2026-03-25",
-      "season": 1,
-      "episode": 6
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 248126,
-      "watchedOn": "2026-03-26",
-      "season": 1,
-      "episode": 1
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 316295,
-      "watchedOn": "2026-03-27",
-      "season": 1,
-      "episode": 1
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 248126,
-      "watchedOn": "2026-04-02",
-      "season": 1,
-      "episode": 2
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 248126,
-      "watchedOn": "2026-04-02",
-      "season": 1,
-      "episode": 3
-    },
-    {
-      "rewatch": false,
-      "tmdbId": 248126,
-      "type": "tv",
-      "watchedOn": "2026-04-02",
-      "season": 1,
-      "episode": 4
-    },
-    {
-      "rewatch": false,
-      "watchedOn": "2026-04-03",
-      "displayAs": null,
-      "tmdbId": 248126,
-      "season": 1,
-      "episode": 5,
-      "type": "tv"
-    },
-    {
-      "rewatch": false,
-      "type": "movie",
-      "tmdbId": 404378,
-      "watchedOn": "2026-04-03"
-    },
-    {
-      "rewatch": false,
-      "tmdbId": 248126,
-      "watchedOn": "2026-04-06",
-      "type": "tv",
-      "season": 2,
-      "episode": 1
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 316898,
-      "season": 1,
-      "episode": 1,
-      "watchedOn": "2026-04-10"
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 316898,
-      "watchedOn": "2026-04-10",
-      "season": 1,
-      "episode": 2
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 316898,
-      "watchedOn": "2026-04-10",
-      "season": 1,
-      "episode": 3
-    },
-    {
-      "rewatch": false,
-      "watchedOn": "2026-04-11",
-      "type": "tv",
-      "tmdbId": 316898,
-      "season": 1,
-      "episode": 4
-    },
-    {
-      "rewatch": false,
-      "type": "movie",
-      "tmdbId": 1290417,
-      "watchedOn": "2026-04-12"
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "watchedOn": "2026-04-12",
-      "season": 1,
-      "episode": 1,
-      "tmdbId": 64199
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 64199,
-      "watchedOn": "2026-04-13",
-      "season": 1,
-      "episode": 2
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 64199,
-      "watchedOn": "2026-04-13",
-      "season": 1,
-      "episode": 3
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 64199,
-      "watchedOn": "2026-04-14",
-      "season": 1,
-      "episode": 4
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 64199,
-      "watchedOn": "2026-04-15",
-      "season": 1,
-      "episode": 5
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "watchedOn": "2026-04-20",
-      "tmdbId": 64199,
-      "season": 1,
-      "episode": 6
-    },
-    {
-      "rewatch": false,
-      "type": "movie",
-      "tmdbId": 1317149,
-      "watchedOn": "2026-04-19",
-      "rating": 4
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "season": 1,
-      "episode": 7,
-      "tmdbId": 64199,
-      "watchedOn": "2026-04-20"
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 64199,
-      "watchedOn": "2026-04-21",
-      "season": 1,
-      "episode": 8
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 64199,
-      "watchedOn": "2026-04-22",
-      "season": 1,
-      "episode": 9
-    },
-    {
-      "rewatch": false,
-      "type": "tv",
-      "tmdbId": 64199,
-      "watchedOn": "2026-04-22",
-      "season": 1,
-      "episode": 10
     }
   ]
 }
