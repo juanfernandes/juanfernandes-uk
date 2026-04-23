@@ -18,166 +18,161 @@ permalink: /logs/
 
 <div class="dash-grid">
   <section class="dash-card">
-    <h3 class="dash-title">
-      <a href="/logs/watching/">
-        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-tv" /></svg>
-        <span>Watching</span>
-      </a>
-    </h3>
+    <div class="dash-card__content">
+      <div>
+        <h3 class="dash-card__heading">
+          <a href="/logs/watching/">
+            <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-tv" /></svg>
+            <span>Watching</span>
+          </a>
+        </h3>
 
-    <ul class="dash-stats">
-      <li class="pill"><strong>{{ watch.stats.totalMovies }}</strong> films</li>
-      <li class="pill"><strong>{{ watch.stats.totalEpisodes }}</strong> episodes</li>
-      <li class="pill"><strong>{{ watch.stats.totalShows }}</strong> shows</li>
-    </ul>
+        <ul class="dash-card__stats">
+          <li class="pill"><strong>{{ watch.stats.totalMovies }}</strong> films</li>
+          <li class="pill"><strong>{{ watch.stats.totalEpisodes }}</strong> episodes</li>
+          <li class="pill"><strong>{{ watch.stats.totalShows }}</strong> shows</li>
+        </ul>
+      </div>
 
-    <div class="dash-latest">
-      <h4>Latest film</h4>
-      {% if latestFilm %}
-        <p><a href="{{ latestFilm.tmdbUrl }}"><strong>{{ latestFilm.title }}</strong></a></p>
-        <p class="dash-muted"><small>{{ latestFilm.watchedOn | dateFilter }}</small>{% if latestFilm.rating %}<span class="dash-muted"> · ★ {{ latestFilm.rating }}/5</span>{% endif %}</p>
-      {% else %}
-        <p class="dash-muted">No films logged yet.</p>
-      {% endif %}
-    </div>
+      <div class="dash-card__latest">
+        <h4>Latest film</h4>
+        {% if latestFilm %}
+          <p><a href="{{ latestFilm.tmdbUrl }}"><strong>{{ latestFilm.title }}</strong></a></p>
+          <div class="dash-card__meta">
+            <span>{{ latestFilm.watchedOn | dateFilter }}{% if latestFilm.rating %} · ★ {{ latestFilm.rating }}/5{% endif %}</span>
+          </div>
+        {% else %}
+          <p class="dash-card__muted">No films logged yet.</p>
+        {% endif %}
 
-    <div class="dash-latest">
-      <h4>Latest TV episode</h4>
-      {% if latestEp %}
-        <p><a href="{{ latestEp.tmdbUrl }}">{{ latestEp.show }}</a> — <span class="dash-muted">S{{ latestEp.season }} E{{ latestEp.episode }}</span></p>
-        <p><small>{{ latestEp.watchedOn | dateFilter }}</small>{% if latestEp.rating %}<span class="dash-muted"> · ★ {{ latestEp.rating }}/5</span>{% endif %}</p>
-      {% else %}
-        <p class="dash-muted">No TV episodes logged yet.</p>
-      {% endif %}
-    </div>
+        <h4 class="u-mt-2">Latest TV episode</h4>
+        {% if latestEp %}
+          <p><a href="{{ latestEp.tmdbUrl }}"><strong>{{ latestEp.show }}</strong></a> — S{{ latestEp.season }} E{{ latestEp.episode }}</p>
+          <p><small>{{ latestEp.watchedOn | dateFilter }}{% if latestEp.rating %} · ★ {{ latestEp.rating }}/5{% endif %}</small></p>
+        {% else %}
+          <p>No TV episodes logged yet.</p>
+        {% endif %}
+      </div>
 
-    <p class="dash-actions">
-      <a href="/logs/watching/films/">Browse films</a>
-      <span class="dash-muted">·</span>
-      <a href="/logs/watching/tv/">Browse TV</a>
-    </p>
-  </section>
-
-  <section class="dash-card">
-    <h3 class="dash-title">
-      <a href="/logs/listening/">
-        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-music" /></svg>
-        <span>Listening</span>
-      </a>
-    </h3>
-
-    <ul class="dash-stats">
-      <li class="pill"><strong>{{ lastfmRecent.weekSummary.artists or 0 }}</strong> artists</li>
-      <li class="pill"><strong>{{ lastfmRecent.weekSummary.albums or 0 }}</strong> albums</li>
-      <li class="pill">{{ lastfmRecent.weekSummary.tracks or 0 }}</strong> tracks</li>
-    </ul>
-
-    {% set latestTrack = lastfmRecent.latestTrack or null %}
-
-    <div class="dash-latest">
-      <h4>Latest track</h4>
-      {% if latestTrack %}
-        <p>{% if latestTrack.url %}<a href="{{ latestTrack.url }}">{% endif %}<strong>{{ latestTrack.name }}</strong>
-          {% if latestTrack.url %}</a>{% endif %}
-          {% if latestTrack.artist %}<span class="dash-muted">— {{ latestTrack.artist }}</span>{% endif %}
-          {% if latestTrack.playedAt %}<span class="dash-muted"> · {{ latestTrack.playedAt }}</span>{% endif %}
-        </p>
-      {% else %}
-        <p class="dash-muted">No recent tracks yet.</p>
-      {% endif %}
-    </div>
-
-    <div class="dash-latest">
-      {% set topAlbum = lastfmRecent.weekTopAlbumsTop10[0] %}
-      <h4>Top album this week</h4>
-      <p>{% if topAlbum.url %}<a href="{{ topAlbum.url }}" target="_blank" rel="noopener"><strong>{{ topAlbum.album }}</strong></a>
-      {% else %}{{ topAlbum.album }}{% endif %}{% if topAlbum.artist %}<span class="dash-muted">— {{ topAlbum.artist }}</span>{% endif %}
-      </p>
-    </div>
-
-    <div class="dash-actions">
-      <span><a href="/logs/listening/">Open listening log</a> →</span>
+      <div class="dash-card__actions">
+        <a href="/logs/watching/films/">Browse films</a>
+        <span class="dash-card__muted">·</span>
+        <a href="/logs/watching/tv/">Browse TV</a>
+      </div>
     </div>
   </section>
 
   <section class="dash-card">
-    <h3 class="dash-title">
-      <a href="/logs/reading/">
-        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-book" /></svg>
-        <span>Reading</span>
-      </a>
-    </h3>
+    <div class="dash-card__content">
+      <div>
+        <h3 class="dash-card__heading">
+          <a href="/logs/listening/">
+            <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-music" /></svg>
+            <span>Listening</span>
+          </a>
+        </h3>
 
-    <ul class="dash-stats">
-      <li class="pill"><strong>{{ reading.stats.currentlyReading }}</strong> reading</li>
-      <li class="pill"><strong>{{ reading.stats.finished }}</strong> finished</li>
-      <li class="pill"><strong>{{ reading.stats.toRead }}</strong> to read</li>
-    </ul>
+        <ul class="dash-card__stats">
+          <li class="pill"><strong>{{ lastfmRecent.weekSummary.artists or 0 }}</strong> artists</li>
+          <li class="pill"><strong>{{ lastfmRecent.weekSummary.albums or 0 }}</strong> albums</li>
+          <li class="pill">{{ lastfmRecent.weekSummary.tracks or 0 }}</strong> tracks</li>
+        </ul>
+      </div>
 
-    <div class="dash-latest">
-      <h4>Currently reading</h4>
-      {% if currentBook %}
-        <p>
-          {% if currentBook.url %}<a href="{{ currentBook.url }}">{% endif %}
-            <strong>{{ currentBook.title }}</strong>
-          {% if currentBook.url %}</a>{% endif %}
-          {% if currentBook.author %}<span class="dash-muted">— {{ currentBook.author }}</span>{% endif %}
+      {% set latestTrack = lastfmRecent.latestTrack or null %}
+      <div class="dash-card__latest">
+        <h4>Latest track</h4>
+        {% if latestTrack %}
+          <p>{% if latestTrack.url %}<a href="{{ latestTrack.url }}">{% endif %}<strong>{{ latestTrack.name }}</strong>
+            {% if latestTrack.url %}</a>{% endif %}
+            {% if latestTrack.artist %} — {{ latestTrack.artist }}{% endif %}
+            {% if latestTrack.playedAt %} · {{ latestTrack.playedAt }}{% endif %}
+          </p>
+        {% else %}
+          <p>No recent tracks yet.</p>
+        {% endif %}
+
+        {% set topAlbum = lastfmRecent.weekTopAlbumsTop10[0] %}
+        <h4>Top album this week</h4>
+        <p>{% if topAlbum.url %}<a href="{{ topAlbum.url }}" target="_blank" rel="noopener"><strong>{{ topAlbum.album }}</strong></a>
+        {% else %}{{ topAlbum.album }}{% endif %}{% if topAlbum.artist %} — {{ topAlbum.artist }}{% endif %}
         </p>
-      {% else %}
-        <p class="dash-muted">Nothing marked as “reading” yet.</p>
-      {% endif %}
-    </div>
+      </div>
 
-    <div class="dash-latest">
-      <h4>Most recently finished</h4>
-      {% if latestFinishedBook %}
-        <p>
-          {% if latestFinishedBook.url %}<a href="{{ latestFinishedBook.url }}">{% endif %}
-            <strong>{{ latestFinishedBook.title }}</strong>
-          {% if latestFinishedBook.url %}</a>{% endif %}
-          {% if latestFinishedBook.author %}<span class="dash-muted">— {{ latestFinishedBook.author }}</span>{% endif %}
-          {% if latestFinishedBook.yearRead %}<span class="dash-muted"> · {{ latestFinishedBook.yearRead }}</span>{% endif %}
-        </p>
-      {% else %}
-        <p class="dash-muted">No finished books logged yet.</p>
-      {% endif %}
-    </div>
-
-    <div class="dash-actions">
-      <span><a href="/logs/reading/">Open reading log</a> →</span>
+      <div class="dash-card__actions">
+        <span><a href="/logs/listening/">Open listening log</a> →</span>
+      </div>
     </div>
   </section>
 
   <section class="dash-card">
-    <h3 class="dash-title">
-      <a href="/logs/concerts/">
-        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-ticket" /></svg>
-        <span>Concerts</span>
-      </a>
-    </h3>
+    <div class="dash-card__content">
+      <div>
+        <h3 class="dash-card__heading">
+          <a href="/logs/reading/">
+            <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-book" /></svg>
+            <span>Reading</span>
+          </a>
+        </h3>
 
-    <ul class="dash-stats">
-      <li class="pill"><strong>{{ concerts.stats.totalConcerts }}</strong> gigs</li>
-      <li class="pill"><strong>{{ concerts.stats.totalArtists }}</strong> artists</li>
-      <li class="pill"><strong>{{ concerts.stats.totalVenues }}</strong> venues</li>
-    </ul>
+        <ul class="dash-card__stats">
+          <li class="pill"><strong>{{ reading.stats.currentlyReading }}</strong> reading</li>
+          <li class="pill"><strong>{{ reading.stats.finished }}</strong> finished</li>
+          <li class="pill"><strong>{{ reading.stats.toRead }}</strong> to read</li>
+        </ul>
+      </div>
 
-    <div class="dash-latest">
-      <h4>Most recent gig</h4>
-      {% if latestGig %}
-        <p>{% if latestGig.links and latestGig.links.setlistFm %}
-          <a href="{{ latestGig.links.setlistFm }}">
-          <strong>{{ latestGig.artists | join(", ") }}</strong>
-          <span class="dash-muted">— {{ latestGig.date | dateFilter }}</span>
-          <span class="dash-muted">— {{ latestGig.venue }}{% if latestGig.city %}, {{ latestGig.city }}{% endif %}</span>{% endif %}</a>
-        </p>
-      {% else %}
-        <p class="dash-muted">No concerts logged yet.</p>
-      {% endif %}
+      <div class="dash-card__latest">
+        <h4>Currently reading</h4>
+        {% if currentBook %}
+          <p>{% if currentBook.url %}<a href="{{ currentBook.url }}">{% endif %}<strong>{{ currentBook.title }}</strong>{% if currentBook.url %}</a>{% endif %}{% if currentBook.author %} — {{ currentBook.author }}{% endif %}</p>
+        {% else %}
+          <p>Nothing marked as “reading” yet.</p>
+        {% endif %}
+
+        <h4>Most recently finished</h4>
+        {% if latestFinishedBook %}
+          <p>{% if latestFinishedBook.url %}<a href="{{ latestFinishedBook.url }}">{% endif %}<strong>{{ latestFinishedBook.title }}</strong>{% if latestFinishedBook.url %}</a>{% endif %}{% if latestFinishedBook.author %} — {{ latestFinishedBook.author }}{% endif %}{% if latestFinishedBook.yearRead %} · {{ latestFinishedBook.yearRead }}{% endif %}</p>
+        {% else %}
+          <p>No finished books logged yet.</p>
+        {% endif %}
+      </div>
+
+      <div class="dash-card__actions">
+        <span><a href="/logs/reading/">Open reading log</a> →</span>
+      </div>
     </div>
+  </section>
 
-    <div class="dash-actions">
-      <span><a href="/logs/concerts/">Open concerts log</a> →</span>
+  <section class="dash-card">
+    <div class="dash-card__content">
+      <div>
+        <h3 class="dash-card__heading">
+          <a href="/logs/concerts/">
+            <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-ticket" /></svg>
+            <span>Concerts</span>
+          </a>
+        </h3>
+
+        <ul class="dash-card__stats">
+          <li class="pill"><strong>{{ concerts.stats.totalConcerts }}</strong> gigs</li>
+          <li class="pill"><strong>{{ concerts.stats.totalArtists }}</strong> artists</li>
+          <li class="pill"><strong>{{ concerts.stats.totalVenues }}</strong> venues</li>
+        </ul>
+      </div>
+
+      <div class="dash-card__latest">
+        <h4>Most recent gig</h4>
+        {% if latestGig %}
+          <p>{% if latestGig.links and latestGig.links.setlistFm %}<a href="{{ latestGig.links.setlistFm }}"><strong>{{ latestGig.artists | join(", ") }}</strong> — {{ latestGig.date | dateFilter }} — {{ latestGig.venue }}{% if latestGig.city %}, {{ latestGig.city }}{% endif %}{% endif %}</a></p>
+        {% else %}
+          <p>No concerts logged yet.</p>
+        {% endif %}
+      </div>
+
+      <div class="dash-card__actions">
+        <span><a href="/logs/concerts/">Open concerts log</a> →</span>
+      </div>
     </div>
   </section>
 </div>
