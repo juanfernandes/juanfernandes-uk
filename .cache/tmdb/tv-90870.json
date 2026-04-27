@@ -1,0 +1,126 @@
+{
+  "adult": false,
+  "backdrop_path": "/7JknL2ItfhJzQBSnFfSEASg1Os4.jpg",
+  "created_by": [
+    {
+      "id": 74258,
+      "credit_id": "5d1f0fda94d8a849843d5356",
+      "name": "Alex Tse",
+      "original_name": "Alex Tse",
+      "gender": 2,
+      "profile_path": "/prXq7f89IOwXW4IQSGqVrUDaddj.jpg"
+    },
+    {
+      "id": 150,
+      "credit_id": "5d1f0fd494d8a8311641d9b2",
+      "name": "RZA",
+      "original_name": "RZA",
+      "gender": 2,
+      "profile_path": "/2PVYCKXb1X3PLawJNoYGLN1x0In.jpg"
+    }
+  ],
+  "episode_run_time": [
+    60
+  ],
+  "first_air_date": "2019-09-04",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.hulu.com/series/wu-tang-an-american-saga-8e4e1643-1254-4d6e-a567-d2c62f7b3e00",
+  "id": 90870,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2023-04-05",
+  "last_episode_to_air": {
+    "id": 4104890,
+    "name": "Triumph",
+    "overview": "",
+    "vote_average": 8,
+    "vote_count": 1,
+    "air_date": "2023-04-05",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 70,
+    "season_number": 3,
+    "show_id": 90870,
+    "still_path": "/zUVUdOGFwvoUzeXL2NtdeQsqecT.jpg"
+  },
+  "name": "Wu-Tang: An American Saga",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 453,
+      "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+      "name": "Hulu",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 30,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Wu-Tang: An American Saga",
+  "overview": "In the early 1990s in New York, during the height of the crack cocaine epidemic, a visionary musician named Bobby Diggs aka The RZA begins to form a super group of a dozen young, black men, who will eventually rise to become one of the unlikeliest success stories in American music history.",
+  "popularity": 8.0837,
+  "poster_path": "/kbZFfquhFg2EOUnKbZedWCs1kWO.jpg",
+  "production_companies": [],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-09-04",
+      "episode_count": 10,
+      "id": 127136,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/kbZFfquhFg2EOUnKbZedWCs1kWO.jpg",
+      "season_number": 1,
+      "vote_average": 6.7
+    },
+    {
+      "air_date": "2021-09-08",
+      "episode_count": 10,
+      "id": 202306,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/qrswtd389QQoZdTw2h6sOK8B3Ua.jpg",
+      "season_number": 2,
+      "vote_average": 8.9
+    },
+    {
+      "air_date": "2023-02-15",
+      "episode_count": 10,
+      "id": 320083,
+      "name": "Season 3",
+      "overview": "Off the release of their debut album and their continued rise to fame, we follow the Wu-Tang Clan over the course of their five-year plan as they face and overcome different challenges. While each of the members go on separate journeys to figure out where they fit in the music world, RZA struggles to stay on top of things in order to fulfill the promise he made to his Wu brothers. As money, fame, ego, and business threaten to tear the group apart, they must find a way to come together and cement their legacy.",
+      "poster_path": "/pozfxNXcu0brLyVfiJijaiiJc8J.jpg",
+      "season_number": 3,
+      "vote_average": 7.9
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Now and forever.",
+  "type": "Scripted",
+  "vote_average": 8.13,
+  "vote_count": 292
+}

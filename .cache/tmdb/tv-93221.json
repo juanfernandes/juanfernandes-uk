@@ -1,0 +1,195 @@
+{
+  "adult": false,
+  "backdrop_path": "/61sQakosFlSETNNCS9Mn2SqFVUf.jpg",
+  "created_by": [
+    {
+      "id": 1251982,
+      "credit_id": "5d78a0cfaf4324001097309d",
+      "name": "Lizzie Molyneux-Logelin",
+      "original_name": "Lizzie Molyneux-Logelin",
+      "gender": 1,
+      "profile_path": null
+    },
+    {
+      "id": 1251983,
+      "credit_id": "5d78a0cb069f0e000d3324d4",
+      "name": "Wendy Molyneux",
+      "original_name": "Wendy Molyneux",
+      "gender": 1,
+      "profile_path": null
+    },
+    {
+      "id": 1251087,
+      "credit_id": "5d78a0d3af43240b2d9699a3",
+      "name": "Minty Lewis",
+      "original_name": "Minty Lewis",
+      "gender": 1,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    23
+  ],
+  "first_air_date": "2021-01-03",
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "https://www.fox.com/detail/series/SER001023TBBY/the-great-north",
+  "id": 93221,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2025-09-14",
+  "last_episode_to_air": {
+    "id": 6476094,
+    "name": "It's a Beef-derful Life",
+    "overview": "Beef risks his life to bring back roadkill moose meat for the town. Aunt Dirt and Jerry prepare to face the apocalypse.",
+    "vote_average": 8,
+    "vote_count": 1,
+    "air_date": "2025-09-14",
+    "episode_number": 22,
+    "episode_type": "finale",
+    "production_code": "5LBW22",
+    "runtime": 22,
+    "season_number": 5,
+    "show_id": 93221,
+    "still_path": "/1wFvvDhNHAww4ohvHFymxKlSOAt.jpg"
+  },
+  "name": "The Great North",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 19,
+      "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+      "name": "FOX",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 97,
+  "number_of_seasons": 5,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "The Great North",
+  "overview": "Follow the Alaskan adventures of the Tobin family as a single dad does his best to keep his weird bunch of kids close, especially as the artistic dreams of his only daughter lead her away from the family fishing boat and into the glamorous world of the local mall.",
+  "popularity": 14.2452,
+  "poster_path": "/7Ww56dPIuXn4NZGrJJPdoafLHGu.jpg",
+  "production_companies": [
+    {
+      "id": 30452,
+      "logo_path": "/zmU1ElCS02iL5N7E5MuY4fV7bCX.png",
+      "name": "Bento Box Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 95753,
+      "logo_path": null,
+      "name": "Wilo Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 146762,
+      "logo_path": "/2pKHp6fDLeEmfG36tjGEbOF2Ny.png",
+      "name": "Double Molyneux Sister Sheux",
+      "origin_country": "US"
+    },
+    {
+      "id": 85721,
+      "logo_path": "/21N5NeX4l90jcFjG29VBQGkJ6VY.png",
+      "name": "FOX Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 154887,
+      "logo_path": "/wLFPu95hIMmyLR5hdtvYaMuK0tG.png",
+      "name": "20th Television Animation",
+      "origin_country": "US"
+    },
+    {
+      "id": 236166,
+      "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+      "name": "20th Television",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2021-01-03",
+      "episode_count": 11,
+      "id": 131612,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/ugOLSKCV4EicJ13kXfSNJXQSqQW.jpg",
+      "season_number": 1,
+      "vote_average": 5.7
+    },
+    {
+      "air_date": "2021-09-26",
+      "episode_count": 22,
+      "id": 198435,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/7ATy17HiLMRfuxJQCk1F0C9fIbE.jpg",
+      "season_number": 2,
+      "vote_average": 7.6
+    },
+    {
+      "air_date": "2022-09-25",
+      "episode_count": 22,
+      "id": 296970,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": "/hJKxX6ccmMO3GxTwmI89SjHL7dg.jpg",
+      "season_number": 3,
+      "vote_average": 6.8
+    },
+    {
+      "air_date": "2024-01-07",
+      "episode_count": 20,
+      "id": 336244,
+      "name": "Season 4",
+      "overview": "",
+      "poster_path": "/oHwdy9LPFQuvl1e80DoHpKcjO5Q.jpg",
+      "season_number": 4,
+      "vote_average": 7.5
+    },
+    {
+      "air_date": "2024-12-22",
+      "episode_count": 22,
+      "id": 433089,
+      "name": "Season 5",
+      "overview": "",
+      "poster_path": "/7Ww56dPIuXn4NZGrJJPdoafLHGu.jpg",
+      "season_number": 5,
+      "vote_average": 7.3
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "It's great up here.",
+  "type": "Scripted",
+  "vote_average": 6.931,
+  "vote_count": 80
+}

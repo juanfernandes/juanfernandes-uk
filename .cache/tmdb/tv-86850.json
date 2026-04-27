@@ -1,0 +1,153 @@
+{
+  "adult": false,
+  "backdrop_path": "/v3cpyhytwXXbAr7Wycn5LEwonuL.jpg",
+  "created_by": [
+    {
+      "id": 34546,
+      "credit_id": "5c6827e0c3a36843c6dd6ae3",
+      "name": "Mark Gatiss",
+      "original_name": "Mark Gatiss",
+      "gender": 2,
+      "profile_path": "/rkZKKDRbnGqqg2fjd5iPYDS4syy.jpg"
+    },
+    {
+      "id": 146459,
+      "credit_id": "5c6827fbc3a36855d1d62d12",
+      "name": "Steven Moffat",
+      "original_name": "Steven Moffat",
+      "gender": 2,
+      "profile_path": "/fjW3laJlDnHxQbuj9LLc6EYEDy.jpg"
+    },
+    {
+      "id": 150802,
+      "credit_id": "5e10a22c5907de0014daa2c0",
+      "name": "Claes Bang",
+      "original_name": "Claes Bang",
+      "gender": 2,
+      "profile_path": "/fqSBUq2UEoQYuqjjKNMQzDVxZv2.jpg"
+    }
+  ],
+  "episode_run_time": [
+    90
+  ],
+  "first_air_date": "2020-01-01",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    }
+  ],
+  "homepage": "https://www.bbc.co.uk/programmes/p07rxf89",
+  "id": 86850,
+  "in_production": false,
+  "languages": [
+    "en",
+    "de",
+    "ro"
+  ],
+  "last_air_date": "2020-01-03",
+  "last_episode_to_air": {
+    "id": 2005130,
+    "name": "The Dark Compass",
+    "overview": "Count Dracula has made it to England —a new world pulsing with fresh blood— and lays his plans to spread his foul vampire contagion. But why does he set his sights on the seemingly ordinary Lucy Westenra?",
+    "vote_average": 6,
+    "vote_count": 41,
+    "air_date": "2020-01-03",
+    "episode_number": 3,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 90,
+    "season_number": 1,
+    "show_id": 86850,
+    "still_path": "/pf0PbgjYWsU9BAF5evMkieJEEh.jpg"
+  },
+  "name": "Dracula",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 4,
+      "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+      "name": "BBC One",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 3,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "Dracula",
+  "overview": "Transylvania, 1897. The blood-drinking Count Dracula is drawing his plans against Victorian London. And be warned: the dead travel fast.",
+  "popularity": 6.1927,
+  "poster_path": "/5SqUNnExnN7Cr8rzyTXJTWmEMHn.jpg",
+  "production_companies": [
+    {
+      "id": 9166,
+      "logo_path": null,
+      "name": "Hartswood Films",
+      "origin_country": "GB"
+    },
+    {
+      "id": 3324,
+      "logo_path": "/dqT3yOTlfJRmtvk52Ccd1O6dZ0A.png",
+      "name": "BBC",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2020-01-01",
+      "episode_count": 1,
+      "id": 139621,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": "/8wDk9bbkaDqR9Sm9Vesc5cKxAAD.jpg",
+      "season_number": 0,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2020-01-01",
+      "episode_count": 3,
+      "id": 118944,
+      "name": "Miniseries",
+      "overview": "Transylvania, 1897. The blood-drinking Count Dracula is drawing his plans against Victorian London. And be warned: the dead travel fast.",
+      "poster_path": "/8HT4OBm2nfcyB2o8MTukIRgdM2s.jpg",
+      "season_number": 1,
+      "vote_average": 7.1
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "German",
+      "iso_639_1": "de",
+      "name": "Deutsch"
+    },
+    {
+      "english_name": "Romanian",
+      "iso_639_1": "ro",
+      "name": "Română"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Bloody legend.",
+  "type": "Miniseries",
+  "vote_average": 6.978,
+  "vote_count": 811
+}

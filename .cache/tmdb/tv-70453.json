@@ -1,0 +1,145 @@
+{
+  "adult": false,
+  "backdrop_path": "/b9cCIwtT0gD42wEMMZwMdY8zfgS.jpg",
+  "created_by": [
+    {
+      "id": 149495,
+      "credit_id": "58b1ecfc9251415b3101209a",
+      "name": "Marti Noxon",
+      "original_name": "Marti Noxon",
+      "gender": 1,
+      "profile_path": "/rrt5WkIi31DKr30vJWEPlRpkgHL.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2018-07-08",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://www.hbo.com/sharp-objects",
+  "id": 70453,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2018-08-26",
+  "last_episode_to_air": {
+    "id": 1526154,
+    "name": "Milk",
+    "overview": "Concerned for the safety of Amma, Camille puts her own life in jeopardy as she gets closer to the truth behind the shocking mysteries surrounding the Wind Gap killings.",
+    "vote_average": 8.132,
+    "vote_count": 53,
+    "air_date": "2018-08-26",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 50,
+    "season_number": 1,
+    "show_id": 70453,
+    "still_path": "/i82FnuM6tCrLLuZAaehMN9z6NyI.jpg"
+  },
+  "name": "Sharp Objects",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 49,
+      "logo_path": "/tuomPhY2UtuPTqqFnKMVHvSb724.png",
+      "name": "HBO",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 8,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Sharp Objects",
+  "overview": "Reporter Camille Preaker confronts the psychological demons from her past when she returns to her hometown to investigate the murders of two young girls.",
+  "popularity": 9.7229,
+  "poster_path": "/1SGovj2qDdkJexvhFiXllj9EYfu.jpg",
+  "production_companies": [
+    {
+      "id": 8147,
+      "logo_path": "/q6HOAdSNgCbeOqwoMVRc6REgbXF.png",
+      "name": "Entertainment One",
+      "origin_country": "CA"
+    },
+    {
+      "id": 68884,
+      "logo_path": "/1BYexT6Vikz4ulCcYKGPmOi6Jm0.png",
+      "name": "Blumhouse Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 108312,
+      "logo_path": "/4ygexO7yU9nKkqtFryGXTck0dk3.png",
+      "name": "Crazyrose",
+      "origin_country": "US"
+    },
+    {
+      "id": 108313,
+      "logo_path": null,
+      "name": "Fourth Born",
+      "origin_country": ""
+    },
+    {
+      "id": 103672,
+      "logo_path": null,
+      "name": "Tiny Pyro",
+      "origin_country": "US"
+    },
+    {
+      "id": 3172,
+      "logo_path": "/rzKluDcRkIwHZK2pHsiT667A2Kw.png",
+      "name": "Blumhouse Productions",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "CA",
+      "name": "Canada"
+    },
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2018-07-08",
+      "episode_count": 8,
+      "id": 85560,
+      "name": "Miniseries",
+      "overview": "",
+      "poster_path": "/1SGovj2qDdkJexvhFiXllj9EYfu.jpg",
+      "season_number": 1,
+      "vote_average": 7.6
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Welcome home.",
+  "type": "Miniseries",
+  "vote_average": 7.755,
+  "vote_count": 1049
+}

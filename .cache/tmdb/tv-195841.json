@@ -1,0 +1,123 @@
+{
+  "adult": false,
+  "backdrop_path": "/uUYd4Fl8J1ZwHda0A4V3QTKbWVu.jpg",
+  "created_by": [
+    {
+      "id": 1564170,
+      "credit_id": "63b35c19a9117f0571a46bed",
+      "name": "Benjamin Law",
+      "original_name": "Benjamin Law",
+      "gender": 2,
+      "profile_path": "/pJDfY3PF6ebkwNyPTUGGY6iFWYH.jpg"
+    },
+    {
+      "id": 3477177,
+      "credit_id": "63b35c1d391b9c008b9fc09e",
+      "name": "Brigid Delaney",
+      "original_name": "Brigid Delaney",
+      "gender": 1,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    30
+  ],
+  "first_air_date": "2023-03-29",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81406669",
+  "id": 195841,
+  "in_production": false,
+  "languages": [
+    "en",
+    "es"
+  ],
+  "last_air_date": "2023-03-29",
+  "last_episode_to_air": {
+    "id": 4135688,
+    "name": "Count to 10",
+    "overview": "It's launch day for 'Banquet Royale', and Liv's professional dreams are finally coming true. So why does it feel like she's drowning?",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2023-03-29",
+    "episode_number": 8,
+    "episode_type": "standard",
+    "production_code": "",
+    "runtime": 26,
+    "season_number": 1,
+    "show_id": 195841,
+    "still_path": "/tlf4dNbDuj6cb2j4F7YtfHqCzX6.jpg"
+  },
+  "name": "Wellmania",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 8,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "AU"
+  ],
+  "original_language": "en",
+  "original_name": "Wellmania",
+  "overview": "Liv, a human tornado, is forced to rethink her live fast die young philosophy after a major health scare. She throws herself into a wellness journey, trying everything she can to reclaim her old life.",
+  "popularity": 2.0876,
+  "poster_path": "/c3F9aMUSwQovZkpEBynxBxN3keo.jpg",
+  "production_companies": [
+    {
+      "id": 2838,
+      "logo_path": "/3RImJV8qCBtlKD7ZoyVFnaKD9cw.png",
+      "name": "Fremantle Australia",
+      "origin_country": "AU"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "AU",
+      "name": "Australia"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2023-03-29",
+      "episode_count": 8,
+      "id": 284610,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/ahXvHCXIS1GwUg7gcAVPe6vJzRG.jpg",
+      "season_number": 1,
+      "vote_average": 0
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "Spanish",
+      "iso_639_1": "es",
+      "name": "Español"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "get well, die trying.",
+  "type": "Scripted",
+  "vote_average": 6.5,
+  "vote_count": 44
+}

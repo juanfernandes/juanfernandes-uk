@@ -1,0 +1,124 @@
+{
+  "adult": false,
+  "backdrop_path": "/12Mo9OkBwj32QJKCGV5xKBko9OV.jpg",
+  "created_by": [
+    {
+      "id": 122153,
+      "credit_id": "5c7023b59251411c63c1b410",
+      "name": "William Laurin",
+      "original_name": "William Laurin",
+      "gender": 0,
+      "profile_path": null
+    },
+    {
+      "id": 122152,
+      "credit_id": "5c70239b0e0a2672941024c2",
+      "name": "Glenn Davis",
+      "original_name": "Glenn Davis",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    42
+  ],
+  "first_air_date": "2019-12-05",
+  "genres": [
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80236118",
+  "id": 81559,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2019-12-05",
+  "last_episode_to_air": {
+    "id": 2006507,
+    "name": "Bloody But Unbow'd",
+    "overview": "An official truce is announced but complications quickly arise, threatening the lives of humans as well as Bloods.",
+    "vote_average": 7,
+    "vote_count": 4,
+    "air_date": "2019-12-05",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 37,
+    "season_number": 1,
+    "show_id": 81559,
+    "still_path": "/6Ij1Lox1cQOrekeqTdsIBDzqheg.jpg"
+  },
+  "name": "V Wars",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 10,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "CA",
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "V Wars",
+  "overview": "After a mysterious disease begins transforming people into vampires, Dr. Luther Swann is pitted against his best friend, now a powerful vampire leader.",
+  "popularity": 4.4013,
+  "poster_path": "/njOxOfBp0d7DgdrMnOH1VugC9yZ.jpg",
+  "production_companies": [
+    {
+      "id": 107917,
+      "logo_path": null,
+      "name": "High Park Entertainment",
+      "origin_country": ""
+    },
+    {
+      "id": 106992,
+      "logo_path": null,
+      "name": "Marada Pictures",
+      "origin_country": ""
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-12-05",
+      "episode_count": 10,
+      "id": 107728,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/zPSnO5EG5THjRBzbCmZZ6V7QeVx.jpg",
+      "season_number": 1,
+      "vote_average": 6.9
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 7.243,
+  "vote_count": 342
+}

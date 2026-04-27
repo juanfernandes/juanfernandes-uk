@@ -1,0 +1,113 @@
+{
+  "adult": false,
+  "backdrop_path": "/nVFzS0whGKjyWdoo0arKT1ecGaU.jpg",
+  "created_by": [
+    {
+      "id": 2458715,
+      "credit_id": "5dcedade79a1c300134a01d1",
+      "name": "Karyn Dougan-Buckland",
+      "original_name": "Karyn Dougan-Buckland",
+      "gender": 0,
+      "profile_path": null
+    },
+    {
+      "id": 2458716,
+      "credit_id": "5dcedaeecc277c0012e590f5",
+      "name": "Mark Buckland",
+      "original_name": "Mark Buckland",
+      "gender": 0,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    45
+  ],
+  "first_air_date": "2019-11-18",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.channel5.com/show/cold-call/",
+  "id": 95469,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2019-11-21",
+  "last_episode_to_air": {
+    "id": 1984187,
+    "name": "Episode 4",
+    "overview": "With nowhere else to turn and tensions rising, June and Kirk are both pushed to breaking point. Drama about a fraud victim persuaded to go to extreme lengths to get to the bottom of the criminal enterprise that targeted her,.",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2019-11-21",
+    "episode_number": 4,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 45,
+    "season_number": 1,
+    "show_id": 95469,
+    "still_path": "/4OfXwv4Gy4DAiJVsAnEynhNv60G.jpg"
+  },
+  "name": "Cold Call",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 99,
+      "logo_path": "/tAOMutfVve2or2LTYQfIa42sc33.png",
+      "name": "5",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 4,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "Cold Call",
+  "overview": "June Clarke loses the money from the sale of her house to fraudsters and attends a support group for victims of such scams where she meets old school mate Des Grigsby. He persuades her to take a job caring for the mother of respected businessman Kirk Wiley, who he suspects is involved in the criminal enterprise that targeted both of them.",
+  "popularity": 0.8888,
+  "poster_path": "/68AJaYLxIHWWVEGOWBROn2Mi5cs.jpg",
+  "production_companies": [
+    {
+      "id": 125349,
+      "logo_path": "/isgmeOhuf1l6RmHWholNtabs4NR.png",
+      "name": "Chalkboard TV",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-11-18",
+      "episode_count": 4,
+      "id": 135841,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 1,
+      "vote_average": 7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "One call changes everything.",
+  "type": "Scripted",
+  "vote_average": 6.571,
+  "vote_count": 7
+}

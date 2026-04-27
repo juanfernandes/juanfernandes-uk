@@ -1,0 +1,110 @@
+{
+  "adult": false,
+  "backdrop_path": "/kjFIgkEyAFUkYZebQF2cIb0TYYS.jpg",
+  "created_by": [],
+  "episode_run_time": [
+    48
+  ],
+  "first_air_date": "2021-01-13",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81025701",
+  "id": 114705,
+  "in_production": false,
+  "languages": [
+    "en",
+    "es"
+  ],
+  "last_air_date": "2021-01-13",
+  "last_episode_to_air": {
+    "id": 2638982,
+    "name": "Manhunt",
+    "overview": "Detectives identify their suspect and a manhunt begins - but it's the public that rises up to stop the Night Stalker's deadly reign of terror.",
+    "vote_average": 8.4,
+    "vote_count": 11,
+    "air_date": "2021-01-13",
+    "episode_number": 4,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 48,
+    "season_number": 1,
+    "show_id": 114705,
+    "still_path": "/rj12VVmPly3HvERVsyPTEqKDd49.jpg"
+  },
+  "name": "Night Stalker: The Hunt for a Serial Killer",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 4,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Night Stalker: The Hunt for a Serial Killer",
+  "overview": "Beneath the sunlit glamour of 1985 L.A. lurks a relentlessly evil serial killer. In this true-crime story, two detectives won't rest until they catch him.",
+  "popularity": 2.1955,
+  "poster_path": "/fOX6cKsDSCRKrDCk4vWFv2MgzM3.jpg",
+  "production_companies": [
+    {
+      "id": 83966,
+      "logo_path": "/q2BuooxLm16EvWcUY4CMJo3PSNo.png",
+      "name": "The Intellectual Property Corporation",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2021-01-13",
+      "episode_count": 4,
+      "id": 172278,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": "/fOX6cKsDSCRKrDCk4vWFv2MgzM3.jpg",
+      "season_number": 1,
+      "vote_average": 8.1
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "Spanish",
+      "iso_639_1": "es",
+      "name": "Español"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Lock. Your. Doors.",
+  "type": "Miniseries",
+  "vote_average": 7.452,
+  "vote_count": 365
+}

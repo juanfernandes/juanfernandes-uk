@@ -1,0 +1,155 @@
+{
+  "adult": false,
+  "backdrop_path": "/64jEzC7YeKEpnn1YwjCGRo9ZvOX.jpg",
+  "created_by": [
+    {
+      "id": 81203,
+      "credit_id": "5f1e7424511d0900357795a7",
+      "name": "Doug Miro",
+      "original_name": "Doug Miro",
+      "gender": 2,
+      "profile_path": "/ooAtZIPaK3VZDXmJfBWXPq2tavS.jpg"
+    },
+    {
+      "id": 121479,
+      "credit_id": "5f1e743566a7c300370a5ac0",
+      "name": "Carlo Bernard",
+      "original_name": "Carlo Bernard",
+      "gender": 2,
+      "profile_path": "/jOfuvuGuTjIwfruRbh7ZL9kZ4X.jpg"
+    },
+    {
+      "id": 64506,
+      "credit_id": "5f1e7419511d090036757f00",
+      "name": "Chris Brancato",
+      "original_name": "Chris Brancato",
+      "gender": 2,
+      "profile_path": "/haVVgMyOnU4BSZrA262pUU2xHaA.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2018-11-16",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80997085",
+  "id": 80968,
+  "in_production": false,
+  "languages": [
+    "en",
+    "es"
+  ],
+  "last_air_date": "2021-11-05",
+  "last_episode_to_air": {
+    "id": 3302591,
+    "name": "Life in Wartime",
+    "overview": "Mexican and US authorities search in earnest for Amado. While in prison, Chapo makes moves to show he's the boss. Enedina sends Ramón on a mission.",
+    "vote_average": 7,
+    "vote_count": 11,
+    "air_date": "2021-11-05",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "610",
+    "runtime": 69,
+    "season_number": 3,
+    "show_id": 80968,
+    "still_path": "/bEBOSpPYrZoI91zmgzqgtQnVNZF.jpg"
+  },
+  "name": "Narcos: Mexico",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 30,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Narcos: Mexico",
+  "overview": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
+  "popularity": 18.8845,
+  "poster_path": "/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
+  "production_companies": [
+    {
+      "id": 206133,
+      "logo_path": "/wS56yo8ya8fui8imnDRbkyjWE7H.png",
+      "name": "Gaumont",
+      "origin_country": "US"
+    },
+    {
+      "id": 36812,
+      "logo_path": "/t0cibwMPVH7RD7UsQNqmugDMnw7.png",
+      "name": "Gaumont International Television",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2018-11-16",
+      "episode_count": 10,
+      "id": 106584,
+      "name": "Season 1",
+      "overview": "Witness the birth of the Mexican drug war in the 1980s as a gritty new \"Narcos\" saga chronicles the true story of the Guadalajara cartel's ascent.",
+      "poster_path": "/nd6btFNw6kly3BuxojYAhnIwGg.jpg",
+      "season_number": 1,
+      "vote_average": 7.9
+    },
+    {
+      "air_date": "2020-02-13",
+      "episode_count": 10,
+      "id": 124641,
+      "name": "Season 2",
+      "overview": "Félix fights to maintain control of the cocaine trade, but the DEA’s thirst for revenge and feuding within his organization threaten his ambitions.",
+      "poster_path": "/BBGuA0GXeGeSJxjlcawljLEN66.jpg",
+      "season_number": 2,
+      "vote_average": 7.5
+    },
+    {
+      "air_date": "2021-11-05",
+      "episode_count": 10,
+      "id": 166998,
+      "name": "Season 3",
+      "overview": "As a new generation of cartel leaders vie for power, journalists hunt for truth while government agents walk a thin line between justice and corruption.",
+      "poster_path": "/uYcZMiIIUv8NPebpqKbUGhf2M3y.jpg",
+      "season_number": 3,
+      "vote_average": 7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "Spanish",
+      "iso_639_1": "es",
+      "name": "Español"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "The uncut story of Mexico's first cartel.",
+  "type": "Scripted",
+  "vote_average": 7.916,
+  "vote_count": 1483
+}

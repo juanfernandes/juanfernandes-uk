@@ -1,0 +1,149 @@
+{
+  "adult": false,
+  "backdrop_path": "/hRwyiBwWKbol9tg3fLFNFkuATqL.jpg",
+  "created_by": [
+    {
+      "id": 1224796,
+      "credit_id": "5c9eaf6ac3a368734e8025d4",
+      "name": "Karl Schaefer",
+      "original_name": "Karl Schaefer",
+      "gender": 2,
+      "profile_path": null
+    },
+    {
+      "id": 62941,
+      "credit_id": "5c9eaf79c3a368735b80194a",
+      "name": "John Hyams",
+      "original_name": "John Hyams",
+      "gender": 2,
+      "profile_path": "/7NosT6z5tAM0HlujmIyLpKJckAy.jpg"
+    }
+  ],
+  "episode_run_time": [
+    45
+  ],
+  "first_air_date": "2019-04-11",
+  "genres": [
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80198988",
+  "id": 88052,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2021-06-17",
+  "last_episode_to_air": {
+    "id": 2962007,
+    "name": "The Plane",
+    "overview": "Time for takeoff. Out at the airstrip, old allies reconnect, new cohorts seize the opportunity, and escape seems tantalizingly within reach.",
+    "vote_average": 8,
+    "vote_count": 7,
+    "air_date": "2021-06-17",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 43,
+    "season_number": 2,
+    "show_id": 88052,
+    "still_path": "/85F25DmuCWIWyrDPOb0JIEx2BM4.jpg"
+  },
+  "name": "Black Summer",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 16,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Black Summer",
+  "overview": "In the dark, early days of a zombie apocalypse, complete strangers band together to find the strength they need to survive and get back to loved ones.",
+  "popularity": 5.3985,
+  "poster_path": "/d27fZpY8jSZDOs1k0JCL0RY0b94.jpg",
+  "production_companies": [
+    {
+      "id": 1311,
+      "logo_path": "/ic2bTizdzRLDVzAvN7MXdUg3WQV.png",
+      "name": "The Asylum",
+      "origin_country": "US"
+    },
+    {
+      "id": 281320,
+      "logo_path": null,
+      "name": "One Dog Day Productions",
+      "origin_country": ""
+    },
+    {
+      "id": 20486,
+      "logo_path": null,
+      "name": "Go2 Digital Media",
+      "origin_country": "US"
+    },
+    {
+      "id": 242457,
+      "logo_path": null,
+      "name": "Unreality Incorporated",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-04-11",
+      "episode_count": 8,
+      "id": 121378,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/hIV1KArAzdhZGyFBtt4NMThDLI3.jpg",
+      "season_number": 1,
+      "vote_average": 6.6
+    },
+    {
+      "air_date": "2021-06-17",
+      "episode_count": 8,
+      "id": 195840,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/nwzne6hSOitvE2zifdV4SNY2WU0.jpg",
+      "season_number": 2,
+      "vote_average": 7.6
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 6.982,
+  "vote_count": 589
+}

@@ -1,0 +1,169 @@
+{
+  "adult": false,
+  "backdrop_path": "/5TgMzFqbOEcEo99uhIo8DmiENOx.jpg",
+  "created_by": [
+    {
+      "id": 10871,
+      "credit_id": "5c14e91a0e0a2603783c718a",
+      "name": "Natasha Lyonne",
+      "original_name": "Natasha Lyonne",
+      "gender": 1,
+      "profile_path": "/2QJoTBEIeYyjGSDot9qxv2ayPH3.jpg"
+    },
+    {
+      "id": 56322,
+      "credit_id": "5c14e92792514132b70a930d",
+      "name": "Amy Poehler",
+      "original_name": "Amy Poehler",
+      "gender": 1,
+      "profile_path": "/rwmvRonpluV6dCPiQissYrchvSD.jpg"
+    },
+    {
+      "id": 217587,
+      "credit_id": "5c14e92cc3a36866c0369430",
+      "name": "Leslye Headland",
+      "original_name": "Leslye Headland",
+      "gender": 1,
+      "profile_path": "/tHrxGDqAp89F9m0ISRUuuUeKrb4.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2019-02-01",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80211627",
+  "id": 84977,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2022-04-20",
+  "last_episode_to_air": {
+    "id": 3660624,
+    "name": "Matryoshka",
+    "overview": "On Nadia's birthday, she and Alan reunite in a familiar place. But they clash over how to handle the future (and the past).",
+    "vote_average": 6.3,
+    "vote_count": 24,
+    "air_date": "2022-04-20",
+    "episode_number": 7,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 31,
+    "season_number": 2,
+    "show_id": 84977,
+    "still_path": "/xyYKBWPoLNIOvhEBDWr40aESHEn.jpg"
+  },
+  "name": "Russian Doll",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 15,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Russian Doll",
+  "overview": "Nadia keeps dying and reliving her 36th birthday party. She's trapped in a surreal time loop -- and staring down the barrel of her own mortality.",
+  "popularity": 6.5696,
+  "poster_path": "/1ju4vQ1EwlIkQxEgWiYmxOs3iBG.jpg",
+  "production_companies": [
+    {
+      "id": 26727,
+      "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+      "name": "Universal Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 24022,
+      "logo_path": "/aIjT1pYb83Hluuq39idD41r71ze.png",
+      "name": "Paper Kite Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 24021,
+      "logo_path": "/urq2p5ColCf657b5nOmBpBOrjyv.png",
+      "name": "Jax Media",
+      "origin_country": "US"
+    },
+    {
+      "id": 787,
+      "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
+      "name": "3 Arts Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 199908,
+      "logo_path": null,
+      "name": "Shoot to Midnight",
+      "origin_country": "US"
+    },
+    {
+      "id": 225257,
+      "logo_path": null,
+      "name": "Avenue A",
+      "origin_country": "US"
+    },
+    {
+      "id": 150969,
+      "logo_path": "/7oS9vcqTqm4m7x1GP0zBZaRkiPw.png",
+      "name": "Animal Pictures",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-02-01",
+      "episode_count": 8,
+      "id": 114417,
+      "name": "Season 1",
+      "overview": "Nadia keeps dying and reliving her 36th birthday party. She's trapped in a surreal time loop - and staring down the barrel of her own mortality.",
+      "poster_path": "/4WijEAbnGMJifP6uepGALci3Jf.jpg",
+      "season_number": 1,
+      "vote_average": 7.4
+    },
+    {
+      "air_date": "2022-04-20",
+      "episode_count": 7,
+      "id": 243600,
+      "name": "Season 2",
+      "overview": "After enduring the wildest night of their lives — over and over — Nadia and Alan stumble into another bewildering existential adventure.",
+      "poster_path": "/pZeVcq63ZxRsyldTji6qqY8GsIP.jpg",
+      "season_number": 2,
+      "vote_average": 6.4
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "All aboard the crazy train.",
+  "type": "Scripted",
+  "vote_average": 7.358,
+  "vote_count": 981
+}

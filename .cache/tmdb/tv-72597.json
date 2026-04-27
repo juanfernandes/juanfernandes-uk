@@ -1,0 +1,153 @@
+{
+  "adult": false,
+  "backdrop_path": "/z2ZmYbhk0McewduBFtCqkmcZoqT.jpg",
+  "created_by": [
+    {
+      "id": 1296509,
+      "credit_id": "5a3240ff925141547501253b",
+      "name": "Andrew Sodroski",
+      "original_name": "Andrew Sodroski",
+      "gender": 2,
+      "profile_path": null
+    },
+    {
+      "id": 1682545,
+      "credit_id": "5b90aaa192514166a3006540",
+      "name": "Jim Clemente",
+      "original_name": "Jim Clemente",
+      "gender": 2,
+      "profile_path": null
+    },
+    {
+      "id": 1777101,
+      "credit_id": "5b90aab00e0a2665a8006aad",
+      "name": "Tony Gittelson",
+      "original_name": "Tony Gittelson",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    42
+  ],
+  "first_air_date": "2017-08-01",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://spectrumoriginals.com/manhunt-deadly-games",
+  "id": 72597,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2020-02-03",
+  "last_episode_to_air": {
+    "id": 2158384,
+    "name": "Open Season",
+    "overview": "Eric, starving and bereft of allies, is finally captured. But as his day in court—and Richard's exoneration—approaches, he has another dangerous secret in store for law enforcement.",
+    "vote_average": 7.6,
+    "vote_count": 8,
+    "air_date": "2020-02-03",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 48,
+    "season_number": 2,
+    "show_id": 72597,
+    "still_path": "/sjiQGDvYBwdAqQEvlB6yNqjvae0.jpg"
+  },
+  "name": "Manhunt",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 64,
+      "logo_path": "/tmttRFo2OiXQD0EHMxxlw8EzUuZ.png",
+      "name": "Discovery",
+      "origin_country": "US"
+    },
+    {
+      "id": 2871,
+      "logo_path": "/ta0tkJ6VUugXwQzdea6T7jzUYkI.png",
+      "name": "Spectrum",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 18,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Manhunt",
+  "overview": "Inspired by actual events, this true crime anthology series takes a deep dive into the dark, twisted minds of terrorists and follows the brave souls who hunt them down.",
+  "popularity": 9.4115,
+  "poster_path": "/9ukZcwaqcObmmxxfcIXTgVMvalJ.jpg",
+  "production_companies": [
+    {
+      "id": 7626,
+      "logo_path": "/4839MGss4pPAalhqqYH1AD1CnEj.png",
+      "name": "Trigger Street Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 28523,
+      "logo_path": "/zzULw9w7d50BHR8fE30PZT3zJ1D.png",
+      "name": "Lionsgate Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 82981,
+      "logo_path": "/2zl1si6wU6VD0i5uOzwEai6xT1P.png",
+      "name": "Discovery Communications",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2017-08-01",
+      "episode_count": 8,
+      "id": 89961,
+      "name": "Unabomber",
+      "overview": "Follow Jim Fitzgerald, the FBI agent who tracked down Ted Kaczynski, aka the “Unabomber,” and brought him to justice through his expertise in profiling and linguistics.",
+      "poster_path": "/fNk0TIirjsJOmwAI6fc8rVDwAu3.jpg",
+      "season_number": 1,
+      "vote_average": 7.9
+    },
+    {
+      "air_date": "2020-02-03",
+      "episode_count": 10,
+      "id": 142141,
+      "name": "Deadly Games",
+      "overview": "The story of one of the largest and most complex manhunts on U.S. soil—the search for the 1996 Atlanta Olympic Park Bomber—and the media firestorm that consumed the life of Richard Jewell in its wake.",
+      "poster_path": "/2c4n6JZyRsQJFDb3sBSKlXnNX4N.jpg",
+      "season_number": 2,
+      "vote_average": 7.5
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 7.588,
+  "vote_count": 518
+}

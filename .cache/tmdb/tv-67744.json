@@ -1,0 +1,117 @@
+{
+  "adult": false,
+  "backdrop_path": "/a906PH7CDmSOdS7kmnAgdWk5mhv.jpg",
+  "created_by": [
+    {
+      "id": 57573,
+      "credit_id": "5a251a29c3a3680b930d8433",
+      "name": "Joe Penhall",
+      "original_name": "Joe Penhall",
+      "gender": 2,
+      "profile_path": "/9dXtvOKfFyeAp8jNBxM0OAqosWv.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2017-10-13",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80114855",
+  "id": 67744,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2019-08-16",
+  "last_episode_to_air": {
+    "id": 1891024,
+    "name": "Episode 9",
+    "overview": "The investigation zeroes in on a prime suspect who proves surprisingly adept at manipulating a volatile situation to his advantage.",
+    "vote_average": 8.302,
+    "vote_count": 43,
+    "air_date": "2019-08-16",
+    "episode_number": 9,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 74,
+    "season_number": 2,
+    "show_id": 67744,
+    "still_path": "/ysv8mCXwZPZJSRkTUTfI22qHDDd.jpg"
+  },
+  "name": "MINDHUNTER",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 19,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "MINDHUNTER",
+  "overview": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+  "popularity": 19.3569,
+  "poster_path": "/eg2eepJtJeRtCZEUJvIYyb2PnYD.jpg",
+  "production_companies": [
+    {
+      "id": 3574,
+      "logo_path": "/j3iU6FoWplGPoO1Vxn8fFHX4VPE.png",
+      "name": "Denver & Delilah Productions",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2017-10-13",
+      "episode_count": 10,
+      "id": 79990,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/lJFRiAeD83gKyzpoqStRM3ebKul.jpg",
+      "season_number": 1,
+      "vote_average": 7.8
+    },
+    {
+      "air_date": "2019-08-16",
+      "episode_count": 9,
+      "id": 127554,
+      "name": "Season 2",
+      "overview": "The Behavioral Science Unit's killer instincts move from theory into action when the FBI joins in a high-profile hunt for a serial child murderer.",
+      "poster_path": "/ge5B0uzU7ggvzMMgtuQnBAaxvVx.jpg",
+      "season_number": 2,
+      "vote_average": 8
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "History. Pattern. Profile.",
+  "type": "Scripted",
+  "vote_average": 8.117,
+  "vote_count": 2918
+}

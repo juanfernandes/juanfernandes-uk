@@ -1,0 +1,197 @@
+{
+  "adult": false,
+  "backdrop_path": "/aYx1vsHepgsokRQTZDrHSCMxW2O.jpg",
+  "created_by": [
+    {
+      "id": 1388201,
+      "credit_id": "5471447692514112e7006788",
+      "name": "Paul Doolan",
+      "original_name": "Paul Doolan",
+      "gender": 0,
+      "profile_path": null
+    },
+    {
+      "id": 91299,
+      "credit_id": "54714483c3a368085e001924",
+      "name": "Ash Atalla",
+      "original_name": "Ash Atalla",
+      "gender": 2,
+      "profile_path": "/3iSWuCx1JclRswLXiKZRsnYN50B.jpg"
+    },
+    {
+      "id": 1388200,
+      "credit_id": "5471446bc3a3684c6f0007b1",
+      "name": "Anne Marie O'Connor",
+      "original_name": "Anne Marie O'Connor",
+      "gender": 1,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    23
+  ],
+  "first_air_date": "2011-08-04",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "https://www.sky.com/watch/title/series/1f343e05-4f81-4d61-ae7c-601c1e196f84",
+  "id": 40110,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2018-02-20",
+  "last_episode_to_air": {
+    "id": 1432853,
+    "name": "Gavin's Sacrifice",
+    "overview": "Gavin makes the ultimate sacrifice in a desperate bid to fix things with Cheryl. Oblivious to the tension, Colin and Lisa plan their stag and hen dos.",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2018-02-20",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 23,
+    "season_number": 7,
+    "show_id": 40110,
+    "still_path": null
+  },
+  "name": "Trollied",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 214,
+      "logo_path": "/pNoTYkElreTiHtxhF1UpUnOyDPF.png",
+      "name": "Sky One",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 70,
+  "number_of_seasons": 7,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "Trollied",
+  "overview": "Set in Valco, a fictional budget supermarket in the north west of England, Trollied finds the funny in one of our most familiar surroundings and focuses on the types of characters we all recognise: bored checkout staff, ineffectual managers and a range of customers, from the irate to the downright bizarre.",
+  "popularity": 6.7436,
+  "poster_path": "/vZ3mLHouZW7NtNfuQdmrzVTAMP9.jpg",
+  "production_companies": [
+    {
+      "id": 31152,
+      "logo_path": "/48JyPaAGhaAw7nbRte4gi3ibNle.png",
+      "name": "Roughcut Television",
+      "origin_country": "GB"
+    },
+    {
+      "id": 107295,
+      "logo_path": null,
+      "name": "Roughcut TV",
+      "origin_country": ""
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2011-10-17",
+      "episode_count": 11,
+      "id": 51192,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": "/vVriwYKnK4y2NpL7PwOKIqzv0S9.jpg",
+      "season_number": 0,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2011-08-04",
+      "episode_count": 8,
+      "id": 51191,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/g2QWSqRI1MYZw8fcHAwt1AZ444H.jpg",
+      "season_number": 1,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2012-08-31",
+      "episode_count": 14,
+      "id": 51190,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/rBAhkn1VdQRnwPo1MTYDUW3EZ4d.jpg",
+      "season_number": 2,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2013-08-22",
+      "episode_count": 14,
+      "id": 51193,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": "/yqZEtQBbOxybiflnj8S3paHqGE1.jpg",
+      "season_number": 3,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2014-11-03",
+      "episode_count": 8,
+      "id": 63367,
+      "name": "Season 4",
+      "overview": "",
+      "poster_path": "/nq4ZbWIhJj1yEO35CyXBZTf4PR.jpg",
+      "season_number": 4,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2015-11-02",
+      "episode_count": 9,
+      "id": 72222,
+      "name": "Season 5",
+      "overview": "",
+      "poster_path": "/digFRYZX1YyE6CWXESVY5Pr6s0L.jpg",
+      "season_number": 5,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2016-11-07",
+      "episode_count": 9,
+      "id": 81723,
+      "name": "Season 6",
+      "overview": "",
+      "poster_path": "/9HGjiYWyTzIjfnJFrrVu3xWgdnb.jpg",
+      "season_number": 6,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2018-01-02",
+      "episode_count": 8,
+      "id": 99378,
+      "name": "Season 7",
+      "overview": "",
+      "poster_path": "/psLvDVljDWoYD4vh4HsEmw7LX8x.jpg",
+      "season_number": 7,
+      "vote_average": 0
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 6.5,
+  "vote_count": 30
+}

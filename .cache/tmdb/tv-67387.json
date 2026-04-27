@@ -1,0 +1,127 @@
+{
+  "adult": false,
+  "backdrop_path": "/mot7QCSjcS8r904orxxdaIrk5an.jpg",
+  "created_by": [
+    {
+      "id": 3671603,
+      "credit_id": "6301f533839d93007b62f123",
+      "name": "Chris Gau",
+      "original_name": "Chris Gau",
+      "gender": 0,
+      "profile_path": null
+    },
+    {
+      "id": 3590448,
+      "credit_id": "6301f527fb5299007a7642db",
+      "name": "Michael Orton-Toliver",
+      "original_name": "Michael Orton-Toliver",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    30
+  ],
+  "first_air_date": "2016-08-02",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "http://www.channel5.com/show/borderline",
+  "id": 67387,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2017-11-09",
+  "last_episode_to_air": {
+    "id": 1385395,
+    "name": "Workshop",
+    "overview": "A team-building weekend leads to a few surprises.",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2017-11-09",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 30,
+    "season_number": 2,
+    "show_id": 67387,
+    "still_path": "/meYFa7B92jZYLPOoTD9W0V8nPHE.jpg"
+  },
+  "name": "Borderline",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 99,
+      "logo_path": "/tAOMutfVve2or2LTYQfIa42sc33.png",
+      "name": "5",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 12,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "Borderline",
+  "overview": "Mockumentary based in the border security office of fictional Northend Airport, a small provincial airport which may lack a little in glamour, but still must abide by the same rules as larger international airports",
+  "popularity": 1.1225,
+  "poster_path": "/oPYzGX23YHKWHjToY7PKaxeUGYg.jpg",
+  "production_companies": [
+    {
+      "id": 80244,
+      "logo_path": null,
+      "name": "Little Rock Pictures",
+      "origin_country": ""
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2016-08-02",
+      "episode_count": 6,
+      "id": 79163,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/aKYOhAePyA5rQTq3qBQTXhHW9GI.jpg",
+      "season_number": 1,
+      "vote_average": 7.9
+    },
+    {
+      "air_date": "2017-10-26",
+      "episode_count": 6,
+      "id": 94458,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/hchJJaxsYBK7GvsjndWYogNd2TO.jpg",
+      "season_number": 2,
+      "vote_average": 0
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 6.6,
+  "vote_count": 35
+}

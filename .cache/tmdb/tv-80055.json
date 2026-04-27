@@ -1,0 +1,113 @@
+{
+  "adult": false,
+  "backdrop_path": "/k3TmxbcAy5gV3l8GG4bI4j07udy.jpg",
+  "created_by": [
+    {
+      "id": 121821,
+      "credit_id": "5b19a0e20e0a261fa300bc74",
+      "name": "Leah Rachel",
+      "original_name": "Leah Rachel",
+      "gender": 1,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2019-04-26",
+  "genres": [
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80210361",
+  "id": 80055,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2019-04-26",
+  "last_episode_to_air": {
+    "id": 1769120,
+    "name": "The Crystal Organ",
+    "overview": "Teetering on the edge of life and death, Sasha struggles to hold on to who she is, while her desperate friends turn to an unexpected source for help.",
+    "vote_average": 5,
+    "vote_count": 1,
+    "air_date": "2019-04-26",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 45,
+    "season_number": 1,
+    "show_id": 80055,
+    "still_path": "/oRvWhoqn0xN5PwfI3IbZIbFJon2.jpg"
+  },
+  "name": "Chambers",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 10,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Chambers",
+  "overview": "Haunted by eerie visions and sinister impulses after a heart transplant, a teenager tries to unmask the truth behind her donor's mysterious death.",
+  "popularity": 2.8407,
+  "poster_path": "/h6jgj9zwwdyxIEsmWwkQHHdfEJ6.jpg",
+  "production_companies": [
+    {
+      "id": 89590,
+      "logo_path": "/v2eZ7x5Sa9v8BQrEN2qfLO5W893.png",
+      "name": "Super Deluxe",
+      "origin_country": "US"
+    },
+    {
+      "id": 279041,
+      "logo_path": null,
+      "name": "Super Emotional",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-04-26",
+      "episode_count": 10,
+      "id": 104863,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/h6jgj9zwwdyxIEsmWwkQHHdfEJ6.jpg",
+      "season_number": 1,
+      "vote_average": 5.1
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "Bad things happen for a reason.",
+  "type": "Scripted",
+  "vote_average": 6.6,
+  "vote_count": 157
+}

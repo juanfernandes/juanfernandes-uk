@@ -1,0 +1,121 @@
+{
+  "adult": false,
+  "backdrop_path": "/dLImgkxgHg6PQxJVwZYYa31Eqoa.jpg",
+  "created_by": [
+    {
+      "id": 2268718,
+      "credit_id": "61f4142c4fd141007033f408",
+      "name": "Kelly Loudenberg",
+      "original_name": "Kelly Loudenberg",
+      "gender": 0,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    42
+  ],
+  "first_air_date": "2017-09-08",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80161702",
+  "id": 73792,
+  "in_production": false,
+  "languages": [
+    "it",
+    "en"
+  ],
+  "last_air_date": "2019-06-21",
+  "last_episode_to_air": {
+    "id": 1830356,
+    "name": "Marching Orders",
+    "overview": "After Hamid Hayat admits to attending a terrorist camp, lawyers and his family question whether the taped confession reveals a very different truth.",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2019-06-21",
+    "episode_number": 4,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 42,
+    "season_number": 2,
+    "show_id": 73792,
+    "still_path": "/qF9YQNpdQoW4qxi0jImyaP65UyX.jpg"
+  },
+  "name": "The Confession Tapes",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 11,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "The Confession Tapes",
+  "overview": "This true crime documentary series investigates cases where people convicted of murder claim their confessions were coerced, involuntary or false.",
+  "popularity": 0.8463,
+  "poster_path": "/lIQuqN6E2ayR8NPflHHh5FX1YJ5.jpg",
+  "production_companies": [
+    {
+      "id": 24824,
+      "logo_path": "/dQI0yb5FTVK2uFFu04lzVtYtoGF.png",
+      "name": "Original Productions",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2017-09-08",
+      "episode_count": 7,
+      "id": 92512,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/2a0Wf2Ew6WLQ1N4plJHsDwlv4oA.jpg",
+      "season_number": 1,
+      "vote_average": 7.1
+    },
+    {
+      "air_date": "2019-06-21",
+      "episode_count": 4,
+      "id": 126321,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/1Iuqc7OyuMwmCscUSaS2Bri7fjS.jpg",
+      "season_number": 2,
+      "vote_average": 7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "Italian",
+      "iso_639_1": "it",
+      "name": "Italiano"
+    },
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Documentary",
+  "vote_average": 7.1,
+  "vote_count": 61
+}

@@ -1,0 +1,133 @@
+{
+  "adult": false,
+  "backdrop_path": "/xBCYJrPYAqdjAfvinHBB3WT9lqp.jpg",
+  "created_by": [
+    {
+      "id": 41795,
+      "credit_id": "5762a739c3a3680d01000f7b",
+      "name": "Manny Coto",
+      "original_name": "Manny Coto",
+      "gender": 2,
+      "profile_path": "/6myC77o5oGEWE8PzP1sUw3uPcxD.jpg"
+    },
+    {
+      "id": 1228478,
+      "credit_id": "5762a7409251413dd70015c0",
+      "name": "Evan Katz",
+      "original_name": "Evan Katz",
+      "gender": 2,
+      "profile_path": "/byvs1Bf5yTqNYaHqVG1pMQ2MFoZ.jpg"
+    }
+  ],
+  "episode_run_time": [
+    42
+  ],
+  "first_air_date": "2017-02-05",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "http://www.fox.com/24-legacy",
+  "id": 66789,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2017-04-17",
+  "last_episode_to_air": {
+    "id": 1282659,
+    "name": "11:00 PM - 12:00 PM",
+    "overview": "Rebecca's deal to save Donovan doesn't go as planned. Meanwhile, CTU must rely on Carter to go out into the field and facilitate an important exchange.",
+    "vote_average": 5.8,
+    "vote_count": 5,
+    "air_date": "2017-04-17",
+    "episode_number": 12,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 42,
+    "season_number": 1,
+    "show_id": 66789,
+    "still_path": "/z6RZsEnpY5Ecb05DDTFCmgueDPE.jpg"
+  },
+  "name": "24: Legacy",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 19,
+      "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+      "name": "FOX",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 12,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "24: Legacy",
+  "overview": "The story of  military hero Eric Carter’s return to the U.S. and the trouble that follows him back – compelling him to ask CTU for help in saving his life, and stopping what potentially could be one of the largest-scale terror attacks on American soil.",
+  "popularity": 3.9223,
+  "poster_path": "/2eoCEa9myi32C3QC7VYEu4y1f6D.jpg",
+  "production_companies": [
+    {
+      "id": 10850,
+      "logo_path": null,
+      "name": "Teakwood Lane Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 2850,
+      "logo_path": "/wLBnXtbPu2pESrTtB1hbp3MK9Px.png",
+      "name": "Imagine Television Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 1556,
+      "logo_path": "/31h94rG9hzjprXoYNy3L1ErUya2.png",
+      "name": "20th Century Fox Television",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2017-02-05",
+      "episode_count": 12,
+      "id": 77815,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/WhopMnEgUPS1vK2c2QeH0TCNf6.jpg",
+      "season_number": 1,
+      "vote_average": 6.1
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "New day. New hero.",
+  "type": "Scripted",
+  "vote_average": 6.17,
+  "vote_count": 265
+}

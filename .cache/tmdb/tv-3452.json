@@ -1,0 +1,253 @@
+{
+  "adult": false,
+  "backdrop_path": "/4FqKFhF4BrNsrK3EdRpVJofVqCp.jpg",
+  "created_by": [
+    {
+      "id": 1213757,
+      "credit_id": "5257514d760ee36aaa1c2565",
+      "name": "David Angell",
+      "original_name": "David Angell",
+      "gender": 2,
+      "profile_path": "/hVy0K1BJismmv5EG3aEO4HoepR3.jpg"
+    },
+    {
+      "id": 1213753,
+      "credit_id": "5257514d760ee36aaa1c256b",
+      "name": "Peter Casey",
+      "original_name": "Peter Casey",
+      "gender": 2,
+      "profile_path": null
+    },
+    {
+      "id": 1212926,
+      "credit_id": "638ed19bca0e1700ba361b5a",
+      "name": "David Clark Lee",
+      "original_name": "David Clark Lee",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    24
+  ],
+  "first_air_date": "1993-09-16",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    }
+  ],
+  "homepage": "",
+  "id": 3452,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2004-05-13",
+  "last_episode_to_air": {
+    "id": 249918,
+    "name": "Goodnight, Seattle (2)",
+    "overview": "Daphne gives birth to a healthy son David. Frasier marries Martin and Ronee in the vet's office before Daphne and the baby leave for the hospital. Frasier grows very lonely with Martin out of the apartment and Daphne and Niles busy with their son.",
+    "vote_average": 8.9,
+    "vote_count": 7,
+    "air_date": "2004-05-13",
+    "episode_number": 24,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 24,
+    "season_number": 11,
+    "show_id": 3452,
+    "still_path": "/touT6QbaNaUPyhEFl7DXLxRlueS.jpg"
+  },
+  "name": "Frasier",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 6,
+      "logo_path": "/cm111bsDVlYaC1foL0itvEI4yLG.png",
+      "name": "NBC",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 264,
+  "number_of_seasons": 11,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Frasier",
+  "overview": "After many years spent at the “Cheers” bar, Frasier moves back home to Seattle to work as a radio psychiatrist after his policeman father gets shot in the hip on duty.",
+  "popularity": 51.961,
+  "poster_path": "/gYAb6GCVEFsU9hzMCG5rxaxoIv3.jpg",
+  "production_companies": [
+    {
+      "id": 55016,
+      "logo_path": null,
+      "name": "Grammnet Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 65426,
+      "logo_path": null,
+      "name": "Grub Street Productions",
+      "origin_country": ""
+    },
+    {
+      "id": 9223,
+      "logo_path": "/40qzTBM38vokoWhLKurficZ5syV.png",
+      "name": "Paramount Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 1081,
+      "logo_path": "/19kn4jVvpc3sAL3YpZNb3elhSMl.png",
+      "name": "CBS Studios",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2001-11-13",
+      "episode_count": 23,
+      "id": 10559,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": "/lCnEv4HohxdU1cidsiB1pls011l.jpg",
+      "season_number": 0,
+      "vote_average": 0
+    },
+    {
+      "air_date": "1993-09-16",
+      "episode_count": 24,
+      "id": 10550,
+      "name": "Season 1",
+      "overview": "The first season of Frasier originally aired from September 16, 1993 to May 19, 1994 on NBC.",
+      "poster_path": "/hCWw08J3VcIkuxx26i5mOg8BLel.jpg",
+      "season_number": 1,
+      "vote_average": 8
+    },
+    {
+      "air_date": "1994-09-20",
+      "episode_count": 24,
+      "id": 10548,
+      "name": "Season 2",
+      "overview": "In season 2,  Frasier Crane, returns for another hilarious round of comedy that has him ice fishing with Marty and Niles and taking a girlfriend on an ill-fated trip to Bora Bora.",
+      "poster_path": "/swGtymW8LJOWnduSklvkI6TlJb7.jpg",
+      "season_number": 2,
+      "vote_average": 8.1
+    },
+    {
+      "air_date": "1995-09-19",
+      "episode_count": 24,
+      "id": 10552,
+      "name": "Season 3",
+      "overview": "The third season of Frasier originally aired from September 19, 1995 to May 21, 1996 on NBC.",
+      "poster_path": "/uTl30mPq7f7Hw5Oo3HLs8acW3Lb.jpg",
+      "season_number": 3,
+      "vote_average": 8
+    },
+    {
+      "air_date": "1996-09-17",
+      "episode_count": 24,
+      "id": 10549,
+      "name": "Season 4",
+      "overview": "The fourth season of Frasier originally aired from September 17, 1996 to May 20, 1997 on NBC.",
+      "poster_path": "/fnb06oMVYOLgbPxcbG6q9qmN4MU.jpg",
+      "season_number": 4,
+      "vote_average": 8.3
+    },
+    {
+      "air_date": "1997-09-23",
+      "episode_count": 24,
+      "id": 10553,
+      "name": "Season 5",
+      "overview": "The fifth season of Frasier originally aired from September 23, 1997 to May 19, 1998 on NBC.",
+      "poster_path": "/cZTArNa4oGMjxpGGveyi0EzB0Nu.jpg",
+      "season_number": 5,
+      "vote_average": 8.2
+    },
+    {
+      "air_date": "1998-09-24",
+      "episode_count": 24,
+      "id": 10551,
+      "name": "Season 6",
+      "overview": "The sixth season of Frasier originally aired from September 24, 1998 to May 29, 1999 on NBC.",
+      "poster_path": "/a0PDWJYAOcLHDPBhqaRjmyKElIb.jpg",
+      "season_number": 6,
+      "vote_average": 8.1
+    },
+    {
+      "air_date": "1999-09-23",
+      "episode_count": 24,
+      "id": 10554,
+      "name": "Season 7",
+      "overview": "The seventh season of Frasier originally aired from September 23, 1999 to May 18, 2000 on NBC.",
+      "poster_path": "/rJCnTPgFezsrNGG0bQsyFYdL6vm.jpg",
+      "season_number": 7,
+      "vote_average": 8.2
+    },
+    {
+      "air_date": "2000-10-24",
+      "episode_count": 24,
+      "id": 10557,
+      "name": "Season 8",
+      "overview": "The eighth season of Frasier originally aired from October 24, 2000 to May 22, 2001 on NBC.",
+      "poster_path": "/jERNUteJJD0FBIqxeWHJNvfxwPo.jpg",
+      "season_number": 8,
+      "vote_average": 8.1
+    },
+    {
+      "air_date": "2001-09-25",
+      "episode_count": 24,
+      "id": 10555,
+      "name": "Season 9",
+      "overview": "",
+      "poster_path": "/j05QVaHvhuq576c6mUlzFPjGdGd.jpg",
+      "season_number": 9,
+      "vote_average": 7.9
+    },
+    {
+      "air_date": "2002-09-24",
+      "episode_count": 24,
+      "id": 10556,
+      "name": "Season 10",
+      "overview": "",
+      "poster_path": "/ddPH7qhiU271Tj3hNJIdhAZF9NW.jpg",
+      "season_number": 10,
+      "vote_average": 8.3
+    },
+    {
+      "air_date": "2003-09-23",
+      "episode_count": 24,
+      "id": 10558,
+      "name": "Season 11",
+      "overview": "",
+      "poster_path": "/fPYZ261f7htC1kUL17dEsXjSvSm.jpg",
+      "season_number": 11,
+      "vote_average": 8.1
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "I'm listening.",
+  "type": "Scripted",
+  "vote_average": 7.689,
+  "vote_count": 864
+}

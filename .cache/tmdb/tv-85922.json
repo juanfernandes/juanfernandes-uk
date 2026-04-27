@@ -1,0 +1,137 @@
+{
+  "adult": false,
+  "backdrop_path": "/lV6WA95QboTUQDkFWjP3wI9U8xp.jpg",
+  "created_by": [
+    {
+      "id": 1216630,
+      "credit_id": "5c3fd2910e0a2643d39181c6",
+      "name": "Greg Daniels",
+      "original_name": "Greg Daniels",
+      "gender": 2,
+      "profile_path": "/2Hi7Tw0fyYFOZex8BuGsHS8Q4KD.jpg"
+    },
+    {
+      "id": 4495,
+      "credit_id": "5c3fd297925141344cafda90",
+      "name": "Steve Carell",
+      "original_name": "Steve Carell",
+      "gender": 2,
+      "profile_path": "/cS7Cbyff6wFVfUGem497vy9LS7A.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2020-05-29",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81021929",
+  "id": 85922,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2022-02-18",
+  "last_episode_to_air": {
+    "id": 3505667,
+    "name": "THE HACK",
+    "overview": "With the future of Space Force up in the air, big changes could be on the horizon. But first, the team has to deal with the entire base being hacked.",
+    "vote_average": 6.6,
+    "vote_count": 14,
+    "air_date": "2022-02-18",
+    "episode_number": 7,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 30,
+    "season_number": 2,
+    "show_id": 85922,
+    "still_path": "/cjf3BzJP7HsnQ55ihzQadHjbbIV.jpg"
+  },
+  "name": "Space Force",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 17,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Space Force",
+  "overview": "A four-star general begrudgingly teams up with an eccentric scientist to get the U.S. military's newest agency — Space Force — ready for lift-off.",
+  "popularity": 13.1523,
+  "poster_path": "/zgu3p4NvisS8CI68cUfBKbvAvu8.jpg",
+  "production_companies": [
+    {
+      "id": 787,
+      "logo_path": "/cCefBs1t7jxtiz3eCxBp9yxrxGx.png",
+      "name": "3 Arts Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 59845,
+      "logo_path": null,
+      "name": "Deedle-Dee Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 172875,
+      "logo_path": null,
+      "name": "Film Flam",
+      "origin_country": ""
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2020-05-29",
+      "episode_count": 10,
+      "id": 116856,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/9jISgVIIRsgJLZxLAFMcTn8H2kl.jpg",
+      "season_number": 1,
+      "vote_average": 6.6
+    },
+    {
+      "air_date": "2022-02-18",
+      "episode_count": 7,
+      "id": 238244,
+      "name": "Season 2",
+      "overview": "Under a new administration, General Naird and his dysfunctional but endearing crew have four months to prove that Space Force is worth keeping around.",
+      "poster_path": "/7isVeQwoHL7DCDnPJr82W5SQKwC.jpg",
+      "season_number": 2,
+      "vote_average": 6.2
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "Not even gravity can keep them down.",
+  "type": "Scripted",
+  "vote_average": 6.539,
+  "vote_count": 811
+}

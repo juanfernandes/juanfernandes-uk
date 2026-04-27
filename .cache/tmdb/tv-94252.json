@@ -1,0 +1,155 @@
+{
+  "adult": false,
+  "backdrop_path": "/fV6MArs2b71ym7ZIArAiiLiLCUZ.jpg",
+  "created_by": [
+    {
+      "id": 66218,
+      "credit_id": "5d969aef6611b400211f73c5",
+      "name": "Jennifer Flackett",
+      "original_name": "Jennifer Flackett",
+      "gender": 1,
+      "profile_path": "/nXpuuUznpoKlM7YxQkCkPRvs7D6.jpg"
+    },
+    {
+      "id": 66219,
+      "credit_id": "5d969ad94813820019db2d3e",
+      "name": "Mark Levin",
+      "original_name": "Mark Levin",
+      "gender": 2,
+      "profile_path": "/2ecb1Xvl4lldCsxciPlek3hYD9x.jpg"
+    },
+    {
+      "id": 208519,
+      "credit_id": "5d969ae66611b400211f73be",
+      "name": "Nick Kroll",
+      "original_name": "Nick Kroll",
+      "gender": 2,
+      "profile_path": "/fNiOuEKeBtELGdhKn4lxXq4O7YP.jpg"
+    },
+    {
+      "id": 1224512,
+      "credit_id": "61e0e2551511aa001c133d3c",
+      "name": "Andrew Goldberg",
+      "original_name": "Andrew Goldberg",
+      "gender": 2,
+      "profile_path": "/1vDYTG1h1kBCNw2L7RWjyVDrvzP.jpg"
+    },
+    {
+      "id": 2240525,
+      "credit_id": "61df4e39a35c8e006b8cd24d",
+      "name": "Kelly Galuska",
+      "original_name": "Kelly Galuska",
+      "gender": 1,
+      "profile_path": "/mkX86vVt7tJoV5M6iVVhSpzkqxG.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2022-03-18",
+  "genres": [
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81092963",
+  "id": 94252,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2023-06-09",
+  "last_episode_to_air": {
+    "id": 4410263,
+    "name": "Yipee Ki-Hate, Motherf**ker",
+    "overview": "At the office holiday party, the Hate Department shows up uninvited. Can Rochelle be the hero her friends need, or will her passion for hate \"Die Hard\"?",
+    "vote_average": 7.2,
+    "vote_count": 4,
+    "air_date": "2023-06-09",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 30,
+    "season_number": 2,
+    "show_id": 94252,
+    "still_path": "/r6afUz8qB0qAM4jsxfvYKcAG6p5.jpg"
+  },
+  "name": "Human Resources",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 20,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Human Resources",
+  "overview": "Lovebugs, Hormone Monsters and a parade of other creatures juggle romance, workplace drama and their human clients' needs in this \"Big Mouth\" spinoff.",
+  "popularity": 6.4345,
+  "poster_path": "/9uEmYSgYIMBEIN82VAlqZnatpxJ.jpg",
+  "production_companies": [
+    {
+      "id": 123673,
+      "logo_path": null,
+      "name": "Brutus Pink",
+      "origin_country": "US"
+    },
+    {
+      "id": 4152,
+      "logo_path": "/v4eshD4MhQ1gBOBptaYTIuUzzaG.png",
+      "name": "Titmouse",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-03-18",
+      "episode_count": 10,
+      "id": 133520,
+      "name": "Season 1",
+      "overview": "Lovebugs, Hormone Monsters and a parade of other creatures juggle romance, workplace drama and their human clients' needs in this \"Big Mouth\" spinoff.",
+      "poster_path": "/6WLX5FMwp7N2RIzq71rvlsSY9GS.jpg",
+      "season_number": 1,
+      "vote_average": 7.2
+    },
+    {
+      "air_date": "2023-06-09",
+      "episode_count": 10,
+      "id": 339246,
+      "name": "Season 2",
+      "overview": "From one-night stands to office romances, the creatures working at Human Resources have their hands — and claws — full with a new batch of humans.",
+      "poster_path": "/lwTCjQOl2vzxpQVpQPYdt0Pini7.jpg",
+      "season_number": 2,
+      "vote_average": 7.2
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Being human is hard… that’s where they come in.",
+  "type": "Scripted",
+  "vote_average": 6.55,
+  "vote_count": 139
+}

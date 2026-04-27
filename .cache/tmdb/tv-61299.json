@@ -1,0 +1,109 @@
+{
+  "adult": false,
+  "backdrop_path": "/lWgXDFeln0gLyhOI8VEMn5FPPJb.jpg",
+  "created_by": [
+    {
+      "id": 1676311,
+      "credit_id": "63ff35cfcf62cd00c0cd308c",
+      "name": "Rob Williams",
+      "original_name": "Rob Williams",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    60
+  ],
+  "first_air_date": "2014-09-04",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.itv.com/itvplayer/chasing-shadows",
+  "id": 61299,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2014-09-25",
+  "last_episode_to_air": {
+    "id": 1007133,
+    "name": "Off Radar, Part Two",
+    "overview": "Sean uncovers inconsistencies in Vance's confession and realises that Vance is just another victim - the real killer is still on the loose.",
+    "vote_average": 8.4,
+    "vote_count": 5,
+    "air_date": "2014-09-25",
+    "episode_number": 4,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 60,
+    "season_number": 1,
+    "show_id": 61299,
+    "still_path": "/7Sw8xG3pghF308X9KeFRP9XPt3P.jpg"
+  },
+  "name": "Chasing Shadows",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 9,
+      "logo_path": "/oz9pjTHnBUmlju8OkaTymhKbh6C.png",
+      "name": "ITV1",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 4,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "Chasing Shadows",
+  "overview": "A socially awkward detective who deals better with data than people is assigned to work on a missing persons unit searching for lost souls.",
+  "popularity": 1.5132,
+  "poster_path": "/nBKLfkLHoG9pqy2GuTWcVemylsO.jpg",
+  "production_companies": [
+    {
+      "id": 24546,
+      "logo_path": "/AffgIsVKcudKagSu3MV3phsV5Vw.png",
+      "name": "ITV Studios",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2014-09-04",
+      "episode_count": 4,
+      "id": 62571,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/uGgtAyycxCFVuj7YaGvJTloaKkB.jpg",
+      "season_number": 1,
+      "vote_average": 8.1
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Miniseries",
+  "vote_average": 7.2,
+  "vote_count": 48
+}

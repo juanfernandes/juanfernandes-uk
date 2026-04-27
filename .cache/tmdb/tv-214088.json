@@ -1,0 +1,135 @@
+{
+  "adult": false,
+  "backdrop_path": "/z2OszIVy6WRtnVkLaq1Ba2q1BL.jpg",
+  "created_by": [
+    {
+      "id": 3764232,
+      "credit_id": "636a6162e7c097007df96f1c",
+      "name": "Bernhard Aichner",
+      "original_name": "Bernhard Aichner",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    42
+  ],
+  "first_air_date": "2022-11-07",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.mein.orf.at/totenfrau/",
+  "id": 214088,
+  "in_production": true,
+  "languages": [
+    "de"
+  ],
+  "last_air_date": "2025-03-10",
+  "last_episode_to_air": {
+    "id": 5972542,
+    "name": "Prisoners",
+    "overview": "When Blum and Wallner learn where Nela is being held, they hatch a risky plan to get her out — before it's too late.",
+    "vote_average": 6.857,
+    "vote_count": 7,
+    "air_date": "2025-03-10",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 47,
+    "season_number": 2,
+    "show_id": 214088,
+    "still_path": "/4ZIxipFADJH4dM2hPv2A4ZC3dGR.jpg"
+  },
+  "name": "Woman of the Dead",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 189,
+      "logo_path": "/k1poBlW9HGDnIyZU67BtH3BXQuz.png",
+      "name": "ORF 1",
+      "origin_country": "AT"
+    },
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 12,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "AT"
+  ],
+  "original_language": "de",
+  "original_name": "Totenfrau",
+  "overview": "In a vengeful quest to find out who killed her husband, a woman ends up exposing her small community's deepest and ugliest secrets.",
+  "popularity": 3.6862,
+  "poster_path": "/crikd977NaXsTlqh6MohE4AnuWo.jpg",
+  "production_companies": [
+    {
+      "id": 170420,
+      "logo_path": "/83zMnR0m7rNOF4C1nXEPv8LCSkL.png",
+      "name": "SquareOne Productions",
+      "origin_country": "DE"
+    },
+    {
+      "id": 18955,
+      "logo_path": "/l75RRUtr7na0fmq9Vp091xFCIzT.png",
+      "name": "Mona Film Produktion",
+      "origin_country": "AT"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "DE",
+      "name": "Germany"
+    },
+    {
+      "iso_3166_1": "AT",
+      "name": "Austria"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-11-07",
+      "episode_count": 6,
+      "id": 315679,
+      "name": "Season 1",
+      "overview": "When a suspicious car crash tears a woman's life apart, her quest for revenge ensnares her in a conspiracy reaching the highest levels of her small town.",
+      "poster_path": "/oZR0gpjbwkZAmVLzfckhVLiwDao.jpg",
+      "season_number": 1,
+      "vote_average": 7.3
+    },
+    {
+      "air_date": "2025-02-24",
+      "episode_count": 6,
+      "id": 441661,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/reXFg7U4Y58qPnKeLlhXDaZdbAF.jpg",
+      "season_number": 2,
+      "vote_average": 6.7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "German",
+      "iso_639_1": "de",
+      "name": "Deutsch"
+    }
+  ],
+  "status": "Returning Series",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 7.034,
+  "vote_count": 147
+}

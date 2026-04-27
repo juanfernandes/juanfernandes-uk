@@ -1,0 +1,121 @@
+{
+  "adult": false,
+  "backdrop_path": "/ySSEzqy2FtKygS5QiZjbXJvYhgK.jpg",
+  "created_by": [
+    {
+      "id": 1588408,
+      "credit_id": "638a22925690b500b82ffabc",
+      "name": "Jessica Dimmock",
+      "original_name": "Jessica Dimmock",
+      "gender": 1,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    50
+  ],
+  "first_air_date": "2022-11-29",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81555750",
+  "id": 214180,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2022-11-29",
+  "last_episode_to_air": {
+    "id": 4047394,
+    "name": "The Reckoning",
+    "overview": "Pieces of the puzzle come together when an abducted woman jumps from a moving vehicle and new evidence from an old case points to a suspect.",
+    "vote_average": 7.7,
+    "vote_count": 3,
+    "air_date": "2022-11-29",
+    "episode_number": 3,
+    "episode_type": "standard",
+    "production_code": "",
+    "runtime": 47,
+    "season_number": 1,
+    "show_id": 214180,
+    "still_path": "/d7lcumhD5BLjV5sCYwqF93MMJDH.jpg"
+  },
+  "name": "Crime Scene: The Texas Killing Fields",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 3,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Crime Scene: The Texas Killing Fields",
+  "overview": "An overgrown field and a stretch of highway connect a series of grisly murders spanning several decades as grieving families search for answers.",
+  "popularity": 1.806,
+  "poster_path": "/lIQN4JWtO0opwEVdUOtMqU3Yaaz.jpg",
+  "production_companies": [
+    {
+      "id": 121427,
+      "logo_path": "/rOvuUb2UaKDahx7OqQ1hD4B8Ljk.png",
+      "name": "Imagine Documentaries",
+      "origin_country": "US"
+    },
+    {
+      "id": 89394,
+      "logo_path": "/m1Hku3PhgdsQiPO8uVe7szyrxAb.png",
+      "name": "RadicalMedia",
+      "origin_country": "US"
+    },
+    {
+      "id": 71816,
+      "logo_path": null,
+      "name": "Third Eye Motion Picture Company",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-11-29",
+      "episode_count": 3,
+      "id": 315836,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": "/ueBuGUzMqEPzjwbLdvwzCUS6GrD.jpg",
+      "season_number": 1,
+      "vote_average": 7.7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Miniseries",
+  "vote_average": 6.369,
+  "vote_count": 84
+}

@@ -1,0 +1,115 @@
+{
+  "adult": false,
+  "backdrop_path": "/rjnnQOSntiuiHIbYKy4oessqaKA.jpg",
+  "created_by": [
+    {
+      "id": 551463,
+      "credit_id": "60ab8f0f3d355700403adf5a",
+      "name": "Mike Flanagan",
+      "original_name": "Mike Flanagan",
+      "gender": 2,
+      "profile_path": "/sjnAyb7un3eS7THLQQzJBzkv2Yo.jpg"
+    },
+    {
+      "id": 1822278,
+      "credit_id": "619c3b6371458f002aa81f2d",
+      "name": "Leah Fong",
+      "original_name": "Leah Fong",
+      "gender": 1,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2022-10-07",
+  "genres": [
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81112336",
+  "id": 126254,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2022-10-07",
+  "last_episode_to_air": {
+    "id": 3765910,
+    "name": "Midnight",
+    "overview": "Dr. Stanton reprimands Ilonka the following morning, revealing more about Julia Jayne. Sandra says her goodbyes. At long last, Kevin concludes his story.",
+    "vote_average": 3.714,
+    "vote_count": 14,
+    "air_date": "2022-10-07",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 59,
+    "season_number": 1,
+    "show_id": 126254,
+    "still_path": "/RIW535rmbwukDcC6d11hjFDDyK.jpg"
+  },
+  "name": "The Midnight Club",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 10,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "The Midnight Club",
+  "overview": "Inside a hospice for terminally ill teens, members of an exclusive club make a chilling pact: The first to die must send a sign from beyond the grave.",
+  "popularity": 4.1041,
+  "poster_path": "/2Y4F9BHkacKIMnDBZI3GGKpG1If.jpg",
+  "production_companies": [
+    {
+      "id": 1224,
+      "logo_path": "/9s5tOG7GWWym1P37QJuFX438rAI.png",
+      "name": "Intrepid Pictures",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-10-07",
+      "episode_count": 10,
+      "id": 196700,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/iV38pnSYB9e6M69RVEndYCYl7va.jpg",
+      "season_number": 1,
+      "vote_average": 4.7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "Death is a rite of passage.",
+  "type": "Scripted",
+  "vote_average": 6.7,
+  "vote_count": 346
+}

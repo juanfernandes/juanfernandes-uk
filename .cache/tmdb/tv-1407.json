@@ -1,0 +1,239 @@
+{
+  "adult": false,
+  "backdrop_path": "/391ixi0wVbFtFLQnOy8ZncWv2io.jpg",
+  "created_by": [
+    {
+      "id": 1221665,
+      "credit_id": "5256cc4919c2956ff60707cc",
+      "name": "Alex Gansa",
+      "original_name": "Alex Gansa",
+      "gender": 2,
+      "profile_path": "/8iSPcmRQ1fituMGgnGVU1RIvZPt.jpg"
+    },
+    {
+      "id": 1221664,
+      "credit_id": "5256cc4919c2956ff60707c6",
+      "name": "Howard Gordon",
+      "original_name": "Howard Gordon",
+      "gender": 2,
+      "profile_path": "/gr1ZDDxM2pPOoP4i4Hm6X8mSw6r.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2011-10-02",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10768,
+      "name": "War & Politics"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.sho.com/homeland",
+  "id": 1407,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2020-04-26",
+  "last_episode_to_air": {
+    "id": 2070915,
+    "name": "Prisoners of War",
+    "overview": "A chat with Carrie's sister makes Saul suspicious. Seeing no other way to stop an imminent war, Carrie steels herself to carry out a plan against Saul.",
+    "vote_average": 9.4,
+    "vote_count": 17,
+    "air_date": "2020-04-26",
+    "episode_number": 12,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 65,
+    "season_number": 8,
+    "show_id": 1407,
+    "still_path": "/8qRiYiLd6RYR5m8um4DvbqkvaUI.jpg"
+  },
+  "name": "Homeland",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 67,
+      "logo_path": "/Allse9kbjiP6ExaQrnSpIhkurEi.png",
+      "name": "Showtime",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 96,
+  "number_of_seasons": 8,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Homeland",
+  "overview": "CIA officer Carrie Mathison is tops in her field despite being bipolar, which makes her volatile and unpredictable. With the help of her long-time mentor Saul Berenson, Carrie fearlessly risks everything, including her personal well-being and even sanity, at every turn.",
+  "popularity": 88.3691,
+  "poster_path": "/6GAvS2e6VIRsms9FpVt33PsCoEW.jpg",
+  "production_companies": [
+    {
+      "id": 4343,
+      "logo_path": "/rXq1B1Hnkdnw6soz1zoGcslK3wb.png",
+      "name": "Showtime Networks",
+      "origin_country": "US"
+    },
+    {
+      "id": 10850,
+      "logo_path": null,
+      "name": "Teakwood Lane Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 42931,
+      "logo_path": null,
+      "name": "Cherry Pie Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 33245,
+      "logo_path": "/tIrB3XUYchCVDVg0lZ1yG0Djqa0.png",
+      "name": "Keshet Broadcasting",
+      "origin_country": "IL"
+    },
+    {
+      "id": 19699,
+      "logo_path": "/pq5gThFdhrthiLr4qQkP6utQSTh.png",
+      "name": "Fox 21",
+      "origin_country": "US"
+    },
+    {
+      "id": 86063,
+      "logo_path": "/9Juyx6JYvie3Kx24PGCDfNRYp9Y.png",
+      "name": "Fox 21 Television Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 41157,
+      "logo_path": "/okS1Sn7c0yiJZY5e03XlbUwbpC2.png",
+      "name": "Keshet International",
+      "origin_country": "IL"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    },
+    {
+      "iso_3166_1": "IL",
+      "name": "Israel"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2014-08-31",
+      "episode_count": 15,
+      "id": 3672,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": "/4vgD0eFonJtdKHUkIWT473AzCGv.jpg",
+      "season_number": 0,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2011-10-02",
+      "episode_count": 12,
+      "id": 3670,
+      "name": "Season 1",
+      "overview": "Volatile CIA agent Carrie Mathison investigates and ultimately becomes obsessed with returned POW marine Nicholas Brody, who may or may not be an al-Qaeda-trained terrorist. Brody struggles to resume his domestic life with his wife and two children whom he barely knows. Saul tries his best to support his bipolar protégé while pursuing leads of his own and trying to hold his crumbling marriage together.",
+      "poster_path": "/ySYtq74W3kxsiPTGrGm1ADDpz8m.jpg",
+      "season_number": 1,
+      "vote_average": 7.7
+    },
+    {
+      "air_date": "2012-09-30",
+      "episode_count": 12,
+      "id": 3671,
+      "name": "Season 2",
+      "overview": "Carrie continues her hunt for terrorist leader Abu Nazir while maintaining a complicated relationship with Brody that straddles the line between personal and professional. Brody is forced to work more closely with the CIA. Jessica Brody struggles to keep her family in tact despite increasing difficulty connecting with her husband. Saul discovers a clandestine plot.",
+      "poster_path": "/4pUBj6vFlyL1jQbqpealfbcgl8k.jpg",
+      "season_number": 2,
+      "vote_average": 7.6
+    },
+    {
+      "air_date": "2013-09-28",
+      "episode_count": 12,
+      "id": 3673,
+      "name": "Season 3",
+      "overview": "Carrie goes to extraordinary lengths to solve the latest crisis at the CIA while dealing with a deeply personal secret. Brody struggles to survive. Saul must walk a tightrope and play many opposing sides to keep his job at the CIA and try to revive his troubled marriage. Quinn has a crisis of faith.",
+      "poster_path": "/txtXQgLi6MHLXHNKpDjQsjkZ48m.jpg",
+      "season_number": 3,
+      "vote_average": 7.5
+    },
+    {
+      "air_date": "2014-10-05",
+      "episode_count": 12,
+      "id": 62029,
+      "name": "Season 4",
+      "overview": "Carrie's career at the CIA takes off when she becomes an overseas station chief in a highly volatile region, but every drone strike and tactical raid comes at a cost and she quickly learns the true price of power. Saul fights to stay in the intelligence game.",
+      "poster_path": "/2FyqjjlDm4coaDnFw870XhHVd8c.jpg",
+      "season_number": 4,
+      "vote_average": 7.4
+    },
+    {
+      "air_date": "2015-10-04",
+      "episode_count": 12,
+      "id": 64293,
+      "name": "Season 5",
+      "overview": "The game has changed for Carrie Mathison. Out of the CIA and living in Berlin, Carrie is trying to start a new life but realizes now shes the one with a target on her back. As the danger intensifies, and without Saul and Quinn to rely on, one thing becomes clear  shes never been at greater risk or with more to lose.",
+      "poster_path": "/ehlMC7lYpsxGh6WK53CtLeM7ZRn.jpg",
+      "season_number": 5,
+      "vote_average": 7.4
+    },
+    {
+      "air_date": "2017-01-15",
+      "episode_count": 12,
+      "id": 79305,
+      "name": "Season 6",
+      "overview": "Carrie Mathison is back in the US on the streets of New York, fighting for the protection of civil liberties and against the abuse of power within our government. She remains in opposition with Saul, who is still with the CIA.",
+      "poster_path": "/hiH6xNc3wpsCKyH5CUEWFCk7OD7.jpg",
+      "season_number": 6,
+      "vote_average": 7.7
+    },
+    {
+      "air_date": "2018-02-11",
+      "episode_count": 12,
+      "id": 96516,
+      "name": "Season 7",
+      "overview": "After the attempted assassination of the president, Carrie Mathison is out of the White House while 200 members of the intelligence community are imprisoned. Now Carrie must prove that not all conspiracies are theories.",
+      "poster_path": "/uDRjkNnGi5FnePrwDkOltEHI5sT.jpg",
+      "season_number": 7,
+      "vote_average": 7.7
+    },
+    {
+      "air_date": "2020-02-09",
+      "episode_count": 12,
+      "id": 128861,
+      "name": "Season 8",
+      "overview": "Carrie Mathison's body is healing, but her memory remains fractured. While trying to broker peace with the Taliban in Afghanistan, Saul is dependent on his protégé's expertise. Against medical advice, Saul asks Carrie to assist him one last time.",
+      "poster_path": "/iVq2Y8kyLbnpp74CGS8btoI93kU.jpg",
+      "season_number": 8,
+      "vote_average": 8.5
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "The nation sees a hero. She sees a threat.",
+  "type": "Scripted",
+  "vote_average": 7.588,
+  "vote_count": 2547
+}

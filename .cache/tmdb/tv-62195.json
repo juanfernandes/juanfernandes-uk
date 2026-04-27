@@ -1,0 +1,131 @@
+{
+  "adult": false,
+  "backdrop_path": "/buRZvq4P6Y1i0NGEECyP8BSaodw.jpg",
+  "created_by": [
+    {
+      "id": 1349031,
+      "credit_id": "550a9074c3a3684886000f53",
+      "name": "Soo Hugh",
+      "original_name": "Soo Hugh",
+      "gender": 1,
+      "profile_path": "/3s0ss1PIRaBWHgpmB0IFe6F3WtV.jpg"
+    }
+  ],
+  "episode_run_time": [
+    43
+  ],
+  "first_air_date": "2015-06-01",
+  "genres": [
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "http://abc.go.com/shows/the-whispers",
+  "id": 62195,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2015-08-31",
+  "last_episode_to_air": {
+    "id": 1087127,
+    "name": "Game Over",
+    "overview": "Drill’s mysterious end game is put into motion and the team must do their utmost to stop it before it reaches its final – and possibly deadly – conclusion.",
+    "vote_average": 6.8,
+    "vote_count": 6,
+    "air_date": "2015-08-31",
+    "episode_number": 13,
+    "episode_type": "finale",
+    "production_code": "113",
+    "runtime": 43,
+    "season_number": 1,
+    "show_id": 62195,
+    "still_path": "/aUOcpeWzinHRklCsq3E1XfvQmJI.jpg"
+  },
+  "name": "The Whispers",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 2,
+      "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+      "name": "ABC",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 13,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "The Whispers",
+  "overview": "We love to play games with our children. But what happens when someone else starts to play with them too? Someone we don't know. Can't see. Can't hear. In The Whispers, someone or something -- is manipulating the ones we love most to accomplish the unthinkable. An unseen alien force has figured this human weakness out. They have invaded earth and are using our most unlikely resource to achieve world domination – our children.",
+  "popularity": 3.9019,
+  "poster_path": "/kSoXUOYmzvCfXzElnAVl9cSEnTa.jpg",
+  "production_companies": [
+    {
+      "id": 48932,
+      "logo_path": null,
+      "name": "Grady Girl Productions",
+      "origin_country": ""
+    },
+    {
+      "id": 19366,
+      "logo_path": "/vOH8dyQhLK01pg5fYkgiS31jlFm.png",
+      "name": "ABC Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 7671,
+      "logo_path": "/r7KeUsNVv0iggZRh6XmNNq2OEw1.png",
+      "name": "Amblin Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 56,
+      "logo_path": "/cEaxANEisCqeEoRvODv2dO1I0iI.png",
+      "name": "Amblin Entertainment",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2015-06-01",
+      "episode_count": 13,
+      "id": 65395,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/vVm9kgPLeDaQTf4vhGXXLp5AHSF.jpg",
+      "season_number": 1,
+      "vote_average": 7.2
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "Not all imaginary friends are imaginary.",
+  "type": "Scripted",
+  "vote_average": 6.7,
+  "vote_count": 179
+}

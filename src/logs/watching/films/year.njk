@@ -22,12 +22,12 @@ eleventyComputed:
     </div>
     {% endif %}
 
-    <div class="media-grid">
+    <div class="media-grid u-mb-2">
       {% for item in (watch.moviesByYear[year] or []) %}
         {% include "partials/media-card.njk" %}
       {% endfor %}
     </div>
-
+    {% include 'components/pagination.njk' %}
     {% include "components/tmdb-attribution.njk" %}
   </div>
   <div class="sidebar meta">

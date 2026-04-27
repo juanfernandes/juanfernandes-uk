@@ -1,0 +1,133 @@
+{
+  "adult": false,
+  "backdrop_path": "/gawTr5Nfn7DZpFAYqznbFYJ7aj9.jpg",
+  "created_by": [
+    {
+      "id": 1257851,
+      "credit_id": "5d774be2069f0e001031c0c0",
+      "name": "Richard Warlow",
+      "original_name": "Richard Warlow",
+      "gender": 2,
+      "profile_path": null
+    },
+    {
+      "id": 567578,
+      "credit_id": "5d774bf2069f0e001031c0c6",
+      "name": "Toby Finlay",
+      "original_name": "Toby Finlay",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2021-01-01",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/fr/title/80206099",
+  "id": 93454,
+  "in_production": false,
+  "languages": [
+    "nl",
+    "en",
+    "fr",
+    "th"
+  ],
+  "last_air_date": "2021-02-14",
+  "last_episode_to_air": {
+    "id": 2423262,
+    "name": "Episode 8",
+    "overview": "The net begins to close around Charles and Marie-Andrée in India, but the final chapter of Herman’s pursuit of Sobhraj stretches long into the future.",
+    "vote_average": 8.2,
+    "vote_count": 12,
+    "air_date": "2021-02-14",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 59,
+    "season_number": 1,
+    "show_id": 93454,
+    "still_path": "/y3bDyXRspoXwT1jOQciXSzHLLWM.jpg"
+  },
+  "name": "The Serpent",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 4,
+      "logo_path": "/uJjcCg3O4DMEjM0xtno9OWFciRP.png",
+      "name": "BBC One",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 8,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "The Serpent",
+  "overview": "The remarkable story of how murderer Charles Sobhraj was captured. As the chief suspect in unsolved murders of young Western travellers across India, Thailand and Nepal’s ‘Hippie Trail’ in 1975 and 1976, Sobhraj had repeatedly slipped from the grasp of authorities worldwide to become Interpol's most wanted man, with arrest warrants on three different continents.",
+  "popularity": 5.7092,
+  "poster_path": "/mZve7vS8S7nyYMIJ5rJrjzOGwAZ.jpg",
+  "production_companies": [
+    {
+      "id": 5100,
+      "logo_path": "/utZoiSvzfUPQMK3WmKgLTemHOOQ.png",
+      "name": "Mammoth Screen",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2021-01-01",
+      "episode_count": 8,
+      "id": 132071,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/av8jcaMV5meXIVI3wFFSZsqhts3.jpg",
+      "season_number": 1,
+      "vote_average": 8.1
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "Dutch",
+      "iso_639_1": "nl",
+      "name": "Nederlands"
+    },
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "French",
+      "iso_639_1": "fr",
+      "name": "Français"
+    },
+    {
+      "english_name": "Thai",
+      "iso_639_1": "th",
+      "name": "ภาษาไทย"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "What does it take to catch a killer?",
+  "type": "Miniseries",
+  "vote_average": 7.424,
+  "vote_count": 374
+}

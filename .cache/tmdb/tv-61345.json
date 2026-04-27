@@ -1,0 +1,171 @@
+{
+  "adult": false,
+  "backdrop_path": "/pYErfWWb52zq9QQFoZ0Qeoo5Yz.jpg",
+  "created_by": [
+    {
+      "id": 1224796,
+      "credit_id": "54148be1c3a3687db60021fe",
+      "name": "Karl Schaefer",
+      "original_name": "Karl Schaefer",
+      "gender": 2,
+      "profile_path": null
+    },
+    {
+      "id": 584237,
+      "credit_id": "54148be80e0a2619a40022a2",
+      "name": "Craig Engler",
+      "original_name": "Craig Engler",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2014-09-12",
+  "genres": [
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "http://www.syfy.com/znation",
+  "id": 61345,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2018-12-28",
+  "last_episode_to_air": {
+    "id": 1650784,
+    "name": "The End of Everything",
+    "overview": "Our heroes break into Altura in an attempt to bring Pandora and Estes to justice, when Cooper reappears, shocking Warren; there’s something he has to tell her.",
+    "vote_average": 7.5,
+    "vote_count": 8,
+    "air_date": "2018-12-28",
+    "episode_number": 13,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 44,
+    "season_number": 5,
+    "show_id": 61345,
+    "still_path": "/fZomOJwhTvLr4Gikobg2kPYb5W8.jpg"
+  },
+  "name": "Z Nation",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 77,
+      "logo_path": "/iYfrkobwDhTOFJ4AXYPSLIEeaAT.png",
+      "name": "Syfy",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 68,
+  "number_of_seasons": 5,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Z Nation",
+  "overview": "Three years after the zombie virus has gutted the country, a team of everyday heroes must transport the only known survivor of the plague from New York to California, where the last functioning viral lab waits for his blood.",
+  "popularity": 16.7748,
+  "poster_path": "/gXfeDMkEcHoYBvtkbU11g3F81b.jpg",
+  "production_companies": [
+    {
+      "id": 1311,
+      "logo_path": "/ic2bTizdzRLDVzAvN7MXdUg3WQV.png",
+      "name": "The Asylum",
+      "origin_country": "US"
+    },
+    {
+      "id": 20486,
+      "logo_path": null,
+      "name": "Go2 Digital Media",
+      "origin_country": "US"
+    },
+    {
+      "id": 242457,
+      "logo_path": null,
+      "name": "Unreality Incorporated",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2014-09-12",
+      "episode_count": 13,
+      "id": 62650,
+      "name": "Season 1",
+      "overview": "After battling the worst of a zombie apocalypse, a motley group of survivors agrees to transport antibody carrier Murphy from New York to California.",
+      "poster_path": "/gXRpcQkT3OP7FyEv0g60dktPLHP.jpg",
+      "season_number": 1,
+      "vote_average": 7
+    },
+    {
+      "air_date": "2015-09-11",
+      "episode_count": 15,
+      "id": 70418,
+      "name": "Season 2",
+      "overview": "Following Murphy's launch of nuclear warheads, the team splits up to outrun the coming blast and the hunt for Murphy reaches epic proportions.",
+      "poster_path": "/oycZr2EMfjeZQm5WaoRM1b3bO5y.jpg",
+      "season_number": 2,
+      "vote_average": 7.4
+    },
+    {
+      "air_date": "2016-09-16",
+      "episode_count": 14,
+      "id": 79369,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": "/xxQmNzw0xFiYIE6kwqUBhNS6SOj.jpg",
+      "season_number": 3,
+      "vote_average": 7.5
+    },
+    {
+      "air_date": "2017-09-29",
+      "episode_count": 13,
+      "id": 92493,
+      "name": "Season 4",
+      "overview": "Murphy and Warren find themselves alive in Zona, a zombie free playground for billionaires. Meanwhile, the rest of our heroes are fighting alongside the last of the humans against the mutated Zombie Virus and the unkillable “MAD-Z's.” Warren's mysterious dream of a black rainbow and flesh-eating black rain propels the season forward and puts our heroes in the middle of an even worse Zompocalypse.",
+      "poster_path": "/AolLjBBsF8TfKBzo5V2o7s4TPoL.jpg",
+      "season_number": 4,
+      "vote_average": 7.7
+    },
+    {
+      "air_date": "2018-10-05",
+      "episode_count": 13,
+      "id": 109603,
+      "name": "Season 5",
+      "overview": "",
+      "poster_path": "/ziD5SBmt1NPR92qXKdbzsC4s8vS.jpg",
+      "season_number": 5,
+      "vote_average": 6.4
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 7.246,
+  "vote_count": 935
+}

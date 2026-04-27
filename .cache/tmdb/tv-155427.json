@@ -1,0 +1,109 @@
+{
+  "adult": false,
+  "backdrop_path": "/c168NfS0F7c24FYiKZTgZosKGCb.jpg",
+  "created_by": [
+    {
+      "id": 1215785,
+      "credit_id": "61dddefc4c1d9a008d772814",
+      "name": "Steven Levitan",
+      "original_name": "Steven Levitan",
+      "gender": 2,
+      "profile_path": "/xPT11b4ABpd9idTMBpoaaCH801J.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2022-09-20",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "https://www.hulu.com/series/reboot-e8c26c94-e813-4160-b36e-1b367ebcebe8",
+  "id": 155427,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2022-10-25",
+  "last_episode_to_air": {
+    "id": 3858762,
+    "name": "Who's the Boss",
+    "overview": "Bree gets hit with surprising news during an on camera interview just as Reed gets a surprise visitor. Clay struggles with buying a house. Hannah and Gordon learn that there’s been a regime change at Hulu that does not bode well for the show.",
+    "vote_average": 7,
+    "vote_count": 3,
+    "air_date": "2022-10-25",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 34,
+    "season_number": 1,
+    "show_id": 155427,
+    "still_path": "/wHqioWMijHijbeUHfvDXnlWByEv.jpg"
+  },
+  "name": "Reboot",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 453,
+      "logo_path": "/pqUTCleNUiTLAVlelGxUgWn1ELh.png",
+      "name": "Hulu",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 8,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Reboot",
+  "overview": "When Hulu reboots an early 2000s family sitcom, its dysfunctional cast is forced back together and now must deal with their unresolved issues in today’s fast-changing world.",
+  "popularity": 3.5002,
+  "poster_path": "/5Ifv1Z5nYK19AQVZQkEpH0S0IcT.jpg",
+  "production_companies": [
+    {
+      "id": 122932,
+      "logo_path": null,
+      "name": "Steven Levitan Prods",
+      "origin_country": "US"
+    },
+    {
+      "id": 236166,
+      "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+      "name": "20th Television",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-09-20",
+      "episode_count": 8,
+      "id": 239600,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/5Ifv1Z5nYK19AQVZQkEpH0S0IcT.jpg",
+      "season_number": 1,
+      "vote_average": 6.8
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "Same cast. Next stage.",
+  "type": "Scripted",
+  "vote_average": 6.6,
+  "vote_count": 86
+}

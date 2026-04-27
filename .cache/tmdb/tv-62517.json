@@ -1,0 +1,177 @@
+{
+  "adult": false,
+  "backdrop_path": "/6nfKBMKoavRAYoG2OmFU1ol1kNW.jpg",
+  "created_by": [
+    {
+      "id": 120015,
+      "credit_id": "5c8af8d1c3a36864650ec8e7",
+      "name": "Josh Appelbaum",
+      "original_name": "Josh Appelbaum",
+      "gender": 2,
+      "profile_path": "/edCP3fGS25qdednDxSQkGiCimwK.jpg"
+    },
+    {
+      "id": 1018751,
+      "credit_id": "5c8af8ecc3a368644f0e9b18",
+      "name": "André Nemec",
+      "original_name": "André Nemec",
+      "gender": 2,
+      "profile_path": "/kuuEycNLQDeAhaH9QNd3lpnLM62.jpg"
+    },
+    {
+      "id": 168309,
+      "credit_id": "60fa8dd83d35570047212832",
+      "name": "Jeff Pinkner",
+      "original_name": "Jeff Pinkner",
+      "gender": 2,
+      "profile_path": "/kNGnNjc4r5pPLuReF4BFQ4TpxJ3.jpg"
+    },
+    {
+      "id": 3228,
+      "credit_id": "60fa8ddd944a570046e64c3c",
+      "name": "Scott Rosenberg",
+      "original_name": "Scott Rosenberg",
+      "gender": 2,
+      "profile_path": "/ihudUGp6RV0KAjCCFwsal2xq8GV.jpg"
+    }
+  ],
+  "episode_run_time": [
+    43
+  ],
+  "first_air_date": "2015-06-30",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "http://www.cbs.com/shows/zoo/",
+  "id": 62517,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2017-09-21",
+  "last_episode_to_air": {
+    "id": 1361058,
+    "name": "The Barrier",
+    "overview": "The team races to stop the hybrids from breaching the barrier wall by shutting down the last beacon that draws them in.",
+    "vote_average": 7.3,
+    "vote_count": 7,
+    "air_date": "2017-09-21",
+    "episode_number": 13,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 43,
+    "season_number": 3,
+    "show_id": 62517,
+    "still_path": "/sTDiNFS6A3NzVsfyID8XfRjjAzs.jpg"
+  },
+  "name": "Zoo",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 16,
+      "logo_path": "/wju8KhOUsR5y4bH9p3Jc50hhaLO.png",
+      "name": "CBS",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 39,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Zoo",
+  "overview": "Set amidst a wave of violent animal attacks sweeping across the planet, a young renegade scientist is thrust into a race to unlock the mystery behind this pandemic before time runs out for animals and humans alike.",
+  "popularity": 13.803,
+  "poster_path": "/yg9x4J3ZTslvVSz5Mtu9pH0FWcr.jpg",
+  "production_companies": [
+    {
+      "id": 51593,
+      "logo_path": "/qkmCZvtCAbNmRto9RdOd2mRm1IB.png",
+      "name": "Midnight Radio",
+      "origin_country": "US"
+    },
+    {
+      "id": 11032,
+      "logo_path": null,
+      "name": "James Patterson Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 1081,
+      "logo_path": "/19kn4jVvpc3sAL3YpZNb3elhSMl.png",
+      "name": "CBS Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 49783,
+      "logo_path": null,
+      "name": "Treeline Films",
+      "origin_country": ""
+    },
+    {
+      "id": 1957,
+      "logo_path": "/pJJw98MtNFC9cHn3o15G7vaUnnX.png",
+      "name": "Warner Bros. Television",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    },
+    {
+      "iso_3166_1": "SK",
+      "name": "Slovakia"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2015-06-30",
+      "episode_count": 13,
+      "id": 66270,
+      "name": "Season 1",
+      "overview": "When animals around the world turn on humans in horrific attacks, a small group of people discover the sinister truth behind the uprising.",
+      "poster_path": "/yfzDnjaa4QQINeyg5FtbH0noGM7.jpg",
+      "season_number": 1,
+      "vote_average": 7.1
+    },
+    {
+      "air_date": "2016-06-28",
+      "episode_count": 13,
+      "id": 76424,
+      "name": "Season 2",
+      "overview": "As the team races around the globe to combat the increasingly volatile mutation, they come face to face with a dark conspiracy trying to thwart them.",
+      "poster_path": "/rKqdWP3MNITV5epJywDuyMg51mH.jpg",
+      "season_number": 2,
+      "vote_average": 7.3
+    },
+    {
+      "air_date": "2017-06-29",
+      "episode_count": 13,
+      "id": 89789,
+      "name": "Season 3",
+      "overview": "A decade after humanity cured the animals but became sterile, a new threat rises in the form of mysterious hybrids controlled by unknown forces.",
+      "poster_path": "/9opwmPGKaMoEGu8xFSnoqYCJGaI.jpg",
+      "season_number": 3,
+      "vote_average": 7.3
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "The wild shall inherit the earth.",
+  "type": "Scripted",
+  "vote_average": 6.747,
+  "vote_count": 586
+}

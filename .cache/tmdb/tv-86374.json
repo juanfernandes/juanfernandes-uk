@@ -1,0 +1,165 @@
+{
+  "adult": false,
+  "backdrop_path": "/kri75jPdoOdaiZJ5p7AU4qEHTuL.jpg",
+  "created_by": [
+    {
+      "id": 146863,
+      "credit_id": "5c52d7619251415e346235df",
+      "name": "Howard Overman",
+      "original_name": "Howard Overman",
+      "gender": 2,
+      "profile_path": "/ejbIkMtRMbjmHO2C4g6ly3vSfXX.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2019-10-28",
+  "genres": [
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.canalplus.com/series/la-guerre-des-mondes/h/12584919_50001",
+  "id": 86374,
+  "in_production": false,
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "last_air_date": "2022-09-26",
+  "last_episode_to_air": {
+    "id": 3899566,
+    "name": "Episode 8",
+    "overview": "Helpless against Adina's plan, Bill has no choice but to make a risky bet while his comrades prepare for a brutal end. In space, Richard and Juliet realize how close humanity is to annihilation, but will they be able to go to any lengths to save Earth?",
+    "vote_average": 4.5,
+    "vote_count": 2,
+    "air_date": "2022-09-26",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 43,
+    "season_number": 3,
+    "show_id": 86374,
+    "still_path": "/x9GTzTI4bFKnbWq1hhpkrxb5Xdg.jpg"
+  },
+  "name": "War of the Worlds",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 285,
+      "logo_path": "/9aotxauvc9685tq9pTcRJszuT06.png",
+      "name": "Canal+",
+      "origin_country": "FR"
+    }
+  ],
+  "number_of_episodes": 24,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "FR"
+  ],
+  "original_language": "en",
+  "original_name": "War of the Worlds",
+  "overview": "When astronomers detect a transmission from another galaxy, it is definitive proof of intelligent extra-terrestrial life. The world’s population waits for further contact with bated breath. They do not have to wait long. Within days, mankind is all but wiped out by a devastating attack; pockets of humanity are left in an eerily deserted world. As aliens hunt and kill those left alive, the survivors ask a burning question – who are these attackers and why are they hell-bent on our destruction?",
+  "popularity": 7.4893,
+  "poster_path": "/yThmbQkxSzW4HHdAaoj8RYHFH3i.jpg",
+  "production_companies": [
+    {
+      "id": 83177,
+      "logo_path": "/y5VU9ch1w0KXiCMmtGOHqyKVp1c.png",
+      "name": "De Wereldvrede",
+      "origin_country": "BE"
+    },
+    {
+      "id": 38442,
+      "logo_path": null,
+      "name": "Urban Myth Films",
+      "origin_country": "GB"
+    },
+    {
+      "id": 694,
+      "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+      "name": "StudioCanal",
+      "origin_country": "FR"
+    },
+    {
+      "id": 50011,
+      "logo_path": "/tU8VfJGsFqLdqXEZAiasSvK4E1p.png",
+      "name": "Fox International Channels",
+      "origin_country": "US"
+    },
+    {
+      "id": 110799,
+      "logo_path": "/eHjtiQJjrGQTooEsBmPSYoUnNB.png",
+      "name": "AGC Studios",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "BE",
+      "name": "Belgium"
+    },
+    {
+      "iso_3166_1": "FR",
+      "name": "France"
+    },
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-10-28",
+      "episode_count": 8,
+      "id": 117935,
+      "name": "Season 1",
+      "overview": "An alien attack all but wiped out mankind, with just a handful of humans fighting to survive. And no one felt more rocked by the invasion than Emily, who discovered she may have her own strange personal connection to the aliens.",
+      "poster_path": "/nWVrKOEqUL7PtadhLDbcsl9ERei.jpg",
+      "season_number": 1,
+      "vote_average": 7.3
+    },
+    {
+      "air_date": "2021-05-18",
+      "episode_count": 8,
+      "id": 190390,
+      "name": "Season 2",
+      "overview": "Season two sees our characters left reeling by the possibility that the invaders could be human. A tense fight to take back the planet awaits them. For some, the sheer desperation to survive will lead them to contemplate sacrificing one of their own...",
+      "poster_path": "/vcOZH23NHJaPrUwwWZqFs0GqAHF.jpg",
+      "season_number": 2,
+      "vote_average": 7
+    },
+    {
+      "air_date": "2022-09-05",
+      "episode_count": 8,
+      "id": 301815,
+      "name": "Season 3",
+      "overview": "Season three picks up as the war between the survivors and aliens reaches a new turning point and a terrifying phenomenon grips countless people across the globe. With stakes at an all-time high, one survivor sets out to investigate, forming a tentative partnership with another unlikely hero along the way. The pair will need to use every resource they have available to face an opposition more dangerous than ever in their fight, once again, for the survival of all humanity.",
+      "poster_path": "/mpmqQNM7dOjHb9BeXKqdskC8bQu.jpg",
+      "season_number": 3,
+      "vote_average": 5.4
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "French",
+      "iso_639_1": "fr",
+      "name": "Français"
+    },
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Doomed to survive.",
+  "type": "Scripted",
+  "vote_average": 7.257,
+  "vote_count": 900
+}

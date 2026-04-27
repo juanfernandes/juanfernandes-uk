@@ -1,7 +1,11 @@
 ---
 layout: page
 title: Television
-permalink: /logs/watching/tv/
+pagination:
+  data: watch.tvGrouped
+  size: 12
+  alias: shows
+permalink: "/logs/watching/tv/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
@@ -19,8 +23,8 @@ permalink: /logs/watching/tv/
       </div>
     {% endif %}
 
-    <div class="media-grid media-grid--2-col">
-      {% for bucket in watch.tvGrouped %}
+    <div class="media-grid media-grid--2-col u-mb-2">
+      {% for bucket in shows %}
         {% set latestSeason = 0 %}
         {% set latestEpisode = 0 %}
         {% set latestDate = "" %}
@@ -88,6 +92,7 @@ permalink: /logs/watching/tv/
       {% endfor %}
     </div>
 
+    {% include "components/pagination.njk" %}
     {% include "components/tmdb-attribution.njk" %}
   </div>
       

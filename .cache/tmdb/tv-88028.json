@@ -1,0 +1,108 @@
+{
+  "adult": false,
+  "backdrop_path": "/8HPHGHm6kahoxu4rnNfmzmmaEpJ.jpg",
+  "created_by": [
+    {
+      "id": 1182722,
+      "credit_id": "5ca0ba85c3a368734a83d2ab",
+      "name": "Jon Brown",
+      "original_name": "Jon Brown",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    30
+  ],
+  "first_air_date": "2019-03-28",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "https://www.channel4.com/programmes/dead-pixels",
+  "id": 88028,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2021-02-16",
+  "last_episode_to_air": {
+    "id": 2641734,
+    "name": "Flanks / Yams",
+    "overview": "Nicky prepares to meet Daisy IRL. Meanwhile, Meg has rebooted an old version of Kingdom Scrolls that the three of them can play together. What could possibly go wrong?",
+    "vote_average": 8.3,
+    "vote_count": 3,
+    "air_date": "2021-02-16",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 30,
+    "season_number": 2,
+    "show_id": 88028,
+    "still_path": "/tsWZa3eorehKCmAEBLOrCPnxHr4.jpg"
+  },
+  "name": "Dead Pixels",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 136,
+      "logo_path": "/A7k2PSYy38NzDPDhajalNWcMQ10.png",
+      "name": "E4",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 12,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "Dead Pixels",
+  "overview": "Meg, Nicky and Usman's lives all revolve around their obsession for the massively popular fantasy game \"Kingdom Scrolls\" – a mystical, magical and most importantly virtual world of wizards and wyverns. But when gaming n00b Russell bumbles into their team, the group find themselves increasingly forced to deal with the real world.",
+  "popularity": 1.4262,
+  "poster_path": "/g5oLCCg8g0hmfFuOtiwEQ9SDiDY.jpg",
+  "production_companies": [],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-03-28",
+      "episode_count": 6,
+      "id": 121334,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/em9UOWuQGpEkYY3DC6Y1hDWHc8k.jpg",
+      "season_number": 1,
+      "vote_average": 6.7
+    },
+    {
+      "air_date": "2021-01-26",
+      "episode_count": 6,
+      "id": 176597,
+      "name": "Season 2",
+      "overview": "The hit comedy returns for a second series, with the arrival of a new instalment of Kingdom Scrolls for our gaming fanatics.",
+      "poster_path": "/2yAshVaXa6MRVZVrRoIYBPL36Ip.jpg",
+      "season_number": 2,
+      "vote_average": 7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 6.6,
+  "vote_count": 70
+}

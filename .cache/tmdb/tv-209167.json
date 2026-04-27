@@ -1,0 +1,119 @@
+{
+  "adult": false,
+  "backdrop_path": "/42iDbOtqWqPvI3FnP3KafLFrQq.jpg",
+  "created_by": [
+    {
+      "id": 69237,
+      "credit_id": "6342c30325b95500822a9ae7",
+      "name": "Joe Berlinger",
+      "original_name": "Joe Berlinger",
+      "gender": 2,
+      "profile_path": "/yvCTSlShNLmaq9NNlFKpFOLrVeJ.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2022-10-07",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81173345",
+  "id": 209167,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2022-10-07",
+  "last_episode_to_air": {
+    "id": 3920496,
+    "name": "Evil or Insane?",
+    "overview": "Dahmer's trial raises controversial questions about law enforcement and justice. Today, the repercussions of the murders he committed still reverberates.",
+    "vote_average": 8.7,
+    "vote_count": 6,
+    "air_date": "2022-10-07",
+    "episode_number": 3,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 61,
+    "season_number": 1,
+    "show_id": 209167,
+    "still_path": "/e2VIGktF1xo5sRVyPSgavAIvTzR.jpg"
+  },
+  "name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 3,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Conversations with a Killer: The Jeffrey Dahmer Tapes",
+  "overview": "Serial killer Jeffrey Dahmer confesses to his gruesome crimes in unguarded interviews, offering an unsettling view into a disturbed mind.",
+  "popularity": 2.0104,
+  "poster_path": "/hsdNCScC2rk23fLuHNNgBXtI891.jpg",
+  "production_companies": [
+    {
+      "id": 130900,
+      "logo_path": null,
+      "name": "Buffalo 8 Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 89394,
+      "logo_path": "/m1Hku3PhgdsQiPO8uVe7szyrxAb.png",
+      "name": "RadicalMedia",
+      "origin_country": "US"
+    },
+    {
+      "id": 71816,
+      "logo_path": null,
+      "name": "Third Eye Motion Picture Company",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-10-07",
+      "episode_count": 3,
+      "id": 306610,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": "/gwYr6zn7ICEKq6xAVkiPqbOGM9N.jpg",
+      "season_number": 1,
+      "vote_average": 8
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Miniseries",
+  "vote_average": 7.8,
+  "vote_count": 275
+}

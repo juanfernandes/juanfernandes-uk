@@ -1,0 +1,100 @@
+{
+  "adult": false,
+  "backdrop_path": "/hswkpjV89QHE2DelTOZAtDeXoyU.jpg",
+  "created_by": [],
+  "episode_run_time": [],
+  "first_air_date": "2023-03-08",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81307163",
+  "id": 220499,
+  "in_production": false,
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "last_air_date": "2023-03-08",
+  "last_episode_to_air": {
+    "id": 4236788,
+    "name": "The Intercept",
+    "overview": "Possible Flight MH370 debris is found, but only raises more questions. Another theory emerges, involving suspicious cargo.",
+    "vote_average": 6.2,
+    "vote_count": 6,
+    "air_date": "2023-03-08",
+    "episode_number": 3,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 56,
+    "season_number": 1,
+    "show_id": 220499,
+    "still_path": "/fSVpbTb2TbsSx5qoxYJ0VCzyXiv.jpg"
+  },
+  "name": "MH370: The Plane That Disappeared",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 3,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "MH370: The Plane That Disappeared",
+  "overview": "In 2014, a plane with 239 people aboard vanishes from all radar. This docuseries delves into one of our greatest modern mysteries: Flight MH370.",
+  "popularity": 1.3899,
+  "poster_path": "/n16M7juqhFpX7Ti3z1fHywjgmZk.jpg",
+  "production_companies": [
+    {
+      "id": 23949,
+      "logo_path": "/3QFwomSxcZZgMQGBkdUPuJEnSFB.png",
+      "name": "RAW",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2023-03-08",
+      "episode_count": 3,
+      "id": 329063,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": "/eKWmv4TOPzXyWY4myW5fW1LTjcW.jpg",
+      "season_number": 1,
+      "vote_average": 6.7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "French",
+      "iso_639_1": "fr",
+      "name": "Français"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "The truth doesn't just vanish.",
+  "type": "Miniseries",
+  "vote_average": 6.569,
+  "vote_count": 159
+}

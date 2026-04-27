@@ -1,0 +1,135 @@
+{
+  "adult": false,
+  "backdrop_path": "/hsSFJ7WyVTNU87c06KFVesntrUQ.jpg",
+  "created_by": [
+    {
+      "id": 222330,
+      "credit_id": "584f423cc3a36831ce001187",
+      "name": "Brit Marling",
+      "original_name": "Brit Marling",
+      "gender": 1,
+      "profile_path": "/z4gryk53GQgR8gNrY3GLJCNNilB.jpg"
+    },
+    {
+      "id": 933739,
+      "credit_id": "584f424bc3a3682f58001152",
+      "name": "Zal Batmanglij",
+      "original_name": "Zal Batmanglij",
+      "gender": 2,
+      "profile_path": "/p9pkYmRbhemVQryxvoIgidVhEVH.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2016-12-16",
+  "genres": [
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80044950",
+  "id": 69061,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2019-03-22",
+  "last_episode_to_air": {
+    "id": 1722343,
+    "name": "Chapter 8: Overview",
+    "overview": "While BBA and the others converge on the clinic, Nina persuades Hap to show her his research, and Karim unlocks one of the house's final secrets.",
+    "vote_average": 8.333,
+    "vote_count": 33,
+    "air_date": "2019-03-22",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 43,
+    "season_number": 2,
+    "show_id": 69061,
+    "still_path": "/4GnqkTkBMgWaQ2nMtZI6uiw8Kcv.jpg"
+  },
+  "name": "The OA",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 16,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "The OA",
+  "overview": "Seven years after vanishing from her home, a young woman returns with mysterious new abilities and recruits five strangers for a secret mission.",
+  "popularity": 11.5371,
+  "poster_path": "/rueY4slMeKtTGitm0raFUJvgaa5.jpg",
+  "production_companies": [
+    {
+      "id": 81,
+      "logo_path": "/8wOfUhA7vwU2gbPjQy7Vv3EiF0o.png",
+      "name": "Plan B Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 10039,
+      "logo_path": "/b8w4LldQolMKiLZw4FQJBcXSDGI.png",
+      "name": "Anonymous Content",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2016-12-16",
+      "episode_count": 8,
+      "id": 82773,
+      "name": "Part I",
+      "overview": "Seven years after vanishing from her home, a young woman returns with mysterious new abilities and recruits five strangers for a secret mission.",
+      "poster_path": "/qVvAj4QFybhG5CemQZLXlvIjtW1.jpg",
+      "season_number": 1,
+      "vote_average": 7.4
+    },
+    {
+      "air_date": "2019-03-22",
+      "episode_count": 8,
+      "id": 119554,
+      "name": "Part II",
+      "overview": "After waking up to a new life in San Francisco, OA is drawn into a search for a missing teen and begins to encounter familiar faces from her past.",
+      "poster_path": "/wcr1mIkSAUgLYfkeYzjogRa1IIq.jpg",
+      "season_number": 2,
+      "vote_average": 7.9
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "This is a dream but you're wide awake.",
+  "type": "Scripted",
+  "vote_average": 7.51,
+  "vote_count": 1343
+}

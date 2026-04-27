@@ -1,0 +1,107 @@
+{
+  "adult": false,
+  "backdrop_path": "/n0Ka3CuHH0NOkegrtMXfC89SK8z.jpg",
+  "created_by": [
+    {
+      "id": 1220299,
+      "credit_id": "66155ff2a6a4c10186bf02e0",
+      "name": "Barunka O'Shaughnessy",
+      "original_name": "Barunka O'Shaughnessy",
+      "gender": 1,
+      "profile_path": "/y8X9NPq0jqZl7fRcqdyWZYanUSd.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2024-04-08",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.channel5.com/show/the-cuckoo",
+  "id": 251480,
+  "in_production": true,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2024-04-11",
+  "last_episode_to_air": {
+    "id": 5268796,
+    "name": "Episode 4",
+    "overview": "",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2024-04-11",
+    "episode_number": 4,
+    "episode_type": "standard",
+    "production_code": "",
+    "runtime": 44,
+    "season_number": 1,
+    "show_id": 251480,
+    "still_path": "/60d1GttWEwmF6wVUHZeiVmBLb65.jpg"
+  },
+  "name": "The Cuckoo",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 99,
+      "logo_path": "/tAOMutfVve2or2LTYQfIa42sc33.png",
+      "name": "5",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 4,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "The Cuckoo",
+  "overview": "A family's desire for a fresh start unravels when their lodger's true identity is revealed, sparking a perilous journey to uncover dark family secrets and the cost of maternal love.",
+  "popularity": 0.9002,
+  "poster_path": "/7pYUju1K5HBwHeYEEQvKjIx4UeM.jpg",
+  "production_companies": [
+    {
+      "id": 162749,
+      "logo_path": null,
+      "name": "Clapperboard Studios",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "IE",
+      "name": "Ireland"
+    },
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2024-04-08",
+      "episode_count": 4,
+      "id": 387740,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/7pYUju1K5HBwHeYEEQvKjIx4UeM.jpg",
+      "season_number": 1,
+      "vote_average": 0
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Returning Series",
+  "tagline": "Don't let her in.",
+  "type": "Scripted",
+  "vote_average": 6.3,
+  "vote_count": 3
+}

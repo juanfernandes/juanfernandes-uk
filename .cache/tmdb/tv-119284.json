@@ -1,0 +1,104 @@
+{
+  "adult": false,
+  "backdrop_path": "/1kPC5upPbdfh4l42cB824ywT0sq.jpg",
+  "created_by": [
+    {
+      "id": 146863,
+      "credit_id": "604c69b322e480003c1f80e7",
+      "name": "Howard Overman",
+      "original_name": "Howard Overman",
+      "gender": 2,
+      "profile_path": "/ejbIkMtRMbjmHO2C4g6ly3vSfXX.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2021-03-12",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80199029",
+  "id": 119284,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2021-03-12",
+  "last_episode_to_air": {
+    "id": 2789719,
+    "name": "Episode 8",
+    "overview": "Flashbacks reveal dark secrets of Ben's death. Megan seizes a chance for revenge. Rebecca's happily ever after suffers a heartbreaking blow.",
+    "vote_average": 6,
+    "vote_count": 4,
+    "air_date": "2021-03-12",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 44,
+    "season_number": 1,
+    "show_id": 119284,
+    "still_path": "/g3oScCtWVNFrfLHgSFFyf0Ue3XW.jpg"
+  },
+  "name": "The One",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 8,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "The One",
+  "overview": "Love — and lies — spiral when a DNA researcher helps discover a way to find the perfect partner, and creates a bold new matchmaking service.",
+  "popularity": 2.2236,
+  "poster_path": "/klL9vBIRdEeSLtjhn83pCNcVguZ.jpg",
+  "production_companies": [],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2021-03-12",
+      "episode_count": 8,
+      "id": 182652,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/klL9vBIRdEeSLtjhn83pCNcVguZ.jpg",
+      "season_number": 1,
+      "vote_average": 6.5
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 6.461,
+  "vote_count": 155
+}

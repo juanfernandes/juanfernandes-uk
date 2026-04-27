@@ -1,7 +1,11 @@
 ---
 layout: page
 title: Films
-permalink: /logs/watching/films/
+pagination:
+  data: watch.movies
+  size: 24
+  alias: films
+permalink: "/logs/watching/films/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
 ---
 {% set section = section or "logs" %}
 {% include "components/dash-nav.njk" %}
@@ -19,13 +23,13 @@ permalink: /logs/watching/films/
     </div>
     {% endif %}
 
-    <div class="media-grid">
-      {% for film in watch.movies %}
+    <div class="media-grid u-mb-2">
+      {% for film in films %}
         {% set item = film %}
         {% include "partials/media-card.njk" %}
       {% endfor %}
     </div>
-
+    {% include 'components/pagination.njk' %}
     {% include "components/tmdb-attribution.njk" %}
   </div>
   <div class="sidebar meta">

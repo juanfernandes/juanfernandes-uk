@@ -1,0 +1,149 @@
+{
+  "adult": false,
+  "backdrop_path": "/4NIZwLomPqU01RR24T0fWp3Rr6n.jpg",
+  "created_by": [
+    {
+      "id": 84739,
+      "credit_id": "66390c512a09bc01235a9c6c",
+      "name": "Damon Beesley",
+      "original_name": "Damon Beesley",
+      "gender": 2,
+      "profile_path": "/oneJaU9uCbeXMKPpOobyiv6BUY1.jpg"
+    },
+    {
+      "id": 84740,
+      "credit_id": "66390c5b5ad76b012f05de6a",
+      "name": "Iain Morris",
+      "original_name": "Iain Morris",
+      "gender": 2,
+      "profile_path": "/pZRZtAlE6GiMDMhVmM7n3TKm2sR.jpg"
+    }
+  ],
+  "episode_run_time": [
+    25
+  ],
+  "first_air_date": "2008-05-01",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "http://www.e4.com/inbetweeners/",
+  "id": 7317,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2010-10-18",
+  "last_episode_to_air": {
+    "id": 386298,
+    "name": "The Camping Trip",
+    "overview": "Will decides to organise one last adventure for his friends before they all go their separate ways, so the gang heads off for a camping trip in the countryside. While Will draws on all his scout training, Jay, Neil and Simon are less than prepared for the great outdoors.",
+    "vote_average": 7.6,
+    "vote_count": 5,
+    "air_date": "2010-10-18",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 26,
+    "season_number": 3,
+    "show_id": 7317,
+    "still_path": "/3YJhffbhTR4OAUcMgpVzPguhWp3.jpg"
+  },
+  "name": "The Inbetweeners",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 136,
+      "logo_path": "/A7k2PSYy38NzDPDhajalNWcMQ10.png",
+      "name": "E4",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 18,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "The Inbetweeners",
+  "overview": "Those who remember the awkward years of adolescence can relive those painful days in this British comedy series, where the cringe-inducing humor arises from the ill-fated antics of its four protagonists. Suburban teenage friends Will, Simon, Jay and Neil, students at Rudge Park Comprehensive, attempt to navigate the social scene, attract members of the gentler sex, and saunter among the cool crowd. However, despite their best efforts, the four hapless lads usually end up on the side of the nerds.",
+  "popularity": 5.832,
+  "poster_path": "/qNmcaXDndOkY6v9QiJjnxQD09GJ.jpg",
+  "production_companies": [
+    {
+      "id": 3625,
+      "logo_path": null,
+      "name": "Bwark Productions",
+      "origin_country": "GB"
+    },
+    {
+      "id": 111729,
+      "logo_path": null,
+      "name": "E4",
+      "origin_country": ""
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": null,
+      "episode_count": 40,
+      "id": 17504,
+      "name": "Specials",
+      "overview": "",
+      "poster_path": "/DrLT7fXeyfEVvmUfsbty9PSTKM.jpg",
+      "season_number": 0,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2008-05-01",
+      "episode_count": 6,
+      "id": 17501,
+      "name": "Series 1",
+      "overview": "",
+      "poster_path": "/fTypGqY21vJPaaKxixzxm5XQejL.jpg",
+      "season_number": 1,
+      "vote_average": 7.2
+    },
+    {
+      "air_date": "2009-04-02",
+      "episode_count": 6,
+      "id": 17502,
+      "name": "Series 2",
+      "overview": "",
+      "poster_path": "/wwfZlfwaHW6PULJHgn1X6wNJgcU.jpg",
+      "season_number": 2,
+      "vote_average": 7.1
+    },
+    {
+      "air_date": "2010-09-13",
+      "episode_count": 6,
+      "id": 17503,
+      "name": "Series 3",
+      "overview": "",
+      "poster_path": "/g4ogfVlv891mRc8Y4h6PwkNHhGW.jpg",
+      "season_number": 3,
+      "vote_average": 7.2
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "American Pie mixed with Peep Show",
+  "type": "Scripted",
+  "vote_average": 7.652,
+  "vote_count": 497
+}

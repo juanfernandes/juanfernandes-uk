@@ -1,0 +1,119 @@
+{
+  "adult": false,
+  "backdrop_path": "/6ygiUWflbmz5p2LFc3COVHriQzK.jpg",
+  "created_by": [
+    {
+      "id": 197332,
+      "credit_id": "5ae42585c3a368714f00377a",
+      "name": "Aaron Martin",
+      "original_name": "Aaron Martin",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    45
+  ],
+  "first_air_date": "2019-07-25",
+  "genres": [
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80236236",
+  "id": 79130,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2021-10-14",
+  "last_episode_to_air": {
+    "id": 3224537,
+    "name": "D-Day",
+    "overview": "As the Achaia close in, the crew moves quickly to create a new weapon and save Earth. The time has come for the heroic to make the ultimate sacrifice.",
+    "vote_average": 5.7,
+    "vote_count": 11,
+    "air_date": "2021-10-14",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 39,
+    "season_number": 2,
+    "show_id": 79130,
+    "still_path": "/ip5TO1inGfYZQ7D0JBT49cLeMRv.jpg"
+  },
+  "name": "Another Life",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 20,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Another Life",
+  "overview": "After a massive alien artifact lands on Earth, Niko Breckinridge leads an interstellar mission to track down its source and make first contact.",
+  "popularity": 6.8115,
+  "poster_path": "/htazQ0cPoloL5SJ2bqOCKh9UTcc.jpg",
+  "production_companies": [
+    {
+      "id": 80385,
+      "logo_path": "/ztmfZepl0d98dNn7Tp6S9xCkIJy.png",
+      "name": "Halfire Entertainment",
+      "origin_country": "CA"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "CA",
+      "name": "Canada"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-07-25",
+      "episode_count": 10,
+      "id": 103068,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/htazQ0cPoloL5SJ2bqOCKh9UTcc.jpg",
+      "season_number": 1,
+      "vote_average": 5.2
+    },
+    {
+      "air_date": "2021-10-14",
+      "episode_count": 10,
+      "id": 200160,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/gW3FJouZ3Ab57OR50Fy2jLaKAKH.jpg",
+      "season_number": 2,
+      "vote_average": 5.5
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "Choose humanity",
+  "type": "Scripted",
+  "vote_average": 6.065,
+  "vote_count": 451
+}

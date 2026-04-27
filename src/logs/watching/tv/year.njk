@@ -28,7 +28,7 @@ eleventyComputed:
       </div>
     {% endif %}
 
-    <div class="media-grid media-grid--2-col">
+    <div class="media-grid media-grid--2-col u-mb-2">
       {% for bucket in grouped %}
         {% set latestSeason = 0 %}
         {% set latestEpisode = 0 %}
@@ -95,7 +95,7 @@ eleventyComputed:
         </details>
       {% endfor %}
     </div>
-
+    {% include 'components/pagination.njk' %}
     {% include "components/tmdb-attribution.njk" %}
   </div>
 

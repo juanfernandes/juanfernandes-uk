@@ -1,0 +1,98 @@
+{
+  "adult": false,
+  "backdrop_path": "/bQSXtlXs7R6l0oe9QiTtmxiRWDv.jpg",
+  "created_by": [],
+  "episode_run_time": [],
+  "first_air_date": "2022-09-14",
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81300060",
+  "id": 208720,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2022-09-14",
+  "last_episode_to_air": {
+    "id": 3909462,
+    "name": "A Mother Knows",
+    "overview": "With Lori's children missing, the investigation turns to Lori and Chad amid a media frenzy and causes simmering suspicions to boil over.",
+    "vote_average": 7,
+    "vote_count": 1,
+    "air_date": "2022-09-14",
+    "episode_number": 3,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 40,
+    "season_number": 1,
+    "show_id": 208720,
+    "still_path": "/8z5HCz1SyPaztZPrTmTAgu4h5Rb.jpg"
+  },
+  "name": "Sins of Our Mother",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 3,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Sins of Our Mother",
+  "overview": "When Lori Vallow's kids vanished, the search for them unearthed a trail of suspicious deaths, a new husband who shared her doomsday views — and murder.",
+  "popularity": 0.5021,
+  "poster_path": "/uoShYiUZU1KSlsnV1CvnkHWT5ao.jpg",
+  "production_companies": [
+    {
+      "id": 15285,
+      "logo_path": "/wvM3yt9OZwmAYzYWE4RWn45eZeh.png",
+      "name": "Lightbox Entertainment",
+      "origin_country": "GB"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-09-14",
+      "episode_count": 3,
+      "id": 305652,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": "/uoShYiUZU1KSlsnV1CvnkHWT5ao.jpg",
+      "season_number": 1,
+      "vote_average": 7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "",
+  "type": "Miniseries",
+  "vote_average": 6.985,
+  "vote_count": 67
+}

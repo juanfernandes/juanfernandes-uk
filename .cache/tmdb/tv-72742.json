@@ -1,0 +1,131 @@
+{
+  "adult": false,
+  "backdrop_path": "/dODQan6kTkSPrGx8XLn3uTmHExo.jpg",
+  "created_by": [
+    {
+      "id": 69211,
+      "credit_id": "5c1379f60e0a2603753b7c85",
+      "name": "Simon Barry",
+      "original_name": "Simon Barry",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    40
+  ],
+  "first_air_date": "2017-09-21",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.citytv.com/toronto/shows/bad-blood/",
+  "id": 72742,
+  "in_production": false,
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "last_air_date": "2018-11-29",
+  "last_episode_to_air": {
+    "id": 1630943,
+    "name": "Declan’s Choice",
+    "overview": "As the bikers make trouble for the Cosoletos, Nellie’s deal with a key witness hits a setback. Indiscretions in his own camp come back to bite Declan.",
+    "vote_average": 8,
+    "vote_count": 1,
+    "air_date": "2018-11-29",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 46,
+    "season_number": 2,
+    "show_id": 72742,
+    "still_path": "/kFn8tUZAP5s2klJXCpQWShsVBLM.jpg"
+  },
+  "name": "Bad Blood",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 92,
+      "logo_path": "/38EhAHYoNzRDFCXAUdF4PEH9Kfl.png",
+      "name": "Citytv",
+      "origin_country": "CA"
+    }
+  ],
+  "number_of_episodes": 14,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "CA"
+  ],
+  "original_language": "en",
+  "original_name": "Bad Blood",
+  "overview": "A dramatization of the life and death of Montreal mob boss Vito Rizzuto.",
+  "popularity": 4.5323,
+  "poster_path": "/ukrAdTtJHHEaDRUJmi4XYwBUpRu.jpg",
+  "production_companies": [
+    {
+      "id": 36463,
+      "logo_path": "/nGwZW6cXDAx7ZM0gagbk1ZcKs7I.png",
+      "name": "Sphère Média Plus",
+      "origin_country": "CA"
+    },
+    {
+      "id": 73948,
+      "logo_path": "/yaJzqApUyueuyWYRLV4XkvaRoU6.png",
+      "name": "New Metric Media",
+      "origin_country": "CA"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "CA",
+      "name": "Canada"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2017-09-21",
+      "episode_count": 6,
+      "id": 90288,
+      "name": "Season 1",
+      "overview": "This sprawling crime drama follows the true story of the Rizzuto family and its associates, who presided over organized crime in Montreal for decades.",
+      "poster_path": "/ukrAdTtJHHEaDRUJmi4XYwBUpRu.jpg",
+      "season_number": 1,
+      "vote_average": 7
+    },
+    {
+      "air_date": "2018-10-11",
+      "episode_count": 8,
+      "id": 110725,
+      "name": "Season 2",
+      "overview": "After a hard-fought power struggle in Montreal, Declan emerges victorious. But a powerful new presence from abroad soon poses a new threat.",
+      "poster_path": "/7B7e6PaC7UKL4CiV1qyVJ4LXNT0.jpg",
+      "season_number": 2,
+      "vote_average": 7.6
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "French",
+      "iso_639_1": "fr",
+      "name": "Français"
+    },
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 7.2,
+  "vote_count": 76
+}

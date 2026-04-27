@@ -1,0 +1,111 @@
+{
+  "adult": false,
+  "backdrop_path": "/kkasrgvyhb0sW45FUKb4poWBrfr.jpg",
+  "created_by": [
+    {
+      "id": 1448117,
+      "credit_id": "627e29d0caa50800ac635707",
+      "name": "Vanessa Ramos",
+      "original_name": "Vanessa Ramos",
+      "gender": 1,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    26
+  ],
+  "first_air_date": "2022-11-03",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81468289",
+  "id": 201874,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2022-11-03",
+  "last_episode_to_air": {
+    "id": 3914202,
+    "name": "Sh*t Storm",
+    "overview": "As the store gears up for the holidays, a series of unfortunate events — from a solar storm to an appearance by a former child star — causes chaos.",
+    "vote_average": 6.2,
+    "vote_count": 5,
+    "air_date": "2022-11-03",
+    "episode_number": 10,
+    "episode_type": "standard",
+    "production_code": "",
+    "runtime": 28,
+    "season_number": 1,
+    "show_id": 201874,
+    "still_path": "/vdqRCVCR7Zy0d9S8GBnWCP5FNUm.jpg"
+  },
+  "name": "Blockbuster",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 10,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Blockbuster",
+  "overview": "In this feel-good workplace comedy, the staff at the last surviving Blockbuster video store tries to keep the business afloat.",
+  "popularity": 3.0878,
+  "poster_path": "/1seIJ8wIKo3KXp7hnwS5wj69U8M.jpg",
+  "production_companies": [
+    {
+      "id": 1302,
+      "logo_path": "/zC3b70ixHh89qJIikLQPEvLqbPM.png",
+      "name": "Davis Entertainment",
+      "origin_country": "US"
+    },
+    {
+      "id": 26727,
+      "logo_path": "/jeTxdjXhzgKZyLr3l9MllkTn3fy.png",
+      "name": "Universal Television",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-11-03",
+      "episode_count": 10,
+      "id": 293551,
+      "name": "Season 1",
+      "overview": "At the last remaining Blockbuster, a hardworking manager fights to keep his video store open and staff happy amid competition and complicated feelings.",
+      "poster_path": "/1seIJ8wIKo3KXp7hnwS5wj69U8M.jpg",
+      "season_number": 1,
+      "vote_average": 6
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "A comeback that's long overdue.",
+  "type": "Scripted",
+  "vote_average": 5.431,
+  "vote_count": 137
+}

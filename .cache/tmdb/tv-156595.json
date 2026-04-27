@@ -1,0 +1,118 @@
+{
+  "adult": false,
+  "backdrop_path": "/ijqZ6PXFkYrsK2BQemKs2YFwGHH.jpg",
+  "created_by": [],
+  "episode_run_time": [],
+  "first_air_date": "2022-03-01",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 99,
+      "name": "Documentary"
+    }
+  ],
+  "homepage": "https://netflix.com/title/81031682",
+  "id": 156595,
+  "in_production": true,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2024-06-26",
+  "last_episode_to_air": {
+    "id": 5437614,
+    "name": "The Lethal Landlord",
+    "overview": "A viral TikTok video sends detectives to the home of Michael Dudley, a Seattle man who rented out a room to a young couple never to be seen again.",
+    "vote_average": 8,
+    "vote_count": 3,
+    "air_date": "2024-06-26",
+    "episode_number": 4,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 54,
+    "season_number": 2,
+    "show_id": 156595,
+    "still_path": "/6r0zmC9aXrqNf1qzrxiP5q5zLOY.jpg"
+  },
+  "name": "Worst Roommate Ever",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 9,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Worst Roommate Ever",
+  "overview": "Roommates with malevolent and sometimes violent intentions turn the lives of their unsuspecting victims into real-life nightmares. These terrifying true stories unveil some of the worst cohabitation experiences one could ever imagine.",
+  "popularity": 1.2139,
+  "poster_path": "/wKj4eLZnFycD38tGaa81rKkjJxA.jpg",
+  "production_companies": [
+    {
+      "id": 68884,
+      "logo_path": "/1BYexT6Vikz4ulCcYKGPmOi6Jm0.png",
+      "name": "Blumhouse Television",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-03-01",
+      "episode_count": 5,
+      "id": 241879,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/zR9M7RmqYlIFYguZFI6JliEVXNX.jpg",
+      "season_number": 1,
+      "vote_average": 7
+    },
+    {
+      "air_date": "2024-06-26",
+      "episode_count": 4,
+      "id": 394996,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/rwBu9VAbAcsDNUoXjcFUQXmfmYw.jpg",
+      "season_number": 2,
+      "vote_average": 7.2
+    },
+    {
+      "air_date": null,
+      "episode_count": 0,
+      "id": 403214,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 3,
+      "vote_average": 0
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Returning Series",
+  "tagline": "",
+  "type": "Documentary",
+  "vote_average": 6.9,
+  "vote_count": 88
+}

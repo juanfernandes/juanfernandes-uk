@@ -1,0 +1,133 @@
+{
+  "adult": false,
+  "backdrop_path": "/cuckn6IFp9OKu9H8AgD0iEANxhc.jpg",
+  "created_by": [
+    {
+      "id": 67352,
+      "credit_id": "5886ffe3925141197d0047ac",
+      "name": "Scott Buck",
+      "original_name": "Scott Buck",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2017-03-17",
+  "genres": [
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    }
+  ],
+  "homepage": "https://www.disneyplus.com/series/iron-fist/24YlE6bSZy6E",
+  "id": 62127,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2018-09-07",
+  "last_episode_to_air": {
+    "id": 1534357,
+    "name": "A Duel of Iron",
+    "overview": "In the season finale, Iron Fists collide as the fate of New York City hangs in the balance.",
+    "vote_average": 6.6,
+    "vote_count": 52,
+    "air_date": "2018-09-07",
+    "episode_number": 10,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 52,
+    "season_number": 2,
+    "show_id": 62127,
+    "still_path": "/aV32cXbvB44RKgNNec0dwQ5CQP4.jpg"
+  },
+  "name": "Marvel's Iron Fist",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 23,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Marvel's Iron Fist",
+  "overview": "Danny Rand resurfaces 15 years after being presumed dead. Now, with the power of the Iron Fist, he seeks to reclaim his past and fulfill his destiny.",
+  "popularity": 3.4124,
+  "poster_path": "/4l6KD9HhtD6nCDEfg10Lp6C6zah.jpg",
+  "production_companies": [
+    {
+      "id": 38679,
+      "logo_path": "/v2y3LuLxYtW36hvLa8IDGQk3Oql.png",
+      "name": "Marvel Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 17596,
+      "logo_path": null,
+      "name": "Devilina Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 19366,
+      "logo_path": "/vOH8dyQhLK01pg5fYkgiS31jlFm.png",
+      "name": "ABC Studios",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2017-03-17",
+      "episode_count": 13,
+      "id": 65211,
+      "name": "Season 1",
+      "overview": "Fifteen years after being presumed dead in a plane crash, Danny Rand mysteriously returns to New York City determined to reclaim his birthright and family company. However, when a long-destined enemy rises in New York, this living weapon is forced to choose between his family’s legacy and his duties as the Iron Fist.",
+      "poster_path": "/usGfoL4RfX15f1sQcX3Sgw4YRf4.jpg",
+      "season_number": 1,
+      "vote_average": 6.8
+    },
+    {
+      "air_date": "2018-09-07",
+      "episode_count": 10,
+      "id": 106628,
+      "name": "Season 2",
+      "overview": "As a gang war brews in New York's Chinatown, Danny and Colleen strive to protect the innocent while battling fearsome enemies both old and new.",
+      "poster_path": "/vXYvfCWvz5W0rErCpNIq09urhzW.jpg",
+      "season_number": 2,
+      "vote_average": 6.6
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 6.517,
+  "vote_count": 2652
+}

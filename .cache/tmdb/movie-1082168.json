@@ -1,0 +1,73 @@
+{
+  "adult": false,
+  "backdrop_path": "/xSA5QFCFLdjrJlhbnbXbJmiJ6v4.jpg",
+  "belongs_to_collection": null,
+  "budget": 0,
+  "genres": [
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81671836",
+  "id": 1082168,
+  "imdb_id": "tt19113292",
+  "origin_country": [
+    "JP"
+  ],
+  "original_language": "ja",
+  "original_title": "警視庁捜査一課 ルーシー・ブラックマン事件",
+  "overview": "July 1, 2000. British 21-year-old Lucie Blackman goes missing in Tokyo, sparking an international investigation — and an unyielding quest for justice.",
+  "popularity": 0.6306,
+  "poster_path": "/6zNf7MXyHkCauIc066SbVoA7wLR.jpg",
+  "production_companies": [
+    {
+      "id": 203248,
+      "logo_path": "/rtKeqyKuZEQlDsp0JKCFRd9SHvt.png",
+      "name": "Vesuvius Pictures",
+      "origin_country": "JP"
+    },
+    {
+      "id": 71519,
+      "logo_path": "/tp2GdaPoC7f0pY8ekGFqoedD4U4.png",
+      "name": "Beach House Pictures",
+      "origin_country": "SG"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "JP",
+      "name": "Japan"
+    },
+    {
+      "iso_3166_1": "SG",
+      "name": "Singapore"
+    }
+  ],
+  "release_date": "2023-07-26",
+  "revenue": 0,
+  "runtime": 81,
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    },
+    {
+      "english_name": "Japanese",
+      "iso_639_1": "ja",
+      "name": "日本語"
+    }
+  ],
+  "status": "Released",
+  "tagline": "",
+  "title": "Missing: The Lucie Blackman Case",
+  "video": false,
+  "vote_average": 7,
+  "vote_count": 67
+}

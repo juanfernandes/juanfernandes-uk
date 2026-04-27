@@ -1,0 +1,117 @@
+{
+  "adult": false,
+  "backdrop_path": "/7TYMho2TM6ZcqSv6YaEjlNIyhXn.jpg",
+  "created_by": [
+    {
+      "id": 82665,
+      "credit_id": "611c48833a4a120046dcb209",
+      "name": "Rebecca Sonnenshine",
+      "original_name": "Rebecca Sonnenshine",
+      "gender": 1,
+      "profile_path": "/zS6EnSeDmbeNQkx9lRzItRzLlpX.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2022-01-14",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 10765,
+      "name": "Sci-Fi & Fantasy"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/80222802",
+  "id": 112314,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2022-01-14",
+  "last_episode_to_air": {
+    "id": 3418365,
+    "name": "What Lies Beneath",
+    "overview": "The Otherworld beckons. Melody circles back to the Visser, where a new device captures a sacrifice. So much depends on Dan's journey into the unknown.",
+    "vote_average": 7,
+    "vote_count": 19,
+    "air_date": "2022-01-14",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 57,
+    "season_number": 1,
+    "show_id": 112314,
+    "still_path": "/lf02lDoLoDqVVGGEbq38aWfxDo1.jpg"
+  },
+  "name": "Archive 81",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 8,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Archive 81",
+  "overview": "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
+  "popularity": 4.4281,
+  "poster_path": "/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
+  "production_companies": [
+    {
+      "id": 76907,
+      "logo_path": "/ygMQtjsKX7BZkCQhQZY82lgnCUO.png",
+      "name": "Atomic Monster",
+      "origin_country": "US"
+    },
+    {
+      "id": 232972,
+      "logo_path": null,
+      "name": "Sonnenshine Productions",
+      "origin_country": ""
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2022-01-14",
+      "episode_count": 8,
+      "id": 167141,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
+      "season_number": 1,
+      "vote_average": 7.2
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "Rewind to reveal the truth.",
+  "type": "Scripted",
+  "vote_average": 7.209,
+  "vote_count": 683
+}

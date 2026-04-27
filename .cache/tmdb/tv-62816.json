@@ -1,0 +1,143 @@
+{
+  "adult": false,
+  "backdrop_path": "/3rdQ4cbley3iOIkruTwMKDUzsLj.jpg",
+  "created_by": [
+    {
+      "id": 1223158,
+      "credit_id": "56aa05afc3a36872e9005748",
+      "name": "Joshua Safran",
+      "original_name": "Joshua Safran",
+      "gender": 2,
+      "profile_path": "/26XT0gI1N8btsRXgfLSFzrPLXvY.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2015-09-27",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "http://abc.go.com/shows/quantico",
+  "id": 62816,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2018-08-03",
+  "last_episode_to_air": {
+    "id": 1524462,
+    "name": "Who Are You?",
+    "overview": "The team is in Ireland, and when they finally come face-to-face with Conor Devlin, not everyone comes out alive. And Alex makes a life-changing decision about her future.",
+    "vote_average": 5.286,
+    "vote_count": 6,
+    "air_date": "2018-08-03",
+    "episode_number": 13,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 43,
+    "season_number": 3,
+    "show_id": 62816,
+    "still_path": "/yNpRkNAiMkGxBbZHIBMEVHG9Yas.jpg"
+  },
+  "name": "Quantico",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 2,
+      "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+      "name": "ABC",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 57,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Quantico",
+  "overview": "A diverse group of recruits has arrived at the FBI Quantico Base for training. They are the best, the brightest and the most vetted, so it seems impossible that one of them is suspected of masterminding the biggest attack on New York City since 9/11.",
+  "popularity": 15.6739,
+  "poster_path": "/3ofY2mALEiE0QDyRlVOV3sDNMYC.jpg",
+  "production_companies": [
+    {
+      "id": 117583,
+      "logo_path": "/t9daYEFtIlOuzq8khjMAUG8MBBd.png",
+      "name": "Maniac Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 19366,
+      "logo_path": "/vOH8dyQhLK01pg5fYkgiS31jlFm.png",
+      "name": "ABC Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 1557,
+      "logo_path": "/ccz9bqCu3jSFKbPFnfWmjAKZLBL.png",
+      "name": "The Mark Gordon Company",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2015-09-27",
+      "episode_count": 22,
+      "id": 67207,
+      "name": "Season 1",
+      "overview": "A diverse group of recruits has arrived at the FBI Quantico Base for training. They are the best, the brightest and the most vetted, so it seems impossible that one of them is suspected of masterminding the biggest attack on New York City since 9/11.",
+      "poster_path": "/cSVXopKOpeHBIjUNfkbJPz314sH.jpg",
+      "season_number": 1,
+      "vote_average": 6.7
+    },
+    {
+      "air_date": "2016-09-25",
+      "episode_count": 22,
+      "id": 79249,
+      "name": "Season 2",
+      "overview": "After clearing her name, saving millions of lives, and discovering the mastermind behind the first season, American hero Alex Parrish was given a shocking reward: she was fired by the FBI. But now she has been given the chance to serve her country again: in the clandestine ranks of United States' top intelligence agency, the CIA.",
+      "poster_path": "/uzL7QW05B2Nx5FhOUAr3lSsIZc4.jpg",
+      "season_number": 2,
+      "vote_average": 6.4
+    },
+    {
+      "air_date": "2018-04-26",
+      "episode_count": 13,
+      "id": 97518,
+      "name": "Season 3",
+      "overview": "It’s been three years since American hero Alex Parrish has had to navigate the dangerous waters of the Central Intelligence Agency and put her life on the line for her country. She is forced to abandon her peaceful, anonymous life somewhere in Italy when Ryan persuades her to help him rescue Shelby from a notorious international arms dealer known only as The Widow. Ryan and Alex recruit Owen, Harry, and former agent Jocelyn Turner to help rescue their friend and defeat the villain. A whole new future lies ahead for this team when they agree to work together as an elite black-ops task force.",
+      "poster_path": "/2z8XfQtc9OwwMNImetTlxSDG4C3.jpg",
+      "season_number": 3,
+      "vote_average": 5.7
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "The FBI's top recruit is now their most wanted.",
+  "type": "Scripted",
+  "vote_average": 6.53,
+  "vote_count": 706
+}

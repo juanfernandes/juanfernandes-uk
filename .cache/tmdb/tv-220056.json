@@ -1,0 +1,111 @@
+{
+  "adult": false,
+  "backdrop_path": "/5J9cs2mtbL0ic4qmf3r3TuUttOD.jpg",
+  "created_by": [
+    {
+      "id": 87672,
+      "credit_id": "63e3edd6db154f007c38259f",
+      "name": "Stephen Belber",
+      "original_name": "Stephen Belber",
+      "gender": 2,
+      "profile_path": "/rZQLg3Rf8GvxGr5wBptFNbNhrox.jpg"
+    }
+  ],
+  "episode_run_time": [],
+  "first_air_date": "2024-11-28",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 10759,
+      "name": "Action & Adventure"
+    }
+  ],
+  "homepage": "https://www.netflix.com/title/81457258",
+  "id": 220056,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2024-11-28",
+  "last_episode_to_air": {
+    "id": 4222354,
+    "name": "No More Madness",
+    "overview": "A late-night break-in threatens everything Muncie holds dear. Meanwhile, he has proof of his innocence — but will the world ever hear the whole truth?",
+    "vote_average": 3.364,
+    "vote_count": 11,
+    "air_date": "2024-11-28",
+    "episode_number": 8,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 58,
+    "season_number": 1,
+    "show_id": 220056,
+    "still_path": "/xsirPmkAcmEWWUJ9O1CG520dny.jpg"
+  },
+  "name": "The Madness",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 213,
+      "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+      "name": "Netflix",
+      "origin_country": ""
+    }
+  ],
+  "number_of_episodes": 8,
+  "number_of_seasons": 1,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "The Madness",
+  "overview": "After a media pundit stumbles upon a dead body deep in the Poconos woods, he finds himself framed for the murder of a notorious white supremacist.",
+  "popularity": 5.614,
+  "poster_path": "/lASJAqmKLt5xkr3sZZGQUOK5l2e.jpg",
+  "production_companies": [
+    {
+      "id": 7076,
+      "logo_path": "/8BFxn9NUWSgp0ndih569Gm62xiC.png",
+      "name": "Chernin Entertainment",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2024-11-28",
+      "episode_count": 8,
+      "id": 328141,
+      "name": "Limited Series",
+      "overview": "",
+      "poster_path": "/z3KaWe2r0yBaRbQlH7BPOR5fpnL.jpg",
+      "season_number": 1,
+      "vote_average": 4.2
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "You can't escape.",
+  "type": "Miniseries",
+  "vote_average": 6.365,
+  "vote_count": 174
+}

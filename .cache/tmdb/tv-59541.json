@@ -1,0 +1,134 @@
+{
+  "adult": false,
+  "backdrop_path": "/jjKfiOQ768hN4BrrgEdA91MkpwR.jpg",
+  "created_by": [
+    {
+      "id": 1839858,
+      "credit_id": "65a9b09868afd601365087c4",
+      "name": "Stuart Lane",
+      "original_name": "Stuart Lane",
+      "gender": 2,
+      "profile_path": null
+    },
+    {
+      "id": 1839857,
+      "credit_id": "65a9b0e65cea180128c0f7d8",
+      "name": "Ian Jarvis",
+      "original_name": "Ian Jarvis",
+      "gender": 2,
+      "profile_path": null
+    },
+    {
+      "id": 1839856,
+      "credit_id": "65a9b0686af8f80138be2526",
+      "name": "Claire Downes",
+      "original_name": "Claire Downes",
+      "gender": 1,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    30
+  ],
+  "first_air_date": "2013-04-29",
+  "genres": [
+    {
+      "id": 35,
+      "name": "Comedy"
+    }
+  ],
+  "homepage": "",
+  "id": 59541,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2015-11-10",
+  "last_episode_to_air": {
+    "id": 1317313,
+    "name": "Secret",
+    "overview": "It is Brownall's 25th birthday and former boss of the centre Maggie Higgins is invited to lead the celebrations. Unfortunately, Maggie comes armed with some devastating information about Angela, who will stop at nothing to keep her quiet. Meanwhile, Trish's holiday romance Raul visits from Spain with marriage on his mind.",
+    "vote_average": 0,
+    "vote_count": 0,
+    "air_date": "2015-11-10",
+    "episode_number": 6,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 22,
+    "season_number": 3,
+    "show_id": 59541,
+    "still_path": null
+  },
+  "name": "The Job Lot",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 149,
+      "logo_path": "/fYi08k1rC5L0OOqgwyXfcAKCZ2H.png",
+      "name": "ITV2",
+      "origin_country": "GB"
+    }
+  ],
+  "number_of_episodes": 18,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "GB"
+  ],
+  "original_language": "en",
+  "original_name": "The Job Lot",
+  "overview": "The daily troubles of the people who work in a busy West Midlands Job Centre, and the people who don’t work there, or anywhere else for that matter.",
+  "popularity": 2.4197,
+  "poster_path": "/4GSccRnH6JG5FPKqaH5PjWJZKjc.jpg",
+  "production_companies": [],
+  "production_countries": [
+    {
+      "iso_3166_1": "GB",
+      "name": "United Kingdom"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2013-04-29",
+      "episode_count": 6,
+      "id": 76919,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/pvZ2Mu5I4TJQbGCqbDRy7hfhERf.jpg",
+      "season_number": 1,
+      "vote_average": 6.9
+    },
+    {
+      "air_date": "2014-09-24",
+      "episode_count": 6,
+      "id": 76920,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/pvZ2Mu5I4TJQbGCqbDRy7hfhERf.jpg",
+      "season_number": 2,
+      "vote_average": 0
+    },
+    {
+      "air_date": "2015-10-06",
+      "episode_count": 6,
+      "id": 76921,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": "/jXAwZY0xWZpPlaDYTe07aaQVOna.jpg",
+      "season_number": 3,
+      "vote_average": 0
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Ended",
+  "tagline": "Work. It's a four letter word.",
+  "type": "Scripted",
+  "vote_average": 7.3,
+  "vote_count": 29
+}

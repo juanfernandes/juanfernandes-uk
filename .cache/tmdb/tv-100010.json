@@ -1,0 +1,151 @@
+{
+  "adult": false,
+  "backdrop_path": "/qdZCF4FXQwOgkd8PIIQelbDqAYO.jpg",
+  "created_by": [
+    {
+      "id": 59650,
+      "credit_id": "5e5e407855c926001355b32f",
+      "name": "David E. Kelley",
+      "original_name": "David E. Kelley",
+      "gender": 2,
+      "profile_path": "/rn8r38XqBV4yNhm9AJY93i9Jf6m.jpg"
+    }
+  ],
+  "episode_run_time": [
+    43
+  ],
+  "first_air_date": "2020-11-17",
+  "genres": [
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    }
+  ],
+  "homepage": "https://abc.com/shows/big-sky",
+  "id": 100010,
+  "in_production": false,
+  "languages": [
+    "en"
+  ],
+  "last_air_date": "2023-01-18",
+  "last_episode_to_air": {
+    "id": 4095109,
+    "name": "That Old Feeling",
+    "overview": "With Denise and Emily's lives on the line, Jenny and Beau are determined to bring the Bleeding Heart Killer to justice, no matter what it takes. Meanwhile, Cassie uses her connections to pin down their possible location; and Sunny makes a fiery decision that will change her family forever, but will it all be enough to save the ones they love?",
+    "vote_average": 9,
+    "vote_count": 1,
+    "air_date": "2023-01-18",
+    "episode_number": 13,
+    "episode_type": "finale",
+    "production_code": "",
+    "runtime": 43,
+    "season_number": 3,
+    "show_id": 100010,
+    "still_path": "/3WxG87X0lHIGI95MCR0dzbUv1y4.jpg"
+  },
+  "name": "Big Sky",
+  "next_episode_to_air": null,
+  "networks": [
+    {
+      "id": 2,
+      "logo_path": "/2uy2ZWcplrSObIyt4x0Y9rkG6qO.png",
+      "name": "ABC",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 47,
+  "number_of_seasons": 3,
+  "origin_country": [
+    "US"
+  ],
+  "original_language": "en",
+  "original_name": "Big Sky",
+  "overview": "Private detective Cassie Dewell partners with ex-cop Jenny Hoyt on a search for two sisters who have been kidnapped by a truck driver on a remote highway in Montana. When they discover that these are not the only girls who have disappeared in the area, they must race against the clock to stop the perpetrator before another woman is taken.",
+  "popularity": 13.4266,
+  "poster_path": "/4CUK42x0TvcWvuRXfjAFQlCeRdf.jpg",
+  "production_companies": [
+    {
+      "id": 55027,
+      "logo_path": "/c4nfaihSe2948dIRYioKIgxGzO1.png",
+      "name": "David E. Kelley Productions",
+      "origin_country": "US"
+    },
+    {
+      "id": 236166,
+      "logo_path": "/8rFlu5iytnjsciYXZDw90ktllCI.png",
+      "name": "20th Television",
+      "origin_country": "US"
+    },
+    {
+      "id": 18441,
+      "logo_path": "/rJmXT9sgCKG8uSUO1T93kOTfAzm.png",
+      "name": "A+E Studios",
+      "origin_country": "US"
+    },
+    {
+      "id": 186543,
+      "logo_path": null,
+      "name": "Fineman Entertainment",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    {
+      "iso_3166_1": "US",
+      "name": "United States of America"
+    }
+  ],
+  "seasons": [
+    {
+      "air_date": "2020-11-17",
+      "episode_count": 16,
+      "id": 144428,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/aWcXShAeDGWuvxi6dYfjRf1sf6T.jpg",
+      "season_number": 1,
+      "vote_average": 6.9
+    },
+    {
+      "air_date": "2021-09-30",
+      "episode_count": 18,
+      "id": 202441,
+      "name": "Season 2",
+      "overview": "When private detectives Cassie Dewell and Jenny Hoyt reunite to investigate a car wreck outside of Helena, Montana, they soon discover that the case may not be as straightforward as it seems. As they unravel the mystery of the accident, their worlds will collide with a band of unsuspecting teens, a flirtatious face from Jenny’s past, and a vicious outsider hellbent on finding answers.",
+      "poster_path": "/mZnYuNxYjzmeEdjhopoSksoXTIP.jpg",
+      "season_number": 2,
+      "vote_average": 6.7
+    },
+    {
+      "air_date": "2022-09-21",
+      "episode_count": 13,
+      "id": 297659,
+      "name": "Deadly Trails",
+      "overview": "Cassie, Jenny and newly appointed sheriff Beau Arlen maintain order in Helena, Montana with their unparalleled investigative skills. But when a local backcountry trip led by charismatic outfitter Sunny Barnes goes awry, the trio faces their most formidable mystery yet – in which no camper can be trusted and where danger lurks around every jagged rock and gnarled tree.",
+      "poster_path": "/4CUK42x0TvcWvuRXfjAFQlCeRdf.jpg",
+      "season_number": 3,
+      "vote_average": 8.6
+    }
+  ],
+  "softcore": false,
+  "spoken_languages": [
+    {
+      "english_name": "English",
+      "iso_639_1": "en",
+      "name": "English"
+    }
+  ],
+  "status": "Canceled",
+  "tagline": "Welcome to the scenery of the crime.",
+  "type": "Scripted",
+  "vote_average": 7.237,
+  "vote_count": 289
+}
