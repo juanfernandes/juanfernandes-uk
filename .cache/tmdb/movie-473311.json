@@ -18,7 +18,7 @@
   "original_language": "nl",
   "original_title": "Cargo",
   "overview": "'Cargo' brings the raw story of three brothers who own a family business in the fishery and are trying to save it from destruction. The passion for their profession but also for their loved ones, however, drives them to desperate actions.",
-  "popularity": 0.6239,
+  "popularity": 0.3592,
   "poster_path": "/s0t78EAmEgbnvwszXphAa6nbd9k.jpg",
   "production_companies": [
     {
@@ -51,6 +51,7 @@
   "release_date": "2017-09-28",
   "revenue": 0,
   "runtime": 91,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "French",

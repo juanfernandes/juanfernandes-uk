@@ -71,7 +71,7 @@
   "original_language": "en",
   "original_name": "UNTAMED",
   "overview": "In the vast expanse of Yosemite National Park, a woman's death draws a federal agent into lawless terrain — where nature obeys no rules but its own.",
-  "popularity": 7.5332,
+  "popularity": 9.8481,
   "poster_path": "/tclYY8RGieQwkJXDxZGf505Zybr.jpg",
   "production_companies": [
     {
@@ -117,6 +117,7 @@
       "vote_average": 7.4
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -127,6 +128,6 @@
   "status": "Returning Series",
   "tagline": "Things happen different out here.",
   "type": "Scripted",
-  "vote_average": 7.211,
-  "vote_count": 367
+  "vote_average": 7.213,
+  "vote_count": 375
 }

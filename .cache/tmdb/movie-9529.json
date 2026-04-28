@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "Candyman",
   "overview": "The Candyman, a murderous soul with a hook for a hand, is accidentally summoned to reality by a skeptic grad student researching the monster's myth.",
-  "popularity": 3.5409,
+  "popularity": 4.9928,
   "poster_path": "/jQtgkgDZE7egMq532sOt83DnT83.jpg",
   "production_companies": [
     {
@@ -62,6 +62,7 @@
   "release_date": "1992-10-16",
   "revenue": 25792310,
   "runtime": 100,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -73,6 +74,6 @@
   "tagline": "We dare you to say his name five times.",
   "title": "Candyman",
   "video": false,
-  "vote_average": 6.671,
-  "vote_count": 1780
+  "vote_average": 6.674,
+  "vote_count": 1785
 }

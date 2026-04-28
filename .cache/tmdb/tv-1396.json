@@ -36,8 +36,8 @@
     "id": 62161,
     "name": "Felina",
     "overview": "All bad things must come to an end.",
-    "vote_average": 9.291,
-    "vote_count": 285,
+    "vote_average": 9.289,
+    "vote_count": 287,
     "air_date": "2013-09-29",
     "episode_number": 16,
     "episode_type": "finale",
@@ -65,7 +65,7 @@
   "original_language": "en",
   "original_name": "Breaking Bad",
   "overview": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
-  "popularity": 107.4178,
+  "popularity": 125.8987,
   "poster_path": "/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
   "production_companies": [
     {
@@ -155,6 +155,7 @@
       "vote_average": 8.9
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -175,6 +176,6 @@
   "status": "Ended",
   "tagline": "Change the equation.",
   "type": "Scripted",
-  "vote_average": 8.942,
-  "vote_count": 17499
+  "vote_average": 8.9,
+  "vote_count": 17586
 }

@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Thrash",
   "overview": "When a Category 5 hurricane decimates a coastal town, the storm surge brings devastation, chaos, and something far more frightening onto shore: hungry sharks.",
-  "popularity": 206.5751,
+  "popularity": 122.5362,
   "poster_path": "/adk8weka3O5648g3de4z3y4aE7G.jpg",
   "production_companies": [
     {
@@ -51,6 +51,7 @@
   "release_date": "2026-04-10",
   "revenue": 0,
   "runtime": 84,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -67,6 +68,6 @@
   "tagline": "If the flood doesn't kill you...",
   "title": "Thrash",
   "video": false,
-  "vote_average": 6.017,
-  "vote_count": 347
+  "vote_average": 5.977,
+  "vote_count": 448
 }

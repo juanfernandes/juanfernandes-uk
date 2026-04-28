@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "The Midnight Sky",
   "overview": "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
-  "popularity": 2.6363,
+  "popularity": 4.2203,
   "poster_path": "/l8lXesOLXKS0VYjzWNZN6gDxv2F.jpg",
   "production_companies": [
     {
@@ -59,6 +59,7 @@
   "release_date": "2020-12-10",
   "revenue": 70018,
   "runtime": 118,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -71,5 +72,5 @@
   "title": "The Midnight Sky",
   "video": false,
   "vote_average": 5.731,
-  "vote_count": 2003
+  "vote_count": 2012
 }

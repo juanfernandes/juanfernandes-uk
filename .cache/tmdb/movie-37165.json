@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "The Truman Show",
   "overview": "In a picture-perfect seaside town, an insurance salesman begins to realize that his entire existence may be staged and observed by a vast unseen audience as part of a reality TV show.",
-  "popularity": 16.3512,
+  "popularity": 18.9009,
   "poster_path": "/vuza0WqY239yBXOadKlGwJsZJFE.jpg",
   "production_companies": [
     {
@@ -47,7 +47,13 @@
   "release_date": "1998-06-04",
   "revenue": 264118712,
   "runtime": 103,
+  "softcore": false,
   "spoken_languages": [
+    {
+      "english_name": "Japanese",
+      "iso_639_1": "ja",
+      "name": "日本語"
+    },
     {
       "english_name": "English",
       "iso_639_1": "en",
@@ -59,11 +65,6 @@
       "name": "Italiano"
     },
     {
-      "english_name": "Japanese",
-      "iso_639_1": "ja",
-      "name": "日本語"
-    },
-    {
       "english_name": "Spanish",
       "iso_639_1": "es",
       "name": "Español"
@@ -73,6 +74,6 @@
   "tagline": "On the air. Unaware.",
   "title": "The Truman Show",
   "video": false,
-  "vote_average": 8.152,
-  "vote_count": 20017
+  "vote_average": 8.151,
+  "vote_count": 20068
 }

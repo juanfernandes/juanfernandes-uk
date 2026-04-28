@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "Edward Scissorhands",
   "overview": "A small suburban town receives a visit from a castaway unfinished science experiment named Edward.",
-  "popularity": 9.3206,
+  "popularity": 12.9079,
   "poster_path": "/e0FqKFvGPdQNWG8tF9cZBtev9Em.jpg",
   "production_companies": [
     {
@@ -51,6 +51,7 @@
   "release_date": "1990-12-07",
   "revenue": 86024005,
   "runtime": 105,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -62,6 +63,6 @@
   "tagline": "Innocence is what he knows. Beauty is what she sees.",
   "title": "Edward Scissorhands",
   "video": false,
-  "vote_average": 7.72,
-  "vote_count": 13684
+  "vote_average": 7.7,
+  "vote_count": 13710
 }

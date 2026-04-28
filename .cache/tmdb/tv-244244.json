@@ -64,7 +64,7 @@
   "original_language": "en",
   "original_name": "Run Away",
   "overview": "A desperate father searching for his runaway daughter gets caught up in a murder case — and stumbles upon secrets which could destroy his family for good.",
-  "popularity": 6.6497,
+  "popularity": 5.9917,
   "poster_path": "/frKxKytEHIA2vXg4RAz14Sc0UmS.jpg",
   "production_companies": [
     {
@@ -102,6 +102,7 @@
       "vote_average": 4.7
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -112,6 +113,6 @@
   "status": "Ended",
   "tagline": "How far will you go to bring her back?",
   "type": "Miniseries",
-  "vote_average": 6.603,
-  "vote_count": 126
+  "vote_average": 6.592,
+  "vote_count": 130
 }

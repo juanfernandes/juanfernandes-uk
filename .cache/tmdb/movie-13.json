@@ -26,8 +26,8 @@
   "original_language": "en",
   "original_title": "Forrest Gump",
   "overview": "A man with a low IQ has accomplished great things in his life and been present during significant historic events—in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.",
-  "popularity": 24.4868,
-  "poster_path": "/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+  "popularity": 30.0113,
+  "poster_path": "/oiqKEhEfxl9knzWXvWecJKN3aj6.jpg",
   "production_companies": [
     {
       "id": 4,
@@ -57,6 +57,7 @@
   "release_date": "1994-06-23",
   "revenue": 677387716,
   "runtime": 142,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -69,5 +70,5 @@
   "title": "Forrest Gump",
   "video": false,
   "vote_average": 8.464,
-  "vote_count": 29511
+  "vote_count": 29589
 }

@@ -30,7 +30,7 @@
   "original_language": "en",
   "original_title": "E.T. the Extra-Terrestrial",
   "overview": "An alien is left behind on Earth and saved by the 10-year-old Elliott who decides to keep him hidden in his home. While a task force hunts for the extra-terrestrial, Elliott, his brother, and his little sister Gertie form an emotional bond with their new friend, and try to help him find his way home.",
-  "popularity": 11.8941,
+  "popularity": 10.3523,
   "poster_path": "/an0nD6uq6byfxXCfk6lQBzdL2J1.jpg",
   "production_companies": [
     {
@@ -55,6 +55,7 @@
   "release_date": "1982-06-11",
   "revenue": 797307407,
   "runtime": 115,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -67,5 +68,5 @@
   "title": "E.T. the Extra-Terrestrial",
   "video": false,
   "vote_average": 7.513,
-  "vote_count": 11914
+  "vote_count": 11940
 }

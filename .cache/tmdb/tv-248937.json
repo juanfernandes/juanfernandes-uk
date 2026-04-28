@@ -64,7 +64,7 @@
   "original_language": "en",
   "original_name": "Hostage",
   "overview": "When the British prime minister's husband is kidnapped and the French president starts receiving threats, both leaders must face an impossible choice.",
-  "popularity": 4.0621,
+  "popularity": 4.7212,
   "poster_path": "/ghcxxmSLByYyFLAL8TNWmAel1Ym.jpg",
   "production_companies": [
     {
@@ -98,6 +98,7 @@
       "vote_average": 4.2
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -113,6 +114,6 @@
   "status": "Ended",
   "tagline": "I will not negotiate. I will not be held...",
   "type": "Miniseries",
-  "vote_average": 6.707,
-  "vote_count": 94
+  "vote_average": 6.729,
+  "vote_count": 96
 }

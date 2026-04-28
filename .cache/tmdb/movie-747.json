@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Shaun of the Dead",
   "overview": "Shaun lives a supremely uneventful life, which revolves around his girlfriend, his mother, and, above all, his local pub. This gentle routine is threatened when the dead return to life and make strenuous attempts to snack on ordinary Londoners.",
-  "popularity": 6.7377,
+  "popularity": 10.5676,
   "poster_path": "/dgXPhzNJH8HFTBjXPB177yNx6RI.jpg",
   "production_companies": [
     {
@@ -47,6 +47,7 @@
   "release_date": "2004-04-09",
   "revenue": 39396175,
   "runtime": 99,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -59,5 +60,5 @@
   "title": "Shaun of the Dead",
   "video": false,
   "vote_average": 7.542,
-  "vote_count": 9249
+  "vote_count": 9270
 }

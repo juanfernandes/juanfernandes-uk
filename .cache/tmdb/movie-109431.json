@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Identity Thief",
   "overview": "When a mild-mannered businessman learns his identity has been stolen, he hits the road in an attempt to foil the thief -- a trip that puts him in the path of a deceptively harmless-looking woman.",
-  "popularity": 3.6585,
+  "popularity": 5.8551,
   "poster_path": "/lIliJCGoWT6tEVaDivLpXEf038w.jpg",
   "production_companies": [
     {
@@ -59,6 +59,7 @@
   "release_date": "2013-02-07",
   "revenue": 173965010,
   "runtime": 111,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -70,6 +71,6 @@
   "tagline": "She's having the time of his life",
   "title": "Identity Thief",
   "video": false,
-  "vote_average": 5.851,
-  "vote_count": 3496
+  "vote_average": 5.85,
+  "vote_count": 3503
 }

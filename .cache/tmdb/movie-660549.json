@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "Villain",
   "overview": "After 10 years, Eddie Franks is out of prison and trying to stay on the straight and narrow, but his drug-mule brother, Sean has other ideas. Rival gangster brothers demand Sean repay his debt to them, causing Eddie to get tangled in the crossfire, and he ends up using his life savings to calling in favours with mobster friends to try and help.",
-  "popularity": 1.0277,
+  "popularity": 0.9295,
   "poster_path": "/kc5AdZ0DJqrnAye8xGbXgtABh4E.jpg",
   "production_companies": [
     {
@@ -50,6 +50,7 @@
   "release_date": "2020-02-28",
   "revenue": 0,
   "runtime": 97,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -62,5 +63,5 @@
   "title": "Villain",
   "video": false,
   "vote_average": 5.5,
-  "vote_count": 42
+  "vote_count": 43
 }

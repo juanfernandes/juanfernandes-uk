@@ -34,8 +34,8 @@
     "id": 6448999,
     "name": "The Last Word",
     "overview": "Backed into a corner, Aggie must use all her wits to keep her world from crashing down — and place all her trust in an unlikely ally.",
-    "vote_average": 5.765,
-    "vote_count": 17,
+    "vote_average": 5.833,
+    "vote_count": 18,
     "air_date": "2025-11-13",
     "episode_number": 8,
     "episode_type": "finale",
@@ -63,7 +63,7 @@
   "original_language": "en",
   "original_name": "The Beast in Me",
   "overview": "A famous author is pulled into a twisted mind game with her rich, powerful new neighbor — who might be a murderer.",
-  "popularity": 12.1545,
+  "popularity": 11.2457,
   "poster_path": "/jxf7JCfIMvGONWTNUIJ068sFixK.jpg",
   "production_companies": [
     {
@@ -109,6 +109,7 @@
       "vote_average": 6.4
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -119,6 +120,6 @@
   "status": "Ended",
   "tagline": "Pain needs a partner.",
   "type": "Miniseries",
-  "vote_average": 7.13,
-  "vote_count": 223
+  "vote_average": 7.133,
+  "vote_count": 226
 }

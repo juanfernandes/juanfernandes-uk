@@ -2,9 +2,7 @@
   "adult": false,
   "backdrop_path": "/eMoQ0fBysYIWx4HROKowEDk4iZ4.jpg",
   "created_by": [],
-  "episode_run_time": [
-    143
-  ],
+  "episode_run_time": [],
   "first_air_date": "2026-03-27",
   "genres": [
     {
@@ -58,7 +56,7 @@
   "original_language": "es",
   "original_name": "El depredador de Sevilla",
   "overview": "For years, Manuel Blanco was known among international students as “Manu White”, a friendly guide who organised cheap trips across Spain. But behind that image lay a far darker story. The case came to light when several young women began to connect experiences of abuse that had previously seemed unrelated.",
-  "popularity": 8.0086,
+  "popularity": 5.9382,
   "poster_path": "/ayrLeA54JHe7qvmwAT3kAtWybb7.jpg",
   "production_companies": [
     {
@@ -97,6 +95,7 @@
       "vote_average": 5.8
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",

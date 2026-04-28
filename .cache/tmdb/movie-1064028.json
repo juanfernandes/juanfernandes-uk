@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "Subservience",
   "overview": "With his wife out sick, a struggling father brings home a lifelike AI, only to have his self-aware new help want everything her new family has to offer... Like the affection of her owner and she'll kill to get it.",
-  "popularity": 9.6368,
+  "popularity": 48.2157,
   "poster_path": "/gBenxR01Uy0Ev9RTIw6dVBPoyQU.jpg",
   "production_companies": [
     {
@@ -57,6 +57,7 @@
   "release_date": "2024-08-15",
   "revenue": 262793,
   "runtime": 105,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -68,6 +69,6 @@
   "tagline": "Don't turn her on.",
   "title": "Subservience",
   "video": false,
-  "vote_average": 6.6,
-  "vote_count": 968
+  "vote_average": 6.625,
+  "vote_count": 975
 }

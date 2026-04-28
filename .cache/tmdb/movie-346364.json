@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "It",
   "overview": "In a small town in Maine, seven children known as The Losers Club come face to face with life problems, bullies and a monster that takes the shape of a clown called Pennywise.",
-  "popularity": 14.1935,
+  "popularity": 15.4497,
   "poster_path": "/9E2y5Q7WlCVNEhP5GiVTjhEhx1o.jpg",
   "production_companies": [
     {
@@ -68,6 +68,7 @@
   "release_date": "2017-09-06",
   "revenue": 719766009,
   "runtime": 135,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -80,5 +81,5 @@
   "title": "It",
   "video": false,
   "vote_average": 7.239,
-  "vote_count": 20210
+  "vote_count": 20241
 }

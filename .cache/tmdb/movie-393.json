@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "Kill Bill: Vol. 2",
   "overview": "The Bride unwaveringly continues on her roaring rampage of revenge against the band of assassins who had tried to kill her and her unborn child. She visits each of her former associates one-by-one, checking off the victims on her Death List Five until there's nothing left to do … but kill Bill.",
-  "popularity": 8.4047,
+  "popularity": 10.6493,
   "poster_path": "/2yhg0mZQMhDyvUQ4rG1IZ4oIA8L.jpg",
   "production_companies": [
     {
@@ -62,6 +62,7 @@
   "release_date": "2004-04-16",
   "revenue": 152159461,
   "runtime": 136,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -89,5 +90,5 @@
   "title": "Kill Bill: Vol. 2",
   "video": false,
   "vote_average": 7.877,
-  "vote_count": 14945
+  "vote_count": 14980
 }

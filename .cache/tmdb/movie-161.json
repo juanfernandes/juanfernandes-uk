@@ -27,7 +27,7 @@
   "original_language": "en",
   "original_title": "Ocean's Eleven",
   "overview": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
-  "popularity": 11.4931,
+  "popularity": 12.0843,
   "poster_path": "/hQQCdZrsHtZyR6NbKH2YyCqd2fR.jpg",
   "production_companies": [
     {
@@ -70,6 +70,7 @@
   "release_date": "2001-12-07",
   "revenue": 450717150,
   "runtime": 116,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "Mandarin",
@@ -91,6 +92,6 @@
   "tagline": "Are you in or out?",
   "title": "Ocean's Eleven",
   "video": false,
-  "vote_average": 7.457,
-  "vote_count": 12444
+  "vote_average": 7.458,
+  "vote_count": 12468
 }

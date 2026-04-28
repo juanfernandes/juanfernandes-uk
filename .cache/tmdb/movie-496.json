@@ -23,7 +23,7 @@
   "original_language": "en",
   "original_title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
   "overview": "Kazakh journalist Borat Sagdiyev travels to America to make a documentary. As he zigzags across the nation, Borat meets real people in real situations with hysterical consequences. His backwards behavior generates strong reactions around him exposing prejudices and hypocrisies in American culture.",
-  "popularity": 4.4789,
+  "popularity": 3.797,
   "poster_path": "/kfkyALfD4G1mlBJI1lOt2QCra4i.jpg",
   "production_companies": [
     {
@@ -82,6 +82,7 @@
   "release_date": "2006-11-01",
   "revenue": 262552893,
   "runtime": 84,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "Armenian",
@@ -114,5 +115,5 @@
   "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
   "video": false,
   "vote_average": 6.786,
-  "vote_count": 5903
+  "vote_count": 5918
 }

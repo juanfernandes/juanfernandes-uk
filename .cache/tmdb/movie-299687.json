@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "The 5th Wave",
   "overview": "16-year-old Cassie Sullivan tries to survive in a world devastated by the waves of an alien invasion that has already decimated the population and knocked mankind back to the Stone Age.",
-  "popularity": 4.5848,
+  "popularity": 6.7789,
   "poster_path": "/ja34BV577dtjWl2S5G1tB93IjYb.jpg",
   "production_companies": [
     {
@@ -45,7 +45,7 @@
       "id": 3281,
       "logo_path": "/pfmb82VUfN9VKB1YuBSY69WVNVm.png",
       "name": "GK Films",
-      "origin_country": "GB"
+      "origin_country": "US"
     },
     {
       "id": 12139,
@@ -63,6 +63,7 @@
   "release_date": "2016-01-14",
   "revenue": 109906372,
   "runtime": 112,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -75,5 +76,5 @@
   "title": "The 5th Wave",
   "video": false,
   "vote_average": 5.935,
-  "vote_count": 5978
+  "vote_count": 5991
 }

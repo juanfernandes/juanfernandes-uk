@@ -30,12 +30,12 @@
   "original_language": "en",
   "original_title": "Need for Speed",
   "overview": "The film revolves around a local street-racer who partners with a rich and arrogant business associate, only to find himself framed by his colleague and sent to prison. After he gets out, he joins a New York-to-Los Angeles race to get revenge. But when the ex-partner learns of the scheme, he puts a massive bounty on the racer's head, forcing him to run a cross-country gauntlet of illegal racers in all manner of supercharged vehicles.",
-  "popularity": 4.7059,
+  "popularity": 6.0954,
   "poster_path": "/45D153Bk0bNwonV1w5IBBvqssPV.jpg",
   "production_companies": [
     {
       "id": 7,
-      "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+      "logo_path": "/zcKhWbxFJ4CohZ9dLBMxmOArTVn.png",
       "name": "DreamWorks Pictures",
       "origin_country": "US"
     },
@@ -82,7 +82,8 @@
   ],
   "release_date": "2014-03-12",
   "revenue": 203277636,
-  "runtime": 131,
+  "runtime": 132,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -94,6 +95,6 @@
   "tagline": "For honor. For love. For redemption.",
   "title": "Need for Speed",
   "video": false,
-  "vote_average": 6.431,
-  "vote_count": 4659
+  "vote_average": 6.432,
+  "vote_count": 4672
 }

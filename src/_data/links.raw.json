@@ -1,5 +1,17 @@
 [
   {
+    "title": "field-sizing isn't only about growing textareas",
+    "url": "https://www.stefanjudis.com/today-i-learned/field-sizing-is-about-more-than-textareas/",
+    "content": "HomeArticlesProjectsAboutResourcesScreencastsToday I learnedThings I useTalksNewsletter Home HomeArticles ArticlesScreencasts ScreencastsProjects ProjectsAbout…",
+    "date": "2026-04-27T22:03:09.000Z"
+  },
+  {
+    "title": "image-set() CSS function - CSS | MDN",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/image/image-set",
+    "content": "image-set() CSS function Baseline Widely available This feature is well established and works across many devices and browser versions. It’s been available…",
+    "date": "2026-04-27T22:01:57.000Z"
+  },
+  {
     "title": "There’s no need to include ‘navigation’ in your navigation labels",
     "url": "https://www.tempertemper.net/blog/theres-no-need-to-include-navigation-in-your-navigation-labels",
     "content": "When you mark up your website, groups of links are probably going to be wrapped in <nav> elements. If you have more than one, you’re going to have to label each…",

@@ -71,7 +71,7 @@
   "original_language": "en",
   "original_name": "The Survivors",
   "overview": "Fifteen years ago, the loss of three young people tore this sleepy seaside town apart. Now, the mysterious death of a young woman dredges up the past.",
-  "popularity": 3.8865,
+  "popularity": 3.7315,
   "poster_path": "/y0izOA23nYoCtR1Ft08GLi6lOQX.jpg",
   "production_companies": [
     {
@@ -99,6 +99,7 @@
       "vote_average": 6.3
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -109,6 +110,6 @@
   "status": "Ended",
   "tagline": "Secrets don't die with the dead.",
   "type": "Miniseries",
-  "vote_average": 6.574,
-  "vote_count": 81
+  "vote_average": 6.589,
+  "vote_count": 84
 }

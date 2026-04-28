@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Carry-On",
   "overview": "An airport security officer races to outsmart a mysterious traveler forcing him to let a dangerous item slip onto a Christmas Eve flight.",
-  "popularity": 4.6413,
+  "popularity": 6.9289,
   "poster_path": "/sjMN7DRi4sGiledsmllEw5HJjPy.jpg",
   "production_companies": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "id": 7,
-      "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+      "logo_path": "/zcKhWbxFJ4CohZ9dLBMxmOArTVn.png",
       "name": "DreamWorks Pictures",
       "origin_country": "US"
     }
@@ -47,6 +47,7 @@
   "release_date": "2024-12-05",
   "revenue": 0,
   "runtime": 120,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -58,6 +59,6 @@
   "tagline": "Every holiday season, millions travel safely by air. This Christmas will be different.",
   "title": "Carry-On",
   "video": false,
-  "vote_average": 6.887,
-  "vote_count": 2689
+  "vote_average": 6.885,
+  "vote_count": 2704
 }

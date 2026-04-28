@@ -71,7 +71,7 @@
   "original_language": "en",
   "original_name": "Sneaky Pete",
   "overview": "A con man on the run from a vicious gangster takes cover from his past by assuming the identity of his prison cellmate, Pete, “reuniting” with Pete’s estranged family, a colorful, dysfunctional group that threatens to drag him into a world just as dangerous as the one he’s trying to escape - and, just maybe, give him a taste of the loving family he’s never had.",
-  "popularity": 14.0883,
+  "popularity": 14.3497,
   "poster_path": "/nNpcea9lLHI4iv8QpOIvHveVnT9.jpg",
   "production_companies": [
     {
@@ -159,6 +159,7 @@
       "vote_average": 7.9
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -169,6 +170,6 @@
   "status": "Canceled",
   "tagline": "The Truth is Always Changing",
   "type": "Scripted",
-  "vote_average": 7.5,
-  "vote_count": 399
+  "vote_average": 7.495,
+  "vote_count": 400
 }

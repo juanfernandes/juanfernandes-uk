@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Warrior",
   "overview": "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for competition in a mixed martial arts tournament – a path that puts the fighter on a collision course with his estranged, older brother.",
-  "popularity": 6.0036,
+  "popularity": 7.8755,
   "poster_path": "/iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
   "production_companies": [
     {
@@ -59,6 +59,7 @@
   "release_date": "2011-09-09",
   "revenue": 23300000,
   "runtime": 140,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -70,6 +71,6 @@
   "tagline": "Family is worth fighting for.",
   "title": "Warrior",
   "video": false,
-  "vote_average": 7.844,
-  "vote_count": 4965
+  "vote_average": 7.845,
+  "vote_count": 4979
 }
