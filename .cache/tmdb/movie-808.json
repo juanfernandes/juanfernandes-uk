@@ -39,7 +39,7 @@
   "original_language": "en",
   "original_title": "Shrek",
   "overview": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey.",
-  "popularity": 21.7736,
+  "popularity": 25.7984,
   "poster_path": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
   "production_companies": [
     {
@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "logo_path": "/vru2SssLX3FPhnKZGtYw00pVIS9.png",
+      "logo_path": "/zcKhWbxFJ4CohZ9dLBMxmOArTVn.png",
       "name": "DreamWorks Pictures",
       "origin_country": "US"
     }
@@ -70,6 +70,7 @@
   "release_date": "2001-05-18",
   "revenue": 488977919,
   "runtime": 90,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -82,5 +83,5 @@
   "title": "Shrek",
   "video": false,
   "vote_average": 7.759,
-  "vote_count": 18583
+  "vote_count": 18623
 }

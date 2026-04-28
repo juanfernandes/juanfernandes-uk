@@ -67,7 +67,7 @@
   "original_language": "en",
   "original_name": "HIS & HERS",
   "overview": "Two estranged spouses — one a detective, the other a news reporter — vie to solve a murder in which each believes the other is a prime suspect.",
-  "popularity": 12.6986,
+  "popularity": 13.7076,
   "poster_path": "/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
   "production_companies": [
     {
@@ -125,6 +125,7 @@
       "vote_average": 5
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -135,6 +136,6 @@
   "status": "Ended",
   "tagline": "Two sides. One killer secret.",
   "type": "Miniseries",
-  "vote_average": 7.29,
-  "vote_count": 377
+  "vote_average": 7.289,
+  "vote_count": 391
 }

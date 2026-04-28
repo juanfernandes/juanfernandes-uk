@@ -27,7 +27,7 @@
   "original_language": "en",
   "original_title": "Think Like a Man",
   "overview": "The balance of power in four couples’ relationships is upset when the women start using the advice in Steve Harvey’s book, Act Like A Lady, Think Like A Man, to get more of what they want from their men. When the men realize that the women have gotten a hold of their relationship “playbook,” they decide that the best defense is a good offense and come up with a plan to use this information to their advantage.",
-  "popularity": 3.3045,
+  "popularity": 3.4633,
   "poster_path": "/kfIrKVPDzXJDBzPnFEuoatlaZPW.jpg",
   "production_companies": [
     {
@@ -46,6 +46,7 @@
   "release_date": "2012-04-20",
   "revenue": 96070507,
   "runtime": 122,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -57,6 +58,6 @@
   "tagline": "Let the mind games begin.",
   "title": "Think Like a Man",
   "video": false,
-  "vote_average": 6.806,
-  "vote_count": 888
+  "vote_average": 6.801,
+  "vote_count": 891
 }

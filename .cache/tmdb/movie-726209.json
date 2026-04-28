@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "Leave the World Behind",
   "overview": "A family's getaway to a luxurious rental home takes an ominous turn when a cyberattack knocks out their devices—and two strangers appear at their door.",
-  "popularity": 6.0836,
+  "popularity": 7.8875,
   "poster_path": "/29rhl1xopxA7JlGVVsf1UHfYPvN.jpg",
   "production_companies": [
     {
@@ -57,6 +57,7 @@
   "release_date": "2023-11-22",
   "revenue": 0,
   "runtime": 140,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -73,6 +74,6 @@
   "tagline": "There's no going back to normal.",
   "title": "Leave the World Behind",
   "video": false,
-  "vote_average": 6.378,
-  "vote_count": 3167
+  "vote_average": 6.377,
+  "vote_count": 3181
 }

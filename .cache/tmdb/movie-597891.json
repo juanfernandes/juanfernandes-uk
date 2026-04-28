@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Kate",
   "overview": "A ruthless criminal operative has less than 24 hours to exact revenge on her enemies and in the process forms an unexpected bond with the daughter of one of her past victims.",
-  "popularity": 3.3677,
+  "popularity": 4.3793,
   "poster_path": "/uJgdT1boTSP0dDIjdTgGleg71l4.jpg",
   "production_companies": [
     {
@@ -57,6 +57,7 @@
   "release_date": "2021-09-10",
   "revenue": 0,
   "runtime": 106,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -73,6 +74,6 @@
   "tagline": "There's no time for mercy.",
   "title": "Kate",
   "video": false,
-  "vote_average": 6.622,
-  "vote_count": 1685
+  "vote_average": 6.621,
+  "vote_count": 1694
 }

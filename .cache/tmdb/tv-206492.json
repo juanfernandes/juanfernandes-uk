@@ -52,7 +52,7 @@
   "original_language": "en",
   "original_name": "I Just Killed My Dad",
   "overview": "Anthony Templet shot his father and never denied it. But why he did it is a complex question with profound implications. Explore Anthony's psyche prior to the events of June 3, 2019 and the journey of his mental and emotional aftermath.",
-  "popularity": 0.2102,
+  "popularity": 0.449,
   "poster_path": "/iSpsCUpm0U8YLTwfG8pKn1nxJsD.jpg",
   "production_companies": [
     {
@@ -80,6 +80,7 @@
       "vote_average": 7.7
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",

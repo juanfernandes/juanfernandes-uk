@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "The Silence of the Lambs",
   "overview": "Clarice Starling is a top student at the FBI's training academy.  Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism.  Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
-  "popularity": 4.2307,
+  "popularity": 6.646,
   "poster_path": "/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
   "production_companies": [
     {
@@ -62,6 +62,7 @@
   "release_date": "1991-02-14",
   "revenue": 272742922,
   "runtime": 119,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -73,6 +74,6 @@
   "tagline": "To enter the mind of a killer she must challenge the mind of a madman.",
   "title": "The Silence of the Lambs",
   "video": false,
-  "vote_average": 8.346,
-  "vote_count": 17800
+  "vote_average": 8.345,
+  "vote_count": 17863
 }

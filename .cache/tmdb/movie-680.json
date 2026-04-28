@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "Pulp Fiction",
   "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
-  "popularity": 27.1185,
+  "popularity": 32.6636,
   "poster_path": "/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
   "production_companies": [
     {
@@ -57,6 +57,7 @@
   "release_date": "1994-09-10",
   "revenue": 213928762,
   "runtime": 154,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -78,6 +79,6 @@
   "tagline": "You won’t know the facts until you’ve seen the fiction.",
   "title": "Pulp Fiction",
   "video": false,
-  "vote_average": 8.486,
-  "vote_count": 29977
+  "vote_average": 8.484,
+  "vote_count": 30050
 }

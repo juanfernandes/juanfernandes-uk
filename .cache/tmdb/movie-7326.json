@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "Juno",
   "overview": "Faced with an unplanned pregnancy, sixteen year old high-schooler, Juno MacGuff, makes an unusual decision regarding her unborn child.",
-  "popularity": 5.2358,
+  "popularity": 6.13,
   "poster_path": "/jNIn2tVhpvFD6P9IojldI3mNYcn.jpg",
   "production_companies": [
     {
@@ -57,6 +57,7 @@
   "release_date": "2007-12-05",
   "revenue": 232372681,
   "runtime": 96,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -68,6 +69,6 @@
   "tagline": "A comedy about growing up… and the bumps along the way.",
   "title": "Juno",
   "video": false,
-  "vote_average": 7.058,
-  "vote_count": 7583
+  "vote_average": 7.059,
+  "vote_count": 7595
 }

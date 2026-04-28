@@ -1,0 +1,33 @@
+{% set posts = collections.posts | reverse %}
+{% set currentIndex = -1 %}
+
+{% for post in posts %}
+  {% if post.url == page.url %}
+    {% set currentIndex = loop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% set previousPost = posts[currentIndex - 1] if currentIndex > 0 else null %}
+{% set nextPost = posts[currentIndex + 1] if currentIndex < posts.length - 1 else null %}
+
+<nav class="post-pagination" aria-label="Post navigation">
+  {% if previousPost %}
+    <a class="post-pagination__item post-pagination__item--previous" href="{{ previousPost.url }}">
+      <span>Previous post</span>
+      <div class="post-pagination__item-grid">
+        <svg aria-hidden="true" width="32" height="32"><use xlink:href="#svg-prev-arrow" /></svg>
+        <strong>{{ previousPost.data.title }}</strong>
+      </div>
+    </a>
+  {% endif %}
+
+  {% if nextPost %}
+    <a class="post-pagination__item post-pagination__item--next" href="{{ nextPost.url }}">
+      <span>Next post</span>
+      <div class="post-pagination__item-grid">
+        <strong>{{ nextPost.data.title }}</strong>
+        <svg aria-hidden="true" width="32" height="32"><use xlink:href="#svg-nxt-arrow" /></svg>
+      </div>
+    </a>
+  {% endif %}
+</nav>

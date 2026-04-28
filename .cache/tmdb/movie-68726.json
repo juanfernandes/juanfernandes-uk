@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "Pacific Rim",
   "overview": "Using massive piloted robots to combat the alien threat, earth's survivors take the fight to the invading alien force lurking in the depths of the Pacific Ocean. Nearly defenseless in the face of the relentless enemy, the forces of mankind have no choice but to turn to two unlikely heroes who now stand as earth's final hope against the mounting apocalypse.",
-  "popularity": 14.0798,
+  "popularity": 13.8093,
   "poster_path": "/8wo4eN8dWKaKlxhSvBz19uvj8gA.jpg",
   "production_companies": [
     {
@@ -56,6 +56,7 @@
   "release_date": "2013-07-11",
   "revenue": 411000000,
   "runtime": 131,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "Cantonese",
@@ -83,5 +84,5 @@
   "title": "Pacific Rim",
   "video": false,
   "vote_average": 6.918,
-  "vote_count": 13238
+  "vote_count": 13267
 }

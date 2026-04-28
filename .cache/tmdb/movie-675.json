@@ -27,7 +27,7 @@
   "original_language": "en",
   "original_title": "Harry Potter and the Order of the Phoenix",
   "overview": "Returning for his fifth year at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of motivated students to defend themselves against the Dark Arts.",
-  "popularity": 17.7238,
+  "popularity": 18.6932,
   "poster_path": "/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg",
   "production_companies": [
     {
@@ -56,6 +56,7 @@
   "release_date": "2007-07-08",
   "revenue": 938212738,
   "runtime": 138,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -68,5 +69,5 @@
   "title": "Harry Potter and the Order of the Phoenix",
   "video": false,
   "vote_average": 7.672,
-  "vote_count": 20669
+  "vote_count": 20699
 }

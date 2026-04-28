@@ -16,7 +16,7 @@
   "original_language": "en",
   "original_title": "3022",
   "overview": "A group of astronauts living in the haunting emptiness of deep space struggle to cope after Earth suffers an extinction-level event.",
-  "popularity": 1.4034,
+  "popularity": 1.6235,
   "poster_path": "/dp1brl24LXGFU3JPFaDoljDONRz.jpg",
   "production_companies": [
     {
@@ -47,6 +47,7 @@
   "release_date": "2019-11-22",
   "revenue": 0,
   "runtime": 90,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -59,5 +60,5 @@
   "title": "3022",
   "video": false,
   "vote_average": 5.3,
-  "vote_count": 239
+  "vote_count": 240
 }

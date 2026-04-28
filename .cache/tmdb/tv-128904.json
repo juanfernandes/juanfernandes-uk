@@ -15,12 +15,12 @@
   "first_air_date": "2022-06-12",
   "genres": [
     {
-      "id": 80,
-      "name": "Crime"
-    },
-    {
       "id": 18,
       "name": "Drama"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
     },
     {
       "id": 9648,
@@ -68,7 +68,7 @@
   "original_language": "en",
   "original_name": "Dark Winds",
   "overview": "This psychological thriller follows two Navajo police officers, Leaphorn and Chee, in the 1970s Southwest as their search for clues in a grisly double murder case forces them to challenge their own spiritual beliefs and come to terms with the trauma of their pasts.",
-  "popularity": 23.5877,
+  "popularity": 17.3156,
   "poster_path": "/kDlrMN0P9ByrEH2GoRbBFeZHbcf.jpg",
   "production_companies": [
     {
@@ -165,9 +165,10 @@
       "overview": "The fourth season focuses on the search for a missing Navajo girl, which takes Leaphorn, Chee and Manuelito from the safety of Navajo Nation to the gritty terrain of 1970s Los Angeles in a race against the clock to save her from an obsessive killer with ties to organized crime.",
       "poster_path": "/guPa9hTEhUkm73BgFlMZ1cq6vJd.jpg",
       "season_number": 4,
-      "vote_average": 6.6
+      "vote_average": 7
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -183,6 +184,6 @@
   "status": "Returning Series",
   "tagline": "Justice has no boundaries.",
   "type": "Scripted",
-  "vote_average": 7.5,
-  "vote_count": 182
+  "vote_average": 7.492,
+  "vote_count": 184
 }

@@ -30,7 +30,7 @@
   "original_language": "en",
   "original_title": "Charlie and the Chocolate Factory",
   "overview": "A young boy wins a tour through the most magnificent chocolate factory in the world, led by the world's most unusual candy maker.",
-  "popularity": 9.6576,
+  "popularity": 12.4348,
   "poster_path": "/iKP6wg3c6COUe8gYutoGG7qcPnO.jpg",
   "production_companies": [
     {
@@ -77,6 +77,7 @@
   "release_date": "2005-07-13",
   "revenue": 475000000,
   "runtime": 115,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -88,6 +89,6 @@
   "tagline": "Prepare for a taste of adventure.",
   "title": "Charlie and the Chocolate Factory",
   "video": false,
-  "vote_average": 7.038,
-  "vote_count": 16029
+  "vote_average": 7.037,
+  "vote_count": 16051
 }

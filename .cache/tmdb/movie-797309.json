@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Biggie: I Got a Story to Tell",
   "overview": "Christopher Wallace, AKA The Notorious B.I.G., remains one of Hip-Hop’s icons, renowned for his distinctive flow and autobiographical lyrics. This documentary celebrates his life via rare behind-the-scenes footage and the testimonies of his closest friends and family.",
-  "popularity": 1.047,
+  "popularity": 1.0557,
   "poster_path": "/wwMZiuoucmdVxZmj4HjYSLwAFJh.jpg",
   "production_companies": [
     {
@@ -47,6 +47,7 @@
   "release_date": "2021-03-01",
   "revenue": 0,
   "runtime": 97,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -58,6 +59,6 @@
   "tagline": "Every legend has an origin story.",
   "title": "Biggie: I Got a Story to Tell",
   "video": false,
-  "vote_average": 7.2,
+  "vote_average": 7.156,
   "vote_count": 138
 }

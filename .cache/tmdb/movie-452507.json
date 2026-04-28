@@ -27,7 +27,7 @@
   "original_language": "en",
   "original_title": "1922",
   "overview": "A simple yet proud rancher conspires to murder his wife for financial gain, convincing his teenage son to participate.",
-  "popularity": 3.0914,
+  "popularity": 3.3736,
   "poster_path": "/q4FQOiSRhTLWulHl5Vpg37FMArH.jpg",
   "production_companies": [
     {
@@ -52,6 +52,7 @@
   "release_date": "2017-10-20",
   "revenue": 2943477,
   "runtime": 102,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -63,6 +64,6 @@
   "tagline": "Your darkest secrets never stay buried.",
   "title": "1922",
   "video": false,
-  "vote_average": 5.944,
-  "vote_count": 2895
+  "vote_average": 5.945,
+  "vote_count": 2901
 }

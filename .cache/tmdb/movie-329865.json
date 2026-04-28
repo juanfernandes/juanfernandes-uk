@@ -1,6 +1,6 @@
 {
   "adult": false,
-  "backdrop_path": "/r8FD6CC3GgjWaGVkZh00AcedfpA.jpg",
+  "backdrop_path": "/uKPbFF08QkRMvIAsgCh1soeyPhZ.jpg",
   "belongs_to_collection": null,
   "budget": 47000000,
   "genres": [
@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "Arrival",
   "overview": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
-  "popularity": 13.8252,
+  "popularity": 16.3114,
   "poster_path": "/pEzNVQfdzYDzVK0XqxERIw2x2se.jpg",
   "production_companies": [
     {
@@ -57,6 +57,7 @@
   "release_date": "2016-11-10",
   "revenue": 203388186,
   "runtime": 116,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "Mandarin",
@@ -78,6 +79,6 @@
   "tagline": "Why are they here?",
   "title": "Arrival",
   "video": false,
-  "vote_average": 7.624,
-  "vote_count": 19176
+  "vote_average": 7.6,
+  "vote_count": 19220
 }

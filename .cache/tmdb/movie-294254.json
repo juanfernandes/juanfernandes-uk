@@ -35,7 +35,7 @@
   "original_language": "en",
   "original_title": "Maze Runner: The Scorch Trials",
   "overview": "Thomas and his fellow Gladers face their greatest challenge yet: searching for clues about the mysterious and powerful organization known as WCKD. Their journey takes them to the Scorch, a desolate landscape filled with unimaginable obstacles. Teaming up with resistance fighters, the Gladers take on WCKD’s vastly superior forces and uncover its shocking plans for them all.",
-  "popularity": 7.1172,
+  "popularity": 10.2618,
   "poster_path": "/mYw7ZyejqSCPFlrT2jHZOESZDU3.jpg",
   "production_companies": [
     {
@@ -72,6 +72,7 @@
   "release_date": "2015-09-09",
   "revenue": 312296056,
   "runtime": 131,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -84,5 +85,5 @@
   "title": "Maze Runner: The Scorch Trials",
   "video": false,
   "vote_average": 6.729,
-  "vote_count": 10943
+  "vote_count": 10970
 }

@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "The Kitchen",
   "overview": "The mobster husbands of three 1978 Hell's Kitchen housewives are sent to prison by the FBI. Left with little but a sharp ax to grind, the ladies take the Irish mafia's matters into their own hands — proving unexpectedly adept at everything from running the rackets to taking out the competition… literally.",
-  "popularity": 1.9609,
+  "popularity": 3.5086,
   "poster_path": "/l3smhHvnczXg8E2WzysRVKIXSYJ.jpg",
   "production_companies": [
     {
@@ -67,6 +67,7 @@
   "release_date": "2019-08-08",
   "revenue": 16000000,
   "runtime": 103,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -78,6 +79,6 @@
   "tagline": "It's not a man's world anymore.",
   "title": "The Kitchen",
   "video": false,
-  "vote_average": 6.107,
-  "vote_count": 724
+  "vote_average": 6.1,
+  "vote_count": 726
 }

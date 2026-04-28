@@ -30,7 +30,7 @@
   "original_language": "en",
   "original_title": "Brave",
   "overview": "In the mystical Scottish Highlands, Merida is the princess of a kingdom ruled by King Fergus and Queen Elinor. An unruly daughter and an accomplished archer, Merida one day defies a sacred custom of the land and inadvertently brings turmoil to the kingdom. In an attempt to set things right, Merida seeks out an eccentric old Wise Woman and is granted an ill-fated wish. Also figuring into Merida's quest — and serving as comic relief — are the kingdom's three lords: the enormous Lord MacGuffin, the surly Lord Macintosh, and the disagreeable Lord Dingwall.",
-  "popularity": 10.6723,
+  "popularity": 14.9516,
   "poster_path": "/1XAuDtMWpL0sYSFK0R6EZate2Ux.jpg",
   "production_companies": [
     {
@@ -49,6 +49,7 @@
   "release_date": "2012-06-21",
   "revenue": 538983207,
   "runtime": 93,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -61,5 +62,5 @@
   "title": "Brave",
   "video": false,
   "vote_average": 7.022,
-  "vote_count": 14073
+  "vote_count": 14095
 }

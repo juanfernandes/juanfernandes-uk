@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "STRAW",
   "overview": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point — and into a shocking act of desperation.",
-  "popularity": 8.6653,
+  "popularity": 8.9377,
   "poster_path": "/t3cmnXYtxJb9vVL1ThvT2CWSe1n.jpg",
   "production_companies": [
     {
@@ -45,6 +45,7 @@
   "release_date": "2025-06-05",
   "revenue": 0,
   "runtime": 105,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -56,6 +57,6 @@
   "tagline": "This is her last.",
   "title": "STRAW",
   "video": false,
-  "vote_average": 7.707,
-  "vote_count": 937
+  "vote_average": 7.709,
+  "vote_count": 940
 }

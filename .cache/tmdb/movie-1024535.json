@@ -18,7 +18,7 @@
   "original_language": "en",
   "original_title": "Matriarch",
   "overview": "Afflicted with a mysterious disease after surviving an overdose, a woman returns to her childhood home to confront her personal demons but instead discovers a real one.",
-  "popularity": 0.8051,
+  "popularity": 1.4307,
   "poster_path": "/eyr8okTqsFTUVW3DD1edTMsWc3u.jpg",
   "production_companies": [
     {
@@ -43,6 +43,7 @@
   "release_date": "2022-10-11",
   "revenue": 0,
   "runtime": 85,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -54,6 +55,6 @@
   "tagline": "The mother of all evil.",
   "title": "Matriarch",
   "video": false,
-  "vote_average": 4.8,
-  "vote_count": 133
+  "vote_average": 4.83,
+  "vote_count": 135
 }

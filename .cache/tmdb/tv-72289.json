@@ -73,7 +73,7 @@
   "original_language": "en",
   "original_name": "Fearless",
   "overview": "Emma Banville, a human rights lawyer known for defending lost causes, sets out to prove the innocence of Kevin Russell, who was convicted for the murder of a school girl 14 years earlier.",
-  "popularity": 2.6551,
+  "popularity": 3.296,
   "poster_path": "/iqs7TM6sffX70TEri957KOINeqU.jpg",
   "production_companies": [
     {
@@ -101,6 +101,7 @@
       "vote_average": 7.7
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -111,6 +112,6 @@
   "status": "Ended",
   "tagline": "Read between the lies.",
   "type": "Scripted",
-  "vote_average": 6.7,
-  "vote_count": 37
+  "vote_average": 6.697,
+  "vote_count": 38
 }

@@ -50,7 +50,7 @@
   "networks": [
     {
       "id": 38,
-      "logo_path": "/cUq4tWKFvubij22k2v3gGu0cniX.png",
+      "logo_path": "/7tu6yE2qgqH7VyKfDwudn5OxvJB.png",
       "name": "10",
       "origin_country": "AU"
     }
@@ -63,7 +63,7 @@
   "original_language": "en",
   "original_name": "North Shore",
   "overview": "When the 19-year-old daughter of a UK politician is found dead in Sydney Harbour, cultures clash as a British and an Australian detective team up to solve a complex murder mystery. But this international investigation will expose more than murder, as the two detectives begin to uncover a conspiracy with political consequences.",
-  "popularity": 2.1837,
+  "popularity": 1.6924,
   "poster_path": "/8EwbJS9G5utrEspbIeaXk0l5QVn.jpg",
   "production_companies": [
     {
@@ -97,6 +97,7 @@
       "vote_average": 6.7
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",

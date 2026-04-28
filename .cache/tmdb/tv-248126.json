@@ -54,7 +54,7 @@
   "original_language": "en",
   "original_name": "Homicide",
   "overview": "Detectives and prosecutors revisit their most challenging homicide cases in this chilling true-crime docuseries.",
-  "popularity": 3.7136,
+  "popularity": 2.2854,
   "poster_path": "/byh0uHyYoGjkPL9ULhLyAbnfTPX.jpg",
   "production_companies": [
     {
@@ -108,6 +108,7 @@
       "vote_average": 6.4
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -118,6 +119,6 @@
   "status": "Returning Series",
   "tagline": "",
   "type": "Documentary",
-  "vote_average": 7.077,
-  "vote_count": 26
+  "vote_average": 7.125,
+  "vote_count": 28
 }

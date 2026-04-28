@@ -26,7 +26,7 @@
   "original_language": "en",
   "original_title": "Home Team",
   "overview": "Two years after a Super Bowl win when NFL head coach Sean Payton is suspended, he goes back to his hometown and finds himself reconnecting with his 12-year-old son by coaching his Pop Warner football team.",
-  "popularity": 2.2365,
+  "popularity": 3.2941,
   "poster_path": "/zTwfMV1hm1DIrMo8BGyZKskhSPr.jpg",
   "production_companies": [
     {
@@ -51,6 +51,7 @@
   "release_date": "2022-01-28",
   "revenue": 0,
   "runtime": 95,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "Czech",
@@ -67,6 +68,6 @@
   "tagline": "Life doesn't have a playbook.",
   "title": "Home Team",
   "video": false,
-  "vote_average": 6.639,
-  "vote_count": 782
+  "vote_average": 6.636,
+  "vote_count": 787
 }

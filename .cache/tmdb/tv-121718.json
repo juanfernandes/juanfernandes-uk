@@ -54,7 +54,7 @@
   "original_language": "en",
   "original_name": "John Wayne Gacy: Devil in Disguise",
   "overview": "The chilling story of one of the world’s most notorious serial killers told through the words of Gacy himself, those who were forever changed by his unspeakable deeds and those who believe that the full truth remains concealed to this day.",
-  "popularity": 0.5587,
+  "popularity": 0.5833,
   "poster_path": "/3LZHmVND6WyY0bhoLlyWPRl5Pa1.jpg",
   "production_companies": [
     {
@@ -88,6 +88,7 @@
       "vote_average": 0
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",

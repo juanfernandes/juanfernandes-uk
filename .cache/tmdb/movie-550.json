@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Fight Club",
   "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
-  "popularity": 24.1846,
+  "popularity": 31.8673,
   "poster_path": "/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg",
   "production_companies": [
     {
@@ -69,6 +69,7 @@
   "release_date": "1999-10-15",
   "revenue": 100853753,
   "runtime": 139,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -80,6 +81,6 @@
   "tagline": "Mischief. Mayhem. Soap.",
   "title": "Fight Club",
   "video": false,
-  "vote_average": 8.439,
-  "vote_count": 31776
+  "vote_average": 8.438,
+  "vote_count": 31861
 }

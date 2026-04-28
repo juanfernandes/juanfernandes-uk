@@ -1,6 +1,6 @@
 {
   "adult": false,
-  "backdrop_path": "/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg",
+  "backdrop_path": "/7FWlcZq3r6525LWOcvO9kNWurN1.jpg",
   "belongs_to_collection": {
     "id": 131295,
     "name": "Captain America Collection",
@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "Captain America: Civil War",
   "overview": "Following the events of Age of Ultron, the collective governments of the world pass an act designed to regulate all superhuman activity. This polarizes opinion amongst the Avengers, causing two factions to side with Iron Man or Captain America, which causes an epic battle between former allies.",
-  "popularity": 15.0909,
+  "popularity": 19.1637,
   "poster_path": "/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
   "production_companies": [
     {
@@ -50,6 +50,7 @@
   "release_date": "2016-04-27",
   "revenue": 1155046416,
   "runtime": 147,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "Romanian",
@@ -77,5 +78,5 @@
   "title": "Captain America: Civil War",
   "video": false,
   "vote_average": 7.447,
-  "vote_count": 23891
+  "vote_count": 23929
 }

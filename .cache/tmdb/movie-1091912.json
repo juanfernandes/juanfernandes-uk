@@ -22,7 +22,7 @@
   "original_language": "en",
   "original_title": "Murder on the Doorstep",
   "overview": "Documentary retracing one of Britain's most mysterious unsolved murders: the seemingly motiveless killing of a banker, executed on his doorstep, which has baffled detectives for almost 20 years.",
-  "popularity": 0.1317,
+  "popularity": 0.0239,
   "poster_path": "/lcxIksULCJjeAghcBwzwJtdF3wk.jpg",
   "production_companies": [
     {
@@ -47,6 +47,7 @@
   "release_date": "2022-12-01",
   "revenue": 0,
   "runtime": 67,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",

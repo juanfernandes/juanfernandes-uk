@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "Avatar: The Way of Water",
   "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-  "popularity": 31.8423,
+  "popularity": 30.6893,
   "poster_path": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
   "production_companies": [
     {
@@ -62,6 +62,7 @@
   "release_date": "2022-12-14",
   "revenue": 2353096253,
   "runtime": 192,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -74,5 +75,5 @@
   "title": "Avatar: The Way of Water",
   "video": false,
   "vote_average": 7.593,
-  "vote_count": 13950
+  "vote_count": 14001
 }

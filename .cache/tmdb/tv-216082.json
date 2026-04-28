@@ -79,7 +79,7 @@
   "original_language": "en",
   "original_name": "Zero Day",
   "overview": "A former U.S. President is called out of retirement to find the source of a deadly cyberattack, only to discover a vast web of lies and conspiracies.",
-  "popularity": 8.467,
+  "popularity": 8.9393,
   "poster_path": "/odIyR46aAX59dvQ1ON4P53ow1aE.jpg",
   "production_companies": [
     {
@@ -131,6 +131,7 @@
       "vote_average": 6.9
     }
   ],
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -141,6 +142,6 @@
   "status": "Ended",
   "tagline": "Truth has been weaponized.",
   "type": "Miniseries",
-  "vote_average": 6.966,
-  "vote_count": 427
+  "vote_average": 6.971,
+  "vote_count": 430
 }

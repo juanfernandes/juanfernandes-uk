@@ -31,7 +31,7 @@
   "original_language": "en",
   "original_title": "Johnny English Strikes Again",
   "overview": "Disaster strikes when a criminal mastermind reveals the identities of all active undercover agents in Britain. The secret service can now rely on only one man - Johnny English. Currently teaching at a minor prep school, Johnny springs back into action to find the mysterious hacker. For this mission to succeed, he’ll need all of his skills - what few he has - as the man with yesterday’s analogue methods faces off against tomorrow’s digital technology.",
-  "popularity": 3.8085,
+  "popularity": 6.1821,
   "poster_path": "/tCBxnZwLiY1BOKw3tH6AxHZdqPh.jpg",
   "production_companies": [
     {
@@ -60,6 +60,7 @@
   "release_date": "2018-09-13",
   "revenue": 158972570,
   "runtime": 88,
+  "softcore": false,
   "spoken_languages": [
     {
       "english_name": "English",
@@ -71,6 +72,6 @@
   "tagline": "His licence renewed. His intelligence restricted.",
   "title": "Johnny English Strikes Again",
   "video": false,
-  "vote_average": 6.275,
-  "vote_count": 2732
+  "vote_average": 6.276,
+  "vote_count": 2744
 }
