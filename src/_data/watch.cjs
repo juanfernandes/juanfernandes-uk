@@ -44,6 +44,32 @@ const yearFromISO = (d) => String(d || "").slice(0, 4);
 const sortByWatchedDesc = (a, b) =>
   a.watchedOn > b.watchedOn ? -1 : a.watchedOn < b.watchedOn ? 1 : 0;
 
+function readWatchlogEntries() {
+  const rootDir = path.join(process.cwd(), "src", "watchlog");
+
+  if (!fs.existsSync(rootDir)) {
+    return [];
+  }
+
+  function readJsonFiles(dir) {
+    return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+      const fullPath = path.join(dir, entry.name);
+
+      if (entry.isDirectory()) {
+        return readJsonFiles(fullPath);
+      }
+
+      if (!entry.name.endsWith(".json")) {
+        return [];
+      }
+
+      return JSON.parse(fs.readFileSync(fullPath, "utf8"));
+    });
+  }
+
+  return readJsonFiles(rootDir);
+}
+
 function groupByYear(items) {
   return items.reduce((acc, item) => {
     const y = yearFromISO(item.watchedOn);
@@ -129,7 +155,7 @@ module.exports = async function () {
     throw new Error("Missing TMDB_API_KEY env var (set locally and in GitHub Secrets).");
   }
 
-  const watchlog = require("./watchlog.json").entries || [];
+  const watchlog = readWatchlogEntries();
 
   const moviesRaw = watchlog.filter(
     (x) => x.type === "movie" || x.displayAs === "movie"
