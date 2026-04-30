@@ -22,81 +22,81 @@ media_library:
 publish_mode: simple
 
 collections:
-- name: "watchlog"
-  label: "Watch Log"
-  folder: "src/watchlog"
-  create: true
-  extension: "json"
-  format: "json"
-  nested:
-    depth: 2
-    summary: "{{title}}"
-  path: "{{year}}/{{slug}}"
-  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  identifier_field: "tmdbId"
-  summary: "{{watchedOn}} — {{title}}"
-  fields:
-    - label: "Type"
-      name: "type"
-      widget: "select"
-      options:
-        - { label: "Movie", value: "movie" }
-        - { label: "TV", value: "tv" }
+  - name: "watchlog"
+    label: "Watch Log"
+    folder: "src/watchlog"
+    create: true
+    extension: "json"
+    format: "json"
+    nested:
+      depth: 2
+      summary: "{{title}}"
+    path: "{{year}}/{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: "tmdbId"
+    summary: "{{watchedOn}} — {{title}}"
+    fields:
+      - label: "Type"
+        name: "type"
+        widget: "select"
+        options:
+          - { label: "Movie", value: "movie" }
+          - { label: "TV", value: "tv" }
 
-    - label: "Title"
-      name: "title"
-      widget: "string"
-      required: false
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        required: false
 
-    - label: "TMDb ID"
-      name: "tmdbId"
-      widget: "number"
-      value_type: "int"
+      - label: "TMDb ID"
+        name: "tmdbId"
+        widget: "number"
+        value_type: "int"
 
-    - label: "Watched On"
-      name: "watchedOn"
-      widget: "datetime"
-      date_format: "YYYY-MM-DD"
-      time_format: false
-      format: "YYYY-MM-DD"
+      - label: "Watched On"
+        name: "watchedOn"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        format: "YYYY-MM-DD"
 
-    - label: "Season"
-      name: "season"
-      widget: "number"
-      value_type: "int"
-      required: false
+      - label: "Season"
+        name: "season"
+        widget: "number"
+        value_type: "int"
+        required: false
 
-    - label: "Episode"
-      name: "episode"
-      widget: "number"
-      value_type: "int"
-      required: false
+      - label: "Episode"
+        name: "episode"
+        widget: "number"
+        value_type: "int"
+        required: false
 
-    - label: "Rating"
-      name: "rating"
-      widget: "number"
-      value_type: "float"
-      min: 0
-      max: 5
-      step: 0.5
-      required: false
+      - label: "Rating"
+        name: "rating"
+        widget: "number"
+        value_type: "float"
+        min: 0
+        max: 5
+        step: 0.5
+        required: false
 
-    - label: "Rewatch"
-      name: "rewatch"
-      widget: "boolean"
-      default: false
+      - label: "Rewatch"
+        name: "rewatch"
+        widget: "boolean"
+        default: false
 
-    - label: "Display as Movie"
-      name: "displayAs"
-      widget: "select"
-      required: false
-      options:
-        - { label: "Movie", value: "movie" }
+      - label: "Display as Movie"
+        name: "displayAs"
+        widget: "select"
+        required: false
+        options:
+          - { label: "Movie", value: "movie" }
 
-    - label: "Notes"
-      name: "notes"
-      widget: "text"
-      required: false
+      - label: "Notes"
+        name: "notes"
+        widget: "text"
+        required: false
 
   - name: "concerts"
     label: "Concerts"
