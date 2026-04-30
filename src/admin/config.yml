@@ -22,28 +22,81 @@ media_library:
 publish_mode: simple
 
 collections:
-  - name: "watchlog"
-    label: "Watch Log"
-    files:
-      - name: "watchlog"
-        label: "Watch Log"
-        file: "src/_data/watchlog.json"
-        format: "json"
-        fields:
-          - label: "Entries"
-            name: "entries"
-            widget: "list"
-            summary: "{{fields.type}} — {{fields.tmdbId}} — {{fields.watchedOn}}"
-            fields:
-              - { label: "Type", name: "type", widget: "select", options: ["movie", "tv"] }
-              - { label: "Display As", name: "displayAs", widget: "select", required: false, options: ["movie", "tv"] }
-              - { label: "TMDb ID", name: "tmdbId", widget: "number", value_type: "int" }
-              - { label: "Watched on", name: "watchedOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
-              - { label: "Rating (0-5)", name: "rating", widget: "number", required: false, value_type: "float", min: 0, max: 5, step: 0.5 }
-              - { label: "Rewatch", name: "rewatch", widget: "boolean", required: false, default: false }
-              - { label: "Season (TV)", name: "season", widget: "number", required: false, value_type: "int", min: 1 }
-              - { label: "Episode (TV)", name: "episode", widget: "number", required: false, value_type: "int", min: 1 }
-              - { label: "Notes", name: "notes", widget: "string", required: false }
+- name: "watchlog"
+  label: "Watch Log"
+  folder: "src/watchlog"
+  create: true
+  extension: "json"
+  format: "json"
+  nested:
+    depth: 2
+    summary: "{{title}}"
+  path: "{{year}}/{{slug}}"
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  identifier_field: "tmdbId"
+  summary: "{{watchedOn}} — {{title}}"
+  fields:
+    - label: "Type"
+      name: "type"
+      widget: "select"
+      options:
+        - { label: "Movie", value: "movie" }
+        - { label: "TV", value: "tv" }
+
+    - label: "Title"
+      name: "title"
+      widget: "string"
+      required: false
+
+    - label: "TMDb ID"
+      name: "tmdbId"
+      widget: "number"
+      value_type: "int"
+
+    - label: "Watched On"
+      name: "watchedOn"
+      widget: "datetime"
+      date_format: "YYYY-MM-DD"
+      time_format: false
+      format: "YYYY-MM-DD"
+
+    - label: "Season"
+      name: "season"
+      widget: "number"
+      value_type: "int"
+      required: false
+
+    - label: "Episode"
+      name: "episode"
+      widget: "number"
+      value_type: "int"
+      required: false
+
+    - label: "Rating"
+      name: "rating"
+      widget: "number"
+      value_type: "float"
+      min: 0
+      max: 5
+      step: 0.5
+      required: false
+
+    - label: "Rewatch"
+      name: "rewatch"
+      widget: "boolean"
+      default: false
+
+    - label: "Display as Movie"
+      name: "displayAs"
+      widget: "select"
+      required: false
+      options:
+        - { label: "Movie", value: "movie" }
+
+    - label: "Notes"
+      name: "notes"
+      widget: "text"
+      required: false
 
   - name: "concerts"
     label: "Concerts"
