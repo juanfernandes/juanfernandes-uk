@@ -22,20 +22,16 @@ media_library:
 publish_mode: simple
 
 collections:
-  - name: "watchlog"
-    label: "Watch Log"
-    folder: "src/watchlog"
+  - name: "watchlog_2026"
+    label: "Watch Log — 2026"
+    folder: "src/watchlog/2026"
     create: true
     extension: "json"
     format: "json"
-    nested:
-      depth: 2
-      summary: "{{title}}"
-    path: "{{year}}/{{slug}}"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    identifier_field: "tmdbId"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}"
+    identifier_field: "title"
     summary: "{{watchedOn}} — {{title}}"
-    fields:
+    fields: &watchlog_fields
       - label: "Type"
         name: "type"
         widget: "select"
@@ -97,6 +93,72 @@ collections:
         name: "notes"
         widget: "text"
         required: false
+
+  - name: "watchlog_2025"
+    label: "Watch Log — 2025"
+    folder: "src/watchlog/2025"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}"
+    identifier_field: "title"
+    summary: "{{watchedOn}} — {{title}}"
+    fields: *watchlog_fields
+
+  - name: "watchlog_2024"
+    label: "Watch Log — 2024"
+    folder: "src/watchlog/2024"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}"
+    identifier_field: "title"
+    summary: "{{watchedOn}} — {{title}}"
+    fields: *watchlog_fields
+
+  - name: "watchlog_2023"
+    label: "Watch Log — 2023"
+    folder: "src/watchlog/2023"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}"
+    identifier_field: "title"
+    summary: "{{watchedOn}} — {{title}}"
+    fields: *watchlog_fields
+
+  - name: "watchlog_2022"
+    label: "Watch Log — 2022"
+    folder: "src/watchlog/2022"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}"
+    identifier_field: "title"
+    summary: "{{watchedOn}} — {{title}}"
+    fields: *watchlog_fields
+
+  - name: "watchlog_2021"
+    label: "Watch Log — 2021"
+    folder: "src/watchlog/2021"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}"
+    identifier_field: "title"
+    summary: "{{watchedOn}} — {{title}}"
+    fields: *watchlog_fields
+
+  - name: "watchlog_2020"
+    label: "Watch Log — 2020"
+    folder: "src/watchlog/2020"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.title}}"
+    identifier_field: "title"
+    summary: "{{watchedOn}} — {{title}}"
+    fields: *watchlog_fields
 
   - name: "concerts"
     label: "Concerts"
