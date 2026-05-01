@@ -30,7 +30,9 @@
     </article>
 
     {% include 'components/social-share.njk' %}
+    {% if page.url == "/blog/" %}
     {% include 'components/post-pagination.njk' %}
+    {% endif %}
 
   </div>
 </div>
