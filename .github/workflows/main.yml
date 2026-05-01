@@ -5,15 +5,10 @@ on:
     - cron: "0 0 * * *" # nightly
   push:
     branches: [ main ]
-
   pull_request:
     branches: [ main ]
 
 jobs:
-  # ----------------------------------------------------------
-  # Dry-run deploy preview on PRs (no server changes).
-  # Skips for forked PRs (no secrets available there anyway).
-  # ----------------------------------------------------------
   deploy-dry-run:
     name: "11ty: Deploy (dry run on PR)"
     runs-on: ubuntu-latest
@@ -35,11 +30,12 @@ jobs:
         with:
           path: |
             _cache/
+            .cache/tmdb/
             src/assets/imgs/
           key: 11ty-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
-            11ty-${{ runner.os }}
-            ${{ runner.os }}-11ty
+            11ty-${{ runner.os }}-
+            ${{ runner.os }}-11ty-
 
       - name: Install dependencies
         run: npm install
@@ -48,6 +44,8 @@ jobs:
         run: node src/_data/appendToJSON.cjs
 
       - name: Build website
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: npm run build
 
       - name: Get changed files
@@ -63,7 +61,6 @@ jobs:
           git diff --name-only "$BEFORE" "${{ github.sha }}" > changed-files.txt || true
           echo "Changed files:"; cat changed-files.txt || true
 
-      # Skip for forked PRs (no secrets). No 'secrets' in if: expression.
       - name: Dry-run deploy (no server changes)
         if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
         uses: easingthemes/ssh-deploy@v5.0.3
@@ -75,7 +72,6 @@ jobs:
           REMOTE_USER: ${{ secrets.CPANEL_USER }}
           TARGET: ${{ secrets.CPANEL_TARGET }}
           EXCLUDE: ".git*, .github*, node_modules*, src*"
-          # Preview changes; show deletions too
           ARGS: "-rlgoDzvc -i --delete --dry-run"
 
       - uses: actions/cache/save@v4
@@ -83,12 +79,10 @@ jobs:
         with:
           path: |
             _cache/
+            .cache/tmdb/
             src/assets/imgs/
           key: 11ty-${{ runner.os }}-${{ github.run_id }}
 
-  # ----------------------------------------------------------
-  # Real build & deploy on push/schedule
-  # ----------------------------------------------------------
   build-and-deploy:
     name: "11ty: Build and Deploy"
     runs-on: ubuntu-latest
@@ -97,7 +91,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # needed to diff changed files
+          fetch-depth: 0
 
       - name: Use Node
         uses: actions/setup-node@v4
@@ -110,11 +104,12 @@ jobs:
         with:
           path: |
             _cache/
+            .cache/tmdb/
             src/assets/imgs/
           key: 11ty-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
-            11ty-${{ runner.os }}
-            ${{ runner.os }}-11ty
+            11ty-${{ runner.os }}-
+            ${{ runner.os }}-11ty-
 
       - name: Install dependencies
         run: npm install
@@ -123,6 +118,8 @@ jobs:
         run: node src/_data/appendToJSON.cjs
 
       - name: Build website
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: npm run build
 
       - name: Get changed files
@@ -131,14 +128,13 @@ jobs:
           set -e
           git fetch --prune --unshallow || true
           BEFORE="${{ github.event.before }}"
-          if [ -z "$BEFORE" ] || [ "$BEORE" = "0000000000000000000000000000000000000000" ]; then
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
             BEFORE="$(git rev-parse HEAD~1)"
           fi
           echo "Diffing from $BEFORE to ${{ github.sha }}"
           git diff --name-only "$BEFORE" "${{ github.sha }}" > changed-files.txt
           echo "Changed files:"; cat changed-files.txt || true
 
-      # Cross-post any new/changed photos to Pixelfed
       - name: Cross-post new photos to Pixelfed
         if: success()
         env:
@@ -147,7 +143,6 @@ jobs:
         run: |
           set -e
           echo "Checking for changed photos…"
-          # Match your repo path: src/photos/...
           if grep -iE '^src/photos/content/photos/.*\.(jpe?g|png|webp)$' changed-files.txt >/dev/null 2>&1; then
             echo "Photos changed, running sync…"
             node src/assets/js/pixelfed-sync.js changed-files.txt
@@ -159,17 +154,19 @@ jobs:
         uses: easingthemes/ssh-deploy@v5.0.3
         env:
           SSH_PRIVATE_KEY: ${{ secrets.CPANEL_SSH_KEY }}
-          SOURCE: "dist/"                # trailing slash = contents only
+          SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.CPANEL_HOST }}
           REMOTE_PORT: ${{ secrets.CPANEL_PORT }}
           REMOTE_USER: ${{ secrets.CPANEL_USER }}
           TARGET: ${{ secrets.CPANEL_TARGET }}
           EXCLUDE: ".git*, .github*, node_modules*, src*"
-          ARGS: "-rlgoDzvc -i --delete"  # mirror deletions on server
+          ARGS: "-rlgoDzvc -i --delete"
 
       - uses: actions/cache/save@v4
+        if: always()
         with:
           path: |
             _cache/
+            .cache/tmdb/
             src/assets/imgs/
           key: 11ty-${{ runner.os }}-${{ github.run_id }}

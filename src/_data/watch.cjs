@@ -3,6 +3,7 @@ const path = require("node:path");
 
 const CACHE_DIR = path.join(process.cwd(), ".cache", "tmdb");
 const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+const TMDB_REQUEST_DELAY_MS = 300;
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -21,22 +22,75 @@ function isFresh(filePath) {
   }
 }
 
-async function fetchJson(url) {
-  const res = await fetch(url, { headers: { accept: "application/json" } });
-  if (!res.ok) throw new Error(`TMDb fetch failed: ${res.status} ${url}`);
-  return res.json();
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchJson(url, attempts = 6) {
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    const res = await fetch(url, { headers: { accept: "application/json" } });
+
+    if (res.ok) {
+      return res.json();
+    }
+
+    if (res.status === 429 && attempt < attempts) {
+      const retryAfter = Number(res.headers.get("retry-after"));
+      const delay = Number.isFinite(retryAfter)
+        ? retryAfter * 1000
+        : attempt * 1500;
+
+      console.warn(`[tmdb] Rate limited. Retrying in ${delay}ms...`);
+      await sleep(delay);
+      continue;
+    }
+
+    if (res.status >= 500 && attempt < attempts) {
+      const delay = attempt * 1000;
+      console.warn(`[tmdb] HTTP ${res.status}. Retrying in ${delay}ms...`);
+      await sleep(delay);
+      continue;
+    }
+
+    throw new Error(`TMDb fetch failed: ${res.status} ${url}`);
+  }
+
+  throw new Error(`TMDb fetch failed after ${attempts} attempts: ${url}`);
 }
 
 async function tmdbGet(type, id, apiKey) {
   ensureDir(CACHE_DIR);
   const fp = cachePath(type, id);
 
-  if (isFresh(fp)) return JSON.parse(fs.readFileSync(fp, "utf8"));
+  if (isFresh(fp)) {
+    return JSON.parse(fs.readFileSync(fp, "utf8"));
+  }
 
   const url = `https://api.themoviedb.org/3/${type}/${id}?api_key=${apiKey}&language=en-GB`;
+
   const data = await fetchJson(url);
+
   fs.writeFileSync(fp, JSON.stringify(data, null, 2), "utf8");
+
+  await sleep(TMDB_REQUEST_DELAY_MS);
+
   return data;
+}
+
+async function buildMetaMap(type, ids, apiKey) {
+  const entries = [];
+
+  for (const id of ids) {
+    try {
+      const data = await tmdbGet(type, id, apiKey);
+      entries.push([id, data]);
+    } catch (error) {
+      console.warn(`[watch] Failed to fetch TMDb ${type}/${id}: ${error.message}`);
+      entries.push([id, {}]);
+    }
+  }
+
+  return Object.fromEntries(entries);
 }
 
 const yearFromISO = (d) => String(d || "").slice(0, 4);
@@ -165,7 +219,6 @@ module.exports = async function () {
     (x) => x.type === "tv" && x.displayAs !== "movie"
   );
 
-  // Fetch metadata based on the true TMDb type, not where it is displayed
   const uniqueMovieIds = [
     ...new Set(
       watchlog
@@ -184,13 +237,8 @@ module.exports = async function () {
     )
   ];
 
-  const [movieMetaPairs, tvMetaPairs] = await Promise.all([
-    Promise.all(uniqueMovieIds.map(async (id) => [id, await tmdbGet("movie", id, apiKey)])),
-    Promise.all(uniqueTvIds.map(async (id) => [id, await tmdbGet("tv", id, apiKey)]))
-  ]);
-
-  const movieMeta = Object.fromEntries(movieMetaPairs);
-  const tvMeta = Object.fromEntries(tvMetaPairs);
+  const movieMeta = await buildMetaMap("movie", uniqueMovieIds, apiKey);
+  const tvMeta = await buildMetaMap("tv", uniqueTvIds, apiKey);
 
   const movies = moviesRaw
     .map((x) => {
@@ -217,6 +265,7 @@ module.exports = async function () {
   const tvEpisodes = tvRaw
     .map((x) => {
       const s = tvMeta[x.tmdbId] || {};
+
       return {
         ...x,
         show: x.show || s.name || "",
@@ -248,10 +297,6 @@ module.exports = async function () {
     .sort()
     .reverse();
 
-  const totalMovies = movies.length;
-  const totalEpisodes = tvEpisodes.length;
-  const totalShows = Object.keys(tvGrouped).length;
-
   return {
     movies,
     tvEpisodes,
@@ -265,9 +310,9 @@ module.exports = async function () {
     tvYears,
     years,
     stats: {
-      totalMovies,
-      totalEpisodes,
-      totalShows
+      totalMovies: movies.length,
+      totalEpisodes: tvEpisodes.length,
+      totalShows: Object.keys(tvGrouped).length
     }
   };
 };
