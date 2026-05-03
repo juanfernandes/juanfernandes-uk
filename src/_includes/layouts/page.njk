@@ -2,7 +2,7 @@
 
 {% block main %}
 <div class="{{ class }}">
-  <div class="content{% if contentClass %}  {{ contentClass }}{% endif %}" id="content">
+  <div class="content{% if contentClass %} {{ contentClass }}{% endif %}" id="content">
     {{ content | safe }}
 
     {% if page.url == "/now/" %}

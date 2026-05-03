@@ -13,9 +13,6 @@ tags:
   {% for blog in blogroll %}
   <div class="link-card">
     <a class="link-card__link" href="{{ blog.url }}" target="_blank">
-      {% if blog.icon %}
-      <img src="{{ blog.icon }}" alt="{{ blog.name }}" width="32" height="32" />
-      {% endif %}
       <b>{{ blog.name }}</b>
     </a>
     {% if blog.feed %}

@@ -28,7 +28,7 @@ This is the kit I use for most of my work — a mix of design, front-end develop
 
 - [Sublime Text 4](https://www.sublimetext.com/){target="_blank"} — still my editor of choice. Fast, minimal, and stays out of the way. I use the [ayu theme](https://github.com/dempfi/ayu){target="_blank"} with the [inconsolata-dz](https://levien.com/type/myfonts/inconsolata.html){target="_blank"} font, plus a handful of [custom tweaks](https://gist.github.com/juanfernandes/ba413678c7686f0c96b0 "GitHub gist with my custom sublime settings").
 - [iTerm 2](https://iterm2.com/) — clean, reliable, and does exactly what I need.
-- [Fish shell](https://fishshell.com/) + Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) — small quality-of-life improvements that make working in the terminal much nicer day-to-day.
+- [Fish shell](https://fishshell.com/) + [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) — small quality-of-life improvements that make working in the terminal much nicer day-to-day.
 
 <h2 class="heading">
   <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-palette" /></svg>
