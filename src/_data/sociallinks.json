@@ -5,11 +5,6 @@
     "url": "https://indieweb.social/@juanfernandes"
   },
   {
-    "name": "Bluesky",
-    "icon": "bsky",
-    "url": "https://bsky.app/profile/juanfernandes.uk"
-  },
-  {
     "name": "LinkedIn",
     "icon": "linkedin",
     "url": "https://www.linkedin.com/in/juanfernandes"
@@ -48,16 +43,6 @@
     "name": "Last.fm",
     "icon": "lastfm",
     "url": "https://www.last.fm/user/juanfernandes"
-  },
-  {
-    "name": "Letterboxd",
-    "icon": "letterboxd",
-    "url": "https://letterboxd.com/juanfernandes"
-  },
-  {
-    "name": "Trakt.tv",
-    "icon": "trakttv",
-    "url": "https://trakt.tv/users/_juanfernandes"
   },
   {
     "name": "Spotify",
