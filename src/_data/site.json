@@ -57,13 +57,7 @@
       "url": "https://indieweb.social/@juanfernandes"
     },
     {
-      "url": "https://letterboxd.com/juanfernandes"
-    },
-    {
       "url": "https://pixelfed.social/juanfernandes"
-    },
-    {
-      "url": "https://trakt.tv/users/_juanfernandes"
     },
     {
       "url": "https://x.com/juanfernandes"
@@ -79,9 +73,6 @@
     },
     {
       "url": "https://www.strava.com/athletes/juanfernandes"
-    },
-    {
-      "url": "https://bsky.app/profile/juanfernandes.uk"
     },
     {
       "url": "https://www.youtube.com/@juanfernandes"
@@ -127,8 +118,8 @@
       "url": "/blogroll/"
     },
     {
-      "label": "Socials",
-      "url": "/social-links/"
+      "label": "Links",
+      "url": "/links/"
     },
     {
       "label": "Collections",
