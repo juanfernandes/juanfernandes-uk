@@ -1,5 +1,5 @@
 ---
-permalink: '/rss/links-style.xsl'
+permalink: '/rss/stream-style.xsl'
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
       <head>
-        <title><xsl:value-of select="/rss/channel/title"/>{{ site.feed.links.title }}</title>
+        <title><xsl:value-of select="/rss/channel/title"/>{{ site.feed.photos.title }}</title>
         <link rel="stylesheet" href="/assets/css/global.css"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
@@ -23,23 +23,31 @@ eleventyExcludeFromCollections: true
                 <svg class="u-mr-1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#f89820" viewBox="0 0 16 16">
                   <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm1.5 2.5c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1 0-2zm0 4a6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1 0-2zm.5 7a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
                 </svg>
-                <span>RSS Links Preview - <small>juanfernandes.uk</small></span>
+                <span>RSS Stream Preview - <small>juanfernandes.uk</small></span>
               </h1>
-              <p class="lead">{{ site.feed.links.description }}</p>
-              <a class="u-inline-block u-mb-2" href="https://www.juanfernandes.uk/links/">Visit Website →</a>
+              <p class="lead">{{ site.feed.notes.description }}</p>
+              <a class="u-inline-block u-mb-2" href="https://www.juanfernandes.uk/notes/">Visit Website →</a>
             </header>
             <div class="alert alert--info u-mb-2">
               <p><strong>This is an RSS feed</strong>. Subscribe by copying the URL from the address bar into your newsreader. Visit <a href="https://aboutfeeds.com">About Feeds</a> to learn more and get started. It’s free.</p>
             </div>
 
-            <h2>Recent links</h2>
-            <p class="u-block"><small>Updated: <time class="dt-published" datetime="{{ collections.links | rssLastUpdatedDate }}">{{ collections.links | rssLastUpdatedDate }}</time></small></p>
-
+            <h2>Recent stream posts</h2>
             <ul class="list-bordered">
-            {%- for link in links | reverse -%}
+            {% for post in collections.stream | reverse %}
+            {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
             <li>
-              <a class="delta u-inline-block u-mb-1" href="{{ link.url }}">{{ link.title }}</a>
-              <p class="u-mb-0">{{ link.excerpt | escape }}</p>
+              <div class="block block--thumb">
+                <a href="{{ post.url }}" class="b-inner">
+                  <div class="b-text">
+                    <h3 class="b-title">{{ post.data.title }}</h3>
+                    <div class="meta">
+                      <small><time class="dt-published" datetime="{{ post.date | w3DateFilter }}">{{ post.date | dateFilter }}</time></small>
+                    </div>
+                    <p>{{ post.data.description }}</p>
+                  </div>
+                </a>
+              </div>
             </li>
             {% endfor %}
             </ul>

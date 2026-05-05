@@ -150,6 +150,10 @@ $module: 'social-icons';
     width: 80%;
   }
 
+  &--white {
+    background-color: var(--white);
+  }
+
   &__heading {
     text-align: center;
   }
