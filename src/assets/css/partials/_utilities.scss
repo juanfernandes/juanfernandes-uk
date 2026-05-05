@@ -155,6 +155,9 @@
 .u-p-1 {
   padding: 1rem;
 }
+.u-p-2 {
+  padding: 2rem;
+}
 .u-pt-0 {
   padding-top: 0 !important;
 }
@@ -165,6 +168,15 @@
 
 .u-uppercase {
   text-transform: uppercase;
+}
+
+.border-radius {
+  &--1 {
+    border-radius: 1rem;
+  }
+  &--2 {
+    border-radius: 2rem;
+  }
 }
 
 .u-text {
