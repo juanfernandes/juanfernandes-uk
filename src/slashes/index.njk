@@ -1,0 +1,22 @@
+--- 
+title: "Slashes"
+layout: "page"
+contentClass: "content--slim"
+tags: 
+  - search
+---
+<p class="lead">Slash pages are a small collection of personal pages commonly found on IndieWeb-style websites. They usually live at simple URLs like /now, /about, or /uses, and give a more personal look at the person behind the site - what they’re doing, using, working on, or interested in.</p>
+<div class="links-grid">
+{% for item in slashes %}
+  <a href="{{ item.url }}" title="{{ item.name }}" class="link-card">
+    <b>{{ item.name }}</b>
+    <svg aria-hidden="true" focusable="false" width="24" height="24">
+      <use xlink:href="#svg-{{ item.icon }}" />
+    </svg>
+  </a>
+{% endfor %}
+</div>
+<div class="u-mt-2">
+  <p class="u-mb-0">Learn more about these pages on <a href="https://slashpages.net" target="_blank">slashpages.net</a>.</p>
+</div>
+

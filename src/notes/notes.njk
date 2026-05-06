@@ -3,8 +3,8 @@
 {% block main %}
   <div class="container">
     <div class="content" id="content">
-      <div class="row">
-        <div class="twelve cols">
+      <div class="grid grid-9-3 gap-2">
+        <div>
           <ul class="post-list">
             {%- for post in collections.notes | reverse -%}
             <li>
@@ -23,7 +23,7 @@
             {%- endfor -%}
           </ul>
         </div>
-        <div class="sidebar meta / four cols">
+        <div class="sidebar meta">
           {% include 'components/bio.njk' %}
         </div>
       </div>

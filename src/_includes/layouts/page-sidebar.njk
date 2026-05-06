@@ -3,12 +3,12 @@
 {% block main %}
 <div class="{{ class }}">
   <div class="content" id="content">
-    <div class="row">
-      <div class="twelve cols">
+    <div class="grid grid-9-3 gap-2">
+      <div>
       {{ content | safe }}
       </div>
 
-      <div class="sidebar meta / four cols">
+      <div class="sidebar meta">
         {% include 'components/bio.njk' %}
       </div>
 

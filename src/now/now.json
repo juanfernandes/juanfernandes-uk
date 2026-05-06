@@ -3,10 +3,10 @@
   "description": "Read about what I'm currently up to",
   "keywords": "now, freelance website designer, frontend developer, reading, watching, work",
   "layout": "page",
+  "contentClass": "content--slim",
   "date": "2025-12-03T08:30:00Z",
-  "class": "now",
+  "class": "u-content-gap",
   "intro": {
-    "class": "sml",
     "heading": "Now",
     "subheading": "What I'm currently up to"
   },

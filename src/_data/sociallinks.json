@@ -53,5 +53,20 @@
     "name": "Strava",
     "icon": "strava",
     "url": "https://www.strava.com/athletes/juanfernandes"
+  },
+  {
+    "name": "11ty",
+    "icon": "11ty",
+    "url": "https://www.11ty.dev/authors/juanfernandes/"
+  },
+  {
+    "name": "Codepen",
+    "icon": "codepen",
+    "url": "https://codepen.io/juanfernandes"
+  },
+  {
+    "name": "Untappd",
+    "icon": "untappd",
+    "url": "https://untappd.com/user/juanfernandes"
   }
 ]

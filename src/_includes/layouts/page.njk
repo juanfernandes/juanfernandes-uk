@@ -1,14 +1,12 @@
 {% extends 'layouts/base.njk' %}
 
 {% block main %}
-<div class="{{ class }}">
-  <div class="content{% if contentClass %} {{ contentClass }}{% endif %}" id="content">
-    {{ content | safe }}
+<div class="content u-content-gap{% if contentClass %} {{ contentClass }}{% endif %}" id="content">
+  {{ content | safe }}
 
-    {% if page.url == "/now/" %}
-      {% include "components/read-articles.njk" %}
-      {% include "components/now-footer.njk" %}
-    {% endif %}
-  </div>
+  {% if page.url == "/now/" %}
+    {% include "components/read-articles.njk" %}
+    {% include "components/now-footer.njk" %}
+  {% endif %}
 </div>
 {% endblock %}

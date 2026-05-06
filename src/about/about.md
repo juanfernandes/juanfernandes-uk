@@ -7,10 +7,8 @@ keywords: "responsive website design, website design for small businesses, affor
   website design, website design company suffolk uk, website design company woodbridge
   uk, website designer suffolk uk, freelance website designer suffolk uk, responsive
   web design, design, web design, cms, perch, wordpress, local, suffolk uk"
-class: "about"
 contentClass: "content--slim"
 intro:
-  class: "sml"
   heading: "About me"
   subheading: "Freelance Frontend Developer"
   cta:

@@ -1,7 +1,6 @@
 ---
 layout: "page"
 title: "Uses"
-class: "uses"
 contentClass: "content--slim"
 intro:
   heading: "Uses"

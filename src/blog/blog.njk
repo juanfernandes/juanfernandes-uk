@@ -10,8 +10,8 @@ pagination:
 {% block main %}
   <div class="blog-posts">
     <div class="content" id="content">
-      <div class="row">
-        <div class="twelve cols">
+      <div class="grid grid-9-3 gap-2">
+        <div>
           <ul class="post-list">
             {% for post in posts %}
             <li>
@@ -32,8 +32,7 @@ pagination:
 
           {% include 'components/blog-pagination.njk' %}
         </div>
-
-        <div class="sidebar meta / four cols">
+        <div class="sidebar meta">
           {% include 'components/bio.njk' %}
           {% include 'components/tagcloud.njk' %}
         </div>
