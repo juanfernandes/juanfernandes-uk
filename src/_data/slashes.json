@@ -1,0 +1,47 @@
+[
+  {
+    "name": "/about",
+    "icon": "user",
+    "url": "/about/"
+  },
+  {
+    "name": "/blogroll",
+    "icon": "news",
+    "url": "/blogroll/"
+  },
+  {
+    "name": "/colophon",
+    "icon": "bookopen",
+    "url": "/colophon/"
+  },
+  {
+    "name": "/contact",
+    "icon": "envelope",
+    "url": "/contact/"
+  },
+  {
+    "name": "/links",
+    "icon": "link",
+    "url": "/links/"
+  },
+  {
+    "name": "/now",
+    "icon": "clock",
+    "url": "/now/"
+  },
+  {
+    "name": "/uses",
+    "icon": "wrench",
+    "url": "/uses/"
+  },
+  {
+    "name": "/sitemap",
+    "icon": "sitemap",
+    "url": "/sitemap/"
+  },
+  {
+    "name": "/changelog",
+    "icon": "history",
+    "url": "/changelog/"
+  }
+]

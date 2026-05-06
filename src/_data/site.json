@@ -102,16 +102,16 @@
   ],
   "footerlinks": [
     {
+      "label": "Slashes",
+      "url": "/slashes/"
+    },
+    {
       "label": "Now",
       "url": "/now/"
     },
     {
       "label": "Uses",
       "url": "/uses/"
-    },
-    {
-      "label": "Stream",
-      "url": "/stream/"
     },
     {
       "label": "Blogroll",

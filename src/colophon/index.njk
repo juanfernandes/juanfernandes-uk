@@ -2,13 +2,12 @@
 title: Colophon
 description: "All about this website, including tech used etc"
 layout: page-sidebar
-class: colophon
+class: u-content-gap
 date: 2024-05-14T14:30:00Z
-intro:
-  class: sml
-  subheading: 
 ---
-  <p class="lead">This website is built with <a href="https://www.11ty.dev/">Eleventy</a>, the following languages and it's hosted with <a href="https://my.guru.co.uk/aff.php?aff=6526">Guru</a>.</p>
+{#   <p class="lead">This website is my space on the web — part portfolio, part notebook, part archive. It’s where I share thoughts, experiments, projects, links, collections and things I’m interested in without relying on social media platforms.</p>
+
+  <p>This website is built with <a href="https://www.11ty.dev/">Eleventy</a>, the following languages and it's hosted with <a href="https://my.guru.co.uk/aff.php?aff=6526">Guru</a>.</p>
 
   <ul role="list" style="column-count: 2">
     <li>HTML</li>
@@ -25,4 +24,56 @@ intro:
     <li>This site does not use cookies and does not track you.</li>
   </ul>
 
-  <p class="u-center u-pb-1 u-mt-1"><a href="https://www.websitecarbon.com/website/juanfernandes-uk/">View my websites' carbon rating</a></p>
+  <p><a href="https://www.websitecarbon.com/website/juanfernandes-uk/">View my websites' carbon rating</a></p> #}
+<h2>About this site</h2>
+
+<p>This website is my space on the web — part portfolio, part notebook, part archive. It’s where I share work, notes, links, collections, logs and the odd thing I’m interested in without relying completely on social media platforms.</p>
+
+<h3>How it’s built</h3>
+
+<p>The site is built with <a href="https://www.11ty.dev/">Eleventy</a>, using Nunjucks templates, JSON data files and a fairly simple static-first setup.</p>
+
+<p>I write and edit most of it locally on macOS using Sublime Text, then deploy it through GitHub Actions.</p>
+
+<h3>Hosting and deployment</h3>
+
+<p>The site is hosted on shared hosting and deployed automatically from GitHub using a build workflow and rsync.</p>
+
+<p>Most changes start locally, get committed to GitHub, then the site rebuilds and deploys from there.</p>
+
+<h3>APIs and integrations</h3>
+
+<p>Some sections of the site are powered by external APIs and personal data feeds, including Last.fm, TMDb, Instapaper, GitHub and RSS.</p>
+
+<p>These help power things like my music stats, watching logs, reading lists, links and other small bits of personal tracking.</p>
+
+<h3>RSS and IndieWeb</h3>
+
+<p>The site has separate RSS feeds for different types of content:</p>
+
+<ul>
+  <li><a href="/rss/feed.xml">Blog feed</a></li>
+  <li><a href="/rss/notes.xml">Notes feed</a></li>
+  <li><a href="/rss/stream.xml">Stream feed</a></li>
+  <li><a href="/rss/links.xml">Links feed</a></li>
+</ul>
+
+<p>I like the idea of owning my own space online, publishing things here first, and letting other platforms be secondary.</p>
+
+<h3>Performance and accessibility</h3>
+
+<p>I try to keep the site fast, readable and accessible. It’s mostly static HTML and CSS, with JavaScript only where it adds something useful.</p>
+
+<p>The aim is simple: make the site easy to read, easy to maintain and pleasant to use across different devices.</p>
+
+<h3>Design</h3>
+
+<p>The design is deliberately simple. It changes over time as I tweak, rebuild and experiment with different ideas.</p>
+
+<p>I use the site as a bit of a playground for layout, typography, content structure and small interaction patterns.</p>
+
+<h3>Source</h3>
+
+<p>The source code for this site lives on GitHub:</p>
+
+<p><a href="https://github.com/juanfernandes/juanfernandes-uk">github.com/juanfernandes/juanfernandes-uk</a></p>

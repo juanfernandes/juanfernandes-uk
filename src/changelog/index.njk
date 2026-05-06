@@ -1,15 +1,21 @@
 --- 
 title: "Changelog"
 description: "All about this website, including tech used etc"
-layout: "page-sidebar"
-class: "colophon"
-date: 2024-05-14T14:30:00Z
-intro:
-  class: "sml"
+layout: "page"
+class: "u-content-gap"
 tags:
   - search
 ---
-<p class="lead">The changelog page on my website provides a summary of recent changes and displays the GIT commit history for the site's repository.</p>
+<div class="grid grid-9-3 gap-2">
+  <div>
+    <p class="lead">The changelog page keeps track of updates, improvements and tweaks made across the site, alongside a live view of the Git commit history from the website’s repository.</p>
 
-  {% include "components/changelog.njk" %}
-  {% include "components/git-commits.njk" %}
+    {% include "components/changelog.njk" %}
+    {% include "components/git-commits.njk" %}
+  </div>
+  <div class="sidebar meta">
+    <h3 class="heading">Source Code</h3>
+    <p>The source code for this site lives on GitHub:</p>
+    <a href="{{ site.sourceUrl }}" target="_blank" rel="noopener">github.com/juanfernandes/juanfernandes-uk</a>
+  </div>
+</div>
