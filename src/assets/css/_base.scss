@@ -82,6 +82,12 @@ p {
   }
 }
 
+small {
+  a {
+    font-size: inherit;
+  }
+}
+
 .nav a:hover,
 .nav a:focus {
   outline: none;

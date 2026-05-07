@@ -1,29 +1,116 @@
-
 <h2>Personal</h2>
 <ul>
-  <li>Finally finished putting the 8x8 shed together. Have moved all tools and DIY machines into it. I also built a workbench with storage and some storage shelving for garden tools etc.</li>
+  <li>Bought a VW T5 Transporter van to convert into a camper van - so that will keep me busy for a while. Previous owner had started the conversion, but I wasn't happy with the carpeting, so I've striped the back of the van back to metal.</li>
 </ul>
 
 <h2>Projects</h2>
 <ul>
-  <li>I've got a few projects on the go - but the one that's had my main focus is essentially a tool that scrapes the Companies House API for newly incorporated companies.</li>
+  <li>I’ve been spending quite a bit of time working on the site recently - adding new <a href="/logs/">Logs</a> and <a href="/collections/">Collections</a> sections, tidying up parts of the HTML and CSS, and refining various pages across the site.</li>
 </ul>
 
 <h2>Watching</h2>
-<h3>Series</h3>
-<ul class="watchlist">
-{% for item in watching %}
-<li class="item">
-  <div class="item__image">
-    <img width="100" height="150" src="{{ item.img }}" alt="{{ item.name }}">
-  </div>
-  <div class="item__content">
-    <a href="{{ item.link }}" target="_blank">{{ item.name }}</a>
-    <p>{{ item.description }}</p>
-  </div>
-</li>
-{% endfor %}
-</ul>
+{% set latestFilm = watch.movies[0] %}
+{% set latestEp = watch.tvEpisodes[0] %}
+<div class="dash-grid dash-grid--2-col">
+  <section class="dash-card">
+    <div class="dash-card__body">
+      <h2 class="dash-card__heading">Films</h2>
+      <div class="dash-card__latest">
+        {% if latestFilm %}
+          <div class="dash-card__header">
+          {% if latestFilm.poster %}
+            <img
+              src="{{ latestFilm.poster }}"
+              alt="Poster for {{ latestFilm.title }}"
+              loading="lazy"
+              class="dash-card__poster dash-card__poster-3-3"
+            >
+          {% endif %}
+            <div>
+              <h4 class="dash-card__title">
+                {% if latestFilm.tmdbUrl %}
+                  <a href="{{ latestFilm.tmdbUrl }}" target="_blank" rel="noopener">{{ latestFilm.title }}</a>
+                {% if latestFilm.year %}<span class="dash-card__muted"> ({{ latestFilm.year }})</span>{% endif %}
+                {% else %}
+                  {{ latestFilm.title }}  {% if latestFilm.year %}<span class="dash-card__muted"> ({{ latestFilm.year }})</span>{% endif %}
+                {% endif %}
+              </h4>
+              <div class="dash-card__meta">
+                {% if latestFilm.watchedOn %}
+                <span>Watched on: {{ latestFilm.watchedOn | dateFilter }}</span>
+                {% endif %}
+
+                {% if latestFilm.rating %}
+                <span>Rated: ★ {{ latestFilm.rating }}/5</span>
+                {% endif %}
+
+                {% if latestFilm.rewatch %}
+                <span class="tag">Rewatch</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% else %}
+          <p class="dash-card__muted">No films logged yet.</p>
+        {% endif %}
+      </div>
+
+      <div class="dash-card__links">
+        <a href="/logs/watching/films/">Browse all films →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="dash-card">
+    <div class="dash-card__body">
+      <h2 class="dash-card__heading">Series</h2>
+      <div class="dash-card__latest">
+        {% if latestEp %}
+          <div class="dash-card__header">
+            {% if latestEp.poster %}
+            <img
+              src="{{ latestEp.poster }}"
+              alt="Poster for {{ latestEp.show }}"
+              loading="lazy"
+              class="dash-card__poster dash-card__poster-3-3"
+            >
+            {% endif %}
+            <div>
+              <h4 class="dash-card__title">
+                {% if latestEp.tmdbUrl %}
+                <a href="{{ latestEp.tmdbUrl }}" target="_blank" rel="noopener">{{ latestEp.show }}</a>
+                {% else %}
+                  {{ latestEp.show }}
+                {% endif %}
+                {% if latestEp.year %}<span class="watch-muted"> ({{ latestEp.year }})</span>{% endif %}
+              </h4>
+              <div class="dash-card__meta">
+                {% if latestEp.season %}
+                <span>Season {{ latestEp.season }} Episode {{ latestEp.episode }}</span>
+                {% endif %}
+                {% if latestEp.watchedOn %}
+                <span>Watched on: {{ latestEp.watchedOn | dateFilter }}</span>
+                {% endif %}
+                {% if latestEp.rating %}
+                <span>★ {{ latestEp.rating }}/5</span>
+                {% endif %}
+                {% if latestEp.rewatch %}
+                <span>Rewatch</span>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% else %}
+          <p class="dash-card__muted">No TV episodes logged yet.</p>
+        {% endif %}
+      </div>
+
+      <div class="dash-card__links">
+        <a href="/logs/watching/tv/">Browse all TV →</a>
+      </div>
+    </div>
+  </section>
+</div>
 
 <h2>Reading</h2>
 
