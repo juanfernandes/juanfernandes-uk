@@ -25,6 +25,7 @@
   "homepage": "https://www.juanfernandes.uk",
   "devDependencies": {
     "@11ty/eleventy": "latest",
+    "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-fetch": "^5.1.1",
     "@11ty/eleventy-plugin-rss": "latest",
     "@11ty/eleventy-plugin-syntaxhighlight": "latest",
@@ -43,6 +44,7 @@
     "markdown-it": "^14.1.1",
     "markdown-it-attrs": "^4.3.1",
     "rss-parser": "^3.13.0",
-    "serverless-http": "^3.2.0"
+    "serverless-http": "^3.2.0",
+    "speedlify-score": "^4.0.4"
   }
 }

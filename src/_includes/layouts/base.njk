@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if title == 'Home' %}{{ site.meta.title }}{% else %}{{ pageTitle }}{% endif %}</title>
     <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/speedlify-score.css">
     <meta name="description" content="{{ description }}" />
     <meta name="keywords" content="{{ keywords }}" />
 
@@ -70,5 +71,6 @@
       {% include 'components/footer.njk' %}
     </div>
     <script src="/assets/js/search.js" defer="defer"></script>
+    <script type="module" src="/assets/js/speedlify-score.js"></script>
   </body>
 </html>

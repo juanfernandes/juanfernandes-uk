@@ -72,6 +72,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('.well-known/')
   eleventyConfig.addPassthroughCopy('src/Juan_Fernandes-CV.pdf')
   eleventyConfig.addPassthroughCopy('src/admin')
+  eleventyConfig.addPassthroughCopy({
+    'node_modules/speedlify-score/speedlify-score.js': 'assets/js/speedlify-score.js'
+  })
+  eleventyConfig.addPassthroughCopy({
+    'node_modules/speedlify-score/speedlify-score.css': 'assets/css/speedlify-score.css'
+  })
 
   // Collections
   eleventyConfig.addCollection('posts', (c) => c.getFilteredByGlob('./src/blog/*.md'))
