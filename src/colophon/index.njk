@@ -1,30 +1,10 @@
 --- 
-title: Colophon
+title: "Colophon"
 description: "All about this website, including tech used etc"
-layout: page-sidebar
-class: u-content-gap
-date: 2024-05-14T14:30:00Z
+layout: "page-sidebar"
+class: "u-content-gap"
+date: "2024-05-14T14:30:00Z"
 ---
-{#   <p class="lead">This website is my space on the web — part portfolio, part notebook, part archive. It’s where I share thoughts, experiments, projects, links, collections and things I’m interested in without relying on social media platforms.</p>
-
-  <p>This website is built with <a href="https://www.11ty.dev/">Eleventy</a>, the following languages and it's hosted with <a href="https://my.guru.co.uk/aff.php?aff=6526">Guru</a>.</p>
-
-  <ul role="list" style="column-count: 2">
-    <li>HTML</li>
-    <li>Markdown</li>
-    <li>Nunjucks</li>
-    <li>CSS &amp; SCSS</li>
-    <li>JavaScript</li>
-    <li>JSON</li>
-    <li>YAML</li>
-  </ul>
-
-  <ul>
-    <li>The source code is available on <a href="{{ site.sourceUrl }}">Github</a>.</li>
-    <li>This site does not use cookies and does not track you.</li>
-  </ul>
-
-  <p><a href="https://www.websitecarbon.com/website/juanfernandes-uk/">View my websites' carbon rating</a></p> #}
 <h2>About this site</h2>
 
 <p>This website is my space on the web — part portfolio, part notebook, part archive. It’s where I share work, notes, links, collections, logs and the odd thing I’m interested in without relying completely on social media platforms.</p>
@@ -67,13 +47,27 @@ date: 2024-05-14T14:30:00Z
 <p>The aim is simple: make the site easy to read, easy to maintain and pleasant to use across different devices.</p>
 
 <h3>Design</h3>
-
 <p>The design is deliberately simple. It changes over time as I tweak, rebuild and experiment with different ideas.</p>
 
 <p>I use the site as a bit of a playground for layout, typography, content structure and small interaction patterns.</p>
 
-<h3>Source</h3>
+{% set siteData = speedlify["https://www.juanfernandes.uk/"] %}
 
+{% if siteData %}
+<h3>Lighthouse Scores</h3>
+<speedlify-score
+  speedlify-url="https://speedesters.netlify.app"
+  hash="{{ siteData.hash }}"
+  score
+  requests
+  weight
+  rank
+  rank-change
+></speedlify-score>
+{% endif %}
+
+
+<h3>Source</h3>
 <p>The source code for this site lives on GitHub:</p>
 
 <p><a href="https://github.com/juanfernandes/juanfernandes-uk">github.com/juanfernandes/juanfernandes-uk</a></p>
