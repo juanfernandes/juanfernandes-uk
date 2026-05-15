@@ -16,6 +16,7 @@ jobs:
     name: "11ty: Deploy (dry run on PR)"
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,8 +26,8 @@ jobs:
       - name: Use Node
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
-          cache: 'npm'
+          node-version: "lts/*"
+          cache: "npm"
 
       - uses: actions/cache/restore@v4
         id: cache
@@ -55,14 +56,29 @@ jobs:
         id: diff
         run: |
           set -e
-          git fetch --prune --unshallow || true
+
           BEFORE="${{ github.event.before }}"
+          CURRENT="${{ github.sha }}"
+
+          echo "Before: $BEFORE"
+          echo "Current: $CURRENT"
+
+          git fetch --prune origin main --depth=100 || true
+
           if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
-            BEFORE="$(git rev-parse HEAD~1 || echo HEAD)"
+            BEFORE="$(git rev-parse HEAD~1 || echo "")"
           fi
-          echo "Diffing from $BEFORE to ${{ github.sha }}"
-          git diff --name-only "$BEFORE" "${{ github.sha }}" > changed-files.txt || true
-          echo "Changed files:"; cat changed-files.txt || true
+
+          if git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            echo "Diffing from $BEFORE to $CURRENT"
+            git diff --name-only "$BEFORE" "$CURRENT" > changed-files.txt
+          else
+            echo "Previous commit not available, falling back to last commit only"
+            git diff --name-only HEAD~1 HEAD > changed-files.txt || touch changed-files.txt
+          fi
+
+          echo "Changed files:"
+          cat changed-files.txt || true
 
       - name: Dry-run deploy (no server changes)
         if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
@@ -90,6 +106,7 @@ jobs:
     name: "11ty: Build and Deploy"
     runs-on: ubuntu-latest
     if: github.event_name != 'pull_request'
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -100,8 +117,8 @@ jobs:
       - name: Use Node
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
-          cache: 'npm'
+          node-version: "lts/*"
+          cache: "npm"
 
       - uses: actions/cache/restore@v4
         id: cache
@@ -130,14 +147,29 @@ jobs:
         id: diff
         run: |
           set -e
-          git fetch --prune --unshallow || true
+
           BEFORE="${{ github.event.before }}"
+          CURRENT="${{ github.sha }}"
+
+          echo "Before: $BEFORE"
+          echo "Current: $CURRENT"
+
+          git fetch --prune origin main --depth=100 || true
+
           if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
-            BEFORE="$(git rev-parse HEAD~1)"
+            BEFORE="$(git rev-parse HEAD~1 || echo "")"
           fi
-          echo "Diffing from $BEFORE to ${{ github.sha }}"
-          git diff --name-only "$BEFORE" "${{ github.sha }}" > changed-files.txt
-          echo "Changed files:"; cat changed-files.txt || true
+
+          if git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            echo "Diffing from $BEFORE to $CURRENT"
+            git diff --name-only "$BEFORE" "$CURRENT" > changed-files.txt
+          else
+            echo "Previous commit not available, falling back to last commit only"
+            git diff --name-only HEAD~1 HEAD > changed-files.txt || touch changed-files.txt
+          fi
+
+          echo "Changed files:"
+          cat changed-files.txt || true
 
       - name: Cross-post new photos to Pixelfed
         if: success()
@@ -146,7 +178,9 @@ jobs:
           PIXELFED_ACCESS_TOKEN: ${{ secrets.PIXELFED_ACCESS_TOKEN }}
         run: |
           set -e
+
           echo "Checking for changed photos…"
+
           if grep -iE '^src/photos/content/photos/.*\.(jpe?g|png|webp)$' changed-files.txt >/dev/null 2>&1; then
             echo "Photos changed, running sync…"
             node src/assets/js/pixelfed-sync.js changed-files.txt
@@ -166,7 +200,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add scripts/social-state.json
+
           git diff --cached --quiet || git commit -m "Update social post state"
           git push
 
