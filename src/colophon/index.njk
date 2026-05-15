@@ -52,20 +52,16 @@ date: "2024-05-14T14:30:00Z"
 <p>I use the site as a bit of a playground for layout, typography, content structure and small interaction patterns.</p>
 
 {% set siteData = speedlify["https://www.juanfernandes.uk/"] %}
-
 {% if siteData %}
 <h3>Lighthouse Scores</h3>
-<speedlify-score
+<speedlify-score class="u-mb-2"
   speedlify-url="https://speedesters.netlify.app"
   hash="{{ siteData.hash }}"
   score
   requests
   weight
-  rank
-  rank-change
 ></speedlify-score>
 {% endif %}
-
 
 <h3>Source</h3>
 <p>The source code for this site lives on GitHub:</p>

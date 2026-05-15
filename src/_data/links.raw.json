@@ -1,5 +1,17 @@
 [
   {
+    "title": "How to apply a global Git commit template",
+    "url": "https://www.stefanjudis.com/today-i-learned/global-git-commit-templates/",
+    "content": "When you commit things in Git via the CLI, you'll be greeted with something that looks like this: You'll write your commit message on the first line, hit save,…",
+    "date": "2026-05-12T19:38:06.000Z"
+  },
+  {
+    "title": "Is form design easy?",
+    "url": "https://adamsilver.io/blog/is-form-design-easy/",
+    "content": "3 May 2026 Last week I listened to episode 70 of the Complimentary podcast. The hosts, Katie and Anthony, were discussing what they think is easy to design and…",
+    "date": "2026-05-12T19:35:47.000Z"
+  },
+  {
     "title": "NHS Goes To War Against Open Source",
     "url": "https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/",
     "content": "The NHS is preparing to close nearly all of its Open Source repositories. Throughout my time working for the UK Government - in GDS, NHSX, i.AI, and others - I…",
