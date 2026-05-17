@@ -176,4 +176,34 @@ permalink: /logs/
       </div>
     </div>
   </section>
+
+  <section class="dash-card">
+    <div class="dash-card__content">
+      <div>
+        <h3 class="dash-card__heading">
+          <a href="/logs/concerts/">
+            <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-beer" /></svg>
+            <span>Beers</span>
+          </a>
+        </h3>
+
+        <ul class="dash-card__stats">
+          <li class="pill"><strong>{{ beers.total }}</strong> beers</li>
+        </ul>
+      </div>
+
+      <div class="dash-card__latest">
+        <h4>Latest beer</h4>
+          <p><strong>{{ beers.latest.name }}</strong></p>
+          <div class="dash-card__meta">
+            <span><strong>Style:</strong> {{ beers.latest.style }}</span>
+            <span><strong>Date:</strong> {{ beers.latest.lastHad | dateFilter }}</span>
+          </div>
+      </div>
+
+      <div class="dash-card__actions">
+        <span><a href="/logs/beers/">Open beers log</a> →</span>
+      </div>
+    </div>
+  </section>
 </div>

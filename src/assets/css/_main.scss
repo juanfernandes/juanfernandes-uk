@@ -1914,6 +1914,10 @@ footer > .container > .sixteen {
 
   &__body {
     padding: 1rem; 
+
+    p {
+      font-size: 1.4rem;
+    }
   }
 
   &__heading {
@@ -1945,7 +1949,8 @@ footer > .container > .sixteen {
   }
   &__meta {
     summary,
-    span { 
+    span,
+    a { 
       font-size: 1.2rem;
       font-weight: normal;
 
@@ -2060,3 +2065,12 @@ footer > .container > .sixteen {
     }
   }
 }
+
+.beer-badge {
+  transition: all 200ms;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+

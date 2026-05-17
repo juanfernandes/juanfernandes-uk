@@ -1,3 +1,4 @@
+// beers.cjs
 const data = require('./beers.json')
 
 function slugify (str) {
@@ -105,13 +106,24 @@ module.exports = () => {
       count: beersByMainStyle[style].length
     }))
 
+  const sortedBeers = [...beers]
+    .sort((a, b) => {
+      const dateA = new Date(a.lastHad || a.firstHad || 0)
+      const dateB = new Date(b.lastHad || b.firstHad || 0)
+
+      return dateB - dateA
+    })
+
+  const latest = sortedBeers[0] || null
+
+  const recent = sortedBeers.slice(0, 12)
+
   return {
     total: beers.length,
-
     beers,
-
+    latest,
+    recent,
     mainStyles,
-
     beersByMainStyle
   }
 }

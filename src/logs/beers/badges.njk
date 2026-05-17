@@ -1,0 +1,68 @@
+---
+layout: page
+title: Untappd Badges
+permalink: /logs/beers/badges/
+---
+
+{% set section = "logs" %}
+{% include "components/dash-nav.njk" %}
+
+<div class="grid grid-9-3 gap-2">
+  <div>
+    <p class="lead">A collection of the badges I’ve earned on Untappd.</p>
+
+    <div class="media-grid">
+      {% for badge in badges.badges %}
+        <div class="media-card" id="badge-{{ badge.name | slug }}">
+          {% if badge.image %}
+          <div class="media-card__poster media-card__poster--white-bg u-p-1">
+            <img
+              src="{{ badge.image }}"
+              alt="{{ badge.name }}"
+              loading="lazy"
+            >
+          </div>
+          {% endif %}
+
+          <div class="media-card__body">
+            <h3 class="media-card__title">{{ badge.name }}</h3>
+            {% if badges.latest and badge.id == badges.latest.id %}
+              <p><strong>Latest Badge</strong></p>
+            {% endif %}
+            {% if badge.description %}
+              <p>{{ badge.description | safe }}</p>
+            {% endif %}
+            <div class="media-card__meta">
+            {% if badge.level %}
+              <span><strong>Level:</strong> {{ badge.level }}</span>
+            {% endif %}
+
+            {% if badge.earnedAt %}
+              <span><strong>Earned on:</strong> {{ badge.earnedAt | dateFilter }}</span>
+            {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="sidebar meta">
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-beer" /></svg>
+      <span>Beers</span>
+    </h3>
+    <nav>
+      <ul class="u-flex u-flex-col">
+        <li><a href="/logs/beers/">Beers</a></li>
+        <li><a href="/logs/beers/badges/">Badges</a></li>
+      </ul>
+    </nav>
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+        <span>Stats</span>
+      </h3>
+      <p>I've have earned a total of <strong>{{ badges.total }}</strong> badges.</p>
+    </div>
+  </div>
+</div>

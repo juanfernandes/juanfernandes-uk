@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "fetch:beers": "node scripts/fetch-untappd-beers.mjs",
+    "fetch:badges": "node scripts/fetch-untappd-badges.mjs",
     "eleventy": "npx eleventy --config=.eleventy.cjs",
     "watch:eleventy": "eleventy --config=.eleventy.cjs --serve",
     "start": "npm-run-all watch:*",
