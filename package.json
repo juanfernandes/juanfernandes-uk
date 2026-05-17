@@ -4,6 +4,7 @@
   "description": "Personal website of Juan Fernandes",
   "type": "module",
   "scripts": {
+    "fetch:beers": "node scripts/fetch-untappd-beers.mjs",
     "eleventy": "npx eleventy --config=.eleventy.cjs",
     "watch:eleventy": "eleventy --config=.eleventy.cjs --serve",
     "start": "npm-run-all watch:*",
