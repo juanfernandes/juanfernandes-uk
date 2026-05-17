@@ -1,0 +1,74 @@
+---
+layout: page
+title: Beers
+permalink: /logs/beers/
+---
+{% set section = section or "logs" %}
+{% include "components/dash-nav.njk" %}
+
+<div class="grid grid-9-3 gap-2">
+  <div>
+    <p class="lead">A personal archive of beers I’ve logged over the years using Untappd. Stored locally alongside the rest of my logs and collections, and grouped by style to make browsing a little easier.</p>
+  {% for style in beers.mainStyles %}
+    {% set items = beers.beersByMainStyle[style.name] or [] %}
+
+    <section id="style-{{ style.slug }}">
+      <h2>{{ style.name }} <small>({{ items.length }})</small></h2>
+
+      <div class="media-grid u-mb-2">
+        {% for beer in items %}
+          <div class="media-card">
+            {% if beer.label %}
+            <div class="media-card__poster media-card__poster--white-bg u-p-1">
+              <img
+                src="{{ beer.label }}"
+                alt="{{ beer.name }}"
+                loading="lazy"
+              >
+            </div>
+            {% endif %}
+
+            <div class="media-card__body">
+              <h3 class="media-card__title">{% if beer.url %}<a href="{{ beer.url }}" target="_blank" rel="noopener">{% endif %}{{ beer.name }}{% if beer.url %}</a>{% endif %}</h3>
+              <div class="media-card__meta">
+                {% if beer.brewery.name %}<span><strong>Brewery:</strong> {{ beer.brewery.name }}</span>{% endif %}
+                {% if beer.style %}<span><strong>Beer Style:</strong> {{ beer.style }}</span>{% endif %}
+                {% if beer.abv %}<span><strong>ABV:</strong> {{ beer.abv }}% ABV</span>{% endif %}
+                {% if beer.rating %}<span><strong>Rated:</strong> {{ beer.rating }}/5</span>{% endif %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+  </div>
+      
+  <div class="sidebar meta">
+    <h3 class="heading">
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-stats" /></svg>
+      <span>Stats</span>
+    </h3>
+    <p>I've logged a total of <strong>{{ beers.total }}</strong> unique beers.</p>
+
+    {% if beers.mainStyles.length %}
+    <div class="u-mt-2">
+      <h3 class="heading">
+        <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-directions" /></svg>
+        <span>Styles</span>
+      </h3>
+      <nav>
+        <ul class="u-flex u-flex-col">
+          {% for style in beers.mainStyles %}
+            <li>
+              <a href="#style-{{ style.slug }}">
+                {{ style.name }}{% if style.count %} ({{ style.count }}){% endif %}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+    {% endif %}
+  </div>
+</div>

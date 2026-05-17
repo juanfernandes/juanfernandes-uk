@@ -1854,6 +1854,10 @@ footer > .container > .sixteen {
     justify-content: center;
     object-fit: cover;
     width: 100%;
+
+    &--white-bg {
+      background: var(--white) ;
+    }
   }
   &__poster-1-1 {
     aspect-ratio: 1 / 1;
@@ -1946,7 +1950,7 @@ footer > .container > .sixteen {
       font-weight: normal;
 
       &:not(:last-child) {
-        margin-bottom: 1rem;
+        margin-bottom: .4rem;
       }
     }
     span:not(.tag) { 

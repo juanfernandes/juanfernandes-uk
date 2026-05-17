@@ -22,6 +22,10 @@
       <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-ticket" /></svg>
       <a href="/logs/concerts/">Concerts</a>
     </li>
+    <li{% if current == '/logs/beers' %} class="active"{% endif %}>
+      <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-beer" /></svg>
+      <a href="/logs/beers/">Beers</a>
+    </li>
     {% elseif section == "collections" %}
     <li>
       <svg aria-hidden="true" width="24" height="24"><use xlink:href="#svg-dash-2" /></svg>

@@ -1,5 +1,17 @@
 [
   {
+    "title": "The Git Commands I Run Before Reading Any Code",
+    "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+    "content": "Five git log commands that diagnose a new codebase before you open a single file: code churn hotspots, bus factor, bug clusters, and crisis patterns. Ally…",
+    "date": "2026-05-16T21:58:37.000Z"
+  },
+  {
+    "title": "The cluster layout with modern CSS",
+    "url": "https://gomakethings.com/the-cluster-layout-with-modern-css/",
+    "content": "Daily Tips Yesterday, I shared how Kelp UI implements the container layout pattern. Today, we’re going to look at another layout pattern in Kelp: the cluster.…",
+    "date": "2026-05-16T21:54:53.000Z"
+  },
+  {
     "title": "How to apply a global Git commit template",
     "url": "https://www.stefanjudis.com/today-i-learned/global-git-commit-templates/",
     "content": "When you commit things in Git via the CLI, you'll be greeted with something that looks like this: You'll write your commit message on the first line, hit save,…",
