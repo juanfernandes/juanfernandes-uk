@@ -92,6 +92,14 @@ jobs:
           TARGET: ${{ secrets.CPANEL_TARGET }}
           EXCLUDE: ".git*, .github*, node_modules*, src*"
           ARGS: "-rlgoDzvc -i --delete --dry-run"
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_USER: ${{ secrets.LASTFM_USER }}
+          UNTAPPD_USERNAME: ${{ secrets.UNTAPPD_USERNAME }}
+          UNTAPPD_CLIENT_ID: ${{ secrets.UNTAPPD_CLIENT_ID }}
+          UNTAPPD_CLIENT_SECRET: ${{ secrets.UNTAPPD_CLIENT_SECRET }}
+          MASTODON_INSTANCE:  ${{ secrets.MASTODON_INSTANCE }}
+          MASTODON_ACCESS_TOKEN:  ${{ secrets.MASTODON_ACCESS_TOKEN }}
 
       - uses: actions/cache/save@v4
         if: always()
