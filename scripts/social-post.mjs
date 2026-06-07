@@ -40,6 +40,22 @@ function buildMessage (item) {
   return `${type}: ${title}\n\n${item.link}`
 }
 
+async function fetchFeed (url) {
+  const res = await fetch(url, {
+    headers: {
+      'User-Agent': 'juanfernandes.uk RSS social poster',
+      'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+    }
+  })
+
+  if (!res.ok) {
+    throw new Error(`Feed request failed: ${res.status} ${res.statusText}`)
+  }
+
+  const xml = await res.text()
+  return parser.parseString(xml)
+}
+
 async function postToMastodon (message) {
   if (!process.env.MASTODON_INSTANCE || !process.env.MASTODON_ACCESS_TOKEN) {
     console.log('Skipping Mastodon — missing secrets')
@@ -70,15 +86,20 @@ async function getFeedItems () {
 
   for (const feedConfig of FEEDS) {
     console.log(`Reading ${feedConfig.type} feed: ${feedConfig.url}`)
-    const feed = await parser.parseURL(feedConfig.url)
 
-    for (const item of feed.items || []) {
-      if (!item.link) continue
+    try {
+      const feed = await fetchFeed(feedConfig.url)
 
-      items.push({
-        ...item,
-        socialType: feedConfig.type
-      })
+      for (const item of feed.items || []) {
+        if (!item.link) continue
+
+        items.push({
+          ...item,
+          socialType: feedConfig.type
+        })
+      }
+    } catch (error) {
+      console.warn(`Skipping ${feedConfig.type} feed: ${error.message}`)
     }
   }
 
