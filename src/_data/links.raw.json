@@ -1,5 +1,17 @@
 [
   {
+    "title": "Deconstructing these auto-generated OG images",
+    "url": "https://bobmonsour.com/blog/deconstructing-these-auto-generated-og-images/",
+    "content": "May 7, 2026 · 6 minutes to read AI 11ty Contents Introduction I've had a love-hate relationship with open graph images for a while now. There were times when I…",
+    "date": "2026-05-18T21:35:18.000Z"
+  },
+  {
+    "title": "Fresh pixels",
+    "url": "https://chrisburnell.com/article/fresh-pixels/",
+    "content": "Yesterday afternoon, I spent some time creating a new 88x31 badge for my website footer. In case you missed my last post, I’m in the midst of migrating servers,…",
+    "date": "2026-05-18T20:58:08.000Z"
+  },
+  {
     "title": "The Git Commands I Run Before Reading Any Code",
     "url": "https://piechowski.io/post/git-commands-before-reading-code/",
     "content": "Five git log commands that diagnose a new codebase before you open a single file: code churn hotspots, bus factor, bug clusters, and crisis patterns. Ally…",
