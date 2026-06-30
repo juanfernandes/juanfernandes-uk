@@ -28,16 +28,28 @@ function cleanText (value = '') {
   return String(value).replace(/\s+/g, ' ').trim()
 }
 
+const MASTODON_LIMIT = 500
+
 function buildMessage (item) {
   const type = item.socialType || 'Post'
   const title = cleanText(item.title) || 'New post'
-  const summary = cleanText(item.contentSnippet)
+  const link = item.link
+  const summary = cleanText(item.contentSnippet || item.content || '')
 
-  if (summary && type !== 'Stream') {
-    return `${type}: ${title}\n\n${summary}\n\n${item.link}`
+  const prefix = `${type}: ${title}`
+  const reserved = prefix.length + link.length + 4 // spacing/newlines
+  const maxSummaryLength = MASTODON_LIMIT - reserved
+
+  if (summary && maxSummaryLength > 20) {
+    const trimmedSummary =
+      summary.length > maxSummaryLength
+        ? `${summary.slice(0, maxSummaryLength - 1).trim()}…`
+        : summary
+
+    return `${prefix}\n\n${trimmedSummary}\n\n${link}`
   }
 
-  return `${type}: ${title}\n\n${item.link}`
+  return `${prefix}\n\n${link}`
 }
 
 async function fetchFeed (url) {
