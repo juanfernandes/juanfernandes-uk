@@ -83,6 +83,18 @@
       "city": "London",
       "country": "United Kingdom",
       "venue": "Finsbury Park"
+    },
+    {
+      "date": "2026-06-28",
+      "artists": [
+        "Alanis Morissette"
+      ],
+      "venue": "Blenheim Palace",
+      "city": "Woodstock",
+      "country": "UK",
+      "links": {
+        "setlistFm": "https://www.setlist.fm/setlist/alanis-morissette/2026/blenheim-palace-woodstock-england-634c16b7.html"
+      }
     }
   ]
 }
