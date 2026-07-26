@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: juanfernandes-main-deploy
+  cancel-in-progress: false
+
 jobs:
   deploy-dry-run:
     name: "11ty: Deploy (dry run on PR)"
@@ -213,13 +217,34 @@ jobs:
       - name: Commit social post state
         if: success()
         run: |
+          set -e
+      
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
+      
           git add scripts/social-state.json
-
-          git diff --cached --quiet || git commit -m "Update social post state"
-          git push
+      
+          if git diff --cached --quiet; then
+            echo "No social state changes to commit."
+            exit 0
+          fi
+      
+          git commit -m "Update social post state [skip ci]"
+      
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+      
+            if git push origin HEAD:main; then
+              echo "Social state pushed successfully."
+              exit 0
+            fi
+      
+            echo "Push failed on attempt $attempt; retrying..."
+            sleep 3
+          done
+      
+          echo "Unable to push social state after three attempts."
+          exit 1
 
       - name: Deploy website to server
         uses: easingthemes/ssh-deploy@v5.0.3
