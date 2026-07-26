@@ -93,7 +93,7 @@ jobs:
 
       - name: Dry-run deploy (no server changes)
         if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
-        uses: easingthemes/ssh-deploy@v5.0.3
+        uses: easingthemes/ssh-deploy@v5.1.0
         env:
           SSH_PRIVATE_KEY: ${{ secrets.CPANEL_SSH_KEY }}
           SOURCE: "dist/"
