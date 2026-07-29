@@ -1,5 +1,41 @@
 [
   {
+    "title": "CSS :is() :where() the Magic Happens · Matthias Ott",
+    "url": "https://matthiasott.com/notes/css-is-where-the-magic-happens",
+    "content": "For Blogtober, I dug up a draft about the two CSS pseudo-class functions :is() and :where() that I’d had lying around in my drafts folder for quite some time.…",
+    "date": "2026-07-25T07:47:37.000Z"
+  },
+  {
+    "title": "Animating <details> Element with Only CSS",
+    "url": "https://austingil.com/animating-details-element-with-only-css/",
+    "content": "Can you animate the opening and closing of the HTML <details> element using only CSS? Yes. Here’s the code: It took an annoyingly long time to find a good…",
+    "date": "2026-07-25T07:38:29.000Z"
+  },
+  {
+    "title": "Thinking Horizontally in CSS @layer – Master.dev Blog",
+    "url": "https://master.dev/blog/thinking-horizontally-in-css-layer/",
+    "content": "I joked the other day: wait is @layer like z-index but for CSS itself— Chris Coyier (@chriscoyier.net) 2026-06-26T04:04:38.605Z I know what CSS @layer is, and…",
+    "date": "2026-07-20T23:12:29.000Z"
+  },
+  {
+    "title": "Cascade Layers Guide | CSS-Tricks",
+    "url": "https://css-tricks.com/css-cascade-layers/",
+    "content": "This is your complete guide to CSS cascade layers, a CSS feature that allows us to define explicit contained layers of specificity, so that we have full control…",
+    "date": "2026-07-19T10:23:27.000Z"
+  },
+  {
+    "title": "Just fucking ship",
+    "url": "https://gomakethings.com/just-fucking-ship/",
+    "content": "Last week, I mentioned how I want the web to be weird again: more personal sites, more eclectic online experiences, and more authenticity in what and how people…",
+    "date": "2026-07-05T22:52:36.000Z"
+  },
+  {
+    "title": "Sweating the details",
+    "url": "https://gomakethings.com/sweating-the-details/",
+    "content": "I’ve been obsessing over how Kelp implements the <details> element disclosure pattern for the last week or so. This component is particularly tricky because of…",
+    "date": "2026-07-05T22:44:55.000Z"
+  },
+  {
     "title": "Create a portfolio that really works, with these insights from industry experts",
     "url": "https://www.creativeboom.com/tips/creatives-share-portfolio-tips-that-really-work/",
     "content": "Stressed about finding work? Then forget social media and focus on your portfolio. Because while many creatives just slap something together and think that's…",

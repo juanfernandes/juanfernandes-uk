@@ -95,8 +95,22 @@ async function buildMetaMap(type, ids, apiKey) {
 
 const yearFromISO = (d) => String(d || "").slice(0, 4);
 
-const sortByWatchedDesc = (a, b) =>
-  a.watchedOn > b.watchedOn ? -1 : a.watchedOn < b.watchedOn ? 1 : 0;
+const sortByWatchedDesc = (a, b) => {
+  const aDate = a.watchedOn || "";
+  const bDate = b.watchedOn || "";
+
+  if (aDate > bDate) return -1;
+  if (aDate < bDate) return 1;
+
+  const seasonDifference =
+    Number(b.season || 0) - Number(a.season || 0);
+
+  if (seasonDifference !== 0) {
+    return seasonDifference;
+  }
+
+  return Number(b.episode || 0) - Number(a.episode || 0);
+};
 
 function readWatchlogEntries() {
   const rootDir = path.join(process.cwd(), "src", "watchlog");
@@ -153,20 +167,21 @@ function groupTvByShowThenSeason(tvEpisodes) {
 
   for (const showId of Object.keys(grouped)) {
     for (const seasonNum of Object.keys(grouped[showId].seasons)) {
-      grouped[showId].seasons[seasonNum].sort((a, b) => {
-        if ((a.watchedOn || "") > (b.watchedOn || "")) return -1;
-        if ((a.watchedOn || "") < (b.watchedOn || "")) return 1;
-        return (a.episode || 0) - (b.episode || 0);
-      });
+      grouped[showId].seasons[seasonNum].sort(sortByWatchedDesc);
     }
   }
 
   return Object.values(grouped).sort((a, b) => {
     const aLatest = Math.max(
-      ...Object.values(a.seasons).flat().map((ep) => Date.parse(ep.watchedOn || "") || 0)
+      ...Object.values(a.seasons)
+        .flat()
+        .map((ep) => Date.parse(ep.watchedOn || "") || 0)
     );
+
     const bLatest = Math.max(
-      ...Object.values(b.seasons).flat().map((ep) => Date.parse(ep.watchedOn || "") || 0)
+      ...Object.values(b.seasons)
+        .flat()
+        .map((ep) => Date.parse(ep.watchedOn || "") || 0)
     );
 
     return bLatest - aLatest;
