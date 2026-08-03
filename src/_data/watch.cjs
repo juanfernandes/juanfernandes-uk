@@ -1,3 +1,4 @@
+// src/_data/watch.cjs
 const fs = require("node:fs");
 const path = require("node:path");
 
@@ -138,6 +139,56 @@ function readWatchlogEntries() {
   return readJsonFiles(rootDir);
 }
 
+function readTvRatings() {
+  const filePath = path.join(
+    process.cwd(),
+    "src",
+    "_data",
+    "tvRatingsData.json"
+  );
+
+  if (!fs.existsSync(filePath)) {
+    return [];
+  }
+
+  try {
+    const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+    if (Array.isArray(data)) {
+      return data;
+    }
+
+    return Array.isArray(data.items) ? data.items : [];
+  } catch (error) {
+    console.warn(
+      `[watch] Failed to read TV ratings: ${error.message}`
+    );
+
+    return [];
+  }
+}
+
+function buildTvRatingsMap(items) {
+  return Object.fromEntries(
+    items
+      .filter((item) => item.tmdbId)
+      .map((item) => [
+        String(item.tmdbId),
+        {
+          title: item.title || "",
+          rating:
+            item.rating === null ||
+            item.rating === undefined ||
+            item.rating === ""
+              ? null
+              : Number(item.rating),
+          ratedOn: item.ratedOn || "",
+          notes: item.notes || ""
+        }
+      ])
+  );
+}
+
 function groupByYear(items) {
   return items.reduce((acc, item) => {
     const y = yearFromISO(item.watchedOn);
@@ -147,11 +198,53 @@ function groupByYear(items) {
   }, {});
 }
 
-function groupTvByShowThenSeason(tvEpisodes) {
+// function groupTvByShowThenSeason(tvEpisodes) {
+//   const grouped = {};
+
+//   for (const ep of tvEpisodes) {
+//     const key = String(ep.tmdbId);
+
+//     grouped[key] ??= {
+//       tmdbId: ep.tmdbId,
+//       show: ep.show,
+//       tmdbUrl: ep.tmdbUrl,
+//       poster: ep.poster || "",
+//       year: ep.year || null,
+//       seasons: {}
+//     };
+
+//     (grouped[key].seasons[ep.season] ??= []).push(ep);
+//   }
+
+//   for (const showId of Object.keys(grouped)) {
+//     for (const seasonNum of Object.keys(grouped[showId].seasons)) {
+//       grouped[showId].seasons[seasonNum].sort(sortByWatchedDesc);
+//     }
+//   }
+
+//   return Object.values(grouped).sort((a, b) => {
+//     const aLatest = Math.max(
+//       ...Object.values(a.seasons)
+//         .flat()
+//         .map((ep) => Date.parse(ep.watchedOn || "") || 0)
+//     );
+
+//     const bLatest = Math.max(
+//       ...Object.values(b.seasons)
+//         .flat()
+//         .map((ep) => Date.parse(ep.watchedOn || "") || 0)
+//     );
+
+//     return bLatest - aLatest;
+//   });
+// }
+
+function groupTvByShowThenSeason(tvEpisodes, tvRatingsById = {}) {
   const grouped = {};
 
   for (const ep of tvEpisodes) {
     const key = String(ep.tmdbId);
+    const seriesRating = tvRatingsById[key] || {};
 
     grouped[key] ??= {
       tmdbId: ep.tmdbId,
@@ -159,6 +252,12 @@ function groupTvByShowThenSeason(tvEpisodes) {
       tmdbUrl: ep.tmdbUrl,
       poster: ep.poster || "",
       year: ep.year || null,
+
+      // Overall series rating, separate from episode entries.
+      rating: seriesRating.rating ?? null,
+      ratingNotes: seriesRating.notes || "",
+      ratedOn: seriesRating.ratedOn || "",
+
       seasons: {}
     };
 
@@ -225,6 +324,8 @@ module.exports = async function () {
   }
 
   const watchlog = readWatchlogEntries();
+  const tvRatings = readTvRatings();
+  const tvRatingsById = buildTvRatingsMap(tvRatings);
 
   const moviesRaw = watchlog.filter(
     (x) => x.type === "movie" || x.displayAs === "movie"
@@ -298,11 +399,17 @@ module.exports = async function () {
   const movieYears = Object.keys(moviesByYear).sort().reverse();
   const tvYears = Object.keys(tvByYear).sort().reverse();
 
-  const tvGrouped = groupTvByShowThenSeason(tvEpisodes);
+   const tvGrouped = groupTvByShowThenSeason(
+    tvEpisodes,
+    tvRatingsById
+  );
 
   const tvGroupedByYear = {};
   for (const y of Object.keys(tvByYear)) {
-    tvGroupedByYear[y] = groupTvByShowThenSeason(tvByYear[y]);
+    tvGroupedByYear[y] = groupTvByShowThenSeason(
+      tvByYear[y],
+      tvRatingsById
+    );
   }
 
   const tvStatsByYear = buildTvStatsByYear(tvByYear);
@@ -315,6 +422,7 @@ module.exports = async function () {
   return {
     movies,
     tvEpisodes,
+    tvRatings,
     tvGrouped,
     tvGroupedByYear,
     tvStatsByYear,
@@ -327,7 +435,7 @@ module.exports = async function () {
     stats: {
       totalMovies: movies.length,
       totalEpisodes: tvEpisodes.length,
-      totalShows: Object.keys(tvGrouped).length
+      totalShows: tvGrouped.length
     }
   };
 };

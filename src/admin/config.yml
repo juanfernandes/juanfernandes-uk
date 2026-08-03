@@ -68,7 +68,7 @@ collections:
         value_type: "int"
         required: false
 
-      - label: "Rating"
+      - label: "Movie Rating"
         name: "rating"
         widget: "number"
         value_type: "float"
@@ -76,6 +76,7 @@ collections:
         max: 5
         step: 0.5
         required: false
+        hint: "Only use this for movies. TV shows are rated separately under TV Series Ratings."
 
       - label: "Rewatch"
         name: "rewatch"
@@ -159,6 +160,52 @@ collections:
     identifier_field: "title"
     summary: "{{watchedOn}} — {{title}}"
     fields: *watchlog_fields
+
+  - name: "tv_ratings"
+    label: "TV Series Ratings"
+    files:
+      - name: "tv_ratings"
+        label: "TV Series Ratings"
+        file: "src/_data/tvRatingsData.json"
+        format: "json"
+        editor:
+          preview: false
+        fields:
+          - label: "Series"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.rating}}/5"
+            fields:
+              - label: "Series Title"
+                name: "title"
+                widget: "string"
+
+              - label: "TMDb ID"
+                name: "tmdbId"
+                widget: "number"
+                value_type: "int"
+                hint: "Use the same TMDb ID as the episode entries."
+
+              - label: "Overall Rating"
+                name: "rating"
+                widget: "number"
+                value_type: "float"
+                min: 0
+                max: 5
+                step: 0.5
+
+              - label: "Rated On"
+                name: "ratedOn"
+                widget: "datetime"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+                format: "YYYY-MM-DD"
+                required: false
+
+              - label: "Notes"
+                name: "notes"
+                widget: "text"
+                required: false
 
   - name: "concerts"
     label: "Concerts"

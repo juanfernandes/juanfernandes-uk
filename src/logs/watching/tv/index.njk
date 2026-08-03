@@ -69,6 +69,17 @@ permalink: "/logs/watching/tv/{% if pagination.pageNumber > 0 %}page/{{ paginati
                   <span>Latest watched: Season {{ latestSeason }} Episode {{ latestEpisode }}</span>
                   <span>Watched on: {{ latestDate | dateFilter }}</span>
                 {% endif %}
+                {% if show.rating != null %}
+                  <span
+                    class="rating"
+                    aria-label="Rated {{ show.rating }} out of 5"
+                  >
+                    ★ {{ show.rating }}
+                  </span>
+                {% endif %}
+                {% if show.ratingNotes %}
+                  <span>{{ show.ratingNotes }}</span>
+                {% endif %}
               </div>
             </div>
           </summary>
