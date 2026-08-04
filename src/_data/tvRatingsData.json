@@ -1,3 +1,10 @@
 {
-  "items": []
+  "items": [
+    {
+      "title": "The Rookie",
+      "tmdbId": 223386,
+      "rating": 4,
+      "ratedOn": "2026-08-04"
+    }
+  ]
 }
