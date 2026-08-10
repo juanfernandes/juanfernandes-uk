@@ -358,6 +358,15 @@
       "playStatus": "playing",
       "title": "The Elder Scrolls V: Skyrim Special Edition",
       "acquiredOn": "2026-03-29"
+    },
+    {
+      "status": "owned",
+      "platform": "PS4",
+      "playStatus": "unplayed",
+      "title": "Anthem",
+      "releaseYear": 2019,
+      "acquiredOn": "2026-08-10",
+      "cover": "https://cdn.thegamesdb.net/images/original/boxart/front/118367-1.jpg"
     }
   ]
 }
