@@ -1,9 +1,10 @@
 {
   "rewatch": false,
-  "type": "tv",
+  "type": "movie",
   "title": "Unabomber",
   "tmdbId": 1492640,
   "watchedOn": "2026-09-26",
-  "season": 1,
-  "episode": 1
+  "season": "",
+  "episode": "",
+  "rating": 3.5
 }
