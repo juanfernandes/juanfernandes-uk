@@ -4,7 +4,7 @@
 
 # juanfernandes.uk
 
-> Source files for my [personal website](https://www.juanfernandes.uk) built with Eleventy and hosted with [Guru.co.uk](https://my.guru.co.uk/aff.php?aff=6526).
+> Source files for my [personal website](https://www.juanfernandes.uk) built with Eleventy.
 
 ## Getting Started
 
