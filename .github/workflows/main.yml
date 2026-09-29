@@ -214,36 +214,37 @@ jobs:
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         run: node scripts/social-post.mjs
 
-      - name: Commit social post state
+      - name: Commit generated data
         if: success()
         run: |
           set -e
-      
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-      
+
           git add scripts/social-state.json
-      
+          git add src/_data/links.raw.json
+
           if git diff --cached --quiet; then
-            echo "No social state changes to commit."
+            echo "No generated data changes to commit."
             exit 0
           fi
-      
-          git commit -m "Update social post state [skip ci]"
-      
+
+          git commit -m "Update generated site data [skip ci]"
+
           for attempt in 1 2 3; do
             git pull --rebase origin main
-      
+
             if git push origin HEAD:main; then
-              echo "Social state pushed successfully."
+              echo "Generated data pushed successfully."
               exit 0
             fi
-      
+
             echo "Push failed on attempt $attempt; retrying..."
             sleep 3
           done
-      
-          echo "Unable to push social state after three attempts."
+
+          echo "Unable to push generated data after three attempts."
           exit 1
 
       - name: Deploy website to server
