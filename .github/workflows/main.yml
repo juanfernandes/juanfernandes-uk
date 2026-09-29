@@ -233,7 +233,7 @@ jobs:
           git commit -m "Update generated site data [skip ci]"
 
           for attempt in 1 2 3; do
-            git pull --rebase origin main
+            git pull --rebase --autostash origin main
 
             if git push origin HEAD:main; then
               echo "Generated data pushed successfully."
