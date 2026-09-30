@@ -1,5 +1,11 @@
 [
   {
+    "title": "Progressively enhanced animated content",
+    "url": "https://www.tempertemper.net/blog/progressively-enhanced-animated-content",
+    "content": "I’ve read a lot of articles about using prefers-reduced-motion on the web; I’ve even written one of them! I’m a big fan of Patrick H. Lauke’s progressively…",
+    "date": "2026-09-30T18:39:22.000Z"
+  },
+  {
     "title": "Respecting your users’ preferences",
     "url": "https://www.tempertemper.net/blog/respecting-your-users-preferences",
     "content": "Over the years, I’ve had many battles about accessibility ‘modes’, and why they’re a terrible idea. That’s another article for another day, but one thing ‘mode’…",
