@@ -24,7 +24,13 @@ function writeState (state) {
 
 function cleanText (value = '') {
   return String(value)
-    .replace(/<[^>]*>/g, '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
     .replace(/\s+/g, ' ')
     .trim()
 }
@@ -41,19 +47,35 @@ function getItemDate (item) {
 }
 
 function buildMessage (item) {
-  const url = item.url
   const title = cleanText(item.title) || 'Article'
+  const url = item.url
+  let snippet = cleanText(item.content)
 
-  const prefix = '📖 '
-  const reserved = prefix.length + url.length + 2
-  const maxTitleLength = MASTODON_LIMIT - reserved
+  const heading = `📖 ${title}`
 
-  const trimmedTitle =
-    title.length > maxTitleLength
-      ? `${title.slice(0, maxTitleLength - 1).trim()}…`
-      : title
+  /*
+   * Reserve room for:
+   * heading
+   * blank lines
+   * article URL
+   * ellipsis if snippet needs trimming
+   */
+  const reserved =
+    heading.length +
+    url.length +
+    8
 
-  return `${prefix}${trimmedTitle}\n\n${url}`
+  const available = MASTODON_LIMIT - reserved
+
+  if (snippet && available > 40) {
+    if (snippet.length > available) {
+      snippet = `${snippet.slice(0, available - 1).trim()}…`
+    }
+
+    return `${heading}\n\n${snippet}\n\n${url}`
+  }
+
+  return `${heading}\n\n${url}`
 }
 
 async function postToMastodon (message) {
