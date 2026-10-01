@@ -1,10 +1,14 @@
 name: "11ty: Build and Deploy"
 
 on:
+  workflow_dispatch:
+
   schedule:
-    - cron: "0 0 * * *" # nightly
+    - cron: "0 0 * * *"
+
   push:
     branches: [ main ]
+
   pull_request:
     branches: [ main ]
 
