@@ -1,5 +1,17 @@
 [
   {
+    "title": "Design in code, get praise",
+    "url": "https://adamsilver.io/blog/design-in-code-get-praise/",
+    "content": "18 January 2026 This week I demoed some flows I’d been redesigning to stakeholders. For context, the programme I’m on is huge. We’re redesigning a highly…",
+    "date": "2026-10-05T22:00:16.000Z"
+  },
+  {
+    "title": "Documenting design changes with screenshots | James' Coffee Blog",
+    "url": "https://jamesg.blog/2026/01/12/documenting-design-changes-with-screenshots/",
+    "content": "While I was writing “Publishing my citation preferences”, I consciously decided that the blog post should include a screenshot of the website feature described…",
+    "date": "2026-10-05T21:56:07.000Z"
+  },
+  {
     "title": "New in Chrome 154: iframes that automatically resize themselves to their content",
     "url": "https://www.bram.us/2026/09/23/responsive-iframes/",
     "content": "~ Chrome 154 adds support for responsively-sized iframes, letting an <iframe> size itself based on the intrinsic size of its embedded document. This is perfect…",
