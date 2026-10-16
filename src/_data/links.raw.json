@@ -1,5 +1,11 @@
 [
   {
+    "title": "I paid people to try and follow my README",
+    "url": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+    "content": "Developers suck at writing documentation. We like to say RTFM but often there ain't no FM to R. At best we have a half-arsed collection of notes, some obsolete…",
+    "date": "2026-10-16T18:57:19.000Z"
+  },
+  {
     "title": "text-decoration-thickness discrepancies",
     "url": "https://remysharp.com/2026/09/10/text-decoration-thickness-discrepancies",
     "content": "I'm in the process of (attempting) to redesign this blog, and in doing so, I'm using a few of the new bits (to me) of CSS to make things fancy. In this…",
