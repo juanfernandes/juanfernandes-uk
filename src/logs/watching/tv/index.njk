@@ -91,7 +91,7 @@ permalink: "/logs/watching/tv/{% if pagination.pageNumber > 0 %}page/{{ paginati
                 <ul>
                   {% for ep in episodes %}
                     <li class="media-card__meta">
-                      <span>Season {{ ep.season }} Episode {{ ep.episode }} — {{ ep.watchedOn | dateFilter }}</span>
+                      <span>Season {{ ep.season }} Episode {{ ep.episode }}{% if ep.watchedOn %} — {{ ep.watchedOn | dateFilter }}{% endif %}</span> 
                       {% if ep.rating %}<span>★ {{ ep.rating }}/5</span>{% endif %}
                       {% if ep.rewatch %}<span>Rewatch</span>{% endif %}
                     </li>

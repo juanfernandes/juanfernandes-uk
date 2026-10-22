@@ -113,6 +113,10 @@ const sortByWatchedDesc = (a, b) => {
   return Number(b.episode || 0) - Number(a.episode || 0);
 };
 
+// Use episode numbering within a series, independently of watch dates.
+const sortByEpisodeDesc = (a, b) =>
+  Number(b.episode || 0) - Number(a.episode || 0);
+
 function readWatchlogEntries() {
   const rootDir = path.join(process.cwd(), "src", "watchlog");
 
@@ -266,7 +270,7 @@ function groupTvByShowThenSeason(tvEpisodes, tvRatingsById = {}) {
 
   for (const showId of Object.keys(grouped)) {
     for (const seasonNum of Object.keys(grouped[showId].seasons)) {
-      grouped[showId].seasons[seasonNum].sort(sortByWatchedDesc);
+      grouped[showId].seasons[seasonNum].sort(sortByEpisodeDesc);
     }
   }
 
