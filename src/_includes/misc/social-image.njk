@@ -1,0 +1,3 @@
+{% set socialImageTitle = title %}
+{% if tag %}{% set socialImageTitle = 'Tag: ' + tag %}{% endif %}
+{% socialImage socialImageTitle, site.url, ogImage, ogImageAlt %}
