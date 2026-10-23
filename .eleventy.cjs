@@ -97,6 +97,9 @@ module.exports = function (eleventyConfig) {
     return tagsSet
   })
 
+  // Locally generated branded social cards
+  require('./scripts/og-images.cjs').registerOgImages(eleventyConfig)
+
   // Shortcodes
   eleventyConfig.cloudinaryCloudName = 'juanfernandes'
   eleventyConfig.addShortcode('cloudinaryImage', (imgPath, transforms, alt) =>
