@@ -2,26 +2,6 @@
 layout: "post"
 title: "Changelog: New Collections & Logs Sections"
 description: "I've added new Collections and Logs sections to my website, bringing together the things I enjoy and creating a personal timeline of what I've been reading, watching, playing and more."
-keywords:
-  - changelog
-  - website update
-  - personal website
-  - collections
-  - logs
-  - digital garden
-  - personal archive
-  - books
-  - films
-  - TV
-  - games
-  - music
-  - beer
-  - reading log
-  - watch log
-  - listening history
-  - web development
-  - Eleventy
-  - indieweb
 date: 2026-07-02T09:00:00Z
 tags:
   - changelog

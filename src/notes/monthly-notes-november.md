@@ -3,16 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: November 2019"
 description: "November saw the end of my contract at Signet and the start of a new contract at the Chartered Management Institute (CMI). I have worked with them before and they asked to come back to help them with a new project."
-keywords:
-  - freelance web designer
-  - contract front-end developer
-  - remote
-  - CMI
-  - chartered management institute
-  - lemanoosh
-  - javascript
-  - wordpress
-  - beaver builder
 date: 2019-12-09T10:25:40Z
 tags:
   - monthly-notes

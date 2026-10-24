@@ -6,16 +6,6 @@ description: "After a bit of an unscheduled break, my weeknotes are back. You ma
   that weeknotes are no longer showing on the blog index - after some feedback,
   I decided it didn't make sense to clutter the blog with notes. They have taken
   over because I've not been writing much of anything else."
-keywords:
-  - weeknotes
-  - blog
-  - components
-  - HTML
-  - SCSS
-  - JavaScript
-  - web design
-  - cloudinary
-  - Netlify
 date: 2019-07-15T20:45:28Z
 ---
 After a bit of an unscheduled break, my weeknotes are back. You may notice that weeknotes are no longer showing on the blog index - after some feedback, I decided it didn't make sense to clutter the blog with notes. They have taken over because I've not been writing much of anything else.{.lead}

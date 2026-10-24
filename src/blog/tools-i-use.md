@@ -2,25 +2,6 @@
 layout: "post"
 title: "Tools I Use"
 description: "Love posts that show what designers & developers use to do their job – so I thought I’d post my own"
-keywords:
-  - sublime text 3
-  - iterm 2
-  - tools i use
-  - front end developer
-  - designer
-  - terminal
-  - oh my fish
-  - fish shell
-  - GIMP
-  - filezilla
-  - macbook pro
-  - chrome
-  - firefox
-  - slack
-  - skype
-  - franz
-  - simplenote
-  - oneplus 5t
 intro:
   heading:
   subheading:

@@ -4,11 +4,6 @@ title: "TIL: Generating a hash from the command line"
 description: "Since adding Content Security Policies to my website, I need to add a
   sha for any inline scripts I use - I only use one, which is the one to initiate
   the ServiceWorker."
-keywords:
-  - CSP
-  - sha256
-  - sha
-  - TIL
 date: 2021-05-27T23:00:00Z
 tags:
   - til

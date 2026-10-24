@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: March 2024"
 description: "I didn't make any notes for March, it seems, and looking back at the calendar it seems like nothing worthy of mentioning happened."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2024-05-15T16:00:00Z
 tags:
   - monthly-notes

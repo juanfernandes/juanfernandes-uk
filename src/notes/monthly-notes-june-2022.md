@@ -3,16 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: June 2022"
 description: "I'm way behind on these monthly blog posts that I've decided to forget about the last few months. There hasn't been much to write about these last few months, plus I've just been too busy with life and house stuff."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
-  - 11ty
-  - eleventy
-  - tailwindcss
-  - javascript
 date: 2022-07-10T00:00:00Z
 tags:
   - monthly-notes

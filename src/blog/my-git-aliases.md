@@ -2,15 +2,6 @@
 layout: "post"
 title: "My Git Aliases"
 description: "Quick post to share my Git aliases. I love seeing other developers' aliases - a lot of mine have been copied from others. So I thought I'd share mine - in the hopes someone will find it useful."
-keywords:
-  - git
-  - alias
-  - aliases
-  - developer
-  - development
-  - bash
-  - fish
-  - bashrc
 intro:
   heading:
   subheading:

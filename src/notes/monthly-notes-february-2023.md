@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: February 2023"
 description: "Well, February was definitely an improvement for me. Better focused at work and actually got some work done. Started dating someone and it's going well. The house is now listed for sale and have got a mortgage in principle. Things are a lot better now."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2023-03-08T00:00:00Z
 tags:
   - monthly-notes

@@ -5,10 +5,6 @@ title: "Monthly Notes: September 2020"
 description: "September flew by. Not much to report as it was a quiet month on the
   work and personal fronts. Launched a new client website and a got personal achievement
   too."
-keywords:
-  - front-end developer contractor
-  - project proposal
-  - couch to 5k
 date: 2020-10-05T00:00:00Z
 tags:
   - monthly-notes

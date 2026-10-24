@@ -5,19 +5,6 @@ title: "Weeknotes #18"
 description: "Bit of a slow week at work while we wait for the new UX Designer to get
   acquainted with the business and produce some designs for the Front-end
   Developers to produce."
-keywords:
-  - website
-  - designer
-  - freelance
-  - contract
-  - front-end developer
-  - front end development
-  - GIT
-  - FreeAgent
-  - Invoice Ninja
-  - Heart Internet
-  - the website of doom
-  - website hosting
 date: 2019-06-12T20:05:02Z
 ---
 Bit of a slow week at work while we wait for the new UX Designer to get acquainted with the business and produce some designs for the Front-end Developers to produce.{.lead}

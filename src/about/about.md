@@ -2,10 +2,6 @@
 layout: "page"
 title: "About"
 description: "Learn more about Juan Fernandes, a UK-based frontend developer and UX designer with a passion for the open web, personal websites, accessibility and building useful digital experiences."
-keywords: "responsive website design, website design for small businesses, affordable
-  website design, website design company suffolk uk, website design company woodbridge
-  uk, website designer suffolk uk, freelance website designer suffolk uk, responsive
-  web design, design, web design, cms, perch, wordpress, local, suffolk uk"
 contentClass: "content--slim"
 intro:
   heading: "About me"

@@ -3,14 +3,6 @@ layout: "post"
 title: "Multiple blogs with Perch CMS"
 description: "Short post to show how you can create multiple blogs using the Perch CMS and
     the blog app using sections."
-keywords:
-  - perch
-  - cms
-  - perch cms
-  - blog
-  - blog app
-  - multiple blogs with perch
-  - multiple blogs
 intro:
   heading:
   subheading:

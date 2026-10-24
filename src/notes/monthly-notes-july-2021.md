@@ -4,17 +4,6 @@ eleventyExcludeFromCollections: true
 title: "Monthly Notes: July 2021"
 description: "July was a bit of a mixed bag of events and feelings, including having
   my second covid jab, celebrating our 18th wedding anniversary and more..."
-keywords:
-  - trezor
-  - crypto
-  - NFT art
-  - NFT
-  - listening
-  - watching
-  - sides
-  - personal
-  - freelance
-  - work
 date: 2021-08-04T23:00:00Z
 tags:
   - monthly-notes

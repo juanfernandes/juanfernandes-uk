@@ -3,14 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: June 2023"
 description: "June was a really shit month. I lost my best friend. The relationship between my ex-wife went from amicable to hostile, which forced me to move out."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
-  - pet death
-  - marriage breakup
 date: 2023-08-17T00:00:00Z
 tags:
   - monthly-notes

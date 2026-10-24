@@ -4,20 +4,6 @@ eleventyExcludeFromCollections: true
 title: "Weeknotes #10"
 description: "This weeks 'weeknotes' is being posted a bit later than usual. I was supposed to write it on the train up to Manchester on Sunday evening, but I still can't
   get used to working on a laptop on the train."
-keywords:
-  - podcasts
-  - podcast
-  - freelance
-  - syntax
-  - being freelance
-  - doing it for the kids
-  - shop talk
-  - ecommerce
-  - shop
-  - week notes
-  - weeknotes
-  - the office
-  - Straight Off the Boat
 date: 2019-04-16T07:50:00Z
 ---
 This weeks 'weeknotes' is being posted a bit later than usual. I was supposed to write it on the train up to Manchester on Sunday evening, but I still can't get used to working on a laptop on the train.{.lead}

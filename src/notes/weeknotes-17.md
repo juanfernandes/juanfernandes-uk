@@ -5,16 +5,6 @@ title: "Weeknotes #17"
 description: "Another bank holiday week but it was a very busy weekend. Second week at my
   new contract. I'm really getting behind on week notes, so this week I have
   published two in order to keep up to date."
-keywords:
-  - contract
-  - freelance
-  - web designer
-  - suffolk
-  - woodbridge
-  - uk
-  - permanent work
-  - GIT
-  - git rebase
 date: 2019-06-04T07:01:26Z
 ---
 Another bank holiday week but it was a very busy weekend. Second week at my new contract. I'm really getting behind on week notes, so this week I have published two in order to keep up to date.{.lead}

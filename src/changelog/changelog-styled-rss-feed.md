@@ -2,12 +2,6 @@
 layout: "post"
 title: "Changelog: Styled RSS Feed"
 description: "Used XSL to style my main RSS Feed"
-keywords:
-  - indieweb
-  - styled rss feed
-  - rss feed
-  - rss
-  - xsl
 date: 2023-08-03T23:00:00Z
 tags:
   - changelog

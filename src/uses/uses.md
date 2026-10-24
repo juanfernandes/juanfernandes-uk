@@ -5,14 +5,6 @@ contentClass: "content--slim"
 intro:
   heading: "Uses"
 description: "This is the kit I use for most of my work — a mix of design, front-end development, and everything in between. I’ve worked across a range of environments over the years, so while these are my preferred tools, I’m comfortable adapting when needed."
-keywords:
-  - uses
-  - tools
-  - software
-  - hardware
-  - office setup
-  - freelance web designer
-  - frontend developer
 tags:
   - search
 ---

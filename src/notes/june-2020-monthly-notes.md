@@ -4,20 +4,6 @@ eleventyExcludeFromCollections: true
 title: "June 2020: Monthly Notes"
 description: "Wowsers, we are already halfway through the year and what a terrible
   year it has been. Hopefully, it will get better soon."
-keywords:
-  - sonos
-  - home network
-  - podcasts
-  - vinyl
-  - music
-  - Eleventy from scracth course
-  - ErgoChair 2
-  - autonomous
-  - herman miller
-  - aeron
-  - month notes
-  - notes
-  - personal
 date: 2020-07-17T00:00:00Z
 tags:
   - personal

@@ -2,15 +2,6 @@
 layout: "post"
 title: "How I improved my website because of Content Security Policies"
 description: "Last month I delved into security headers including Content Security Policies and added a bunch of them to my website. As a result this has improved my website"
-keywords:
-  - performance
-  - content security policies
-  - csp
-  - website performance
-  - secure website
-  - improved website
-  - eleventy
-  - 11ty
 intro:
   heading:
   subheading:

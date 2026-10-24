@@ -3,10 +3,6 @@ layout: "post"
 title: "Using Defer to improve performance"
 description: "Using Defer to improve the performance of my website by only loading
   JavaScript and CSS on a per component/partial basis."
-keywords:
-  - javascript
-  - vanilla javascript
-  - defer javascript
 intro:
   heading:
   subheading:

@@ -2,17 +2,6 @@
 layout: "post"
 title: "Home Automation"
 description: "In this post, I talk about my adventures with home automation. Basic stuff as simple as using Alexa to switch on a lamp or lights in a room"
-keywords:
-  - home automation
-  - alexa
-  - amazon
-  - echo
-  - echo dot
-  - z-awave
-  - z wave
-  - vera
-  - fibaro
-  - aeotec
 intro:
   heading:
   subheading:

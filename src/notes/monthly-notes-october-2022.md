@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: October 2022"
 description: "Another slow month with work and on the personal side of things again. I guess that's normal now that I'm not doing contract work, there's less going on."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2022-11-11T00:00:00Z
 tags:
   - monthly-notes

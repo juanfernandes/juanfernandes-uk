@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: May 2024"
 description: "Pretty uneventful month which is never a bad thing. Spent some time adding more content to my website and did quite a bit of dev work on it too. Went into the work office and also went to the UEFA Women's Cup Final"
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2024-07-17T10:00:00Z
 tags:
   - monthly-notes

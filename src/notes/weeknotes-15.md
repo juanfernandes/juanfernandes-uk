@@ -6,17 +6,6 @@ description: "This weeknotes is late again due to having a weekend without being
   Minecraft server so we could play together. This week was my last with DXW and
   DfE (only 2 days) and the rest of the week was spent working on my own website
   and on my freelance project."
-keywords:
-  - freelance web designer
-  - suffolk
-  - uk
-  - feelance project
-  - e-commerce website design
-  - e-commerce
-  - weeknotes
-  - dxw
-  - dfe
-  - department for education
 date: 2019-05-22T07:19:15Z
 ---
 This weeknotes is late again due to having a weekend without being in front of a screen, most of it - my youngest child had been begging me to jump on the Minecraft server so we could play together. This week was my last with DXW and DfE (only 2 days) and the rest of the week was spent working on my own website and on my freelance project.{.lead}

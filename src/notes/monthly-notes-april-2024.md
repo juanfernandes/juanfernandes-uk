@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: April 2024"
 description: "Oof, what a month. Huge improvement in lots of aspects. The house still has not sold or even had any interest - it seems we'll have no choice but opt for a cash buy out. Lots of changes at work and did some updates on my website."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2024-05-15T16:45:00Z
 tags:
   - monthly-notes

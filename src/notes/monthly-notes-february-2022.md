@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: February 2022"
 description: "Very short update for this month. Mostly personal updates, a lot of articles read and some freelance work"
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2022-04-12T00:00:00Z
 tags:
   - monthly-notes

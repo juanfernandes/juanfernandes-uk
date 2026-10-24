@@ -2,14 +2,6 @@
 layout: "post"
 title: "Changelog: Added pagination"
 description: "Added pagination to the links page and blog index page."
-keywords:
-  - web design
-  - webdesign
-  - web development
-  - web dev
-  - pagination
-  - 11ty
-  - eleventy
 date: 2024-05-01T16:30:00Z
 tags:
   - changelog

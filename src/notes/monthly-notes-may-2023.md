@@ -3,13 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: May 2023"
 description: "May did not end on a happy note, unfortunately. I’m now technically homeless, and I no longer have my dog."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
-  - pet death
 date: 2023-06-05T00:00:00Z
 tags:
   - monthly-notes

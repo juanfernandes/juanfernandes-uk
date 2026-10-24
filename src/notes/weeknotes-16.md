@@ -6,12 +6,6 @@ description: "Started a new contract on Monday, working for Signet Jewellers aka
   and Ernest Jones based in Borehamwood, North London. It was a hell of a drive,
   but as usual, I drive to work Monday morning and then stay in the area until I
   drive back on Fridays."
-keywords:
-  - freelance
-  - web designer
-  - contract
-  - boreamwood
-  - north london
 date: 2019-05-30T06:32:37Z
 ---
 Started a new contract on Monday, working for Signet Jewellers aka H.Samuel and Ernest Jones based in Borehamwood, North London. It was a hell of a drive, but as usual, I drive to work Monday morning and then stay in the area until I drive back on Fridays.{.lead}

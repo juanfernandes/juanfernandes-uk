@@ -3,13 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: September 2022"
 description: "Bit of a slow month. I started working on a Books section on my website and worked on a complex membership table build."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
-  - skateboarding
 date: 2022-10-13T00:00:00Z
 tags:
   - monthly-notes

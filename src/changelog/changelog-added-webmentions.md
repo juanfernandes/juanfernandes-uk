@@ -2,10 +2,6 @@
 layout: "post"
 title: "Changelog: Added Webmentions"
 description: "Webmentions are a way to show social media comments and interactions on your website."
-keywords:
-  - indieweb
-  - web mentions
-  - webmentions
 date: 2021-05-26T23:00:00Z
 tags:
   - changelog

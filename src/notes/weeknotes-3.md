@@ -5,11 +5,6 @@ title: "Weeknotes #3"
 description: "This week has been a busy one - with the housework and a new freelance
   project. There's been a lot of furniture moving around while the new carpets
   were fitted."
-keywords:
-  - weeknotes
-  - freelance
-  - front-end
-  - developer
 date: 2019-02-24T21:26:04Z
 ---
 This week has been a busy one - with the housework and a new freelance project.{.lead}

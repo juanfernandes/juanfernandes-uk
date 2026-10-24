@@ -5,27 +5,6 @@ description: "Because there is so much content and noise on the web about develo
   hearing about new software or new techniques via social media. Newsletters are
   still a great way to keep up with all thats happening in our industry and
   front end development."
-keywords:
-  - newsletters
-  - newsletter
-  - front-end
-  - developer. developers
-  - development
-  - smashing magazine
-  - css tricks
-  - CSS Animation Weekly
-  - CSS Layout News
-  - CSS Weekly
-  - Front End Front
-  - From the front
-  - FrontEnd Focus
-  - Paul Jarvis
-  - Offline FIrst
-  - Tobias Van Schneider
-  - UI Animation
-  - UX Booth
-  - Web Tools Weekly
-  - WebAIM
 intro:
   heading:
   subheading:

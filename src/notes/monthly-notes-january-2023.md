@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: January 2023"
 description: "January has been pretty quiet, and again I've not done much other than turn up for work, do some work and then spend the evening in my room watching TV on my own."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2023-01-06T00:00:00Z
 tags:
   - monthly-notes

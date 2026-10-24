@@ -4,14 +4,6 @@ eleventyExcludeFromCollections: true
 title: "Monthly Notes: January 2021"
 description: "January has been a good month with a steady flow of work and spending
   plenty of time with the family whilst making the most of being in lockdown."
-keywords:
-  - alpine JS
-  - GOV.UK Prototype Kit
-  - property with prospect
-  - freelance
-  - defra contract
-  - january 2021
-  - monthly-notes
 date: 2021-02-11T00:00:00Z
 tags:
   - monthly-notes

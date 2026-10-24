@@ -2,13 +2,6 @@
 layout: "post"
 title: "Changelog: Added changelog page"
 description: "Moved changelog and git commit history to its own changelog page."
-keywords:
-  - web design
-  - webdesign
-  - web development
-  - web dev
-  - changelog
-  - indieweb
 date: 2024-05-24T11:30:00Z 
 tags:
   - changelog

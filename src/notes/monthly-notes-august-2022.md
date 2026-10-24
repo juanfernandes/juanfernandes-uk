@@ -3,16 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: August 2022"
 description: "August saw quite a lot of change for my family and me. We've switched to a mostly plant-based diet and have also started to venture into minimalism."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
-  - glamping
-  - Kingfisher Lakes
-  - minimilism
-  - plant-based diet
 date: 2022-09-13T00:00:00Z
 tags:
   - monthly-notes

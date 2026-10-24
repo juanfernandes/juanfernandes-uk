@@ -5,17 +5,6 @@ title: "Weeknotes #4"
 description: "It's been another tiring week, but I felt it went by fairly quickly.
   Tiring because I did about ten hours of driving this week to my new contract. But
   I made some progress on my freelance project."
-keywords:
-  - week notes
-  - weeknotes
-  - notes
-  - contract
-  - work
-  - freelance
-  - online shop
-  - e-commerce
-  - contract
-  - contracting
 date: 2019-03-03T15:30:01Z
 ---
 It's been another tiring week, but I felt it went by fairly quickly.{.lead}

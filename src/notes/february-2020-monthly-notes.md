@@ -5,13 +5,6 @@ title: "February 2020: Monthly Notes"
 description: "February was a good month for me as I released my first open-source project
   - a tiny thing I made - an eleventy shortcode for using cloudinary images in your
   markdown files."
-keywords:
-  - contract
-  - work
-  - freelance
-  - personal
-  - notes
-  - monthly notes
 date: 2020-03-06T17:00:00Z
 ---
 February was a good month for me as I released my first open-source project - a tiny thing I made - an eleventy shortcode for using cloudinary images in your markdown files.{.lead}

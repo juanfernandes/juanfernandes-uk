@@ -2,12 +2,6 @@
 layout: "post"
 title: "Changelog: Added mastodon-post Web Component"
 description: "Added mastodon-post web component to encourage users to discuss the post on mastodon."
-keywords:
-  - web design
-  - webdesign
-  - web development
-  - web dev
-  - blogroll
 date: 2024-02-26T00:00:00Z
 tags:
   - changelog

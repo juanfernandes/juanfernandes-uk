@@ -3,15 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Weeknotes #5"
 description: "My week didn't have a great start but it got much better towards the end. Did loads of JavaScript learning this week. Fixed an issue I've been having with Sublime Text and wrote a blog post."
-keywords:
-  - work
-  - freelance
-  - contract
-  - web developer
-  - front-end
-  - sublime text
-  - cs code
-  - javascript
 date: 2019-03-10T19:10:11Z
 ---
 ## What went well

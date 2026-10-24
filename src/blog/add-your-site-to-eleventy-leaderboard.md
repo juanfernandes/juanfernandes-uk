@@ -3,14 +3,6 @@ layout: "post"
 title: "Add your site to the Eleventy Leaderboards"
 description: "This is a quick tip showing you how to add your eleventy built website
   to the Eleventy leaderboards"
-keywords:
-  - performance
-  - leaderboard
-  - 11ty leaderboard
-  - sites built with 11ty
-  - performance benchmarks
-  - eleventy
-  - 11ty
 intro:
   heading:
   subheading:

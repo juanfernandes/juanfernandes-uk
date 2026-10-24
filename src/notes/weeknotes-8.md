@@ -4,15 +4,6 @@ eleventyExcludeFromCollections: true
 title: "Weeknotes #8"
 description: "This week started with me handing in my notice at my then-current contract. I felt very guilty about ending my contract early, I managed 5 weeks out of 12 -
   it's the first time I have ever had to end a contract early."
-keywords:
-  - contract
-  - freelance
-  - ecommerce
-  - online shop
-  - manchester
-  - interaction designer
-  - dxw
-  - department for education
 date: 2019-04-03T07:49:30Z
 ---
 This week started with me handing in my notice. I felt very guilty about ending my contract early, I managed 5 out of 12 weeks - it's the first time I have ever had to end a contract early.{.lead}

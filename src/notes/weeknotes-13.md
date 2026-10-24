@@ -5,15 +5,6 @@ title: "Weeknotes #13"
 description: "This week started the handover process to my replacement at the Department for Education, as well as making a lot more progress to the prototype. Got a new
   contract lined up to start pretty much as soon as I finish my current one,
   which is a first and I have finally made nsome time to work on my own website."
-keywords:
-  - weeknotes
-  - interaction designer
-  - freelance web designer
-  - suffolk
-  - web designer suffolk
-  - contract front-end developer
-  - GOVUK prototype kit
-  - department for education
 date: 2019-05-06T08:34:06Z
 ---
 This week started the handover process to my replacement at the Department for Education, as well as making a lot more progress to the prototype. Got a new contract lined up to start pretty much as soon as I finish my current one, which is a first and I have finally made nsome time to work on my own website.{.lead}

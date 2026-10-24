@@ -5,17 +5,6 @@ title: "Monthly Notes: October 2020"
 description: "October was a surprisingly busy month which is a good thing after months
   without any work. It's good to be back in work mode but must not forget to continue
   working on my business, website and side projects."
-keywords:
-  - nunjucks
-  - eleventy
-  - 11ty
-  - web design
-  - uses page
-  - uses
-  - freelance web designer
-  - freelance
-  - notes
-  - monthly notes
 date: 2020-11-11T00:00:00Z
 tags:
 - monthly-notes

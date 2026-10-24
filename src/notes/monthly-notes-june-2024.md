@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: June 2024"
 description: "Short update for June as I'm behind on writing these and not much has been happening in my life at the moment - which isn't a bad thing."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2024-09-03T17:00:00Z
 tags:
   - monthly-notes

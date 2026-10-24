@@ -4,15 +4,6 @@ eleventyExcludeFromCollections: true
 title: "Monthly Notes: November 2020"
 description: "Don't you hate when you go from having no work to then having way too
   much work and it starts pilling up on you? That was November for me."
-keywords:
-  - corporation tax
-  - bounce back loan
-  - articles
-  - podcasts
-  - learning
-  - contract
-  - freelance web designer
-  - monthly notes
 date: 2020-12-04T00:00:00Z
 tags:
   - monthly-notes

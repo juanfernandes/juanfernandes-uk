@@ -4,15 +4,6 @@ eleventyExcludeFromCollections: true
 title: "Weeknotes #21"
 description: "Work on the new header continues for one of the brands and the pressure is on to get it finished within this sprint. More work on my own website and some
   tinkering with our new car."
-keywords:
-  - weeknotes
-  - freelance
-  - contract work
-  - netlify cms
-  - static site generator
-  - dash cam
-  - discord
-  - minecraft
 date: 2019-07-24T05:00:56Z
 ---
 ## Work

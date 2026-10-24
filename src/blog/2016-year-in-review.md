@@ -5,9 +5,6 @@ description: "My first ever year in review post, let's see how it went! 2016 was
 intro:
   heading:
   subheading:
-keywords:
-  - personal
-  - year-in-review
 postImage: "/v1579162296/nduplkyrxqu-elena-prokofyeva-min.jpg"
 date: 2017-01-09T15:30:18Z
 tags:

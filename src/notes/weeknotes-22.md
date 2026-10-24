@@ -5,16 +5,6 @@ title: "Weeknotes #22"
 description: "This weeknotes has been in my drafts for a few weeks now. It only takes
   getting busy at work, for writing weeknotes to fall off the radar. I need to
   find a way of fitting this into my routine."
-keywords:
-  - static site generator
-  - 11ty
-  - eleventy
-  - netlify
-  - netlify cms
-  - nunjucks
-  - php
-  - perch cms
-  - site rebuild
 date: 2019-08-29T06:12:57Z
 ---
 This weeknotes has been in my drafts for a few weeks now. It only takes getting busy at work, for writing weeknotes to fall off the radar. I need to find a way of fitting this into my routine.{.lead}

@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: February 2024"
 description: "Celebrated my one-year anniversary with my girlfriend, my eldest visiting sixth form college, and the house was relisted for sale with new estate agents."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2024-05-14T17:00:00Z
 tags:
   - monthly-notes

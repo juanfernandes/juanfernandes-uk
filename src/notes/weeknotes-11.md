@@ -3,10 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Weeknotes #11"
 description: "Another short week notes this week due to a short week and a long bank holiday weekend that I spent with friends and family and no screens."
-keywords:
-  - freelance web designer
-  - interaction designer
-  - GOVUK prototype kit
 date: 2019-04-24T13:59:20Z
 ---
 Another short week notes this week due to a short week and a long bank holiday weekend that I spent with friends and family and no screens.{.lead}

@@ -1,7 +1,6 @@
 {
   "title": "BKMRKS",
-  "description": "Bookmark manager built with React",
-  "keywords": "Bookmarks manager, React, Next.js, TypeScript, JSON",
+  "description": "Bookmarks manager built with React",
   "meta": {
     "ogTitle": "BKMRKS",
     "ogDesc": "",

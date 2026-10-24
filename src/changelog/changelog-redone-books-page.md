@@ -2,13 +2,6 @@
 layout: "post"
 title: "Changelog: Redone books page"
 description: "I've changed my books page to now include books I want to read."
-keywords:
-  - web design
-  - webdesign
-  - web development
-  - web dev
-  - changelog
-  - indieweb
 date: 2024-05-28T18:00:00Z
 tags:
   - changelog

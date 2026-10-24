@@ -6,13 +6,6 @@ description: "Well, it was another uneventful and unproductive week - I've been 
     all week. I've decided to finish my current contract early. I've never done
     this and I have mixed feelings about it, but I know that I am not happy here
     and I don't see it getting better."
-keywords:
-  - front-end
-  - developer
-  - interaction designer
-  - contract
-  - freelance
-  - week notes
 date: 2019-03-24T09:00:49Z
 ---
 Well, it was another uneventful and unproductive week - I've been distracted all week.{.lead}

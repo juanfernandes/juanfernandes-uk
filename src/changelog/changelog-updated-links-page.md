@@ -2,14 +2,6 @@
 layout: "post"
 title: "Changelog: Updated Links page"
 description: "My links page now has its own RSS feed and a few other updates"
-keywords:
-  - web design
-  - webdesign
-  - web development
-  - web dev
-  - links
-  - shared links
-  - indieweb
 date: 2024-04-15T16:30:00Z
 tags:
   - changelog

@@ -2,12 +2,6 @@
 layout: "post"
 title: "Creating a Sitemap file with Eleventy"
 description: "This is a quick tip showing how I created a sitemap.xml file using Eleventy that will automatically update itself when you create new pages"
-keywords:
-  - sitemap
-  - sitemap xml
-  - seo
-  - eleventy
-  - 11ty
 intro:
   heading:
   subheading:

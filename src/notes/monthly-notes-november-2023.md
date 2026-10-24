@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: November 2023"
 description: "Lots of personal stuff happened this month and this meant I've not had any time to work on any side projects and nothing worth mentioning has happened at work, so it's a short monthly note."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2024-02-07T00:00:00Z
 tags:
   - monthly-notes

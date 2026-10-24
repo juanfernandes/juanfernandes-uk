@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: April 2023"
 description: "Been feeling a lot better about my personal situation, celebrated a 2-month anniversary with my girlfriend. Went bowling with my children, and my eldest celebrated turning fifteen."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2023-06-02T00:00:00Z
 tags:
   - monthly-notes

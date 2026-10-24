@@ -5,17 +5,6 @@ title: "Weeknotes #9"
 description: "This week I was in Manchester for my new contract. I was only there for two
   days for the project kick off and tech setup. Monday and Tuesday was a blur. I
   couldn't focus on anything."
-keywords:
-  - freelance
-  - web
-  - design
-  - freelance web designer
-  - weeknotes
-  - week notes
-  - contract work
-  - interaction designer
-  - ruby on rails
-  - front-end
 date: 2019-04-07T14:57:04Z
 ---
 This week I was in Manchester for my new contract. I was only there for two days for the project kick off and tech setup.{.lead}

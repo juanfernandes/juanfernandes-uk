@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: March 2023"
 description: "I only realised March was over about one week into April so that's why this post is so late."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2023-04-08T00:00:00Z
 tags:
   - monthly-notes

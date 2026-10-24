@@ -2,18 +2,6 @@
 layout: "post"
 title: "Exploring the benefits of HTTP2"
 description: "Since this website is hosted on Netlify & they serve websites using the HTTP/2 protocol I've started exploring the benefits of it"
-keywords:
-  - "#MayThe4thBeWithYou"
-  - vanilla javascript
-  - JavaScript
-  - jQuery
-  - partial
-  - http/2 protocol
-  - HTTP/2
-  - static site generator
-  - nunjucks
-  - eleventy
-  - jamstack
 intro:
   heading:
   subheading:

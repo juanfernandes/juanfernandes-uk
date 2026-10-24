@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: July 2023"
 description: "July has been a much better month. It's been a month since I moved out of my home and started living in a rented flat. Got to see the Red Hot Chilli Peppers live in London."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2023-08-18T00:00:00Z
 tags:
   - monthly-notes

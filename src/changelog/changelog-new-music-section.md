@@ -2,14 +2,6 @@
 layout: "post"
 title: "Changelog: New Music Section"
 description: "The site now includes a music section powered by Last.fm, showing weekly top tracks, albums and artists, plus all-time listening statistics."
-keywords:
-  - last.fm integration
-  - eleventy music page
-  - weekly listening stats
-  - top tracks
-  - top albums
-  - music analytics
-  - personal website update
 date: 2026-02-24T10:00:00Z
 tags:
   - changelog

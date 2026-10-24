@@ -3,13 +3,6 @@ layout: "post"
 title: "Automatic copyright year in Perch CMS"
 description: "How to auto update your copyright year with Perch CMS. In this short blog post I share a small code snippet that you can add to automatically update your
   copyright year."
-keywords:
-  - cms
-  - content management system
-  - php
-  - auto update copyright year
-  - perch
-  - grabaperch
 intro:
   heading:
   subheading:

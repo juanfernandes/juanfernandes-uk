@@ -4,11 +4,6 @@ introClass: "intro--sml"
 title: "Getting rid of Google calendar"
 description: "Replacing Google calendar has been one of the hardest apps/services to
   replace."
-keywords:
-  - Google calendar
-  - Google
-  - privacy control
-  - privacy
 date: 2020-02-15T00:00:00Z
 ---
 Replacing Google calendar has been one of the hardest apps/services to replace.{.lead}

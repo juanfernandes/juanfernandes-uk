@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: September 2023"
 description: "Not a busy month, but wish it was less stressful. Managed to work on my personal website, which was a good a distraction."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2023-10-22T00:00:00Z
 tags:
   - monthly-notes

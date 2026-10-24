@@ -6,13 +6,6 @@ description: "Another short notes post for this month. Been busy at my new perma
   job at intelliflo - learning the ropes and how to be a permanent employee again.
   Plus freelance work. I've had my google free phone now for over a month and I finally
   got round to adding some new features to my website."
-keywords:
-  - serviceworker
-  - webmentions
-  - freelance
-  - personal notes
-  - notes
-  - monthly notes
 date: 2021-06-09T23:00:00Z
 tags:
 - monthly-notes

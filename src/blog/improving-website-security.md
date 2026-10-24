@@ -2,13 +2,6 @@
 layout: "post"
 title: "Improving Website Security"
 description: "Since WebPageTest.org started testing website security, I wanted to learn more about it & figure out how to improve my website security using headers on Netlify"
-keywords:
-  - eleventy
-  - 11ty
-  - website security
-  - security headers
-  - web security
-  - netlify
 intro:
   heading:
   subheading:

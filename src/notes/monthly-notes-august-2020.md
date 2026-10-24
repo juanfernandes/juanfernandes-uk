@@ -5,13 +5,6 @@ title: "Monthly Notes: August 2020"
 description: "Augusts' monthly notes are mostly personal and shorter than usual as
   I didn't get up to much - and that's a good thing - we all need to know how to chill
   once in a while."
-keywords:
-  - interaction designer
-  - frontend developer
-  - office chair
-  - chicks
-  - madeira
-  - covid test
 date: 2020-09-04T00:00:00Z
 tags:
   - monthly-notes

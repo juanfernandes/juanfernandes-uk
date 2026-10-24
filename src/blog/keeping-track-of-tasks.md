@@ -2,13 +2,6 @@
 layout: "post"
 title: "Keeping track of tasks"
 description: "Been thinking about how I keep track of changes requested by clients outside of project work. I maintain websites I've built as well as websites I host"
-keywords:
-  - freelance
-  - business
-  - tasks
-  - trello
-  - task management
-  - clients
 intro:
   heading:
   subheading:

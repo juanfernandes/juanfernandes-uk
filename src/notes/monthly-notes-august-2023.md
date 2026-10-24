@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: August 2023"
 description: "August was a VERY expensive month for me - what with getting the car back and getting it back on the road (MOT, tax & insurance) as well as paying for a mortgage advisor and mortgage."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2023-10-21T00:00:00Z
 tags:
   - monthly-notes

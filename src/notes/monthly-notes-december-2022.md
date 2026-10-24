@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: December 2022"
 description: "Pretty much did nothing the whole of December and some of you who follow me on social media will know why."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2023-01-06T00:00:00Z
 tags:
   - monthly-notes

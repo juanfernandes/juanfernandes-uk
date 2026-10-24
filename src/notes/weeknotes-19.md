@@ -5,18 +5,6 @@ title: "Weeknotes #19"
 description: "I'm sounding like a broken record, but it has been yet another slow week.
   We're still having some GIT related issues - not me personally, but we're also
   completely redoing our build process so that has caused some expected issues."
-keywords:
-  - freelance
-  - web designer
-  - freelance web designer suffolk
-  - remote
-  - front-end developer
-  - contract
-  - contractor
-  - git
-  - gpg
-  - gnu privacy guard
-  - fish shell
 date: 2019-06-18T19:49:39Z
 ---
 I'm sounding like a broken record, but it has been yet another slow week at work. We're still having some GIT related issues - not me personally, and we're also completely redoing our build process so that has caused some expected issues.{.lead}

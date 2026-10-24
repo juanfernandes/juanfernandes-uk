@@ -1,7 +1,6 @@
 ---
   title: Interests
   description: 
-  keywords: ""
   layout: "page"
   contentClass: "content--slim"
   class: "u-content-gap"

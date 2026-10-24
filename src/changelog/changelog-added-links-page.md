@@ -2,12 +2,6 @@
 layout: "post"
 title: "Changelog: Added links page"
 description: "Added a links page to archive links I've shared on social media."
-keywords:
-  - web design
-  - webdesign
-  - web development
-  - web dev
-  - blogroll
 date: 2024-02-25T00:00:00Z
 tags:
   - changelog

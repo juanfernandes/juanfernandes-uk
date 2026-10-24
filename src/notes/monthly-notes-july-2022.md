@@ -3,16 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: July 2022"
 description: "July was a bit of a slow month work-wise, both freelance and permanent - although I'm not actively looking for new freelance work"
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
-  - 11ty
-  - eleventy
-  - tailwindcss
-  - javascript
 date: 2022-09-06T00:00:00Z
 tags:
   - monthly-notes

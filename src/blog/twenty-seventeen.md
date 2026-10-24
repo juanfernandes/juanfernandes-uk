@@ -3,13 +3,6 @@ layout: "post"
 title: "2017: Year in review"
 description: "My 2017 year in review post - what went well, what didn't go so well.
   I look into work, health, personal and look ahead for 2018."
-keywords:
-  - year in review
-  - '2017'
-  - twenty seventeen
-  - work
-  - contracts
-  - health
 intro:
   heading:
   subheading:

@@ -3,15 +3,6 @@ layout: "post"
 title: "My Web Design Journey"
 description: "I want you to know about my past, my journey as a website designer and how I can help you. I thought I’d write a post about how I got started as a website
   designer and eventually becoming a freelance website designer."
-keywords:
-  - web
-  - design
-  - journey
-  - web design journey
-  - website designer
-  - web design
-  - freelance website designer
-  - freelance web designer
 intro:
   heading:
   subheading:

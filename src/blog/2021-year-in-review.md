@@ -2,10 +2,6 @@
 layout: "post"
 title: "2021: Year in review"
 description: "2021 was a year of firsts for the family & I after a few years of covid, including our first restaurant outing & also our first UK break since before covid"
-keywords:
-  - covid
-  - "2021"
-  - year in review
 intro:
   heading:
   subheading:

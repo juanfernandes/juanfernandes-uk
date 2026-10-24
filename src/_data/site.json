@@ -7,6 +7,23 @@
     "ogImgAlt": "Juan Fernandes - Freelance Web Designer",
     "lang": "https://www.juanfernandes.uk/"
   },
+  "titles": {
+    "home": "Juan Fernandes - Freelance Web Designer",
+    "blog": "Blog - Thoughts, Code and more",
+    "about": "About - Juan Fernandes",
+    "work": "Work - Selected works by Juan Fernandes",
+    "notes": "Notes - Short posts about code & design",
+    "contact": "Contact - Let's get started on your next project",
+    "slashes": "Slashes - Collection of small personal pages",
+    "now": "Now - Read about what I'm currently up to now",
+    "uses": "Uses - This is what I use for most of my work",
+    "blogroll": "Blogroll - List sites that I read, follow, or recommend",
+    "links": "Links - List of social links",
+    "collections": "Collections - A curated record of the things I collect",
+    "logs": "Logs - Record of the media I consume",
+    "colophon": "Colophon - All about this website, including tech used etc",
+    "changelog": "Changelog - Keeps track of updates, improvements and tweaks"
+  },
   "announcement": "Availability: I have availability for new projects.",
   "feed": {
     "main": {

@@ -2,9 +2,6 @@
 layout: "post"
 title: "2022: Year in review"
 description: "This year in review post has been really difficult to write (and why it's so late) because of how it ended with being the worst year of my life, so far. It took me a while to write it, but I really didn't want to miss posting it as I've written one every year since 2016."
-keywords:
-  - "2022"
-  - year in review
 intro:
   heading:
   subheading:

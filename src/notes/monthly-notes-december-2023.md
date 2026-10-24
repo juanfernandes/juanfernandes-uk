@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: December 2023"
 description: "I planned on doing lots of work on the new version of this website over the Christmas holidays, but then I bought loads of beers instead. Had a great Christmas and went to Nottingham for a hip hop concert."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2024-02-10T00:00:00Z
 tags:
   - monthly-notes

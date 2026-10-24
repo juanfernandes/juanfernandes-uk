@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: August 2024"
 description: "Developing an ecommerce site for my daughter's clothing brand. I recently saw The Roots, De La Soul and The Pharcyde at Dreamland Margate, which was great. Unfortunately, an elderly driver hit my car in a Tesco car park. The house had two viewings, but no bids at auction."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2024-09-05T12:00:00Z
 tags:
   - monthly-notes

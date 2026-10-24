@@ -2,12 +2,6 @@
 layout: "post"
 title: "Changelog: Updated Work design and layout"
 description: "Finally got round to redesigning and rebuilding my Work case study pages. I've not been adding previous works as I didn't like the old design/layout but now I'm happy with it, I'm going to add all my more recent works."
-keywords:
-  - web design
-  - webdesign
-  - web development
-  - web dev
-  - indieweb
 date: 2024-06-04T16:50:00Z
 tags:
   - changelog

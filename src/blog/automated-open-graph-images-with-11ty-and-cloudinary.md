@@ -4,15 +4,6 @@ title: "Automated Open Graph images with 11ty and Cloudinary"
 description: "I wanted to find a way to dynamically generate a unique Opengraph
   images for each blog post automatically using post data, Cloudinary API
   & Eleventy"
-keywords:
-  - facebook
-  - twitter
-  - social media
-  - opengraph
-  - cloudinary
-  - ssg
-  - eleventy
-  - 11ty
 intro:
   heading:
   subheading:

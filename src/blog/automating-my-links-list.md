@@ -2,10 +2,6 @@
 layout: "post"
 title: "Automating my links list"
 description: "How I automated my Instapaper “liked” articles into a clean, sorted JSON feed for my 11ty site — with date normalisation, HTML stripping, and deduplication, all running daily via GitHub Actions."
-keywords:
-  - 11ty
-  - instapaper
-  - json
 intro:
   heading:
   subheading:

@@ -2,11 +2,6 @@
 layout: "post"
 title: "Changelog: Blocking GoogleBot and ChatGPT bot"
 description: "With the rise of AI and companies profiting from free content online, I, like many others have decided to just block access to those bots"
-keywords:
-    - indieweb
-    - ai
-    - googlebot
-    - chatgpt
 date: 2023-08-09T20:00:00Z
 edited: 2023-09-29T20:00:00Z
 tags:

@@ -6,14 +6,6 @@ description: "Allow a Perch CMS user to add SVG icons to an SVG sprite and use t
   when building a website and then never revisited unless the site has a redesign.
   The creation of a sprite is likely to be an automated process using a task runner
   like Grunt or Gulp JS."
-keywords:
-  - svg
-  - icons
-  - sprite
-  - perch
-  - cms
-  - front-end
-  - development
 intro:
   heading:
   subheading:

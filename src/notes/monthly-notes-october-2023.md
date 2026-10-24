@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: October 2023"
 description: "October - lots more upheaval on a personal level - but we had Halloween and the kids really enjoyed it. Started working on a new design for this website."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2024-01-24T00:00:00Z
 tags:
   - monthly-notes

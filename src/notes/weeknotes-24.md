@@ -4,17 +4,6 @@ eleventyExcludeFromCollections: true
 title: "Weeknotes #24"
 description: "Not a lot to write about this week. Still really busy with my current contract - busy is good. But obviously its harder to keep up with note-taking in
   preparation for writing these."
-keywords:
-  - front-end developer
-  - css
-  - html
-  - front-end development
-  - css grid
-  - flexbox
-  - contractor
-  - contract work
-  - freelance
-  - freelancer
 date: 2019-09-25T20:29:22Z
 ---
 Not a lot to write about this week. Still really busy with my current contract - busy is good. But obviously its harder to keep up with note-taking in preparation for writing these.{.lead}

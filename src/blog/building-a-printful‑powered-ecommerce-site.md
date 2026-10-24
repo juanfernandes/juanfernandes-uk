@@ -2,14 +2,6 @@
 layout: "post"
 title: "Building a Printful‑powered e‑commerce site with 11ty and Stripe"
 description: "A behind-the-scenes look at how I built a fast, modern e‑commerce site using 11ty, Printful, and Stripe. Learn how to fetch product data, auto-generate category pages, and create a lightweight cart and checkout experience—without a CMS."
-keywords:
-  - 11ty
-  - eleventy
-  - printful
-  - stripe
-  - ecommerce
-  - SSG
-  - static
 date: 2025-06-13T19:00:00Z
 tags:
   - eleventy

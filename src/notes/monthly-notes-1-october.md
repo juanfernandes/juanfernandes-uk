@@ -6,23 +6,6 @@ description: "I struggled to keep up with writing weekly notes since I cut my da
   office down to just three and they felt like they were the same thing every
   week and I didn't have much to write every week - so I am not trying a monthly
   note. We'll see how I get on with this schedule."
-keywords:
-  - month notes
-  - october
-  - freelance
-  - contract front-end developer
-  - new clients
-  - new hosting clients
-  - freelance
-  - h. samuel
-  - ernest jones
-  - signet jewelers
-  - private pension
-  - sipp
-  - lisa
-  - aj bell
-  - youinvest
-  - pensions
 date: 2019-11-02T19:53:06Z
 tags:
   - monthly-notes

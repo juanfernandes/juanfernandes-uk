@@ -6,16 +6,6 @@ description: "January has been a surprisingly busy month - it's normally a bit q
   than this. My contract was extended until the end of March - it was supposed to
   be just a 6-week contract until mid-January, so I had lined up some freelance work
   to tide me over before starting a new contract."
-keywords:
-  - freelance
-  - elementor
-  - beaver builder
-  - wordpress page builders
-  - wordpress
-  - front-end
-  - cmi
-  - contract
-  - monthly notes
 date: 2020-02-10T00:00:00Z
 tags:
   - monthly-notes

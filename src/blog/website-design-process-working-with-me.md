@@ -2,12 +2,6 @@
 layout: "post"
 title: "Website Design Process - working with me"
 description: "This is my website design process. In this blog post I detail my process from initial client contact to the end of a project."
-keywords:
-  - website
-  - design
-  - process
-  - hiring a website design
-  - working with a web designer
 intro:
   heading:
   subheading:

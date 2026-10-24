@@ -3,12 +3,6 @@ layout: "post"
 eleventyExcludeFromCollections: true
 title: "Monthly Notes: January 2022"
 description: "Wowsers January flew by. I started the year with a detox. Set a reading goal of 10 books - only managed four last year..."
-keywords:
-  - listening
-  - watching
-  - personal
-  - freelance
-  - work
 date: 2022-02-12T00:00:00Z
 tags:
   - monthly-notes

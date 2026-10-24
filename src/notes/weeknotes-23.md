@@ -4,11 +4,6 @@ eleventyExcludeFromCollections: true
 title: "Weeknotes #23"
 description: "As my current contract gets busier and we head towards a huge deadline, I'm a lot more tired in the evenings, so the last thing I want to do when I get to
   the hotel and get back on my computer and do some work or write a blog post."
-keywords:
-  - freelance
-  - contract
-  - front-end developer
-  - web designer
 date: 2019-09-14T09:24:47Z
 ---
 As my current contract gets busier and we head towards a huge deadline, I'm a lot more tired in the evenings, so the last thing I want to do when I get to the hotel and get back on my computer and do some work or write a blog post.{.lead}
