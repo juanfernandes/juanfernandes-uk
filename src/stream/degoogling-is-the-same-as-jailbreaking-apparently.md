@@ -3,14 +3,6 @@ layout: "post"
 title: "DeGoogling is the same as jailbreaking apparently"
 description: "Turns out that some apps will treat your DeGoogled Android phone as a
   phone that has a custom ROM installed aka it has been 'jailbroken' and won't run"
-keywords:
-  - eOS
-  - jailbroken
-  - android
-  - privacy control
-  - de-googled
-  - de-google
-  - privacy
 date: 2021-05-03T23:00:00Z
 ---
 Having recently got a DeGoogled mobile phone from /e/ OS and installing all the apps I used on my old phone, I discovered that the Freetrade app will not work because it considers my phone to be 'jailbroken' or running a customised version of the OS.

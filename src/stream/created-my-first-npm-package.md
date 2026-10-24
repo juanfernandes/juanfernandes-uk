@@ -3,11 +3,6 @@ layout: "post"
 title: "Created my first NPM package"
 description: "I just created my first NPM package and it was surprisingly easy to do
   it."
-keywords:
-  - eleventy
-  - cloudinary
-  - npm package
-  - npm
 date: 2020-02-12T00:00:00Z
 ---
 I've created my first NPM package and it was surprisingly easy to do. 🤓

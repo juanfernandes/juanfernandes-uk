@@ -2,10 +2,6 @@
 layout: "post"
 title: "Changelog: Add other links to the footer"
 description: "Saw a tweet about how websites with RSS should have a link to it in the header to save digging into code to find it, after a tiny footer redesign I added mine"
-keywords:
-  - website update
-  - changelog
-  - notes
 date: 2021-08-02T23:00:00Z
 tags:
   - changelog

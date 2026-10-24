@@ -2,10 +2,6 @@
 layout: "stream"
 title: "Bye Bye Apple"
 description: "After almost three years of being on the apple eco system (MacBook, iPhone, iWatch and AirPods - I've had enough"
-keywords:
-  - notes
-  - apple
-  - bye bye apple
 date: 2025-11-30T12:00:00Z
 ---
 After almost three years of being on the Apple eco system (MacBook, iPhone, iWatch and AirPods - I've had enough.
