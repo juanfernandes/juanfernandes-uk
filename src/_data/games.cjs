@@ -1,4 +1,7 @@
 /* src/_data/games.cjs */
+const fs = require("node:fs");
+const path = require("node:path");
+
 function toInt(v) {
   const n = Number(v);
   return Number.isFinite(n) ? n : null;
@@ -57,8 +60,15 @@ function sortGame(a, b) {
 }
 
 module.exports = async function () {
-  const raw = require("./gamesData.json");
-  const items = Array.isArray(raw?.items) ? raw.items : [];
+  const gamesDir = path.resolve(__dirname, "../games");
+
+  const items = fs.readdirSync(gamesDir)
+    .filter((file) => file.endsWith(".json"))
+    .sort()
+    .map((file) => {
+      const filePath = path.join(gamesDir, file);
+      return JSON.parse(fs.readFileSync(filePath, "utf8"));
+    });
 
   const all = items.map(normalise).filter((g) => g.title);
 
