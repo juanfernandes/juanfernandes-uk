@@ -214,6 +214,8 @@ collections:
         label: "Concerts"
         file: "src/_data/concertsData.json"
         format: "json"
+        editor:
+          preview: false
         fields:
           - label: "Entries"
             name: "entries"
@@ -244,6 +246,8 @@ collections:
         label: "LEGO Collection"
         file: "src/_data/legoData.json"
         format: "json"
+        editor:
+          preview: false
         fields:
           - label: "Items"
             name: "items"
@@ -265,26 +269,27 @@ collections:
 
   - name: "games"
     label: "Games"
-    files:
-      - name: "games"
-        label: "Games Collection"
-        file: "src/_data/gamesData.json"
-        format: "json"
-        fields:
-          - label: "Items"
-            name: "items"
-            widget: "list"
-            summary: "{{fields.status}} — {{fields.platform}} — {{fields.title}}"
-            fields:
-              - { label: "Status", name: "status", widget: "select", options: ["owned", "wanted"], default: "owned" }
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Platform", name: "platform", widget: "string", default: "PC", required: true }
-              - { label: "Play status", name: "playStatus", widget: "select", options: ["unplayed", "playing", "completed", "abandoned", "wishlist"], default: "unplayed", required: false }
-              - { label: "Release year", name: "releaseYear", widget: "number", value_type: "int", required: false }
-              - { label: "Acquired on", name: "acquiredOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false, required: false }
-              - { label: "Cover URL", name: "cover", widget: "string", required: false }
-              - { label: "Link URL", name: "url", widget: "string", required: false }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
+    label_singular: "Game"
+    folder: "src/games"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{slug}}"
+    identifier_field: "title"
+    summary: "{{title}} — {{platform}} — {{status}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Status", name: "status", widget: "select", options: ["owned", "wanted"], default: "owned" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Platform", name: "platform", widget: "string", default: "PC", required: true }
+      - { label: "Play status", name: "playStatus", widget: "select", options: ["unplayed", "playing", "completed", "abandoned", "wishlist"], default: "unplayed", required: false }
+      - { label: "Release year", name: "releaseYear", widget: "number", value_type: "int", required: false }
+      - { label: "Acquired on", name: "acquiredOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false, required: false }
+      - { label: "Cover URL", name: "cover", widget: "string", required: false }
+      - { label: "Link URL", name: "url", widget: "string", required: false }
+      - { label: "Notes", name: "notes", widget: "text", required: false }
+
 
   - name: "music"
     label: "Music"
@@ -293,6 +298,8 @@ collections:
         label: "Music Collection"
         file: "src/_data/musicData.json"
         format: "json"
+        editor:
+          preview: false
         fields:
           - label: "Items"
             name: "items"
