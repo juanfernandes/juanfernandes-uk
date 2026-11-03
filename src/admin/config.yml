@@ -282,7 +282,7 @@ collections:
     fields:
       - { label: "Status", name: "status", widget: "select", options: ["owned", "wanted"], default: "owned" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Platform", name: "platform", widget: "string", default: "PC", required: true }
+      - { label: "Platform", name: "platform", widget: "select", options: ["Sony Playstation 4", "Sony Playstation 1", "Super Nintendo (SNES)", "Sega Mega Drive"], required: true }
       - { label: "Play status", name: "playStatus", widget: "select", options: ["unplayed", "playing", "completed", "abandoned", "wishlist"], default: "unplayed", required: false }
       - { label: "Release year", name: "releaseYear", widget: "number", value_type: "int", required: false }
       - { label: "Acquired on", name: "acquiredOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false, required: false }
