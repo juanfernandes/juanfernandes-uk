@@ -1,4 +1,6 @@
 // src/_data/concerts.cjs
+const fs = require("node:fs");
+const path = require("node:path");
 const groupByYear = require("./utils/groupByYear.cjs");
 
 const sortDesc = (a, b) => (a.date > b.date ? -1 : a.date < b.date ? 1 : 0);
@@ -33,9 +35,15 @@ function groupByVenue(entries) {
 }
 
 module.exports = async function () {
-  // Expecting: src/_data/concerts.json => { "entries": [ ... ] }
-  const data = require("./concertsData.json");
-  const raw = Array.isArray(data?.entries) ? data.entries : [];
+  const concertsDir = path.resolve(__dirname, "../concerts");
+
+  const raw = fs.readdirSync(concertsDir)
+    .filter((file) => file.endsWith(".json"))
+    .sort()
+    .map((file) => {
+      const filePath = path.join(concertsDir, file);
+      return JSON.parse(fs.readFileSync(filePath, "utf8"));
+    });
 
   // Normalize + sort
   const entries = raw
