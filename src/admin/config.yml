@@ -223,63 +223,61 @@ collections:
 
   - name: "concerts"
     label: "Concerts"
-    files:
-      - name: "concerts"
-        label: "Concerts"
-        file: "src/_data/concertsData.json"
-        format: "json"
-        editor:
-          preview: false
+    label_singular: "Concert"
+    folder: "src/concerts"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    identifier_field: "venue"
+    summary: "{{date}} — {{venue}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+      - label: "Artists"
+        name: "artists"
+        widget: "list"
+        field: { label: "Artist", name: "value", widget: "string" }
+      - { label: "Venue", name: "venue", widget: "string", required: false }
+      - { label: "City", name: "city", widget: "string", required: false }
+      - { label: "Country", name: "country", widget: "string", required: false }
+      - { label: "Notes", name: "notes", widget: "string", required: false }
+      - label: "Links"
+        name: "links"
+        widget: "object"
+        required: false
         fields:
-          - label: "Entries"
-            name: "entries"
-            widget: "list"
-            summary: "{{fields.date}} — {{fields.artists}} — {{fields.venue}}"
-            fields:
-              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
-              - label: "Artists"
-                name: "artists"
-                widget: "list"
-                field: { label: "Artist", name: "value", widget: "string" }
-              - { label: "Venue", name: "venue", widget: "string", required: false }
-              - { label: "City", name: "city", widget: "string", required: false }
-              - { label: "Country", name: "country", widget: "string", required: false }
-              - { label: "Notes", name: "notes", widget: "string", required: false }
-              - label: "Links"
-                name: "links"
-                widget: "object"
-                required: false
-                fields:
-                  - { label: "Setlist.fm", name: "setlistFm", widget: "string", required: false }
-                  - { label: "Tickets", name: "tickets", widget: "string", required: false }
+          - { label: "Setlist.fm", name: "setlistFm", widget: "string", required: false }
+          - { label: "Tickets", name: "tickets", widget: "string", required: false }
+
+
 
   - name: "lego"
     label: "LEGO"
-    files:
-      - name: "lego"
-        label: "LEGO Collection"
-        file: "src/_data/legoData.json"
-        format: "json"
-        editor:
-          preview: false
-        fields:
-          - label: "Items"
-            name: "items"
-            widget: "list"
-            summary: "{{fields.status}} — {{fields.setNumber}} — {{fields.name}}"
-            fields:
-              - { label: "Status", name: "status", widget: "select", options: ["owned", "wanted"], default: "owned" }
-              - { label: "Set number", name: "setNumber", widget: "string" }
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "Theme", name: "theme", widget: "string" }
-              - { label: "Subtheme", name: "subtheme", widget: "string", required: false }
-              - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
-              - { label: "Pieces", name: "pieces", widget: "number", value_type: "int", required: false }
-              - { label: "Built", name: "built", widget: "boolean", required: false, default: false }
-              - { label: "Acquired on", name: "acquiredOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false, required: false }
-              - { label: "Image URL", name: "image", widget: "string", required: false }
-              - { label: "Link URL", name: "url", widget: "string", required: false }
-              - { label: "Notes", name: "notes", widget: "text", required: false }
+    label_singular: "LEGO Set"
+    folder: "src/lego"
+    create: true
+    extension: "json"
+    format: "json"
+    slug: "{{fields.setNumber}}"
+    identifier_field: "setNumber"
+    summary: "{{setNumber}} — {{name}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Status", name: "status", widget: "select", options: ["owned", "wanted"], default: "owned" }
+      - { label: "Set number", name: "setNumber", widget: "string" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Theme", name: "theme", widget: "string" }
+      - { label: "Subtheme", name: "subtheme", widget: "string", required: false }
+      - { label: "Year", name: "year", widget: "number", value_type: "int", required: false }
+      - { label: "Pieces", name: "pieces", widget: "number", value_type: "int", required: false }
+      - { label: "Built", name: "built", widget: "boolean", required: false, default: false }
+      - { label: "Acquired on", name: "acquiredOn", widget: "datetime", format: "YYYY-MM-DD", time_format: false, required: false }
+      - { label: "Image URL", name: "image", widget: "string", required: false }
+      - { label: "Link URL", name: "url", widget: "string", required: false }
+      - { label: "Notes", name: "notes", widget: "text", required: false }
 
   - name: "games"
     label: "Games"

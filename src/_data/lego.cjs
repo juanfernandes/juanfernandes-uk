@@ -1,4 +1,7 @@
 /* src/_data/lego.cjs */
+const fs = require("node:fs");
+const path = require("node:path");
+
 function toInt(v) {
   const n = Number(v);
   return Number.isFinite(n) ? n : null;
@@ -62,8 +65,15 @@ function sortSets(a, b) {
 }
 
 module.exports = async function () {
-  const raw = require("./legoData.json");
-  const items = Array.isArray(raw?.items) ? raw.items : [];
+  const legoDir = path.resolve(__dirname, "../lego");
+
+  const items = fs.readdirSync(legoDir)
+    .filter((file) => file.endsWith(".json"))
+    .sort()
+    .map((file) => {
+      const filePath = path.join(legoDir, file);
+      return JSON.parse(fs.readFileSync(filePath, "utf8"));
+    });
 
   const all = items.map(normalise);
 
