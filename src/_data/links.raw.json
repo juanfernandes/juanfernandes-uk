@@ -384,6 +384,12 @@
     "date": "2026-02-19T08:35:55.000Z"
   },
   {
+    "title": "Don't kill my pretty RSS feed (XSLT)",
+    "url": "https://justinjackson.ca/xslt",
+    "content": "Don't kill my pretty RSS feed On a winter's day in 2018, I was helping a grandmother figure out what to do with an RSS feed someone had sent her. She had found…",
+    "date": "2026-02-12T15:36:32.000Z"
+  },
+  {
     "title": "Better max-width queries | Trys Mudford",
     "url": "https://www.trysmudford.com/blog/max-width-queries/",
     "content": "A friend shared this tip the other day and it was too useful not to reshare. If you’re a mobile-up kind of developer, it’s easy to forget that max-width media…",
