@@ -1,5 +1,11 @@
 [
   {
+    "title": "Don't kill my pretty RSS feed (XSLT)",
+    "url": "https://justinjackson.ca/xslt",
+    "content": "Don't kill my pretty RSS feed On a winter's day in 2018, I was helping a grandmother figure out what to do with an RSS feed someone had sent her. She had found…",
+    "date": "2026-11-05T21:15:11.000Z"
+  },
+  {
     "title": "A new meta tag for respecting text scaling on mobile - Manuel Matuzovic",
     "url": "https://www.matuzo.at/blog/2026/text-scaling-meta-tag",
     "content": "A new meta tag for respecting text scaling on mobile posted on 06.02.2026 When you open the accessibility settings on your smartphone and increase the font…",
@@ -382,12 +388,6 @@
     "url": "https://daverupert.com/2025/06/fittext-too-attr-boogaloo/",
     "content": "Text reflow on the web has an interesting relationship with Responsive Web Design. As a column gets smaller text wraps and becomes taller1. But for large format…",
     "date": "2026-02-19T08:35:55.000Z"
-  },
-  {
-    "title": "Don't kill my pretty RSS feed (XSLT)",
-    "url": "https://justinjackson.ca/xslt",
-    "content": "Don't kill my pretty RSS feed On a winter's day in 2018, I was helping a grandmother figure out what to do with an RSS feed someone had sent her. She had found…",
-    "date": "2026-02-12T15:36:32.000Z"
   },
   {
     "title": "Better max-width queries | Trys Mudford",
